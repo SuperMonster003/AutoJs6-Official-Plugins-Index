@@ -11,30 +11,63 @@
       "packageName": "org.autojs.plugin.apkbuilder.template",
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/mipmap/ic_launcher.png",
       "title": "APK Builder Template",
-      "description": "Provides the template APK used by AutoJs6 when packaging standalone applications.",
+      "description": "Provides the template APK used by AutoJs6 when packaging standalone applications",
       "localizedDescriptions": {
-        "values": "Provides the template APK used by AutoJs6 when packaging standalone applications."
+        "values": "Provides the template APK used by AutoJs6 when packaging standalone applications",
+        "values-ar": "\u064a\u0648\u0641\u0631 \u0645\u0644\u0641 APK \u0627\u0644\u0642\u0627\u0644\u0628 \u0627\u0644\u0630\u064a \u064a\u0633\u062a\u062e\u062f\u0645\u0647 AutoJs6 \u0639\u0646\u062f \u062d\u0632\u0645 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0642\u0644\u0629",
+        "values-en": "Provides the template APK used by AutoJs6 when packaging standalone applications",
+        "values-es": "Proporciona el APK de plantilla que AutoJs6 usa al empaquetar aplicaciones independientes",
+        "values-fr": "Fournit le fichier APK de modele utilise par AutoJs6 pour empaqueter des applications autonomes",
+        "values-ja": "AutoJs6 \u304c\u30b9\u30bf\u30f3\u30c9\u30a2\u30ed\u30f3\u30a2\u30d7\u30ea\u3092\u30d1\u30c3\u30b1\u30fc\u30b8\u5316\u3059\u308b\u3068\u304d\u306b\u4f7f\u7528\u3059\u308b\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8 APK \u3092\u63d0\u4f9b\u3057\u307e\u3059",
+        "values-ko": "AutoJs6\uac00 \ub3c5\ub9bd \uc2e4\ud589\ud615 \uc571\uc744 \ud328\ud0a4\uc9d5\ud560 \ub54c \uc0ac\uc6a9\ud558\ub294 \ud15c\ud50c\ub9bf APK\ub97c \uc81c\uacf5\ud569\ub2c8\ub2e4",
+        "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 APK \u0448\u0430\u0431\u043b\u043e\u043d\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 AutoJs6 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u043f\u0440\u0438 \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0435 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439",
+        "values-zh": "\u63d0\u4f9b AutoJs6 \u6253\u5305\u72ec\u7acb\u5e94\u7528\u65f6\u4f7f\u7528\u7684\u6a21\u677f APK",
+        "values-zh-rHK": "\u63d0\u4f9b AutoJs6 \u6253\u5305\u7368\u7acb\u61c9\u7528\u7a0b\u5f0f\u6642\u4f7f\u7528\u7684\u6a21\u677f APK",
+        "values-zh-rTW": "\u63d0\u4f9b AutoJs6 \u5c01\u88dd\u7368\u7acb\u61c9\u7528\u7a0b\u5f0f\u6642\u4f7f\u7528\u7684\u7bc4\u672c APK"
       },
-      "instructionHardCoded": "Install this plugin with the same version as AutoJs6 to let APK Builder use an external template APK.",
+      "instructionHardCoded": "Install the plugin version that matches AutoJs6 so APK Builder can use the external template APK",
       "localizedInstructionHardCoded": {
-        "values": "Install this plugin with the same version as AutoJs6 to let APK Builder use an external template APK."
+        "values": "Install the plugin version that matches AutoJs6 so APK Builder can use the external template APK",
+        "values-ar": "\u062b\u0628\u0651\u062a \u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0645\u0643\u0648\u0646 \u0627\u0644\u0645\u0637\u0627\u0628\u0642 \u0644 AutoJs6 \u062d\u062a\u0649 \u064a\u062a\u0645\u0643\u0646 APK Builder \u0645\u0646 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 APK \u0627\u0644\u0642\u0627\u0644\u0628 \u0627\u0644\u062e\u0627\u0631\u062c\u064a",
+        "values-en": "Install the plugin version that matches AutoJs6 so APK Builder can use the external template APK",
+        "values-es": "Instala la version del plugin que coincida con AutoJs6 para que APK Builder use el APK de plantilla externo",
+        "values-fr": "Installez la version du plugin correspondant a AutoJs6 afin que APK Builder puisse utiliser le fichier APK de modele externe",
+        "values-ja": "AutoJs6 \u3068\u4e00\u81f4\u3059\u308b\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\u30d7\u30e9\u30b0\u30a4\u30f3\u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066 APK Builder \u304c\u5916\u90e8\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8 APK \u3092\u4f7f\u7528\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u307e\u3059",
+        "values-ko": "APK Builder\uac00 \uc678\ubd80 \ud15c\ud50c\ub9bf APK\ub97c \uc0ac\uc6a9\ud560 \uc218 \uc788\ub3c4\ub85d AutoJs6\uc640 \uc77c\uce58\ud558\ub294 \ud50c\ub7ec\uadf8\uc778 \ubc84\uc804\uc744 \uc124\uce58\ud558\uc138\uc694",
+        "values-ru": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e \u043f\u043b\u0430\u0433\u0438\u043d\u0430, \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u044e\u0449\u0443\u044e \u0441 AutoJs6, \u0447\u0442\u043e\u0431\u044b APK Builder \u043c\u043e\u0433 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0432\u043d\u0435\u0448\u043d\u0438\u0439 APK \u0448\u0430\u0431\u043b\u043e\u043d\u0430",
+        "values-zh": "\u5b89\u88c5\u4e0e AutoJs6 \u5339\u914d\u7684\u63d2\u4ef6\u7248\u672c, \u8ba9 APK \u6784\u5efa\u5668\u4f7f\u7528\u5916\u90e8\u6a21\u677f APK",
+        "values-zh-rHK": "\u5b89\u88dd\u8207 AutoJs6 \u5339\u914d\u7684\u63d2\u4ef6\u7248\u672c, \u8b93 APK \u69cb\u5efa\u5668\u4f7f\u7528\u5916\u90e8\u6a21\u677f APK",
+        "values-zh-rTW": "\u5b89\u88dd\u8207 AutoJs6 \u76f8\u7b26\u7684\u5916\u639b\u7248\u672c, \u8b93 APK \u5efa\u7f6e\u5668\u4f7f\u7528\u5916\u90e8\u7bc4\u672c APK"
       },
-      "localizedInstructionMarkdownUrls": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/heads/master/app/src/main/res/raw/plugin_instruction.md"
+      },
       "author": "github-actions[bot]",
       "collaborators": [],
       "releases": [
         {
           "versionName": "6.8.0 Alpha5",
           "versionCode": 5201,
-          "versionDate": "2026-07-14",
+          "versionDate": "2026-07-16",
           "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/tag/v6.8.0-alpha5",
           "changelogText": "Built from AutoJs6 Runtime Kit v6.8.0-alpha5",
           "assets": [
             {
-              "name": "autojs6-apk-builder-template-v6.8.0-alpha5-universal.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0-alpha5/autojs6-apk-builder-template-v6.8.0-alpha5-universal.apk",
-              "size": 89064149,
-              "digest": "sha256:68cf494540272d70f63291f52a2569c741cf51cd166031f7521a9038cf52f6cc"
+              "name": "autojs6-apk-builder-template-v6.8.0-alpha5-universal-71d5eb00.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0-alpha5/autojs6-apk-builder-template-v6.8.0-alpha5-universal-71d5eb00.apk",
+              "size": 89086924,
+              "digest": "sha256:4b92248198724573ded8fc193f36900b94c9ffab9fb19dd282153e816ce03595"
             }
           ]
         }
@@ -293,6 +326,86 @@
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MLKit-OCR/releases/download/v1.0.0/autojs6-plugin-mlkit-ocr-v1.0.0-x86_64-976eb6e6.apk",
               "size": 7666805,
               "digest": "sha256:3631c5df4928bbb8c657a0d9b3c680c1d39260dffc80906d17e5d4f7fd9eae2a"
+            }
+          ]
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/mipmap/ic_launcher.png",
+      "title": "AutoJs6 Node.js Runtime",
+      "description": "Provides the Node.js 24.5.0 native runtime for AutoJs6",
+      "localizedDescriptions": {
+        "values": "Provides the Node.js 24.5.0 native runtime for AutoJs6",
+        "values-ar": "\u064a\u0648\u0641\u0631 \u0628\u064a\u0626\u0629 \u062a\u0634\u063a\u064a\u0644 Node.js 24.5.0 \u0627\u0644\u0627\u0635\u0644\u064a\u0629 \u0644 AutoJs6",
+        "values-en": "Provides the Node.js 24.5.0 native runtime for AutoJs6",
+        "values-es": "Proporciona el runtime nativo Node.js 24.5.0 para AutoJs6",
+        "values-fr": "Fournit le runtime natif Node.js 24.5.0 pour AutoJs6",
+        "values-ja": "AutoJs6 \u306b Node.js 24.5.0 \u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30f3\u30bf\u30a4\u30e0\u3092\u63d0\u4f9b",
+        "values-ko": "AutoJs6 \uc5d0 Node.js 24.5.0 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \uc81c\uacf5",
+        "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0430\u0442\u0438\u0432\u043d\u0443\u044e \u0441\u0440\u0435\u0434\u0443 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f Node.js 24.5.0 \u0434\u043b\u044f AutoJs6",
+        "values-zh": "\u4e3a AutoJs6 \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u8fd0\u884c\u65f6",
+        "values-zh-rHK": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u904b\u884c\u6642",
+        "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u57f7\u884c\u968e\u6bb5"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/heads/master/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 27,
+          "versionDate": "2026-07-16",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.0.0",
+          "changelogText": "* `\u65b0\u589e` Node.js \u8fd0\u884c\u65f6\u63d2\u4ef6\u670d\u52a1, \u63d2\u4ef6 ID \u4e3a `nodejs`, \u5f15\u64ce\u4e3a `nodejs`, \u8fd0\u884c\u65f6\u69fd\u4f4d\u4e3a `node24_5`\r\n* `\u65b0\u589e` \u901a\u8fc7 `libnode.so` \u548c `libautojs6-node.so` \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u8fd0\u884c\u65f6\r\n* `\u65b0\u589e` \u652f\u6301\u901a\u8fc7 `org.autojs.plugin.INFO` \u53d1\u73b0\u63d2\u4ef6\u4fe1\u606f, \u5e76\u901a\u8fc7 `org.autojs.plugin.nodejs.RUNTIME` \u8c03\u7528\u8fd0\u884c\u65f6\u670d\u52a1\r\n* `\u65b0\u589e` \u652f\u6301 CommonJS/ESM \u6e90\u7801, \u6a21\u5757\u6e90\u7801, \u5de5\u4f5c\u76ee\u5f55, \u6c99\u76d2\u6839\u76ee\u5f55, \u73af\u5883\u53d8\u91cf, stdout/stderr \u7ed3\u679c\u56de\u4f20\u548c\u8fd0\u884c\u65f6\u9884\u70ed\r\n* `\u65b0\u589e` \u652f\u6301\u5bbf\u4e3b\u80fd\u529b\u4ee3\u7406\u4e0e live bridge, \u5e76\u6ce8\u5165 `autojs6:host-app-info`, `autojs6:device-info`, `autojs6:engine-info`, `autojs6:lifecycle-config`, `autojs6:bridge-permissions` \u7b49\u8fd0\u884c\u65f6\u6a21\u5757\r\n* `\u65b0\u589e` \u652f\u6301\u6309 ABI \u6784\u5efa APK, \u5305\u62ec `arm64-v8a`/`armeabi-v7a`/`x86_64` \u4ee5\u53ca `universal` \u901a\u7528\u5305\r\n* `\u65b0\u589e` `sample/nodejs` \u793a\u4f8b\u9879\u76ee, Node \u89e3\u6790\u8bca\u65ad\u5de5\u5177\u548c\u8fd0\u884c\u65f6\u6784\u5efa\u8ba1\u5212\u6821\u9a8c\u5de5\u5177\r\n* `\u65b0\u589e` \u63d2\u4ef6\u4fe1\u606f, \u4f7f\u7528\u8bf4\u660e, README \u4e0e CHANGELOG \u7684\u591a\u8bed\u8a00\u8d44\u6e90: \u897f\u73ed\u7259\u8bed/\u6cd5\u8bed/\u4fc4\u8bed/\u963f\u62c9\u4f2f\u8bed/\u65e5\u8bed/\u97e9\u8bed/\u82f1\u8bed/\u7b80\u4f53\u4e2d\u6587/\u9999\u6e2f\u7e41\u4f53/\u53f0\u6e7e\u7e41\u4f53",
+          "assets": [
+            {
+              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-arm64-v8a-a8d52e61.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-arm64-v8a-a8d52e61.apk",
+              "size": 26957353,
+              "digest": "sha256:5a2cdf0666bfd8fb9b95d77011eee5a69a5cc7fdef8ce7a2201f977473e91972"
+            },
+            {
+              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-armeabi-v7a-6a4c1f6f.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-armeabi-v7a-6a4c1f6f.apk",
+              "size": 26010213,
+              "digest": "sha256:9ddc27892029b5f0691d90513c7efba7ae3388ee866172b4cb81726edd31a229"
+            },
+            {
+              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-universal-a3805365.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-universal-a3805365.apk",
+              "size": 81493295,
+              "digest": "sha256:511ab5e878d08a06572868828c2c6850b03a29bf4f129dcd12248864faa2d4d5"
+            },
+            {
+              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-x86_64-8e4359c2.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-x86_64-8e4359c2.apk",
+              "size": 28704395,
+              "digest": "sha256:72c84eeb3f67ac8605d8589b2279fe732783a14f90d3d52a41fc38355a8fa5c1"
             }
           ]
         }
