@@ -19,6 +19,7 @@ on:
 
 jobs:
   validate-official-index:
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -28,5 +29,38 @@ jobs:
         run: python3 tools/generate_official_plugin_index.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
-      - name: Check generated official index
-        run: git diff --exit-code -- plugins.official.generated.json
+      - name: Verify generated official plugin index
+        run: |
+          git diff --exit-code -- plugins.official.generated.json || {
+            echo "::error::plugins.official.generated.json is outdated."
+            echo "Run:"
+            echo "python3 tools/generate_official_plugin_index.py"
+            echo "and commit the generated changes."
+            exit 1
+          }
+
+  update-official-index:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Generate official plugins index
+        run: python3 tools/generate_official_plugin_index.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit updated official plugin index
+        run: |
+          if git diff --quiet -- plugins.official.generated.json; then
+            echo "plugins.official.generated.json is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plugins.official.generated.json
+          git commit -m "chore: update official plugin index"
+          git push origin HEAD:main
