@@ -2206,6 +2206,176 @@
         "official"
       ],
       "source": "OFFICIAL"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "Rapid OCR (PP-OCRv3 Mobile)",
+      "description": "Local OCR plugin powered by Rapid OCR and PP-OCRv3 Mobile",
+      "localizedDescriptions": {
+        "values": "Local OCR plugin powered by Rapid OCR and PP-OCRv3 Mobile",
+        "values-ar": "\u0625\u0636\u0627\u0641\u0629 OCR \u0645\u062d\u0644\u064a\u0629 \u0645\u062f\u0639\u0648\u0645\u0629 \u0628\u0648\u0627\u0633\u0637\u0629 Rapid OCR \u0648 PP-OCRv3 Mobile",
+        "values-en": "Local OCR plugin powered by Rapid OCR and PP-OCRv3 Mobile",
+        "values-es": "Plugin de OCR local basado en Rapid OCR y PP-OCRv3 Mobile",
+        "values-fr": "Plugin OCR local bas\u00e9 sur Rapid OCR et PP-OCRv3 Mobile",
+        "values-ja": "Rapid OCR \u3068 PP-OCRv3 Mobile \u3092\u642d\u8f09\u3057\u305f\u30ed\u30fc\u30ab\u30eb OCR \u30d7\u30e9\u30b0\u30a4\u30f3",
+        "values-ko": "Rapid OCR \ubc0f PP-OCRv3 Mobile \uae30\ubc18 \ub85c\uceec OCR \ud50c\ub7ec\uadf8\uc778",
+        "values-ru": "\u041b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u0439 OCR-\u043f\u043b\u0430\u0433\u0438\u043d \u043d\u0430 \u0431\u0430\u0437\u0435 Rapid OCR \u0438 PP-OCRv3 Mobile",
+        "values-zh": "\u7531 Rapid OCR \u548c PP-OCRv3 Mobile \u9a71\u52a8\u7684\u672c\u5730 OCR \u63d2\u4ef6",
+        "values-zh-rHK": "\u7531 Rapid OCR \u548c PP-OCRv3 Mobile \u9a45\u52d5\u7684\u672c\u6a5f OCR \u63d2\u4ef6",
+        "values-zh-rTW": "\u7531 Rapid OCR \u548c PP-OCRv3 Mobile \u9a45\u52d5\u7684\u672c\u6a5f OCR \u5916\u639b\u7a0b\u5f0f"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "rapid-ocr",
+      "variant": "pp-ocrv3",
+      "engineId": "rapid-ocr-pp-ocrv3",
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 11,
+          "versionDate": "2026-07-17",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/tag/v1.0.0",
+          "changelogText": "* `\u65b0\u589e` Rapid OCR (PP-OCRv3 Mobile) \u63d2\u4ef6\u670d\u52a1, \u63d2\u4ef6 ID \u4e3a `rapid-ocr-pp-ocrv3`, \u5f15\u64ce\u4e3a `rapid-ocr`, \u53d8\u4f53\u4e3a `pp-ocrv3`\r\n* `\u65b0\u589e` \u652f\u6301\u901a\u8fc7\u5171\u4eab OCR AIDL action `org.autojs.plugin.PADDLE_OCR` \u53d1\u73b0\u5e76\u8c03\u7528\u63d2\u4ef6\r\n* `\u65b0\u589e` \u652f\u6301 `ocr.rapid.recognizeText(image)` \u6587\u672c\u8bc6\u522b\u548c `ocr.rapid.detect(image)` \u6587\u672c\u68c0\u6d4b, \u8986\u76d6\u622a\u56fe, \u672c\u5730\u56fe\u50cf\u6587\u4ef6\u548c\u539f\u59cb ARGB_8888 \u56fe\u50cf\u8f93\u5165\r\n* `\u65b0\u589e` \u6587\u672c\u68c0\u6d4b\u7ed3\u679c\u5305\u542b\u8bc6\u522b\u6587\u672c, \u7f6e\u4fe1\u5ea6\u548c\u8fb9\u754c\u6846\u4fe1\u606f\r\n* `\u65b0\u589e` \u5185\u7f6e\u6765\u81ea RapidOcrOnnx 1.2.2 \u7684 PP-OCRv3 Mobile ONNX CPU \u6a21\u578b, \u57fa\u4e8e ONNX Runtime 1.14.0 \u548c OpenCV Mobile 4.5.3 \u8fd0\u884c\r\n* `\u65b0\u589e` \u63d2\u4ef6\u4fe1\u606f, \u4f7f\u7528\u8bf4\u660e, README \u4e0e CHANGELOG \u7684\u591a\u8bed\u8a00\u8d44\u6e90: \u897f\u73ed\u7259\u8bed/\u6cd5\u8bed/\u4fc4\u8bed/\u963f\u62c9\u4f2f\u8bed/\u65e5\u8bed/\u97e9\u8bed/\u82f1\u8bed/\u7b80\u4f53\u4e2d\u6587/\u9999\u6e2f\u7e41\u4f53/\u53f0\u6e7e\u7e41\u4f53\r\n* `\u4f18\u5316` \u652f\u6301\u6309 ABI \u6784\u5efa APK, \u5305\u62ec `arm64-v8a`/`armeabi-v7a`/`x86_64` \u4ee5\u53ca `universal` \u901a\u7528\u5305\r\n* `\u4f18\u5316` \u63d2\u4ef6\u8fd0\u884c\u65f6\u4fe1\u606f\u4e0a\u62a5\u652f\u6301\u7684 ABI \u5217\u8868, \u4fbf\u4e8e\u5bbf\u4e3b\u8bc6\u522b\u53ef\u7528\u53d8\u4f53\r\n* `\u4f18\u5316` \u53d1\u5e03 APK \u6587\u4ef6\u540d\u5305\u542b\u9879\u76ee\u540d, \u7248\u672c\u53f7\u548c ABI \u53d8\u4f53\r\n* `\u4f18\u5316` \u63d0\u4f9b\u9644\u52a0\u4efb\u52a1, \u5c06\u53d1\u5e03 APK \u590d\u5236\u5230\u72ec\u7acb\u76ee\u5f55\u5e76\u4e3a\u6587\u4ef6\u540d\u8ffd\u52a0 CRC32 \u6458\u8981",
+          "assets": [
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-arm64-v8a-3a21d6f3.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-arm64-v8a-3a21d6f3.apk",
+              "size": 19213695,
+              "digest": "sha256:1ae3abb90d5e029f286c39101adbf4b9ac68d06cad1afee21b9fb5b1e00fd359"
+            },
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-armeabi-v7a-d5b849ea.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-armeabi-v7a-d5b849ea.apk",
+              "size": 18474647,
+              "digest": "sha256:306b354a2a06bb753f6b244b11f71e6c9b11bd6b394ed345c438af2e90cb1d0f"
+            },
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-universal-3ebc195c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-universal-3ebc195c.apk",
+              "size": 32755515,
+              "digest": "sha256:4daaff39cc82a0a146f2e4effe2dc57f3c2d548b961ab409f56f02e93f9bfda1"
+            },
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-x86_64-f8b335f0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.0-x86_64-f8b335f0.apk",
+              "size": 21125857,
+              "digest": "sha256:8428b4f8b17122b9ebff357def7c5efe4cd33ffa839a2d9451ecb74c66098d4c"
+            }
+          ]
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "Rapid OCR (PP-OCRv6 Small)",
+      "description": "Local OCR plugin powered by Rapid OCR and PP-OCRv6 Small",
+      "localizedDescriptions": {
+        "values": "Local OCR plugin powered by Rapid OCR and PP-OCRv6 Small",
+        "values-ar": "\u0625\u0636\u0627\u0641\u0629 OCR \u0645\u062d\u0644\u064a\u0629 \u0645\u062f\u0639\u0648\u0645\u0629 \u0628\u0648\u0627\u0633\u0637\u0629 Rapid OCR \u0648 PP-OCRv6 Small",
+        "values-en": "Local OCR plugin powered by Rapid OCR and PP-OCRv6 Small",
+        "values-es": "Plugin de OCR local basado en Rapid OCR y PP-OCRv6 Small",
+        "values-fr": "Plugin OCR local bas\u00e9 sur Rapid OCR et PP-OCRv6 Small",
+        "values-ja": "Rapid OCR \u3068 PP-OCRv6 Small \u3092\u642d\u8f09\u3057\u305f\u30ed\u30fc\u30ab\u30eb OCR \u30d7\u30e9\u30b0\u30a4\u30f3",
+        "values-ko": "Rapid OCR \ubc0f PP-OCRv6 Small \uae30\ubc18 \ub85c\uceec OCR \ud50c\ub7ec\uadf8\uc778",
+        "values-ru": "\u041b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u0439 OCR-\u043f\u043b\u0430\u0433\u0438\u043d \u043d\u0430 \u0431\u0430\u0437\u0435 Rapid OCR \u0438 PP-OCRv6 Small",
+        "values-zh": "\u7531 Rapid OCR \u548c PP-OCRv6 Small \u9a71\u52a8\u7684\u672c\u5730 OCR \u63d2\u4ef6",
+        "values-zh-rHK": "\u7531 Rapid OCR \u548c PP-OCRv6 Small \u9a45\u52d5\u7684\u672c\u6a5f OCR \u63d2\u4ef6",
+        "values-zh-rTW": "\u7531 Rapid OCR \u548c PP-OCRv6 Small \u9a45\u52d5\u7684\u672c\u6a5f OCR \u5916\u639b\u7a0b\u5f0f"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "rapid-ocr",
+      "variant": "pp-ocrv6",
+      "engineId": "rapid-ocr-pp-ocrv6",
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 13,
+          "versionDate": "2026-07-17",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/releases/tag/v1.0.0",
+          "changelogText": "* `\u65b0\u589e` Rapid OCR (PP-OCRv6 Small) \u63d2\u4ef6\u6807\u8bc6, \u63d2\u4ef6 ID \u4e3a `rapid-ocr-pp-ocrv6`, \u5f15\u64ce\u4e3a `rapid-ocr`, \u53d8\u4f53\u4e3a `pp-ocrv6`.\r\n* `\u65b0\u589e` `PADDLE_OCR` AIDL \u670d\u52a1\u4ee5\u53ca `recognizeText` \u548c `detect` \u63a5\u53e3. `recognizeText` \u8fd4\u56de\u6587\u672c\u5b57\u7b26\u4e32, `detect` \u4e3a\u6bcf\u4e2a\u7ed3\u679c\u8fd4\u56de `text`, `confidence` \u548c `bounds`.\r\n* `\u65b0\u589e` \u652f\u6301\u7f16\u7801\u56fe\u50cf\u548c\u539f\u59cb `ARGB_8888` \u56fe\u50cf. Android 13 \u5728\u53ef\u7528\u65f6\u4f7f\u7528 `SharedMemory`, \u5728 `SharedMemory` \u4e0d\u53ef\u7528\u6216\u5931\u8d25\u65f6\u56de\u9000\u5230\u6d41\u5f0f\u8bfb\u53d6.\r\n* `\u65b0\u589e` \u57fa\u4e8e `PP-OCRv6 Small` \u68c0\u6d4b\u548c\u8bc6\u522b\u6a21\u578b, `ONNX Runtime` \u4e0e `OpenCV Mobile` \u5b9e\u73b0\u672c\u5730\u6587\u672c\u68c0\u6d4b\u548c\u8bc6\u522b.\r\n* `\u65b0\u589e` \u652f\u6301\u7528\u4e8e\u8bc6\u522b\u7684 `maxSideLen` \u548c `scoreThreshold` \u9009\u9879.\r\n* `\u65b0\u589e` \u5c06 `preBuild` \u63a5\u5165\u6a21\u578b\u8d44\u6e90\u4e0b\u8f7d\u548c `SHA-256` \u6458\u8981\u6821\u9a8c, \u5e76\u540c\u6b65 `ONNX Runtime` \u539f\u751f\u5e93.\r\n* `\u65b0\u589e` \u897f\u73ed\u7259\u8bed, \u6cd5\u8bed, \u4fc4\u8bed, \u963f\u62c9\u4f2f\u8bed, \u65e5\u8bed, \u97e9\u8bed, \u82f1\u8bed, \u7b80\u4f53\u4e2d\u6587, \u9999\u6e2f\u7e41\u4f53\u4e2d\u6587\u548c\u53f0\u6e7e\u7e41\u4f53\u4e2d\u6587\u7684\u63d2\u4ef6\u4fe1\u606f\u4e0e\u4f7f\u7528\u8bf4\u660e.\r\n* `\u65b0\u589e` `JSON` \u6e90\u6587\u4ef6\u548c `Python` \u751f\u6210\u5668, \u7528\u4e8e\u751f\u6210\u591a\u8bed\u8a00 `README` \u4e0e `CHANGELOG` \u6587\u6863.\r\n* `\u65b0\u589e` `arm64-v8a`, `armeabi-v7a`, `x86_64` \u548c `universal` APK \u53d8\u4f53. \u53d1\u5e03\u6587\u4ef6\u540d\u5305\u542b\u7248\u672c\u548c `ABI`, \u5f52\u6863\u526f\u672c\u5305\u542b `CRC32` \u6458\u8981.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-arm64-v8a-7ff76f50.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-arm64-v8a-7ff76f50.apk",
+              "size": 34803201,
+              "digest": "sha256:a243cdc94a31c328fc832c8ea6384a819f15c34e01c1521796434dea9d59b57b"
+            },
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-armeabi-v7a-d836c6c1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-armeabi-v7a-d836c6c1.apk",
+              "size": 33874485,
+              "digest": "sha256:35ad2b9c06c68fc21e95d759c5b4bd85304780871c0e144bcadc3a54d4577bdb"
+            },
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-universal-b9291f37.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-universal-b9291f37.apk",
+              "size": 49549165,
+              "digest": "sha256:273030201c584d259809c1a13f5f414288f8580efcf601885357f5b13e64c924"
+            },
+            {
+              "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-x86_64-96f5161e.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv6/releases/download/v1.0.0/autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.0-x86_64-96f5161e.apk",
+              "size": 36581171,
+              "digest": "sha256:cc19ff969628b8a8ecd58564e61b7cebac49529ca81fabc4a51362f0b2008016"
+            }
+          ]
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL"
     }
   ]
 }
