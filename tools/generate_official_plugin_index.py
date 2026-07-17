@@ -5,6 +5,7 @@ import json
 import os
 import re
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote
@@ -18,6 +19,31 @@ INDEX_REPO = "AutoJs6-Official-Plugins-Index"
 INDEX_BRANCH = "main"
 OUTPUT_FILE = "plugins.official.generated.json"
 USER_AGENT = "AutoJs6-Official-Plugin-Index-Generator"
+SCHEMA_VERSION = 2
+
+FEATURED_DISTRIBUTIONS = {
+    "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4": {"mobile"},
+    "AutoJs6-Plugin-Paddle-OCR-PP-OCRv5": {"mobile"},
+    "AutoJs6-Plugin-Paddle-OCR-PP-OCRv6": {"small", "tiny"},
+}
+
+ABI_ASSET_TOKEN_PATTERN = (
+    r"(?:arm64[-_]?v8a|aarch64|armeabi[-_]?v7a|armv7a?|x86[-_]?64|amd64|x86|"
+    r"armeabi|mips64|mips|riscv[-_]?64|universal|noarch|all[-_]?abi(?:s)?|all[-_]?arch(?:es)?)"
+)
+
+
+@dataclass(frozen=True)
+class ProductFlavor:
+    name: str
+    application_id_suffix: str
+    version_name_suffix: str
+    res_values: dict[str, str]
+
+    @property
+    def distribution_variant(self) -> str:
+        suffix = self.version_name_suffix.strip().lstrip("-_.")
+        return suffix or camel_case_to_kebab(self.name)
 
 
 def main() -> int:
@@ -28,12 +54,20 @@ def main() -> int:
     repos = fetch_official_repos()
     items = []
     for repo in repos:
-        entry = build_entry(repo)
-        if entry is not None:
-            items.append(entry)
+        items.extend(build_entries(repo))
 
-    payload = {
-        "schemaVersion": 1,
+    payload = build_payload(items)
+    args.output.write_text(
+        json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=False) + "\n",
+        encoding="utf-8",
+    )
+    print(f"Generated {args.output.resolve()} with {len(items)} official plugin entries.")
+    return 0
+
+
+def build_payload(items: list[dict]) -> dict:
+    return {
+        "schemaVersion": SCHEMA_VERSION,
         "source": "OFFICIAL",
         "repository": {
             "owner": OFFICIAL_OWNER,
@@ -42,12 +76,6 @@ def main() -> int:
         },
         "items": items,
     }
-    args.output.write_text(
-        json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=False) + "\n",
-        encoding="utf-8",
-    )
-    print(f"Generated {args.output.resolve()} with {len(items)} official plugin entries.")
-    return 0
 
 
 def fetch_official_repos() -> list[dict]:
@@ -74,37 +102,64 @@ def fetch_official_repos() -> list[dict]:
     return sorted(repos, key=lambda repo: str(repo.get("name", "")).lower())
 
 
-def build_entry(repo: dict) -> dict | None:
+def build_entries(repo: dict) -> list[dict]:
     owner = repo.get("owner", {}).get("login") or OFFICIAL_OWNER
     repo_name = repo.get("name")
     branch = repo.get("default_branch") or "master"
     if not repo_name:
-        return None
+        return []
 
     release = safe_api_json(f"https://api.github.com/repos/{owner}/{repo_name}/releases/latest")
     if not isinstance(release, dict):
         print(f"Warning: skip {repo_name}, latest release unavailable.", file=sys.stderr)
-        return None
+        return []
 
-    tree_paths = fetch_tree_paths(owner, repo_name, branch)
-    strings_by_dir = fetch_string_resources(owner, repo_name, branch, tree_paths)
-    version_map = parse_properties(raw_text(owner, repo_name, branch, "version.properties") or "")
-    manifest_text = raw_text(owner, repo_name, branch, "app/src/main/AndroidManifest.xml")
-    build_gradle = raw_text(owner, repo_name, branch, "app/build.gradle.kts") or ""
+    metadata_ref = release_metadata_ref(release, branch)
+    tree_paths = fetch_tree_paths(owner, repo_name, metadata_ref)
+    strings_by_dir = fetch_string_resources(owner, repo_name, metadata_ref, tree_paths)
+    version_map = parse_properties(raw_text(owner, repo_name, metadata_ref, "version.properties") or "")
+    manifest_text = raw_text(owner, repo_name, metadata_ref, "app/src/main/AndroidManifest.xml")
+    build_gradle = raw_text(owner, repo_name, metadata_ref, "app/build.gradle.kts") or ""
 
-    package_name = (
+    return build_entries_from_release(
+        owner=owner,
+        repo_name=repo_name,
+        ref=metadata_ref,
+        release=release,
+        tree_paths=tree_paths,
+        strings_by_dir=strings_by_dir,
+        version_map=version_map,
+        manifest_text=manifest_text,
+        build_gradle=build_gradle,
+    )
+
+
+def build_entries_from_release(
+    *,
+    owner: str,
+    repo_name: str,
+    ref: str,
+    release: dict,
+    tree_paths: set[str],
+    strings_by_dir: dict[str, dict[str, str]],
+    version_map: dict[str, str],
+    manifest_text: str | None,
+    build_gradle: str,
+) -> list[dict]:
+
+    base_package_name = (
         parse_manifest_package_name(manifest_text)
         or parse_application_id_from_build_gradle(build_gradle)
         or f"unknown.{re.sub(r'[^a-z0-9._-]', '-', repo_name.lower())}"
     )
     manifest_label = parse_manifest_application_label(manifest_text)
     release_name = str(release.get("name") or "").split(" @", 1)[0].strip()
-    title = (
+    base_title = (
         resolve_string_reference(manifest_label, strings_by_dir)
         or literal_resource_value(manifest_label)
         or repo_name.removeprefix(OFFICIAL_REPO_PREFIX)
         or release_name
-        or package_name
+        or base_package_name
     )
 
     manifest_author = parse_manifest_author(manifest_text)
@@ -118,61 +173,87 @@ def build_entry(repo: dict) -> dict | None:
 
     localized_descriptions = localized_string_map(strings_by_dir, "plugin_description")
     localized_instructions = localized_string_map(strings_by_dir, "plugin_instruction")
-    localized_instruction_urls = localized_instruction_markdown_urls(owner, repo_name, branch, tree_paths)
+    localized_instruction_urls = localized_instruction_markdown_urls(owner, repo_name, ref, tree_paths)
 
     icon_ref = parse_manifest_application_icon(manifest_text)
     icon_path = resolve_icon_path(icon_ref, tree_paths) or resolve_fallback_icon_path(tree_paths)
     night_icon_path = resolve_night_icon_path(icon_ref, tree_paths)
 
     release_tag = str(release.get("tag_name") or "").strip()
-    version_name = (
+    base_version_name = (
         version_map.get("VERSION_NAME")
         or release_tag.removeprefix("v").removeprefix("V")
         or "0.0.0"
     )
     version_code = int(version_map.get("VERSION_CODE") or version_map.get("VERSION_BUILD") or 0)
     assets = release_assets(release)
-    supported_abis = supported_abis_from_assets(assets)
+    flavors = parse_product_flavors(build_gradle)
+    asset_groups = group_release_assets_by_flavor(repo_name, assets, flavors) if flavors else [(None, assets)]
+    default_res_values = parse_default_config_res_values(
+        build_gradle,
+        allow_global_fallback=not flavors,
+    )
 
-    release_entry = {
-        "versionName": version_name,
-        "versionCode": version_code,
-        "versionDate": str(release.get("published_at") or "")[:10] or None,
-        "changelogUrl": release.get("html_url"),
-        "changelogText": str(release.get("body") or "").strip() or None,
-        "assets": assets,
-    }
+    entries = []
+    for flavor, flavor_assets in asset_groups:
+        if flavor is not None and not flavor_assets:
+            continue
 
-    entry = {
-        "packageName": package_name,
-        "iconUrl": raw_url(owner, repo_name, branch, icon_path) if icon_path else None,
-        "nightIconUrl": raw_url(owner, repo_name, branch, night_icon_path) if night_icon_path else None,
-        "title": title,
-        "description": choose_default_localized(localized_descriptions),
-        "localizedDescriptions": localized_descriptions,
-        "instructionHardCoded": choose_default_localized(localized_instructions),
-        "localizedInstructionHardCoded": localized_instructions,
-        "instructionMarkdownUrl": choose_default_localized(localized_instruction_urls),
-        "localizedInstructionMarkdownUrls": localized_instruction_urls,
-        "author": author,
-        "collaborators": [],
-        "engine": parse_res_value(build_gradle, "plugin_engine"),
-        "variant": parse_res_value(build_gradle, "plugin_variant"),
-        "engineId": parse_res_value(build_gradle, "plugin_id"),
-        "releases": [release_entry],
-        "supportedAbis": supported_abis,
-        "tags": ["official"],
-        "source": "OFFICIAL",
-    }
-    return prune_nulls(entry)
+        res_values = dict(default_res_values)
+        if flavor is not None:
+            res_values.update(flavor.res_values)
+
+        application_id_suffix = flavor.application_id_suffix if flavor is not None else ""
+        version_name_suffix = flavor.version_name_suffix if flavor is not None else ""
+        distribution_variant = flavor.distribution_variant if flavor is not None else None
+        package_name = base_package_name + application_id_suffix
+        version_name = base_version_name + version_name_suffix
+        title = res_values.get("app_name") or base_title
+        supported_abis = supported_abis_from_assets(flavor_assets)
+
+        release_entry = {
+            "versionName": version_name,
+            "versionCode": version_code,
+            "versionDate": str(release.get("published_at") or "")[:10] or None,
+            "changelogUrl": release.get("html_url"),
+            "changelogText": str(release.get("body") or "").strip() or None,
+            "assets": flavor_assets,
+        }
+
+        entry = {
+            "packageName": package_name,
+            "iconUrl": raw_url(owner, repo_name, ref, icon_path) if icon_path else None,
+            "nightIconUrl": raw_url(owner, repo_name, ref, night_icon_path) if night_icon_path else None,
+            "title": title,
+            "description": choose_default_localized(localized_descriptions),
+            "localizedDescriptions": localized_descriptions,
+            "instructionHardCoded": choose_default_localized(localized_instructions),
+            "localizedInstructionHardCoded": localized_instructions,
+            "instructionMarkdownUrl": choose_default_localized(localized_instruction_urls),
+            "localizedInstructionMarkdownUrls": localized_instruction_urls,
+            "author": author,
+            "collaborators": [],
+            "engine": res_values.get("plugin_engine"),
+            "variant": res_values.get("plugin_variant"),
+            "engineId": res_values.get("plugin_id"),
+            "distributionVariant": distribution_variant,
+            "featured": is_featured_distribution(repo_name, distribution_variant),
+            "releases": [release_entry],
+            "supportedAbis": supported_abis,
+            "tags": ["official"],
+            "source": "OFFICIAL",
+        }
+        entries.append(prune_nulls(entry))
+    return entries
 
 
-def fetch_tree_paths(owner: str, repo: str, branch: str) -> set[str]:
-    tree = safe_api_json(f"https://api.github.com/repos/{owner}/{repo}/git/trees/{branch}?recursive=1")
+def fetch_tree_paths(owner: str, repo: str, ref: str) -> set[str]:
+    encoded_ref = quote(ref, safe="")
+    tree = safe_api_json(f"https://api.github.com/repos/{owner}/{repo}/git/trees/{encoded_ref}?recursive=1")
     if not isinstance(tree, dict):
         return set()
     if tree.get("truncated"):
-        print(f"Warning: tree truncated for {owner}/{repo}@{branch}", file=sys.stderr)
+        print(f"Warning: tree truncated for {owner}/{repo}@{ref}", file=sys.stderr)
     return {
         str(node.get("path", "")).strip()
         for node in tree.get("tree", [])
@@ -180,13 +261,13 @@ def fetch_tree_paths(owner: str, repo: str, branch: str) -> set[str]:
     }
 
 
-def fetch_string_resources(owner: str, repo: str, branch: str, tree_paths: set[str]) -> dict[str, dict[str, str]]:
+def fetch_string_resources(owner: str, repo: str, ref: str, tree_paths: set[str]) -> dict[str, dict[str, str]]:
     result = {}
     for path in sorted(tree_paths):
         match = re.fullmatch(r"app/src/main/res/(values(?:-[^/]+)?)/strings\.xml", path)
         if not match:
             continue
-        text = raw_text(owner, repo, branch, path)
+        text = raw_text(owner, repo, ref, path)
         if text is None:
             continue
         strings = parse_strings_xml(text)
@@ -207,14 +288,14 @@ def localized_string_map(strings_by_dir: dict[str, dict[str, str]], name: str) -
 def localized_instruction_markdown_urls(
     owner: str,
     repo: str,
-    branch: str,
+    ref: str,
     tree_paths: set[str],
 ) -> dict[str, str]:
     result = {}
     for path in sorted(tree_paths):
         match = re.fullmatch(r"app/src/main/res/(raw(?:-[^/]+)?)/plugin_instruction\.md", path)
         if match:
-            result[match.group(1)] = raw_url(owner, repo, branch, path)
+            result[match.group(1)] = raw_url(owner, repo, ref, path)
     return result
 
 
@@ -232,6 +313,247 @@ def release_assets(release: dict) -> list[dict]:
         }
         result.append(prune_nulls(item))
     return sorted(result, key=lambda item: str(item.get("name", "")).lower())
+
+
+def release_metadata_ref(release: dict, default_branch: str) -> str:
+    release_tag = str(release.get("tag_name") or "").strip()
+    if release_tag:
+        return release_tag if release_tag.startswith("refs/") else f"refs/tags/{release_tag}"
+    branch = default_branch.strip() or "master"
+    return branch if branch.startswith("refs/") else f"refs/heads/{branch}"
+
+
+def parse_product_flavors(build_gradle: str) -> list[ProductFlavor]:
+    product_flavors_block = extract_named_block(build_gradle, "productFlavors")
+    if product_flavors_block is None:
+        return []
+
+    flavors = []
+    cursor = 0
+    create_pattern = re.compile(r'\bcreate\s*\(\s*"([^"]+)"\s*\)\s*\{')
+    while match := create_pattern.search(product_flavors_block, cursor):
+        opening_brace = match.end() - 1
+        closing_brace = find_matching_brace(product_flavors_block, opening_brace)
+        flavor_block = product_flavors_block[opening_brace + 1 : closing_brace]
+        res_values = parse_res_values(flavor_block)
+        add_build_config_fallbacks(res_values, flavor_block)
+        flavors.append(
+            ProductFlavor(
+                name=match.group(1),
+                application_id_suffix=parse_string_assignment(flavor_block, "applicationIdSuffix") or "",
+                version_name_suffix=parse_string_assignment(flavor_block, "versionNameSuffix") or "",
+                res_values=res_values,
+            )
+        )
+        cursor = closing_brace + 1
+
+    if not flavors:
+        raise RuntimeError(
+            "Found a productFlavors block, but no create(\"...\") flavor declarations could be parsed."
+        )
+    return flavors
+
+
+def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback: bool = False) -> dict[str, str]:
+    default_config_block = extract_named_block(build_gradle, "defaultConfig")
+    scope = default_config_block if default_config_block is not None else build_gradle
+    result = parse_res_values(scope)
+    add_build_config_fallbacks(result, scope)
+
+    if allow_global_fallback and default_config_block is not None:
+        global_values = parse_res_values(build_gradle)
+        add_build_config_fallbacks(global_values, build_gradle)
+        for key, value in global_values.items():
+            result.setdefault(key, value)
+    return result
+
+
+def parse_res_values(text: str) -> dict[str, str]:
+    pattern = re.compile(
+        r'resValue\(\s*"string"\s*,\s*"([^"]+)"\s*,\s*"((?:\\.|[^"\\])*)"\s*\)'
+    )
+    return {
+        match.group(1): decode_kotlin_string(match.group(2))
+        for match in pattern.finditer(text)
+    }
+
+
+def add_build_config_fallbacks(values: dict[str, str], text: str) -> None:
+    for resource_key, build_config_key in (
+        ("plugin_engine", "PLUGIN_ENGINE"),
+        ("plugin_variant", "PLUGIN_VARIANT"),
+        ("plugin_id", "PLUGIN_ID"),
+    ):
+        if resource_key not in values:
+            value = parse_build_config_string(text, build_config_key)
+            if value is not None:
+                values[resource_key] = value
+
+
+def parse_build_config_string(text: str, key: str) -> str | None:
+    pattern = re.compile(
+        rf'buildConfigField\(\s*"String"\s*,\s*"{re.escape(key)}"\s*,\s*"\\"([^"\\]+)\\""\s*\)'
+    )
+    match = pattern.search(text)
+    return decode_kotlin_string(match.group(1)) if match else None
+
+
+def parse_string_assignment(text: str, key: str) -> str | None:
+    pattern = re.compile(rf'\b{re.escape(key)}\s*=\s*"((?:\\.|[^"\\])*)"')
+    match = pattern.search(text)
+    return decode_kotlin_string(match.group(1)) if match else None
+
+
+def decode_kotlin_string(value: str) -> str:
+    escapes = {
+        r"\n": "\n",
+        r"\r": "\r",
+        r"\t": "\t",
+        r'\"': '"',
+        r"\\": "\\",
+    }
+    return re.sub(r'\\[nrt"\\]', lambda match: escapes.get(match.group(0), match.group(0)), value)
+
+
+def extract_named_block(text: str, name: str) -> str | None:
+    match = re.search(rf'\b{re.escape(name)}\s*\{{', text)
+    if not match:
+        return None
+    opening_brace = match.end() - 1
+    closing_brace = find_matching_brace(text, opening_brace)
+    return text[opening_brace + 1 : closing_brace]
+
+
+def find_matching_brace(text: str, opening_brace: int) -> int:
+    if opening_brace >= len(text) or text[opening_brace] != "{":
+        raise ValueError("opening_brace must point to '{'")
+
+    depth = 0
+    cursor = opening_brace
+    quote = None
+    triple_quote = False
+    while cursor < len(text):
+        if quote is not None:
+            if triple_quote and text.startswith(quote * 3, cursor):
+                cursor += 3
+                quote = None
+                triple_quote = False
+                continue
+            if not triple_quote and text[cursor] == "\\":
+                cursor += 2
+                continue
+            if not triple_quote and text[cursor] == quote:
+                quote = None
+            cursor += 1
+            continue
+
+        if text.startswith("//", cursor):
+            newline = text.find("\n", cursor + 2)
+            cursor = len(text) if newline < 0 else newline + 1
+            continue
+        if text.startswith("/*", cursor):
+            comment_end = text.find("*/", cursor + 2)
+            if comment_end < 0:
+                raise ValueError("Unterminated block comment while parsing Gradle script")
+            cursor = comment_end + 2
+            continue
+        if text.startswith('"""', cursor):
+            quote = '"'
+            triple_quote = True
+            cursor += 3
+            continue
+        if text[cursor] in ('"', "'"):
+            quote = text[cursor]
+            cursor += 1
+            continue
+        if text[cursor] == "{":
+            depth += 1
+        elif text[cursor] == "}":
+            depth -= 1
+            if depth == 0:
+                return cursor
+        cursor += 1
+    raise ValueError("Unterminated Gradle block")
+
+
+def group_release_assets_by_flavor(
+    repo_name: str,
+    assets: list[dict],
+    flavors: list[ProductFlavor],
+) -> list[tuple[ProductFlavor, list[dict]]]:
+    grouped = {flavor.name: [] for flavor in flavors}
+    unmatched = []
+    ambiguous = []
+
+    for asset in assets:
+        asset_name = str(asset.get("name") or "")
+        matched = [
+            flavor
+            for flavor in flavors
+            if asset_name_matches_distribution(asset_name, flavor.distribution_variant)
+        ]
+        if len(matched) == 1:
+            grouped[matched[0].name].append(asset)
+        elif not matched:
+            unmatched.append(asset_name)
+        else:
+            ambiguous.append((asset_name, [flavor.name for flavor in matched]))
+
+    if unmatched or ambiguous:
+        details = []
+        if unmatched:
+            details.append(f"unmatched={unmatched}")
+        if ambiguous:
+            details.append(f"ambiguous={ambiguous}")
+        raise RuntimeError(
+            f"{repo_name}: failed to assign release APK assets to product flavors: {'; '.join(details)}"
+        )
+
+    required_featured = FEATURED_DISTRIBUTIONS.get(repo_name)
+    if required_featured:
+        declared_by_distribution = {
+            flavor.distribution_variant.lower(): flavor
+            for flavor in flavors
+        }
+        undeclared = sorted(required_featured - declared_by_distribution.keys())
+        missing_assets = sorted(
+            distribution
+            for distribution in required_featured
+            if distribution in declared_by_distribution
+            and not grouped[declared_by_distribution[distribution].name]
+        )
+        if undeclared or missing_assets:
+            details = []
+            if undeclared:
+                details.append(f"undeclared={undeclared}")
+            if missing_assets:
+                details.append(f"without assets={missing_assets}")
+            raise RuntimeError(
+                f"{repo_name}: required featured distributions are unavailable: {'; '.join(details)}"
+            )
+
+    return [(flavor, grouped[flavor.name]) for flavor in flavors]
+
+
+def asset_name_matches_distribution(asset_name: str, distribution_variant: str) -> bool:
+    token = distribution_variant.strip().strip("-_.")
+    if not token:
+        return False
+    pattern = re.compile(
+        rf"(?i)(?:^|[-_.]){re.escape(token)}[-_.](?={ABI_ASSET_TOKEN_PATTERN}(?:[-_.]|$))"
+    )
+    return pattern.search(asset_name) is not None
+
+
+def is_featured_distribution(repo_name: str, distribution_variant: str | None) -> bool:
+    if distribution_variant is None:
+        return True
+    featured = FEATURED_DISTRIBUTIONS.get(repo_name)
+    return True if featured is None else distribution_variant.lower() in featured
+
+
+def camel_case_to_kebab(value: str) -> str:
+    return re.sub(r"(?<!^)(?=[A-Z])", "-", value).replace("_", "-").lower()
 
 
 def supported_abis_from_assets(assets: list[dict]) -> list[str] | None:
@@ -314,11 +636,6 @@ def parse_application_id_from_build_gradle(text: str) -> str | None:
         or regex_group(text, r'\bapplicationId\s*=\s*"([^"]+)"')
         or regex_group(text, r'\bnamespace\s*=\s*"([^"]+)"')
     )
-
-
-def parse_res_value(text: str, key: str) -> str | None:
-    pattern = rf'resValue\(\s*"string"\s*,\s*"{re.escape(key)}"\s*,\s*"([^"]+)"\s*\)'
-    return regex_group(text, pattern)
 
 
 def regex_group(text: str | None, pattern: str) -> str | None:
@@ -441,9 +758,9 @@ def safe_api_json(url: str):
         return None
 
 
-def raw_text(owner: str, repo: str, branch: str, path: str) -> str | None:
+def raw_text(owner: str, repo: str, ref: str, path: str) -> str | None:
     try:
-        return request_text(raw_url(owner, repo, branch, path), accept="text/plain, */*")
+        return request_text(raw_url(owner, repo, ref, path), accept="text/plain, */*")
     except HTTPError as exc:
         if exc.code != 404:
             print(f"Warning: raw request failed for {owner}/{repo}/{path}: {exc}", file=sys.stderr)
@@ -467,8 +784,10 @@ def request_text(url: str, accept: str) -> str:
         return response.read().decode("utf-8")
 
 
-def raw_url(owner: str, repo: str, branch: str, path: str) -> str:
-    return f"https://raw.githubusercontent.com/{owner}/{repo}/refs/heads/{branch}/{quote(path.lstrip('/'), safe='/')}"
+def raw_url(owner: str, repo: str, ref: str, path: str) -> str:
+    encoded_ref = quote(ref.strip(), safe="/")
+    encoded_path = quote(path.lstrip("/"), safe="/")
+    return f"https://raw.githubusercontent.com/{owner}/{repo}/{encoded_ref}/{encoded_path}"
 
 
 def prune_nulls(value):

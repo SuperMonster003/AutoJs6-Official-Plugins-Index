@@ -5,6 +5,7 @@ on:
     paths:
       - plugins.official.generated.json
       - tools/generate_official_plugin_index.py
+      - tools/test_generate_official_plugin_index.py
       - .github/workflows/plugin-index.yml
   push:
     branches:
@@ -12,6 +13,7 @@ on:
     paths:
       - plugins.official.generated.json
       - tools/generate_official_plugin_index.py
+      - tools/test_generate_official_plugin_index.py
       - .github/workflows/plugin-index.yml
   workflow_dispatch:
   schedule:
@@ -25,6 +27,8 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+      - name: Test official plugins index generator
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Generate official plugins index
         run: python3 tools/generate_official_plugin_index.py
         env:
@@ -48,6 +52,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Test official plugins index generator
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Generate official plugins index
         run: python3 tools/generate_official_plugin_index.py
         env:
