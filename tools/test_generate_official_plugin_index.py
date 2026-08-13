@@ -187,7 +187,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
                     resValue("string", "plugin_engine", "yolo")
                     resValue("string", "plugin_variant", "ncnn")
                     resValue("string", "plugin_id", "yolo-ncnn")
-                    resValue("string", "plugin_requires_host_version", "5274")
+                    resValue("string", "plugin_requires_host_version", "5275")
                 }
             }
         """
@@ -200,7 +200,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
                             android:value="@string/plugin_requires_host_version" />
                     </service>
                     <service android:name=".provider.YoloProviderService">
-                        <meta-data android:value="5274" android:name="requiresHostVersion" />
+                        <meta-data android:value="5275" android:name="requiresHostVersion" />
                     </service>
                 </application>
             </manifest>
@@ -216,7 +216,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertEqual("yolo", entry["engine"])
         self.assertEqual("ncnn", entry["variant"])
         self.assertEqual("yolo-ncnn", entry["engineId"])
-        self.assertEqual(5274, entry["requiresHostVersion"])
+        self.assertEqual(5275, entry["requiresHostVersion"])
 
     def test_manifest_literal_required_host_version_is_supported_without_res_value(self):
         repo_name = "AutoJs6-Plugin-Manifest-Only"
@@ -231,7 +231,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             <manifest xmlns:android="http://schemas.android.com/apk/res/android">
                 <application>
                     <service android:name=".InfoService">
-                        <meta-data android:name="requiresHostVersion" android:value="5274" />
+                        <meta-data android:name="requiresHostVersion" android:value="5275" />
                     </service>
                 </application>
             </manifest>
@@ -244,7 +244,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             manifest_text=manifest,
         )[0]
 
-        self.assertEqual(5274, entry["requiresHostVersion"])
+        self.assertEqual(5275, entry["requiresHostVersion"])
         self.assertNotIn("engine", entry)
         self.assertNotIn("variant", entry)
         self.assertNotIn("engineId", entry)
@@ -270,7 +270,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             android {
                 defaultConfig {
                     applicationId = "org.example.conflicting.host.version"
-                    resValue("string", "plugin_requires_host_version", "5274")
+                    resValue("string", "plugin_requires_host_version", "5275")
                 }
             }
         """
@@ -281,7 +281,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
                     android:value="@string/missing_host_version" /></service></application>
             </manifest>
         """
-        conflicting = unresolved.replace("@string/missing_host_version", "5275")
+        conflicting = unresolved.replace("@string/missing_host_version", "5276")
 
         with self.assertRaisesRegex(RuntimeError, r"unresolved value"):
             self.build_entries(
@@ -310,7 +310,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         strings = {
             "values-en": {
                 "plugin_description": "Description",
-                "plugin_requires_host_version": "5274",
+                "plugin_requires_host_version": "5275",
             }
         }
         explicit_empty_gradle = """
@@ -345,7 +345,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             manifest_text=manifest,
             strings_by_dir=strings,
         )[0]
-        self.assertEqual(5274, entry["requiresHostVersion"])
+        self.assertEqual(5275, entry["requiresHostVersion"])
 
     def test_blank_or_malformed_routing_value_fails_closed(self):
         repo_name = "AutoJs6-Plugin-Invalid-Routing"
