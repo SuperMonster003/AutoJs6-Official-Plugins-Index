@@ -741,7 +741,9 @@ def resolve_metadata_value(
     if not normalized.startswith("@string/"):
         return normalized
     resource_name = normalized.removeprefix("@string/")
-    return res_values.get(resource_name) or choose_default_localized(
+    if resource_name in res_values:
+        return res_values[resource_name]
+    return choose_default_localized(
         localized_string_map(strings_by_dir, resource_name)
     )
 

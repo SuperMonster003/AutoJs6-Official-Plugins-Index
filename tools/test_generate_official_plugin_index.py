@@ -298,6 +298,55 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
                 manifest_text=conflicting,
             )
 
+    def test_explicit_empty_host_version_resource_is_not_masked_by_strings_fallback(self):
+        repo_name = "AutoJs6-Plugin-Resource-Precedence"
+        manifest = """
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application><service><meta-data
+                    android:name="requiresHostVersion"
+                    android:value="@string/plugin_requires_host_version" /></service></application>
+            </manifest>
+        """
+        strings = {
+            "values-en": {
+                "plugin_description": "Description",
+                "plugin_requires_host_version": "5274",
+            }
+        }
+        explicit_empty_gradle = """
+            android {
+                defaultConfig {
+                    applicationId = "org.example.resource.precedence"
+                    resValue("string", "plugin_requires_host_version", "")
+                }
+            }
+        """
+        missing_resource_gradle = """
+            android {
+                defaultConfig {
+                    applicationId = "org.example.resource.precedence"
+                }
+            }
+        """
+
+        with self.assertRaisesRegex(RuntimeError, r"positive decimal integer"):
+            self.build_entries(
+                repo_name,
+                explicit_empty_gradle,
+                self.assets_for(repo_name, [None]),
+                manifest_text=manifest,
+                strings_by_dir=strings,
+            )
+
+        entry = self.build_entries(
+            repo_name,
+            missing_resource_gradle,
+            self.assets_for(repo_name, [None]),
+            manifest_text=manifest,
+            strings_by_dir=strings,
+        )[0]
+        self.assertEqual(5274, entry["requiresHostVersion"])
+
     def test_blank_or_malformed_routing_value_fails_closed(self):
         repo_name = "AutoJs6-Plugin-Invalid-Routing"
         for resource_key, value in (
@@ -349,8 +398,19 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, r"featured.*without assets=\['small'\]"):
             self.build_entries(repo_name, gradle, assets)
 
-    def build_entries(self, repo_name, gradle, assets, *, version=None, manifest_text=None):
+    def build_entries(
+        self,
+        repo_name,
+        gradle,
+        assets,
+        *,
+        version=None,
+        manifest_text=None,
+        strings_by_dir=None,
+    ):
         version = version or self.VERSION
+        if strings_by_dir is None:
+            strings_by_dir = {"values-en": {"plugin_description": "Description"}}
         return generator.build_entries_from_release(
             owner=self.OWNER,
             repo_name=repo_name,
@@ -365,7 +425,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
                 "assets": assets,
             },
             tree_paths=set(),
-            strings_by_dir={"values-en": {"plugin_description": "Description"}},
+            strings_by_dir=strings_by_dir,
             version_map={"VERSION_NAME": version, "VERSION_BUILD": "99"},
             manifest_text=manifest_text or '<manifest><application android:label="@string/app_name" /></manifest>',
             build_gradle=gradle,
