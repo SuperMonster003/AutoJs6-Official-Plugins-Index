@@ -19,7 +19,8 @@ it from manifest `meta-data` named `requiresHostVersion`. Plugins predating thes
 fields remain valid when the fields are absent. A field that is present but
 malformed, unresolved, or inconsistent with another declared source stops index
 generation instead of silently publishing weakened routing or compatibility
-metadata.
+metadata. For example, the YOLO NCNN `0.1.0` release declares `5275`, the
+minimum compatible AutoJs6 host version code.
 
 Run the generator unit tests without network access:
 
