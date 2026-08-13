@@ -175,6 +175,147 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertEqual(assets, entry["releases"][0]["assets"])
         self.assertTrue(entry["featured"])
         self.assertNotIn("distributionVariant", entry)
+        self.assertNotIn("requiresHostVersion", entry)
+
+    def test_yolo_routing_and_required_host_version_are_emitted_without_repo_special_case(self):
+        repo_name = "AutoJs6-Plugin-Yolo-NCNN"
+        gradle = """
+            val globalApplicationId = "io.github.supermonster003.autojs6.plugin.yolo.ncnn"
+            android {
+                defaultConfig {
+                    applicationId = globalApplicationId
+                    resValue("string", "plugin_engine", "yolo")
+                    resValue("string", "plugin_variant", "ncnn")
+                    resValue("string", "plugin_id", "yolo-ncnn")
+                    resValue("string", "plugin_requires_host_version", "5274")
+                }
+            }
+        """
+        manifest = """
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application>
+                    <service android:name=".YoloPluginInfoService">
+                        <meta-data
+                            android:name="requiresHostVersion"
+                            android:value="@string/plugin_requires_host_version" />
+                    </service>
+                    <service android:name=".provider.YoloProviderService">
+                        <meta-data android:value="5274" android:name="requiresHostVersion" />
+                    </service>
+                </application>
+            </manifest>
+        """
+
+        entry = self.build_entries(
+            repo_name,
+            gradle,
+            self.assets_for(repo_name, [None]),
+            manifest_text=manifest,
+        )[0]
+
+        self.assertEqual("yolo", entry["engine"])
+        self.assertEqual("ncnn", entry["variant"])
+        self.assertEqual("yolo-ncnn", entry["engineId"])
+        self.assertEqual(5274, entry["requiresHostVersion"])
+
+    def test_manifest_literal_required_host_version_is_supported_without_res_value(self):
+        repo_name = "AutoJs6-Plugin-Manifest-Only"
+        gradle = """
+            android {
+                defaultConfig {
+                    applicationId = "org.example.manifest.only"
+                }
+            }
+        """
+        manifest = """
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application>
+                    <service android:name=".InfoService">
+                        <meta-data android:name="requiresHostVersion" android:value="5274" />
+                    </service>
+                </application>
+            </manifest>
+        """
+
+        entry = self.build_entries(
+            repo_name,
+            gradle,
+            self.assets_for(repo_name, [None]),
+            manifest_text=manifest,
+        )[0]
+
+        self.assertEqual(5274, entry["requiresHostVersion"])
+        self.assertNotIn("engine", entry)
+        self.assertNotIn("variant", entry)
+        self.assertNotIn("engineId", entry)
+
+    def test_invalid_required_host_version_fails_closed(self):
+        repo_name = "AutoJs6-Plugin-Invalid-Host-Version"
+        for value in ("", "0", "-1", "52.74", "latest", str(1 << 63)):
+            with self.subTest(value=value):
+                gradle = f"""
+                    android {{
+                        defaultConfig {{
+                            applicationId = "org.example.invalid.host.version"
+                            resValue("string", "plugin_requires_host_version", "{value}")
+                        }}
+                    }}
+                """
+                with self.assertRaisesRegex(RuntimeError, r"positive decimal integer|signed 64-bit"):
+                    self.build_entries(repo_name, gradle, self.assets_for(repo_name, [None]))
+
+    def test_unresolved_or_conflicting_manifest_required_host_version_fails_closed(self):
+        repo_name = "AutoJs6-Plugin-Conflicting-Host-Version"
+        gradle = """
+            android {
+                defaultConfig {
+                    applicationId = "org.example.conflicting.host.version"
+                    resValue("string", "plugin_requires_host_version", "5274")
+                }
+            }
+        """
+        unresolved = """
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application><service><meta-data
+                    android:name="requiresHostVersion"
+                    android:value="@string/missing_host_version" /></service></application>
+            </manifest>
+        """
+        conflicting = unresolved.replace("@string/missing_host_version", "5275")
+
+        with self.assertRaisesRegex(RuntimeError, r"unresolved value"):
+            self.build_entries(
+                repo_name,
+                gradle,
+                self.assets_for(repo_name, [None]),
+                manifest_text=unresolved,
+            )
+        with self.assertRaisesRegex(RuntimeError, r"conflicting requiresHostVersion"):
+            self.build_entries(
+                repo_name,
+                gradle,
+                self.assets_for(repo_name, [None]),
+                manifest_text=conflicting,
+            )
+
+    def test_blank_or_malformed_routing_value_fails_closed(self):
+        repo_name = "AutoJs6-Plugin-Invalid-Routing"
+        for resource_key, value in (
+            ("plugin_engine", ""),
+            ("plugin_variant", "not a route"),
+            ("plugin_id", "bad/route"),
+        ):
+            with self.subTest(resource_key=resource_key, value=value):
+                gradle = f"""
+                    android {{
+                        defaultConfig {{
+                            applicationId = "org.example.invalid.routing"
+                            resValue("string", "{resource_key}", "{value}")
+                        }}
+                    }}
+                """
+                with self.assertRaisesRegex(RuntimeError, r"routing identifier"):
+                    self.build_entries(repo_name, gradle, self.assets_for(repo_name, [None]))
 
     def test_unmatched_multiflavor_asset_fails_generation(self):
         repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4"
@@ -208,7 +349,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, r"featured.*without assets=\['small'\]"):
             self.build_entries(repo_name, gradle, assets)
 
-    def build_entries(self, repo_name, gradle, assets, *, version=None):
+    def build_entries(self, repo_name, gradle, assets, *, version=None, manifest_text=None):
         version = version or self.VERSION
         return generator.build_entries_from_release(
             owner=self.OWNER,
@@ -226,7 +367,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             tree_paths=set(),
             strings_by_dir={"values-en": {"plugin_description": "Description"}},
             version_map={"VERSION_NAME": version, "VERSION_BUILD": "99"},
-            manifest_text='<manifest><application android:label="@string/app_name" /></manifest>',
+            manifest_text=manifest_text or '<manifest><application android:label="@string/app_name" /></manifest>',
             build_gradle=gradle,
         )
 
