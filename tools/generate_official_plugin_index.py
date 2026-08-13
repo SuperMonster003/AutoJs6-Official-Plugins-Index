@@ -20,15 +20,42 @@ INDEX_BRANCH = "main"
 OUTPUT_FILE = "plugins.official.generated.json"
 USER_AGENT = "AutoJs6-Official-Plugin-Index-Generator"
 SCHEMA_VERSION = 2
-REQUIRES_HOST_VERSION_RESOURCE = "plugin_requires_host_version"
-REQUIRES_HOST_VERSION_MANIFEST = "requiresHostVersion"
+DEFAULT_ADMISSION_ROOT = Path(__file__).resolve().parent.parent / "release-manifests"
+ADMISSION_MANIFEST_SCHEMA_VERSION = 1
 MAX_SIGNED_LONG = (1 << 63) - 1
 ROUTING_RESOURCE_KEYS = {
     "engine": "plugin_engine",
     "variant": "plugin_variant",
     "engineId": "plugin_id",
 }
+CONTRACT_DECLARATIONS = {
+    "requiresHostVersion": ("plugin_requires_host_version", "requiresHostVersion"),
+    "maxHostVersion": ("plugin_max_host_version", "org.autojs.plugin.contract.MAX_HOST_VERSION"),
+    "runtimeComponent": ("plugin_runtime_component", "org.autojs.plugin.contract.RUNTIME_COMPONENT"),
+    "protocolApiMin": ("plugin_protocol_api_min", "org.autojs.plugin.contract.PROTOCOL_API_MIN"),
+    "protocolApiMax": ("plugin_protocol_api_max", "org.autojs.plugin.contract.PROTOCOL_API_MAX"),
+    "backend": ("plugin_backend", "org.autojs.plugin.contract.BACKEND"),
+    "task": ("plugin_task", "org.autojs.plugin.contract.TASK"),
+    "decoder": ("plugin_decoder", "org.autojs.plugin.contract.DECODER"),
+    "supportedAbis": ("plugin_supported_abis", "org.autojs.plugin.contract.SUPPORTED_ABIS"),
+}
+REQUIRES_HOST_VERSION_RESOURCE = CONTRACT_DECLARATIONS["requiresHostVersion"][0]
 ROUTING_VALUE_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}")
+PROTOCOL_VERSION_PATTERN = re.compile(r"(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)")
+CLASS_NAME_PATTERN = re.compile(r"[A-Za-z_][A-Za-z0-9_$]*(?:\.[A-Za-z_][A-Za-z0-9_$]*)+")
+SHA256_PATTERN = re.compile(r"[0-9a-fA-F]{64}")
+COMMIT_SHA_PATTERN = re.compile(r"[0-9a-fA-F]{40}")
+PACKAGE_NAME_PATTERN = re.compile(r"[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)+")
+SUPPORTED_ABIS = {
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86",
+    "armeabi",
+    "mips64",
+    "mips",
+    "riscv64",
+}
 
 FEATURED_DISTRIBUTIONS = {
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4": {"mobile"},
@@ -58,12 +85,13 @@ class ProductFlavor:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate the AutoJs6 official plugins index.")
     parser.add_argument("--output", type=Path, default=Path(OUTPUT_FILE))
+    parser.add_argument("--admission-root", type=Path, default=DEFAULT_ADMISSION_ROOT)
     args = parser.parse_args()
 
     repos = fetch_official_repos()
     items = []
     for repo in repos:
-        items.extend(build_entries(repo))
+        items.extend(build_entries(repo, admission_root=args.admission_root))
 
     payload = build_payload(items)
     args.output.write_text(
@@ -111,7 +139,7 @@ def fetch_official_repos() -> list[dict]:
     return sorted(repos, key=lambda repo: str(repo.get("name", "")).lower())
 
 
-def build_entries(repo: dict) -> list[dict]:
+def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION_ROOT) -> list[dict]:
     owner = repo.get("owner", {}).get("login") or OFFICIAL_OWNER
     repo_name = repo.get("name")
     branch = repo.get("default_branch") or "master"
@@ -140,6 +168,7 @@ def build_entries(repo: dict) -> list[dict]:
         version_map=version_map,
         manifest_text=manifest_text,
         build_gradle=build_gradle,
+        admission_root=admission_root,
     )
 
 
@@ -154,6 +183,9 @@ def build_entries_from_release(
     version_map: dict[str, str],
     manifest_text: str | None,
     build_gradle: str,
+    admission_root: Path | None = None,
+    admission_manifest_text: str | None = None,
+    source_commit: str | None = None,
 ) -> list[dict]:
 
     base_package_name = (
@@ -202,10 +234,11 @@ def build_entries_from_release(
         build_gradle,
         allow_global_fallback=not flavors,
     )
-    manifest_requires_host_versions = parse_manifest_metadata_values(
-        manifest_text,
-        REQUIRES_HOST_VERSION_MANIFEST,
-    )
+    manifest_contract_values = {
+        field: parse_manifest_metadata_values(manifest_text, manifest_key)
+        for field, (_, manifest_key) in CONTRACT_DECLARATIONS.items()
+    }
+    manifest_service_names = parse_manifest_service_names(manifest_text)
 
     entries = []
     for flavor, flavor_assets in asset_groups:
@@ -222,7 +255,7 @@ def build_entries_from_release(
         package_name = base_package_name + application_id_suffix
         version_name = base_version_name + version_name_suffix
         title = res_values.get("app_name") or base_title
-        supported_abis = supported_abis_from_assets(flavor_assets)
+        asset_supported_abis = supported_abis_from_assets(flavor_assets)
         entry_context = repo_name + (f"/{distribution_variant}" if distribution_variant else "")
         routing = {
             field: parse_optional_routing_value(
@@ -231,11 +264,97 @@ def build_entries_from_release(
             )
             for field, resource_key in ROUTING_RESOURCE_KEYS.items()
         }
-        requires_host_version = resolve_requires_host_version(
+        contract_parsers = {
+            "requiresHostVersion": parse_positive_long,
+            "maxHostVersion": parse_positive_long,
+            "runtimeComponent": lambda value, source: parse_runtime_component(
+                value,
+                source=source,
+                application_id=package_name,
+                manifest_package=base_package_name,
+                manifest_service_names=manifest_service_names,
+            ),
+            "protocolApiMin": parse_protocol_version,
+            "protocolApiMax": parse_protocol_version,
+            "backend": parse_contract_identifier,
+            "task": parse_contract_identifier,
+            "decoder": parse_contract_identifier,
+            "supportedAbis": parse_supported_abis,
+        }
+        contract = {
+            field: resolve_optional_declared_value(
+                context=entry_context,
+                field=field,
+                resource_name=resource_name,
+                resource_value=res_values.get(resource_name),
+                manifest_name=manifest_name,
+                manifest_values=manifest_contract_values[field],
+                res_values=res_values,
+                strings_by_dir=strings_by_dir,
+                parser=contract_parsers[field],
+            )
+            for field, (resource_name, manifest_name) in CONTRACT_DECLARATIONS.items()
+        }
+        requires_host_version = contract["requiresHostVersion"]
+        max_host_version = contract["maxHostVersion"]
+        if max_host_version is not None:
+            if requires_host_version is None:
+                raise RuntimeError(
+                    f"{entry_context} maxHostVersion requires a requiresHostVersion lower bound."
+                )
+            if max_host_version < requires_host_version:
+                raise RuntimeError(
+                    f"{entry_context} maxHostVersion {max_host_version} is lower than "
+                    f"requiresHostVersion {requires_host_version}."
+                )
+
+        runtime_component = contract["runtimeComponent"]
+        protocol_api_min = contract["protocolApiMin"]
+        protocol_api_max = contract["protocolApiMax"]
+        if (protocol_api_min is None) != (protocol_api_max is None):
+            raise RuntimeError(
+                f"{entry_context} must declare protocolApiMin and protocolApiMax together."
+            )
+        if protocol_api_min is not None and protocol_api_max is not None:
+            if protocol_version_key(protocol_api_max) < protocol_version_key(protocol_api_min):
+                raise RuntimeError(
+                    f"{entry_context} protocolApiMax {protocol_api_max} is lower than "
+                    f"protocolApiMin {protocol_api_min}."
+                )
+
+        declared_supported_abis = contract["supportedAbis"]
+        if (
+            declared_supported_abis is not None
+            and asset_supported_abis is not None
+            and declared_supported_abis != asset_supported_abis
+        ):
+            raise RuntimeError(
+                f"{entry_context} supportedAbis declaration {declared_supported_abis} conflicts "
+                f"with release asset names {asset_supported_abis}."
+            )
+        supported_abis = declared_supported_abis or asset_supported_abis
+        entry_admission_text = admission_manifest_text
+        if entry_admission_text is None and admission_root is not None:
+            entry_admission_text = read_admission_manifest(
+                admission_root,
+                package_name=package_name,
+                version_code=version_code,
+            )
+        if entry_admission_text is not None and source_commit is None:
+            source_commit = resolve_metadata_commit(owner, repo_name, ref)
+        bound_assets = bind_release_artifacts(
             context=entry_context,
-            res_values=res_values,
-            strings_by_dir=strings_by_dir,
-            manifest_values=manifest_requires_host_versions,
+            assets=flavor_assets,
+            admission_manifest_text=entry_admission_text,
+            owner=owner,
+            repo_name=repo_name,
+            release_tag=release_tag,
+            source_commit=source_commit,
+            version_name=version_name,
+            version_code=version_code,
+            package_name=package_name,
+            runtime_component=runtime_component,
+            supported_abis=supported_abis,
         )
 
         release_entry = {
@@ -244,7 +363,7 @@ def build_entries_from_release(
             "versionDate": str(release.get("published_at") or "")[:10] or None,
             "changelogUrl": release.get("html_url"),
             "changelogText": str(release.get("body") or "").strip() or None,
-            "assets": flavor_assets,
+            "assets": bound_assets,
         }
 
         entry = {
@@ -264,6 +383,13 @@ def build_entries_from_release(
             "variant": routing["variant"],
             "engineId": routing["engineId"],
             "requiresHostVersion": requires_host_version,
+            "maxHostVersion": max_host_version,
+            "runtimeComponent": runtime_component,
+            "protocolApiMin": protocol_api_min,
+            "protocolApiMax": protocol_api_max,
+            "backend": contract["backend"],
+            "task": contract["task"],
+            "decoder": contract["decoder"],
             "distributionVariant": distribution_variant,
             "featured": is_featured_distribution(repo_name, distribution_variant),
             "releases": [release_entry],
@@ -343,12 +469,173 @@ def release_assets(release: dict) -> list[dict]:
     return sorted(result, key=lambda item: str(item.get("name", "")).lower())
 
 
+def read_admission_manifest(root: Path, *, package_name: str, version_code: int) -> str | None:
+    if not PACKAGE_NAME_PATTERN.fullmatch(package_name) or version_code <= 0:
+        return None
+    path = root / package_name / f"{version_code}.json"
+    return path.read_text(encoding="utf-8") if path.is_file() else None
+
+
+def bind_release_artifacts(
+    *,
+    context: str,
+    assets: list[dict],
+    admission_manifest_text: str | None,
+    owner: str,
+    repo_name: str,
+    release_tag: str,
+    source_commit: str | None,
+    version_name: str,
+    version_code: int,
+    package_name: str,
+    runtime_component: str | None,
+    supported_abis: list[str] | None,
+) -> list[dict]:
+    if admission_manifest_text is None:
+        return assets
+    source = f"{context} admission manifest"
+    document = parse_json_object(admission_manifest_text, source=source)
+    assert_exact_keys(
+        document,
+        required={
+            "schemaVersion",
+            "owner",
+            "repository",
+            "releaseTag",
+            "sourceCommit",
+            "packageName",
+            "versionName",
+            "versionCode",
+            "signerSha256",
+            "artifacts",
+        },
+        optional={"runtimeComponent", "supportedAbis"},
+        source=source,
+    )
+    if document.get("schemaVersion") != ADMISSION_MANIFEST_SCHEMA_VERSION:
+        raise RuntimeError(f"{source} schemaVersion must be {ADMISSION_MANIFEST_SCHEMA_VERSION}.")
+    if not release_tag or version_code <= 0:
+        raise RuntimeError(f"{source} requires a tagged release with a positive source versionCode.")
+
+    expected_identity = {
+        "owner": owner,
+        "repository": repo_name,
+        "releaseTag": release_tag,
+        "packageName": package_name,
+        "versionName": version_name,
+        "versionCode": version_code,
+    }
+    for field, expected in expected_identity.items():
+        actual = document.get(field)
+        if actual != expected:
+            raise RuntimeError(f"{source} {field} {actual!r} does not match {expected!r}.")
+    resolved_source_commit = normalize_commit_sha(
+        source_commit,
+        source=f"{source} resolved sourceCommit",
+    )
+    admitted_source_commit = normalize_commit_sha(
+        document.get("sourceCommit"),
+        source=f"{source} sourceCommit",
+    )
+    if admitted_source_commit != resolved_source_commit:
+        raise RuntimeError(
+            f"{source} sourceCommit {admitted_source_commit!r} does not match "
+            f"{resolved_source_commit!r}."
+        )
+
+    admitted_component = optional_nonempty_string(
+        document.get("runtimeComponent"), source=f"{source} runtimeComponent"
+    )
+    if admitted_component is not None:
+        admitted_component = normalize_component_reference(
+            admitted_component,
+            source=f"{source} runtimeComponent",
+            application_id=package_name,
+        )
+    if admitted_component != runtime_component:
+        raise RuntimeError(
+            f"{source} runtimeComponent {admitted_component!r} does not match {runtime_component!r}."
+        )
+
+    admitted_abis = parse_json_abis(document.get("supportedAbis"), source=f"{source} supportedAbis")
+    if admitted_abis != supported_abis:
+        raise RuntimeError(f"{source} supportedAbis {admitted_abis} do not match {supported_abis}.")
+    signers = parse_sha256_list(document.get("signerSha256"), source=f"{source} signerSha256")
+
+    records = parse_admitted_artifacts(document.get("artifacts"), source=source)
+    asset_names = [str(asset.get("name") or "") for asset in assets]
+    if len(asset_names) != len(set(asset_names)) or set(asset_names) != records.keys():
+        raise RuntimeError(f"{source} must match the selected release APK asset names exactly.")
+
+    bound = []
+    for asset in assets:
+        name = str(asset["name"])
+        record = records[name]
+        artifact_source = f"{source} artifact {name!r}"
+        admitted_size = require_positive_json_integer(record.get("sizeBytes"), source=f"{artifact_source} sizeBytes")
+        admitted_sha256 = parse_sha256(record.get("sha256"), source=f"{artifact_source} sha256")
+        asset_size = asset.get("size")
+        if type(asset_size) is not int or asset_size <= 0 or asset_size != admitted_size:
+            raise RuntimeError(f"{artifact_source} size does not match GitHub release size {asset_size!r}.")
+        digest = asset.get("digest")
+        if digest is not None:
+            github_sha256 = parse_prefixed_sha256(digest, source=f"{artifact_source} GitHub digest")
+            if github_sha256 != admitted_sha256:
+                raise RuntimeError(f"{artifact_source} sha256 does not match GitHub release digest.")
+
+        item = dict(asset)
+        item.update(
+            {
+                "digest": f"sha256:{admitted_sha256}",
+                "sha256": admitted_sha256,
+                "signerSha256": signers,
+                "versionName": version_name,
+                "versionCode": version_code,
+                "packageName": package_name,
+                "runtimeComponent": admitted_component,
+                "supportedAbis": admitted_abis,
+                "sourceCommit": resolved_source_commit,
+            }
+        )
+        bound.append(prune_nulls(item))
+    return bound
+
+
+def parse_admitted_artifacts(value, *, source: str) -> dict[str, dict]:
+    if not isinstance(value, list) or not value:
+        raise RuntimeError(f"{source} artifacts must be a non-empty array.")
+    records = {}
+    for index, item in enumerate(value, start=1):
+        item_source = f"{source} artifact #{index}"
+        if not isinstance(item, dict):
+            raise RuntimeError(f"{item_source} must be an object.")
+        assert_exact_keys(
+            item,
+            required={"name", "sha256", "sizeBytes"},
+            optional=set(),
+            source=item_source,
+        )
+        name = require_nonempty_string(item.get("name"), source=f"{item_source} name")
+        if not name.lower().endswith(".apk") or name in records:
+            raise RuntimeError(f"{item_source} must name one unique APK.")
+        records[name] = item
+    return records
+
+
 def release_metadata_ref(release: dict, default_branch: str) -> str:
     release_tag = str(release.get("tag_name") or "").strip()
     if release_tag:
         return release_tag if release_tag.startswith("refs/") else f"refs/tags/{release_tag}"
     branch = default_branch.strip() or "master"
     return branch if branch.startswith("refs/") else f"refs/heads/{branch}"
+
+
+def resolve_metadata_commit(owner: str, repo: str, ref: str) -> str:
+    encoded_ref = quote(ref.strip(), safe="")
+    document = api_json(f"https://api.github.com/repos/{owner}/{repo}/commits/{encoded_ref}")
+    if not isinstance(document, dict):
+        raise RuntimeError(f"Unable to resolve source commit for {owner}/{repo}@{ref}.")
+    return normalize_commit_sha(document.get("sha"), source=f"{owner}/{repo}@{ref} sourceCommit")
 
 
 def parse_product_flavors(build_gradle: str) -> list[ProductFlavor]:
@@ -675,6 +962,21 @@ def parse_manifest_metadata_values(text: str | None, name: str) -> list[str]:
     return result
 
 
+def parse_manifest_service_names(text: str | None) -> set[str]:
+    if not text:
+        return set()
+    result = set()
+    for tag in re.findall(r"<service\b[^>]*?/?>", text, flags=re.DOTALL):
+        name = regex_group(tag, r'\bandroid:name\s*=\s*"([^"]*)"')
+        if name is None:
+            continue
+        normalized = html.unescape(name).strip()
+        if not normalized:
+            raise RuntimeError("Manifest service android:name must not be empty.")
+        result.add(normalized)
+    return result
+
+
 def parse_optional_routing_value(value: str | None, *, source: str) -> str | None:
     if value is None:
         return None
@@ -687,49 +989,209 @@ def parse_optional_routing_value(value: str | None, *, source: str) -> str | Non
     return normalized
 
 
-def resolve_requires_host_version(
+def resolve_optional_declared_value(
     *,
     context: str,
+    field: str,
+    resource_name: str,
+    resource_value: str | None,
+    manifest_name: str,
+    manifest_values: list[str],
     res_values: dict[str, str],
     strings_by_dir: dict[str, dict[str, str]],
-    manifest_values: list[str],
-) -> int | None:
+    parser,
+):
     candidates = []
-    resource_value = res_values.get(REQUIRES_HOST_VERSION_RESOURCE)
     if resource_value is not None:
-        candidates.append(
-            (
-                f'{context} resValue("{REQUIRES_HOST_VERSION_RESOURCE}")',
-                resource_value,
-            )
-        )
-
+        candidates.append((f'{context} resValue("{resource_name}")', resource_value))
     for index, manifest_value in enumerate(manifest_values, start=1):
         resolved = resolve_metadata_value(manifest_value, res_values, strings_by_dir)
         if resolved is None:
             raise RuntimeError(
-                f'{context} manifest meta-data "{REQUIRES_HOST_VERSION_MANIFEST}" '
+                f'{context} manifest meta-data "{manifest_name}" '
                 f"#{index} has an unresolved value: {manifest_value!r}."
             )
         candidates.append(
             (
-                f'{context} manifest meta-data "{REQUIRES_HOST_VERSION_MANIFEST}" #{index}',
+                f'{context} manifest meta-data "{manifest_name}" #{index}',
                 resolved,
             )
         )
-
     if not candidates:
         return None
-
-    parsed = [
-        (source, parse_positive_long(value, source=source))
-        for source, value in candidates
-    ]
-    distinct = {value for _, value in parsed}
-    if len(distinct) != 1:
-        details = ", ".join(f"{source}={value}" for source, value in parsed)
-        raise RuntimeError(f"{context} has conflicting requiresHostVersion declarations: {details}.")
+    parsed = [(source, parser(value, source=source)) for source, value in candidates]
+    canonical = {json.dumps(value, sort_keys=True) for _, value in parsed}
+    if len(canonical) != 1:
+        details = ", ".join(f"{source}={value!r}" for source, value in parsed)
+        raise RuntimeError(f"{context} has conflicting {field} declarations: {details}.")
     return parsed[0][1]
+
+
+def parse_contract_identifier(value: str, *, source: str) -> str:
+    normalized = value.strip()
+    if not ROUTING_VALUE_PATTERN.fullmatch(normalized):
+        raise RuntimeError(
+            f"{source} must be a 1-128 character contract identifier containing only "
+            "letters, digits, '.', '_' or '-'."
+        )
+    return normalized
+
+
+def parse_protocol_version(value: str, *, source: str) -> str:
+    normalized = value.strip()
+    match = PROTOCOL_VERSION_PATTERN.fullmatch(normalized)
+    if not match:
+        raise RuntimeError(f"{source} must use canonical major.minor decimal form, got {value!r}.")
+    major = int(match.group(1))
+    minor = int(match.group(2))
+    if major > MAX_SIGNED_LONG or minor > MAX_SIGNED_LONG:
+        raise RuntimeError(f"{source} exceeds the signed 64-bit range: {value!r}.")
+    return f"{major}.{minor}"
+
+
+def protocol_version_key(value: str) -> tuple[int, int]:
+    major, minor = value.split(".", 1)
+    return int(major), int(minor)
+
+
+def parse_supported_abis(value: str, *, source: str) -> list[str]:
+    normalized = value.strip()
+    if not normalized:
+        raise RuntimeError(f"{source} must not be empty.")
+    raw_values = [item.strip() for item in normalized.split(",")]
+    if any(not item for item in raw_values):
+        raise RuntimeError(f"{source} must be a comma-separated list without empty entries.")
+    if len(raw_values) != len(set(raw_values)):
+        raise RuntimeError(f"{source} must not contain duplicate ABI values.")
+    unknown = sorted(set(raw_values) - SUPPORTED_ABIS)
+    if unknown:
+        raise RuntimeError(f"{source} contains unsupported ABI values: {unknown}.")
+    return sort_abis(set(raw_values))
+
+
+def parse_runtime_component(
+    value: str,
+    *,
+    source: str,
+    application_id: str,
+    manifest_package: str,
+    manifest_service_names: set[str],
+) -> str:
+    component = normalize_component_reference(
+        value,
+        source=source,
+        application_id=application_id,
+    )
+    _, class_name = component.split("/", 1)
+    declared_services = {
+        normalize_manifest_class_name(name, manifest_package)
+        for name in manifest_service_names
+    }
+    if class_name not in declared_services:
+        raise RuntimeError(
+            f"{source} references {class_name!r}, which is not a declared manifest service."
+        )
+    return component
+
+
+def normalize_component_reference(value: str, *, source: str, application_id: str) -> str:
+    normalized = value.strip()
+    if normalized.count("/") != 1:
+        raise RuntimeError(
+            f"{source} must use exact package/fully.qualified.Service component form, got {value!r}."
+        )
+    package_name, class_name = normalized.split("/", 1)
+    if package_name != application_id:
+        raise RuntimeError(
+            f"{source} component package {package_name!r} does not match applicationId {application_id!r}."
+        )
+    if not CLASS_NAME_PATTERN.fullmatch(class_name):
+        raise RuntimeError(f"{source} service class is invalid: {class_name!r}.")
+    return f"{package_name}/{class_name}"
+
+
+def normalize_manifest_class_name(name: str, manifest_package: str) -> str:
+    if name.startswith("."):
+        return manifest_package + name
+    if "." not in name:
+        return manifest_package + "." + name
+    return name
+
+
+def require_nonempty_string(value, *, source: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise RuntimeError(f"{source} must be a non-empty string.")
+    return value.strip()
+
+
+def parse_json_object(text: str, *, source: str) -> dict:
+    try:
+        document = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"{source} is not valid JSON: {exc}.") from exc
+    if not isinstance(document, dict):
+        raise RuntimeError(f"{source} root must be an object.")
+    return document
+
+
+def assert_exact_keys(value: dict, *, required: set[str], optional: set[str], source: str) -> None:
+    missing = sorted(required - value.keys())
+    unknown = sorted(value.keys() - required - optional)
+    if missing or unknown:
+        raise RuntimeError(f"{source} has invalid fields: missing={missing}, unknown={unknown}.")
+
+
+def optional_nonempty_string(value, *, source: str) -> str | None:
+    return None if value is None else require_nonempty_string(value, source=source)
+
+
+def parse_json_abis(value, *, source: str) -> list[str] | None:
+    if value is None:
+        return None
+    if not isinstance(value, list) or not value or any(not isinstance(item, str) for item in value):
+        raise RuntimeError(f"{source} must be a non-empty string array when present.")
+    return parse_supported_abis(",".join(value), source=source)
+
+
+def parse_sha256_list(value, *, source: str) -> list[str]:
+    if not isinstance(value, list) or not value:
+        raise RuntimeError(f"{source} must be a non-empty array.")
+    result = sorted(
+        parse_sha256(item, source=f"{source} #{index}")
+        for index, item in enumerate(value, start=1)
+    )
+    if len(result) != len(set(result)):
+        raise RuntimeError(f"{source} must not contain duplicates.")
+    return result
+
+
+def require_positive_json_integer(value, *, source: str) -> int:
+    if type(value) is not int or value <= 0:
+        raise RuntimeError(f"{source} must be a positive JSON integer.")
+    if value > MAX_SIGNED_LONG:
+        raise RuntimeError(f"{source} exceeds the signed 64-bit range.")
+    return value
+
+
+def parse_sha256(value, *, source: str) -> str:
+    normalized = require_nonempty_string(value, source=source)
+    if not SHA256_PATTERN.fullmatch(normalized):
+        raise RuntimeError(f"{source} must be exactly 64 hexadecimal characters.")
+    return normalized.lower()
+
+
+def parse_prefixed_sha256(value, *, source: str) -> str:
+    normalized = require_nonempty_string(value, source=source).lower()
+    if not normalized.startswith("sha256:"):
+        raise RuntimeError(f"{source} must start with 'sha256:'.")
+    return parse_sha256(normalized.removeprefix("sha256:"), source=source)
+
+
+def normalize_commit_sha(value, *, source: str) -> str:
+    normalized = require_nonempty_string(value, source=source)
+    if not COMMIT_SHA_PATTERN.fullmatch(normalized):
+        raise RuntimeError(f"{source} must be exactly 40 hexadecimal characters.")
+    return normalized.lower()
 
 
 def resolve_metadata_value(

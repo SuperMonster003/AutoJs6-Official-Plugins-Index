@@ -1,4 +1,7 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
 import generate_official_plugin_index as generator
 
@@ -7,7 +10,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     OWNER = "SuperMonster003"
     VERSION = "1.0.0"
 
-    def test_schema_version_is_two(self):
+    def test_schema_version_remains_two_for_additive_optional_fields(self):
         self.assertEqual(2, generator.build_payload([])["schemaVersion"])
 
     def test_release_metadata_uses_release_tag(self):
@@ -15,6 +18,29 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             "refs/tags/v1.0.0",
             generator.release_metadata_ref({"tag_name": "v1.0.0"}, "main"),
         )
+
+    def test_index_owned_admission_path_is_package_and_version_scoped(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "io.github.example.plugin" / "99.json"
+            path.parent.mkdir(parents=True)
+            path.write_text('{"schemaVersion":1}', encoding="utf-8")
+
+            self.assertEqual(
+                '{"schemaVersion":1}',
+                generator.read_admission_manifest(
+                    root,
+                    package_name="io.github.example.plugin",
+                    version_code=99,
+                ),
+            )
+            self.assertIsNone(
+                generator.read_admission_manifest(
+                    root,
+                    package_name="../escape",
+                    version_code=99,
+                )
+            )
         self.assertEqual(
             "refs/heads/main",
             generator.release_metadata_ref({}, "main"),
@@ -218,6 +244,235 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertEqual("yolo-ncnn", entry["engineId"])
         self.assertEqual(5275, entry["requiresHostVersion"])
 
+    def test_extended_runtime_contract_is_emitted_without_repo_special_case(self):
+        package_name = "io.github.example.plugin.detector"
+        service_name = f"{package_name}.provider.DetectorService"
+        gradle = f'''
+            val globalApplicationId = "{package_name}"
+            android {{
+                defaultConfig {{
+                    applicationId = globalApplicationId
+                    resValue("string", "plugin_engine", "detector")
+                    resValue("string", "plugin_runtime_component", "{package_name}/{service_name}")
+                    resValue("string", "plugin_protocol_api_min", "1.0")
+                    resValue("string", "plugin_protocol_api_max", "1.2")
+                    resValue("string", "plugin_requires_host_version", "5275")
+                    resValue("string", "plugin_max_host_version", "5300")
+                    resValue("string", "plugin_backend", "ncnn")
+                    resValue("string", "plugin_task", "detect")
+                    resValue("string", "plugin_decoder", "ultralytics-detect")
+                    resValue("string", "plugin_supported_abis", "arm64-v8a")
+                }}
+            }}
+        '''
+        manifest = f'''
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application>
+                    <service android:name=".provider.DetectorService">
+                        <meta-data android:name="org.autojs.plugin.contract.RUNTIME_COMPONENT"
+                            android:value="{package_name}/{service_name}" />
+                        <meta-data android:name="org.autojs.plugin.contract.PROTOCOL_API_MIN" android:value="1.0" />
+                        <meta-data android:name="org.autojs.plugin.contract.PROTOCOL_API_MAX" android:value="1.2" />
+                        <meta-data android:name="org.autojs.plugin.contract.MAX_HOST_VERSION" android:value="5300" />
+                        <meta-data android:name="org.autojs.plugin.contract.BACKEND" android:value="ncnn" />
+                        <meta-data android:name="org.autojs.plugin.contract.TASK" android:value="detect" />
+                        <meta-data android:name="org.autojs.plugin.contract.DECODER" android:value="ultralytics-detect" />
+                        <meta-data android:name="org.autojs.plugin.contract.SUPPORTED_ABIS" android:value="arm64-v8a" />
+                    </service>
+                </application>
+            </manifest>
+        '''
+        asset = self.asset("AutoJs6-Plugin-Detector", None, "arm64-v8a")
+        artifact_manifest = self.admission_manifest(
+            asset,
+            repo_name="AutoJs6-Plugin-Detector",
+            package_name=package_name,
+            runtime_component=f"{package_name}/{service_name}",
+            supported_abis=["arm64-v8a"],
+        )
+
+        entry = self.build_entries(
+            "AutoJs6-Plugin-Detector",
+            gradle,
+            [asset],
+            manifest_text=manifest,
+            admission_manifest_text=artifact_manifest,
+        )[0]
+
+        self.assertEqual(f"{package_name}/{service_name}", entry["runtimeComponent"])
+        self.assertEqual("1.0", entry["protocolApiMin"])
+        self.assertEqual("1.2", entry["protocolApiMax"])
+        self.assertEqual(5275, entry["requiresHostVersion"])
+        self.assertEqual(5300, entry["maxHostVersion"])
+        self.assertEqual("ncnn", entry["backend"])
+        self.assertEqual("detect", entry["task"])
+        self.assertEqual("ultralytics-detect", entry["decoder"])
+        self.assertEqual(["arm64-v8a"], entry["supportedAbis"])
+        bound_asset = entry["releases"][0]["assets"][0]
+        self.assertEqual("a" * 64, bound_asset["sha256"])
+        self.assertEqual(["b" * 64], bound_asset["signerSha256"])
+        self.assertEqual(1234, bound_asset["size"])
+        self.assertEqual("1.0.0", bound_asset["versionName"])
+        self.assertEqual(99, bound_asset["versionCode"])
+
+    def test_legacy_plugin_omits_extended_contract_without_admission_manifest(self):
+        entry = self.build_entries(
+            "AutoJs6-Plugin-Legacy",
+            '''
+                android {
+                    defaultConfig {
+                        applicationId = "io.github.example.plugin.legacy"
+                    }
+                }
+            ''',
+            self.assets_for("AutoJs6-Plugin-Legacy", [None]),
+        )[0]
+
+        for field in (
+            "runtimeComponent",
+            "protocolApiMin",
+            "protocolApiMax",
+            "maxHostVersion",
+            "backend",
+            "task",
+            "decoder",
+        ):
+            self.assertNotIn(field, entry)
+        self.assertNotIn("signerSha256", entry["releases"][0]["assets"][0])
+
+    def test_explicit_malformed_or_incomplete_contract_fails_closed(self):
+        package_name = "io.github.example.plugin.invalid"
+        service_name = f"{package_name}.ProviderService"
+        base_manifest = f'''
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application><service android:name="{service_name}" /></application>
+            </manifest>
+        '''
+        cases = (
+            ("plugin_runtime_component", f"other.package/{service_name}", r"component package"),
+            ("plugin_runtime_component", f"{package_name}/{package_name}.MissingService", r"not a declared"),
+            ("plugin_protocol_api_min", "1", r"major.minor"),
+            ("plugin_protocol_api_min", "1.0", r"declare protocolApiMin and protocolApiMax together"),
+            ("plugin_backend", "", r"contract identifier"),
+            ("plugin_supported_abis", "arm64-v8a,,x86_64", r"empty entries"),
+            ("plugin_supported_abis", "x86_64", r"conflicts with release asset names"),
+            ("plugin_max_host_version", "5274", r"lower than requiresHostVersion"),
+        )
+        for resource, value, message in cases:
+            with self.subTest(resource=resource, value=value):
+                gradle = f'''
+                    android {{
+                        defaultConfig {{
+                            applicationId = "{package_name}"
+                            resValue("string", "plugin_requires_host_version", "5275")
+                            resValue("string", "{resource}", "{value}")
+                        }}
+                    }}
+                '''
+                with self.assertRaisesRegex(RuntimeError, message):
+                    self.build_entries(
+                        "AutoJs6-Plugin-Invalid-Contract",
+                        gradle,
+                        [self.asset("AutoJs6-Plugin-Invalid-Contract", None, "arm64-v8a")],
+                        manifest_text=base_manifest,
+                    )
+
+    def test_conflicting_contract_sources_fail_closed(self):
+        package_name = "io.github.example.plugin.conflict"
+        gradle = f'''
+            android {{
+                defaultConfig {{
+                    applicationId = "{package_name}"
+                    resValue("string", "plugin_protocol_api_min", "1.0")
+                    resValue("string", "plugin_protocol_api_max", "1.0")
+                }}
+            }}
+        '''
+        manifest = '''
+            <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+                <application><service android:name=".ProviderService">
+                    <meta-data android:name="org.autojs.plugin.contract.PROTOCOL_API_MIN" android:value="1.1" />
+                    <meta-data android:name="org.autojs.plugin.contract.PROTOCOL_API_MAX" android:value="1.1" />
+                </service></application>
+            </manifest>
+        '''
+        with self.assertRaisesRegex(RuntimeError, r"conflicting protocolApiMin"):
+            self.build_entries(
+                "AutoJs6-Plugin-Conflicting-Contract",
+                gradle,
+                [self.asset("AutoJs6-Plugin-Conflicting-Contract", None, "arm64-v8a")],
+                manifest_text=manifest,
+            )
+
+    def test_reversed_protocol_range_fails_closed(self):
+        gradle = '''
+            android {
+                defaultConfig {
+                    applicationId = "io.github.example.plugin.protocol"
+                    resValue("string", "plugin_protocol_api_min", "1.2")
+                    resValue("string", "plugin_protocol_api_max", "1.1")
+                }
+            }
+        '''
+        with self.assertRaisesRegex(RuntimeError, r"protocolApiMax 1.1 is lower"):
+            self.build_entries(
+                "AutoJs6-Plugin-Reversed-Protocol",
+                gradle,
+                [self.asset("AutoJs6-Plugin-Reversed-Protocol", None, "arm64-v8a")],
+            )
+
+    def test_admission_manifest_fails_closed_on_unknown_or_drifting_evidence(self):
+        package_name = "io.github.example.plugin.artifact"
+        gradle = f'''
+            android {{ defaultConfig {{ applicationId = "{package_name}" }} }}
+        '''
+        asset = self.asset("AutoJs6-Plugin-Artifact", None, "arm64-v8a")
+        base = json.loads(
+            self.admission_manifest(
+                asset,
+                repo_name="AutoJs6-Plugin-Artifact",
+                package_name=package_name,
+                supported_abis=["arm64-v8a"],
+            )
+        )
+        mutations = (
+            (("artifacts", 0, "sha256"), "short", r"64 hexadecimal"),
+            (("artifacts", 0, "sha256"), "d" * 64, r"does not match GitHub release digest"),
+            (("artifacts", 0, "sizeBytes"), 4321, r"does not match GitHub release size"),
+            (("versionCode",), 100, r"does not match"),
+            (("packageName",), "io.github.example.other", r"does not match"),
+            (("sourceCommit",), "d" * 40, r"does not match"),
+            (("signerSha256",), [], r"non-empty array"),
+            (("signerSha256",), ["short"], r"64 hexadecimal"),
+            (("unknownField",), True, r"invalid fields"),
+        )
+        for path, value, message in mutations:
+            with self.subTest(path=path):
+                document = json.loads(json.dumps(base))
+                target = document
+                for key in path[:-1]:
+                    target = target[key]
+                target[path[-1]] = value
+                with self.assertRaisesRegex(RuntimeError, message):
+                    self.build_entries(
+                        "AutoJs6-Plugin-Artifact",
+                        gradle,
+                        [asset],
+                        admission_manifest_text=json.dumps(document),
+                    )
+
+        extra = json.loads(json.dumps(base))
+        duplicate = dict(extra["artifacts"][0])
+        duplicate["name"] = "unpublished-extra.apk"
+        extra["artifacts"].append(duplicate)
+        with self.assertRaisesRegex(RuntimeError, r"must match the selected release APK asset names exactly"):
+            self.build_entries(
+                "AutoJs6-Plugin-Artifact",
+                gradle,
+                [asset],
+                admission_manifest_text=json.dumps(extra),
+            )
+
     def test_manifest_literal_required_host_version_is_supported_without_res_value(self):
         repo_name = "AutoJs6-Plugin-Manifest-Only"
         gradle = """
@@ -407,6 +662,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         version=None,
         manifest_text=None,
         strings_by_dir=None,
+        admission_manifest_text=None,
     ):
         version = version or self.VERSION
         if strings_by_dir is None:
@@ -429,6 +685,8 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             version_map={"VERSION_NAME": version, "VERSION_BUILD": "99"},
             manifest_text=manifest_text or '<manifest><application android:label="@string/app_name" /></manifest>',
             build_gradle=gradle,
+            admission_manifest_text=admission_manifest_text,
+            source_commit="c" * 40,
         )
 
     def assets_for(self, repo_name, variants, *, version=None):
@@ -447,8 +705,40 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             "name": name,
             "browser_download_url": f"https://example.test/{name}",
             "size": 1234,
-            "digest": "sha256:abc",
+            "digest": "sha256:" + "a" * 64,
         }
+
+    def admission_manifest(
+        self,
+        asset,
+        *,
+        repo_name,
+        package_name,
+        runtime_component=None,
+        supported_abis=None,
+    ):
+        artifact = {
+            "name": asset["name"],
+            "sha256": "a" * 64,
+            "sizeBytes": asset["size"],
+        }
+        document = {
+            "schemaVersion": 1,
+            "owner": self.OWNER,
+            "repository": repo_name,
+            "releaseTag": f"v{self.VERSION}",
+            "sourceCommit": "c" * 40,
+            "packageName": package_name,
+            "versionName": self.VERSION,
+            "versionCode": 99,
+            "signerSha256": ["b" * 64],
+            "artifacts": [artifact],
+        }
+        if runtime_component is not None:
+            document["runtimeComponent"] = runtime_component
+        if supported_abis is not None:
+            document["supportedAbis"] = supported_abis
+        return json.dumps(document)
 
     @staticmethod
     def flavor(name, application_id_suffix, version_name_suffix, title, plugin_id):
