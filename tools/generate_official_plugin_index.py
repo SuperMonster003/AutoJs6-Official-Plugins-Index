@@ -20,6 +20,15 @@ INDEX_BRANCH = "main"
 OUTPUT_FILE = "plugins.official.generated.json"
 USER_AGENT = "AutoJs6-Official-Plugin-Index-Generator"
 SCHEMA_VERSION = 2
+REQUIRES_HOST_VERSION_RESOURCE = "plugin_requires_host_version"
+REQUIRES_HOST_VERSION_MANIFEST = "requiresHostVersion"
+MAX_SIGNED_LONG = (1 << 63) - 1
+ROUTING_RESOURCE_KEYS = {
+    "engine": "plugin_engine",
+    "variant": "plugin_variant",
+    "engineId": "plugin_id",
+}
+ROUTING_VALUE_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}")
 
 FEATURED_DISTRIBUTIONS = {
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4": {"mobile"},
@@ -193,6 +202,10 @@ def build_entries_from_release(
         build_gradle,
         allow_global_fallback=not flavors,
     )
+    manifest_requires_host_versions = parse_manifest_metadata_values(
+        manifest_text,
+        REQUIRES_HOST_VERSION_MANIFEST,
+    )
 
     entries = []
     for flavor, flavor_assets in asset_groups:
@@ -210,6 +223,20 @@ def build_entries_from_release(
         version_name = base_version_name + version_name_suffix
         title = res_values.get("app_name") or base_title
         supported_abis = supported_abis_from_assets(flavor_assets)
+        entry_context = repo_name + (f"/{distribution_variant}" if distribution_variant else "")
+        routing = {
+            field: parse_optional_routing_value(
+                res_values.get(resource_key),
+                source=f'{entry_context} resValue("{resource_key}")',
+            )
+            for field, resource_key in ROUTING_RESOURCE_KEYS.items()
+        }
+        requires_host_version = resolve_requires_host_version(
+            context=entry_context,
+            res_values=res_values,
+            strings_by_dir=strings_by_dir,
+            manifest_values=manifest_requires_host_versions,
+        )
 
         release_entry = {
             "versionName": version_name,
@@ -233,9 +260,10 @@ def build_entries_from_release(
             "localizedInstructionMarkdownUrls": localized_instruction_urls,
             "author": author,
             "collaborators": [],
-            "engine": res_values.get("plugin_engine"),
-            "variant": res_values.get("plugin_variant"),
-            "engineId": res_values.get("plugin_id"),
+            "engine": routing["engine"],
+            "variant": routing["variant"],
+            "engineId": routing["engineId"],
+            "requiresHostVersion": requires_host_version,
             "distributionVariant": distribution_variant,
             "featured": is_featured_distribution(repo_name, distribution_variant),
             "releases": [release_entry],
@@ -383,6 +411,7 @@ def add_build_config_fallbacks(values: dict[str, str], text: str) -> None:
         ("plugin_engine", "PLUGIN_ENGINE"),
         ("plugin_variant", "PLUGIN_VARIANT"),
         ("plugin_id", "PLUGIN_ID"),
+        (REQUIRES_HOST_VERSION_RESOURCE, "PLUGIN_REQUIRES_HOST_VERSION"),
     ):
         if resource_key not in values:
             value = parse_build_config_string(text, build_config_key)
@@ -628,6 +657,103 @@ def parse_manifest_author(text: str | None) -> str | None:
         text,
         r'<meta-data[^>]*\bandroid:name="org\.autojs\.plugin\.info\.AUTHOR"[^>]*\bandroid:value="([^"]+)"',
     )
+
+
+def parse_manifest_metadata_values(text: str | None, name: str) -> list[str]:
+    if not text:
+        return []
+
+    result = []
+    for tag in re.findall(r"<meta-data\b[^>]*?/?>", text, flags=re.DOTALL):
+        tag_name = regex_group(tag, r'\bandroid:name\s*=\s*"([^"]+)"')
+        if tag_name != name:
+            continue
+        value = regex_group(tag, r'\bandroid:value\s*=\s*"([^"]*)"')
+        if value is None:
+            raise RuntimeError(f'Manifest meta-data "{name}" must declare android:value.')
+        result.append(html.unescape(value))
+    return result
+
+
+def parse_optional_routing_value(value: str | None, *, source: str) -> str | None:
+    if value is None:
+        return None
+    normalized = value.strip()
+    if not ROUTING_VALUE_PATTERN.fullmatch(normalized):
+        raise RuntimeError(
+            f"{source} must be a 1-128 character routing identifier containing only "
+            "letters, digits, '.', '_' or '-'."
+        )
+    return normalized
+
+
+def resolve_requires_host_version(
+    *,
+    context: str,
+    res_values: dict[str, str],
+    strings_by_dir: dict[str, dict[str, str]],
+    manifest_values: list[str],
+) -> int | None:
+    candidates = []
+    resource_value = res_values.get(REQUIRES_HOST_VERSION_RESOURCE)
+    if resource_value is not None:
+        candidates.append(
+            (
+                f'{context} resValue("{REQUIRES_HOST_VERSION_RESOURCE}")',
+                resource_value,
+            )
+        )
+
+    for index, manifest_value in enumerate(manifest_values, start=1):
+        resolved = resolve_metadata_value(manifest_value, res_values, strings_by_dir)
+        if resolved is None:
+            raise RuntimeError(
+                f'{context} manifest meta-data "{REQUIRES_HOST_VERSION_MANIFEST}" '
+                f"#{index} has an unresolved value: {manifest_value!r}."
+            )
+        candidates.append(
+            (
+                f'{context} manifest meta-data "{REQUIRES_HOST_VERSION_MANIFEST}" #{index}',
+                resolved,
+            )
+        )
+
+    if not candidates:
+        return None
+
+    parsed = [
+        (source, parse_positive_long(value, source=source))
+        for source, value in candidates
+    ]
+    distinct = {value for _, value in parsed}
+    if len(distinct) != 1:
+        details = ", ".join(f"{source}={value}" for source, value in parsed)
+        raise RuntimeError(f"{context} has conflicting requiresHostVersion declarations: {details}.")
+    return parsed[0][1]
+
+
+def resolve_metadata_value(
+    value: str,
+    res_values: dict[str, str],
+    strings_by_dir: dict[str, dict[str, str]],
+) -> str | None:
+    normalized = value.strip()
+    if not normalized.startswith("@string/"):
+        return normalized
+    resource_name = normalized.removeprefix("@string/")
+    return res_values.get(resource_name) or choose_default_localized(
+        localized_string_map(strings_by_dir, resource_name)
+    )
+
+
+def parse_positive_long(value: str, *, source: str) -> int:
+    normalized = value.strip()
+    if not re.fullmatch(r"[1-9][0-9]*", normalized):
+        raise RuntimeError(f"{source} must be a positive decimal integer, got {value!r}.")
+    parsed = int(normalized)
+    if parsed > MAX_SIGNED_LONG:
+        raise RuntimeError(f"{source} exceeds the signed 64-bit range: {value!r}.")
+    return parsed
 
 
 def parse_application_id_from_build_gradle(text: str) -> str | None:
