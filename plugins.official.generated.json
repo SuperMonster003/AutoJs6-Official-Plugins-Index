@@ -227,8 +227,8 @@
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/mipmap-night/ic_launcher.png",
       "title": "MediaInfo",
       "description": "MediaInfo plugin for reading media file information",
       "localizedDescriptions": {
@@ -245,19 +245,19 @@
         "values-zh-rTW": "\u7528\u65bc\u8b80\u53d6\u5a92\u9ad4\u6a94\u6848\u8cc7\u8a0a\u7684 MediaInfo \u5916\u639b"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -267,41 +267,41 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.0",
-          "versionCode": 8,
-          "versionDate": "2026-07-15",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/tag/v1.0.0",
-          "changelogText": "* `\u65b0\u589e` MediaInfo \u63d2\u4ef6\u670d\u52a1, \u63d2\u4ef6 ID \u4e3a `mediainfo`, \u5f15\u64ce\u4e3a `mediainfo`\r\n* `\u65b0\u589e` \u652f\u6301\u901a\u8fc7 `org.autojs.plugin.MEDIAINFO` \u53d1\u73b0\u5e76\u8c03\u7528\u63d2\u4ef6\r\n* `\u65b0\u589e` \u652f\u6301 `inform`/`get`/`snapshot` \u80fd\u529b, \u53ef\u751f\u6210\u5b8c\u6574\u5a92\u4f53\u62a5\u544a, \u67e5\u8be2\u5355\u4e2a\u53c2\u6570, \u8f93\u51fa\u7ed3\u6784\u5316 JSON \u5feb\u7167\r\n* `\u65b0\u589e` \u5185\u7f6e `arm64-v8a`/`armeabi-v7a`/`x86_64`/`x86` \u7684 `libmediainfo.so`, \u5e76\u652f\u6301 `universal` \u901a\u7528\u5305\r\n* `\u65b0\u589e` \u63d2\u4ef6\u8fd0\u884c\u65f6\u4fe1\u606f\u4e0a\u62a5\u652f\u6301\u7684 ABI \u5217\u8868, \u53d1\u5e03 APK \u6587\u4ef6\u540d\u5305\u542b\u7248\u672c\u53f7/ABI \u53d8\u4f53\u548c CRC32 \u6458\u8981\r\n* `\u65b0\u589e` \u63d2\u4ef6\u4fe1\u606f, \u4f7f\u7528\u8bf4\u660e, README \u4e0e CHANGELOG \u7684\u591a\u8bed\u8a00\u8d44\u6e90: \u897f\u73ed\u7259\u8bed/\u6cd5\u8bed/\u4fc4\u8bed/\u963f\u62c9\u4f2f\u8bed/\u65e5\u8bed/\u97e9\u8bed/\u82f1\u8bed/\u7b80\u4f53\u4e2d\u6587/\u9999\u6e2f\u7e41\u4f53/\u53f0\u6e7e\u7e41\u4f53",
+          "versionName": "1.1.0",
+          "versionCode": 9,
+          "versionDate": "2026-08-31",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/tag/v1.1.0",
+          "changelogText": "## \u4e3b\u8981\u66f4\u65b0\n\n* `\u65b0\u589e` \u514d\u6574\u6587\u4ef6\u62f7\u8d1d\u89e3\u6790: \u53ef\u968f\u673a\u8bbf\u95ee\u7684\u5e38\u89c4\u6587\u4ef6\u63cf\u8ff0\u7b26\u901a\u8fc7 `/proc/self/fd` \u4ea4\u7531 MediaInfoLib \u76f4\u8bfb, \u7ba1\u9053\u6216\u76f4\u8bfb\u5931\u8d25\u65f6\u624d\u4f7f\u7528\u79c1\u6709\u4e34\u65f6\u526f\u672c\n* `\u65b0\u589e` \u8fdb\u7a0b\u5185\u7ed3\u679c\u7f13\u5b58: API 27+ \u5bf9\u5b8c\u6574\u62a5\u544a, \u5b57\u6bb5\u67e5\u8be2\u4e0e\u5feb\u7167\u91c7\u7528\u7a33\u5b9a\u6587\u4ef6\u8eab\u4efd, LRU, 10 \u5206\u949f\u6ed1\u52a8\u6709\u6548\u671f\u53ca\u4f4e\u5185\u5b58\u6e05\u7406, \u907f\u514d\u91cd\u590d\u89e3\u6790\n* `\u65b0\u589e` \u534f\u4f5c\u53d6\u6d88\u4e0e\u8d85\u65f6: \u6bcf\u6b21 AIDL \u8c03\u7528\u8bbe\u6709 30 \u79d2\u4e0a\u9650, \u8d85\u65f6\u4e2d\u6b62\u539f\u751f\u89e3\u6790\u6216\u56de\u9000\u590d\u5236, \u91ca\u653e\u4e34\u65f6\u8d44\u6e90\u5e76\u8fd4\u56de `MEDIAINFO_TIMEOUT`\n* `\u4fee\u590d` \u4fee\u590d\u5927\u6587\u4ef6\u5e38\u89c4\u63cf\u8ff0\u7b26\u88ab\u4e0d\u5fc5\u8981\u5730\u6574\u6587\u4ef6\u590d\u5236\u7684\u95ee\u9898, \u5e76\u4fdd\u8bc1\u6210\u529f, \u5931\u8d25, \u53c2\u6570\u6821\u9a8c, \u53d6\u6d88\u548c\u8d85\u65f6\u8def\u5f84\u5747\u5173\u95ed\u63cf\u8ff0\u7b26\u4e0e\u56de\u9000\u6587\u4ef6\n* `\u4fee\u590d` \u4fee\u590d\u7f13\u5b58\u5bf9\u5feb\u901f\u6587\u4ef6\u4fee\u6539\u7684\u8bc6\u522b\u7cbe\u5ea6: \u4f7f\u7528\u7eb3\u79d2\u7ea7 mtime / ctime, \u5e76\u5728 API 24-26 \u4fdd\u5b88\u7981\u7528\u7f13\u5b58\u590d\u7528\n* `\u4f18\u5316` ABI \u4e0a\u62a5\u6309\u5df2\u5b89\u88c5 base / split APK \u4e2d\u5b9e\u9645\u5b58\u5728\u7684 `libmediainfo.so` \u52a8\u6001\u751f\u6210, \u5e76\u4fdd\u7559\u5b89\u5168\u7684\u8fdb\u7a0b ABI \u56de\u9000\n* `\u4f18\u5316` \u589e\u5f3a\u5feb\u7167\u5c0f\u8282\u89e3\u6790, \u6b63\u786e\u5904\u7406\u91cd\u590d\u548c\u7f16\u53f7\u6d41, \u7578\u5f62\u884c, \u503c\u5185\u5192\u53f7, \u91cd\u590d\u5b57\u6bb5\u4e0e\u72ec\u7acb\u8f93\u51fa\u9009\u9879\n* `\u4f18\u5316` \u52a0\u5165\u53ef\u590d\u73b0\u7684\u5408\u6210\u57fa\u51c6\u4e0e\u771f\u5b9e\u5a92\u4f53\u9a8c\u8bc1\u5de5\u5177, \u5e76\u8bb0\u5f55 x86, x86_64 \u4e0e ARM64 \u7684\u5b8c\u6574\u6027\u80fd\u57fa\u7ebf\n* `\u4f18\u5316` \u91cd\u5efa 10 \u8bed\u8a00 README, \u63d2\u4ef6\u4f7f\u7528\u8bf4\u660e\u4e0e\u66f4\u65b0\u65e5\u5fd7\u751f\u6210\u94fe\u8def, \u52a0\u5165\u6f02\u79fb\u6821\u9a8c\u548c GitHub Actions \u95e8\u7981\n\n## \u53d1\u5e03\u9a8c\u8bc1\n\n* GitHub Actions: [Build integrity](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/actions/runs/33371964450) \u4e0e [Markdown integrity](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/actions/runs/33371964491) \u5168\u90e8\u901a\u8fc7\n* JVM \u5355\u5143\u6d4b\u8bd5 26/26 \u901a\u8fc7; API 36 x86_64 \u6a21\u62df\u5668\u670d\u52a1\u53d1\u73b0\u4e0e Binder \u5f80\u8fd4\u6d4b\u8bd5 3/3 \u901a\u8fc7\n* API 29 x86, API 31 ARM64 \u4e0e API 36 x86_64 \u5b8c\u6574\u5408\u6210\u57fa\u51c6\u901a\u8fc7; ARM64 \u771f\u5b9e\u5a92\u4f53\u77e9\u9635\u901a\u8fc7\n* QV770340J7 \u5b9e\u4f53\u673a\u9a8c\u8bc1 19.37 GiB MP4 \u4e0e 77.97 GiB MKV: \u51b7\u89e3\u6790\u5206\u522b\u4e3a 137.417 ms \u4e0e 177.211 ms, \u7f13\u5b58\u547d\u4e2d\u5206\u522b\u4e3a 0.258 ms \u4e0e 0.480 ms; \u51b7/\u70ed\u7ed3\u679c\u4e00\u81f4, \u6d4b\u8bd5\u5a92\u4f53\u5df2\u6e05\u7406\n* \u4e94\u4e2a APK \u5747\u4e3a `versionName=1.1.0`, `versionCode=9`, \u4f7f\u7528\u4e0e v1.0.0 \u76f8\u540c\u8bc1\u4e66\u7b7e\u540d\u5e76\u901a\u8fc7 16 KiB ZIP \u5bf9\u9f50\u9a8c\u8bc1\n\n## APK SHA-256\n\n| \u5b89\u88c5\u5305 | SHA-256 |\n|---|---|\n| `autojs6-plugin-mediainfo-v1.1.0-arm64-v8a-9cd4ab29.apk` | `c75f71667cba5b3275dd19e899cca4610babea7350b2b8473ae3dd701a16962f` |\n| `autojs6-plugin-mediainfo-v1.1.0-armeabi-v7a-be9a4163.apk` | `cfd7846f48e173cddeafbe20d857c672df416ce86ee67c173c7841b5c704e988` |\n| `autojs6-plugin-mediainfo-v1.1.0-universal-70737cf9.apk` | `a495e49bbfa75af5691bd42e6a834735af1d22fd4235f03e5f9fc6b677249f1c` |\n| `autojs6-plugin-mediainfo-v1.1.0-x86_64-d9c7c1f3.apk` | `8fb79fbef75dc3e97ec40ad56efd824f4fe378457176c24b415216aa0d6ad5c1` |\n| `autojs6-plugin-mediainfo-v1.1.0-x86-00b286eb.apk` | `669e0ee418a1357c98696f3606f7c2c6707c3f9472df9b8a743c95c11f38b1b7` |",
           "assets": [
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-arm64-v8a-4cb77740.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-arm64-v8a-4cb77740.apk",
-              "size": 2586126,
-              "digest": "sha256:6da81b8bac2018eb99ba115ff3e3640d0a81586e00e020ea14b4ecd90ad0b11c"
+              "name": "autojs6-plugin-mediainfo-v1.1.0-arm64-v8a-9cd4ab29.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.1.0/autojs6-plugin-mediainfo-v1.1.0-arm64-v8a-9cd4ab29.apk",
+              "size": 2629056,
+              "digest": "sha256:c75f71667cba5b3275dd19e899cca4610babea7350b2b8473ae3dd701a16962f"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-armeabi-v7a-8e6804c4.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-armeabi-v7a-8e6804c4.apk",
-              "size": 2149382,
-              "digest": "sha256:f35d2caeb8390c388cab668bf458decd3d1452f0e96b2d22d0a47dcfe26f0774"
+              "name": "autojs6-plugin-mediainfo-v1.1.0-armeabi-v7a-be9a4163.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.1.0/autojs6-plugin-mediainfo-v1.1.0-armeabi-v7a-be9a4163.apk",
+              "size": 2192312,
+              "digest": "sha256:cfd7846f48e173cddeafbe20d857c672df416ce86ee67c173c7841b5c704e988"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-universal-4c49f434.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-universal-4c49f434.apk",
-              "size": 9819197,
-              "digest": "sha256:d990d4ab93f93c606516b530a2f7d69ad082585b0254d54e8733316205b3299c"
+              "name": "autojs6-plugin-mediainfo-v1.1.0-universal-70737cf9.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.1.0/autojs6-plugin-mediainfo-v1.1.0-universal-70737cf9.apk",
+              "size": 9862127,
+              "digest": "sha256:a495e49bbfa75af5691bd42e6a834735af1d22fd4235f03e5f9fc6b677249f1c"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-x86-a58e48f1.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-x86-a58e48f1.apk",
-              "size": 2505070,
-              "digest": "sha256:e6519b8adfd521d0cb1b1c6749bbd20103343d6ec8d843b70aae52fe02cf5d94"
+              "name": "autojs6-plugin-mediainfo-v1.1.0-x86-00b286eb.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.1.0/autojs6-plugin-mediainfo-v1.1.0-x86-00b286eb.apk",
+              "size": 2548000,
+              "digest": "sha256:669e0ee418a1357c98696f3606f7c2c6707c3f9472df9b8a743c95c11f38b1b7"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-x86_64-6ceb1619.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-x86_64-6ceb1619.apk",
-              "size": 2765788,
-              "digest": "sha256:f6ccd56b18e760b6923c3d640886707d53f016fc087dc41e7765a34f7746cb04"
+              "name": "autojs6-plugin-mediainfo-v1.1.0-x86_64-d9c7c1f3.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.1.0/autojs6-plugin-mediainfo-v1.1.0-x86_64-d9c7c1f3.apk",
+              "size": 2808718,
+              "digest": "sha256:8fb79fbef75dc3e97ec40ad56efd824f4fe378457176c24b415216aa0d6ad5c1"
             }
           ]
         }
