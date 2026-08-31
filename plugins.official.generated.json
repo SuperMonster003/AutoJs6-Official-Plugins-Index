@@ -2613,8 +2613,8 @@
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/mipmap-night/ic_launcher.png",
       "title": "3-Terra Player",
       "description": "Audio player plugin and standalone app. Play audio right from the AutoJs6 file manager or on its own, with background playback",
       "localizedDescriptions": {
@@ -2631,19 +2631,19 @@
         "values-zh-rTW": "\u97f3\u8a0a\u64ad\u653e\u5916\u639b\u7a0b\u5f0f\u8207\u7368\u7acb\u61c9\u7528\u7a0b\u5f0f. \u5f9e AutoJs6 \u6a94\u6848\u7ba1\u7406\u5668\u4e00\u9375\u64ad\u653e\u97f3\u8a0a, \u4e5f\u53ef\u7368\u7acb\u4f7f\u7528, \u652f\u63f4\u80cc\u666f\u64ad\u653e"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.4.1/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -2653,17 +2653,17 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.4.1",
-          "versionCode": 13,
+          "versionName": "1.5.0",
+          "versionCode": 14,
           "versionDate": "2026-08-31",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/tag/v1.4.1",
-          "changelogText": "### \u65b0\u529f\u80fd\n\n- \u4ece\u542f\u52a8\u5668\u91cd\u65b0\u6253\u5f00\u72ec\u7acb\u5e94\u7528\u65f6\uff0c\u6062\u590d\u6700\u8fd1\u961f\u5217\u3001\u5f53\u524d\u66f2\u76ee\u3001\u505c\u6b62\u4f4d\u7f6e\u3001\u5faa\u73af\u6a21\u5f0f\u3001\u968f\u673a\u72b6\u6001\u4e0e\u500d\u901f\u3002\n- \u6062\u590d\u540e\u4fdd\u6301\u6682\u505c\uff0c\u4e14\u53ea\u6062\u590d\u4ecd\u6301\u6709\u7cfb\u7edf\u957f\u671f\u53ea\u8bfb\u6388\u6743\u7684\u961f\u5217\uff0c\u6700\u591a 128 \u9996\u3001\u6700\u957f\u4fdd\u7559 30 \u5929\u3002\n\n### \u4fee\u590d\n\n- \u4fee\u590d\u64ad\u653e\u5668\u53f3\u4e0a\u89d2\u66f4\u591a\u83dc\u5355\u5728\u90e8\u5206\u4e3b\u9898\u4e0b\u51fa\u73b0\u767d\u5e95\u767d\u5b57\u3001\u65e0\u6cd5\u8fa8\u8ba4\u83dc\u5355\u9879\u7684\u95ee\u9898\u3002\n\n### \u6539\u8fdb\n\n- \u4e3b\u9898\u8272\u6765\u6e90\u7edf\u4e00\u8868\u8ff0\u4e3a\u201c\u8ddf\u968f AutoJs6\u201d\uff1b\u989c\u8272\u9009\u62e9\u9762\u677f\u76f4\u63a5\u663e\u793a\u5bbf\u4e3b\u989c\u8272 HEX \u503c\u3002\n- \u5b8c\u6210\u5341\u8bed\u8a00 README\u3001CHANGELOG \u548c\u63d2\u4ef6\u8bf4\u660e\u7684\u57fa\u7840\u4eba\u5de5\u590d\u6838\u3002\n- \u6587\u6863\u751f\u6210\u6f02\u79fb\u68c0\u67e5\u63a5\u5165 Gradle preBuild \u4e0e GitHub Actions\u3002\n\n### \u9a8c\u8bc1\n\n- JVM\u3001Android \u4eea\u5668\u5316\u3001R8\u3001\u7b7e\u540d v2\u3001ZIP \u5bf9\u9f50\u548c API 33 \u51b7\u542f\u52a8\u6062\u590d\u5747\u901a\u8fc7\u3002\n- \u7528\u6237\u5df2\u786e\u8ba4\u6709\u7ebf/\u65e0\u7ebf\u8033\u673a\u5355\u51fb\u3001\u53cc\u51fb\u3001\u4e09\u51fb\u6b63\u5e38\uff1bTalkBack \u548c RTL \u6b63\u5e38\u3002\n- v1.4.1 \u7684\u66f4\u591a\u83dc\u5355\u4e0e\u4f1a\u8bdd\u6062\u590d\u4ecd\u5f85\u771f\u5b9e\u8bbe\u5907\u6700\u7ec8\u590d\u6d4b\u3002\n\n### APK\n\n- \u6587\u4ef6\uff1aautojs6-plugin-three-terra-player-v1.4.1-2fbfe8b6.apk\n- \u5927\u5c0f\uff1a2,768,505 bytes\n- SHA-256\uff1aA36B5B359ED72E118A2F1B752D7BB9A48B90A617190347F3E3E5938E6BA0AA42\n- APK Signature Scheme v2 / ZIP \u5bf9\u9f50\uff1a\u901a\u8fc7",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/tag/v1.5.0",
+          "changelogText": "### \u65b0\u529f\u80fd\n\n- \u4ece\u4e13\u8f91\u5c01\u9762\u52a8\u6001\u63d0\u53d6\u4e3b\u8272\uff0c\u4e3a\u4eae\u8272\u4e0e\u6697\u8272\u6a21\u5f0f\u751f\u6210\u64ad\u653e\u5668\u80cc\u666f\u3001\u5de5\u5177\u680f\u3001\u63a7\u4ef6\u548c\u961f\u5217\u9762\u677f\u8c03\u8272\u677f\uff1b\u65e0\u5c01\u9762\u65f6\u5b89\u5168\u56de\u9000\u5230\u5f53\u524d\u4e3b\u9898\u8272\u3002\n- \u5168\u5e94\u7528\u542f\u7528 edge-to-edge\uff0c\u9002\u914d\u72b6\u6001\u680f\u3001\u5218\u6d77\u3001\u6a2a\u5411\u5b89\u5168\u533a\u3001\u4e09\u952e\u5bfc\u822a\u4e0e\u624b\u52bf\u533a\u57df\uff0c\u5e76\u4fdd\u7559 Android 7 \u7684\u53ef\u8bfb\u5bfc\u822a\u680f\u56de\u9000\u3002\n- \u65b0\u589e\u9ed8\u8ba4\u500d\u901f\u3001\u5feb\u9000\u5feb\u8fdb\u6b65\u957f\uff085 / 10 / 15 / 30 \u79d2\uff09\u548c\u961f\u5217\u5b8c\u6210\u884c\u4e3a\uff08\u505c\u6b62 / \u56de\u5230\u5f00\u5934\u5e76\u6682\u505c / \u91cd\u64ad\u961f\u5217\uff09\uff0c\u8bbe\u7f6e\u6301\u4e45\u5316\u5e76\u5373\u65f6\u751f\u6548\u3002\n\n### \u4fee\u590d\n\n- \u5c06\u201c\u8bed\u8a00\u201d\u201c\u591c\u95f4\u6a21\u5f0f\u201d\u53ca\u9ad8\u7ea7\u8bbe\u7f6e\u5bf9\u8bdd\u6846\u7684\u5217\u8868\u9879\u8c03\u6574\u4e3a Material Body1 \u8bed\u4e49\u7684 16sp\uff0c\u89e3\u51b3\u5b57\u4f53\u8fc7\u5927\u7684\u95ee\u9898\u3002\n\n### \u6539\u8fdb\n\n- \u589e\u52a0\u5c01\u9762\u5165\u573a\u3001\u64ad\u653e/\u6682\u505c\u72b6\u6001\u8fc7\u6e21\u4e0e\u5173\u952e\u64ad\u653e\u64cd\u4f5c\u89e6\u611f\u53cd\u9988\uff0c\u5e76\u5c0a\u91cd\u7cfb\u7edf\u52a8\u753b\u548c\u89e6\u611f\u5f00\u5173\u3002\n- \u5b8c\u6210\u96f6\u5f55\u97f3\u6743\u9650\u7684\u64ad\u653e\u53ef\u89c6\u5316\u65b9\u6848\u8c03\u7814\u4e0e PCM/RMS \u539f\u578b\uff1bM6 \u4e0d\u5f15\u5165 RECORD_AUDIO \u6216\u5b58\u50a8\u6743\u9650\u3002\n- \u5341\u8bed\u8a00 README\u3001CHANGELOG\u3001\u63d2\u4ef6\u8bf4\u660e\u548c\u5341\u4e00\u5957 Android \u8d44\u6e90\u540c\u6b65\u66f4\u65b0\u3002\n\n### \u9a8c\u8bc1\n\n- JVM policy \u6d4b\u8bd5\u3001Android API 24 / 36 \u4eea\u5668\u6d4b\u8bd5\u3001Android Lint\uff080 errors\uff09\u548c\u5341\u8bed\u8a00\u6587\u6863\u95e8\u7981\u5168\u90e8\u901a\u8fc7\u3002\n- v1.5.0 R8 \u5305\u5df2\u5728 API 36 \u8986\u76d6\u5b89\u88c5\uff0c\u7ea2/\u84dd\u5c01\u9762\u52a8\u6001\u53d6\u8272\u3001\u961f\u5217\u91cd\u64ad\u3001\u56de\u5230\u5f00\u5934\u5e76\u6682\u505c\u53ca edge-to-edge \u5747\u5b8c\u6210\u7aef\u5230\u7aef\u9a8c\u8bc1\u3002\n\n### APK\n\n- \u6587\u4ef6\uff1aautojs6-plugin-three-terra-player-v1.5.0-eb308d97.apk\n- \u5927\u5c0f\uff1a2,797,377 bytes\n- SHA-256\uff1aB280163AC2883A04713CF5124C640D80D32C392010526C90C1FE48E51FC85C10\n- APK Signature Scheme v2\uff1b\u8bc1\u4e66\u4e0e\u65e2\u6709\u6b63\u5f0f\u7248\u672c\u4e00\u81f4",
           "assets": [
             {
-              "name": "autojs6-plugin-three-terra-player-v1.4.1-2fbfe8b6.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/download/v1.4.1/autojs6-plugin-three-terra-player-v1.4.1-2fbfe8b6.apk",
-              "size": 2768505,
-              "digest": "sha256:a36b5b359ed72e118a2f1b752d7bb9a48b90a617190347f3e3e5938e6ba0aa42"
+              "name": "autojs6-plugin-three-terra-player-v1.5.0-eb308d97.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/download/v1.5.0/autojs6-plugin-three-terra-player-v1.5.0-eb308d97.apk",
+              "size": 2797377,
+              "digest": "sha256:b280163ac2883a04713cf5124c640d80d32c392010526c90c1fe48e51fc85c10"
             }
           ]
         }
