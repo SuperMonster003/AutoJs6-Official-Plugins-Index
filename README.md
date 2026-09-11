@@ -2,6 +2,10 @@
 
 This repository stores the generated official AutoJs6 plugins index consumed by AutoJs6 Plugin Center.
 
+[Native page alignment metadata](docs/native-page-alignment.md) documents the optional
+`nativePageAlignment` / `nativePageAlignmentSource` fields, release-asset measurement,
+SHA-256 receipts and the distinction between unknown metadata and pure JVM plugins.
+
 Run the following command after publishing or updating official AutoJs6 plugin repositories:
 
 ```sh

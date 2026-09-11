@@ -11,6 +11,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
+from native_page_alignment import release_alignment
 
 
 OFFICIAL_OWNER = "SuperMonster003"
@@ -38,6 +39,7 @@ CONTRACT_DECLARATIONS = {
     "task": ("plugin_task", "org.autojs.plugin.contract.TASK"),
     "decoder": ("plugin_decoder", "org.autojs.plugin.contract.DECODER"),
     "supportedAbis": ("plugin_supported_abis", "org.autojs.plugin.contract.SUPPORTED_ABIS"),
+    "nativePageAlignment": ("plugin_native_page_alignment", "org.autojs.plugin.contract.NATIVE_PAGE_ALIGNMENT"),
 }
 REQUIRES_HOST_VERSION_RESOURCE = CONTRACT_DECLARATIONS["requiresHostVersion"][0]
 ROUTING_VALUE_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}")
@@ -86,12 +88,25 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Generate the AutoJs6 official plugins index.")
     parser.add_argument("--output", type=Path, default=Path(OUTPUT_FILE))
     parser.add_argument("--admission-root", type=Path, default=DEFAULT_ADMISSION_ROOT)
+    parser.add_argument("--native-cache", type=Path, default=Path(".cache/native-alignment"))
+    parser.add_argument("--augment-native-alignment", action="store_true", help="Measure assets in the existing index without refreshing unrelated metadata")
     args = parser.parse_args()
+
+    if args.augment_native_alignment:
+        payload = json.loads(args.output.read_text(encoding="utf-8"))
+        for item in payload["items"]:
+            for release in item.get("releases", []):
+                declared = release.get("nativePageAlignment") if release.get("nativePageAlignmentSource") == "declared" else None
+                release.update(release_alignment(release.get("assets", []), declared, cache_root=args.native_cache))
+            copy_latest_native_alignment(item)
+            print(f"Measured {item['packageName']}: {item.get('nativePageAlignment', 'unknown')}", flush=True)
+        args.output.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+        return 0
 
     repos = fetch_official_repos()
     items = []
     for repo in repos:
-        items.extend(build_entries(repo, admission_root=args.admission_root))
+        items.extend(build_entries(repo, admission_root=args.admission_root, native_cache=args.native_cache))
 
     payload = build_payload(items)
     args.output.write_text(
@@ -139,7 +154,7 @@ def fetch_official_repos() -> list[dict]:
     return sorted(repos, key=lambda repo: str(repo.get("name", "")).lower())
 
 
-def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION_ROOT) -> list[dict]:
+def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION_ROOT, native_cache: Path | None = None) -> list[dict]:
     owner = repo.get("owner", {}).get("login") or OFFICIAL_OWNER
     repo_name = repo.get("name")
     branch = repo.get("default_branch") or "master"
@@ -169,6 +184,7 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
         manifest_text=manifest_text,
         build_gradle=build_gradle,
         admission_root=admission_root,
+        native_cache=native_cache,
     )
 
 
@@ -186,6 +202,7 @@ def build_entries_from_release(
     admission_root: Path | None = None,
     admission_manifest_text: str | None = None,
     source_commit: str | None = None,
+    native_cache: Path | None = None,
 ) -> list[dict]:
 
     base_package_name = (
@@ -280,6 +297,7 @@ def build_entries_from_release(
             "task": parse_contract_identifier,
             "decoder": parse_contract_identifier,
             "supportedAbis": parse_supported_abis,
+            "nativePageAlignment": parse_native_alignment,
         }
         contract = {
             field: resolve_optional_declared_value(
@@ -365,6 +383,10 @@ def build_entries_from_release(
             "changelogText": str(release.get("body") or "").strip() or None,
             "assets": bound_assets,
         }
+        if native_cache is not None:
+            release_entry.update(release_alignment(bound_assets, contract["nativePageAlignment"], cache_root=native_cache))
+        elif contract["nativePageAlignment"] is not None:
+            release_entry.update(nativePageAlignment=contract["nativePageAlignment"], nativePageAlignmentSource="declared")
 
         entry = {
             "packageName": package_name,
@@ -397,8 +419,26 @@ def build_entries_from_release(
             "tags": ["official"],
             "source": "OFFICIAL",
         }
+        copy_latest_native_alignment(entry)
         entries.append(prune_nulls(entry))
     return entries
+
+
+def parse_native_alignment(value: str, *, source: str) -> int:
+    if not re.fullmatch(r"0|[1-9][0-9]*", str(value)):
+        raise RuntimeError(f"{source} must be zero or a positive power of two.")
+    result = int(value)
+    if result > MAX_SIGNED_LONG or result & (result - 1):
+        raise RuntimeError(f"{source} must be zero or a positive power of two.")
+    return result
+
+
+def copy_latest_native_alignment(item: dict):
+    latest = max(item.get("releases", []), key=lambda r: int(r.get("versionCode") or 0), default={})
+    for field in ("nativePageAlignment", "nativePageAlignmentSource"):
+        item.pop(field, None)
+        if field in latest:
+            item[field] = latest[field]
 
 
 def fetch_tree_paths(owner: str, repo: str, ref: str) -> set[str]:
