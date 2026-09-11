@@ -71,13 +71,17 @@
               "size": 89086924,
               "digest": "sha256:4b92248198724573ded8fc193f36900b94c9ffab9fb19dd282153e816ce03595"
             }
-          ]
+          ],
+          "nativePageAlignment": 4096,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
@@ -157,7 +161,9 @@
               "size": 2765788,
               "digest": "sha256:f6ccd56b18e760b6923c3d640886707d53f016fc087dc41e7765a34f7746cb04"
             }
-          ]
+          ],
+          "nativePageAlignment": 4096,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -169,7 +175,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mlkit.barcode",
@@ -249,7 +257,9 @@
               "size": 4396022,
               "digest": "sha256:281c924a393c433b3cc4fa85921d19d7afed3bf54ead01b89f89f44f15181352"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -261,7 +271,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mlkitocr",
@@ -335,7 +347,9 @@
               "size": 7666805,
               "digest": "sha256:3631c5df4928bbb8c657a0d9b3c680c1d39260dffc80906d17e5d4f7fd9eae2a"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -346,7 +360,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
@@ -416,7 +432,9 @@
               "size": 28704395,
               "digest": "sha256:72c84eeb3f67ac8605d8589b2279fe732783a14f90d3d52a41fc38355a8fa5c1"
             }
-          ]
+          ],
+          "nativePageAlignment": 4096,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -427,7 +445,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
@@ -507,7 +527,9 @@
               "size": 969812,
               "digest": "sha256:7dcfae08d2a8979b78404a2fe6c9ebeb2ceaff095e31c4a92c99371a3f31a823"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -519,7 +541,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v3",
@@ -586,7 +610,9 @@
               "size": 64261906,
               "digest": "sha256:6834400c7282f11c0c35d6fdef27c1ad438bb2bcec4f7b86c65cc2b0aa914aac"
             }
-          ]
+          ],
+          "nativePageAlignment": 4096,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -596,7 +622,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v4.mobile",
@@ -664,7 +692,9 @@
               "size": 41218169,
               "digest": "sha256:04aead20d23d5b225857073375376ae42a1f60d6ddb9628289f487db010d416c"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -674,7 +704,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v4.server",
@@ -742,7 +774,9 @@
               "size": 206236613,
               "digest": "sha256:ff7dafa7283811649b435e52943041f3c06ee87f14281e1a19d45a6704138cad"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -752,7 +786,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v4.mobile.en",
@@ -820,7 +856,9 @@
               "size": 38331387,
               "digest": "sha256:ee033a11ad76e7be27aa27550c4d1064a9c0fde08e0cf8075afd28eae205d047"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -830,7 +868,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5",
@@ -898,7 +938,9 @@
               "size": 45489745,
               "digest": "sha256:bd679dc48f476cf1e6b59417987de4ac720fc4a97aaee94b4d5fdbf8fa63109f"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -908,7 +950,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.server",
@@ -976,7 +1020,9 @@
               "size": 182487277,
               "digest": "sha256:30f17443c15706593bda2976d5a4df5b7cae2da010c282c02910f9edccde0329"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -986,7 +1032,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.english",
@@ -1054,7 +1102,9 @@
               "size": 38621971,
               "digest": "sha256:36dbe35fa1a43235909f802fea51a181d223917b67636b2890452e4a3fdf5430"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1064,7 +1114,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.korean",
@@ -1132,7 +1184,9 @@
               "size": 39718645,
               "digest": "sha256:b87b871d26000b7c168da7373d7b8917c3ccd436a793c7f808f108c503c1e942"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1142,7 +1196,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.latin",
@@ -1210,7 +1266,9 @@
               "size": 38714151,
               "digest": "sha256:b759f56252684ae3c961098348e286c7504f7916b39b45d95236c04a76236bfa"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1220,7 +1278,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.eslav",
@@ -1288,7 +1348,9 @@
               "size": 38691383,
               "digest": "sha256:008e469e660aba51601893b9c6a7e5c1616e6533a2224a24217e82d50c36c1a3"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1298,7 +1360,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.thai",
@@ -1366,7 +1430,9 @@
               "size": 38667193,
               "digest": "sha256:14dc7f92c0cda1ba1e614e7ea90268bbc19121a59a216eec437b9ace0c70eec3"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1376,7 +1442,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.greek",
@@ -1444,7 +1512,9 @@
               "size": 38598839,
               "digest": "sha256:9080050e46a8beba9a685cf5506367cd709b11974daf1e28174a87b1c3f82120"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1454,7 +1524,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.arabic",
@@ -1522,7 +1594,9 @@
               "size": 38734549,
               "digest": "sha256:641ac485e8cc3d17ab59fc2a1de9857e933788d237705ef5e9dad6240bc77b22"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1532,7 +1606,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.cyrillic",
@@ -1600,7 +1676,9 @@
               "size": 38738329,
               "digest": "sha256:df9e0dba19b8167dd3047d7c9b28499f30d4bba61f3da43e701dd841bfee59d8"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1610,7 +1688,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.devanagari",
@@ -1678,7 +1758,9 @@
               "size": 38649085,
               "digest": "sha256:76a45efe153b5f5ba63713aeb0b9ad54a038ad20d90c70941e70e1010a4cc6e4"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1688,7 +1770,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.telugu",
@@ -1756,7 +1840,9 @@
               "size": 38643865,
               "digest": "sha256:3415a6448d98f874645eb8ff4b231b015bba854b586102f3fc15130eb5b2aca9"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1766,7 +1852,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.tamil",
@@ -1834,7 +1922,9 @@
               "size": 38646283,
               "digest": "sha256:34c4c2cb3e14b82f6c2fefa7ca94c61681b639b26ba9586cbfb3aaf7ae04aadf"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1844,7 +1934,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v6.tiny",
@@ -1913,7 +2005,9 @@
               "size": 32572700,
               "digest": "sha256:cffeeebbb3b612797a7a4ecb1ca7251ad6491f41a93a515dc419513fa774db83"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -1923,7 +2017,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v6.small",
@@ -1992,7 +2088,9 @@
               "size": 52958420,
               "digest": "sha256:78edc578ff4c01351358141872f45993842d2c34cf1f2163e72fe34cde307426"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -2002,7 +2100,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v6.medium",
@@ -2071,7 +2171,9 @@
               "size": 127415928,
               "digest": "sha256:d98ebb95a089f49a051852b60ce085637af3aa9d6d9283538e2cd6f1dae979ba"
             }
-          ]
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -2081,7 +2183,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.pinyin",
@@ -2137,13 +2241,17 @@
               "size": 6218477,
               "digest": "sha256:352e8075171bf9cfec99161fe9a0f67fc5548c6284abc6c9cb603359c048abaf"
             }
-          ]
+          ],
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.pinyin4j",
@@ -2199,13 +2307,17 @@
               "size": 312757,
               "digest": "sha256:1219d4b0edb59fd283c3c4c120f2c1184dcfa225ef488a5cdec4d924f09f2ac2"
             }
-          ]
+          ],
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.python.runtime",
@@ -2329,7 +2441,9 @@
               "size": 21125857,
               "digest": "sha256:8428b4f8b17122b9ebff357def7c5efe4cd33ffa839a2d9451ecb74c66098d4c"
             }
-          ]
+          ],
+          "nativePageAlignment": 4096,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -2340,7 +2454,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6",
@@ -2414,7 +2530,9 @@
               "size": 36581171,
               "digest": "sha256:cc19ff969628b8a8ecd58564e61b7cebac49529ca81fabc4a51362f0b2008016"
             }
-          ]
+          ],
+          "nativePageAlignment": 4096,
+          "nativePageAlignmentSource": "measured"
         }
       ],
       "supportedAbis": [
@@ -2425,7 +2543,9 @@
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
     }
   ]
 }
