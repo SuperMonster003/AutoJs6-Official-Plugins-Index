@@ -84,82 +84,172 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "MediaInfo",
-      "description": "MediaInfo plugin for reading media file information",
+      "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
+      "title": "Bun Runtime",
+      "description": "Runs JavaScript and TypeScript with the independent Bun engine in an isolated Android process",
       "localizedDescriptions": {
-        "values": "MediaInfo plugin for reading media file information",
-        "values-ar": "\u0645\u0643\u0648\u0646 MediaInfo \u0627\u0644\u0625\u0636\u0627\u0641\u064a \u0644\u0642\u0631\u0627\u0621\u0629 \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0645\u0644\u0641\u0627\u062a \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
-        "values-en": "MediaInfo plugin for reading media file information",
-        "values-es": "Plugin MediaInfo para leer informaci\u00f3n de archivos multimedia",
-        "values-fr": "Plugin MediaInfo pour lire les informations des fichiers multim\u00e9dias",
-        "values-ja": "\u30e1\u30c7\u30a3\u30a2\u30d5\u30a1\u30a4\u30eb\u60c5\u5831\u3092\u8aad\u307f\u53d6\u308b MediaInfo \u30d7\u30e9\u30b0\u30a4\u30f3",
-        "values-ko": "\ubbf8\ub514\uc5b4 \ud30c\uc77c \uc815\ubcf4\ub97c \uc77d\ub294 MediaInfo \ud50c\ub7ec\uadf8\uc778",
-        "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d MediaInfo \u0434\u043b\u044f \u0447\u0442\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u043c\u0435\u0434\u0438\u0430\u0444\u0430\u0439\u043b\u0430\u0445",
-        "values-zh": "\u7528\u4e8e\u8bfb\u53d6\u5a92\u4f53\u6587\u4ef6\u4fe1\u606f\u7684 MediaInfo \u63d2\u4ef6",
-        "values-zh-rHK": "\u7528\u65bc\u8b80\u53d6\u5a92\u9ad4\u6587\u4ef6\u4fe1\u606f\u7684 MediaInfo \u63d2\u4ef6",
-        "values-zh-rTW": "\u7528\u65bc\u8b80\u53d6\u5a92\u9ad4\u6a94\u6848\u8cc7\u8a0a\u7684 MediaInfo \u5916\u639b"
+        "values": "Runs JavaScript and TypeScript with the independent Bun engine in an isolated Android process",
+        "values-ar": "\u064a\u0634\u063a\u0644 JavaScript \u0648 TypeScript \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u062d\u0631\u0643 Bun \u0627\u0644\u0645\u0633\u062a\u0642\u0644 \u062f\u0627\u062e\u0644 \u0639\u0645\u0644\u064a\u0629 Android \u0645\u0639\u0632\u0648\u0644\u0629",
+        "values-en": "Runs JavaScript and TypeScript with the independent Bun engine in an isolated Android process",
+        "values-es": "Ejecuta JavaScript y TypeScript con el motor Bun independiente en un proceso Android aislado",
+        "values-fr": "Ex\u00e9cute JavaScript et TypeScript avec le moteur Bun ind\u00e9pendant dans un processus Android isol\u00e9",
+        "values-ja": "\u72ec\u7acb\u3057\u305f Android \u30d7\u30ed\u30bb\u30b9\u3067 Bun \u30a8\u30f3\u30b8\u30f3\u3092\u4f7f\u3063\u3066 JavaScript \u3068 TypeScript \u3092\u5b9f\u884c\u3057\u307e\u3059",
+        "values-ko": "\uaca9\ub9ac\ub41c Android \ud504\ub85c\uc138\uc2a4\uc5d0\uc11c \ub3c5\ub9bd Bun \uc5d4\uc9c4\uc73c\ub85c JavaScript\uc640 TypeScript\ub97c \uc2e4\ud589\ud569\ub2c8\ub2e4",
+        "values-ru": "\u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442 JavaScript \u0438 TypeScript \u0432 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u043c \u0434\u0432\u0438\u0436\u043a\u0435 Bun \u0432 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435 Android",
+        "values-zh": "\u5728\u9694\u79bb\u7684 Android \u8fdb\u7a0b\u4e2d\u4f7f\u7528\u72ec\u7acb Bun \u5f15\u64ce\u8fd0\u884c JavaScript \u548c TypeScript",
+        "values-zh-rHK": "\u5728\u9694\u96e2\u7684 Android \u7a0b\u5e8f\u4e2d\u4f7f\u7528\u7368\u7acb Bun \u5f15\u64ce\u57f7\u884c JavaScript \u548c TypeScript",
+        "values-zh-rTW": "\u5728\u9694\u96e2\u7684 Android \u884c\u7a0b\u4e2d\u4f7f\u7528\u7368\u7acb Bun \u5f15\u64ce\u57f7\u884c JavaScript \u548c TypeScript"
       },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionHardCoded": "Put \\\"bun\\\"; alone on the first line of a JS or TS file, then run it from AutoJs6 as usual. Each run executes that single file only: npm dependencies are never auto-installed, and AutoJs6 built-in functions are not available inside Bun scripts.",
+      "localizedInstructionHardCoded": {
+        "values": "Put \\\"bun\\\"; alone on the first line of a JS or TS file, then run it from AutoJs6 as usual. Each run executes that single file only: npm dependencies are never auto-installed, and AutoJs6 built-in functions are not available inside Bun scripts.",
+        "values-ar": "\u0636\u0639 \\\"bun\\\"; \u0648\u062d\u062f\u0647 \u0641\u064a \u0627\u0644\u0633\u0637\u0631 \u0627\u0644\u0623\u0648\u0644 \u0645\u0646 \u0645\u0644\u0641 JS \u0623\u0648 TS, \u062b\u0645 \u0634\u063a\u0644 \u0627\u0644\u0645\u0644\u0641 \u0645\u0646 AutoJs6 \u0643\u0627\u0644\u0645\u0639\u062a\u0627\u062f. \u064a\u0646\u0641\u0630 \u0643\u0644 \u062a\u0634\u063a\u064a\u0644 \u0647\u0630\u0627 \u0627\u0644\u0645\u0644\u0641 \u0648\u062d\u062f\u0647: \u0644\u0627 \u064a\u062a\u0645 \u062a\u062b\u0628\u064a\u062a npm dependency \u062a\u0644\u0642\u0627\u0626\u064a\u0627 \u0623\u0628\u062f\u0627, \u0648\u062f\u0648\u0627\u0644 AutoJs6 \u0627\u0644\u0645\u062f\u0645\u062c\u0629 \u063a\u064a\u0631 \u0645\u062a\u0627\u062d\u0629 \u062f\u0627\u062e\u0644 Bun script.",
+        "values-en": "Put \\\"bun\\\"; alone on the first line of a JS or TS file, then run it from AutoJs6 as usual. Each run executes that single file only: npm dependencies are never auto-installed, and AutoJs6 built-in functions are not available inside Bun scripts.",
+        "values-es": "Pon \\\"bun\\\"; solo en la primera l\u00ednea de un archivo JS o TS y ejec\u00fatalo desde AutoJs6 como siempre. Cada ejecuci\u00f3n procesa solo ese archivo: las dependencias npm nunca se instalan autom\u00e1ticamente y las funciones integradas de AutoJs6 no est\u00e1n disponibles dentro de Bun.",
+        "values-fr": "Placez \\\"bun\\\"; seul sur la premi\u00e8re ligne d\\'un fichier JS ou TS, puis ex\u00e9cutez-le depuis AutoJs6 comme d\\'habitude. Chaque ex\u00e9cution traite uniquement ce fichier: les d\u00e9pendances npm ne sont jamais install\u00e9es automatiquement et les fonctions int\u00e9gr\u00e9es d\\'AutoJs6 ne sont pas disponibles dans Bun.",
+        "values-ja": "JS \u307e\u305f\u306f TS \u30d5\u30a1\u30a4\u30eb\u306e 1 \u884c\u76ee\u306b \\\"bun\\\"; \u3060\u3051\u3092\u66f8\u304d, \u3044\u3064\u3082\u901a\u308a AutoJs6 \u304b\u3089\u5b9f\u884c\u3057\u307e\u3059. \u5404\u5b9f\u884c\u306f\u305d\u306e\u30d5\u30a1\u30a4\u30eb 1 \u3064\u3060\u3051\u3092\u5b9f\u884c\u3057, npm dependency \u304c\u81ea\u52d5\u3067\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3055\u308c\u308b\u3053\u3068\u306f\u306a\u304f, AutoJs6 \u306e\u5185\u8535\u95a2\u6570\u3082 Bun \u5185\u3067\u306f\u4f7f\u3048\u307e\u305b\u3093.",
+        "values-ko": "JS \ub610\ub294 TS \ud30c\uc77c\uc758 \uccab \uc904\uc5d0 \\\"bun\\\";\ub9cc \ub2e8\ub3c5\uc73c\ub85c \ub123\uace0 \ud3c9\uc18c\ucc98\ub7fc AutoJs6\uc5d0\uc11c \uc2e4\ud589\ud558\uc138\uc694. \uac01 \uc2e4\ud589\uc740 \uadf8 \ud30c\uc77c \ud558\ub098\ub9cc \uc2e4\ud589\ud558\uba70, npm dependency\ub294 \uc790\ub3d9\uc73c\ub85c \uc124\uce58\ub418\uc9c0 \uc54a\uace0 AutoJs6 \ub0b4\uc7a5 \ud568\uc218\ub294 Bun \uc548\uc5d0\uc11c \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
+        "values-ru": "\u041f\u043e\u043c\u0435\u0441\u0442\u0438\u0442\u0435 \\\"bun\\\"; \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e\u0439 \u043f\u0435\u0440\u0432\u043e\u0439 \u0441\u0442\u0440\u043e\u043a\u043e\u0439 \u0444\u0430\u0439\u043b\u0430 JS \u0438\u043b\u0438 TS, \u0437\u0430\u0442\u0435\u043c \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0444\u0430\u0439\u043b \u0438\u0437 AutoJs6 \u043e\u0431\u044b\u0447\u043d\u044b\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u044d\u0442\u043e\u0442 \u0444\u0430\u0439\u043b: npm-\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438, \u0430 \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 AutoJs6 \u0432\u043d\u0443\u0442\u0440\u0438 Bun \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b.",
+        "values-zh": "\u5728 JS \u6216 TS \u6587\u4ef6\u7b2c\u4e00\u884c\u5355\u72ec\u5199\u4e0a \\\"bun\\\";, \u7136\u540e\u7167\u5e38\u4ece AutoJs6 \u8fd0\u884c\u8be5\u6587\u4ef6. \u6bcf\u6b21\u8fd0\u884c\u53ea\u6267\u884c\u8fd9\u4e00\u4e2a\u6587\u4ef6: \u4e0d\u4f1a\u81ea\u52a8\u5b89\u88c5 npm \u4f9d\u8d56, Bun \u811a\u672c\u4e2d\u4e5f\u65e0\u6cd5\u4f7f\u7528 AutoJs6 \u5185\u7f6e\u51fd\u6570.",
+        "values-zh-rHK": "\u5728 JS \u6216 TS \u6a94\u6848\u7b2c\u4e00\u884c\u55ae\u7368\u52a0\u5165 \\\"bun\\\";, \u7136\u5f8c\u7167\u5e38\u5f9e AutoJs6 \u57f7\u884c\u8a72\u6a94\u6848. \u6bcf\u6b21\u57f7\u884c\u53ea\u6703\u57f7\u884c\u9019\u4e00\u500b\u6a94\u6848: \u4e0d\u6703\u81ea\u52d5\u5b89\u88dd npm dependency, Bun \u8173\u672c\u4e2d\u4e5f\u7121\u6cd5\u4f7f\u7528 AutoJs6 \u5167\u7f6e\u51fd\u6578.",
+        "values-zh-rTW": "\u5728 JS \u6216 TS \u6a94\u6848\u7b2c\u4e00\u884c\u55ae\u7368\u52a0\u5165 \\\"bun\\\";, \u7136\u5f8c\u7167\u5e38\u5f9e AutoJs6 \u57f7\u884c\u8a72\u6a94\u6848. \u6bcf\u6b21\u57f7\u884c\u53ea\u6703\u57f7\u884c\u9019\u4e00\u500b\u6a94\u6848: \u4e0d\u6703\u81ea\u52d5\u5b89\u88dd npm dependency, Bun \u8173\u672c\u4e2d\u4e5f\u7121\u6cd5\u4f7f\u7528 AutoJs6 \u5167\u5efa\u51fd\u6578."
+      },
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
-      "engine": "mediainfo",
-      "variant": "default",
-      "engineId": "mediainfo",
+      "engine": "bun",
+      "variant": "bun-1.4.0-android",
+      "engineId": "bun-runtime",
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.0",
+          "versionName": "0.2.3",
           "versionCode": 8,
-          "versionDate": "2026-07-15",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/tag/v1.0.0",
-          "changelogText": "* `\u65b0\u589e` MediaInfo \u63d2\u4ef6\u670d\u52a1, \u63d2\u4ef6 ID \u4e3a `mediainfo`, \u5f15\u64ce\u4e3a `mediainfo`\r\n* `\u65b0\u589e` \u652f\u6301\u901a\u8fc7 `org.autojs.plugin.MEDIAINFO` \u53d1\u73b0\u5e76\u8c03\u7528\u63d2\u4ef6\r\n* `\u65b0\u589e` \u652f\u6301 `inform`/`get`/`snapshot` \u80fd\u529b, \u53ef\u751f\u6210\u5b8c\u6574\u5a92\u4f53\u62a5\u544a, \u67e5\u8be2\u5355\u4e2a\u53c2\u6570, \u8f93\u51fa\u7ed3\u6784\u5316 JSON \u5feb\u7167\r\n* `\u65b0\u589e` \u5185\u7f6e `arm64-v8a`/`armeabi-v7a`/`x86_64`/`x86` \u7684 `libmediainfo.so`, \u5e76\u652f\u6301 `universal` \u901a\u7528\u5305\r\n* `\u65b0\u589e` \u63d2\u4ef6\u8fd0\u884c\u65f6\u4fe1\u606f\u4e0a\u62a5\u652f\u6301\u7684 ABI \u5217\u8868, \u53d1\u5e03 APK \u6587\u4ef6\u540d\u5305\u542b\u7248\u672c\u53f7/ABI \u53d8\u4f53\u548c CRC32 \u6458\u8981\r\n* `\u65b0\u589e` \u63d2\u4ef6\u4fe1\u606f, \u4f7f\u7528\u8bf4\u660e, README \u4e0e CHANGELOG \u7684\u591a\u8bed\u8a00\u8d44\u6e90: \u897f\u73ed\u7259\u8bed/\u6cd5\u8bed/\u4fc4\u8bed/\u963f\u62c9\u4f2f\u8bed/\u65e5\u8bed/\u97e9\u8bed/\u82f1\u8bed/\u7b80\u4f53\u4e2d\u6587/\u9999\u6e2f\u7e41\u4f53/\u53f0\u6e7e\u7e41\u4f53",
+          "versionDate": "2026-09-15",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/tag/v0.2.3",
+          "changelogText": "Bun Runtime 0.2.3.\n\nRequires Android 13 (API 33) or later and AutoJs6 build 5278 or later. Bundles the unmodified official Bun 1.4.0 runtime for arm64-v8a and baseline x86_64 plus a small read-only supervisor helper per ABI; Android API 28-32 remains unsupported.\nRun one JavaScript or TypeScript source snapshot with the standalone `\"bun\";` directive. Execution uses `bun run --no-install`; AutoJs6 globals and a Java bridge are not available. stdout/stderr use bounded Binder callback chunks. Timeouts, cancellation and output limits terminate the Bun child through the supervisor, and runtime error summaries are localized in ten languages.\nMulti-file projects: the shared contract now accepts a bounded ZIP workspace archive (`workspaceArchiveVersion`, `workspaceEntryPoint`, capability `SUPPORTS_WORKSPACE_ARCHIVE`) and the plugin expands it into the private per-run workspace so relative imports resolve. The AutoJs6 side that packs a `project.json`/`package.json` directory is not part of a released AutoJs6 yet, so released hosts still send single files.\nHost info snapshot: the shared contract adds the read-only capability `SUPPORTS_HOST_INFO`. When a host sends `hostInfoVersion = 1` together with its own package name, the plugin checks that package against the calling UID, resolves the host version through PackageManager and writes a bounded single-line JSON snapshot of host, plugin and execution facts that the script reads through the `AUTOJS6_HOST_INFO_FILE` environment variable; request environment names starting with `AUTOJS6_` are reserved. Hosts that do not offer the snapshot get exactly the previous behaviour, and released AutoJs6 builds do not offer it yet.\nAll APKs pass 16 KB ZIP alignment and every ELF payload meets at least 16 KB PT_LOAD alignment. The signed arm64-v8a APK of this Release passed the black-box acceptance on a Samsung SM-A566B (Android 16, 16 KB pages) as a fresh install. The official native x86_64 runtime is still rejected on pages larger than 4 KiB.\n\nThe three signed APKs and their complete corresponding-source asset set are published separately in this same Release.\nVerify every asset with `autojs6-plugin-bun-runtime-v0.2.3-SHA256SUMS.txt`; the machine-readable source/APK binding is in the corresponding-source manifest.\nBun is MIT-licensed; the executable statically links JavaScriptCore/WebKit components covered by LGPL-2-family terms and contains other third-party components under their respective licenses.\nLicense disclosures and relinking information are in `autojs6-plugin-bun-runtime-v0.2.3-corresponding-source-LICENSES-AND-RELINKING.md` and in the project-source asset.\n\nThe repository's release verifier performed automated technical checks over APK-contained runtime hashes, source closure, archive identities, and GitHub's returned SHA-256 asset digests. This statement records technical verification and does not claim a legal opinion or approval.",
           "assets": [
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-arm64-v8a-4cb77740.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-arm64-v8a-4cb77740.apk",
-              "size": 2586126,
-              "digest": "sha256:6da81b8bac2018eb99ba115ff3e3640d0a81586e00e020ea14b4ecd90ad0b11c"
+              "name": "autojs6-plugin-bun-runtime-v0.2.3-arm64-v8a-d8d39b75.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/download/v0.2.3/autojs6-plugin-bun-runtime-v0.2.3-arm64-v8a-d8d39b75.apk",
+              "size": 35583468,
+              "digest": "sha256:7760135cca338ee12aabe606bf3dc214789ce9fc82ec850f5fdbb54772177619"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-armeabi-v7a-8e6804c4.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-armeabi-v7a-8e6804c4.apk",
-              "size": 2149382,
-              "digest": "sha256:f35d2caeb8390c388cab668bf458decd3d1452f0e96b2d22d0a47dcfe26f0774"
+              "name": "autojs6-plugin-bun-runtime-v0.2.3-universal-4683e417.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/download/v0.2.3/autojs6-plugin-bun-runtime-v0.2.3-universal-4683e417.apk",
+              "size": 72163384,
+              "digest": "sha256:0fbaa6e18df93ee94da68b448ae8f803093b9f2e70f7a0c6651c6b131d6a1baf"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-universal-4c49f434.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-universal-4c49f434.apk",
-              "size": 9819197,
-              "digest": "sha256:d990d4ab93f93c606516b530a2f7d69ad082585b0254d54e8733316205b3299c"
+              "name": "autojs6-plugin-bun-runtime-v0.2.3-x86_64-d37e158c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/download/v0.2.3/autojs6-plugin-bun-runtime-v0.2.3-x86_64-d37e158c.apk",
+              "size": 36976006,
+              "digest": "sha256:d05bc50b74c8118e6dbb1f730f35770207807c2bc2515b3334a3fee9803d132d"
+            }
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/mipmap/ic_launcher.png",
+      "title": "ImGui",
+      "description": "Create floating user interfaces with Dear ImGui",
+      "localizedDescriptions": {
+        "values": "Create floating user interfaces with Dear ImGui",
+        "values-ar": "\u0625\u0646\u0634\u0627\u0621 \u0648\u0627\u062c\u0647\u0627\u062a \u0639\u0627\u0626\u0645\u0629 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 Dear ImGui",
+        "values-en": "Create floating user interfaces with Dear ImGui",
+        "values-es": "Crea interfaces flotantes con Dear ImGui",
+        "values-fr": "Cr\u00e9ez des interfaces flottantes avec Dear ImGui",
+        "values-ja": "Dear ImGui \u3067\u30d5\u30ed\u30fc\u30c6\u30a3\u30f3\u30b0 UI \u3092\u4f5c\u6210",
+        "values-ko": "Dear ImGui\ub85c \ud50c\ub85c\ud305 UI \ub9cc\ub4e4\uae30",
+        "values-ru": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043f\u043b\u0430\u0432\u0430\u044e\u0449\u0438\u0445 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432 \u0441 Dear ImGui",
+        "values-zh": "\u4f7f\u7528 Dear ImGui \u521b\u5efa\u6d6e\u52a8\u7528\u6237\u754c\u9762",
+        "values-zh-rHK": "\u4f7f\u7528 Dear ImGui \u5efa\u7acb\u6d6e\u52d5\u7528\u6236\u4ecb\u9762",
+        "values-zh-rTW": "\u4f7f\u7528 Dear ImGui \u5efa\u7acb\u6d6e\u52d5\u4f7f\u7528\u8005\u4ecb\u9762"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "github-actions[bot]",
+      "collaborators": [],
+      "requiresHostVersion": 3853,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.9.0",
+          "versionCode": 14,
+          "versionDate": "2026-08-30",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/tag/v1.9.0",
+          "changelogText": "## v1.9.0\n\n\u672c\u7248\u672c\u5b8c\u6210 Roadmap P6 \u7684\u751f\u4ea7\u57fa\u7ebf\uff1a\u63d2\u4ef6\u73b0\u5728\u53ef\u4ee5\u901a\u8fc7 AutoJs6 \u5df2\u7ba1\u7406\u5e76\u6388\u6743\u7684 Root/Shizuku\uff0c\u663e\u5f0f\u542f\u52a8\u65e0\u9700\u60ac\u6d6e\u7a97\u6743\u9650\u7684 SurfaceFlinger \u7279\u6743\u7a97\u53e3\u3002\n\n### \u4e3b\u8981\u66f4\u65b0\n\n- \u65b0\u589e `launchPrivileged` / `WindowMode.Privileged`\uff0c\u652f\u6301 `auto`\u3001`shizuku`\u3001`root` \u542f\u52a8\u7b56\u7565\u548c\u5b9e\u65f6 `Session.getBackendInfo()` \u8bca\u65ad\u3002\n- \u76f4\u63a5\u590d\u7528 AutoJs6 \u7684 RootMode\u3001`RootUtils` / `ProcessShell` \u4e0e\u5df2\u6388\u6743\u7684 `WrappedShizuku` UserService\uff0c\u4e0d\u5f15\u5165\u7b2c\u4e8c\u5957\u63d0\u6743\u6216\u6388\u6743\u7ba1\u7406\u3002\n- \u65b0\u589e\u9274\u6743 Binder Surface v2\uff1aUID 0/2000 \u5b50\u8fdb\u7a0b\u4ec5\u521b\u5efa\u5e76\u6301\u6709 SurfaceControl \u56fe\u5c42\uff0c\u73b0\u6709\u5b8c\u6574 JS/JNI \u6e32\u67d3\u5668\u7ee7\u7eed\u8d1f\u8d23\u7ed8\u5236\uff1b\u8fb9\u754c\u5305\u542b\u5355\u6b21 256-bit token\u3001\u8c03\u7528 UID\u3001\u4f1a\u8bdd\u6240\u6709\u8005\u3001\u5e38\u91cf\u65f6\u95f4\u6bd4\u8f83\u4e0e Binder death \u6e05\u7406\u3002\n- \u65b0\u589e Type A/Type B `/dev/input` \u6307\u9488\u8bfb\u53d6\uff0c\u652f\u6301 16/24-byte `input_event`\u3001\u65cb\u8f6c\u6620\u5c04\u4e0e\u6709\u754c\u961f\u5217\uff1b\u91c7\u7528\u975e\u72ec\u5360\u89c2\u5bdf\u7b56\u7565\uff0c\u4e0d\u4f7f\u7528 `EVIOCGRAB`\u3002\n- \u4fee\u590d Android 29+ Provider \u8c03\u7528\u3001\u7279\u6743 Looper \u9000\u51fa\u3001Broker \u6743\u9650\u4e0e endpoint \u751f\u547d\u5468\u671f\u95ee\u9898\uff1b\u540e\u7aef\u80fd\u529b\u4e0e TypeScript \u5408\u540c\u5347\u7ea7\u5230 schema v2\u3002\n\n### \u517c\u5bb9\u6027\u4e0e\u5b89\u88c5\n\n- \u5bbf\u4e3b\uff1aAutoJs6 `versionCode >= 3853`\uff08AutoJs6 6.8+ \u53ef\u9009\u7528\u63d2\u4ef6\u4e2d\u5fc3\u81ea\u52a8\u6302\u8f7d\uff09\u3002\n- \u7cfb\u7edf\uff1aAndroid 7.0 / API 24 \u53ca\u4ee5\u4e0a\uff0ctarget SDK 36\uff0c\u9700\u8981 OpenGL ES 3.0\u3002\n- \u67b6\u6784\uff1a`arm64-v8a`\u3001`armeabi-v7a`\u3001`x86_64`\u3001`x86`\uff1b\u4e0d\u786e\u5b9a\u65f6\u4e0b\u8f7d `universal`\u3002\n- \u4f7f\u7528\u666e\u901a\u60ac\u6d6e\u7a97\u53e3\u65f6\u9700\u8981\u60ac\u6d6e\u7a97\u6743\u9650\uff1b\u4f7f\u7528 `launchPrivileged` \u524d\u8bf7\u5148\u5728 AutoJs6 \u5185\u7167\u5e38\u914d\u7f6e\u5e76\u6388\u6743 Root \u6216 Shizuku\u3002\n\n### \u5df2\u9a8c\u8bc1\n\n- API 28 Magisk root \u4e0e API 31 Shizuku 13.5 \u7684\u771f\u5b9e AutoJs6 \u5bbf\u4e3b\u7aef\u5230\u7aef\u94fe\u8def\uff1aUID 0/2000 \u56fe\u5c42\u3001\u73b0\u6709 JS \u95e8\u9762\u6e32\u67d3\u3001Type A/Type B \u8f93\u5165\u53d1\u73b0\u3001\u622a\u56fe\u4e0e\u65e0\u6b8b\u7559\u5173\u95ed\u3002\n- API 28 / 31 / 35 \u4e09\u53f0\u5b9e\u4f53\u673a instrumentation\uff1a15/15 \u901a\u8fc7\u3002\n- Linux CI\uff1aTypeScript\u3001\u4e0a\u6e38\u6e90\u7801\u5408\u540c\u3001\u5355\u5143\u6d4b\u8bd5\u3001\u4e94\u79cd APK ABI \u6e05\u5355\u3001androidTest \u7f16\u8bd1\u3001R8/resource shrink release \u6784\u5efa\u53ca\u9010 APK \u9a8c\u7b7e\u5168\u90e8\u901a\u8fc7\u3002\n- \u53d1\u5e03\u7b7e\u540d\u8bc1\u4e66 SHA-256\uff1a`31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213`\u3002\n\n### v1.9 \u5df2\u77e5\u9650\u5236\n\n\u7279\u6743\u7a97\u53e3\u5f53\u524d\u56fa\u5b9a\u5168\u5c4f\u4e14\u4ec5\u652f\u6301\u6307\u9488\u8f93\u5165\uff1b\u6682\u4e0d\u652f\u6301 IME/\u6309\u952e\u3001\u5bbf\u4e3b\u5c42\u900f\u660e\u5ea6/\u9632\u622a\u5c4f\u3001\u6536\u8d77\u3001\u72ec\u7acb Android \u6309\u94ae\u6216\u65cb\u8f6c\u65f6\u52a8\u6001\u91cd\u5efa\u3002OEM \u7684 SurfaceControl/SELinux \u7b56\u7565\u4ecd\u53ef\u80fd\u62d2\u7edd Root \u6216 Shizuku \u5b50\u8fdb\u7a0b\u521b\u5efa\u56fe\u5c42\uff0c\u5931\u8d25\u4f1a\u663e\u5f0f\u8fd4\u56de\u5e76\u6267\u884c\u786e\u5b9a\u6027\u6e05\u7406\u3002\n\n[\u5b8c\u6574\u4e2d\u6587\u53d8\u66f4\u8bb0\u5f55](https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/blob/v1.9.0/README.md#v190) \u00b7 [English release history](https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/blob/v1.9.0/.readme/README-en.md#v190) \u00b7 [Roadmap](https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/blob/v1.9.0/Roadmap.md)",
+          "assets": [
+            {
+              "name": "autojs6-plugin-imgui-v1.9.0-arm64-v8a-c76ebf26.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.9.0/autojs6-plugin-imgui-v1.9.0-arm64-v8a-c76ebf26.apk",
+              "size": 3736205,
+              "digest": "sha256:a66821fe32abeebefd4056e99b3ad0fcb0329ad0adc89ceba2f3183cc58120e1"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-x86-a58e48f1.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-x86-a58e48f1.apk",
-              "size": 2505070,
-              "digest": "sha256:e6519b8adfd521d0cb1b1c6749bbd20103343d6ec8d843b70aae52fe02cf5d94"
+              "name": "autojs6-plugin-imgui-v1.9.0-armeabi-v7a-5a015091.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.9.0/autojs6-plugin-imgui-v1.9.0-armeabi-v7a-5a015091.apk",
+              "size": 3711211,
+              "digest": "sha256:5ad365355ab326a50234a71d6332523d2477e49008d55bb78a405cbe9f702cd4"
             },
             {
-              "name": "autojs6-plugin-mediainfo-v1.0.0-x86_64-6ceb1619.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v1.0.0/autojs6-plugin-mediainfo-v1.0.0-x86_64-6ceb1619.apk",
-              "size": 2765788,
-              "digest": "sha256:f6ccd56b18e760b6923c3d640886707d53f016fc087dc41e7765a34f7746cb04"
+              "name": "autojs6-plugin-imgui-v1.9.0-universal-cbb471a9.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.9.0/autojs6-plugin-imgui-v1.9.0-universal-cbb471a9.apk",
+              "size": 5639227,
+              "digest": "sha256:c4df7d41b2fd97026e7c9b31a698032a76eb64c3a285991b5c902476e27d7371"
+            },
+            {
+              "name": "autojs6-plugin-imgui-v1.9.0-x86-0241b812.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.9.0/autojs6-plugin-imgui-v1.9.0-x86-0241b812.apk",
+              "size": 3812323,
+              "digest": "sha256:687d90fb00798a41a64333ebe0869fcf9d73053fb2eda643edbe600afa220d42"
+            },
+            {
+              "name": "autojs6-plugin-imgui-v1.9.0-x86_64-dfafba9c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.9.0/autojs6-plugin-imgui-v1.9.0-x86_64-dfafba9c.apk",
+              "size": 3767250,
+              "digest": "sha256:d4a7ff5021ae310eb9f499dca99af27c7e4fc9abb286dae563ae869182fdc540"
             }
           ],
           "nativePageAlignment": 4096,
@@ -177,6 +267,239 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.markdownpreview",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/mipmap/ic_launcher.png",
+      "title": "Markdown Preview",
+      "description": "File manager plugin. Secure read-only preview for Markdown files",
+      "localizedDescriptions": {
+        "values": "File manager plugin. Secure read-only preview for Markdown files",
+        "values-ar": "\u0645\u0644\u062d\u0642 \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a. \u0645\u0639\u0627\u064a\u0646\u0629 \u0622\u0645\u0646\u0629 \u0644\u0644\u0642\u0631\u0627\u0621\u0629 \u0641\u0642\u0637 \u0644\u0645\u0644\u0641\u0627\u062a Markdown",
+        "values-en": "File manager plugin. Secure read-only preview for Markdown files",
+        "values-es": "Complemento del gestor de archivos. Vista previa segura de solo lectura de archivos Markdown",
+        "values-fr": "Plugin de gestionnaire de fichiers. Aper\u00e7u s\u00e9curis\u00e9 en lecture seule des fichiers Markdown",
+        "values-ja": "\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u30d7\u30e9\u30b0\u30a4\u30f3. Markdown \u30d5\u30a1\u30a4\u30eb\u3092\u5b89\u5168\u306b\u8aad\u307f\u53d6\u308a\u5c02\u7528\u3067\u30d7\u30ec\u30d3\u30e5\u30fc",
+        "values-ko": "\ud30c\uc77c \uad00\ub9ac\uc790 \ud50c\ub7ec\uadf8\uc778. Markdown \ud30c\uc77c\uc758 \uc548\uc804\ud55c \uc77d\uae30 \uc804\uc6a9 \ubbf8\ub9ac\ubcf4\uae30",
+        "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u0433\u043e \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0430. \u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0444\u0430\u0439\u043b\u043e\u0432 Markdown \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u0447\u0442\u0435\u043d\u0438\u044f",
+        "values-zh": "\u6587\u4ef6\u7ba1\u7406\u5668\u63d2\u4ef6. \u5b89\u5168\u53ea\u8bfb\u9884\u89c8 Markdown \u6587\u4ef6",
+        "values-zh-rHK": "\u6a94\u6848\u7ba1\u7406\u5668\u5916\u639b\u7a0b\u5f0f. \u5b89\u5168\u552f\u8b80\u9810\u89bd Markdown \u6a94\u6848",
+        "values-zh-rTW": "\u6a94\u6848\u7ba1\u7406\u5668\u5916\u639b\u7a0b\u5f0f. \u5b89\u5168\u552f\u8b80\u9810\u89bd Markdown \u6a94\u6848"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.1.0",
+          "versionCode": 6,
+          "versionDate": "2026-08-30",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/releases/tag/v1.1.0",
+          "changelogText": "## v1.1.0\n\n\u672c\u7248\u672c\u5b8c\u6210 Roadmap M1\u3001M2\uff0c\u4ee5\u53ca M3 \u4e2d\u5f53\u524d\u4e0d\u53d7\u5bbf\u4e3b explorer-action \u534f\u8bae v2 \u963b\u585e\u7684\u90e8\u5206\uff0c\u91cd\u70b9\u8865\u9f50\u5b89\u5168\u6587\u6863\u6d4f\u89c8\u3001\u6253\u5370\u5bfc\u51fa\u3001\u683c\u5f0f\u652f\u6301\u4e0e\u516c\u5f00\u53d1\u5e03\u7269\u6599\u3002\n\n### \u4e3b\u8981\u66f4\u65b0\n\n- \u65b0\u589e\u6587\u6863\u5927\u7eb2\u3001\u9875\u5185\u67e5\u627e\u3001\u6301\u4e45\u5316\u6587\u5b57\u7f29\u653e\uff0c\u4ee5\u53ca\u65e0\u9700 JavaScript \u7684\u6e32\u67d3\u671f\u4ee3\u7801\u8bed\u6cd5\u9ad8\u4eae\u3002\n- \u65b0\u589e\u5bbf\u4e3b\u6388\u6743\u76ee\u5f55\u5185\u7684\u76f8\u5bf9 Markdown \u6587\u6863\u5bfc\u822a\u3001\u67e5\u770b\u5668\u5386\u53f2\u4e0e\u951a\u70b9\u5904\u7406\uff1b\u8def\u5f84\u548c\u8d44\u6e90\u6743\u9650\u6821\u9a8c\u5728\u8df3\u8f6c\u5168\u7a0b\u4fdd\u6301\u751f\u6548\u3002\n- \u65b0\u589e Android \u6253\u5370 / PDF \u5bfc\u51fa\uff0c\u4ee5\u53ca\u6709\u754c YAML front matter \u6e32\u67d3\u3002\n- \u6e32\u67d3\u5f15\u64ce\u8fc1\u79fb\u81f3 Maven Central \u5b98\u65b9 CommonMark 0.30.0 \u6a21\u5757\uff0c\u65b0\u589e\u5b9a\u4e49\u5f0f\u4e0e\u5185\u8054\u5f0f Footnotes \u53ca\u51c0\u5316\u540e\u7684\u53cc\u5411\u56de\u94fe\u3002\n- \u52a0\u56fa explorer-action v1 Intent\u3001URI\u3001\u8def\u5f84\u3001\u94fe\u63a5\u3001\u8d44\u6e90\u3001HTML \u4e0e Footnotes \u6821\u9a8c\uff0c\u7ee7\u7eed\u7ef4\u6301\u5355\u6587\u4ef6\u3001\u53ea\u8bfb\u4e0e JavaScript \u7981\u7528\u8fb9\u754c\u3002\n- \u8865\u9f50\u53ef\u6838\u9a8c Roadmap\u30014 \u5f20\u4ec5\u4f7f\u7528\u5408\u6210\u6587\u6863\u7684\u771f\u5b9e\u8bbe\u5907\u622a\u56fe\uff0c\u4ee5\u53ca 10 \u79cd\u8bed\u8a00 README / CHANGELOG \u7684\u53ef\u590d\u73b0\u751f\u6210\u94fe\u8def\u3002\n\n### \u517c\u5bb9\u6027\u4e0e\u8fb9\u754c\n\n- \u9700\u8981 AutoJs6 `versionCode >= 5268`\uff0cAndroid 7.0 / API 24 \u6216\u66f4\u9ad8\u7248\u672c\u3002\n- \u5f53\u524d\u5bbf\u4e3b\u516c\u5f00 explorer-action API \u4ecd\u4e3a v1\uff0c\u56e0\u6b64\u672c\u7248\u672c\u53ea\u63a5\u53d7\u5355\u6587\u4ef6\u76ee\u6807\uff1b\u76ee\u5f55\u4e0e\u591a\u9009\u76ee\u6807\u5c06\u5728\u5bbf\u4e3b\u53d1\u5e03\u534f\u8bae v2 \u540e\u8ddf\u8fdb\u3002\n- Mermaid \u4e0e\u6570\u5b66\u516c\u5f0f\u4f9d\u8d56\u5ba2\u6237\u7aef\u811a\u672c\uff0c\u56e0\u67e5\u770b\u5668\u59cb\u7ec8\u7981\u7528 JavaScript \u800c\u4e0d\u4f1a\u6e32\u67d3\u3002\n\n### \u53d1\u5e03\u9a8c\u8bc1\n\n- JVM \u5355\u5143\u6d4b\u8bd5\uff1a53/53\uff0c0 \u5931\u8d25\u3002\n- Android 9 / 10 / 12 / 13 / 15 / 16\uff1a\u5404 21/21\uff0c\u5408\u8ba1 126/126\uff0c0 \u8df3\u8fc7\u30010 \u5931\u8d25\u3002\n- Android Lint\uff1a0 errors / 36 warnings\u3002\n- Release\uff1aR8\u3001L8\u3001zipalign \u4e0e APK Signature Scheme v2 \u9a8c\u8bc1\u901a\u8fc7\u3002\n- \u7b7e\u540d\u8bc1\u4e66 SHA-256\uff1a`31A681FCFFFB3E428420CAE280DED89292B12A3B0F59E19B7A73E32A8AE4C213`\u3002\n- APK\uff1a2,568,596 bytes\u3002\n- APK SHA-256\uff1a`504548D857B6B386124E4188C1023FBE7FF507A5155B0D08B76C341FB7F13603`\u3002\n\n### \u6587\u6863\n\n[\u4e2d\u6587\u8bf4\u660e](https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/blob/v1.1.0/README.md) \u00b7 [English README](https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/blob/v1.1.0/.readme/README-en.md) \u00b7 [Roadmap](https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/blob/v1.1.0/ROADMAP.md)",
+          "assets": [
+            {
+              "name": "autojs6-plugin-markdown-preview-v1.1.0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Preview/releases/download/v1.1.0/autojs6-plugin-markdown-preview-v1.1.0.apk",
+              "size": 2568596,
+              "digest": "sha256:504548d857b6b386124e4188c1023fbe7ff507a5155b0d08b76c341fb7f13603"
+            }
+          ],
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "MCP-Server",
+      "description": "Exposes device automation to AI agents over the Model Context Protocol",
+      "localizedDescriptions": {
+        "values": "Exposes device automation to AI agents over the Model Context Protocol",
+        "values-ar": "\u064a\u062a\u064a\u062d \u0623\u062a\u0645\u062a\u0629 \u0627\u0644\u062c\u0647\u0627\u0632 \u0644\u0648\u0643\u0644\u0627\u0621 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0639\u0628\u0631 Model Context Protocol",
+        "values-en": "Exposes device automation to AI agents over the Model Context Protocol",
+        "values-es": "Expone la automatizaci\u00f3n del dispositivo a agentes de IA mediante el Model Context Protocol",
+        "values-fr": "Expose l\\'automatisation de l\\'appareil aux agents IA via le Model Context Protocol",
+        "values-ja": "Model Context Protocol \u3092\u901a\u3058\u3066 AI \u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u306b\u30c7\u30d0\u30a4\u30b9\u81ea\u52d5\u5316\u6a5f\u80fd\u3092\u516c\u958b",
+        "values-ko": "Model Context Protocol\uc744 \ud1b5\ud574 AI \uc5d0\uc774\uc804\ud2b8\uc5d0 \uae30\uae30 \uc790\ub3d9\ud654 \uae30\ub2a5\uc744 \uc81c\uacf5",
+        "values-ru": "\u041e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044e \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0434\u043b\u044f \u0418\u0418-\u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u043f\u043e \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u0443 Model Context Protocol",
+        "values-zh": "\u901a\u8fc7 Model Context Protocol \u5411 AI \u4ee3\u7406\u5f00\u653e\u8bbe\u5907\u81ea\u52a8\u5316\u80fd\u529b",
+        "values-zh-rHK": "\u900f\u904e Model Context Protocol \u5411 AI \u4ee3\u7406\u958b\u653e\u88dd\u7f6e\u81ea\u52d5\u5316\u80fd\u529b",
+        "values-zh-rTW": "\u900f\u904e Model Context Protocol \u5411 AI \u4ee3\u7406\u958b\u653e\u88dd\u7f6e\u81ea\u52d5\u5316\u80fd\u529b"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "mcp-server",
+      "variant": "default",
+      "engineId": "mcp-server",
+      "requiresHostVersion": 5279,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.1",
+          "versionCode": 57,
+          "versionDate": "2026-09-16",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.0.1",
+          "changelogText": "# MCP Server v1.0.1\r\n\r\nFirst public release / \u9996\u4e2a\u516c\u5f00\u7248\u672c. Includes the previously unpublished v1.0.0 development work.\r\n\r\nRequires AutoJs6 versionCode 5279 or later. Optional offline documentation resources require a host build with app.listDocs / app.readDoc and the Offline Docs plugin.\r\n\r\n\u9ed8\u8ba4\u4ec5\u76d1\u542c 127.0.0.1:9637/mcp. \u5728 AutoJs6 \u62bd\u5c49\u5f00\u542f\u670d\u52a1, \u4ece\u8bbe\u7f6e\u9875\u590d\u5236\u5ba2\u6237\u7aef\u914d\u7f6e, \u5e76\u5728\u624b\u673a\u4e0a\u786e\u8ba4\u9996\u6b21\u914d\u5bf9.\r\n\r\n\r\n## \u7b80\u4f53\u4e2d\u6587\r\n\r\n- **Feature** \u53ef\u9009\u7684\u79bb\u7ebf\u6587\u6863\u8d44\u6e90: \u5b89\u88c5 AutoJs6 \u79bb\u7ebf\u6587\u6863\u63d2\u4ef6\u4e14\u5bbf\u4e3b\u901a\u8fc7 app.listDocs / app.readDoc \u8f6c\u8bfb\u65f6, resources/list \u589e\u52a0 autojs6://docs/ (\u5e26\u5b50 URI \u7684\u7d22\u5f15) \u4e0e\u6bcf\u4e2a\u6587\u6863\u9875\u9762\u5bf9\u5e94\u7684 autojs6://docs/{+path} \u8d44\u6e90, resources/templates/list \u589e\u52a0 docs \u6a21\u677f; \u672a\u5b89\u88c5\u63d2\u4ef6\u6216\u5bbf\u4e3b\u4e0d\u542b\u8fd9\u4e24\u4e2a\u65b9\u6cd5\u65f6\u4e0d\u5217\u51fa\u4efb\u4f55\u6761\u76ee, \u5e76\u7531 _meta.docsCatalogStatus \u8bf4\u660e\u539f\u56e0\r\n- **Improvement** \u5c06 compileSdk \u63d0\u5347\u5230 37 (Android 17), targetSdk \u4fdd\u6301 36, \u5f85\u4f9d\u8d56\u76ee\u6807\u7248\u672c\u7684\u884c\u4e3a\u9a8c\u8bc1\u540e\u518d\u63d0\u5347\r\n- **Improvement** MCP \u4e00\u81f4\u6027 (P6): \u5728\u4e24\u53f0\u8bbe\u5907\u4e0a\u4ee5\u5b98\u65b9 @modelcontextprotocol/conformance \u5957\u4ef6 0.1.16 \u6d4b\u8bd5\u6709\u72b6\u6001\u7684 /mcp \u8def\u5f84. 32 \u4e2a\u670d\u52a1\u5668\u573a\u666f\u4e2d 9 \u4e2a\u901a\u8fc7 (initialize, ping, tools/list, \u6587\u672c\u4e0e\u9519\u8bef\u5de5\u5177\u7ed3\u679c, resources/list, prompts/list, \u5e76\u53d1 SSE \u6d41, DNS rebinding \u4fdd\u62a4); 18 \u4e2a\u8c03\u7528\u5957\u4ef6\u81ea\u5e26\u7684\u53c2\u8003\u5939\u5177 (test_* \u5de5\u5177, \u63d0\u793a\u4e0e test:// \u8d44\u6e90, \u672c\u670d\u52a1\u5668\u4ee5\u672a\u77e5\u5de5\u5177\u7ed3\u679c, -32602 \u6216 isError \u5e94\u7b54), 5 \u4e2a\u4f9d\u8d56\u672c\u670d\u52a1\u5668\u672a\u58f0\u660e\u7684\u80fd\u529b (logging, completions, \u8d44\u6e90\u8ba2\u9605). \u56de\u73af Origin \u5934\u73b0\u5728\u5728\u4efb\u4f55\u6a21\u5f0f\u4e0b\u90fd\u88ab\u63a5\u53d7 (\u5957\u4ef6\u5982\u6b64\u8981\u6c42); CORS \u5934\u4e0e\u9884\u68c0\u5e94\u7b54\u4ecd\u4ec5\u9650\u5f00\u53d1\u8005\u6a21\u5f0f. 2026-07-28 \u65e0\u72b6\u6001\u6a21\u578b\u6ca1\u6709\u8def\u7531 (Roadmap D9). \u8be6\u89c1 docs/dev/p6-conformance.md.\r\n- **Improvement** \u5b89\u5168\u5ba1\u8ba1 (P6): \u4e03\u9879\u6e05\u5355 (\u4ee4\u724c\u5b58\u50a8, \u65e5\u5fd7\u8131\u654f, \u5bfc\u51fa\u7ec4\u4ef6, \u660e\u6587\u8303\u56f4, \u5c40\u57df\u7f51\u9ed8\u8ba4\u5173\u95ed, \u914d\u5bf9\u64a4\u9500, \u5de5\u5177\u5206\u7ec4\u9ed8\u8ba4\u5173\u95ed) \u5df2\u5728\u4ee3\u7801\u4e0e\u4e24\u53f0\u8bbe\u5907\u4e0a\u9010\u9879\u6838\u5bf9, \u8bb0\u5f55\u4e8e docs/dev/p6-security-audit.md, README \u5b89\u5168\u7ae0\u8282\u6539\u4e3a\u8bf4\u660e\u8fd9\u4e9b\u8fb9\u754c. \u660e\u6587 HTTP \u7531\u7f51\u7edc\u5b89\u5168\u914d\u7f6e\u9650\u5b9a\u4e3a\u56de\u73af\u5730\u5740, \u53d6\u4ee3\u5e94\u7528\u7ea7 usesCleartextTraffic \u6807\u5fd7; \u63d2\u4ef6\u4e0d\u53d1\u8d77\u5ba2\u6237\u7aef\u8fde\u63a5, \u76d1\u542c\u5668\u4e5f\u4e0d\u9700\u8981\u8be5\u6807\u5fd7.\r\n- **Improvement** \u6027\u80fd\u57fa\u7ebf (P6): \u5728 API 24 \u6a21\u62df\u5668, Sony \u624b\u673a (API 33) \u4e0e\u5c0f\u7c73\u5e73\u677f (API 35) \u4e0a\u6d4b\u91cf ui_dump 50 / 200 / 400 \u8282\u70b9, screen_capture \u4e09\u6863\u5c3a\u5bf8, script_run \u5f80\u8fd4\u4e0e 4 \u8def\u5e76\u53d1\u8bf7\u6c42, \u8bb0\u5f55\u4e8e docs/dev/p6-performance-baseline.md, \u4ec5\u4f5c\u53c2\u8003\u4e0d\u8bbe\u9608\u503c. \u4ec5\u7531\u63d2\u4ef6\u5e94\u7b54\u7684\u8c03\u7528\u5728\u6a21\u62df\u5668\u4e0e\u624b\u673a\u4e0a\u7ea6 20 ms, ui_dump \u6bcf\u8282\u70b9\u7ea6\u589e\u52a0 0.05 ms, \u65e0\u969c\u788d\u622a\u56fe\u8def\u5f84 100 ms \u5185\u5e94\u7b54\u800c API 24 \u7684 MediaProjection \u8def\u5f84\u6bcf\u6b21\u7ea6 1.35 s, 4 \u8def\u5e76\u53d1\u8bf7\u6c42\u5728\u5bbf\u4e3b 4 \u8def\u5e76\u53d1\u4e0a\u9650\u5185\u4ee5\u5355\u6b21\u5f80\u8fd4\u7684 1.0-1.8 \u500d\u5b8c\u6210.\r\n- **Feature** \u624b\u673a\u8bbe\u7f6e\u9875\u63d0\u4f9b\u670d\u52a1\u72b6\u6001, USB \u8f6c\u53d1, \u7aef\u53e3\u548c\u5c40\u57df\u7f51\u8bbf\u95ee, \u4ee4\u724c\u663e\u793a/\u590d\u5236/\u8f6e\u6362, \u914d\u5bf9\u64a4\u9500, \u5de5\u5177\u5206\u7ec4\u548c root \u6743\u9650, \u5f00\u53d1\u8005\u6a21\u5f0f, \u53ef\u590d\u5236\u7684 Claude Code / Cursor / Codex / \u901a\u7528 HTTP \u914d\u7f6e\u53ca\u53d1\u884c\u5386\u53f2, \u5e76\u8ddf\u968f AutoJs6 \u5916\u89c2. \u7f51\u7edc\u8bbe\u7f6e\u4f1a\u91cd\u542f\u8fd0\u884c\u4e2d\u7684\u76d1\u542c\u5668, \u4ee4\u724c\u548c\u6743\u9650\u53d8\u66f4\u7acb\u5373\u751f\u6548. \u654f\u611f\u4fe1\u606f\u7a97\u53e3\u7981\u6b62\u622a\u56fe.\r\n- **Feature** MCP \u8d44\u6e90 (P3.5) \u63d0\u4f9b\u53ea\u8bfb\u5de5\u4f5c\u76ee\u5f55\u6587\u4ef6, \u53ef\u6d4f\u89c8\u7684\u5bbf\u4e3b\u793a\u4f8b, \u8bbe\u5907\u4fe1\u606f\u548c\u6700\u8fd1\u63a7\u5236\u53f0\u8f93\u51fa, \u9075\u5b88\u914d\u5bf9\u4e0e\u5206\u7ec4\u5f00\u5173. \u6587\u672c\u548c\u4e8c\u8fdb\u5236\u8bfb\u53d6\u62a5\u544a\u622a\u65ad\u72b6\u6001. write_autojs6_script, automate_task \u548c debug_selector \u63d0\u793a\u63d0\u4f9b\u4e2d\u82f1\u6587\u6307\u5bfc, \u5176\u4ed6\u624b\u673a\u8bed\u8a00\u56de\u9000\u82f1\u8bed.\r\n- **Feature** \u5de5\u4f5c\u76ee\u5f55\u5de5\u5177 (P3.4): files_list / stat / read / write / mkdir / rename / delete, \u4f7f\u7528\u4ece 1 \u5f00\u59cb\u7684\u884c\u5217\u53f7\u7684 editor_open, app_launch / list, clipboard_get / set, device_ensure_accessibility, toast \u548c shell_exec. \u4e8c\u8fdb\u5236\u8bfb\u53d6\u4f7f\u7528 base64, \u539f\u59cb\u6570\u636e\u6700\u591a 1 MiB. \u5199\u5165\u8fd8\u53d7\u5bbf\u4e3b\u8bf7\u6c42\u9884\u7b97\u7ea6\u675f (\u901a\u5e38\u4e3a\u5305\u542b JSON \u8f6c\u4e49\u7684 96 KiB). \u6587\u4ef6\u5220\u9664\u548c Shell \u9ed8\u8ba4\u5173\u95ed; root \u53e6\u9700 allowShellRoot \u5f00\u5173\u4e0e\u5bbf\u4e3b shell.root \u6388\u6743. \u8fd9\u4e9b\u80fd\u529b\u9700\u8981\u5339\u914d\u7684 P3.4 \u5bbf\u4e3b\u6784\u5efa.\r\n- **Feature** \u63d2\u4ef6\u6807\u8bc6 `mcp-server`, \u542b INFO \u670d\u52a1, Wake Activity \u4ee5\u53ca\u4f9b\u5bbf\u4e3b\u53d1\u73b0\u7684 `org.autojs.plugin.MCP_SERVER` \u670d\u52a1\u9aa8\u67b6\r\n- **Feature** 10 \u79cd\u8bed\u8a00\u7684 README, \u63d2\u4ef6\u4e2d\u5fc3\u8bf4\u660e\u4e0e\u66f4\u65b0\u65e5\u5fd7\r\n- **Feature** \u4f4d\u4e8e `http://127.0.0.1:9637/mcp` \u7684 Streamable HTTP \u7aef\u70b9\u53ca `device_ping` \u5de5\u5177, \u7531\u53ef\u7ecf adb \u6216\u5bbf\u4e3b\u542f\u505c\u7684\u524d\u53f0\u670d\u52a1\u627f\u8f7d (\u5f00\u53d1\u9884\u89c8)\r\n- **Feature** `/mcp` \u7aef\u70b9\u7684\u4f20\u8f93\u52a0\u56fa: \u7ed1\u5b9a\u5730\u5740\u4e0e\u7aef\u53e3\u6765\u81ea\u670d\u52a1\u5668\u914d\u7f6e\u5b58\u50a8, \u8bf7\u6c42\u4f53\u4e0a\u9650 1 MiB, \u7a7a\u95f2\u8fde\u63a5 60 \u79d2\u540e\u5173\u95ed, \u7aef\u53e3\u88ab\u5360\u7528\u6216\u7ed1\u5b9a\u88ab\u62d2\u7edd\u65f6\u4ee5 `port_in_use` / `bind_failed` \u72b6\u6001\u9644\u5e26\u63d0\u793a\u7ed3\u675f\u800c\u975e\u5d29\u6e83\r\n- **Feature** SDK \u4f20\u8f93\u524d\u7f6e\u7684 DNS rebinding \u4fdd\u62a4: \u56de\u73af\u6a21\u5f0f\u53ea\u63a5\u53d7 `localhost` / `127.0.0.1` / `[::1]` \u4f5c\u4e3a `Host`, \u5c40\u57df\u7f51\u6a21\u5f0f\u52a0\u5165\u8bbe\u5907\u5f53\u524d IPv4 \u5730\u5740\u4e0e\u53ef\u9009\u7684\u989d\u5916\u4e3b\u673a\u540d\u5e76\u5728\u7f51\u7edc\u53d8\u5316\u65f6\u5237\u65b0; \u6d4f\u89c8\u5668\u6765\u6e90\u4e00\u5f8b\u62d2\u7edd, \u4ec5 \"\u5f00\u53d1\u8005\u6a21\u5f0f\" \u5f00\u5173\u7ecf CORS \u653e\u884c Inspector \u7684\u56de\u73af\u6765\u6e90\r\n- **Feature** \u670d\u52a1\u5668\u6807\u8bc6 `autojs6-mcp-server` \u643a\u5e26\u63d2\u4ef6\u7248\u672c, \u5e76\u58f0\u660e tools (`listChanged`), resources \u4e0e prompts \u80fd\u529b; `tools/list` \u4fdd\u6301\u6ce8\u518c\u987a\u5e8f\u4ee5\u4fbf\u5ba2\u6237\u7aef\u7f13\u5b58\r\n- **Feature** \u6bcf\u4e2a `/mcp` \u8bf7\u6c42\u7684 Bearer \u4ee4\u724c\u9274\u6743: \u9996\u6b21\u542f\u52a8\u65f6\u751f\u6210 32 \u5b57\u8282\u4ee4\u724c, \u4ee5 Android Keystore \u7684 AES-GCM \u5bc6\u94a5\u5305\u88f9\u540e\u5b58\u653e\u5728\u63d2\u4ef6\u79c1\u6709\u4e14\u4e0d\u53c2\u4e0e\u5907\u4efd\u7684\u5b58\u50a8\u4e2d; `Authorization` \u5934\u7f3a\u5931\u6216\u9519\u8bef\u65f6\u7ecf\u5e38\u91cf\u65f6\u95f4\u6bd4\u8f83\u540e\u4ee5 `401` + `WWW-Authenticate: Bearer` \u4e0e JSON-RPC `-32001` \u9519\u8bef\u62d2\u7edd; \u4ee4\u724c\u4e0d\u5199\u5165\u65e5\u5fd7\r\n- **Feature** \u4f20\u8f93\u524d\u7f6e\u7684\u9996\u6b21\u914d\u5bf9: \u672a\u914d\u5bf9\u5ba2\u6237\u7aef\u53ef\u4ee5 `initialize` \u5e76\u5217\u51fa tools, resources \u4e0e prompts, \u4f46\u9996\u6b21 `tools/call`, `resources/read`, `resources/subscribe` \u6216 `prompts/get` \u8fd4\u56de `PAIRING_REQUIRED` (`-32002`), \u76f4\u5230 60 \u79d2\u5185\u5728\u624b\u673a\u4e0a\u786e\u8ba4; \u62d2\u7edd\u6216\u8d85\u65f6\u540e 30 \u79d2\u5185\u8fd4\u56de `PAIRING_DENIED` (`-32003`); \u5ba2\u6237\u7aef\u6309 `clientInfo` \u540d\u79f0 (\u7f3a\u5931\u65f6\u7528 `User-Agent`) \u52a0\u5730\u5740\u7c7b\u522b (\u56de\u73af / \u5c40\u57df\u7f51) \u8bc6\u522b, \u56e0\u6b64\u4ee4\u724c\u8f6e\u6362\u4e0d\u5f71\u54cd\u5df2\u6709\u914d\u5bf9, \u6700\u591a\u53ef\u914d\u5bf9 32 \u4e2a\u5ba2\u6237\u7aef\r\n- **Feature** \u624b\u673a\u4e0a\u7684\u914d\u5bf9\u786e\u8ba4\u8d70\u53cc\u901a\u9053: \u5e26\u5141\u8bb8 / \u62d2\u7edd\u52a8\u4f5c\u7684\u9ad8\u4f18\u5148\u7ea7\u901a\u77e5, \u4ee5\u53ca\u5c4f\u5e55\u89e3\u9501\u65f6\u5f39\u51fa\u7684\u5bf9\u8bdd\u6846; \u670d\u52a1\u5668\u914d\u7f6e, \u4ee4\u724c\u4e0e\u5df2\u914d\u5bf9\u5ba2\u6237\u7aef\u4fdd\u5b58\u5728\u539f\u5b50\u66ff\u6362\u7684\u6587\u4ef6\u4e2d, \u670d\u52a1\u5668\u8fdb\u7a0b\u4e0e\u8bbe\u7f6e\u9875\u5171\u4eab\u4e14\u4e0d\u4f1a\u8bfb\u5230\u8fc7\u671f\u7f13\u5b58\r\n- **Feature** \u5e26\u5206\u7ec4\u5f00\u5173\u7684\u5de5\u5177\u76ee\u5f55 (\u51b3\u7b56 D6): `device_ping` (\u63d2\u4ef6\u672c\u5730), `device_info` (AutoJs6 `device.info`) \u4e0e `script_run` (AutoJs6 `engines.execScript`: \u8fd0\u884c JavaScript, \u6700\u591a\u7b49\u5f85 `timeoutMs` \u76f4\u5230\u811a\u672c\u7ed3\u675f, \u8fd4\u56de\u7ed3\u679c\u4e0e\u6700\u65b0\u7684\u63a7\u5236\u53f0\u884c, \u8fd0\u884c\u671f\u95f4\u53d1\u9001\u8fdb\u5ea6\u901a\u77e5); \u6bcf\u4e2a\u5de5\u5177\u58f0\u660e\u5c01\u95ed\u7684 JSON Schema (`additionalProperties: false`), \u53c2\u6570\u5728\u5230\u8fbe AutoJs6 \u4e4b\u524d\u5b8c\u6210\u6821\u9a8c; \u5206\u7ec4\u5f00\u5173 `script` / `ui` / `ui_gesture` / `screen` / `files` / `files_delete` / `device` / `shell` \u5b58\u653e\u4e8e `tool_groups.json`, \u5173\u95ed\u7684\u5206\u7ec4\u81ea\u4e0b\u4e00\u6b21\u8bf7\u6c42\u8d77\u4ece `tools/list` \u6d88\u5931, \u5176\u5de5\u5177\u56de\u7b54 `TOOL_DISABLED`\r\n- **Feature** \u5bbf\u4e3b\u6865\u63a5: `org.autojs.plugin.MCP_SERVER` \u670d\u52a1\u5b9e\u73b0\u771f\u5b9e\u7684 `IMcpServerPlugin` Binder (`getInfo` / `getCapabilities` \u62a5\u544a\u5951\u7ea6\u7248\u672c 1, \u5de5\u5177\u5206\u7ec4, MCP \u534f\u8bae\u7248\u672c\u4e0e SDK \u7248\u672c; `openServer` \u53ea\u63a5\u53d7\u5df2\u5b89\u88c5\u4e14\u540c\u7b7e\u540d\u7684 AutoJs6, \u8fd4\u56de\u5e26 `getStatus` / `updateConfig` / `stop` / `close` \u7684 `IMcpServerSession`); \u5de5\u5177\u8c03\u7528\u7ecf\u5bbf\u4e3b\u80fd\u529b\u4ee3\u7406\u4f20\u9012, \u5e26\u5355\u8c03\u9012\u589e\u7684\u8bf7\u6c42 id, \u6bcf\u6b21\u8c03\u7528\u7684\u8d85\u65f6, 4 \u8def\u5e76\u53d1\u4e0a\u9650, \u5bbf\u4e3b\u9519\u8bef\u7c7b\u522b\u6620\u5c04\u4e3a `HOST_UNAVAILABLE` / `A11Y_SERVICE_NOT_RUNNING` / `CAPABILITY_DENIED` / `LIMIT_EXCEEDED` / `RATE_LIMITED` / `TIMEOUT` / `HOST_ERROR`; AutoJs6 \u9000\u51fa\u65f6\u76d1\u542c\u5668\u7ee7\u7eed\u8fd0\u884c, \u4f9d\u8d56\u5bbf\u4e3b\u7684\u5de5\u5177\u56de\u7b54 `HOST_UNAVAILABLE` \u76f4\u5230\u5bbf\u4e3b\u91cd\u65b0\u8fde\u63a5; \u72b6\u6001\u4e0e\u4e8b\u4ef6 (`pairing_requested`, `client_paired`, `tool_call`, `warning`) \u7ecf\u56de\u8c03\u9001\u8fbe\u5bbf\u4e3b\r\n- **Feature** \u524d\u53f0\u670d\u52a1\u901a\u77e5\u663e\u793a\u7aef\u70b9, AutoJs6 \u8fde\u63a5\u72b6\u6001\u4e0e\u5df2\u914d\u5bf9\u5ba2\u6237\u7aef\u6570, \u5e76\u63d0\u4f9b\u505c\u6b62\u52a8\u4f5c; \u901a\u77e5\u88ab\u7981\u7528\u65f6\u4ee5 toast \u63d0\u793a\u7aef\u70b9; `dumpsys activity service` \u989d\u5916\u6253\u5370\u5bbf\u4e3b\u4f1a\u8bdd, \u5de5\u5177\u5206\u7ec4\u5f00\u5173\u4e0e\u5df2\u6ce8\u518c\u5de5\u5177\r\n- **Feature** \u8865\u5168\u811a\u672c\u5206\u7ec4: `script_run_file` \u8fd0\u884c\u8bbe\u5907\u4e0a\u7684\u811a\u672c\u6587\u4ef6, `script_stop` / `script_stop_all` \u505c\u6b62\u4e00\u4e2a\u6216\u5168\u90e8 AutoJs6 \u6267\u884c, `script_list` \u5217\u51fa\u8fd0\u884c\u4e2d\u7684\u6267\u884c, `console_tail` \u8fd4\u56de\u6700\u65b0\u7684\u63a7\u5236\u53f0\u884c\u5e76\u5e26 `nextSinceId` \u6e38\u6807\u4e0e\u7ea7\u522b\u8fc7\u6ee4; `script_run` \u4e0e `script_run_file` \u73b0\u5728\u8fd4\u56de `executionId`, `status` (`finished` / `error` / `running`), `durationMs`, \u542b\u884c\u53f7\u7684\u5f02\u5e38\u4e0e\u6700\u65b0\u7684\u63a7\u5236\u53f0\u884c, \u7b49\u5f85\u671f\u95f4\u6bcf 2 s \u53d1\u9001\u4e00\u6761\u643a\u5e26\u6700\u65b0\u63a7\u5236\u53f0\u884c\u7684\u8fdb\u5ea6\u901a\u77e5\r\n- **Feature** MCP \u7aef\u70b9\u7684\u54cd\u5e94\u6539\u4e3a\u4ee5\u670d\u52a1\u5668\u53d1\u9001\u4e8b\u4ef6 (SSE) \u6d41\u5f0f\u8fd4\u56de (\u4e0d\u518d\u4f7f\u7528 SDK \u7684 JSON \u54cd\u5e94\u6a21\u5f0f), \u5c5e\u4e8e\u67d0\u4e2a\u8bf7\u6c42\u7684\u901a\u77e5 (\u5982\u8fd0\u884c\u4e2d\u811a\u672c\u7684\u8fdb\u5ea6\u5fc3\u8df3) \u4f1a\u968f\u8be5\u8bf7\u6c42\u81ea\u8eab\u7684\u54cd\u5e94\u9001\u8fbe\u5ba2\u6237\u7aef\r\n- **Feature** \u65b0\u589e UI \u5206\u7ec4 (roadmap P3.2): `ui_dump` \u4ee5\u5e26 `#n` \u5f15\u7528\u7684\u7d27\u51d1\u8282\u70b9\u6811\u8fd4\u56de\u5f53\u524d\u7a97\u53e3 (`format` \u4e3a text / json / xml, `maxNodes` \u6700\u591a 400, `maxDepth`, `visibleOnly`, `window`), `ui_find` / `ui_wait_for` \u8f6e\u8be2\u9009\u62e9\u5668, `ui_current_window` \u4e0e `ui_explain_selector` \u62a5\u544a\u7a97\u53e3\u4e0e\u9009\u62e9\u5668\u5931\u8d25\u7684\u539f\u56e0, `ui_click` / `ui_long_click` / `ui_set_text` / `ui_scroll` \u4f5c\u7528\u4e8e `nodeRef` (\u6309\u6307\u7eb9\u91cd\u5b9a\u4f4d, \u8282\u70b9\u6d88\u5931\u65f6\u8fd4\u56de `NODE_REF_STALE`) \u6216 `selector`, `ui_press_key` \u6309\u4e0b back / home / recents / notifications / quick_settings / power_dialog / lock_screen, \u9ed8\u8ba4\u5173\u95ed\u7684 `ui_gesture` \u5206\u7ec4\u589e\u52a0 `ui_swipe`, `ui_gesture` \u4e0e\u70b9\u51fb\u5de5\u5177\u7684\u5750\u6807\u5f62\u5f0f (\u5206\u7ec4\u5173\u95ed\u65f6\u8fd4\u56de `TOOL_DISABLED`); \u5de5\u5177\u76ee\u5f55\u5feb\u7167\u589e\u81f3 20 \u4e2a\u5de5\u5177; \u5750\u6807\u624b\u52bf\u9700\u8981 2026-09-11 \u6216\u4e4b\u540e\u6784\u5efa\u7684 AutoJs6 \u5bbf\u4e3b (\u66f4\u65e9\u7684\u5bbf\u4e3b\u4f1a\u968f\u673a\u4ee5 \"the system cancelled ...\" \u5e94\u7b54)\r\n- **Feature** \u622a\u56fe\u5206\u7ec4 (P3.3): screen_capture \u8fd4\u56de MCP \u56fe\u7247, \u652f\u6301\u88c1\u526a, scale \u6216 maxWidth, JPEG / PNG / WebP \u4e0e\u8d28\u91cf\u53c2\u6570. \u9ed8\u8ba4 JPEG \u8d28\u91cf 70, \u6700\u957f\u8fb9 1280 px. base64 \u8d85\u8fc7 4 MiB \u65f6\u964d\u4f4e\u8d28\u91cf\u6216\u5c3a\u5bf8\u91cd\u8bd5, \u5143\u6570\u636e\u8bf4\u660e\u8c03\u6574\u60c5\u51b5. screen_state \u8fd4\u56de\u4eae\u5c4f\u72b6\u6001, \u5c3a\u5bf8, \u65b9\u5411\u548c\u5bc6\u5ea6. \u5de5\u5177\u76ee\u5f55\u73b0\u6709 22 \u9879. MediaProjection \u56de\u9000\u9700\u8981 2026-09-13 \u6216\u4e4b\u540e\u6784\u5efa\u7684 AutoJs6 \u5bbf\u4e3b\u53ca\u624b\u673a\u7aef\u6388\u6743, \u5bbf\u4e3b\u4f1a\u8bdd\u590d\u7528\u8be5\u6388\u6743.\r\n- **Feature** \u5c40\u57df\u7f51\u8def\u5f84 (P5.1): \u5f00\u542f\u5c40\u57df\u7f51\u8bbf\u95ee\u540e, \u8bbe\u7f6e\u9875\u5217\u51fa\u624b\u673a\u5f53\u524d\u5730\u5740 (Wi-Fi \u53d8\u5316\u65f6\u5237\u65b0) \u5e76\u63d0\u793a\u540c\u7f51\u6bb5\u4e0e\u9632\u706b\u5899; \u6765\u81ea\u5c40\u57df\u7f51\u7684\u914d\u5bf9\u8bf7\u6c42\u5728\u5bf9\u8bdd\u6846\u548c\u901a\u77e5\u4e2d\u663e\u8457\u6807\u6ce8; \u6bcf\u65e5\u63d0\u9192\u670d\u52a1\u5668\u4ecd\u53ef\u4ece\u5c40\u57df\u7f51\u8bbf\u95ee, \u53ef\u5173\u95ed\u4e14\u4e0d\u91cd\u542f\u76d1\u542c. README \u8bb0\u5f55 USB \u4e0e\u5c40\u57df\u7f51\u8def\u5f84.\r\n- **Feature** \u6bcf\u5ba2\u6237\u7aef\u901f\u7387\u9650\u5236 (P6): \u6bcf\u5ba2\u6237\u7aef\u6bcf\u79d2\u6700\u591a 20 \u4e2a\u8bf7\u6c42, \u6bcf\u5206\u949f\u6700\u591a 30 \u6b21 screen_capture. \u8d85\u9650\u8bf7\u6c42\u8fd4\u56de HTTP 429, \u5e26 Retry-After \u5934\u548c\u542b retryAfterMs \u7684 JSON-RPC RATE_LIMITED \u9519\u8bef; \u8d85\u9650\u622a\u56fe\u4ee5\u5e26 retryAfterMs \u7684 RATE_LIMITED \u5de5\u5177\u7ed3\u679c\u5e94\u7b54, \u4fbf\u4e8e\u6a21\u578b\u7b49\u5f85. \u5bbf\u4e3b grant \u7684\u65e0\u969c\u788d\u67e5\u8be2\u901f\u7387\u5728\u6b64\u4e4b\u4e0a\u4ecd\u7136\u751f\u6548.\r\n- **Feature** \u7a7a\u95f2\u81ea\u52a8\u505c\u6b62\u4e0e\u7535\u91cf (P6): \u8bbe\u7f6e\u9875\u65b0\u589e \"\u7a7a\u95f2\u65f6\u81ea\u52a8\u505c\u6b62\" (\u9ed8\u8ba4\u5173\u95ed; 5 / 15 / 30 / 60 / 120 \u5206\u949f). \u76d1\u542c\u5668\u5728\u6240\u9009\u65f6\u95f4\u5185\u6ca1\u6709\u5ba2\u6237\u7aef\u8bf7\u6c42\u65f6\u81ea\u884c\u505c\u6b62, \u8bb0\u5f55\u63d2\u4ef6\u5185\u90e8\u7684 idle_timeout \u539f\u56e0, \u7559\u4e0b\u4e00\u6761\u53ef\u81ea\u52a8\u6d88\u5931\u7684\u901a\u77e5, \u4e14\u4e0d\u7b97\u4f5c\u7528\u6237\u505c\u6b62; \u5904\u7406\u4e2d\u7684\u8bf7\u6c42 (\u6b63\u5728\u8fd0\u884c\u7684\u5de5\u5177\u8c03\u7528) \u4e0d\u7b97\u7a7a\u95f2, \u800c\u4ec5\u4fdd\u6301\u8fde\u63a5\u5374\u4e0d\u53d1\u8bf7\u6c42\u7684\u5ba2\u6237\u7aef\u4e0d\u4f1a\u8ba9\u670d\u52a1\u5668\u7ee7\u7eed\u8fd0\u884c. \u5f53 Android \u9650\u5236\u4e86\u672c\u5e94\u7528\u7684\u7535\u6c60\u7528\u91cf (HyperOS \u4e0e MIUI \u9ed8\u8ba4\u5bf9\u4fa7\u8f7d\u5e94\u7528\u5982\u6b64, \u606f\u5c4f\u5e76\u4f7f\u7528\u7535\u6c60\u7ea6\u4e00\u5206\u949f\u540e\u4f1a\u505c\u6b62\u524d\u53f0\u670d\u52a1) \u65f6, \u8bbe\u7f6e\u9875\u663e\u793a\u8b66\u544a\u548c \"\u7535\u6c60\u8bbe\u7f6e\" \u6309\u94ae, AutoJs6 \u6536\u5230\u4e00\u6761 warning \u4e8b\u4ef6. \u7a7a\u95f2 CPU \u65f6\u95f4\u4e0e\u4e00\u5c0f\u65f6\u7a7a\u95f2\u7684 batterystats \u4f30\u7b97\u8bb0\u5f55\u4e8e docs/dev/p6-battery-and-residency.md.\r\n- **Improvement** \u6784\u5efa\u9636\u6bb5\u963b\u6b62\u610f\u5916\u5f15\u5165\u539f\u751f\u4f9d\u8d56, \u5e76\u8f93\u51fa JSON \u6821\u9a8c\u62a5\u544a\r\n- **Fix** IDE rebuild \u4e0d\u518d\u4e3a JVM \u5355\u5143\u6d4b\u8bd5\u67e5\u627e APK. APK \u6821\u9a8c\u4efb\u52a1\u4f1a\u81ea\u52a8\u7ec4\u88c5\u6240\u9700\u4ea7\u7269, \u53ef\u76f4\u63a5\u4ece clean \u540e\u6267\u884c.\r\n- **Fix** \u63d2\u4ef6\u4e2d\u5fc3\u4eae\u6697\u6a21\u5f0f\u4e0b\u56fe\u6807\u6bd4\u4f8b\u4e0d\u4e00\u81f4\u53ca\u81ea\u9002\u5e94\u56fe\u6807\u7559\u767d\u4e0d\u8db3\u7684\u95ee\u9898; \u591c\u95f4\u540c\u6837\u4f7f\u7528\u81ea\u9002\u5e94\u56fe\u6807, \u8c03\u6574\u56fe\u5c42\u5c3a\u5bf8\u4ee5\u4fdd\u7559 ic_launcher_round.png \u7684\u5b8c\u6574\u56fe\u5f62\u548c\u7559\u767d, \u4ec5\u5207\u6362\u80cc\u666f\u8272\r\n- **Fix** \u8bbe\u7f6e\u9875\u7684\u952e\u76d8 Tab \u5bfc\u822a\u4f1a\u8df3\u8fc7\u5de5\u5177\u680f\u8fd4\u56de\u6309\u94ae; \u73b0\u5728 Tab \u5faa\u73af\u8986\u76d6\u8fd4\u56de\u6309\u94ae\u548c\u5168\u90e8\u63a7\u4ef6 (\u542b Android 7). \u8bbe\u5907\u6d4b\u8bd5\u68c0\u67e5\u8bfb\u5c4f\u6807\u7b7e\u4e0e\u952e\u76d8\u64cd\u4f5c.\r\n- **Fix** script_run \u4e0e script_run_file \u7684 arguments \u6620\u5c04\u4ee5 JSON Schema \u6570\u7ec4\u58f0\u660e\u503c\u7c7b\u578b, \u90e8\u5206 MCP \u5ba2\u6237\u7aef\u4f1a\u62d2\u7edd\u6216\u5f31\u5316; \u73b0\u6539\u4e3a\u5355\u7c7b\u578b anyOf \u5206\u652f. README \u65b0\u589e \"\u63a5\u5165\" \u4e0e \"\u5e38\u89c1\u95ee\u9898\" \u7ae0\u8282\u53ca\u5b9e\u6d4b\u5ba2\u6237\u7aef\u77e9\u9635.\r\n- **Fix** \u654c\u610f\u8bf7\u6c42\u4f53\u5728\u4efb\u4f55\u89e3\u6790\u5668\u9012\u5f52\u4e4b\u524d\u5c31\u88ab\u62d2\u7edd: \u5d4c\u5957\u8d85\u8fc7 64 \u5c42\u7684 JSON, \u91cd\u590d\u8bf7\u6c42 id \u7684\u8bf7\u6c42\u4f53, \u4ee5\u53ca\u540c\u4e00\u4f1a\u8bdd\u4e0a\u4ecd\u5728\u9014\u7684\u8bf7\u6c42 id (\u539f\u672c\u4f1a\u8ba9\u5148\u5230\u7684\u8bf7\u6c42\u5f97\u4e0d\u5230\u5e94\u7b54) \u90fd\u8fd4\u56de 400 \u4e0e JSON-RPC \u9519\u8bef; \u6ca1\u6709\u6709\u6548\u4f1a\u8bdd\u7684 GET \u6d41\u8fd4\u56de 400 / 404 \u800c\u975e\u7a7a\u4e8b\u4ef6\u6d41. JVM \u6d4b\u8bd5\u4e0e\u8bbe\u5907\u6d4b\u8bd5 (API 28 / 31 / 33 / 35) \u8986\u76d6\u8d85\u957f, \u8d85\u6df1, \u975e\u6cd5 UTF-8, \u672a\u77e5\u65b9\u6cd5, \u5934\u90e8\u7ec4\u5408, \u8d85\u5927 base64 \u4e0e 64 \u5e76\u53d1\u4f1a\u8bdd.\r\n- **Fix** \u751f\u547d\u5468\u671f\u77e9\u9635 (P6): \u5e26\u6709\u4e0a\u4e00\u4e2a\u76d1\u542c\u8fdb\u7a0b\u4f1a\u8bdd id \u7684\u8bf7\u6c42 (\u76d1\u542c\u8fdb\u7a0b\u88ab\u6740, \u6216\u56e0\u4ee4\u724c\u8f6e\u6362\u800c\u91cd\u542f\u4e4b\u540e) \u4ea4\u7531\u4f20\u8f93\u5c42\u56de 404, \u8ba9\u5ba2\u6237\u7aef\u91cd\u65b0 initialize, \u800c\u4e0d\u518d\u4ee5\u8bf7\u6c42\u7684 User-Agent \u4e3a\u5df2\u914d\u5bf9\u7684\u5ba2\u6237\u7aef\u53d1\u8d77\u591a\u4f59\u7684\u914d\u5bf9\u63d0\u793a; \u76d1\u542c\u8fdb\u7a0b\u6b7b\u4ea1\u540e\u6b8b\u7559\u5728\u901a\u77e5\u680f\u7684\u914d\u5bf9\u901a\u77e5\u5728\u4e0b\u4e00\u4e2a\u76d1\u542c\u5668\u542f\u52a8\u65f6\u6e05\u9664. \u5bbf\u4e3b\u88ab\u6740, \u76d1\u542c\u8fdb\u7a0b\u88ab\u6740, \u4e24\u8005\u540c\u65f6\u88ab\u6740, \u5728\u7cfb\u7edf\u8bbe\u7f6e\u4e2d\u5f3a\u5236\u505c\u6b62, \u6d3b\u52a8\u4f1a\u8bdd\u4e2d\u7684\u4ee4\u724c\u8f6e\u6362, \u4ee5\u53ca\u8de8\u8d8a\u5bbf\u4e3b\u88ab\u6740\u4e0e\u76d1\u542c\u8fdb\u7a0b\u88ab\u6740\u7684\u5f85\u786e\u8ba4\u914d\u5bf9, \u5404\u81ea\u7684\u671f\u671b\u72b6\u6001\u4e0e\u6062\u590d\u8def\u5f84\u8bb0\u5f55\u4e8e docs/dev/lifecycle-matrix.md \u5e76\u5728\u771f\u673a\u4e0a\u9a8c\u8bc1.\r\n- **Dependency** MCP Kotlin SDK 0.15.0 (`kotlin-sdk-server`) \u4e0e Ktor 3.5.1 CIO \u5f15\u64ce\r\n- **Dependency** \u9644\u52a0 Ktor 3.5.1 `ktor-server-test-host` \u7528\u4e8e JVM \u4f20\u8f93\u6d4b\u8bd5 (\u4ec5\u6d4b\u8bd5\u8303\u56f4)\r\n- **Dependency** \u9644\u52a0 `mcp-server-api.aar` (AutoJs6 \u6a21\u5757 `plugin-api/mcp-server-api`, \u5bbf\u4e3b\u6784\u5efa 6.8.0 / 5279, MPL 2.0) \u4f5c\u4e3a AutoJs6 \u4e0e\u63d2\u4ef6\u4e4b\u95f4\u7684 Binder \u5951\u7ea6, \u5e76\u5728 `locks/host-api-aars.lock` \u4e2d\u9501\u5b9a\u54c8\u5e0c\r\n- **Dependency** \u66f4\u65b0\u6765\u81ea P4 \u5bbf\u4e3b\u6784\u5efa\u7684 common-plugin-api \u548c mcp-server-api \u914d\u5957 AAR: \u53ef\u9009\u8bbe\u7f6e\u6269\u5c55 v1, AIDL transaction \u987a\u5e8f\u4e0d\u53d8, SHA-256 \u9501\u5b9a, \u4fdd\u7559 SDK 36 \u6d88\u8d39\u517c\u5bb9\u6027.\r\n\r\n\r\n## English\r\n\r\n- **Feature** Optional offline documentation resources: when the AutoJs6 Offline Docs plugin is installed and the host relays it through app.listDocs / app.readDoc, resources/list adds autojs6://docs/ (an index with child URIs) and one autojs6://docs/{+path} resource per documentation page, and resources/templates/list adds the docs template; without the plugin, or on a host without these methods, nothing is listed and _meta.docsCatalogStatus tells why\r\n- **Improvement** Raise compileSdk to 37 (Android 17); targetSdk stays at 36 until the behavior that depends on the target is verified\r\n- **Improvement** MCP conformance (P6): the official @modelcontextprotocol/conformance suite 0.1.16 was run against the stateful /mcp path on two devices. 9 of its 32 server scenarios pass (initialize, ping, tools/list, text and error tool results, resources/list, prompts/list, concurrent SSE streams, DNS rebinding protection); 18 call the suite's own reference fixtures (test_* tools, prompts and test:// resources, which this server answers with an unknown-tool result, -32602 or isError) and 5 need capabilities the server does not declare (logging, completions, resource subscriptions). A loopback Origin header is now accepted in every mode, as the suite expects; CORS headers and preflight answers stay limited to developer mode. The stateless 2026-07-28 model has no route (Roadmap D9). Details in docs/dev/p6-conformance.md.\r\n- **Improvement** Security audit (P6): the seven checklist items (token storage, log redaction, exported components, cleartext scope, local network off by default, pairing revocation, default-off tool groups) are verified in the code and on two devices in docs/dev/p6-security-audit.md, and the README security section now states these boundaries. Cleartext HTTP is limited to loopback addresses by a network security configuration instead of the app-wide usesCleartextTraffic flag; the plugin opens no client connections and the listener does not need the flag.\r\n- **Improvement** Performance baseline (P6): ui_dump at 50 / 200 / 400 nodes, screen_capture at three sizes, script_run round trips and four concurrent requests were timed on an API 24 emulator, a Sony phone (API 33) and a Xiaomi Pad (API 35) and recorded in docs/dev/p6-performance-baseline.md as a reference without thresholds. A plugin-only call answers in about 20 ms on the emulator and the phone, ui_dump grows by about 0.05 ms per node, the accessibility screenshot path answers within 100 ms while the MediaProjection path on API 24 takes about 1.35 s per capture, and four concurrent requests complete in 1.0-1.8 times one round trip within the host's limit of four concurrent calls.\r\n- **Feature** Phone settings for server status, USB forwarding, port and LAN access, token display/copy/rotation, pairing revocation, tool groups and root permission, developer mode, copyable Claude Code / Cursor / Codex / generic HTTP configurations, release history, and appearance following AutoJs6. Network settings apply by restarting an active listener; token and permission changes take effect immediately. Secret dialogs block screenshots.\r\n- **Feature** MCP resources (P3.5) expose read-only workspace files, browsable host samples, device information, and recent console output, respecting pairing and group switches. Text and binary reads report truncation. The write_autojs6_script, automate_task, and debug_selector prompts provide English and Chinese guidance, with English fallback for other phone languages.\r\n- **Feature** Workspace tools (P3.4): files_list / stat / read / write / mkdir / rename / delete, editor_open with one-based line and column, app_launch / list, clipboard_get / set, device_ensure_accessibility, toast, and shell_exec. Binary reads use base64, up to 1 MiB of raw data. Writes also obey the host request budget (normally 96 KiB including JSON escaping). File deletion and Shell are off by default; root additionally requires allowShellRoot and a shell.root host grant. These additions require the matching P3.4 host build.\r\n- **Feature** Plugin identity `mcp-server` with the INFO service, the Wake Activity, and the `org.autojs.plugin.MCP_SERVER` service skeleton for host discovery\r\n- **Feature** README, plugin-center instructions, and changelog in 10 languages\r\n- **Feature** Streamable HTTP endpoint at `http://127.0.0.1:9637/mcp` with the `device_ping` tool, hosted by a foreground service that adb or the host can switch on and off (development preview)\r\n- **Feature** Transport hardening for the `/mcp` endpoint: the bind address and port come from the server config store, request bodies are capped at 1 MiB, idle connections close after 60 s, and a port that is already taken or a refused bind ends in a `port_in_use` / `bind_failed` status with a hint instead of a crash\r\n- **Feature** DNS rebinding protection in front of the SDK transport: loopback mode accepts only `localhost` / `127.0.0.1` / `[::1]` as `Host`, LAN mode adds the device's current IPv4 addresses and optional extra host names and refreshes them when the network changes; browser origins are refused unless the developer-mode switch admits the Inspector's loopback origin through CORS\r\n- **Feature** Server identity `autojs6-mcp-server` with the plugin version and the tools (`listChanged`), resources, and prompts capabilities; `tools/list` keeps the registration order so clients can cache it\r\n- **Feature** Bearer token authentication for every `/mcp` request: a 32-byte token generated on first start, wrapped with an Android Keystore AES-GCM key and kept in the plugin's private, never-backed-up storage; a missing or wrong `Authorization` header is refused after a constant-time comparison with `401` + `WWW-Authenticate: Bearer` and a JSON-RPC `-32001` error; the token never reaches the log\r\n- **Feature** First-use pairing in front of the transport: an unpaired client may `initialize` and list tools, resources, and prompts, but its first `tools/call`, `resources/read`, `resources/subscribe`, or `prompts/get` answers `PAIRING_REQUIRED` (`-32002`) until the request is confirmed on the phone within 60 s; a denial or a timeout answers `PAIRING_DENIED` (`-32003`) for 30 s; a client is identified by its `clientInfo` name (or `User-Agent`) plus the address class (loopback / LAN), so a token rotation keeps existing pairings, and up to 32 clients can be paired\r\n- **Feature** Pairing confirmation on the phone through two channels: a high-priority notification with Allow / Deny actions, plus a dialog while the screen is unlocked; the server configuration, the token, and the paired clients live in atomically replaced files that the server process and the settings page share without stale caches\r\n- **Feature** Tool catalog with group switches (decision D6): `device_ping` (plugin-local), `device_info` (AutoJs6 `device.info`), and `script_run` (AutoJs6 `engines.execScript`: runs JavaScript, waits up to `timeoutMs` for it to finish, and returns the outcome plus the newest console lines, with progress notifications while it runs); every tool declares a closed JSON Schema (`additionalProperties: false`) and its arguments are validated before anything reaches AutoJs6; the group switches `script` / `ui` / `ui_gesture` / `screen` / `files` / `files_delete` / `device` / `shell` are stored in `tool_groups.json`, a switched-off group disappears from `tools/list` on the next request and its tools answer `TOOL_DISABLED`\r\n- **Feature** Host bridge: the `org.autojs.plugin.MCP_SERVER` service implements the real `IMcpServerPlugin` Binder (`getInfo` / `getCapabilities` report contract version 1, the tool groups, the MCP protocol versions, and the SDK version; `openServer` admits only the installed same-signer AutoJs6 and returns an `IMcpServerSession` with `getStatus` / `updateConfig` / `stop` / `close`); tool calls travel through the host capability broker with monotonic request ids, per-call timeouts, the 4-call concurrency ceiling, and host error categories mapped onto `HOST_UNAVAILABLE` / `A11Y_SERVICE_NOT_RUNNING` / `CAPABILITY_DENIED` / `LIMIT_EXCEEDED` / `RATE_LIMITED` / `TIMEOUT` / `HOST_ERROR`; when AutoJs6 dies the listener keeps running and host-backed tools answer `HOST_UNAVAILABLE` until the host reconnects; status and events (`pairing_requested`, `client_paired`, `tool_call`, `warning`) reach the host through its callback\r\n- **Feature** Foreground service notification with the endpoint, the AutoJs6 connection state, and the paired client count plus a Stop action; a toast names the endpoint when notifications are blocked; `dumpsys activity service` additionally prints the host session, the tool group switches, and the registered tools\r\n- **Feature** Script group completed: `script_run_file` runs a script file on the device, `script_stop` / `script_stop_all` stop one or every AutoJs6 execution, `script_list` lists the running ones, and `console_tail` returns the newest console lines with a `nextSinceId` cursor and a level filter; `script_run` and `script_run_file` now report `executionId`, `status` (`finished` / `error` / `running`), `durationMs`, the exception with its line, and the newest console lines, and while they wait a progress notification every 2 s carries the newest console line\r\n- **Feature** Responses of the MCP endpoint stream as server-sent events (the SDK's JSON response mode is not used), so a notification that belongs to a request, such as the progress heartbeat of a running script, reaches the client on the response of that request\r\n- **Feature** UI group added (roadmap P3.2): `ui_dump` returns the active window as a compact node tree with `#n` references (`format` text / json / xml, `maxNodes` up to 400, `maxDepth`, `visibleOnly`, `window`), `ui_find` / `ui_wait_for` poll a selector, `ui_current_window` and `ui_explain_selector` report the window and why a selector fails, `ui_click` / `ui_long_click` / `ui_set_text` / `ui_scroll` act on a `nodeRef` (relocated by its fingerprint, `NODE_REF_STALE` once it is gone) or a `selector`, `ui_press_key` presses back / home / recents / notifications / quick_settings / power_dialog / lock_screen, and the `ui_gesture` group (off by default) adds `ui_swipe`, `ui_gesture`, and the coordinate form of the click tools (`TOOL_DISABLED` while the group is off); the tool catalog snapshot grows to 20 tools; the coordinate gestures need an AutoJs6 host built on 2026-09-11 or later (an older host answers them at random with \"the system cancelled ...\")\r\n- **Feature** Screenshot group (P3.3): screen_capture returns MCP images with crop, scale or maxWidth, JPEG / PNG / WebP, and quality controls. Defaults are JPEG quality 70 and longest edge 1280 px. Images above 4 MiB of base64 are retried at lower quality or smaller dimensions, with metadata reporting adjustments. screen_state reports power, dimensions, orientation and density. The catalog now has 22 tools. MediaProjection fallback requires an AutoJs6 host built on 2026-09-13 or later and consent on the phone; the host session reuses that consent.\r\n- **Feature** Local network path (P5.1): with local network access on, the settings page lists the current addresses of the phone (refreshed when Wi-Fi changes) with same-network and firewall hints; a pairing request from the local network is marked in the dialog and the notification; a daily reminder says the server is still reachable from the local network and can be turned off without restarting the listener. README documents the USB and local network paths.\r\n- **Feature** Per-client rate limits (P6): at most 20 requests per second and 30 screen_capture calls per minute per client. A request over the limit gets HTTP 429 with a Retry-After header and a JSON-RPC RATE_LIMITED error carrying retryAfterMs; a screenshot over the limit is answered as a RATE_LIMITED tool result with retryAfterMs so the model can wait. The host grant keeps its own accessibility query rate on top.\r\n- **Feature** Idle auto-stop and battery (P6): the settings page offers \"Stop automatically when idle\" (off by default; 5 / 15 / 30 / 60 / 120 minutes). The listener stops itself after the chosen time without client requests, records the plugin-only idle_timeout reason, leaves one auto-cancelling notification and does not count as a user stop; a request in flight (a running tool call) is never idle, while a client that keeps its stream open without sending requests does not keep the server running. When Android restricts the app's battery usage (HyperOS and MIUI do so for sideloaded apps by default and stop the foreground service about a minute after the screen turns off on battery), the settings page shows a warning with a Battery settings button and AutoJs6 receives a warning event. Idle CPU time and the batterystats estimate of one idle hour are recorded in docs/dev/p6-battery-and-residency.md.\r\n- **Improvement** Build verification rejects accidental native dependencies and produces a JSON report\r\n- **Fix** IDE rebuild no longer looks for an APK for JVM unit tests. APK verification tasks automatically assemble their inputs and work from a clean build.\r\n- **Fix** Plugin Center icon proportions differed between light and dark modes; night mode now also uses the adaptive icon, with layer sizing adjusted to preserve the complete ic_launcher_round.png artwork and margins while changing only the background color\r\n- **Fix** Keyboard Tab navigation on the settings page skipped the toolbar back button; the Tab cycle now covers the back button and every control, including on Android 7. Device tests check screen reader labels and keyboard operation.\r\n- **Fix** The arguments map of script_run and script_run_file declared its value type as a JSON Schema array, which some MCP clients reject or weaken; the schema now uses single-type anyOf branches. README gains Clients and FAQ sections with the tested client matrix.\r\n- **Fix** Hostile request bodies are refused before any parser recurses into them: JSON nested deeper than 64 levels, a body that repeats a request id, and a request id still in flight on the same session (which would have left the earlier request without an answer) get a 400 with a JSON-RPC error; a GET stream without a live session gets 400 / 404 instead of an empty event stream. JVM tests and device tests (API 28 / 31 / 33 / 35) cover oversized, over-deep, invalid UTF-8, unknown method, header combination, large base64 and 64 concurrent session cases.\r\n- **Fix** Lifecycle matrix (P6): a request that names the session of a previous listener process (after the listener was killed, or restarted by a token rotation) is left to the transport's 404 so the client initializes again, instead of raising a pairing prompt under the request's User-Agent for a client that is already paired; pairing notifications a dead listener process left in the shade are cleared when the next listener starts. Host kill, listener kill, both at once, force-stop from the system settings, token rotation under a live session and a pending pairing across a host kill and a listener kill are recorded with their expected states and recovery paths in docs/dev/lifecycle-matrix.md and verified on devices.\r\n- **Dependency** MCP Kotlin SDK 0.15.0 (`kotlin-sdk-server`) on the Ktor 3.5.1 CIO engine\r\n- **Dependency** Ktor 3.5.1 `ktor-server-test-host` added for the JVM transport tests (test scope only)\r\n- **Dependency** Added `mcp-server-api.aar` (AutoJs6 module `plugin-api/mcp-server-api`, host build 6.8.0 / 5279, MPL 2.0) as the Binder contract between AutoJs6 and the plugin, hash-locked in `locks/host-api-aars.lock`\r\n- **Dependency** Update the paired common-plugin-api and mcp-server-api AARs from the P4 host build: optional settings extension v1, unchanged AIDL transaction order, SHA-256 locks, and SDK 36 consumer compatibility.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-mcp-server-v1.0.1-3b9fc1b0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.0.1/autojs6-plugin-mcp-server-v1.0.1-3b9fc1b0.apk",
+              "size": 1377442,
+              "digest": "sha256:c8b5d521358fb196b746fc417797f5d283b15dcb287ebc0f5a71c22fbcd565b5",
+              "sha256": "c8b5d521358fb196b746fc417797f5d283b15dcb287ebc0f5a71c22fbcd565b5",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.1",
+              "versionCode": 57,
+              "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
+              "sourceCommit": "d2731e8ffed1efc2a222b57cc782f4b65e29adec"
+            }
+          ],
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "MediaInfo",
+      "description": "MediaInfo plugin for reading media file information",
+      "localizedDescriptions": {
+        "values": "MediaInfo plugin for reading media file information",
+        "values-ar": "\u0645\u0643\u0648\u0646 MediaInfo \u0627\u0644\u0625\u0636\u0627\u0641\u064a \u0644\u0642\u0631\u0627\u0621\u0629 \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0645\u0644\u0641\u0627\u062a \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
+        "values-en": "MediaInfo plugin for reading media file information",
+        "values-es": "Plugin MediaInfo para leer informaci\u00f3n de archivos multimedia",
+        "values-fr": "Plugin MediaInfo pour lire les informations des fichiers multim\u00e9dias",
+        "values-ja": "\u30e1\u30c7\u30a3\u30a2\u30d5\u30a1\u30a4\u30eb\u60c5\u5831\u3092\u8aad\u307f\u53d6\u308b MediaInfo \u30d7\u30e9\u30b0\u30a4\u30f3",
+        "values-ko": "\ubbf8\ub514\uc5b4 \ud30c\uc77c \uc815\ubcf4\ub97c \uc77d\ub294 MediaInfo \ud50c\ub7ec\uadf8\uc778",
+        "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d MediaInfo \u0434\u043b\u044f \u0447\u0442\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u043c\u0435\u0434\u0438\u0430\u0444\u0430\u0439\u043b\u0430\u0445",
+        "values-zh": "\u7528\u4e8e\u8bfb\u53d6\u5a92\u4f53\u6587\u4ef6\u4fe1\u606f\u7684 MediaInfo \u63d2\u4ef6",
+        "values-zh-rHK": "\u7528\u65bc\u8b80\u53d6\u5a92\u9ad4\u6587\u4ef6\u4fe1\u606f\u7684 MediaInfo \u63d2\u4ef6",
+        "values-zh-rTW": "\u7528\u65bc\u8b80\u53d6\u5a92\u9ad4\u6a94\u6848\u8cc7\u8a0a\u7684 MediaInfo \u5916\u639b"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "mediainfo",
+      "variant": "default",
+      "engineId": "mediainfo",
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "2.0.0",
+          "versionCode": 10,
+          "versionDate": "2026-09-01",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/tag/v2.0.0",
+          "changelogText": "> v2.0.0 \u5df2\u901a\u8fc7 [PR #1](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/pull/1) \u5408\u5165 `master`\uff1bRelease \u4e0e\u6807\u7b7e\u76ee\u6807\u4e3a\u5408\u5e76\u63d0\u4ea4 `636a83cf024725c049367d43c849c727a4a93aec`\u3002\u4e94\u4e2a APK \u7684\u670d\u52a1\u5668\u7aef\u5927\u5c0f\u4e0e SHA-256 \u5df2\u5728\u53d1\u5e03\u524d\u590d\u6838\u3002\r\n\r\n## \u7248\u672c\u8981\u70b9\r\n\r\n- \u539f\u751f\u89e3\u6790\u5f15\u64ce\u4ece\u51bb\u7ed3\u7684 MediaInfoLib 0.7.83 \u5207\u6362\u4e3a\u5b98\u65b9 MediaArea \u6e90\u7801\u6784\u5efa\uff1aMediaInfoLib 26.05\uff08`f23e69ce89581343f3b7a42e06828a5331e290d5`\uff09\u4e0e ZenLib 0.4.41\uff08`894980d3ecbc843d6ac685493f8f2ed5c2b6864c`\uff09\u3002\r\n- \u56db\u79cd ABI\uff08arm64-v8a\u3001armeabi-v7a\u3001x86\u3001x86_64\uff09\u53ca universal APK \u5747\u7531\u56fa\u5b9a\u6e90\u7801\u3001Android NDK 29.0.14206865 \u4e0e CMake 3.22.1 \u53ef\u590d\u73b0\u6784\u5efa\uff1b\u6765\u6e90\u9501\u3001\u8bb8\u53ef\u8bc1\u3001APK \u5185 provenance \u548c ELF \u5ba1\u8ba1\u5df2\u7eb3\u5165\u95e8\u7981\u3002\r\n- \u589e\u52a0\u5b98\u65b9\u7a33\u5b9a\u7248\u6bcf\u5468/\u624b\u52a8\u68c0\u67e5\u6d41\u7a0b\uff1a\u53ea\u751f\u6210\u56fa\u5b9a\u7248\u672c\u7684 Draft PR\uff0c\u68c0\u6d4b\u4e0a\u6e38\u6807\u7b7e\u79fb\u52a8\uff0c\u4e0d\u4f1a\u81ea\u52a8\u5408\u5e76\u6216\u53d1\u5e03\u3002\r\n- \u4fee\u590d R8 \u5bf9 JNI \u5305\u88c5\u7c7b/\u65b9\u6cd5\u7684\u6539\u5199\u98ce\u9669\uff0c\u5e76\u901a\u8fc7\u5b9e\u9645 minified Release APK \u7684\u516c\u5f00 AIDL round-trip \u6d4b\u8bd5\u3002\r\n- \u4fdd\u7559 v1.1.0 \u5df2\u52a0\u5165\u7684\u5e38\u89c4 FD \u76f4\u8bfb\u3001\u4fdd\u5b88\u7684\u8fdb\u7a0b\u5185 LRU/10 \u5206\u949f\u6ed1\u52a8\u7f13\u5b58\u3001\u8d85\u65f6/\u53d6\u6d88\u4e0e pipe \u79c1\u6709\u526f\u672c\u56de\u9000\u3002\r\n\r\n## \u517c\u5bb9\u6027\u4e0e\u5df2\u77e5\u5dee\u5f02\r\n\r\n- v1.1.0 \u6c38\u4e45\u56fa\u5b9a MediaInfoLib 0.7.83\uff1b\u4ece v2.0.0 \u8d77\u91c7\u7528\u5b98\u65b9\u6e90\u7801\u7684\u56fa\u5b9a\u7248\u672c\u66f4\u65b0\u8def\u7ebf\u3002\r\n- \u5bf9\u5916 AIDL\u3001`inform`\u3001`get` \u4e0e `autojs6-plugin-mediainfo-snapshot-v1` \u5951\u7ea6\u4fdd\u6301\u4e0d\u53d8\u3002\r\n- \u4f7f\u7528\u540c\u4e00\u6279 4 \u4e2a\u771f\u5b9e\u5a92\u4f53\u6837\u672c\u6bd4\u8f83 0.7.83 \u4e0e 26.05\uff1a\u5bb9\u5668\u683c\u5f0f\u548c\u6709\u6548\u6838\u5fc3\u6d41\u4fdd\u6301\u4e00\u81f4\uff1b\u65e5\u671f/\u5355\u4f4d\u89c4\u8303\u5316\u3001\u5b57\u6bb5\u91cd\u547d\u540d\u3001AAC \u7ec6\u5316\u3001H.264/VP9 HDR/\u8272\u5f69\u3001FLAC \u6821\u9a8c\u548c\u4e0e\u5c01\u9762\u56fe\u5143\u6570\u636e\u7b49\u5dee\u5f02\u5747\u786e\u8ba4\u6765\u81ea\u4e0a\u6e38\u589e\u5f3a\uff0c\u65e0\u9700\u517c\u5bb9 shim\u3002\r\n- \u635f\u574f MP4 \u4ecd\u8bc6\u522b\u4e3a General-only MPEG-4\uff1b26.05 \u4e0d\u518d\u8f93\u51fa\u65e7\u7248\u7684 `IsTruncated=Yes`\uff0c\u8be5\u5b57\u6bb5\u89c6\u4e3a\u975e\u7a33\u5b9a\u8bca\u65ad\u4fe1\u606f\u3002\r\n- \u539f\u751f `Output=JSON` \u96c6\u6210\u660e\u786e\u5ef6\u540e\u81f3 v2.1.x\uff1bv2.0.0 \u7ee7\u7eed\u4f7f\u7528\u5f53\u524d\u6587\u672c\u89e3\u6790\u5668\u751f\u6210 snapshot-v1\u3002\r\n\r\n## \u9a8c\u8bc1\u6458\u8981\r\n\r\n- \u63d0\u4ea4 `7592560287f6d9125f7b7b8188b1775d05a91a80` \u7684 push \u4e0e pull_request CI \u5168\u7eff\uff1aMarkdown\u3001\u5355\u5143\u6d4b\u8bd5\u3001Debug/Release \u6784\u5efa\u3001\u56db ABI \u6253\u5305\u5ba1\u8ba1\u3001API 35 x86_64 minified Release smoke \u4e0e connectedDebug \u5747\u901a\u8fc7\uff086/6 checks\uff09\u3002\r\n- \u53d1\u5e03\u540e\u56de\u5f52\u540c\u6837\u5168\u7eff\uff1a`master` \u5408\u5e76 push\uff08[Build](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/actions/runs/33458988508) / [Markdown](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/actions/runs/33458988195)\uff09\u4e0e `v2.0.0` \u6807\u7b7e push\uff08[Build](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/actions/runs/33459101325) / [Markdown](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/actions/runs/33459101288)\uff09\u5171\u56db\u4e2a workflow \u5747\u4e3a `success`\uff1b\u4e24\u7ec4 minified Release \u5747\u518d\u6b21\u8f93\u51fa `OK (1 test)` \u5e76\u5b8c\u6210 `connectedDebugAndroidTest`\u3002\r\n- \u672c\u5730\u6700\u7ec8\u751f\u4ea7\u6784\u5efa\uff1a129 \u4e2a actionable tasks\u3001121 \u4e2a\u5b9e\u9645\u6267\u884c\uff0c`BUILD SUCCESSFUL`\uff08637 \u79d2\uff09\uff1b\u7b7e\u540d\u8bc1\u4e66 SHA-256 \u4e3a `31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213`\uff0c\u4e0e v1.1.0 \u4e00\u81f4\u3002\r\n- \u56db ABI ELF `LOAD` \u5bf9\u9f50\u4e3a `0x4000`\uff0816 KB\uff09\uff0c\u552f\u4e00\u5bfc\u51fa\u7b26\u53f7\u4e3a `JNI_OnLoad`\uff1b\u52a8\u6001\u4f9d\u8d56\u9650\u5b9a\u4e3a libc/libdl/libm/libz\u3002\r\n- QV710AF65F\uff08Sony XQ-AT72\uff0cAPI 31\uff09\u5b89\u88c5\u5e76\u8fd0\u884c\u53d1\u5e03\u76ee\u5f55\u4e2d\u7cbe\u786e\u5b57\u8282\u7684 ARM64 \u4e0e ARM32 APK\uff1a\u8bbe\u5907\u7aef SHA-256\u3001\u7248\u672c 2.0.0/10 \u5747\u5339\u914d\uff0c\u4e24\u4e2a Release smoke test \u5747\u4e3a `OK (1 test)`\uff0c\u6bcf\u8f6e\u540e\u5e94\u7528\u4e0e\u6d4b\u8bd5\u5305\u5747\u5df2\u5220\u9664\u3002\r\n- QV770340J7\uff08Sony XQ-DQ72\uff0cAPI 33\uff09\u7ecf\u663e\u5f0f\u5927\u6587\u4ef6\u6388\u6743\u9a8c\u8bc1 19.37 GiB MP4 \u4e0e 77.97 GiB MKV\uff1a\u51b7/\u7f13\u5b58\u7ed3\u679c\u4e00\u81f4\uff0c\u51b7\u89e3\u6790\u5206\u522b\u4e3a 137.417 ms \u4e0e 177.211 ms\uff1b\u6d4b\u8bd5\u526f\u672c\u5747\u5df2\u7acb\u5373\u6e05\u7406\u3002\r\n\r\n## APK \u4e0e SHA-256\r\n\r\n| ABI | \u6587\u4ef6 | \u5b57\u8282\u6570 | SHA-256 |\r\n| --- | --- | ---: | --- |\r\n| arm64-v8a | `autojs6-plugin-mediainfo-v2.0.0-arm64-v8a-69e544cf.apk` | 2,951,111 | `d8d7c289c78f61aabbe459196475d5630618ca9b0e9d8ab865995a8d8d84bc7f` |\r\n| armeabi-v7a | `autojs6-plugin-mediainfo-v2.0.0-armeabi-v7a-40397d24.apk` | 2,721,393 | `c1ea25922acbef6fc290a18520555c580f2ed917b2c76936735960447ccba25c` |\r\n| universal | `autojs6-plugin-mediainfo-v2.0.0-universal-69a8a908.apk` | 11,715,225 | `f33bb09fad708635bee0776ba2a0a00220761d280f25e72fe07cb710efc6c3f8` |\r\n| x86 | `autojs6-plugin-mediainfo-v2.0.0-x86-70ec1b9b.apk` | 3,338,929 | `83ab907437f3736cc84cb411f1624aefef814ca391b01ca5942bd13a627ef3f6` |\r\n| x86_64 | `autojs6-plugin-mediainfo-v2.0.0-x86_64-9cd62670.apk` | 3,073,544 | `eadfd1f89047017e7459aa0865875cbff0b1fb31cb08d19978e27ceb5e563f5b` |\r\n\r\n## \u53ef\u8ffd\u6eaf\u8bb0\u5f55\r\n\r\n- \u5df2\u5408\u5e76 PR\uff1a[#1 feat(native): build MediaInfo from official sources](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/pull/1)\r\n- [v2.0.0 \u53d1\u5e03\u9a8c\u8bc1\u8bb0\u5f55](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/blob/7592560287f6d9125f7b7b8188b1775d05a91a80/benchmark/results/2026-08-31-v2.0.0-release.json)\r\n- [v1.1.0 / v2.0.0 \u89e3\u6790\u5dee\u5f02\u8bb0\u5f55](https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/blob/7592560287f6d9125f7b7b8188b1775d05a91a80/benchmark/results/2026-08-31-api31-arm64-v8a-v1.1.0-v2.0.0-diff.json)\r\n- Release/\u6807\u7b7e\u76ee\u6807\u4e3a `master` \u5408\u5e76\u63d0\u4ea4 `636a83cf024725c049367d43c849c727a4a93aec`\uff1b\u8be5\u63d0\u4ea4\u7684\u7b2c\u4e8c\u7236\u63d0\u4ea4\u662f\u5df2\u901a\u8fc7 6/6 checks \u7684 feature head `7592560287f6d9125f7b7b8188b1775d05a91a80`\u3002\r\n- APK \u6784\u5efa\u6e90\u7801\u4fee\u8ba2\u4e3a `c2e8c42c4ff020df9d6d12aa00095d29482e9298`\uff1b\u5176\u540e\u7684\u63d0\u4ea4\u53ea\u66f4\u65b0\u9a8c\u8bc1\u6587\u6863\u4e0e CI \u6267\u884c\u65b9\u5f0f\uff0c\u4e0d\u6539\u53d8\u53d1\u5e03 APK \u5b57\u8282\u3002",
+          "assets": [
+            {
+              "name": "autojs6-plugin-mediainfo-v2.0.0-arm64-v8a-69e544cf.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v2.0.0/autojs6-plugin-mediainfo-v2.0.0-arm64-v8a-69e544cf.apk",
+              "size": 2951111,
+              "digest": "sha256:d8d7c289c78f61aabbe459196475d5630618ca9b0e9d8ab865995a8d8d84bc7f"
+            },
+            {
+              "name": "autojs6-plugin-mediainfo-v2.0.0-armeabi-v7a-40397d24.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v2.0.0/autojs6-plugin-mediainfo-v2.0.0-armeabi-v7a-40397d24.apk",
+              "size": 2721393,
+              "digest": "sha256:c1ea25922acbef6fc290a18520555c580f2ed917b2c76936735960447ccba25c"
+            },
+            {
+              "name": "autojs6-plugin-mediainfo-v2.0.0-universal-69a8a908.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v2.0.0/autojs6-plugin-mediainfo-v2.0.0-universal-69a8a908.apk",
+              "size": 11715225,
+              "digest": "sha256:f33bb09fad708635bee0776ba2a0a00220761d280f25e72fe07cb710efc6c3f8"
+            },
+            {
+              "name": "autojs6-plugin-mediainfo-v2.0.0-x86-70ec1b9b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v2.0.0/autojs6-plugin-mediainfo-v2.0.0-x86-70ec1b9b.apk",
+              "size": 3338929,
+              "digest": "sha256:83ab907437f3736cc84cb411f1624aefef814ca391b01ca5942bd13a627ef3f6"
+            },
+            {
+              "name": "autojs6-plugin-mediainfo-v2.0.0-x86_64-9cd62670.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MediaInfo/releases/download/v2.0.0/autojs6-plugin-mediainfo-v2.0.0-x86_64-9cd62670.apk",
+              "size": 3073544,
+              "digest": "sha256:eadfd1f89047017e7459aa0865875cbff0b1fb31cb08d19978e27ceb5e563f5b"
+            }
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured"
     },
     {
@@ -366,74 +689,75 @@
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/mipmap/ic_launcher.png",
       "title": "AutoJs6 Node.js Runtime",
-      "description": "Provides the Node.js 24.5.0 native runtime for AutoJs6",
+      "description": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
       "localizedDescriptions": {
-        "values": "Provides the Node.js 24.5.0 native runtime for AutoJs6",
-        "values-ar": "\u064a\u0648\u0641\u0631 \u0628\u064a\u0626\u0629 \u062a\u0634\u063a\u064a\u0644 Node.js 24.5.0 \u0627\u0644\u0627\u0635\u0644\u064a\u0629 \u0644 AutoJs6",
-        "values-en": "Provides the Node.js 24.5.0 native runtime for AutoJs6",
-        "values-es": "Proporciona el runtime nativo Node.js 24.5.0 para AutoJs6",
-        "values-fr": "Fournit le runtime natif Node.js 24.5.0 pour AutoJs6",
-        "values-ja": "AutoJs6 \u306b Node.js 24.5.0 \u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30f3\u30bf\u30a4\u30e0\u3092\u63d0\u4f9b",
-        "values-ko": "AutoJs6 \uc5d0 Node.js 24.5.0 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \uc81c\uacf5",
-        "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0430\u0442\u0438\u0432\u043d\u0443\u044e \u0441\u0440\u0435\u0434\u0443 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f Node.js 24.5.0 \u0434\u043b\u044f AutoJs6",
-        "values-zh": "\u4e3a AutoJs6 \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u8fd0\u884c\u65f6",
-        "values-zh-rHK": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u904b\u884c\u6642",
-        "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u57f7\u884c\u968e\u6bb5"
+        "values": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
+        "values-ar": "\u064a\u0648\u0641\u0631 \u0628\u064a\u0626\u0629 \u062a\u0634\u063a\u064a\u0644 Node.js 24.21.0 \u0627\u0644\u0627\u0635\u0644\u064a\u0629 \u0644 AutoJs6",
+        "values-en": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
+        "values-es": "Proporciona el runtime nativo Node.js 24.21.0 para AutoJs6",
+        "values-fr": "Fournit le runtime natif Node.js 24.21.0 pour AutoJs6",
+        "values-ja": "AutoJs6 \u306b Node.js 24.21.0 \u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30f3\u30bf\u30a4\u30e0\u3092\u63d0\u4f9b",
+        "values-ko": "AutoJs6 \uc5d0 Node.js 24.21.0 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \uc81c\uacf5",
+        "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0430\u0442\u0438\u0432\u043d\u0443\u044e \u0441\u0440\u0435\u0434\u0443 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f Node.js 24.21.0 \u0434\u043b\u044f AutoJs6",
+        "values-zh": "\u4e3a AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u8fd0\u884c\u65f6",
+        "values-zh-rHK": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u904b\u884c\u6642",
+        "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u57f7\u884c\u968e\u6bb5"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
+      "requiresHostVersion": 3923,
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.0",
-          "versionCode": 27,
-          "versionDate": "2026-07-16",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.0.0",
-          "changelogText": "* `\u65b0\u589e` Node.js \u8fd0\u884c\u65f6\u63d2\u4ef6\u670d\u52a1, \u63d2\u4ef6 ID \u4e3a `nodejs`, \u5f15\u64ce\u4e3a `nodejs`, \u8fd0\u884c\u65f6\u69fd\u4f4d\u4e3a `node24_5`\r\n* `\u65b0\u589e` \u901a\u8fc7 `libnode.so` \u548c `libautojs6-node.so` \u63d0\u4f9b Node.js 24.5.0 \u539f\u751f\u8fd0\u884c\u65f6\r\n* `\u65b0\u589e` \u652f\u6301\u901a\u8fc7 `org.autojs.plugin.INFO` \u53d1\u73b0\u63d2\u4ef6\u4fe1\u606f, \u5e76\u901a\u8fc7 `org.autojs.plugin.nodejs.RUNTIME` \u8c03\u7528\u8fd0\u884c\u65f6\u670d\u52a1\r\n* `\u65b0\u589e` \u652f\u6301 CommonJS/ESM \u6e90\u7801, \u6a21\u5757\u6e90\u7801, \u5de5\u4f5c\u76ee\u5f55, \u6c99\u76d2\u6839\u76ee\u5f55, \u73af\u5883\u53d8\u91cf, stdout/stderr \u7ed3\u679c\u56de\u4f20\u548c\u8fd0\u884c\u65f6\u9884\u70ed\r\n* `\u65b0\u589e` \u652f\u6301\u5bbf\u4e3b\u80fd\u529b\u4ee3\u7406\u4e0e live bridge, \u5e76\u6ce8\u5165 `autojs6:host-app-info`, `autojs6:device-info`, `autojs6:engine-info`, `autojs6:lifecycle-config`, `autojs6:bridge-permissions` \u7b49\u8fd0\u884c\u65f6\u6a21\u5757\r\n* `\u65b0\u589e` \u652f\u6301\u6309 ABI \u6784\u5efa APK, \u5305\u62ec `arm64-v8a`/`armeabi-v7a`/`x86_64` \u4ee5\u53ca `universal` \u901a\u7528\u5305\r\n* `\u65b0\u589e` `sample/nodejs` \u793a\u4f8b\u9879\u76ee, Node \u89e3\u6790\u8bca\u65ad\u5de5\u5177\u548c\u8fd0\u884c\u65f6\u6784\u5efa\u8ba1\u5212\u6821\u9a8c\u5de5\u5177\r\n* `\u65b0\u589e` \u63d2\u4ef6\u4fe1\u606f, \u4f7f\u7528\u8bf4\u660e, README \u4e0e CHANGELOG \u7684\u591a\u8bed\u8a00\u8d44\u6e90: \u897f\u73ed\u7259\u8bed/\u6cd5\u8bed/\u4fc4\u8bed/\u963f\u62c9\u4f2f\u8bed/\u65e5\u8bed/\u97e9\u8bed/\u82f1\u8bed/\u7b80\u4f53\u4e2d\u6587/\u9999\u6e2f\u7e41\u4f53/\u53f0\u6e7e\u7e41\u4f53",
+          "versionName": "1.3.0",
+          "versionCode": 145,
+          "versionDate": "2026-09-09",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.3.0",
+          "changelogText": "Node.js 24.21.0 / OpenSSL 3.5.8 \u00b7 Android API 24+ \u00b7 versionCode 145\n\n## \u4f7f\u7528\u4e0e\u9a8c\u8bc1\u8bf4\u660e / Compatibility and validation\n\n\u4e09\u4e2a ABI \u5747\u4f7f\u7528\u672c\u4ed3\u81ea\u5efa\u7684 Node 24.21.0\u3002Runtime Kit 1.4.0\u3001capability catalog 1.4.0 \u548c nodejs-api 1.5.0 \u968f\u672c\u6b21\u6e90\u7801\u4e0e APK \u63d0\u4f9b\u3002\u57fa\u7840\u540c\u6b65\u5951\u7ea6\u4ecd\u4e3a v2, \u53ef\u534f\u5546\u4f7f\u7528 v3 \u5f02\u6b65\u542f\u52a8\u3002\u65b0\u589e\u5bbf\u4e3b\u81ea\u52a8\u5316\u80fd\u529b\u9700\u8981\u914d\u5957\u5bbf\u4e3b\u5b9e\u73b0; \u672c\u6b21\u8054\u8c03\u5bbf\u4e3b\u63d0\u4ea4\u4e3a 0757cb296, \u5bbf\u4e3b\u53d1\u5e03\u8fdb\u5ea6\u72ec\u7acb\u7ba1\u7406\u3002\n\n\u4e09\u53f0\u771f\u673a\u4e0e x86_64 AVD \u5747\u901a\u8fc7 52 \u9879 Debug / Release \u56de\u5f52\u62a5\u544a\u53ca\u5355\u72ec Debug Inspector\u3001\u51b7\u542f\u52a8\u68c0\u67e5; Android 9 \u7684\u6bcf\u4efd 52 \u9879\u62a5\u544a\u5305\u542b 1 \u4e2a\u65e2\u6709 SDK \u6761\u4ef6\u8df3\u8fc7\u3002\u6700\u7ec8\u56db\u4e2a\u7b7e\u540d APK \u7684\u5b89\u88c5\u56de\u5f52\u5171 16/16\u3002x86_64 \u7684 16 KB \u9a8c\u8bc1\u4e3a 4 KB \u5185\u6838\u4e0a\u7684 16 KB \u7528\u6237\u7a7a\u95f4\u6a21\u62df, \u5c1a\u65e0 16 KB arm64 \u5b9e\u4f53\u8bbe\u5907\u5b9e\u8bc1\u3002\n\n\u622a\u5c4f\u6388\u6743\u540e\u7684\u5b8c\u6574\u56fe\u50cf/OCR \u94fe\u8def\u3001\u5b9e\u4f53\u97f3\u91cf\u952e\u89c2\u5bdf\u548c 3 \u79d2\u9ea6\u514b\u98ce\u5f55\u97f3\u7684\u4eba\u5de5\u9a8c\u6536\u4ecd\u5f85\u8865\u9f50, \u8be6\u89c1 Roadmap M14/M15\u3002OpenSSL STORE \u5bc6\u94a5 URL \u5728\u6b64 Android \u6784\u5efa\u4e2d\u8fd4\u56de ERR_ACCESS_DENIED; \u8bf7\u5148\u7ecf node:fs \u8bfb\u53d6\u5bc6\u94a5\u5b57\u8282\u518d\u4f20\u7ed9 crypto\u3002\n\nAll three ABI libraries are built from Node 24.21 source in this repository. Runtime Kit 1.4.0, capability catalog 1.4.0 and nodejs-api 1.5.0 accompany the source/APK artifacts. The v2 synchronous contract remains compatible, with negotiated v3 asynchronous startup. New host automation APIs require corresponding host support; integration used host commit 0757cb296, whose publication is managed separately.\n\nThe three physical devices and x86_64 emulator passed the 52-case Debug/Release reports and separate Debug Inspector/cold-start checks. Each Android 9 report includes one existing SDK requirement skip. Final signed APK installation checks passed 16/16. The x86_64 16 KB result uses userspace simulation on a 4 KB kernel; physical arm64 devices with a 16 KB kernel remain untested. Human checks for the consented screen-to-image/OCR chain, physical volume-key observation and a three-second microphone recording remain pending in Roadmap M14/M15.\n\nOpenSSL STORE key URLs return ERR_ACCESS_DENIED in this Android build. Read key bytes through node:fs before passing them to crypto APIs.\n\n## \u4e2d\u6587\u66f4\u65b0\u65e5\u5fd7\n\n###### 2026/09/09\n\n* `\u65b0\u589e` Node.js \u6865\u8ba2\u9605\u901a\u8fc7\u65e2\u6709\u56de\u8c03\u63a8\u9001\u4f20\u611f\u5668, WebSocket, UI, \u60ac\u6d6e\u7a97\u4e0e\u8f93\u5165\u4e8b\u4ef6, \u63d0\u4f9b on/once/off \u76d1\u542c, \u6709\u754c\u4e8b\u4ef6\u961f\u5217\u53ca drainEvents \u517c\u5bb9\n* `\u65b0\u589e` Node.js \u8fd0\u884c\u65f6\u652f\u6301\u53ef\u9009 idleExitMs \u7a7a\u95f2\u9000\u51fa\u4e0e\u540e\u7eed\u811a\u672c\u91cd\u65b0\u8fde\u63a5, \u63d0\u4f9b idleForMs \u8bca\u65ad, \u9ed8\u8ba4\u4fdd\u6301\u5e38\u9a7b\n* `\u65b0\u589e` \u5168\u5c40 fetch, Request, Response, Headers, FormData \u4e0e WebSocket \u9ed8\u8ba4\u4f7f\u7528 Node \u539f\u751f Web API; autojs6:fetch \u4e0e autojs6:websocket \u663e\u5f0f\u6a21\u5757\u7ee7\u7eed\u63d0\u4f9b\u5bbf\u4e3b\u7f51\u7edc\u6808\n* `\u65b0\u589e` \u65b0\u589e\u5e26\u6587\u4ef6\u8fb9\u754c\u68c0\u67e5\u7684\u539f\u751f node:sqlite, \u652f\u6301 CRUD, \u4e8b\u52a1\u4e0e\u5907\u4efd; \u63d0\u4f9b\u539f\u751f node:test \u62a5\u544a\u5668\u548c\u53ef\u8fd0\u884c\u6d4b\u8bd5\u6837\u4f8b, \u79bb\u7ebf npm corpus \u6269\u5c55 zod, cheerio, date-fns, mqtt \u4e0e ws\n* `\u65b0\u589e` process.stdin / readline \u63a5\u6536\u63a7\u5236\u53f0\u8f93\u5165, autojs6:host \u63a5\u6536\u6267\u884c\u7ea7 JSON \u6d88\u606f, v3 postMessage \u4e8b\u52a1\u517c\u5bb9\u65e7\u5bbf\u4e3b\n* `\u65b0\u589e` Node.js \u622a\u5c4f\u4f1a\u8bdd\u63a5\u5165 Android \u6388\u6743\u548c\u65e2\u6709\u524d\u53f0\u670d\u52a1, \u652f\u6301\u56fe\u7247\u53e5\u67c4, PNG/JPEG/WebP \u4fdd\u5b58\u53ca\u505c\u6b62\u6216\u811a\u672c\u9000\u51fa\u65f6\u6e05\u7406\n* `\u65b0\u589e` Node.js \u56fe\u7247\u53e5\u67c4\u652f\u6301\u88c1\u526a, \u7f29\u653e, \u7070\u5ea6, \u9608\u503c, \u627e\u56fe\u53ca\u627e\u8272, \u590d\u7528\u5bbf\u4e3b\u56fe\u50cf\u540e\u7aef, \u8fd4\u56de\u72ec\u7acb\u56fe\u7247\u5e76\u5728\u6267\u884c\u7ed3\u675f\u65f6\u6e05\u7406\n* `\u65b0\u589e` Node.js image.toBytes \u901a\u8fc7\u6587\u4ef6\u63cf\u8ff0\u7b26\u5c06 PNG \u6216 RGBA \u50cf\u7d20\u4f20\u5165\u539f\u751f Buffer, \u652f\u6301 JNI \u4e0e\u6587\u4ef6\u6865\u63a5, \u5728\u4f7f\u7528\u540e, \u8d85\u65f6\u6216\u6267\u884c\u7ed3\u675f\u65f6\u56de\u6536\u9644\u4ef6\n* `\u65b0\u589e` Node device \u63a5\u53e3\u63d0\u4f9b\u5b9e\u65f6\u6784\u5efa, \u5c4f\u5e55, \u7535\u6c60\u548c\u5185\u5b58\u4fe1\u606f, \u4eae\u5ea6\u63a7\u5236\u53ca\u5b9a\u65f6\u4fdd\u6301\u4eae\u5c4f; media \u652f\u6301\u8bbe\u7f6e\u97f3\u9891\u6d41\u97f3\u91cf, \u9075\u5faa Android \u6743\u9650\n* `\u65b0\u589e` autojs6:events \u901a\u8fc7\u63a8\u9001\u56de\u8c03\u89c2\u5bdf Android \u901a\u77e5, \u5916\u90e8 Toast, \u65e0\u969c\u788d\u6309\u952e\u53ca\u5c4f\u5e55\u548c\u7535\u6c60\u5e7f\u64ad, \u4f7f\u7528\u663e\u5f0f\u6743\u9650\u5e76\u81ea\u52a8\u6e05\u7406\u8ba2\u9605; Node \u539f\u751f events \u4fdd\u6301\u517c\u5bb9\n* `\u65b0\u589e` Node app \u652f\u6301 Android \u670d\u52a1\u542f\u52a8, \u5e7f\u64ad\u53d1\u9001\u548c\u5df2\u5b89\u88c5\u5e94\u7528\u67e5\u8be2; dialogs \u652f\u6301\u6587\u672c\u8f93\u5165, \u5355\u9009, \u591a\u9009\u53ca\u968f\u811a\u672c\u6e05\u7406\u7684\u8fdb\u5ea6\u7a97\u53e3, keys \u63d0\u4f9b\u65e0\u969c\u788d\u7cfb\u7edf\u64cd\u4f5c\n* `\u65b0\u589e` Node recorder \u652f\u6301\u5e26\u9ea6\u514b\u98ce\u6743\u9650, \u524d\u53f0\u901a\u77e5, \u65f6\u957f\u4e0a\u9650\u4e0e\u811a\u672c\u6e05\u7406\u7684 AAC \u5f55\u97f3; ui.overlay \u652f\u6301\u58f0\u660e\u5f0f\u5c5e\u6027\u66f4\u65b0, \u62d6\u52a8\u4e0e\u4e8b\u4ef6\u63a8\u9001\n* `\u65b0\u589e` Node \u811a\u672c\u53ef\u5728\u4e24\u4e2a\u72ec\u7acb\u8fd0\u884c\u65f6\u8fdb\u7a0b\u4e2d\u5e76\u53d1\u6267\u884c, \u5171\u7528 FIFO \u961f\u5217\u5e76\u6309\u6267\u884c\u4efb\u52a1\u8def\u7531\u53d6\u6d88\u548c\u8f93\u5165\n* `\u4fee\u590d` \u4fee\u590d\u957f\u9a7b\u811a\u672c\u7684\u6865\u4f1a\u8bdd\u6301\u7eed\u7d2f\u79ef\u8bf7\u6c42\u4e0e\u54cd\u5e94\u8bb0\u5f55\u7684\u95ee\u9898, \u6e05\u7406\u5df2\u5b8c\u6210\u8bf7\u6c42, \u4ec5\u4fdd\u7559\u6700\u8fd1 32 \u6761\u54cd\u5e94\u5e76\u9650\u5236\u8bca\u65ad\u4f53\u79ef\n* `\u4fee\u590d` \u539f\u751f\u5f02\u6b65\u4efb\u52a1\u5b8c\u6210\u524d\u63d0\u524d\u751f\u6210\u6210\u529f\u7ed3\u679c, \u5bfc\u81f4\u5f02\u6b65\u9519\u8bef\u4e0e\u540e\u7eed\u9000\u51fa\u7801\u4e22\u5931\u7684\u95ee\u9898; \u7ec8\u6001\u6539\u4e3a\u8ddf\u968f Node \u4e8b\u4ef6\u5faa\u73af\u6700\u7ec8\u9000\u51fa\n* `\u4fee\u590d` OpenSSL STORE \u5bc6\u94a5 URL \u7ed5\u8fc7\u6587\u4ef6\u7cfb\u7edf\u9650\u5236\u7684\u95ee\u9898 (\u8bf7\u901a\u8fc7 node:fs \u8bfb\u53d6\u5bc6\u94a5\u5b57\u8282)\n* `\u4f18\u5316` \u5b9e\u65f6\u6865\u9ed8\u8ba4\u4f7f\u7528 JNI/Binder \u76f4\u901a\u5e76\u7ecf Node \u4e8b\u4ef6\u5faa\u73af\u8fd4\u56de\u54cd\u5e94, \u964d\u4f4e\u8c03\u7528\u5ef6\u8fdf, \u4fdd\u7559\u53ef\u9009\u6587\u4ef6\u56de\u9000\u4e0e\u5f85\u5904\u7406\u8c03\u7528\u4e0a\u9650\n* `\u4f18\u5316` Node.js stream, crypto, timers, util, node:test \u7b49\u5185\u5efa\u6a21\u5757\u6062\u590d\u539f\u751f\u5bfc\u51fa, \u4fdd\u7559\u6587\u4ef6\u7cfb\u7edf\u8fb9\u754c\u4e0e\u5bbf\u4e3b\u76ee\u5f55\u7b56\u7565\n* `\u4f18\u5316` \u539f\u751f worker \u9ed8\u8ba4\u6309 CPU \u5e76\u884c\u5ea6\u8fd0\u884c (\u6700\u591a 8 \u4e2a), \u7ee7\u627f\u6267\u884c\u7684\u7f51\u7edc\u4e0e\u6587\u4ef6\u5f00\u5173, \u652f\u6301\u8bf7\u6c42\u7ea7\u8d44\u6e90\u4e0a\u9650\u4e14\u6c60\u4efb\u52a1\u9ed8\u8ba4\u4e0d\u8bbe\u8d85\u65f6; CPU \u4e0e WASM \u6837\u4f8b\u6539\u4e3a\u771f\u5b9e\u591a\u7ebf\u7a0b\u6267\u884c\n* `\u4f18\u5316` \u7ef4\u6301\u539f\u751f WASI \u7981\u7528\u4ee5\u4fdd\u7559\u6587\u4ef6\u7cfb\u7edf\u8fb9\u754c, \u79fb\u9664\u4e24\u4e2a disabled WASI \u6837\u4f8b; \u666e\u901a WebAssembly \u4e0e WASM worker \u7ee7\u7eed\u53ef\u7528\n* `\u4f18\u5316` \u5c4f\u5e55 OCR \u6837\u4f8b\u7533\u8bf7 Android \u622a\u5c4f\u6388\u6743\u5e76\u8bc6\u522b\u771f\u5b9e\u56fe\u7247\u53e5\u67c4; OCR \u6216\u6761\u7801\u63d2\u4ef6\u4e0d\u53ef\u7528\u65f6\u8fd4\u56de\u53ef\u8bfb unavailable \u9519\u8bef, \u8bc6\u522b\u5931\u8d25\u4ecd\u6309\u9519\u8bef\u5904\u7406\n* `\u4f18\u5316` Node \u811a\u672c\u652f\u6301\u534f\u5546\u5f0f\u5f02\u6b65\u542f\u52a8, \u957f\u9a7b\u6267\u884c\u91ca\u653e Binder \u7ebf\u7a0b, \u7ec8\u6001\u56de\u8c03\u5b8c\u6210\u540e\u56de\u4f20\u5de5\u4f5c\u533a, \u517c\u5bb9\u65e7\u540c\u6b65\u5bbf\u4e3b\n* `\u4f9d\u8d56` \u5347\u7ea7 Node.js 24.5.0 \u2192 24.21.0, \u4e09\u4e2a ABI \u5747\u4f7f\u7528\u81ea\u5efa Android \u6e90\u7801\u4ea7\u7269\n\n## English changelog\n\n###### 2026/09/09\n\n* `Feature` Node.js bridge subscriptions push sensor, WebSocket, UI, overlay and input events through existing callbacks, with on/once/off listeners, bounded queues and compatible drainEvents\n* `Feature` Optional idleExitMs releases an idle Node.js runtime process and reconnects for the next script, with idleForMs diagnostics and resident behavior preserved by default\n* `Feature` Native global fetch, Request, Response, Headers, FormData and WebSocket use Node web APIs by default; explicit autojs6:fetch and autojs6:websocket modules retain the host network stack\n* `Feature` Added native node:sqlite with filesystem checks, CRUD, transactions and backups; native node:test reporters and the runnable test example are available, with zod, cheerio, date-fns, mqtt and ws added to the offline npm corpus\n* `Feature` Native stdin and readline accept console input, with execution-scoped JSON messages through autojs6:host and a backward-compatible v3 postMessage transaction\n* `Feature` Node.js screen capture sessions use Android consent and the existing foreground service, with image handles, PNG/JPEG/WebP saving and cleanup when stopped or the script exits\n* `Feature` Node.js image handles support clipping, resizing, grayscale, thresholding, template matching and color searches through the host image backend, with independent output handles and execution cleanup\n* `Feature` Node.js image.toBytes transfers PNG or RGBA pixels through file descriptors into native Buffers, supports JNI and file bridge modes, and closes attachments after use, timeout or execution exit\n* `Feature` Node device APIs expose live build, screen, battery and memory information, brightness control and timed screen wake locks; media supports setting stream volume, with Android permissions enforced\n* `Feature` autojs6:events observes Android notifications, external Toast messages, accessibility keys and screen or battery broadcasts through push callbacks, with explicit permissions and automatic cleanup; native Node events remains unchanged\n* `Feature` Node app supports Android service starts, broadcasts and installed package queries; dialogs supports text input, choices and progress windows with script cleanup, and keys provides accessibility system actions\n* `Feature` Node recorder supports AAC recording with microphone permission, foreground disclosure, duration limits and script cleanup; ui.overlay supports declarative property updates, dragging and pushed events\n* `Feature` Node scripts can run concurrently in two independent runtime processes, with a shared FIFO queue and execution-specific cancellation and input routing\n* `Fix` Fixed growing live-bridge request and response history in resident scripts by retiring completed requests and bounding diagnostics to the latest 32 responses with a size limit\n* `Fix` Fixed prematurely successful results losing native async errors and late exit codes; completion now follows the final Node event-loop exit\n* `Fix` OpenSSL STORE key URLs bypassing filesystem restrictions (read key bytes through node:fs instead)\n* `Improvement` Reduced live bridge latency with a default JNI/Binder transport and Node event-loop responses, preserving selectable file fallback and pending-call limits\n* `Improvement` Restored native Node.js builtin exports for streams, crypto, timers, utilities, node:test and related modules while preserving filesystem boundaries and host directory policy\n* `Improvement` Native workers now default to CPU parallelism (up to eight), inherit execution network/filesystem switches, accept request resource caps and have no default pool task deadline; CPU and WASM examples run real workers\n* `Improvement` Kept raw WASI disabled to preserve filesystem boundaries and removed the two disabled WASI examples; ordinary WebAssembly and WASM workers remain available\n* `Improvement` Screen OCR examples request Android capture consent and recognize real image handles; unavailable OCR or barcode plugins return readable unavailable errors, while recognition failures remain errors\n* `Improvement` Node scripts support negotiated asynchronous startup, releasing Binder threads during long-running execution and returning workspace changes after terminal completion, with legacy synchronous host compatibility\n* `Dependency` Upgraded Node.js 24.5.0 \u2192 24.21.0 using source-built Android libraries for all three ABIs",
           "assets": [
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-arm64-v8a-a8d52e61.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-arm64-v8a-a8d52e61.apk",
-              "size": 26957353,
-              "digest": "sha256:5a2cdf0666bfd8fb9b95d77011eee5a69a5cc7fdef8ce7a2201f977473e91972"
+              "name": "autojs6-plugin-nodejs-runtime-v1.3.0-arm64-v8a-0a8fbc51.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.3.0/autojs6-plugin-nodejs-runtime-v1.3.0-arm64-v8a-0a8fbc51.apk",
+              "size": 24576793,
+              "digest": "sha256:793df9fb344d35d2a43a10e0fa9749fbe829063535afb1842e70d785db7b8360"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-armeabi-v7a-6a4c1f6f.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-armeabi-v7a-6a4c1f6f.apk",
-              "size": 26010213,
-              "digest": "sha256:9ddc27892029b5f0691d90513c7efba7ae3388ee866172b4cb81726edd31a229"
+              "name": "autojs6-plugin-nodejs-runtime-v1.3.0-armeabi-v7a-d69f0a04.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.3.0/autojs6-plugin-nodejs-runtime-v1.3.0-armeabi-v7a-d69f0a04.apk",
+              "size": 23760115,
+              "digest": "sha256:0f3500d4f0b195422e8c2be27d189d7452c540de6da0b6b57c2f3977f6adcafe"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-universal-a3805365.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-universal-a3805365.apk",
-              "size": 81493295,
-              "digest": "sha256:511ab5e878d08a06572868828c2c6850b03a29bf4f129dcd12248864faa2d4d5"
+              "name": "autojs6-plugin-nodejs-runtime-v1.3.0-universal-57085a26.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.3.0/autojs6-plugin-nodejs-runtime-v1.3.0-universal-57085a26.apk",
+              "size": 74046090,
+              "digest": "sha256:af4b9655db7e481b0b33e7f9ca516ac0da9feb163a2bd7d515f7d4d1c876e348"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.0.0-x86_64-8e4359c2.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.0.0/autojs6-plugin-nodejs-runtime-v1.0.0-x86_64-8e4359c2.apk",
-              "size": 28704395,
-              "digest": "sha256:72c84eeb3f67ac8605d8589b2279fe732783a14f90d3d52a41fc38355a8fa5c1"
+              "name": "autojs6-plugin-nodejs-runtime-v1.3.0-x86_64-53fcd1da.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.3.0/autojs6-plugin-nodejs-runtime-v1.3.0-x86_64-53fcd1da.apk",
+              "size": 26123832,
+              "digest": "sha256:42b8456cbff256defb3bf0214ce20d94a4d18a647db8a2cb2ed7baa54b75e3fd"
             }
           ],
-          "nativePageAlignment": 4096,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
       ],
@@ -446,42 +770,42 @@
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 4096,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/mipmap-night/ic_launcher.png",
       "title": "OpenCC",
-      "description": "OpenCC plugin for Chinese text conversion.",
+      "description": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
       "localizedDescriptions": {
-        "values": "OpenCC plugin for Chinese text conversion.",
-        "values-ar": "\u0645\u0643\u0648\u0646 OpenCC \u0627\u0644\u0625\u0636\u0627\u0641\u064a \u0644\u062a\u062d\u0648\u064a\u0644 \u0627\u0644\u0646\u0635 \u0627\u0644\u0635\u064a\u0646\u064a.",
-        "values-en": "OpenCC plugin for Chinese text conversion.",
-        "values-es": "Complemento OpenCC para la conversi\u00f3n de texto chino.",
-        "values-fr": "Plugin OpenCC pour la conversion de texte chinois.",
-        "values-ja": "\u4e2d\u56fd\u8a9e\u30c6\u30ad\u30b9\u30c8\u5909\u63db\u7528 OpenCC \u30d7\u30e9\u30b0\u30a4\u30f3",
-        "values-ko": "\uc911\uad6d\uc5b4 \ud14d\uc2a4\ud2b8 \ubcc0\ud658\uc6a9 OpenCC \ud50c\ub7ec\uadf8\uc778",
-        "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d OpenCC \u0434\u043b\u044f \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0430.",
-        "values-zh": "\u7528\u4e8e\u4e2d\u6587\u6587\u672c\u8f6c\u6362\u7684 OpenCC \u63d2\u4ef6",
-        "values-zh-rHK": "\u7528\u65bc\u4e2d\u6587\u6587\u672c\u8f49\u63db\u7684 OpenCC \u63d2\u4ef6",
-        "values-zh-rTW": "\u7528\u65bc\u4e2d\u6587\u6587\u5b57\u8f49\u63db\u7684 OpenCC \u5916\u639b"
+        "values": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
+        "values-ar": "\u0645\u062d\u0648\u0644 OpenCC \u0635\u064a\u0646\u064a \u0645\u062d\u0644\u064a \u064a\u0639\u0645\u0644 \u0645\u0633\u062a\u0642\u0644\u0627 \u0648\u0645\u0639 AutoJs6",
+        "values-en": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
+        "values-es": "Conversor chino OpenCC sin conexi\u00f3n, independiente y compatible con AutoJs6",
+        "values-fr": "Convertisseur chinois OpenCC hors ligne, autonome et compatible avec AutoJs6",
+        "values-ja": "\u5358\u72ec\u3067\u3082 AutoJs6 \u3067\u3082\u4f7f\u3048\u308b\u30aa\u30d5\u30e9\u30a4\u30f3 OpenCC \u4e2d\u56fd\u8a9e\u5909\u63db",
+        "values-ko": "\ub2e8\ub3c5 \ubc0f AutoJs6\uc5d0\uc11c \uc4f0\ub294 \uc624\ud504\ub77c\uc778 OpenCC \uc911\uad6d\uc5b4 \ubcc0\ud658\uae30",
+        "values-ru": "\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u044b\u0439 \u043e\u0444\u043b\u0430\u0439\u043d-\u043a\u043e\u043d\u0432\u0435\u0440\u0442\u0435\u0440 OpenCC \u0434\u043b\u044f \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0430 \u0438 AutoJs6",
+        "values-zh": "\u53ef\u72ec\u7acb\u4f7f\u7528\u5e76\u517c\u5bb9 AutoJs6 \u7684\u79bb\u7ebf OpenCC \u4e2d\u6587\u8f6c\u6362\u5668",
+        "values-zh-rHK": "\u53ef\u7368\u7acb\u4f7f\u7528\u4e26\u517c\u5bb9 AutoJs6 \u7684\u96e2\u7dda OpenCC \u4e2d\u6587\u8f49\u63db\u5668",
+        "values-zh-rTW": "\u53ef\u7368\u7acb\u4f7f\u7528\u4e26\u76f8\u5bb9 AutoJs6 \u7684\u96e2\u7dda OpenCC \u4e2d\u6587\u8f49\u63db\u5668"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -491,41 +815,134 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.1",
-          "versionCode": 16,
-          "versionDate": "2026-07-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/tag/v1.0.1",
-          "changelogText": "* `\u4f18\u5316` \u652f\u6301\u6309 ABI \u6784\u5efa APK, \u5305\u62ec `arm64-v8a`/`armeabi-v7a`/`x86_64`/`x86` \u4ee5\u53ca `universal` \u901a\u7528\u5305\r\n* `\u4f18\u5316` \u63d2\u4ef6\u8fd0\u884c\u65f6\u4fe1\u606f\u4e0a\u62a5\u652f\u6301\u7684 ABI \u5217\u8868, \u4fbf\u4e8e\u5bbf\u4e3b\u8bc6\u522b\u53ef\u7528\u53d8\u4f53\r\n* `\u4f18\u5316` \u53d1\u5e03 APK \u6587\u4ef6\u540d\u5305\u542b\u7248\u672c\u53f7/ABI \u53d8\u4f53\u548c CRC32 \u6458\u8981",
+          "versionName": "1.3.0",
+          "versionCode": 20,
+          "versionDate": "2026-09-02",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/tag/v1.3.0",
+          "changelogText": "# autojs6-plugin-opencc v1.3.0\n\nRelease date: 2026-09-03\n\nGenerated from the English changelog source at `.changelog/lang_en.json`.\n\n## Hint\n\n- The same APK now works both as a standalone offline App on Android 7.0+ and as the existing AutoJs6 plugin; AutoJs6 is required only for the plugin path\n\n## Feature\n\n- Add a desktop Launcher and fully offline editor for all 14 OpenCC conversion types, with convert, cancel, clear, paste, swap, copy, and share actions, background long-text processing, and rotation/process-state restoration\n- Add a 10-language standalone UI with light/dark themes, RTL, large fonts, TalkBack semantics and focus order, hardware-keyboard shortcuts, independently scrollable/selectable editors, and responsive phone, tablet, and split-screen layouts\n\n## Improvement\n\n- Keep standalone and Binder entry points on one process-wide official OpenCC backend while preserving the application ID, signing identity, plugin permission boundary, AIDL transaction numbers, and offline/no-history defaults\n- Expand verification to minSdk 24, 32-bit ARM, arm64, x86, x86_64, and real 16 KB pages; audit final APK locale, manifest, R8, ELF, and ZIP properties and pin reproducible unedited UI screenshots\n- Verify in-place upgrades from v1.2.0 retain the package UID and plugin service while adding exactly one Launcher, then run UI and raw legacy Binder conversions against the signed minified release\n\n## Packages\n\n| ABI | File | Size (bytes) | SHA-256 |\n|---|---|---:|---|\n| `arm64-v8a` | `autojs6-plugin-opencc-v1.3.0-arm64-v8a-b1392e35.apk` | 1553948 | `c4049b3eec477dde0d2381464b79bf7338f26c3a4fc47f4036484b7c100d018c` |\n| `armeabi-v7a` | `autojs6-plugin-opencc-v1.3.0-armeabi-v7a-a7003615.apk` | 1215154 | `c3fcedec487387100283b3e744e3bb8d84d4da618214ae081ef034240f9717aa` |\n| `x86_64` | `autojs6-plugin-opencc-v1.3.0-x86_64-00da7436.apk` | 1562729 | `503e1f3006fd8f078a40c7adf2e99cecd96beb7217941ad870e86445c978457e` |\n| `x86` | `autojs6-plugin-opencc-v1.3.0-x86-4fb929dd.apk` | 1516110 | `13befc05a88b9c9b438173af32ad179843b905d1d228d2d35fcbc95674b45e3f` |\n| `universal` | `autojs6-plugin-opencc-v1.3.0-universal-324e0e7c.apk` | 3889481 | `2a1dfe9599954b7209dd773d2e32357171153134a9b00dcebd225813e06727ff` |\n\n## Verification\n\n- Verify all package hashes with `SHA256SUMS.txt`.\n- Signer certificate SHA-256: `31A681FCFFFB3E428420CAE280DED89292B12A3B0F59E19B7A73E32A8AE4C213`",
           "assets": [
             {
-              "name": "autojs6-plugin-opencc-v1.0.1-arm64-v8a-6d1ebd2d.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.0.1/autojs6-plugin-opencc-v1.0.1-arm64-v8a-6d1ebd2d.apk",
-              "size": 952139,
-              "digest": "sha256:d5c1d3542238ab8f178928931212f4acac1e4e77318991b251d7fa467ecaf40c"
+              "name": "autojs6-plugin-opencc-v1.3.0-arm64-v8a-b1392e35.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.3.0/autojs6-plugin-opencc-v1.3.0-arm64-v8a-b1392e35.apk",
+              "size": 1553948,
+              "digest": "sha256:c4049b3eec477dde0d2381464b79bf7338f26c3a4fc47f4036484b7c100d018c"
             },
             {
-              "name": "autojs6-plugin-opencc-v1.0.1-armeabi-v7a-1e10e24a.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.0.1/autojs6-plugin-opencc-v1.0.1-armeabi-v7a-1e10e24a.apk",
-              "size": 896433,
-              "digest": "sha256:403eda0b9848a57fbf73595e391c495526ffe7eed78bacbfaa8311819530f367"
+              "name": "autojs6-plugin-opencc-v1.3.0-armeabi-v7a-a7003615.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.3.0/autojs6-plugin-opencc-v1.3.0-armeabi-v7a-a7003615.apk",
+              "size": 1215154,
+              "digest": "sha256:c3fcedec487387100283b3e744e3bb8d84d4da618214ae081ef034240f9717aa"
             },
             {
-              "name": "autojs6-plugin-opencc-v1.0.1-universal-63b377bf.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.0.1/autojs6-plugin-opencc-v1.0.1-universal-63b377bf.apk",
-              "size": 2013658,
-              "digest": "sha256:4b67e8bbc8d59c962c3c9706ec818294b19349c0a504d85bb7b101e742f7b028"
+              "name": "autojs6-plugin-opencc-v1.3.0-universal-324e0e7c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.3.0/autojs6-plugin-opencc-v1.3.0-universal-324e0e7c.apk",
+              "size": 3889481,
+              "digest": "sha256:2a1dfe9599954b7209dd773d2e32357171153134a9b00dcebd225813e06727ff"
             },
             {
-              "name": "autojs6-plugin-opencc-v1.0.1-x86-6181a611.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.0.1/autojs6-plugin-opencc-v1.0.1-x86-6181a611.apk",
-              "size": 972789,
-              "digest": "sha256:d731eacfdbc5cd64b3ea637c36dfa4c48ddd92f28ddaa235527beb1dbf8930f7"
+              "name": "autojs6-plugin-opencc-v1.3.0-x86-4fb929dd.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.3.0/autojs6-plugin-opencc-v1.3.0-x86-4fb929dd.apk",
+              "size": 1516110,
+              "digest": "sha256:13befc05a88b9c9b438173af32ad179843b905d1d228d2d35fcbc95674b45e3f"
             },
             {
-              "name": "autojs6-plugin-opencc-v1.0.1-x86_64-9d327aba.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.0.1/autojs6-plugin-opencc-v1.0.1-x86_64-9d327aba.apk",
-              "size": 969812,
-              "digest": "sha256:7dcfae08d2a8979b78404a2fe6c9ebeb2ceaff095e31c4a92c99371a3f31a823"
+              "name": "autojs6-plugin-opencc-v1.3.0-x86_64-00da7436.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.3.0/autojs6-plugin-opencc-v1.3.0-x86_64-00da7436.apk",
+              "size": 1562729,
+              "digest": "sha256:503e1f3006fd8f078a40c7adf2e99cecd96beb7217941ad870e86445c978457e"
+            }
+          ],
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.opencv",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/mipmap/ic_launcher.png",
+      "title": "OpenCV",
+      "description": "OpenCV 4.8.0 native runtime plugin for AutoJs6",
+      "localizedDescriptions": {
+        "values": "OpenCV 4.8.0 native runtime plugin for AutoJs6",
+        "values-ar": "\u0625\u0636\u0627\u0641\u0629 \u0648\u0642\u062a \u062a\u0634\u063a\u064a\u0644 OpenCV 4.8.0 \u0627\u0644\u0623\u0635\u0644\u064a\u0629 \u0644\u062a\u0637\u0628\u064a\u0642 AutoJs6",
+        "values-en": "OpenCV 4.8.0 native runtime plugin for AutoJs6",
+        "values-es": "Plugin del entorno de ejecuci\u00f3n nativo de OpenCV 4.8.0 para AutoJs6",
+        "values-fr": "Plugin d\\'environnement d\\'ex\u00e9cution natif OpenCV 4.8.0 pour AutoJs6",
+        "values-ja": "AutoJs6 \u7528 OpenCV 4.8.0 \u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30f3\u30bf\u30a4\u30e0\u30d7\u30e9\u30b0\u30a4\u30f3",
+        "values-ko": "AutoJs6\uc6a9 OpenCV 4.8.0 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \ud50c\ub7ec\uadf8\uc778",
+        "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d \u043d\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u0441\u0440\u0435\u0434\u044b \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f OpenCV 4.8.0 \u0434\u043b\u044f AutoJs6",
+        "values-zh": "\u4e3a AutoJs6 \u63d0\u4f9b OpenCV 4.8.0 \u539f\u751f\u8fd0\u884c\u65f6",
+        "values-zh-rHK": "\u70ba AutoJs6 \u63d0\u4f9b OpenCV 4.8.0 \u539f\u751f\u57f7\u884c\u74b0\u5883\u7684\u5916\u639b\u7a0b\u5f0f",
+        "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b OpenCV 4.8.0 \u539f\u751f\u57f7\u884c\u74b0\u5883\u7684\u5916\u639b\u7a0b\u5f0f"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCV/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "requiresHostVersion": 5237,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.1.0",
+          "versionCode": 10,
+          "versionDate": "2026-08-31",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/releases/tag/v1.1.0",
+          "changelogText": "# AutoJs6 OpenCV Plugin v1.1.0\n\nReleased on 2026/08/31.\n\n## What's changed\n\n- **Feature:** Release downloads now bundle the 5 architecture APKs, `SHA256SUMS.txt`, and the native-build provenance manifest so users can select the right package and verify files independently\n- **Fix:** Rebuilt all 4 ABI native libraries with 16 KB `PT_LOAD` alignment and added release gates so OpenCV loads on 16 KB page-size Android devices while remaining compatible with 4 KB devices\n- **Improvement:** Expanded the plugin-center instructions and 10-language README with a real enabled-state screenshot and a runnable self-check that prints the OpenCV version and process ABI\n- **Improvement:** Made supported-ABI reporting resilient across universal, single-ABI, and split installs, including missing or corrupt APK paths and extracted-library fallback\n\n## Choose the right APK\n\nEvery release contains five APKs. They have the same plugin code and differ only in the bundled native architectures.\n\n| APK suffix | Choose it for |\n|---|---|\n| `arm64-v8a` | Most modern Android phones and tablets (64-bit ARM); this is the preferred small package for those devices |\n| `armeabi-v7a` | Older 32-bit ARM devices |\n| `x86_64` | 64-bit x86 emulators and the rare 64-bit x86 device |\n| `x86` | 32-bit x86 emulators and the rare 32-bit x86 device |\n| `universal` | Any supported device, an unknown device architecture, or AutoJs6 APK Builder output that must support multiple architectures; this package is the largest |\n\nIf you are unsure, download the `universal` APK. Install only one OpenCV plugin APK at a time. After an update or reinstall, fully exit and restart AutoJs6 before running image scripts.\n\n## APK SHA-256\n\n| APK | SHA-256 |\n|---|---|\n| `autojs6-plugin-opencv-v1.1.0-arm64-v8a.apk` | `346948d13cf4b9925429764d84a64305070e0edfa62f901fda17cd6601a04192` |\n| `autojs6-plugin-opencv-v1.1.0-armeabi-v7a.apk` | `3772c262ae984d10eafbc671ce2acb19537ecbd02c71d96614d307aa1e99f1b4` |\n| `autojs6-plugin-opencv-v1.1.0-x86.apk` | `0e8ec0412edb364abba7df539e6604065c67cda4d20e08262b91026625d6b803` |\n| `autojs6-plugin-opencv-v1.1.0-x86_64.apk` | `399d74f999615010967b4d0e1d968f3d8acf919eddc44015eedf70dfbb2cc7fc` |\n| `autojs6-plugin-opencv-v1.1.0-universal.apk` | `0f5be49369a7453cd527b11a0e56f96237034b6a2720c317f25b98295c7d20fb` |\n\nThe attached `SHA256SUMS.txt` contains the same five hashes in a machine-readable form. For example, verify a downloaded APK in PowerShell with:\n\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\autojs6-plugin-opencv-v1.1.0-universal.apk).Hash.ToLowerInvariant()\n```\n\nOn Linux or macOS, place the five APKs beside `SHA256SUMS.txt` and run:\n\n```bash\nsha256sum --check SHA256SUMS.txt\n```\n\n## Native build provenance\n\nThe attached `opencv-native-4.8.0.provenance.json` records the pinned upstream source, Android NDK and compiler versions, native AAR hash, per-ABI library hashes and Build IDs, and every ELF `PT_LOAD` alignment. Its own SHA-256 is:\n\n```text\n0d1de0c55c945c90b9e9d8b2ab2948660134e3a20c7274623d035450343afe49\n```\n\nThird parties can independently rebuild the native AAR and compare this record by following [NATIVE_BUILD.md](https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/blob/master/NATIVE_BUILD.md).\n\n## Requirements\n\n- AutoJs6 build 5237 or newer.\n- Android 7.0 (API 24) or newer.\n- A package architecture matching the device, unless the `universal` package is used.\n\nInstallation and troubleshooting details are available in the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV#readme).",
+          "assets": [
+            {
+              "name": "autojs6-plugin-opencv-v1.1.0-arm64-v8a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/releases/download/v1.1.0/autojs6-plugin-opencv-v1.1.0-arm64-v8a.apk",
+              "size": 8332993,
+              "digest": "sha256:346948d13cf4b9925429764d84a64305070e0edfa62f901fda17cd6601a04192"
+            },
+            {
+              "name": "autojs6-plugin-opencv-v1.1.0-armeabi-v7a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/releases/download/v1.1.0/autojs6-plugin-opencv-v1.1.0-armeabi-v7a.apk",
+              "size": 7366287,
+              "digest": "sha256:3772c262ae984d10eafbc671ce2acb19537ecbd02c71d96614d307aa1e99f1b4"
+            },
+            {
+              "name": "autojs6-plugin-opencv-v1.1.0-universal.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/releases/download/v1.1.0/autojs6-plugin-opencv-v1.1.0-universal.apk",
+              "size": 53446756,
+              "digest": "sha256:0f5be49369a7453cd527b11a0e56f96237034b6a2720c317f25b98295c7d20fb"
+            },
+            {
+              "name": "autojs6-plugin-opencv-v1.1.0-x86.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/releases/download/v1.1.0/autojs6-plugin-opencv-v1.1.0-x86.apk",
+              "size": 16330891,
+              "digest": "sha256:0e8ec0412edb364abba7df539e6604065c67cda4d20e08262b91026625d6b803"
+            },
+            {
+              "name": "autojs6-plugin-opencv-v1.1.0-x86_64.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCV/releases/download/v1.1.0/autojs6-plugin-opencv-v1.1.0-x86_64.apk",
+              "size": 21873710,
+              "digest": "sha256:399d74f999615010967b4d0e1d968f3d8acf919eddc44015eedf70dfbb2cc7fc"
             }
           ],
           "nativePageAlignment": 16384,
@@ -2320,54 +2737,39 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.python.runtime",
-      "title": "Python-Runtime",
+      "packageName": "io.github.supermonster003.autojs6.plugin.r8compiler",
+      "title": "AutoJs6 R8 Compiler",
       "localizedDescriptions": {},
       "localizedInstructionHardCoded": {},
       "localizedInstructionMarkdownUrls": {},
       "author": "SuperMonster003",
       "collaborators": [],
-      "engine": "python",
-      "variant": "cpython-3.13",
-      "engineId": "python-runtime",
       "featured": true,
       "releases": [
         {
-          "versionName": "0.1.0",
-          "versionCode": 11,
-          "versionDate": "2026-08-11",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Python-Runtime/releases/tag/v0.1.0",
-          "changelogText": "AutoJs6 Python Runtime \u63d2\u4ef6\u9996\u4e2a\u7a33\u5b9a\u7248\u672c\u3002\n\n\u4e3b\u8981\u80fd\u529b\uff1a\n\n- \u9762\u5411 AutoJs6 6.8.0\uff08versionCode 5275\uff09\uff0c\u63d0\u4f9b Python \u534f\u8bae 1.0\u20131.1\u3001\u5355\u6587\u4ef6\u4e0e\u9879\u76ee workspace \u6267\u884c\u3002\n- \u652f\u6301 `arm64-v8a` \u4e0e `x86_64`\uff1b\u540c\u65f6\u63d0\u4f9b\u5305\u542b\u4e24\u79cd ABI \u7684 universal APK\u3002\n- \u652f\u6301\u5b89\u88c5\u3001\u542f\u7528\u540e\u7684\u70ed\u63d2\u62d4\u53d1\u73b0\uff0c\u65e0\u9700\u91cd\u542f Host\uff1b\u63d2\u4ef6\u7f3a\u5931\u3001\u7981\u7528\u6216\u8eab\u4efd\u4e0d\u5339\u914d\u65f6\u4fdd\u6301 fail-closed\uff0c\u4e0d\u56de\u9000\u5230 JavaScript/Node/Root \u5f15\u64ce\u3002\n- \u5bf9\u53d6\u6d88\u3001\u8d85\u65f6\u3001Binder death \u548c provider \u66f4\u65b0\u91c7\u7528\u5355\u7ec8\u6001\u3001\u8fdb\u7a0b\u9000\u4f11\u4e0e\u91cd\u65b0\u7ed1\u5b9a\uff1b\u8bf7\u6c42\u4e00\u65e6 dispatch \u540e\u7edd\u4e0d\u81ea\u52a8\u91cd\u653e\u3002\n- \u63d0\u4f9b\u6709\u754c\u3001\u53ea\u8bfb\u7684 app/device/execution/project \u80fd\u529b\u5feb\u7167\u3002\n\n\u5b89\u5168\u8fb9\u754c\uff1a\u672c\u7248\u672c\u4f7f\u7528 Chaquopy 17.0.0 \u4e0e CPython 3.13.9\uff0c\u4ec5\u9762\u5411\u7528\u6237\u4fe1\u4efb\u7684\u672c\u5730 Python \u811a\u672c\uff1b\u5b83\u4e0d\u662f\u5b89\u5168\u6c99\u7bb1\uff0c\u4e0d\u5e94\u6267\u884c\u4e0d\u53d7\u4fe1\u4efb\u7684 Python \u4ee3\u7801\u3002\n\n\u5b89\u88c5\u65f6\u8bf7\u9009\u62e9\u4e0e\u8bbe\u5907 ABI \u5bf9\u5e94\u7684 APK\uff1b\u4e0d\u786e\u5b9a\u65f6\u53ef\u4f7f\u7528 universal APK\u3002\u6240\u6709 APK \u5747\u4f7f\u7528 AutoJs6 \u957f\u671f SM003 \u5347\u7ea7\u8bc1\u4e66\u7b7e\u540d\u3002",
+          "versionName": "0.1.0-provider-dev-private.1",
+          "versionCode": 0,
+          "versionDate": "2026-08-25",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-R8-Compiler/releases/tag/v0.1.0-provider-dev-private.1",
+          "changelogText": "Private development prerelease. Read access to the private repository is required.\n\nThis release republishes the exact append-only local.5 provider APK and frozen 0.1.0 API AAR bytes. It does not rebuild or re-sign the artifacts.\n\nEvidence claims: remotePublished=true, remoteVisibility=PRIVATE, publicPublished=false. No remote Maven publication is claimed.",
           "assets": [
             {
-              "name": "autojs6-plugin-python-runtime-v0.1.0-arm64-v8a-afe2ffe6.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Python-Runtime/releases/download/v0.1.0/autojs6-plugin-python-runtime-v0.1.0-arm64-v8a-afe2ffe6.apk",
-              "size": 22567808,
-              "digest": "sha256:37e11baffac6076e25c70e1f2cd85a0c5032311fcf12dbf3a43c74264c1bdbcf"
-            },
-            {
-              "name": "autojs6-plugin-python-runtime-v0.1.0-universal-36cd892e.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Python-Runtime/releases/download/v0.1.0/autojs6-plugin-python-runtime-v0.1.0-universal-36cd892e.apk",
-              "size": 33480159,
-              "digest": "sha256:18f1cb68c42a9f21acd3691bf6d798004b6a69ff5f881b39c2ff1fe670c980b6"
-            },
-            {
-              "name": "autojs6-plugin-python-runtime-v0.1.0-x86_64-644671b6.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Python-Runtime/releases/download/v0.1.0/autojs6-plugin-python-runtime-v0.1.0-x86_64-644671b6.apk",
-              "size": 22584168,
-              "digest": "sha256:7e340a31988dcf8a24c824c525a70ba77e8c383b35c4ae1f0b239c05ba8e31a8"
+              "name": "autojs6-r8-compiler-provider-0.1.0-provider-dev-signed.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-R8-Compiler/releases/download/v0.1.0-provider-dev-private.1/autojs6-r8-compiler-provider-0.1.0-provider-dev-signed.apk",
+              "size": 33155599,
+              "digest": "sha256:84447972cb0e4e020e5a696d0d2dabeb273e2990067a62f2d1b7590add628265"
             }
-          ]
+          ],
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
         }
-      ],
-      "supportedAbis": [
-        "arm64-v8a",
-        "x86_64"
       ],
       "tags": [
         "official"
       ],
-      "source": "OFFICIAL"
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
@@ -2545,6 +2947,72 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 4096,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "3-Terra Player",
+      "description": "Audio player plugin and standalone app. Play audio right from the AutoJs6 file manager or on its own, with background playback",
+      "localizedDescriptions": {
+        "values": "Audio player plugin and standalone app. Play audio right from the AutoJs6 file manager or on its own, with background playback",
+        "values-ar": "\u0645\u0644\u062d\u0642 \u0644\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0635\u0648\u062a \u0648\u062a\u0637\u0628\u064a\u0642 \u0645\u0633\u062a\u0642\u0644. \u064a\u0634\u063a\u0644 \u0627\u0644\u0635\u0648\u062a \u0628\u0646\u0642\u0631\u0629 \u0648\u0627\u062d\u062f\u0629 \u0645\u0646 \u0645\u062f\u064a\u0631 \u0645\u0644\u0641\u0627\u062a AutoJs6 \u0648\u064a\u0639\u0645\u0644 \u0628\u0634\u0643\u0644 \u0645\u0633\u062a\u0642\u0644 \u0623\u064a\u0636\u0627, \u0645\u0639 \u062f\u0639\u0645 \u0627\u0644\u062a\u0634\u063a\u064a\u0644 \u0641\u064a \u0627\u0644\u062e\u0644\u0641\u064a\u0629",
+        "values-en": "Audio player plugin and standalone app. Play audio right from the AutoJs6 file manager or on its own, with background playback",
+        "values-es": "Complemento de reproducci\u00f3n de audio y aplicaci\u00f3n independiente. Reproduce audio directamente desde el gestor de archivos de AutoJs6 o por s\u00ed solo, con reproducci\u00f3n en segundo plano",
+        "values-fr": "Plugin de lecture audio et application autonome. Lisez vos fichiers audio d\\'un simple appui depuis le gestionnaire de fichiers AutoJs6 ou de mani\u00e8re ind\u00e9pendante, avec lecture en arri\u00e8re-plan",
+        "values-ja": "\u97f3\u58f0\u518d\u751f\u30d7\u30e9\u30b0\u30a4\u30f3\u517c\u5358\u4f53\u30a2\u30d7\u30ea. AutoJs6 \u306e\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u304b\u3089\u30ef\u30f3\u30bf\u30c3\u30d7\u3067\u97f3\u58f0\u3092\u518d\u751f\u3067\u304d, \u5358\u4f53\u3067\u3082\u5229\u7528\u53ef\u80fd, \u30d0\u30c3\u30af\u30b0\u30e9\u30a6\u30f3\u30c9\u518d\u751f\u306b\u5bfe\u5fdc",
+        "values-ko": "\uc624\ub514\uc624 \uc7ac\uc0dd \ud50c\ub7ec\uadf8\uc778\uc774\uc790 \ub3c5\ub9bd \uc2e4\ud589 \uc571. AutoJs6 \ud30c\uc77c \uad00\ub9ac\uc790\uc5d0\uc11c \ud55c \ubc88\uc758 \ud0ed\uc73c\ub85c \uc624\ub514\uc624\ub97c \uc7ac\uc0dd\ud558\uace0 \ub2e8\ub3c5\uc73c\ub85c\ub3c4 \uc0ac\uc6a9\ud560 \uc218 \uc788\uc73c\uba70 \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc7ac\uc0dd\uc744 \uc9c0\uc6d0",
+        "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d \u0434\u043b\u044f \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u0430\u0443\u0434\u0438\u043e \u0438 \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435. \u041f\u0440\u043e\u0438\u0433\u0440\u044b\u0432\u0430\u0435\u0442 \u0430\u0443\u0434\u0438\u043e \u0432 \u043e\u0434\u043d\u043e \u043a\u0430\u0441\u0430\u043d\u0438\u0435 \u043f\u0440\u044f\u043c\u043e \u0438\u0437 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u0433\u043e \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0430 AutoJs6, \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0438 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e, \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0444\u043e\u043d\u043e\u0432\u043e\u0435 \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+        "values-zh": "\u97f3\u9891\u64ad\u653e\u63d2\u4ef6\u4e0e\u72ec\u7acb\u5e94\u7528. \u4ece AutoJs6 \u6587\u4ef6\u7ba1\u7406\u5668\u4e00\u952e\u64ad\u653e\u97f3\u9891, \u4e5f\u53ef\u72ec\u7acb\u4f7f\u7528, \u652f\u6301\u540e\u53f0\u64ad\u653e",
+        "values-zh-rHK": "\u97f3\u8a0a\u64ad\u653e\u5916\u639b\u7a0b\u5f0f\u8207\u7368\u7acb\u61c9\u7528\u7a0b\u5f0f. \u5f9e AutoJs6 \u6a94\u6848\u7ba1\u7406\u5668\u4e00\u9375\u64ad\u653e\u97f3\u8a0a, \u4ea6\u53ef\u7368\u7acb\u4f7f\u7528, \u652f\u63f4\u80cc\u666f\u64ad\u653e",
+        "values-zh-rTW": "\u97f3\u8a0a\u64ad\u653e\u5916\u639b\u7a0b\u5f0f\u8207\u7368\u7acb\u61c9\u7528\u7a0b\u5f0f. \u5f9e AutoJs6 \u6a94\u6848\u7ba1\u7406\u5668\u4e00\u9375\u64ad\u653e\u97f3\u8a0a, \u4e5f\u53ef\u7368\u7acb\u4f7f\u7528, \u652f\u63f4\u80cc\u666f\u64ad\u653e"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "explorer-action",
+      "variant": "default",
+      "engineId": "audio-player",
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.5.0",
+          "versionCode": 14,
+          "versionDate": "2026-08-31",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/tag/v1.5.0",
+          "changelogText": "### \u65b0\u529f\u80fd\n\n- \u4ece\u4e13\u8f91\u5c01\u9762\u52a8\u6001\u63d0\u53d6\u4e3b\u8272\uff0c\u4e3a\u4eae\u8272\u4e0e\u6697\u8272\u6a21\u5f0f\u751f\u6210\u64ad\u653e\u5668\u80cc\u666f\u3001\u5de5\u5177\u680f\u3001\u63a7\u4ef6\u548c\u961f\u5217\u9762\u677f\u8c03\u8272\u677f\uff1b\u65e0\u5c01\u9762\u65f6\u5b89\u5168\u56de\u9000\u5230\u5f53\u524d\u4e3b\u9898\u8272\u3002\n- \u5168\u5e94\u7528\u542f\u7528 edge-to-edge\uff0c\u9002\u914d\u72b6\u6001\u680f\u3001\u5218\u6d77\u3001\u6a2a\u5411\u5b89\u5168\u533a\u3001\u4e09\u952e\u5bfc\u822a\u4e0e\u624b\u52bf\u533a\u57df\uff0c\u5e76\u4fdd\u7559 Android 7 \u7684\u53ef\u8bfb\u5bfc\u822a\u680f\u56de\u9000\u3002\n- \u65b0\u589e\u9ed8\u8ba4\u500d\u901f\u3001\u5feb\u9000\u5feb\u8fdb\u6b65\u957f\uff085 / 10 / 15 / 30 \u79d2\uff09\u548c\u961f\u5217\u5b8c\u6210\u884c\u4e3a\uff08\u505c\u6b62 / \u56de\u5230\u5f00\u5934\u5e76\u6682\u505c / \u91cd\u64ad\u961f\u5217\uff09\uff0c\u8bbe\u7f6e\u6301\u4e45\u5316\u5e76\u5373\u65f6\u751f\u6548\u3002\n\n### \u4fee\u590d\n\n- \u5c06\u201c\u8bed\u8a00\u201d\u201c\u591c\u95f4\u6a21\u5f0f\u201d\u53ca\u9ad8\u7ea7\u8bbe\u7f6e\u5bf9\u8bdd\u6846\u7684\u5217\u8868\u9879\u8c03\u6574\u4e3a Material Body1 \u8bed\u4e49\u7684 16sp\uff0c\u89e3\u51b3\u5b57\u4f53\u8fc7\u5927\u7684\u95ee\u9898\u3002\n\n### \u6539\u8fdb\n\n- \u589e\u52a0\u5c01\u9762\u5165\u573a\u3001\u64ad\u653e/\u6682\u505c\u72b6\u6001\u8fc7\u6e21\u4e0e\u5173\u952e\u64ad\u653e\u64cd\u4f5c\u89e6\u611f\u53cd\u9988\uff0c\u5e76\u5c0a\u91cd\u7cfb\u7edf\u52a8\u753b\u548c\u89e6\u611f\u5f00\u5173\u3002\n- \u5b8c\u6210\u96f6\u5f55\u97f3\u6743\u9650\u7684\u64ad\u653e\u53ef\u89c6\u5316\u65b9\u6848\u8c03\u7814\u4e0e PCM/RMS \u539f\u578b\uff1bM6 \u4e0d\u5f15\u5165 RECORD_AUDIO \u6216\u5b58\u50a8\u6743\u9650\u3002\n- \u5341\u8bed\u8a00 README\u3001CHANGELOG\u3001\u63d2\u4ef6\u8bf4\u660e\u548c\u5341\u4e00\u5957 Android \u8d44\u6e90\u540c\u6b65\u66f4\u65b0\u3002\n\n### \u9a8c\u8bc1\n\n- JVM policy \u6d4b\u8bd5\u3001Android API 24 / 36 \u4eea\u5668\u6d4b\u8bd5\u3001Android Lint\uff080 errors\uff09\u548c\u5341\u8bed\u8a00\u6587\u6863\u95e8\u7981\u5168\u90e8\u901a\u8fc7\u3002\n- v1.5.0 R8 \u5305\u5df2\u5728 API 36 \u8986\u76d6\u5b89\u88c5\uff0c\u7ea2/\u84dd\u5c01\u9762\u52a8\u6001\u53d6\u8272\u3001\u961f\u5217\u91cd\u64ad\u3001\u56de\u5230\u5f00\u5934\u5e76\u6682\u505c\u53ca edge-to-edge \u5747\u5b8c\u6210\u7aef\u5230\u7aef\u9a8c\u8bc1\u3002\n\n### APK\n\n- \u6587\u4ef6\uff1aautojs6-plugin-three-terra-player-v1.5.0-eb308d97.apk\n- \u5927\u5c0f\uff1a2,797,377 bytes\n- SHA-256\uff1aB280163AC2883A04713CF5124C640D80D32C392010526C90C1FE48E51FC85C10\n- APK Signature Scheme v2\uff1b\u8bc1\u4e66\u4e0e\u65e2\u6709\u6b63\u5f0f\u7248\u672c\u4e00\u81f4",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-terra-player-v1.5.0-eb308d97.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/download/v1.5.0/autojs6-plugin-three-terra-player-v1.5.0-eb308d97.apk",
+              "size": 2797377,
+              "digest": "sha256:b280163ac2883a04713cf5124c640d80d32c392010526c90c1fe48e51fc85c10"
+            }
+          ],
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
       "nativePageAlignmentSource": "measured"
     }
   ]

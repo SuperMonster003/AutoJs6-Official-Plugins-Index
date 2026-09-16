@@ -172,6 +172,10 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
     version_map = parse_properties(raw_text(owner, repo_name, metadata_ref, "version.properties") or "")
     manifest_text = raw_text(owner, repo_name, metadata_ref, "app/src/main/AndroidManifest.xml")
     build_gradle = raw_text(owner, repo_name, metadata_ref, "app/build.gradle.kts") or ""
+    manifest_placeholders = resolve_manifest_placeholders(
+        build_gradle, manifest_text,
+        read_source=lambda path: raw_text(owner, repo_name, metadata_ref, path),
+    )
 
     return build_entries_from_release(
         owner=owner,
@@ -183,6 +187,7 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
         version_map=version_map,
         manifest_text=manifest_text,
         build_gradle=build_gradle,
+        manifest_placeholders=manifest_placeholders,
         admission_root=admission_root,
         native_cache=native_cache,
     )
@@ -199,6 +204,7 @@ def build_entries_from_release(
     version_map: dict[str, str],
     manifest_text: str | None,
     build_gradle: str,
+    manifest_placeholders: dict[str, str] | None = None,
     admission_root: Path | None = None,
     admission_manifest_text: str | None = None,
     source_commit: str | None = None,
@@ -310,6 +316,7 @@ def build_entries_from_release(
                 res_values=res_values,
                 strings_by_dir=strings_by_dir,
                 parser=contract_parsers[field],
+                manifest_placeholders=manifest_placeholders,
             )
             for field, (resource_name, manifest_name) in CONTRACT_DECLARATIONS.items()
         }
@@ -723,6 +730,64 @@ def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback:
     return result
 
 
+def resolve_manifest_placeholders(build_gradle: str, manifest_text: str | None, *, read_source) -> dict[str, str]:
+    """Resolve a small static Gradle subset, with source files loaded from the same release tag.
+
+    Never evaluate Gradle code. Unsupported, missing, ambiguous or escaping references fail
+    closed when a contract declaration uses them.
+    """
+    names = set()
+    for _, manifest_key in CONTRACT_DECLARATIONS.values():
+        for value in parse_manifest_metadata_values(manifest_text, manifest_key):
+            match = re.fullmatch(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}", value.strip())
+            if match:
+                names.add(match.group(1))
+    result = {}
+    for name in names:
+        assignments = re.findall(
+            rf'^\s*manifestPlaceholders\["{re.escape(name)}"\]\s*=\s*([^\r\n]+)',
+            build_gradle, flags=re.MULTILINE,
+        )
+        if len(assignments) != 1:
+            raise RuntimeError(f"Manifest placeholder {name!r} needs one static assignment.")
+        expression = assignments[0].strip().removesuffix(";").removesuffix(".toString()")
+        if re.fullmatch(r'"[^"$\\]*"|[0-9]+L?', expression):
+            result[name] = expression[1:-1] if expression.startswith('"') else expression.removesuffix("L")
+            continue
+        if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", expression):
+            raise RuntimeError(f"Unresolved manifest placeholder {name!r}.")
+        if len(re.findall(rf'\bval\s+{re.escape(expression)}\s*=', build_gradle)) != 1:
+            raise RuntimeError(f"Manifest placeholder {name!r} needs one value declaration.")
+        literal = re.findall(rf'\bval\s+{re.escape(expression)}\s*=\s*([0-9]+)L?\s*(?:;|$)', build_gradle, re.MULTILINE)
+        if len(literal) == 1:
+            result[name] = literal[0]
+            continue
+        extraction = re.search(
+            rf'\bval\s+{re.escape(expression)}\s*=\s*Regex\("((?:\\.|[^"\\])*)"\)'
+            r'\s*\.find\(\s*([A-Za-z_][A-Za-z0-9_]*)\.readText\(\)\s*\)'
+            r'\s*\?\.groupValues\s*\?\.get\(1\)\s*\?\.toLong\(\)', build_gradle,
+        )
+        if not extraction:
+            raise RuntimeError(f"Unresolved manifest placeholder {name!r}.")
+        pattern = decode_kotlin_string(extraction.group(1))
+        suffix = r"\s*=\s*(\d+)L"
+        constant = pattern.removesuffix(suffix)
+        if not pattern.endswith(suffix) or not re.fullmatch(r"[A-Z][A-Z0-9_]*", constant):
+            raise RuntimeError(f"Unsupported constant extraction for manifest placeholder {name!r}.")
+        paths = re.findall(
+            rf'\bval\s+{re.escape(extraction.group(2))}\s*=\s*file\(\s*"([^"$\\]+)"\s*,?\s*\)',
+            build_gradle,
+        )
+        if len(paths) != 1 or not re.fullmatch(r"src/main/(?:java|kotlin)/[A-Za-z0-9_/]+\.(?:java|kt)", paths[0]):
+            raise RuntimeError(f"Invalid source path for manifest placeholder {name!r}.")
+        source = read_source("app/" + paths[0])
+        values = re.findall(rf"\b{constant}\s*=\s*([0-9]+)L\b", source or "")
+        if len(values) != 1:
+            raise RuntimeError(f"Manifest placeholder {name!r} needs one source constant.")
+        result[name] = values[0]
+    return result
+
+
 def parse_res_values(text: str) -> dict[str, str]:
     pattern = re.compile(
         r'resValue\(\s*"string"\s*,\s*"([^"]+)"\s*,\s*"((?:\\.|[^"\\])*)"\s*\)'
@@ -1040,12 +1105,13 @@ def resolve_optional_declared_value(
     res_values: dict[str, str],
     strings_by_dir: dict[str, dict[str, str]],
     parser,
+    manifest_placeholders: dict[str, str] | None = None,
 ):
     candidates = []
     if resource_value is not None:
         candidates.append((f'{context} resValue("{resource_name}")', resource_value))
     for index, manifest_value in enumerate(manifest_values, start=1):
-        resolved = resolve_metadata_value(manifest_value, res_values, strings_by_dir)
+        resolved = resolve_metadata_value(manifest_value, res_values, strings_by_dir, manifest_placeholders)
         if resolved is None:
             raise RuntimeError(
                 f'{context} manifest meta-data "{manifest_name}" '
@@ -1238,8 +1304,12 @@ def resolve_metadata_value(
     value: str,
     res_values: dict[str, str],
     strings_by_dir: dict[str, dict[str, str]],
+    manifest_placeholders: dict[str, str] | None = None,
 ) -> str | None:
     normalized = value.strip()
+    placeholder = re.fullmatch(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}", normalized)
+    if placeholder:
+        return (manifest_placeholders or {}).get(placeholder.group(1))
     if not normalized.startswith("@string/"):
         return normalized
     resource_name = normalized.removeprefix("@string/")
