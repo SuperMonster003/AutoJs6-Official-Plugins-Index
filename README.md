@@ -26,6 +26,14 @@ generation instead of silently publishing weakened routing or compatibility
 metadata. For example, the YOLO NCNN `0.1.0` release declares `5275`, the
 minimum compatible AutoJs6 host version code.
 
+Contract metadata also supports whole-value Gradle Manifest placeholders. The
+generator resolves literal strings, decimal integers, integer variables, and the
+constant-extraction pattern used by ImGui's published Gradle build. Referenced
+Java or Kotlin contract files are read from the same release tag, without running
+Gradle code. Unknown expressions, duplicate assignments, missing or ambiguous
+constants, and paths outside `app/src/main/java` or `app/src/main/kotlin` stop
+generation. Resolved values retain the normal range and cross-source checks.
+
 Schema 2 also permits additive, optional runtime-contract fields. A plugin may
 declare the following Android string `resValue` keys and repeat them as manifest
 `meta-data` using the names in parentheses:

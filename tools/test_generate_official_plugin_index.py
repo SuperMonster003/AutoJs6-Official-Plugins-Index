@@ -10,6 +10,72 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     OWNER = "SuperMonster003"
     VERSION = "1.0.0"
 
+    PLACEHOLDER_MANIFEST = '<meta-data android:name="requiresHostVersion" android:value="${requiredHost}"/>'
+    SOURCE_PLACEHOLDER_GRADLE = r'''
+        val contractFile = file("src/main/java/example/Contract.java")
+        val requiredHostVersion = Regex("REQUIRED_HOST_VERSION\\s*=\\s*(\\d+)L")
+            .find(contractFile.readText())
+            ?.groupValues?.get(1)?.toLong()
+            ?: throw GradleException("Missing contract")
+        defaultConfig {
+            manifestPlaceholders["requiredHost"] = requiredHostVersion
+        }
+    '''
+
+    def test_manifest_placeholder_reads_the_declared_source_constant(self):
+        paths = []
+        def read(path):
+            paths.append(path)
+            return "public static final long REQUIRED_HOST_VERSION = 3853L;"
+        values = generator.resolve_manifest_placeholders(
+            self.SOURCE_PLACEHOLDER_GRADLE, self.PLACEHOLDER_MANIFEST, read_source=read,
+        )
+        self.assertEqual(["app/src/main/java/example/Contract.java"], paths)
+        entries = self.build_entries(
+            "AutoJs6-Plugin-Example", self.SOURCE_PLACEHOLDER_GRADLE,
+            self.assets_for("AutoJs6-Plugin-Example", [None]),
+            manifest_text=self.PLACEHOLDER_MANIFEST, manifest_placeholders=values,
+        )
+        self.assertEqual(3853, entries[0]["requiresHostVersion"])
+
+    def test_manifest_placeholder_literals_do_not_load_source_files(self):
+        for expression in ('"3853"', '3853L', 'requiredHostVersion.toString()'):
+            with self.subTest(expression=expression):
+                gradle = 'val requiredHostVersion = 3853L\nmanifestPlaceholders["requiredHost"] = ' + expression
+                def reject(path):
+                    self.fail("Unexpected source read: " + path)
+                self.assertEqual({"requiredHost": "3853"}, generator.resolve_manifest_placeholders(
+                    gradle, self.PLACEHOLDER_MANIFEST, read_source=reject,
+                ))
+
+    def test_manifest_placeholder_rejects_missing_ambiguous_and_escaping_sources(self):
+        for source in (None, "", "REQUIRED_HOST_VERSION = 3853L; REQUIRED_HOST_VERSION = 5279L;"):
+            with self.subTest(source=source), self.assertRaisesRegex(RuntimeError, "one source constant"):
+                generator.resolve_manifest_placeholders(
+                    self.SOURCE_PLACEHOLDER_GRADLE, self.PLACEHOLDER_MANIFEST, read_source=lambda path: source,
+                )
+        gradle = self.SOURCE_PLACEHOLDER_GRADLE.replace("src/main/java/example/Contract.java", "../secret.java")
+        with self.assertRaisesRegex(RuntimeError, "Invalid source path"):
+            generator.resolve_manifest_placeholders(gradle, self.PLACEHOLDER_MANIFEST, read_source=lambda path: self.fail(path))
+
+    def test_manifest_placeholder_unknown_and_duplicate_assignments_fail_closed(self):
+        for gradle in ('', 'manifestPlaceholders["requiredHost"] = unknown()',
+                       'manifestPlaceholders["requiredHost"] = 1\nmanifestPlaceholders["requiredHost"] = 2'):
+            with self.subTest(gradle=gradle), self.assertRaises(RuntimeError):
+                generator.resolve_manifest_placeholders(gradle, self.PLACEHOLDER_MANIFEST, read_source=lambda path: self.fail(path))
+        with self.assertRaisesRegex(RuntimeError, "unresolved value"):
+            self.build_entries("AutoJs6-Plugin-Example", "", self.assets_for("AutoJs6-Plugin-Example", [None]),
+                               manifest_text=self.PLACEHOLDER_MANIFEST)
+
+    def test_manifest_placeholder_keeps_host_version_validation_and_conflict_checks(self):
+        for value, gradle, message in (
+            ("0", "", "positive decimal integer"),
+            ("3853", 'resValue("string", "plugin_requires_host_version", "5279")', "conflicting requiresHostVersion"),
+        ):
+            with self.subTest(value=value), self.assertRaisesRegex(RuntimeError, message):
+                self.build_entries("AutoJs6-Plugin-Example", gradle, self.assets_for("AutoJs6-Plugin-Example", [None]),
+                                   manifest_text=self.PLACEHOLDER_MANIFEST, manifest_placeholders={"requiredHost": value})
+
     def test_schema_version_remains_two_for_additive_optional_fields(self):
         self.assertEqual(2, generator.build_payload([])["schemaVersion"])
 
@@ -663,6 +729,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         manifest_text=None,
         strings_by_dir=None,
         admission_manifest_text=None,
+        manifest_placeholders=None,
     ):
         version = version or self.VERSION
         if strings_by_dir is None:
@@ -685,6 +752,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             version_map={"VERSION_NAME": version, "VERSION_BUILD": "99"},
             manifest_text=manifest_text or '<manifest><application android:label="@string/app_name" /></manifest>',
             build_gradle=gradle,
+            manifest_placeholders=manifest_placeholders,
             admission_manifest_text=admission_manifest_text,
             source_commit="c" * 40,
         )
