@@ -5,6 +5,7 @@ import json
 import os
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -22,6 +23,7 @@ OUTPUT_FILE = "plugins.official.generated.json"
 USER_AGENT = "AutoJs6-Official-Plugin-Index-Generator"
 SCHEMA_VERSION = 2
 DEFAULT_ADMISSION_ROOT = Path(__file__).resolve().parent.parent / "release-manifests"
+DEFAULT_REQUIRED_REPOSITORIES = Path(__file__).resolve().parent.parent / "official-repositories.json"
 ADMISSION_MANIFEST_SCHEMA_VERSION = 1
 MAX_SIGNED_LONG = (1 << 63) - 1
 ROUTING_RESOURCE_KEYS = {
@@ -88,6 +90,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Generate the AutoJs6 official plugins index.")
     parser.add_argument("--output", type=Path, default=Path(OUTPUT_FILE))
     parser.add_argument("--admission-root", type=Path, default=DEFAULT_ADMISSION_ROOT)
+    parser.add_argument("--required-repositories", type=Path, default=DEFAULT_REQUIRED_REPOSITORIES)
     parser.add_argument("--native-cache", type=Path, default=Path(".cache/native-alignment"))
     parser.add_argument("--augment-native-alignment", action="store_true", help="Measure assets in the existing index without refreshing unrelated metadata")
     args = parser.parse_args()
@@ -105,9 +108,16 @@ def main() -> int:
 
     repos = fetch_official_repos()
     items = []
-    for repo in repos:
-        items.extend(build_entries(repo, admission_root=args.admission_root, native_cache=args.native_cache))
+    with ThreadPoolExecutor(max_workers=4) as workers:
+        results = workers.map(
+            lambda repo: build_entries(repo, admission_root=args.admission_root, native_cache=args.native_cache),
+            repos,
+        )
+        for repo, entries in zip(repos, results):
+            items.extend(entries)
+            print(f"Indexed {repo['name']}: {len(entries)} distributions", flush=True)
 
+    validate_repository_coverage(items, json.loads(args.required_repositories.read_text(encoding="utf-8")))
     payload = build_payload(items)
     args.output.write_text(
         json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=False) + "\n",
@@ -115,6 +125,27 @@ def main() -> int:
     )
     print(f"Generated {args.output.resolve()} with {len(items)} official plugin entries.")
     return 0
+
+
+def validate_repository_coverage(items: list[dict], required_repositories: list[str]) -> None:
+    if not isinstance(required_repositories, list) or not required_repositories:
+        raise RuntimeError("Required official repositories must be a nonempty array.")
+    if any(not isinstance(name, str) or not re.fullmatch(r"AutoJs6-Plugin-[A-Za-z0-9-]+", name) for name in required_repositories):
+        raise RuntimeError("Required official repository names are malformed.")
+    if len(set(required_repositories)) != len(required_repositories):
+        raise RuntimeError("Required official repositories contain duplicates.")
+    packages = [item["packageName"] for item in items]
+    if len(packages) != len(set(packages)):
+        raise RuntimeError("Official plugin entries contain duplicate package names.")
+    featured_repositories = {
+        item.get("repository", {}).get("name") for item in items
+        if item.get("featured", True) and item.get("releases")
+        and item.get("repository", {}).get("owner") == OFFICIAL_OWNER
+        and item["releases"][0].get("assets")
+    }
+    missing = sorted(set(required_repositories) - featured_repositories)
+    if missing:
+        raise RuntimeError("Required repositories have no featured, published APK release: " + ", ".join(missing))
 
 
 def build_payload(items: list[dict]) -> dict:
@@ -161,7 +192,8 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
     if not repo_name:
         return []
 
-    release = safe_api_json(f"https://api.github.com/repos/{owner}/{repo_name}/releases/latest")
+    releases = api_json(f"https://api.github.com/repos/{owner}/{repo_name}/releases?per_page=100")
+    release = latest_published_release(releases)
     if not isinstance(release, dict):
         print(f"Warning: skip {repo_name}, latest release unavailable.", file=sys.stderr)
         return []
@@ -175,6 +207,7 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
     manifest_placeholders = resolve_manifest_placeholders(
         build_gradle, manifest_text,
         read_source=lambda path: raw_text(owner, repo_name, metadata_ref, path),
+        version_map=version_map,
     )
 
     return build_entries_from_release(
@@ -190,6 +223,21 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
         manifest_placeholders=manifest_placeholders,
         admission_root=admission_root,
         native_cache=native_cache,
+    )
+
+
+def latest_published_release(releases: list[dict]) -> dict | None:
+    """Include published milestone/RC builds without promoting them to stable."""
+    if not isinstance(releases, list):
+        raise RuntimeError("GitHub releases response is not an array.")
+    published = [
+        release for release in releases
+        if not release.get("draft", False) and release.get("published_at")
+    ]
+    return max(
+        published,
+        key=lambda release: (str(release["published_at"]), int(release.get("id") or 0)),
+        default=None,
     )
 
 
@@ -250,12 +298,31 @@ def build_entries_from_release(
         or "0.0.0"
     )
     version_code = int(version_map.get("VERSION_CODE") or version_map.get("VERSION_BUILD") or 0)
+    if "VERSION_CODE" not in version_map:
+        offset = version_map.get("VERSION_CODE_OFFSET", "0")
+        if not re.fullmatch(r"0|[1-9][0-9]*", offset):
+            raise RuntimeError(f"{repo_name}: VERSION_CODE_OFFSET must be a non-negative integer.")
+        version_code += int(offset)
+    if repo_name == "AutoJs6-Plugin-APK-Builder-Template" and "HOST_VERSION_BUILD" in version_map:
+        # The template is paired with a host build; its Android identity is composite.
+        if not re.search(r"versions\.appVersionCode\s*\*\s*100\s*\+\s*versions\.pluginReleaseSeq", build_gradle):
+            raise RuntimeError(f"{repo_name}: unsupported composite versionCode expression.")
+        host_code = parse_positive_long(version_map["HOST_VERSION_BUILD"], source="HOST_VERSION_BUILD")
+        sequence = version_map.get("PLUGIN_RELEASE_SEQ", "")
+        if not re.fullmatch(r"[0-9]{1,2}", sequence):
+            raise RuntimeError(f"{repo_name}: PLUGIN_RELEASE_SEQ must be in 0..99.")
+        host_name = version_map.get("HOST_VERSION_NAME", "").strip()
+        if not host_name:
+            raise RuntimeError(f"{repo_name}: HOST_VERSION_NAME is missing.")
+        version_code = host_code * 100 + int(sequence)
+        base_version_name += "+autojs6-" + re.sub(r"\s", "-", host_name).lower()
     assets = release_assets(release)
     flavors = parse_product_flavors(build_gradle)
-    asset_groups = group_release_assets_by_flavor(repo_name, assets, flavors) if flavors else [(None, assets)]
+    asset_groups = group_release_assets_by_flavor(repo_name, assets, flavors, base_version_name=base_version_name) if flavors else [(None, assets)]
     default_res_values = parse_default_config_res_values(
         build_gradle,
         allow_global_fallback=not flavors,
+        version_map=version_map,
     )
     manifest_contract_values = {
         field: parse_manifest_metadata_values(manifest_text, manifest_key)
@@ -389,6 +456,7 @@ def build_entries_from_release(
             "changelogUrl": release.get("html_url"),
             "changelogText": str(release.get("body") or "").strip() or None,
             "assets": bound_assets,
+            "prerelease": bool(release.get("prerelease", False)),
         }
         if native_cache is not None:
             release_entry.update(release_alignment(bound_assets, contract["nativePageAlignment"], cache_root=native_cache))
@@ -397,6 +465,7 @@ def build_entries_from_release(
 
         entry = {
             "packageName": package_name,
+            "repository": {"owner": owner, "name": repo_name},
             "iconUrl": raw_url(owner, repo_name, ref, icon_path) if icon_path else None,
             "nightIconUrl": raw_url(owner, repo_name, ref, night_icon_path) if night_icon_path else None,
             "title": title,
@@ -716,10 +785,16 @@ def parse_product_flavors(build_gradle: str) -> list[ProductFlavor]:
     return flavors
 
 
-def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback: bool = False) -> dict[str, str]:
+def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback: bool = False, version_map: dict[str, str] | None = None) -> dict[str, str]:
     default_config_block = extract_named_block(build_gradle, "defaultConfig")
     scope = default_config_block if default_config_block is not None else build_gradle
     result = parse_res_values(scope)
+    for resource, properties_name, key in re.findall(
+        r'resValue\(\s*"string"\s*,\s*"([^"]+)"\s*,\s*([A-Za-z_][A-Za-z0-9_]*)\.getProperty\("([A-Z][A-Z0-9_]*)"\)\s*,?\s*\)', scope,
+    ):
+        if resource in result:
+            raise RuntimeError(f"Duplicate static resource {resource!r}.")
+        result[resource] = resolve_numeric_version_property(build_gradle, properties_name, key, version_map)
     add_build_config_fallbacks(result, scope)
 
     if allow_global_fallback and default_config_block is not None:
@@ -727,10 +802,40 @@ def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback:
         add_build_config_fallbacks(global_values, build_gradle)
         for key, value in global_values.items():
             result.setdefault(key, value)
-    return result
+    return resolve_static_resource_strings(result, build_gradle)
 
 
-def resolve_manifest_placeholders(build_gradle: str, manifest_text: str | None, *, read_source) -> dict[str, str]:
+def resolve_static_resource_strings(values: dict[str, str], build_gradle: str) -> dict[str, str]:
+    """Resolve only literal top-level string constants, never Gradle expressions."""
+    def substitute(match):
+        name = match.group(1) or match.group(2)
+        declarations = re.findall(
+            rf'\bval\s+{re.escape(name)}\s*=\s*"([^"$\\]*)"\s*(?:;|$)',
+            build_gradle, re.MULTILINE,
+        )
+        if len(declarations) != 1:
+            raise RuntimeError(f"Unresolved or ambiguous static resource constant {name!r}.")
+        return declarations[0]
+    return {
+        key: re.sub(r'\$\{([A-Za-z_][A-Za-z0-9_]*)\}|\$([A-Za-z_][A-Za-z0-9_]*)', substitute, value)
+        for key, value in values.items()
+    }
+
+
+def resolve_numeric_version_property(build_gradle: str, properties_name: str, key: str, version_map: dict[str, str] | None) -> str:
+    declaration = rf'\bval\s+{re.escape(properties_name)}\s*='
+    use = r'(?:\(::load\)|\{\s*load\(it\)\s*\}|\{\s*([A-Za-z_][A-Za-z0-9_]*)\s*->\s*load\(\1\)\s*\})'
+    loaders = re.findall(
+        declaration + r'\s*Properties\(\)\.apply\s*\{\s*rootProject\.file\("version\.properties"\)\.inputStream\(\)\.use\s*' + use + r'\s*\}',
+        build_gradle,
+    )
+    value = (version_map or {}).get(key, "")
+    if len(re.findall(declaration, build_gradle)) != 1 or len(loaders) != 1 or not re.fullmatch(r'[0-9]+', value):
+        raise RuntimeError(f"Unresolved numeric version.properties value {properties_name}.{key}.")
+    return value
+
+
+def resolve_manifest_placeholders(build_gradle: str, manifest_text: str | None, *, read_source, version_map: dict[str, str] | None = None) -> dict[str, str]:
     """Resolve a small static Gradle subset, with source files loaded from the same release tag.
 
     Never evaluate Gradle code. Unsupported, missing, ambiguous or escaping references fail
@@ -762,6 +867,15 @@ def resolve_manifest_placeholders(build_gradle: str, manifest_text: str | None, 
         if len(literal) == 1:
             result[name] = literal[0]
             continue
+        property_read = re.search(
+            rf'\bval\s+{re.escape(expression)}\s*=\s*([A-Za-z_][A-Za-z0-9_]*)'
+            r'\.getProperty\("([A-Z][A-Z0-9_]*)"\)\.to(?:Int|Long)\(\)\s*(?:;|$)',
+            build_gradle, re.MULTILINE,
+        )
+        if property_read:
+            properties_name, key = property_read.groups()
+            result[name] = resolve_numeric_version_property(build_gradle, properties_name, key, version_map)
+            continue
         extraction = re.search(
             rf'\bval\s+{re.escape(expression)}\s*=\s*Regex\("((?:\\.|[^"\\])*)"\)'
             r'\s*\.find\(\s*([A-Za-z_][A-Za-z0-9_]*)\.readText\(\)\s*\)'
@@ -790,7 +904,7 @@ def resolve_manifest_placeholders(build_gradle: str, manifest_text: str | None, 
 
 def parse_res_values(text: str) -> dict[str, str]:
     pattern = re.compile(
-        r'resValue\(\s*"string"\s*,\s*"([^"]+)"\s*,\s*"((?:\\.|[^"\\])*)"\s*\)'
+        r'resValue\(\s*"string"\s*,\s*"([^"]+)"\s*,\s*"((?:\\.|[^"\\])*)"\s*,?\s*\)'
     )
     return {
         match.group(1): decode_kotlin_string(match.group(2))
@@ -901,6 +1015,8 @@ def group_release_assets_by_flavor(
     repo_name: str,
     assets: list[dict],
     flavors: list[ProductFlavor],
+    *,
+    base_version_name: str | None = None,
 ) -> list[tuple[ProductFlavor, list[dict]]]:
     grouped = {flavor.name: [] for flavor in flavors}
     unmatched = []
@@ -913,6 +1029,14 @@ def group_release_assets_by_flavor(
             for flavor in flavors
             if asset_name_matches_distribution(asset_name, flavor.distribution_variant)
         ]
+        # An unsuffixed production flavor can coexist with isolated test flavors.
+        # Accept only its exact version/ABI/CRC32 naming convention, never an
+        # arbitrary unmatched asset or an ambiguous default flavor.
+        if not matched and base_version_name is not None and re.fullmatch(
+            rf"{re.escape(repo_name)}-v{re.escape(base_version_name)}-{ABI_ASSET_TOKEN_PATTERN}-[0-9a-f]{{8}}\.apk",
+            asset_name, flags=re.IGNORECASE,
+        ):
+            matched = [flavor for flavor in flavors if not flavor.application_id_suffix and not flavor.version_name_suffix]
         if len(matched) == 1:
             grouped[matched[0].name].append(asset)
         elif not matched:
@@ -1331,6 +1455,13 @@ def parse_positive_long(value: str, *, source: str) -> int:
 
 
 def parse_application_id_from_build_gradle(text: str) -> str | None:
+    scope = extract_named_block(text, "defaultConfig") or text
+    variable = re.search(r'^\s*applicationId\s*=\s*([A-Za-z_][A-Za-z0-9_]*)\s*$', scope, re.MULTILINE)
+    if variable:
+        values = re.findall(rf'\bval\s+{re.escape(variable.group(1))}\s*=\s*"([^"$\\]+)"', text)
+        if len(values) != 1 or not PACKAGE_NAME_PATTERN.fullmatch(values[0]):
+            raise RuntimeError("applicationId needs one literal package-name constant.")
+        return values[0]
     return (
         regex_group(text, r'val\s+globalApplicationId\s*=\s*"([^"]+)"')
         or regex_group(text, r'\bapplicationId\s*=\s*"([^"]+)"')

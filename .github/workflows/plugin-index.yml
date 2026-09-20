@@ -6,6 +6,8 @@ on:
       - plugins.official.generated.json
       - tools/generate_official_plugin_index.py
       - tools/test_generate_official_plugin_index.py
+      - official-repositories.json
+      - release-manifests/**
       - .github/workflows/plugin-index.yml
   push:
     branches:
@@ -14,10 +16,16 @@ on:
       - plugins.official.generated.json
       - tools/generate_official_plugin_index.py
       - tools/test_generate_official_plugin_index.py
+      - official-repositories.json
+      - release-manifests/**
       - .github/workflows/plugin-index.yml
   workflow_dispatch:
   schedule:
     - cron: "20 3 * * 1"
+
+concurrency:
+  group: official-plugin-index-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   validate-official-index:

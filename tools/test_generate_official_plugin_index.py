@@ -10,6 +10,102 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     OWNER = "SuperMonster003"
     VERSION = "1.0.0"
 
+    def test_required_repository_coverage_rejects_missing_and_hidden_releases(self):
+        item = {"packageName": "example.plugin", "repository": {"owner": self.OWNER, "name": "AutoJs6-Plugin-Example"}, "releases": [{"assets": [{"name": "example.apk"}]}]}
+        required = ["AutoJs6-Plugin-Example"]
+        generator.validate_repository_coverage([item], required)
+        for entries in ([], [{**item, "featured": False}], [{**item, "releases": []}], [item, item]):
+            with self.assertRaises(RuntimeError):
+                generator.validate_repository_coverage(entries, required)
+        for names in ([], required + required, ["../invalid"], "not an array"):
+            with self.assertRaises(RuntimeError):
+                generator.validate_repository_coverage([item], names)
+
+    def test_latest_published_release_includes_newer_prerelease_and_ignores_drafts(self):
+        stable = {"id": 1, "published_at": "2026-09-01T00:00:00Z", "prerelease": False}
+        candidate = {"id": 2, "published_at": "2026-09-20T00:00:00Z", "prerelease": True}
+        draft = {"id": 3, "published_at": "2026-09-21T00:00:00Z", "draft": True}
+        unpublished = {"id": 4, "published_at": None}
+        self.assertIs(candidate, generator.latest_published_release([draft, stable, unpublished, candidate]))
+        self.assertTrue(candidate["prerelease"])
+        self.assertIsNone(generator.latest_published_release([draft, unpublished]))
+
+    def test_unsuffixed_production_flavor_does_not_publish_test_flavors(self):
+        provider = generator.ProductFlavor("provider", "", "", {})
+        test = generator.ProductFlavor("nativeTest", ".native_test", "", {})
+        asset = {"name": "autojs6-plugin-lua-runtime-v0.1.2-rc.2-arm64-v8a-7B344BB9.apk"}
+        groups = generator.group_release_assets_by_flavor("AutoJs6-Plugin-Lua-Runtime", [asset], [provider, test], base_version_name="0.1.2-rc.2")
+        self.assertEqual([(provider, [asset]), (test, [])], groups)
+        for flavors, assets in (([provider, generator.ProductFlavor("ambiguous", "", "", {})], [asset]), ([provider, test], [{"name": asset["name"].replace("-arm64", "-unknown-arm64") }])):
+            with self.assertRaises(RuntimeError):
+                generator.group_release_assets_by_flavor("AutoJs6-Plugin-Lua-Runtime", assets, flavors, base_version_name="0.1.2-rc.2")
+
+    def test_latest_published_release_uses_publication_date_and_deterministic_tie_break(self):
+        older = {"id": 99, "published_at": "2026-09-01T00:00:00Z"}
+        newer = {"id": 2, "published_at": "2026-09-20T00:00:00Z"}
+        tied = {"id": 3, "published_at": "2026-09-20T00:00:00Z"}
+        self.assertIs(tied, generator.latest_published_release([newer, tied, older]))
+        with self.assertRaises(RuntimeError):
+            generator.latest_published_release({"message": "API error"})
+
+    def test_multiline_resource_with_trailing_comma_resolves_package_constant(self):
+        gradle = '''
+            val codeNamespace = "io.github.example.archive"
+            defaultConfig {
+                applicationId = codeNamespace
+                resValue(
+                    "string", "plugin_runtime_component",
+                    "$codeNamespace/${codeNamespace}.ExplorerActionService",
+                )
+            }
+        '''
+        self.assertEqual("io.github.example.archive", generator.parse_application_id_from_build_gradle(gradle))
+        values = generator.parse_default_config_res_values(gradle)
+        self.assertEqual("io.github.example.archive/io.github.example.archive.ExplorerActionService", values["plugin_runtime_component"])
+        with self.assertRaises(RuntimeError):
+            generator.parse_default_config_res_values(gradle.replace('val codeNamespace = "io.github.example.archive"', 'val codeNamespace = findPackage()'))
+
+    def test_manifest_host_version_reads_only_explicit_version_properties_loader(self):
+        manifest = '<meta-data android:name="requiresHostVersion" android:value="${requiredHostVersion}"/>'
+        gradle = '''
+            val projectProperties = Properties().apply {
+                rootProject.file("version.properties").inputStream().use(::load)
+            }
+            val requiredHostVersion = projectProperties.getProperty("AUTOJS6_HOST_VERSION_BUILD").toInt()
+            manifestPlaceholders["requiredHostVersion"] = requiredHostVersion
+        '''
+        values = generator.resolve_manifest_placeholders(gradle, manifest, read_source=lambda _: self.fail("unexpected source read"), version_map={"AUTOJS6_HOST_VERSION_BUILD": "5281"})
+        self.assertEqual({"requiredHostVersion": "5281"}, values)
+        for source, properties in ((gradle, {}), (gradle.replace('"version.properties"', '"local.properties"'), {"AUTOJS6_HOST_VERSION_BUILD": "5281"})):
+            with self.assertRaises(RuntimeError):
+                generator.resolve_manifest_placeholders(source, manifest, read_source=lambda _: None, version_map=properties)
+
+    def test_android_version_code_offset_preserves_upgrade_identity(self):
+        entry = self.build_entries("AutoJs6-Plugin-ImGui", "", self.assets_for("AutoJs6-Plugin-ImGui", [None]), version_map={"VERSION_NAME": "1.0.0", "VERSION_BUILD": "16", "VERSION_CODE_OFFSET": "4"})[0]
+        self.assertEqual(20, entry["releases"][0]["versionCode"])
+        with self.assertRaises(RuntimeError):
+            self.build_entries("AutoJs6-Plugin-ImGui", "", [], version_map={"VERSION_BUILD": "16", "VERSION_CODE_OFFSET": "-1"})
+
+    def test_numeric_resource_reads_version_properties_for_lua_provider(self):
+        gradle = '''
+            val versionProperties = Properties().apply {
+                rootProject.file("version.properties").inputStream().use { stream -> load(stream) }
+            }
+            defaultConfig {
+                resValue("string", "lua_runtime_requires_host_version", versionProperties.getProperty("REQUIRED_HOST_VERSION_CODE"),)
+            }
+        '''
+        properties = {"REQUIRED_HOST_VERSION_CODE": "5281"}
+        self.assertEqual({"lua_runtime_requires_host_version": "5281"}, generator.parse_default_config_res_values(gradle, version_map=properties))
+        for source, values in ((gradle, {}), (gradle.replace('"version.properties"', '"local.properties"'), properties), (gradle + '\nval versionProperties = unknown()', properties)):
+            with self.assertRaises(RuntimeError):
+                generator.parse_default_config_res_values(source, version_map=values)
+
+    def test_apk_builder_composite_version_matches_paired_host(self):
+        entry = self.build_entries("AutoJs6-Plugin-APK-Builder-Template", "val pluginVersionCode = versions.appVersionCode * 100 + versions.pluginReleaseSeq", self.assets_for("AutoJs6-Plugin-APK-Builder-Template", [None]), version_map={"VERSION_NAME": "1.0.3", "VERSION_BUILD": "45", "HOST_VERSION_NAME": "6.8.0", "HOST_VERSION_BUILD": "5280", "PLUGIN_RELEASE_SEQ": "1"})[0]
+        self.assertEqual("1.0.3+autojs6-6.8.0", entry["releases"][0]["versionName"])
+        self.assertEqual(528001, entry["releases"][0]["versionCode"])
+
     PLACEHOLDER_MANIFEST = '<meta-data android:name="requiresHostVersion" android:value="${requiredHost}"/>'
     SOURCE_PLACEHOLDER_GRADLE = r'''
         val contractFile = file("src/main/java/example/Contract.java")
@@ -730,6 +826,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         strings_by_dir=None,
         admission_manifest_text=None,
         manifest_placeholders=None,
+        version_map=None,
     ):
         version = version or self.VERSION
         if strings_by_dir is None:
@@ -749,7 +846,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
             },
             tree_paths=set(),
             strings_by_dir=strings_by_dir,
-            version_map={"VERSION_NAME": version, "VERSION_BUILD": "99"},
+            version_map=version_map or {"VERSION_NAME": version, "VERSION_BUILD": "99"},
             manifest_text=manifest_text or '<manifest><application android:label="@string/app_name" /></manifest>',
             build_gradle=gradle,
             manifest_placeholders=manifest_placeholders,
