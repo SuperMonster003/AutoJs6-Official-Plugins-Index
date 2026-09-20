@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Python-Runtime",
+  "releaseTag": "v0.5.4",
+  "sourceCommit": "92d8a08c087f07da847aca86577f740ff4dc0bdd",
+  "packageName": "io.github.supermonster003.autojs6.plugin.python.runtime",
+  "versionName": "0.5.4",
+  "versionCode": 111,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-python-runtime-v0.5.4-universal-BBD8CCF7.apk",
+      "sha256": "de5ea19605aadc79c14683aac3c1d40398242147b54df2bdaa92f2d810a790ab",
+      "sizeBytes": 33684371
+    },
+    {
+      "name": "autojs6-plugin-python-runtime-v0.5.4-x86_64-BD982C52.apk",
+      "sha256": "be38b26f767c305d12e0824467950c8d3448be38dfd918f71f160930ebd013ad",
+      "sizeBytes": 22788380
+    },
+    {
+      "name": "autojs6-plugin-python-runtime-v0.5.4-arm64-v8a-F68C9200.apk",
+      "sha256": "600574b85f3cea2b3989a6d2f3dfe8f9fca1735a178f833393dddea3a1792c19",
+      "sizeBytes": 22772020
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "x86_64"
+  ]
+}

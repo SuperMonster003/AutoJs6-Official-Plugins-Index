@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Lua-Runtime",
+  "releaseTag": "v0.1.2-rc.2",
+  "sourceCommit": "3ab4ab1007e7aaa6f48127e564a8d3b0c46ac84a",
+  "packageName": "io.github.supermonster003.autojs6.plugin.lua.runtime",
+  "versionName": "0.1.2-rc.2",
+  "versionCode": 78,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-lua-runtime-v0.1.2-rc.2-universal-986C6B58.apk",
+      "sha256": "32a0e765ca7c2ab42446d2d2b4782674e4bc565cfb266680b846b4308db78ecc",
+      "sizeBytes": 2309373
+    },
+    {
+      "name": "autojs6-plugin-lua-runtime-v0.1.2-rc.2-armeabi-v7a-4DE3F8E4.apk",
+      "sha256": "56306a2773f8604d74aa43e4fedeece3d97e7e3190b4263a00cf640996981ac5",
+      "sizeBytes": 550690
+    },
+    {
+      "name": "autojs6-plugin-lua-runtime-v0.1.2-rc.2-x86_64-9CE11116.apk",
+      "sha256": "f8cec0ccc2a43fc516677d212bda64d81958527c121d49382c912a4d181c5641",
+      "sizeBytes": 752645
+    },
+    {
+      "name": "autojs6-plugin-lua-runtime-v0.1.2-rc.2-x86-B073C85D.apk",
+      "sha256": "3045f0889a916f3c6ad9ef2108c76bec0b18d68f8011617f0b8d7e07acfc13f4",
+      "sizeBytes": 724906
+    },
+    {
+      "name": "autojs6-plugin-lua-runtime-v0.1.2-rc.2-arm64-v8a-7B344BB9.apk",
+      "sha256": "ba6f2f7407f84b4877f5993c5a844afb0ecf6762f580400572fcd75415d7ae0f",
+      "sizeBytes": 763952
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

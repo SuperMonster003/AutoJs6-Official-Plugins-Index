@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Image-Quantization",
+  "releaseTag": "v1.0.3",
+  "sourceCommit": "df9619abee2a583886cae8b09f7e72529a523722",
+  "packageName": "io.github.supermonster003.autojs6.plugin.imagequant",
+  "versionName": "1.0.3",
+  "versionCode": 25,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-image-quantization-v1.0.3-universal-45C65992.apk",
+      "sha256": "94d4cba00e984d3f67a4a3eb2b46145da386fbb44654607ae9a299b4b0e288d0",
+      "sizeBytes": 3748198
+    },
+    {
+      "name": "autojs6-plugin-image-quantization-v1.0.3-armeabi-v7a-6CA1A9F1.apk",
+      "sha256": "b1f37f1b032f23203a3c5a34c98c0f12155b09cd0fad35e7bf58864f5b379541",
+      "sizeBytes": 981312
+    },
+    {
+      "name": "autojs6-plugin-image-quantization-v1.0.3-x86_64-0C3DC15A.apk",
+      "sha256": "660bba429be939b02837e746d01172b1a8fbc86bac97653c78a4208ee06a2536",
+      "sizeBytes": 1062151
+    },
+    {
+      "name": "autojs6-plugin-image-quantization-v1.0.3-x86-B031DFE3.apk",
+      "sha256": "7efaf3989946839948de4232fdd130b8e0634dfa4cad68f9f86c9b07b4fd50bc",
+      "sizeBytes": 1028244
+    },
+    {
+      "name": "autojs6-plugin-image-quantization-v1.0.3-arm64-v8a-BD2DC174.apk",
+      "sha256": "fcce304b664013e611c0c2e34195c0a410912f746cdbacf9045cdad075c097c2",
+      "sizeBytes": 1066202
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

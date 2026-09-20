@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-OpenCV",
+  "releaseTag": "v1.1.4",
+  "sourceCommit": "35976c1cbddd6fa4d9ad2f15ae4851bd7940fd9a",
+  "packageName": "io.github.supermonster003.autojs6.plugin.opencv",
+  "versionName": "1.1.4",
+  "versionCode": 23,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-opencv-v1.1.4-universal-0128F396.apk",
+      "sha256": "e09433bb08ab2d222cbe8453b73569b5298ccc5d9a484a40181a6b18c6683672",
+      "sizeBytes": 53220640
+    },
+    {
+      "name": "autojs6-plugin-opencv-v1.1.4-armeabi-v7a-9EF36468.apk",
+      "sha256": "0693156589c208c784639d3c31e76cf5ae659a8bdad1ed3dd63084842ad55ab8",
+      "sizeBytes": 7341115
+    },
+    {
+      "name": "autojs6-plugin-opencv-v1.1.4-x86_64-52868690.apk",
+      "sha256": "83bd7ee1bea18f19c6576292767be446d5b7e66ac386ec87636e534866001ded",
+      "sizeBytes": 21976026
+    },
+    {
+      "name": "autojs6-plugin-opencv-v1.1.4-x86-741058C8.apk",
+      "sha256": "14f10402f602ff497c3c91e0ede0463099682faf37817a855a1abd34a34ee0cb",
+      "sizeBytes": 16064467
+    },
+    {
+      "name": "autojs6-plugin-opencv-v1.1.4-arm64-v8a-964929F0.apk",
+      "sha256": "cfc04df72be9b7cc4478c00e12966d1b390973a027c0cadcbe3e10f7da851216",
+      "sizeBytes": 8317485
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

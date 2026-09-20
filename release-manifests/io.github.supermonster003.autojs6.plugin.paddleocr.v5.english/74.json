@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv5",
+  "releaseTag": "v1.0.4",
+  "sourceCommit": "acf4e196e2e315af610e6550068bde31f713b4e3",
+  "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.english",
+  "versionName": "1.0.4-english",
+  "versionCode": 74,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.4-english-universal-0A2D2F73.apk",
+      "sha256": "a9b400c6d02663a480a7fed33b53741201bbba0cd66d4ddd4fc43ccd6c081966",
+      "sizeBytes": 94609085
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.4-english-armeabi-v7a-C1965BAB.apk",
+      "sha256": "30d29e9d5a2a0fe20326e07ad0ed7c74c50418f463b2dde91276754b0b7d5c01",
+      "sizeBytes": 25693439
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.4-english-x86_64-CAFE96E4.apk",
+      "sha256": "cac09181183d1d90ae1ca377f680b0ed3a659d33e1df0d0e2b0aa3ce1924e1de",
+      "sizeBytes": 42128151
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.4-english-x86-B33BF330.apk",
+      "sha256": "372a056181693b31d5a62783da000f92460ef9039f340bb606e602f00348e665",
+      "sizeBytes": 36279747
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.4-english-arm64-v8a-029259AF.apk",
+      "sha256": "540ab649acf1f20e6d06a58890c4f74dddb8c2187e08e211690641c91e7ce6f3",
+      "sizeBytes": 27269835
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-OpenCC",
+  "releaseTag": "v1.4.2",
+  "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46",
+  "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
+  "versionName": "1.4.2",
+  "versionCode": 104,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-opencc-v1.4.2-universal-63b54886.apk",
+      "sha256": "9721551126397e7d8d62bc12bf13b3e2d2722f052802f378e254be6b12ad54d2",
+      "sizeBytes": 6129682
+    },
+    {
+      "name": "autojs6-plugin-opencc-v1.4.2-armeabi-v7a-faa36775.apk",
+      "sha256": "68ca67e2f023f89846e29afdedd30f79fcad74a3aed873813c3da813139ce05e",
+      "sizeBytes": 3455387
+    },
+    {
+      "name": "autojs6-plugin-opencc-v1.4.2-x86_64-9a49948c.apk",
+      "sha256": "7adff9a8a364a837c38abded955dcd9cdc8733aebe808120e6cedcb5265b7b6c",
+      "sizeBytes": 3802930
+    },
+    {
+      "name": "autojs6-plugin-opencc-v1.4.2-x86-077604a1.apk",
+      "sha256": "874884cff5e686475c320907c4798a4fcd26c3978febe03c379b397870ab4b8e",
+      "sizeBytes": 3756343
+    },
+    {
+      "name": "autojs6-plugin-opencc-v1.4.2-arm64-v8a-425330d4.apk",
+      "sha256": "033df734401a672722f8bf87ed6eba8791d2883e6e15ee618aa6330f9423a89b",
+      "sizeBytes": 3794133
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

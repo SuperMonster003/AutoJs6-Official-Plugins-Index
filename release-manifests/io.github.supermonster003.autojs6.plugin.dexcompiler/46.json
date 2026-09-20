@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-DEX-Compiler",
+  "releaseTag": "v1.1.2",
+  "sourceCommit": "82bd137429961045c9125eab4b384366ebe6e60c",
+  "packageName": "io.github.supermonster003.autojs6.plugin.dexcompiler",
+  "versionName": "1.1.2",
+  "versionCode": 46,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-dex-compiler-v1.1.2-universal-20246D2C.apk",
+      "sha256": "e473a06c472dd75d7ff47050dc958b5fb352d2ce6c6334b0e1de68997cdb0b4f",
+      "sizeBytes": 6646074
+    }
+  ]
+}

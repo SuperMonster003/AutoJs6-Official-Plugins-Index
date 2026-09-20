@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Yolo-NCNN",
+  "releaseTag": "v0.1.3",
+  "sourceCommit": "6e7ef6d34b071c7972a34115ed6955166e5a396c",
+  "packageName": "io.github.supermonster003.autojs6.plugin.yolo.ncnn",
+  "versionName": "0.1.3",
+  "versionCode": 39,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-yolo-ncnn-v0.1.3-universal-1956F9DA.apk",
+      "sha256": "606383a59981ad0e4b5d18c3b411b1af6ce203470412cf98fac975738c6c4a8b",
+      "sizeBytes": 16102676
+    },
+    {
+      "name": "autojs6-plugin-yolo-ncnn-v0.1.3-armeabi-v7a-AEB28F21.apk",
+      "sha256": "58c44aadc592c338836509f5493df2301a8b6f5ef11c1dc5017b487476796236",
+      "sizeBytes": 1607302
+    },
+    {
+      "name": "autojs6-plugin-yolo-ncnn-v0.1.3-x86_64-35BC3845.apk",
+      "sha256": "fd7f6ddbb24b6418f164d287c125ecae3779fce6674c1b79955633ed7b8d5281",
+      "sizeBytes": 6378013
+    },
+    {
+      "name": "autojs6-plugin-yolo-ncnn-v0.1.3-x86-9153100F.apk",
+      "sha256": "3db2622fdb4a3bb64b7d97870cfe204d18889ccaaa9399eb2b3348b8276c7eee",
+      "sizeBytes": 6151934
+    },
+    {
+      "name": "autojs6-plugin-yolo-ncnn-v0.1.3-arm64-v8a-0859AC52.apk",
+      "sha256": "822fde48914747355c13fe196d7e33e933c0b4894f5fe33b7a1aaeb5b0d76c0c",
+      "sizeBytes": 2531656
+    }
+  ],
+  "runtimeComponent": "io.github.supermonster003.autojs6.plugin.yolo.ncnn/io.github.supermonster003.autojs6.plugin.yolo.ncnn.provider.YoloProviderService",
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

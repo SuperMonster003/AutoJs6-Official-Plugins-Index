@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Ember-Player",
+  "releaseTag": "v3.1.2",
+  "sourceCommit": "d2e4aab8d3f646689a6dc0a599b5f3485f636153",
+  "packageName": "io.github.supermonster003.autojs6.plugin.videoplayer",
+  "versionName": "3.1.2",
+  "versionCode": 28,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-ember-player-v3.1.2-universal-58D280DE.apk",
+      "sha256": "d5a2391085aa0ac51471fa32dad42e62f4c9c8e0458e6b6090fb1e4a34c37c88",
+      "sizeBytes": 3284673
+    }
+  ]
+}

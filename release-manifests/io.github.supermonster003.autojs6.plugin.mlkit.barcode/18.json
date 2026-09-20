@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-MLKit-Barcode",
+  "releaseTag": "v1.0.4",
+  "sourceCommit": "3d4f0c417d518f372d855bb440790bdd677e0254",
+  "packageName": "io.github.supermonster003.autojs6.plugin.mlkit.barcode",
+  "versionName": "1.0.4",
+  "versionCode": 18,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-mlkit-barcode-v1.0.4-universal-15159AEE.apk",
+      "sha256": "26b7e6e48001a38f35c8531ea526ade975143bbb7677b9526e37704f80a423e5",
+      "sizeBytes": 10918035
+    },
+    {
+      "name": "autojs6-plugin-mlkit-barcode-v1.0.4-armeabi-v7a-2B368DE6.apk",
+      "sha256": "aaac1e0aeb095c2b3d5daf8d5d832c1c993a3fc6e0d4253c748889bfbf4d38c7",
+      "sizeBytes": 3877242
+    },
+    {
+      "name": "autojs6-plugin-mlkit-barcode-v1.0.4-x86_64-CC0E116F.apk",
+      "sha256": "aa8e5fd73d8b430aa0c53b125da830e87bd3d5d799bcdccccee2ee0a90ff556d",
+      "sizeBytes": 4531709
+    },
+    {
+      "name": "autojs6-plugin-mlkit-barcode-v1.0.4-arm64-v8a-071480EC.apk",
+      "sha256": "1e0745a328f75759fc7343ec2c18da3f62cdf7dffc28340cee755e578af29839",
+      "sizeBytes": 4195212
+    },
+    {
+      "name": "autojs6-plugin-mlkit-barcode-v1.0.4-x86-646EBDF9.apk",
+      "sha256": "fdcf6f9f8b8f916eeb05a5a2770e3afc22ef36d874d96fd0763847a0f20d7dff",
+      "sizeBytes": 4582066
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-R8-Compiler",
+  "releaseTag": "v0.2.2-provider-dev",
+  "sourceCommit": "888a945c523e226289f7a784e2b41bb737487957",
+  "packageName": "io.github.supermonster003.autojs6.plugin.r8compiler",
+  "versionName": "0.2.2-provider-dev",
+  "versionCode": 21,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-r8-compiler-v0.2.2-provider-dev-universal-57111BE9.apk",
+      "sha256": "166b16ea564f47bd5f6befe9a40043bc1af03ea3bb8f1fbace42289387488803",
+      "sizeBytes": 33281985
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Kotlin-Runtime",
+  "releaseTag": "v0.7.2-m10",
+  "sourceCommit": "90dca1db2a0f3f69342f1439640f4819547693f6",
+  "packageName": "io.github.supermonster003.autojs6.plugin.kotlin.runtime",
+  "versionName": "0.7.2-m10",
+  "versionCode": 29,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-kotlin-runtime-v0.7.2-m10-CDF55B26.apk",
+      "sha256": "7564bb4547f57a73438d89af2513c4008ffeaf492e06073808117870049a3b0e",
+      "sizeBytes": 31884447
+    }
+  ],
+  "runtimeComponent": "io.github.supermonster003.autojs6.plugin.kotlin.runtime/org.autojs.plugin.jvmsource.kotlin.service.JavaSourceCompilerService"
+}

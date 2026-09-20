@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-ImGui",
+  "releaseTag": "v1.9.3",
+  "sourceCommit": "5d84b5fa05163880eda33603307791b86e47b569",
+  "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
+  "versionName": "1.9.3",
+  "versionCode": 20,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-imgui-v1.9.3-universal-673DA203.apk",
+      "sha256": "ad8ecd4cbd18472963df05041c3b91b2fc241e40845fad0b254b97850a7b6a20",
+      "sizeBytes": 5615815
+    },
+    {
+      "name": "autojs6-plugin-imgui-v1.9.3-armeabi-v7a-6D737991.apk",
+      "sha256": "17cc36398ca39c89c0d37133f3d30f0cba40c77a3efd0398905948e94aaa2b51",
+      "sizeBytes": 3711923
+    },
+    {
+      "name": "autojs6-plugin-imgui-v1.9.3-x86_64-9061DF68.apk",
+      "sha256": "d1918c197c1d87e57b0d9af573593670a56608473df265be6a5744efb363d893",
+      "sizeBytes": 3775678
+    },
+    {
+      "name": "autojs6-plugin-imgui-v1.9.3-arm64-v8a-0EEDC1F3.apk",
+      "sha256": "5ade55c07446be94acdc0471bf45d9060eadf447386205d567b12b894dc96e84",
+      "sizeBytes": 3740173
+    },
+    {
+      "name": "autojs6-plugin-imgui-v1.9.3-x86-7B4140EE.apk",
+      "sha256": "03aac379e24a12f2cd87eee52e7b485b36320530f4a95dc203c65a4891fe5172",
+      "sizeBytes": 3791807
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

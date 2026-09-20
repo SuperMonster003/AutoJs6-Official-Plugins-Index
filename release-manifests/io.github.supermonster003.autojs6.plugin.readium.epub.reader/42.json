@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Readium-EPUB-Reader",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "c7a3159394b6878953f1a80307966d983b5ed7c2",
+  "packageName": "io.github.supermonster003.autojs6.plugin.readium.epub.reader",
+  "versionName": "1.0.0",
+  "versionCode": 42,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-readium-epub-reader-v1.0.0-1964b8d2.apk",
+      "sha256": "d8d2ef01c7d6fc5db3fd664820315bff8b6f0e2d095e64b8386c7474e3cc6f44",
+      "sizeBytes": 3721374
+    }
+  ]
+}

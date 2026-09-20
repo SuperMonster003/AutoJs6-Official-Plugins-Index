@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Ace-Editor",
+  "releaseTag": "v1.10.0",
+  "sourceCommit": "2065d07a5dec0e2c7ba9e0a1c6ba477a4cd032fd",
+  "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
+  "versionName": "1.10.0",
+  "versionCode": 103,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-ace-editor-v1.10.0-universal-5cf809b8.apk",
+      "sha256": "eca1679811f9925c52842748f75753937d4ae77c8b1c2fc55699cc782c4f7086",
+      "sizeBytes": 17872291
+    },
+    {
+      "name": "autojs6-plugin-ace-editor-v1.10.0-armeabi-v7a-49a3c059.apk",
+      "sha256": "7b91a56057c0215e239f17e672f0be4e5488f1c04ff04f93ce61ee17b2ac053c",
+      "sizeBytes": 16257164
+    },
+    {
+      "name": "autojs6-plugin-ace-editor-v1.10.0-x86_64-22fdbeef.apk",
+      "sha256": "28a9791ba0055d709aeb8db4f51b1f367d54a411f8b1d3050f58f499400e4f6a",
+      "sizeBytes": 16344371
+    },
+    {
+      "name": "autojs6-plugin-ace-editor-v1.10.0-x86-8ce94603.apk",
+      "sha256": "468b58ca86e322b62a6c4e9bdeee0cd02108f87ed419a521a99df6404286a985",
+      "sizeBytes": 15521491
+    },
+    {
+      "name": "autojs6-plugin-ace-editor-v1.10.0-arm64-v8a-33916f6e.apk",
+      "sha256": "29319ad8817825c3994e64ab2bc3454cc445dc7b024c7e12399480bffec1c68a",
+      "sizeBytes": 16311462
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Image-Tools",
+  "releaseTag": "v1.2.1",
+  "sourceCommit": "a72d3c4f9647844b94d136c84c7033dcbf89c430",
+  "packageName": "io.github.supermonster003.autojs6.plugin.imagetools",
+  "versionName": "1.2.1",
+  "versionCode": 15,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-image-tools-v1.2.1-e3690422.apk",
+      "sha256": "df8911dca5d47389ce0be8aab0300b2bea9d53a06b8d437ead9bfd439cf1d28f",
+      "sizeBytes": 1475177
+    }
+  ]
+}

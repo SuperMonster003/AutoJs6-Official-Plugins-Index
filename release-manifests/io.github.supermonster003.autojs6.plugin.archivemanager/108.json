@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Archive-Manager",
+  "releaseTag": "v2.22.3",
+  "sourceCommit": "62b0875f1c02e71f5591029f097c4a4240ebb087",
+  "packageName": "io.github.supermonster003.autojs6.plugin.archivemanager",
+  "versionName": "2.22.3",
+  "versionCode": 108,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-archive-manager-v2.22.3-universal-30AC747D.apk",
+      "sha256": "4c4a9ef68c244eef5df9d8e0442cb0b0b1525b7244918affd7c46fcf93575da6",
+      "sizeBytes": 4594424
+    },
+    {
+      "name": "autojs6-plugin-archive-manager-v2.22.3-armeabi-v7a-D0F45806.apk",
+      "sha256": "1b108b1d1a23535578976ca997e990e17b2ae420da9546d37cc3a86fa328ea00",
+      "sizeBytes": 2984676
+    },
+    {
+      "name": "autojs6-plugin-archive-manager-v2.22.3-x86_64-25F733C7.apk",
+      "sha256": "6a31fabbe5f0515f4a711f182f308c40404655d622c1e99a7abf971e5c0ee792",
+      "sizeBytes": 3168771
+    },
+    {
+      "name": "autojs6-plugin-archive-manager-v2.22.3-x86-91C8E41B.apk",
+      "sha256": "f548e88e6a387470612151732dce2caf9451c1228a643f5b37bf5b457ed6435d",
+      "sizeBytes": 3173656
+    },
+    {
+      "name": "autojs6-plugin-archive-manager-v2.22.3-arm64-v8a-5754D25F.apk",
+      "sha256": "343d98e43773f6ee128a87537316918885beb97770cd9c2572bddcb3042db408",
+      "sizeBytes": 3097702
+    }
+  ],
+  "runtimeComponent": "io.github.supermonster003.autojs6.plugin.archivemanager/io.github.supermonster003.autojs6.plugin.archivemanager.ExplorerActionService",
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

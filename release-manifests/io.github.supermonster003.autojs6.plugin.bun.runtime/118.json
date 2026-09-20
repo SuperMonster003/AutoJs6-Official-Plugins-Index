@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Bun-Runtime",
+  "releaseTag": "v0.2.5",
+  "sourceCommit": "bd6b422dfb1676eb5066ad37eed0e8bad08ebbf1",
+  "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
+  "versionName": "0.2.5",
+  "versionCode": 118,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-bun-runtime-v0.2.5-universal-71a0a55f.apk",
+      "sha256": "12692195af2511fbf8e77ed8d459460dfb04f547e0a830367da242469d4e6182",
+      "sizeBytes": 72230736
+    },
+    {
+      "name": "autojs6-plugin-bun-runtime-v0.2.5-x86_64-40cc13db.apk",
+      "sha256": "f754e5be6b18336898f79ff4c426f84c0fe4b85604e58ecb9c987c6f28ae11e7",
+      "sizeBytes": 37043358
+    },
+    {
+      "name": "autojs6-plugin-bun-runtime-v0.2.5-arm64-v8a-6e880209.apk",
+      "sha256": "540dd53c104def4dc4f42f37952aab4324aed595bd5584107510d3419320fa7a",
+      "sizeBytes": 35650820
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "x86_64"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Rapid-OCR-PP-OCRv6",
+  "releaseTag": "v1.0.5",
+  "sourceCommit": "71998e338c060f61d7f8fd5129b7411443265281",
+  "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6",
+  "versionName": "1.0.5",
+  "versionCode": 32,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.5-universal-BFC2E9AB.apk",
+      "sha256": "2e151ff1fdc26350072579c8fa7de8599bc399bb12c139bff6eca686fab5e2e1",
+      "sizeBytes": 110475010
+    },
+    {
+      "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.5-armeabi-v7a-23161E88.apk",
+      "sha256": "4d0019204d7c51141427d5ed4749c2de4ef37cc4e86ee6194eda6223cd3d7651",
+      "sizeBytes": 41360963
+    },
+    {
+      "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.5-x86_64-D72E87B6.apk",
+      "sha256": "8a87944e5a501a6e8bf58919dfd7f756a4b009b31427b36d3760a65b9ce43a0c",
+      "sizeBytes": 57813047
+    },
+    {
+      "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.5-x86-979CADFB.apk",
+      "sha256": "b102f73b276e76257cf7440156024099b49c76a728c7dad59bf51fb96b3ab3fc",
+      "sizeBytes": 51977127
+    },
+    {
+      "name": "autojs6-plugin-rapid-ocr-pp-ocrv6-v1.0.5-arm64-v8a-B5C9314F.apk",
+      "sha256": "eff660fb3502633f35141942bc578c1e27c43b57a60cbd419b0dcee628d15a41",
+      "sizeBytes": 42947571
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
