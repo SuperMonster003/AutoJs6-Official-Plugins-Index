@@ -6080,7 +6080,7 @@
       "variant": "v6",
       "engineId": "paddle-ocr-pp-ocrv6-tiny",
       "distributionVariant": "tiny",
-      "featured": true,
+      "featured": false,
       "releases": [
         {
           "versionName": "1.0.4-tiny",
