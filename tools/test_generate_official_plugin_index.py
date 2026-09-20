@@ -313,7 +313,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertTrue(all(not by_variant[profile]["featured"] for profile in profiles if profile != "mobile"))
         self.assertAssetVariants(by_variant["mobile"], {"mobile"})
 
-    def test_v6_small_and_tiny_are_featured(self):
+    def test_v6_only_small_is_featured(self):
         repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv6"
         gradle = self.gradle_with_flavors(
             base_package="io.github.supermonster003.autojs6.plugin.paddleocr.v6",
@@ -329,7 +329,7 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         entries = self.build_entries(repo_name, gradle, self.assets_for(repo_name, ["tiny", "small", "medium"]))
         by_variant = {entry["distributionVariant"]: entry for entry in entries}
 
-        self.assertTrue(by_variant["tiny"]["featured"])
+        self.assertFalse(by_variant["tiny"]["featured"])
         self.assertTrue(by_variant["small"]["featured"])
         self.assertFalse(by_variant["medium"]["featured"])
         self.assertEqual(

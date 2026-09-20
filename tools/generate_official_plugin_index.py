@@ -64,7 +64,7 @@ SUPPORTED_ABIS = {
 FEATURED_DISTRIBUTIONS = {
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4": {"mobile"},
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv5": {"mobile"},
-    "AutoJs6-Plugin-Paddle-OCR-PP-OCRv6": {"small", "tiny"},
+    "AutoJs6-Plugin-Paddle-OCR-PP-OCRv6": {"small"},
 }
 
 ABI_ASSET_TOKEN_PATTERN = (
