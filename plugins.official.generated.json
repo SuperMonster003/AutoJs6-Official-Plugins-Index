@@ -27,7 +27,6 @@
         "values-ko": "AutoJs6\uac00 \uc9c0\uc6d0 \uc571\uc758 \uc811\uadfc\uc131 \ub178\ub4dc\ub97c \uac00\uc838\uc624\ub3c4\ub85d \ub3c4\uc6b8 \uc218 \uc788\ub294 \uc120\ud0dd\uc801 \uc2e4\ud5d8\uc6a9 \ucef4\ud328\ub2c8\uc5b8\uc785\ub2c8\ub2e4. \ub85c\uceec\uc5d0\uc11c \uc2e4\ud589\ub418\uace0 \ubaa8\ub4e0 \uc774\ubca4\ud2b8\ub97c \ubb34\uc2dc\ud558\uba70 \ubaa8\ub4e0 \ud398\uc774\uc9c0\uc758 \ub178\ub4dc\ub97c \ubcf4\uc7a5\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4",
         "values-ru": "\u041d\u0435\u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u043c\u043e\u0447\u044c AutoJs6 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0443\u0437\u043b\u044b \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439. \u041e\u043d \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e, \u0438\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0432\u0441\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u0438 \u043d\u0435 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u0443\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u0443\u0437\u043b\u043e\u0432 \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435",
         "values-zh": "\u53ef\u9009\u7684\u5b9e\u9a8c\u6027\u4f34\u751f\u63d2\u4ef6, \u53ef\u80fd\u5e2e\u52a9 AutoJs6 \u83b7\u53d6\u53d7\u652f\u6301\u5e94\u7528\u7684\u65e0\u969c\u788d\u8282\u70b9. \u5b83\u53ea\u5728\u672c\u5730\u8fd0\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8bc1\u6240\u6709\u9875\u9762\u8282\u70b9\u53ef\u7528",
-        "values-zh-rHK": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u63d2\u4ef6, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u53d7\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528",
         "values-zh-rTW": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u5916\u639b\u7a0b\u5f0f, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528"
       },
       "localizedInstructionHardCoded": {},
@@ -272,10 +271,7 @@
         "values": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
         "values-ar": "\u064a\u0631\u0633\u0644 \u0627\u0644\u0628\u0631\u064a\u062f \u0648\u064a\u0633\u062a\u0642\u0628\u0644\u0647 \u0648\u064a\u0628\u062d\u062b \u0641\u064a\u0647 \u0648\u064a\u0631\u0627\u0642\u0628\u0647 \u0639\u0628\u0631 IMAP \u0648 POP3 \u0648 SMTP",
         "values-en": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
-        "values-es": "Env\u00eda, recibe, busca y vigila el correo mediante IMAP, POP3 y SMTP",
         "values-fr": "Envoie, re\u00e7oit, recherche et surveille le courrier via IMAP, POP3 et SMTP",
-        "values-ja": "IMAP, POP3, SMTP \u3067\u30e1\u30fc\u30eb\u3092\u9001\u53d7\u4fe1, \u691c\u7d22, \u76e3\u8996\u3059\u308b",
-        "values-ko": "IMAP, POP3, SMTP\ub85c \uba54\uc77c\uc744 \ubcf4\ub0b4\uace0 \ubc1b\uace0 \uac80\uc0c9\ud558\uace0 \uac10\uc2dc\ud569\ub2c8\ub2e4",
         "values-ru": "\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442, \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442, \u0438\u0449\u0435\u0442 \u0438 \u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u0442 \u043f\u043e\u0447\u0442\u0443 \u043f\u043e IMAP, POP3 \u0438 SMTP",
         "values-zh": "\u901a\u8fc7 IMAP, POP3 \u548c SMTP \u6536\u53d1, \u641c\u7d22\u548c\u76d1\u542c\u90ae\u4ef6",
         "values-zh-rHK": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6",
@@ -611,7 +607,6 @@
         "values-es": "Explora y extrae archivos ZIP, 7Z, RAR y TAR; crea y gestiona de forma segura los formatos editables compatibles",
         "values-fr": "Parcourt et extrait les archives ZIP, 7Z, RAR et TAR; cr\u00e9e et g\u00e8re en s\u00e9curit\u00e9 les formats inscriptibles pris en charge",
         "values-ja": "ZIP,7Z,RAR,TAR \u3092\u95b2\u89a7\u30fb\u5c55\u958b\u3057,\u5bfe\u5fdc\u3059\u308b\u66f8\u304d\u8fbc\u307f\u53ef\u80fd\u5f62\u5f0f\u3092\u4f5c\u6210\u30fb\u5b89\u5168\u306b\u7ba1\u7406",
-        "values-ko": "ZIP, 7Z, RAR, TAR \uc555\ucd95 \ud30c\uc77c\uc744 \ud0d0\uc0c9\ud558\uace0 \ud480\uba70, \uc9c0\uc6d0\ub418\ub294 \uc4f0\uae30 \uac00\ub2a5 \ud615\uc2dd\uc744 \ub9cc\ub4e4\uace0 \uc548\uc804\ud558\uac8c \uad00\ub9ac",
         "values-ru": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0438 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435 ZIP, 7Z, RAR \u0438 TAR; \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u043c\u0438 \u0444\u043e\u0440\u043c\u0430\u0442\u0430\u043c\u0438 \u0441 \u0437\u0430\u043f\u0438\u0441\u044c\u044e",
         "values-zh": "\u6d4f\u89c8\u548c\u89e3\u538b ZIP,7Z,RAR \u4e0e TAR \u6863\u6848, \u5e76\u521b\u5efa\u548c\u5b89\u5168\u7ba1\u7406\u652f\u6301\u5199\u5165\u7684\u683c\u5f0f",
         "values-zh-rHK": "\u700f\u89bd\u53ca\u89e3\u58d3\u7e2e ZIP,7Z,RAR \u8207 TAR \u58d3\u7e2e\u6a94, \u4e26\u5efa\u7acb\u53ca\u5b89\u5168\u7ba1\u7406\u652f\u63f4\u5beb\u5165\u7684\u683c\u5f0f",
@@ -770,14 +765,14 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
+      "packageName": "unknown.autojs6-plugin-bun-runtime",
       "repository": {
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Bun-Runtime"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.5/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/refs/tags/v0.2.5/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Bun Runtime",
+      "title": "Bun-Runtime",
       "description": "Runs JavaScript and TypeScript with the independent Bun engine in an isolated Android process",
       "localizedDescriptions": {
         "values": "Runs JavaScript and TypeScript with the independent Bun engine in an isolated Android process",
@@ -788,7 +783,6 @@
         "values-ja": "\u72ec\u7acb\u3057\u305f Android \u30d7\u30ed\u30bb\u30b9\u3067 Bun \u30a8\u30f3\u30b8\u30f3\u3092\u4f7f\u3063\u3066 JavaScript \u3068 TypeScript \u3092\u5b9f\u884c\u3057\u307e\u3059",
         "values-ko": "\uaca9\ub9ac\ub41c Android \ud504\ub85c\uc138\uc2a4\uc5d0\uc11c \ub3c5\ub9bd Bun \uc5d4\uc9c4\uc73c\ub85c JavaScript\uc640 TypeScript\ub97c \uc2e4\ud589\ud569\ub2c8\ub2e4",
         "values-ru": "\u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442 JavaScript \u0438 TypeScript \u0432 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u043c \u0434\u0432\u0438\u0436\u043a\u0435 Bun \u0432 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435 Android",
-        "values-zh": "\u5728\u9694\u79bb\u7684 Android \u8fdb\u7a0b\u4e2d\u4f7f\u7528\u72ec\u7acb Bun \u5f15\u64ce\u8fd0\u884c JavaScript \u548c TypeScript",
         "values-zh-rHK": "\u5728\u9694\u96e2\u7684 Android \u7a0b\u5e8f\u4e2d\u4f7f\u7528\u7368\u7acb Bun \u5f15\u64ce\u57f7\u884c JavaScript \u548c TypeScript",
         "values-zh-rTW": "\u5728\u9694\u96e2\u7684 Android \u884c\u7a0b\u4e2d\u4f7f\u7528\u7368\u7acb Bun \u5f15\u64ce\u57f7\u884c JavaScript \u548c TypeScript"
       },
@@ -802,7 +796,6 @@
         "values-ja": "JS \u307e\u305f\u306f TS \u30d5\u30a1\u30a4\u30eb\u306e 1 \u884c\u76ee\u306b \\\"bun\\\"; \u3060\u3051\u3092\u66f8\u304d, \u3044\u3064\u3082\u901a\u308a AutoJs6 \u304b\u3089\u5b9f\u884c\u3057\u307e\u3059. \u5404\u5b9f\u884c\u306f\u305d\u306e\u30d5\u30a1\u30a4\u30eb 1 \u3064\u3060\u3051\u3092\u5b9f\u884c\u3057, npm dependency \u304c\u81ea\u52d5\u3067\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3055\u308c\u308b\u3053\u3068\u306f\u306a\u304f, AutoJs6 \u306e\u5185\u8535\u95a2\u6570\u3082 Bun \u5185\u3067\u306f\u4f7f\u3048\u307e\u305b\u3093.",
         "values-ko": "JS \ub610\ub294 TS \ud30c\uc77c\uc758 \uccab \uc904\uc5d0 \\\"bun\\\";\ub9cc \ub2e8\ub3c5\uc73c\ub85c \ub123\uace0 \ud3c9\uc18c\ucc98\ub7fc AutoJs6\uc5d0\uc11c \uc2e4\ud589\ud558\uc138\uc694. \uac01 \uc2e4\ud589\uc740 \uadf8 \ud30c\uc77c \ud558\ub098\ub9cc \uc2e4\ud589\ud558\uba70, npm dependency\ub294 \uc790\ub3d9\uc73c\ub85c \uc124\uce58\ub418\uc9c0 \uc54a\uace0 AutoJs6 \ub0b4\uc7a5 \ud568\uc218\ub294 Bun \uc548\uc5d0\uc11c \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
         "values-ru": "\u041f\u043e\u043c\u0435\u0441\u0442\u0438\u0442\u0435 \\\"bun\\\"; \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e\u0439 \u043f\u0435\u0440\u0432\u043e\u0439 \u0441\u0442\u0440\u043e\u043a\u043e\u0439 \u0444\u0430\u0439\u043b\u0430 JS \u0438\u043b\u0438 TS, \u0437\u0430\u0442\u0435\u043c \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0444\u0430\u0439\u043b \u0438\u0437 AutoJs6 \u043e\u0431\u044b\u0447\u043d\u044b\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u0437\u0430\u043f\u0443\u0441\u043a \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u044d\u0442\u043e\u0442 \u0444\u0430\u0439\u043b: npm-\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438, \u0430 \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u0438 AutoJs6 \u0432\u043d\u0443\u0442\u0440\u0438 Bun \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b.",
-        "values-zh": "\u5728 JS \u6216 TS \u6587\u4ef6\u7b2c\u4e00\u884c\u5355\u72ec\u5199\u4e0a \\\"bun\\\";, \u7136\u540e\u7167\u5e38\u4ece AutoJs6 \u8fd0\u884c\u8be5\u6587\u4ef6. \u6bcf\u6b21\u8fd0\u884c\u53ea\u6267\u884c\u8fd9\u4e00\u4e2a\u6587\u4ef6: \u4e0d\u4f1a\u81ea\u52a8\u5b89\u88c5 npm \u4f9d\u8d56, Bun \u811a\u672c\u4e2d\u4e5f\u65e0\u6cd5\u4f7f\u7528 AutoJs6 \u5185\u7f6e\u51fd\u6570.",
         "values-zh-rHK": "\u5728 JS \u6216 TS \u6a94\u6848\u7b2c\u4e00\u884c\u55ae\u7368\u52a0\u5165 \\\"bun\\\";, \u7136\u5f8c\u7167\u5e38\u5f9e AutoJs6 \u57f7\u884c\u8a72\u6a94\u6848. \u6bcf\u6b21\u57f7\u884c\u53ea\u6703\u57f7\u884c\u9019\u4e00\u500b\u6a94\u6848: \u4e0d\u6703\u81ea\u52d5\u5b89\u88dd npm dependency, Bun \u8173\u672c\u4e2d\u4e5f\u7121\u6cd5\u4f7f\u7528 AutoJs6 \u5167\u7f6e\u51fd\u6578.",
         "values-zh-rTW": "\u5728 JS \u6216 TS \u6a94\u6848\u7b2c\u4e00\u884c\u55ae\u7368\u52a0\u5165 \\\"bun\\\";, \u7136\u5f8c\u7167\u5e38\u5f9e AutoJs6 \u57f7\u884c\u8a72\u6a94\u6848. \u6bcf\u6b21\u57f7\u884c\u53ea\u6703\u57f7\u884c\u9019\u4e00\u500b\u6a94\u6848: \u4e0d\u6703\u81ea\u52d5\u5b89\u88dd npm dependency, Bun \u8173\u672c\u4e2d\u4e5f\u7121\u6cd5\u4f7f\u7528 AutoJs6 \u5167\u5efa\u51fd\u6578."
       },
@@ -822,9 +815,6 @@
       },
       "author": "SuperMonster003",
       "collaborators": [],
-      "engine": "bun",
-      "variant": "bun-1.4.0-android",
-      "engineId": "bun-runtime",
       "featured": true,
       "releases": [
         {
@@ -838,55 +828,19 @@
               "name": "autojs6-plugin-bun-runtime-v0.2.5-arm64-v8a-6e880209.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/download/v0.2.5/autojs6-plugin-bun-runtime-v0.2.5-arm64-v8a-6e880209.apk",
               "size": 35650820,
-              "digest": "sha256:540dd53c104def4dc4f42f37952aab4324aed595bd5584107510d3419320fa7a",
-              "sha256": "540dd53c104def4dc4f42f37952aab4324aed595bd5584107510d3419320fa7a",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "0.2.5",
-              "versionCode": 118,
-              "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
-              "supportedAbis": [
-                "arm64-v8a",
-                "x86_64"
-              ],
-              "sourceCommit": "bd6b422dfb1676eb5066ad37eed0e8bad08ebbf1"
+              "digest": "sha256:540dd53c104def4dc4f42f37952aab4324aed595bd5584107510d3419320fa7a"
             },
             {
               "name": "autojs6-plugin-bun-runtime-v0.2.5-universal-71a0a55f.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/download/v0.2.5/autojs6-plugin-bun-runtime-v0.2.5-universal-71a0a55f.apk",
               "size": 72230736,
-              "digest": "sha256:12692195af2511fbf8e77ed8d459460dfb04f547e0a830367da242469d4e6182",
-              "sha256": "12692195af2511fbf8e77ed8d459460dfb04f547e0a830367da242469d4e6182",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "0.2.5",
-              "versionCode": 118,
-              "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
-              "supportedAbis": [
-                "arm64-v8a",
-                "x86_64"
-              ],
-              "sourceCommit": "bd6b422dfb1676eb5066ad37eed0e8bad08ebbf1"
+              "digest": "sha256:12692195af2511fbf8e77ed8d459460dfb04f547e0a830367da242469d4e6182"
             },
             {
               "name": "autojs6-plugin-bun-runtime-v0.2.5-x86_64-40cc13db.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bun-Runtime/releases/download/v0.2.5/autojs6-plugin-bun-runtime-v0.2.5-x86_64-40cc13db.apk",
               "size": 37043358,
-              "digest": "sha256:f754e5be6b18336898f79ff4c426f84c0fe4b85604e58ecb9c987c6f28ae11e7",
-              "sha256": "f754e5be6b18336898f79ff4c426f84c0fe4b85604e58ecb9c987c6f28ae11e7",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "0.2.5",
-              "versionCode": 118,
-              "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
-              "supportedAbis": [
-                "arm64-v8a",
-                "x86_64"
-              ],
-              "sourceCommit": "bd6b422dfb1676eb5066ad37eed0e8bad08ebbf1"
+              "digest": "sha256:f754e5be6b18336898f79ff4c426f84c0fe4b85604e58ecb9c987c6f28ae11e7"
             }
           ],
           "prerelease": false,
@@ -992,7 +946,6 @@
       "description": "Inspect file metadata and verify checksums",
       "localizedDescriptions": {
         "values": "Inspect file metadata and verify checksums",
-        "values-ar": "\u0641\u062d\u0635 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0644\u0641\u0627\u062a \u0648\u0627\u0644\u062a\u062d\u0642\u0642 \u0645\u0646 \u0627\u0644\u0645\u062c\u0627\u0645\u064a\u0639 \u0627\u0644\u0627\u062e\u062a\u0628\u0627\u0631\u064a\u0629",
         "values-en": "Inspect file metadata and verify checksums",
         "values-es": "Inspecciona metadatos y verifica sumas de comprobaci\u00f3n",
         "values-fr": "Inspecte les m\u00e9tadonn\u00e9es et v\u00e9rifie les sommes de contr\u00f4le",
@@ -1067,7 +1020,6 @@
       "description": "Preview HTML and MHTML files",
       "localizedDescriptions": {
         "values": "Preview HTML and MHTML files",
-        "values-ar": "\u0645\u0639\u0627\u064a\u0646\u0629 \u0645\u0644\u0641\u0627\u062a HTML \u0648 MHTML",
         "values-en": "Preview HTML and MHTML files",
         "values-es": "Previsualiza archivos HTML y MHTML",
         "values-fr": "Affiche un aper\u00e7u des fichiers HTML et MHTML",
@@ -1150,8 +1102,7 @@
         "values-ko": "libimagequant 2.17.0 (pngquant \uc5d4\uc9c4) \uc73c\ub85c PNG\ub97c \uc555\ucd95\ud558\ub294 AutoJs6\uc6a9 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \ud50c\ub7ec\uadf8\uc778",
         "values-ru": "\u041d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0440\u0430\u043d\u0442\u0430\u0439\u043c \u043a\u0432\u0430\u043d\u0442\u043e\u0432\u0430\u043d\u0438\u044f PNG \u0434\u043b\u044f AutoJs6, \u0443\u043c\u0435\u043d\u044c\u0448\u0430\u044e\u0449\u0438\u0439 \u0444\u0430\u0439\u043b\u044b PNG \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e libimagequant 2.17.0, \u0434\u0432\u0438\u0436\u043a\u0430 pngquant",
         "values-zh": "\u4e3a AutoJs6 \u811a\u672c\u63d0\u4f9b PNG \u91cf\u5316 (\u6709\u635f\u538b\u7f29) \u80fd\u529b\u7684\u539f\u751f\u8fd0\u884c\u65f6\u63d2\u4ef6, \u5185\u7f6e pngquant \u540c\u6b3e\u5f15\u64ce libimagequant 2.17.0",
-        "values-zh-rHK": "\u70ba AutoJs6 \u8173\u672c\u63d0\u4f9b PNG \u91cf\u5316 (\u6709\u640d\u58d3\u7e2e) \u80fd\u529b\u7684\u539f\u751f\u57f7\u884c\u968e\u6bb5\u63d2\u4ef6, \u5167\u5efa pngquant \u540c\u6b3e\u5f15\u64ce libimagequant 2.17.0",
-        "values-zh-rTW": "\u70ba AutoJs6 \u8173\u672c\u63d0\u4f9b PNG \u91cf\u5316 (\u6709\u640d\u58d3\u7e2e) \u80fd\u529b\u7684\u539f\u751f\u57f7\u884c\u968e\u6bb5\u5916\u639b, \u5167\u5efa pngquant \u540c\u6b3e\u5f15\u64ce libimagequant 2.17.0"
+        "values-zh-rHK": "\u70ba AutoJs6 \u8173\u672c\u63d0\u4f9b PNG \u91cf\u5316 (\u6709\u640d\u58d3\u7e2e) \u80fd\u529b\u7684\u539f\u751f\u57f7\u884c\u968e\u6bb5\u63d2\u4ef6, \u5167\u5efa pngquant \u540c\u6b3e\u5f15\u64ce libimagequant 2.17.0"
       },
       "localizedInstructionHardCoded": {},
       "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Image-Quantization/refs/tags/v1.0.3/app/src/main/res/raw/plugin_instruction.md",
@@ -1314,7 +1265,6 @@
         "values-en": "Edit images and convert image formats",
         "values-es": "Edita im\u00e1genes y convierte sus formatos",
         "values-fr": "Modifie les images et convertit leurs formats",
-        "values-ja": "\u753b\u50cf\u306e\u7de8\u96c6\u3068\u5f62\u5f0f\u5909\u63db",
         "values-ko": "\uc774\ubbf8\uc9c0 \ud3b8\uc9d1 \ubc0f \ud615\uc2dd \ubcc0\ud658",
         "values-ru": "\u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0439 \u0438 \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432",
         "values-zh": "\u7f16\u8f91\u56fe\u50cf\u5e76\u8f6c\u6362\u56fe\u50cf\u683c\u5f0f",
@@ -1631,11 +1581,9 @@
         "values-ar": "\u064a\u062c\u0645\u0639 \u0634\u064a\u0641\u0631\u0629 Java \u0648\u064a\u0634\u063a\u0644\u0647\u0627 \u0641\u064a \u0639\u0645\u0644\u064a\u0627\u062a \u0645\u062e\u0635\u0635\u0629",
         "values-en": "Compiles and runs Java source in dedicated processes",
         "values-es": "Compila y ejecuta c\u00f3digo Java en procesos dedicados",
-        "values-fr": "Compile et ex\u00e9cute du code Java dans des processus d\u00e9di\u00e9s",
         "values-ja": "\u5c02\u7528\u30d7\u30ed\u30bb\u30b9\u3067 Java \u30bd\u30fc\u30b9\u3092\u30b3\u30f3\u30d1\u30a4\u30eb\u3057\u3066\u5b9f\u884c",
         "values-ko": "\uc804\uc6a9 \ud504\ub85c\uc138\uc2a4\uc5d0\uc11c Java \uc18c\uc2a4\ub97c \ucef4\ud30c\uc77c\ud558\uace0 \uc2e4\ud589",
         "values-ru": "\u041a\u043e\u043c\u043f\u0438\u043b\u0438\u0440\u0443\u0435\u0442 \u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u043a\u043e\u0434 Java \u0432 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430\u0445",
-        "values-zh": "\u5728\u72ec\u7acb\u8fdb\u7a0b\u4e2d\u7f16\u8bd1\u548c\u8fd0\u884c Java \u6e90\u7801",
         "values-zh-rCN": "\u5728\u72ec\u7acb\u8fdb\u7a0b\u4e2d\u7f16\u8bd1\u548c\u8fd0\u884c Java \u6e90\u7801",
         "values-zh-rHK": "\u5728\u7368\u7acb\u7a0b\u5e8f\u4e2d\u7de8\u8b6f\u548c\u57f7\u884c Java \u539f\u59cb\u78bc",
         "values-zh-rTW": "\u5728\u7368\u7acb\u7a0b\u5e8f\u4e2d\u7de8\u8b6f\u548c\u57f7\u884c Java \u539f\u59cb\u78bc"
@@ -1646,11 +1594,9 @@
         "values-ar": "\u064a\u0634\u063a\u0644 \u0645\u0644\u0641\u0627\u062a .java \u0627\u0644\u062a\u064a \u062a\u0637\u0628\u0642 \u0641\u0626\u0629 \u062f\u062e\u0648\u0644\u0647\u0627 AutoJsJvmEntry",
         "values-en": "Run .java source whose entry class implements AutoJsJvmEntry",
         "values-es": "Ejecuta c\u00f3digo .java cuya clase de entrada implementa AutoJsJvmEntry",
-        "values-fr": "Ex\u00e9cute le code .java dont la classe principale impl\u00e9mente AutoJsJvmEntry",
         "values-ja": "\u30a8\u30f3\u30c8\u30ea\u30af\u30e9\u30b9\u304c AutoJsJvmEntry \u3092\u5b9f\u88c5\u3057\u305f .java \u30bd\u30fc\u30b9\u3092\u5b9f\u884c",
         "values-ko": "\uc9c4\uc785 \ud074\ub798\uc2a4\uac00 AutoJsJvmEntry\ub97c \uad6c\ud604\ud558\ub294 .java \uc18c\uc2a4\ub97c \uc2e4\ud589",
         "values-ru": "\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u043a\u043e\u0434 .java \u0441 \u0432\u0445\u043e\u0434\u043d\u044b\u043c \u043a\u043b\u0430\u0441\u0441\u043e\u043c, \u0440\u0435\u0430\u043b\u0438\u0437\u0443\u044e\u0449\u0438\u043c AutoJsJvmEntry",
-        "values-zh": "\u8fd0\u884c\u5165\u53e3\u7c7b\u5b9e\u73b0 AutoJsJvmEntry \u7684 .java \u6e90\u7801",
         "values-zh-rCN": "\u8fd0\u884c\u5165\u53e3\u7c7b\u5b9e\u73b0 AutoJsJvmEntry \u7684 .java \u6e90\u7801",
         "values-zh-rHK": "\u57f7\u884c\u5165\u53e3\u985e\u5225\u5be6\u4f5c AutoJsJvmEntry \u7684 .java \u539f\u59cb\u78bc",
         "values-zh-rTW": "\u57f7\u884c\u5165\u53e3\u985e\u5225\u5be6\u4f5c AutoJsJvmEntry \u7684 .java \u539f\u59cb\u78bc"
@@ -1805,7 +1751,6 @@
         "values-es": "Plugin independiente de ejecuci\u00f3n PUC Lua 5.4",
         "values-fr": "Plugin ind\u00e9pendant d\\'ex\u00e9cution PUC Lua 5.4",
         "values-ja": "\u72ec\u7acb\u3057\u305f PUC Lua 5.4 \u30e9\u30f3\u30bf\u30a4\u30e0\u30d7\u30e9\u30b0\u30a4\u30f3",
-        "values-ko": "\ub3c5\ub9bd PUC Lua 5.4 \ub7f0\ud0c0\uc784 \ud50c\ub7ec\uadf8\uc778",
         "values-ru": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0439 \u043f\u043b\u0430\u0433\u0438\u043d \u0441\u0440\u0435\u0434\u044b PUC Lua 5.4",
         "values-zh": "\u72ec\u7acb\u7684 PUC Lua 5.4 \u8fd0\u884c\u65f6\u63d2\u4ef6",
         "values-zh-rHK": "\u7368\u7acb\u7684 PUC Lua 5.4 \u57f7\u884c\u74b0\u5883\u5916\u639b\u7a0b\u5f0f",
@@ -1819,7 +1764,6 @@
         "values-es": "Proporciona un entorno Lua aislado a hosts AutoJs6 con la misma firma",
         "values-fr": "Fournit un environnement Lua isol\u00e9 aux h\u00f4tes AutoJs6 de m\u00eame signature",
         "values-ja": "\u540c\u3058\u7f72\u540d\u306e AutoJs6 Host \u306b\u5206\u96e2 Lua \u30e9\u30f3\u30bf\u30a4\u30e0\u3092\u63d0\u4f9b\u3057\u307e\u3059",
-        "values-ko": "\uac19\uc740 \uc11c\uba85\uc758 AutoJs6 Host\uc5d0 \uaca9\ub9ac\ub41c Lua \ub7f0\ud0c0\uc784\uc744 \uc81c\uacf5\ud569\ub2c8\ub2e4",
         "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0443\u044e \u0441\u0440\u0435\u0434\u0443 Lua \u0434\u043b\u044f Host AutoJs6 \u0441 \u0442\u043e\u0439 \u0436\u0435 \u043f\u043e\u0434\u043f\u0438\u0441\u044c\u044e",
         "values-zh": "\u4e3a\u540c\u7b7e\u540d AutoJs6 \u5bbf\u4e3b\u63d0\u4f9b\u9694\u79bb\u7684 Lua \u6267\u884c\u73af\u5883",
         "values-zh-rHK": "\u70ba\u540c\u7c3d\u7ae0 AutoJs6 Host \u63d0\u4f9b\u9694\u96e2\u7684 Lua \u57f7\u884c\u74b0\u5883",
@@ -2296,7 +2240,6 @@
       "description": "On-device barcode scanning powered by Google ML Kit",
       "localizedDescriptions": {
         "values": "On-device barcode scanning powered by Google ML Kit",
-        "values-ar": "\u0645\u0633\u062d \u0627\u0644\u0631\u0645\u0648\u0632 \u0627\u0644\u0634\u0631\u064a\u0637\u064a\u0629 \u0639\u0644\u0649 \u0627\u0644\u062c\u0647\u0627\u0632 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 Google ML Kit",
         "values-en": "On-device barcode scanning powered by Google ML Kit",
         "values-es": "Escaneo de c\u00f3digos de barras en el dispositivo con Google ML Kit",
         "values-fr": "Lecture de codes-barres sur l\\'appareil avec Google ML Kit",
@@ -2840,7 +2783,7 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
+      "packageName": "unknown.autojs6-plugin-opencc",
       "repository": {
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-OpenCC"
@@ -2852,7 +2795,6 @@
       "localizedDescriptions": {
         "values": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
         "values-ar": "\u0645\u062d\u0648\u0644 OpenCC \u0635\u064a\u0646\u064a \u0645\u062d\u0644\u064a \u064a\u0639\u0645\u0644 \u0645\u0633\u062a\u0642\u0644\u0627 \u0648\u0645\u0639 AutoJs6",
-        "values-en": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
         "values-es": "Conversor chino OpenCC sin conexi\u00f3n, independiente y compatible con AutoJs6",
         "values-fr": "Convertisseur chinois OpenCC hors ligne, autonome et compatible avec AutoJs6",
         "values-ja": "\u5358\u72ec\u3067\u3082 AutoJs6 \u3067\u3082\u4f7f\u3048\u308b\u30aa\u30d5\u30e9\u30a4\u30f3 OpenCC \u4e2d\u56fd\u8a9e\u5909\u63db",
@@ -2879,9 +2821,6 @@
       },
       "author": "SuperMonster003",
       "collaborators": [],
-      "engine": "opencc",
-      "variant": "default",
-      "engineId": "opencc",
       "featured": true,
       "releases": [
         {
@@ -2895,101 +2834,31 @@
               "name": "autojs6-plugin-opencc-v1.4.2-arm64-v8a-425330d4.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.4.2/autojs6-plugin-opencc-v1.4.2-arm64-v8a-425330d4.apk",
               "size": 3794133,
-              "digest": "sha256:033df734401a672722f8bf87ed6eba8791d2883e6e15ee618aa6330f9423a89b",
-              "sha256": "033df734401a672722f8bf87ed6eba8791d2883e6e15ee618aa6330f9423a89b",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.4.2",
-              "versionCode": 104,
-              "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46"
+              "digest": "sha256:033df734401a672722f8bf87ed6eba8791d2883e6e15ee618aa6330f9423a89b"
             },
             {
               "name": "autojs6-plugin-opencc-v1.4.2-armeabi-v7a-faa36775.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.4.2/autojs6-plugin-opencc-v1.4.2-armeabi-v7a-faa36775.apk",
               "size": 3455387,
-              "digest": "sha256:68ca67e2f023f89846e29afdedd30f79fcad74a3aed873813c3da813139ce05e",
-              "sha256": "68ca67e2f023f89846e29afdedd30f79fcad74a3aed873813c3da813139ce05e",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.4.2",
-              "versionCode": 104,
-              "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46"
+              "digest": "sha256:68ca67e2f023f89846e29afdedd30f79fcad74a3aed873813c3da813139ce05e"
             },
             {
               "name": "autojs6-plugin-opencc-v1.4.2-universal-63b54886.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.4.2/autojs6-plugin-opencc-v1.4.2-universal-63b54886.apk",
               "size": 6129682,
-              "digest": "sha256:9721551126397e7d8d62bc12bf13b3e2d2722f052802f378e254be6b12ad54d2",
-              "sha256": "9721551126397e7d8d62bc12bf13b3e2d2722f052802f378e254be6b12ad54d2",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.4.2",
-              "versionCode": 104,
-              "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46"
+              "digest": "sha256:9721551126397e7d8d62bc12bf13b3e2d2722f052802f378e254be6b12ad54d2"
             },
             {
               "name": "autojs6-plugin-opencc-v1.4.2-x86-077604a1.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.4.2/autojs6-plugin-opencc-v1.4.2-x86-077604a1.apk",
               "size": 3756343,
-              "digest": "sha256:874884cff5e686475c320907c4798a4fcd26c3978febe03c379b397870ab4b8e",
-              "sha256": "874884cff5e686475c320907c4798a4fcd26c3978febe03c379b397870ab4b8e",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.4.2",
-              "versionCode": 104,
-              "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46"
+              "digest": "sha256:874884cff5e686475c320907c4798a4fcd26c3978febe03c379b397870ab4b8e"
             },
             {
               "name": "autojs6-plugin-opencc-v1.4.2-x86_64-9a49948c.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-OpenCC/releases/download/v1.4.2/autojs6-plugin-opencc-v1.4.2-x86_64-9a49948c.apk",
               "size": 3802930,
-              "digest": "sha256:7adff9a8a364a837c38abded955dcd9cdc8733aebe808120e6cedcb5265b7b6c",
-              "sha256": "7adff9a8a364a837c38abded955dcd9cdc8733aebe808120e6cedcb5265b7b6c",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.4.2",
-              "versionCode": 104,
-              "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46"
+              "digest": "sha256:7adff9a8a364a837c38abded955dcd9cdc8733aebe808120e6cedcb5265b7b6c"
             }
           ],
           "prerelease": false,
@@ -3190,7 +3059,6 @@
       "localizedDescriptions": {
         "values": "Paddle OCR plugin for text recognition based on Baidu PaddlePaddle",
         "values-ar": "\u0645\u0644\u062d\u0642 Paddle OCR \u0644\u0644\u062a\u0639\u0631\u0641 \u0639\u0644\u0649 \u0627\u0644\u0646\u0635 \u064a\u0639\u062a\u0645\u062f \u0639\u0644\u0649 Baidu PaddlePaddle",
-        "values-en": "Paddle OCR plugin for text recognition based on Baidu PaddlePaddle",
         "values-es": "Complemento Paddle OCR para reconocimiento de texto basado en Baidu PaddlePaddle",
         "values-fr": "Plugin Paddle OCR pour la reconnaissance de texte base sur Baidu PaddlePaddle",
         "values-ja": "Baidu PaddlePaddle \u306b\u57fa\u3065\u304f\u6587\u5b57\u8a8d\u8b58\u7528 Paddle OCR \u30d7\u30e9\u30b0\u30a4\u30f3",
@@ -3797,7 +3665,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "supportedAbis": [
@@ -3811,7 +3679,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5",
@@ -6536,7 +6404,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "supportedAbis": [
@@ -6550,7 +6418,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.pinyin",
@@ -6572,7 +6440,6 @@
         "values-ko": "\uc911\uad6d\uc5b4 \ubcd1\uc74c \ubcc0\ud658\uc6a9 Pinyin \ud50c\ub7ec\uadf8\uc778",
         "values-ru": "\u041f\u043b\u0430\u0433\u0438\u043d Pinyin \u0434\u043b\u044f \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0430 \u0432 \u043f\u0438\u043d\u044c\u0438\u043d\u044c",
         "values-zh": "\u7528\u4e8e\u6c49\u8bed\u62fc\u97f3\u8f6c\u6362\u7684 Pinyin \u63d2\u4ef6",
-        "values-zh-rHK": "\u7528\u65bc\u6f22\u8a9e\u62fc\u97f3\u8f49\u63db\u7684 Pinyin \u5916\u639b",
         "values-zh-rTW": "\u7528\u65bc\u6f22\u8a9e\u62fc\u97f3\u8f49\u63db\u7684 Pinyin \u5916\u639b"
       },
       "localizedInstructionHardCoded": {},
@@ -6642,7 +6509,6 @@
       "title": "Pinyin4j",
       "description": "Pinyin4j plugin for Chinese to Hanyu Pinyin conversion",
       "localizedDescriptions": {
-        "values": "Pinyin4j plugin for Chinese to Hanyu Pinyin conversion",
         "values-ar": "\u0645\u0643\u0648\u0646 Pinyin4j \u0627\u0644\u0625\u0636\u0627\u0641\u064a \u0644\u062a\u062d\u0648\u064a\u0644 \u0627\u0644\u0635\u064a\u0646\u064a\u0629 \u0625\u0644\u0649 \u0628\u064a\u0646\u064a\u064a\u0646 Hanyu",
         "values-en": "Pinyin4j plugin for Chinese to Hanyu Pinyin conversion",
         "values-es": "Plugin Pinyin4j para convertir chino a pinyin Hanyu",
@@ -7053,14 +6919,14 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
+      "packageName": "unknown.autojs6-plugin-rapid-ocr-pp-ocrv3",
       "repository": {
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Rapid-OCR-PP-OCRv3"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.5/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/refs/tags/v1.0.5/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Rapid OCR (PP-OCRv3 Mobile)",
+      "title": "Rapid-OCR-PP-OCRv3",
       "description": "Local OCR plugin powered by Rapid OCR and PP-OCRv3 Mobile",
       "localizedDescriptions": {
         "values": "Local OCR plugin powered by Rapid OCR and PP-OCRv3 Mobile",
@@ -7092,9 +6958,6 @@
       },
       "author": "SuperMonster003",
       "collaborators": [],
-      "engine": "rapid-ocr",
-      "variant": "pp-ocrv3",
-      "engineId": "rapid-ocr-pp-ocrv3",
       "featured": true,
       "releases": [
         {
@@ -7108,101 +6971,31 @@
               "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-arm64-v8a-E78C877A.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.5/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-arm64-v8a-E78C877A.apk",
               "size": 28122141,
-              "digest": "sha256:39ce4e9df5b30c53a6b9b19554c7102cb0bf456ab3fa5cbd79bb5d574581574b",
-              "sha256": "39ce4e9df5b30c53a6b9b19554c7102cb0bf456ab3fa5cbd79bb5d574581574b",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.5",
-              "versionCode": 30,
-              "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "7a87b16cbfee6417ba51f970beb87b878439e0bb"
+              "digest": "sha256:39ce4e9df5b30c53a6b9b19554c7102cb0bf456ab3fa5cbd79bb5d574581574b"
             },
             {
               "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-armeabi-v7a-FFCD63CA.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.5/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-armeabi-v7a-FFCD63CA.apk",
               "size": 26535505,
-              "digest": "sha256:e816b905e4810d37012eac1f7117c356798e107e957cd7960868d840322a22e2",
-              "sha256": "e816b905e4810d37012eac1f7117c356798e107e957cd7960868d840322a22e2",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.5",
-              "versionCode": 30,
-              "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "7a87b16cbfee6417ba51f970beb87b878439e0bb"
+              "digest": "sha256:e816b905e4810d37012eac1f7117c356798e107e957cd7960868d840322a22e2"
             },
             {
               "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-universal-61B8F12B.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.5/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-universal-61B8F12B.apk",
               "size": 95649640,
-              "digest": "sha256:d0ecba400b8fbc02bd09c50c08f66a9733ff750a61f0a9f3586dbdfeac2b39bf",
-              "sha256": "d0ecba400b8fbc02bd09c50c08f66a9733ff750a61f0a9f3586dbdfeac2b39bf",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.5",
-              "versionCode": 30,
-              "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "7a87b16cbfee6417ba51f970beb87b878439e0bb"
+              "digest": "sha256:d0ecba400b8fbc02bd09c50c08f66a9733ff750a61f0a9f3586dbdfeac2b39bf"
             },
             {
               "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-x86-3377BF30.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.5/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-x86-3377BF30.apk",
               "size": 37151709,
-              "digest": "sha256:288046e7d28d513d4653aedad638ad9943c6cf009d799bae8d6809e33490b924",
-              "sha256": "288046e7d28d513d4653aedad638ad9943c6cf009d799bae8d6809e33490b924",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.5",
-              "versionCode": 30,
-              "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "7a87b16cbfee6417ba51f970beb87b878439e0bb"
+              "digest": "sha256:288046e7d28d513d4653aedad638ad9943c6cf009d799bae8d6809e33490b924"
             },
             {
               "name": "autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-x86_64-35F7A8E9.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Rapid-OCR-PP-OCRv3/releases/download/v1.0.5/autojs6-plugin-rapid-ocr-pp-ocrv3-v1.0.5-x86_64-35F7A8E9.apk",
               "size": 42987625,
-              "digest": "sha256:23c36c118d24931a21ba44b2c85e15e0e3f1f1af07db241c0d550729b9f38a7c",
-              "sha256": "23c36c118d24931a21ba44b2c85e15e0e3f1f1af07db241c0d550729b9f38a7c",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.5",
-              "versionCode": 30,
-              "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "7a87b16cbfee6417ba51f970beb87b878439e0bb"
+              "digest": "sha256:23c36c118d24931a21ba44b2c85e15e0e3f1f1af07db241c0d550729b9f38a7c"
             }
           ],
           "prerelease": false,
@@ -7237,7 +7030,6 @@
         "values": "Local OCR plugin powered by Rapid OCR and PP-OCRv6 Small",
         "values-ar": "\u0625\u0636\u0627\u0641\u0629 OCR \u0645\u062d\u0644\u064a\u0629 \u0645\u062f\u0639\u0648\u0645\u0629 \u0628\u0648\u0627\u0633\u0637\u0629 Rapid OCR \u0648 PP-OCRv6 Small",
         "values-en": "Local OCR plugin powered by Rapid OCR and PP-OCRv6 Small",
-        "values-es": "Plugin de OCR local basado en Rapid OCR y PP-OCRv6 Small",
         "values-fr": "Plugin OCR local bas\u00e9 sur Rapid OCR et PP-OCRv6 Small",
         "values-ja": "Rapid OCR \u3068 PP-OCRv6 Small \u3092\u642d\u8f09\u3057\u305f\u30ed\u30fc\u30ab\u30eb OCR \u30d7\u30e9\u30b0\u30a4\u30f3",
         "values-ko": "Rapid OCR \ubc0f PP-OCRv6 Small \uae30\ubc18 \ub85c\uceec OCR \ud50c\ub7ec\uadf8\uc778",
@@ -7473,17 +7265,16 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.screencolorpicker",
+      "packageName": "unknown.autojs6-plugin-screen-color-picker",
       "repository": {
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Screen-Color-Picker"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Screen Color Picker",
+      "title": "Screen-Color-Picker",
       "description": "Samples colors anywhere on the screen with a touch-friendly floating picker",
       "localizedDescriptions": {
         "values": "Samples colors anywhere on the screen with a touch-friendly floating picker",
-        "values-ar": "\u064a\u0644\u062a\u0642\u0637 \u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0645\u0646 \u0623\u064a \u0645\u0643\u0627\u0646 \u0639\u0644\u0649 \u0627\u0644\u0634\u0627\u0634\u0629 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0646\u062a\u0642\u064a \u0639\u0627\u0626\u0645 \u0645\u0646\u0627\u0633\u0628 \u0644\u0644\u0645\u0633",
         "values-en": "Samples colors anywhere on the screen with a touch-friendly floating picker",
         "values-es": "Toma colores de cualquier parte de la pantalla con un selector flotante t\u00e1ctil",
         "values-fr": "\u00c9chantillonne les couleurs partout sur l\\'\u00e9cran avec un s\u00e9lecteur flottant tactile",
@@ -7524,15 +7315,7 @@
               "name": "autojs6-plugin-screen-color-picker-v1.1.3-68f4ea1d.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/releases/download/v1.1.3/autojs6-plugin-screen-color-picker-v1.1.3-68f4ea1d.apk",
               "size": 1410091,
-              "digest": "sha256:83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12",
-              "sha256": "83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.1.3",
-              "versionCode": 16,
-              "packageName": "io.github.supermonster003.autojs6.plugin.screencolorpicker",
-              "sourceCommit": "c38fed3fb7e0a1aaa917af2f2aa967ea67cdcec5"
+              "digest": "sha256:83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12"
             }
           ],
           "prerelease": false,
@@ -7641,7 +7424,6 @@
         "values-fr": "G\u00e9n\u00e9ration de texte IA avec des mod\u00e8les locaux priv\u00e9s et des services en ligne configur\u00e9s par l\\'utilisateur",
         "values-ja": "\u30d7\u30e9\u30a4\u30d9\u30fc\u30c8\u306a\u30ed\u30fc\u30ab\u30eb\u30e2\u30c7\u30eb\u3068\u30e6\u30fc\u30b6\u30fc\u8a2d\u5b9a\u30aa\u30f3\u30e9\u30a4\u30f3\u30b5\u30fc\u30d3\u30b9\u306b\u3088\u308b AI \u30c6\u30ad\u30b9\u30c8\u751f\u6210",
         "values-ko": "\ube44\uacf5\uac1c \ub85c\uceec \ubaa8\ub378\uacfc \uc0ac\uc6a9\uc790 \uc124\uc815 \uc628\ub77c\uc778 \uc11c\ube44\uc2a4\ub97c \uc0ac\uc6a9\ud558\ub294 AI \ud14d\uc2a4\ud2b8 \uc0dd\uc131",
-        "values-ru": "\u0413\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u0442\u0435\u043a\u0441\u0442\u0430 \u0418\u0418 \u0441 \u0437\u0430\u043a\u0440\u044b\u0442\u044b\u043c\u0438 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u043c\u043e\u0434\u0435\u043b\u044f\u043c\u0438 \u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u043c\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u043c \u043e\u043d\u043b\u0430\u0439\u043d-\u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043c\u0438",
         "values-zh": "\u4f7f\u7528\u79c1\u6709\u672c\u5730\u6a21\u578b\u4e0e\u7528\u6237\u914d\u7f6e\u5728\u7ebf\u670d\u52a1\u7684 AI \u6587\u672c\u751f\u6210",
         "values-zh-rHK": "\u4f7f\u7528\u79c1\u4eba\u672c\u6a5f\u6a21\u578b\u540c\u7528\u6236\u8a2d\u5b9a\u7db2\u4e0a\u670d\u52d9\u5605 AI \u6587\u672c\u751f\u6210",
         "values-zh-rTW": "\u4f7f\u7528\u79c1\u6709\u672c\u6a5f\u6a21\u578b\u8207\u4f7f\u7528\u8005\u8a2d\u5b9a\u7dda\u4e0a\u670d\u52d9\u7684 AI \u6587\u5b57\u751f\u6210"
