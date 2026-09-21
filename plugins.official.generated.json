@@ -264,8 +264,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Angus-Mail"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/mipmap-night/ic_launcher.png",
       "title": "Angus-Mail",
       "description": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
       "localizedDescriptions": {
@@ -282,19 +282,19 @@
         "values-zh-rTW": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -305,25 +305,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.1",
-          "versionCode": 57,
+          "versionName": "1.1.0",
+          "versionCode": 60,
           "versionDate": "2026-09-21",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/tag/v1.0.1",
-          "changelogText": "Angus Mail 1.0.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `859178021b695320e48528115b9baac6ea13eceb`\n\nPublished release.\n\n- Fix: Outlook.com POP3 with an OAuth 2.0 token (mail roadmap P6 provider matrix, 2026-09-21): the server answers the one-line `AUTH XOAUTH2 <base64>` that Angus Mail sends by default with `-ERR Protocol error. Connection is closed.` and drops the connection, so a POP3 account on the `outlook` preset failed with `AUTH_FAILED`; the provider presets gained `pop3Xoauth2TwoLine` (catalog version 3, true for `outlook` and `office365`) and the mail core now sends the bare command and the base64 response after the server's `+` continuation for these presets and for any Microsoft POP3 host entered without a preset (`Pop3OAuthScriptedTest`, 5 cases; verified against the real account on the JVM and on an API 33 device)\n- Improvement: Outlook.com column of the provider matrix (mail roadmap P6) and the P5 device rows, run with a token from the maintainer's Entra public-client registration on one personal account: session test, folders (roles from the conventional names, no SPECIAL-USE), send (`sentCopy = server`, Message-ID rewritten by the server), listing (visible after about 7 s), server searches (every key hits; a Chinese subject is answered correctly but the server takes minutes over a 2300-message inbox), body, attachment, flags (custom keywords not stored), folder creation, `MOVE`, watch (IDLE pushes within about 10 s of the submission, the fastest of the seven providers), POP3 (5-character UIDLs, the just-sent message in the view) and cleanup (sent copies addressable by UID) all pass; on a Redmi (API 33) the baseline, plugin-kill and Wi-Fi-off watch scenarios arrive in 9 to 14 s with the same event sequences as Gmail; the preset notes, the README and the evidence files record the differences, including the `535 5.7.139 SmtpClientAuthentication is disabled for the Mailbox` refusal Microsoft gives newer personal mailboxes\n\nAPK checksums are in `SHA256SUMS`.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/tag/v1.1.0",
+          "changelogText": "Angus Mail 1.1.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `69d6cbe7fa4af2f877a2c53f640aa1a8bb0da149`\n\nPublished release.\n\n- Hint: Background watches are new in 1.1.0 (mail roadmap P8): the Watches page of the settings keeps saved accounts watched in a foreground service while no script runs and wakes the \"On mail arrived\" task of AutoJs6. That task and its watch picker need the host build that carries mail contract version 2 (AutoJs6 6.8.0 after build 5282); on an older host the page says that AutoJs6 cannot be woken and the new messages only reach the watch's record list. The feature adds four permissions, each explained in the README security section: FOREGROUND_SERVICE and FOREGROUND_SERVICE_SPECIAL_USE (the watch service), POST_NOTIFICATIONS (its persistent notification, requested only when a watch is enabled) and RECEIVE_BOOT_COMPLETED (the boot switch of the Watches page, off by default).\n- Feature: Background watches (mail roadmap P8): the settings gained a Watches page that configures up to 16 watches (`MAX_TRIGGERS`) on saved accounts, each with a name, the account alias, the folder, the mode (auto, IDLE or polling with its interval) and optional sender and subject filters, stored as `mail-triggers/triggers.json` under the no-backup directory; the `specialUse` foreground service `MailWatchService` runs the enabled watches on the P5 watchers (IDLE where the server pushes, polling elsewhere, reconnects with backoff, an immediate reconnect on a network change) while no script runs and shows one low-priority notification; every new message is added to the watch's record list (the last 100 envelope summaries, `MAX_TRIGGER_RECORDS`, never a body) and the page shows the connection state, the last error, the records and a reconnect action; the boot switch (off by default) enables the `BOOT_COMPLETED` receiver that restarts the service after a reboot\n- Feature: Mail contract version 2 (`IMailPlugin.openTrigger` / `listTriggers`, `IMailTrigger`, `IMailTriggerCallback`, capability feature `backgroundWatch`): the host subscribes to a configured watch with a generation and an optional filter, gets the current status at once and then `onStatus` (stopped, connecting, connected or failed with the reason and the last error) and `onMail(generation, seq, event)` for every matching message, the `mail` event carrying the watch id, alias, address, folder, the message envelope and `receivedAt`; a watch takes at most 4 subscribers (`MAX_TRIGGER_SUBSCRIBERS`), a disabled or unknown watch and unusable options are refused with a `stopped` status whose reason is `refused`, `update` replaces the subscriber's filter and `stop` ends only the subscription; without a live subscriber every event goes to AutoJs6 as the explicit broadcast `org.autojs.autojs6.action.MAIL_TRIGGER` behind its `PLUGIN` signature permission, which starts the host's \"On mail arrived\" task even when no script is running (`MailTriggerBinderTest` on an API 37 AVD; `TriggerStoreTest`, `TriggerFilterTest`, `TriggerConfigTest`, `TriggerDocumentsTest`)\n- Feature: The mail core gained the trigger documents and rules shared by the page, the service and the Binder (`TriggerConfig`, `TriggerFilter` with case-insensitive sender and subject substrings, `TriggerOptions`, `TriggerStatusDocument`, `TriggerEventDocument`, `TriggerRecord`) and the ceilings `MAX_TRIGGERS`, `MAX_TRIGGER_SUBSCRIBERS`, `MAX_TRIGGER_RECORDS` and `MIN_TRIGGER_INTERVAL_MS` (3 s, the host's throttle per task), and the watchers report `onConnected` so that a background watch shows `connected` as soon as its folder is open\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-angus-mail-v1.0.1-36564c81.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/download/v1.0.1/autojs6-plugin-angus-mail-v1.0.1-36564c81.apk",
-              "size": 2194357,
-              "digest": "sha256:928c5985ec3ae6d3f33972ab86ef132a065e0feafb75c713a82f712571e12994",
-              "sha256": "928c5985ec3ae6d3f33972ab86ef132a065e0feafb75c713a82f712571e12994",
+              "name": "autojs6-plugin-angus-mail-v1.1.0-abeead07.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/download/v1.1.0/autojs6-plugin-angus-mail-v1.1.0-abeead07.apk",
+              "size": 2319086,
+              "digest": "sha256:1bb6cc52230f90f433baf84590f43caa5811618184805e529a9a804104fd8611",
+              "sha256": "1bb6cc52230f90f433baf84590f43caa5811618184805e529a9a804104fd8611",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.1",
-              "versionCode": 57,
+              "versionName": "1.1.0",
+              "versionCode": 60,
               "packageName": "io.github.supermonster003.autojs6.plugin.angus.mail",
-              "sourceCommit": "859178021b695320e48528115b9baac6ea13eceb"
+              "sourceCommit": "69d6cbe7fa4af2f877a2c53f640aa1a8bb0da149"
             }
           ],
           "prerelease": false,
@@ -584,7 +584,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "tags": [
@@ -592,7 +592,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.archivemanager",
@@ -971,7 +971,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "tags": [
@@ -979,7 +979,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.fileinspector",
@@ -1121,7 +1121,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "tags": [
@@ -1129,7 +1129,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imagequant",
@@ -1283,7 +1283,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "supportedAbis": [
@@ -1297,7 +1297,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imagetools",
@@ -1364,7 +1364,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "tags": [
@@ -1372,7 +1372,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imageviewer",
@@ -1601,7 +1601,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "supportedAbis": [
@@ -1615,7 +1615,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.java.runtime",
@@ -1942,7 +1942,7 @@
           ],
           "prerelease": true,
           "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "supportedAbis": [
@@ -1956,7 +1956,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.markdownpreviewer",
