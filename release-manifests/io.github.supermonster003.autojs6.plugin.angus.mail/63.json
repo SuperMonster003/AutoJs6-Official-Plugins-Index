@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Angus-Mail",
+  "releaseTag": "v1.2.0",
+  "sourceCommit": "e576301afbdabe29f9755c7b9d0f78cdcb73c1d3",
+  "packageName": "io.github.supermonster003.autojs6.plugin.angus.mail",
+  "versionName": "1.2.0",
+  "versionCode": 63,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-angus-mail-v1.2.0-a27b9411.apk",
+      "sha256": "a19eb752889da70f75e0b3622a29d748a59885a39499ee4180736f2e26c9c074",
+      "sizeBytes": 2405053
+    }
+  ]
+}
