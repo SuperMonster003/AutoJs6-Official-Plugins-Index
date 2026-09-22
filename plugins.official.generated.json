@@ -264,8 +264,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Angus-Mail"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/mipmap-night/ic_launcher.png",
       "title": "Angus-Mail",
       "description": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
       "localizedDescriptions": {
@@ -282,19 +282,19 @@
         "values-zh-rTW": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -305,25 +305,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.0",
-          "versionCode": 63,
-          "versionDate": "2026-09-21",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/tag/v1.2.0",
-          "changelogText": "Angus Mail 1.2.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `e576301afbdabe29f9755c7b9d0f78cdcb73c1d3`\n\nPublished release.\n\n- Hint: The browser sign-in is offered only by builds that carry an OAuth 2.0 client id for the provider (the maintainer's registrations, read at build time from the git-ignored `oauth-clients.properties`); a build without them keeps the token and app-password paths and says so in the authentication dialog. The Google client needs the sensitive-scope verification of the Google Cloud project before the sign-in works for arbitrary accounts; until then Google limits it to test users of the project.\n- Feature: Browser sign-in for Google and Microsoft accounts (mail roadmap P9): the account editor offers \"Sign in with Google (browser)\" for the Gmail preset and \"Sign in with Microsoft (browser)\" for the Outlook.com and Microsoft 365 presets; the sign-in opens the provider's page in a Custom Tab (any browser as the fallback) with an OAuth 2.0 authorization-code request carrying PKCE (`S256`) and a random `state`, the redirect (`<applicationId>://oauth2/microsoft`, or the reversed Google client id scheme) lands on `OAuthRedirectActivity`, which hands it to the waiting sign-in screen; the screen refuses any redirect whose `state` does not match, exchanges the code at the token endpoint over HTTPS (`HttpsFormPoster`, the only HTTP client of the plugin) and prefills the address from the id token\n- Feature: Token storage and renewal: the tokens of a browser sign-in are one encrypted record of the new kind `OAUTH2` in the account store (never a Binder field, never in `mail.accounts.list()`), the account document carries an `oauth` object (`provider`, `authorizedAt`, `expiresAt`, `needsReauth`) that `mail.accounts.list()` reports; every session of such an alias (scripts, the connection test, background watches) takes its access token from `AccountSecrets`, which renews it through the refresh token when less than five minutes remain, serialized per account; a refused refresh (`invalid_grant`) marks the record `needsReauth`, fails the session with `AUTH_FAILED` (\"sign in again\") and the accounts page shows \"sign in again\" next to the account\n- Feature: Accounts page actions \"Sign in again\" (a new browser sign-in stored on the same record) and \"Revoke sign-in\" (the record's tokens are replaced at once by a revoked marker, Google is asked to revoke the refresh token, and the account stops working until a new sign-in); the `gmail`, `outlook` and `office365` presets' `authHint` names the browser sign-in first (`providers.json` version 4); 35 new strings in 11 languages; JVM tests for PKCE, the authorization request and redirect parsing, the token client against a scripted transport, the token document, the provider table, the build's clients and redirect URIs, `AccountSecrets` (refresh, refusal marking, revoked records, wiping) and the `oauth` object in the account options, the form and the accounts document\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.2.1",
+          "versionCode": 68,
+          "versionDate": "2026-09-22",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/tag/v1.2.1",
+          "changelogText": "Angus Mail 1.2.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `0c9f6fadec320e782576462f4ff57cc0e9313af9`\n\nPublished release.\n\n- Fix: The `closed` event of a watch on a session close always names the reason `closed`: the session's worker thread could stop some of the watches first with `session-closed` (seen once in the connected suite on the API 24 emulator).\n- Improvement: The release build carries the maintainer's Google OAuth 2.0 client id as well (the Android client registered on 2026-09-22), so the Gmail preset offers \"Sign in with Google (browser)\". The Google project is in Testing: only its test users can sign in and their refresh tokens expire after 7 days (the plugin then shows \"sign in again\"); other Google accounts get Google's access-denied page, and the token and app-password paths stay as before.\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-angus-mail-v1.2.0-a27b9411.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/download/v1.2.0/autojs6-plugin-angus-mail-v1.2.0-a27b9411.apk",
-              "size": 2405053,
-              "digest": "sha256:a19eb752889da70f75e0b3622a29d748a59885a39499ee4180736f2e26c9c074",
-              "sha256": "a19eb752889da70f75e0b3622a29d748a59885a39499ee4180736f2e26c9c074",
+              "name": "autojs6-plugin-angus-mail-v1.2.1-31f542c9.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/download/v1.2.1/autojs6-plugin-angus-mail-v1.2.1-31f542c9.apk",
+              "size": 2381525,
+              "digest": "sha256:ed8f5c267b1927ecb99dbd6730c8ad91183b4ea3db241d6a764888c18efa38cd",
+              "sha256": "ed8f5c267b1927ecb99dbd6730c8ad91183b4ea3db241d6a764888c18efa38cd",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 63,
+              "versionName": "1.2.1",
+              "versionCode": 68,
               "packageName": "io.github.supermonster003.autojs6.plugin.angus.mail",
-              "sourceCommit": "e576301afbdabe29f9755c7b9d0f78cdcb73c1d3"
+              "sourceCommit": "0c9f6fadec320e782576462f4ff57cc0e9313af9"
             }
           ],
           "prerelease": false,
