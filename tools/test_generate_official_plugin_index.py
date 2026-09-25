@@ -2,6 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import generate_official_plugin_index as generator
 
@@ -9,6 +10,49 @@ import generate_official_plugin_index as generator
 class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     OWNER = "SuperMonster003"
     VERSION = "1.0.0"
+
+    def test_declared_version_download_failure_cannot_downgrade_release_to_zero(self):
+        repo = {"name": "AutoJs6-Plugin-Example", "owner": {"login": self.OWNER}}
+        release = {"tag_name": "v1.0.0", "published_at": "2026-09-25T00:00:00Z"}
+        with patch.object(generator, "api_json", return_value=[release]), \
+                patch.object(generator, "fetch_tree_paths", return_value={"version.properties"}), \
+                patch.object(generator, "raw_text", return_value=None), \
+                patch.object(generator, "build_entries_from_release") as build:
+            with self.assertRaisesRegex(RuntimeError, "declared published source.*version.properties"):
+                generator.build_entries(repo)
+            build.assert_not_called()
+
+    def test_missing_or_truncated_tree_cannot_be_treated_as_absent_metadata(self):
+        for response in (None, {}, {"tree": [], "truncated": True}):
+            with self.subTest(response=response), patch.object(generator, "safe_api_json", return_value=response):
+                with self.assertRaises(RuntimeError):
+                    generator.fetch_tree_paths(self.OWNER, "AutoJs6-Plugin-Example", "refs/tags/v1.0.0")
+        # A legacy source file absent from a complete tree remains optional.
+        with patch.object(generator, "raw_text") as read:
+            self.assertIsNone(generator.fetch_source_text(self.OWNER, "example", "tag", "version.properties", set()))
+            read.assert_not_called()
+
+    def test_split_nontranslatable_strings_preserve_title_and_localized_description(self):
+        files = {
+            "app/src/main/res/values/strings.xml": '<resources><string name="plugin_description">Default description</string></resources>',
+            "app/src/main/res/values/strings_donottranslate.xml": '<resources><string name="app_name" translatable="false">AI Agent</string></resources>',
+            "app/src/main/res/values-en/strings.xml": '<resources><string name="plugin_description">English description</string></resources>',
+        }
+        with patch.object(generator, "raw_text", side_effect=lambda owner, repo, ref, path: files[path]):
+            resources = generator.fetch_string_resources(self.OWNER, "AutoJs6-Plugin-AI-Agent", "tag", set(files))
+        entry = self.build_entries("AutoJs6-Plugin-AI-Agent", "", self.assets_for("AutoJs6-Plugin-AI-Agent", [None]), strings_by_dir=resources)[0]
+        self.assertEqual("AI Agent", entry["title"])
+        self.assertEqual("Default description", entry["localizedDescriptions"]["values"])
+        self.assertEqual("English description", entry["localizedDescriptions"]["values-en"])
+
+    def test_split_strings_reject_ambiguous_names_and_unreadable_declared_files(self):
+        paths = {"app/src/main/res/values/strings.xml", "app/src/main/res/values/strings_donottranslate.xml"}
+        with patch.object(generator, "raw_text", return_value='<resources><string name="app_name">Duplicate</string></resources>'):
+            with self.assertRaisesRegex(RuntimeError, "Duplicate string resources"):
+                generator.fetch_string_resources(self.OWNER, "example", "tag", paths)
+        with patch.object(generator, "raw_text", return_value=None):
+            with self.assertRaisesRegex(RuntimeError, "declared published source"):
+                generator.fetch_string_resources(self.OWNER, "example", "tag", paths)
 
     def test_required_repository_coverage_rejects_missing_and_hidden_releases(self):
         item = {"packageName": "example.plugin", "repository": {"owner": self.OWNER, "name": "AutoJs6-Plugin-Example"}, "releases": [{"assets": [{"name": "example.apk"}]}]}

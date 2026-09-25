@@ -201,12 +201,16 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
     metadata_ref = release_metadata_ref(release, branch)
     tree_paths = fetch_tree_paths(owner, repo_name, metadata_ref)
     strings_by_dir = fetch_string_resources(owner, repo_name, metadata_ref, tree_paths)
-    version_map = parse_properties(raw_text(owner, repo_name, metadata_ref, "version.properties") or "")
-    manifest_text = raw_text(owner, repo_name, metadata_ref, "app/src/main/AndroidManifest.xml")
-    build_gradle = raw_text(owner, repo_name, metadata_ref, "app/build.gradle.kts") or ""
+
+    def read_source(path):
+        return fetch_source_text(owner, repo_name, metadata_ref, path, tree_paths)
+
+    version_map = parse_properties(read_source("version.properties") or "")
+    manifest_text = read_source("app/src/main/AndroidManifest.xml")
+    build_gradle = read_source("app/build.gradle.kts") or ""
     manifest_placeholders = resolve_manifest_placeholders(
         build_gradle, manifest_text,
-        read_source=lambda path: raw_text(owner, repo_name, metadata_ref, path),
+        read_source=read_source,
         version_map=version_map,
     )
 
@@ -520,10 +524,10 @@ def copy_latest_native_alignment(item: dict):
 def fetch_tree_paths(owner: str, repo: str, ref: str) -> set[str]:
     encoded_ref = quote(ref, safe="")
     tree = safe_api_json(f"https://api.github.com/repos/{owner}/{repo}/git/trees/{encoded_ref}?recursive=1")
-    if not isinstance(tree, dict):
-        return set()
+    if not isinstance(tree, dict) or not isinstance(tree.get("tree"), list):
+        raise RuntimeError(f"Cannot read the published source tree for {owner}/{repo}@{ref}.")
     if tree.get("truncated"):
-        print(f"Warning: tree truncated for {owner}/{repo}@{ref}", file=sys.stderr)
+        raise RuntimeError(f"Published source tree is truncated for {owner}/{repo}@{ref}.")
     return {
         str(node.get("path", "")).strip()
         for node in tree.get("tree", [])
@@ -531,18 +535,29 @@ def fetch_tree_paths(owner: str, repo: str, ref: str) -> set[str]:
     }
 
 
+def fetch_source_text(owner: str, repo: str, ref: str, path: str, tree_paths: set[str]) -> str | None:
+    if path not in tree_paths:
+        return None
+    text = raw_text(owner, repo, ref, path)
+    if text is None:
+        raise RuntimeError(f"Cannot read declared published source {owner}/{repo}@{ref}/{path}.")
+    return text
+
+
 def fetch_string_resources(owner: str, repo: str, ref: str, tree_paths: set[str]) -> dict[str, dict[str, str]]:
     result = {}
     for path in sorted(tree_paths):
-        match = re.fullmatch(r"app/src/main/res/(values(?:-[^/]+)?)/strings\.xml", path)
+        match = re.fullmatch(r"app/src/main/res/(values(?:-[^/]+)?)/strings(?:_[^/]+)?\.xml", path)
         if not match:
             continue
-        text = raw_text(owner, repo, ref, path)
-        if text is None:
-            continue
+        text = fetch_source_text(owner, repo, ref, path, tree_paths)
         strings = parse_strings_xml(text)
         if strings:
-            result[match.group(1)] = strings
+            localized = result.setdefault(match.group(1), {})
+            duplicates = localized.keys() & strings.keys()
+            if duplicates:
+                raise RuntimeError(f"Duplicate string resources in {owner}/{repo}@{ref}/{match.group(1)}: {sorted(duplicates)}")
+            localized.update(strings)
     return result
 
 
