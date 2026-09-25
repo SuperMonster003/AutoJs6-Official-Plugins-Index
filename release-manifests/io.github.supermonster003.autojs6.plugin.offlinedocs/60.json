@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Offline-Docs",
+  "releaseTag": "v6.8.3",
+  "sourceCommit": "c19f2d7cff88553627c9c61c4676492187622414",
+  "packageName": "io.github.supermonster003.autojs6.plugin.offlinedocs",
+  "versionName": "6.8.3",
+  "versionCode": 60,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-offline-docs-v6.8.3-universal-7a93968d.apk",
+      "sha256": "60481110fa7dc25ca57fbf520741c3168a4154d1b5622112cc422cb3896c297f",
+      "sizeBytes": 3792082
+    }
+  ]
+}
