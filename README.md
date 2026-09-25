@@ -23,9 +23,10 @@ the release channel, and `repository.owner` / `repository.name` identify the sou
 repository independently of APK flavors. A prerelease is not promoted to stable by
 indexing it.
 
-`official-repositories.json` records the 44 expected official projects, including
-Readium EPUB Reader. Generation fails before writing the index if any required
-project lacks a featured entry with published APK assets, or package names collide.
+`official-repositories.json` records the 45 expected official projects, including
+AI Agent and Readium EPUB Reader. Generation fails before writing the index if
+any required project lacks a featured entry with published APK assets, or package
+names collide.
 Additional repositories can still be discovered automatically; add new official
 projects to this inventory to protect them against accidental omission. APK
 flavors can produce more entries than the number of projects.
@@ -34,6 +35,13 @@ Version parsing preserves `VERSION_CODE_OFFSET` and APK Builder's paired-host
 composite Android version. Static Gradle package constants, multiline `resValue`
 calls, and explicit numeric reads from `version.properties` are supported without
 executing Gradle. Unresolved expressions remain errors.
+
+Published source trees must be complete. If a file listed in that tree cannot be
+downloaded, generation fails before writing the index instead of treating the
+file as absent and defaulting its version or dropping artifact admission data.
+String metadata is merged from `strings.xml` and `strings_*.xml` in each values
+directory, including nontranslatable application names. Duplicate names within
+one directory are rejected instead of being resolved by download order.
 
 Schema version 2 expands APK-producing `productFlavors` into separate plugin entries. Each entry contains only the APK assets for its `distributionVariant`; `featured` controls whether Plugin Center should show that distribution by default. Metadata is read from the release tag so it stays aligned with the published APKs. An APK that cannot be assigned to exactly one declared flavor, or a configured featured distribution without an APK, makes generation fail.
 

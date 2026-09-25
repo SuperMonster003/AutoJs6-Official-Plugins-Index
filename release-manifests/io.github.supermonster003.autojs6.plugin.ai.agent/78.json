@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-AI-Agent",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "20a2ecc25a5e3932f3996ff206d834daed8ba2d0",
+  "packageName": "io.github.supermonster003.autojs6.plugin.ai.agent",
+  "versionName": "1.0.0",
+  "versionCode": 78,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk",
+      "sha256": "c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9",
+      "sizeBytes": 642082
+    }
+  ]
+}

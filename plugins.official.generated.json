@@ -94,7 +94,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/refs/tags/v1.13.1/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/refs/tags/v1.13.1/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Ace-Editor",
+      "title": "Ace Editor",
       "description": "Embedded Ace code editor with language services",
       "localizedDescriptions": {
         "values": "Embedded Ace code editor with language services",
@@ -259,6 +259,86 @@
       "nativePageAlignmentSource": "measured"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.ai.agent",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-AI-Agent"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "AI Agent",
+      "description": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
+      "localizedDescriptions": {
+        "values": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
+        "values-ar": "\u064a\u0646\u0641\u0630 \u0645\u0647\u0627\u0645\u0627 \u0628\u0644\u063a\u0629 \u0637\u0628\u064a\u0639\u064a\u0629 \u0639\u0628\u0631 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u0644\u0629 \u0648\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0634\u0627\u0634\u0629 \u062e\u0637\u0648\u0629 \u0628\u062e\u0637\u0648\u0629",
+        "values-en": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
+        "values-es": "Ejecuta tareas en lenguaje natural eligiendo scripts registrados y manejando la pantalla paso a paso",
+        "values-fr": "Ex\u00e9cute des t\u00e2ches en langage naturel en choisissant des scripts enregistr\u00e9s et en manipulant l\\'\u00e9cran \u00e9tape par \u00e9tape",
+        "values-ja": "\u767b\u9332\u6e08\u307f\u30b9\u30af\u30ea\u30d7\u30c8\u306e\u9078\u629e\u3068\u753b\u9762\u306e\u6bb5\u968e\u7684\u306a\u64cd\u4f5c\u306b\u3088\u308a\u81ea\u7136\u8a00\u8a9e\u306e\u30bf\u30b9\u30af\u3092\u5b9f\u884c",
+        "values-ko": "\ub4f1\ub85d\ub41c \uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc120\ud0dd\ud558\uace0 \ud654\uba74\uc744 \ub2e8\uacc4\ubcc4\ub85c \uc870\uc791\ud558\uc5ec \uc790\uc5f0\uc5b4 \uc791\uc5c5\uc744 \uc2e4\ud589",
+        "values-ru": "\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u0437\u0430\u0434\u0430\u0447\u0438 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c \u044f\u0437\u044b\u043a\u0435, \u0432\u044b\u0431\u0438\u0440\u0430\u044f \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0441\u043a\u0440\u0438\u043f\u0442\u044b \u0438 \u043f\u043e\u0448\u0430\u0433\u043e\u0432\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044f \u044d\u043a\u0440\u0430\u043d\u043e\u043c",
+        "values-zh": "\u6309\u81ea\u7136\u8bed\u8a00\u76ee\u6807\u9009\u62e9\u5df2\u767b\u8bb0\u811a\u672c\u5e76\u9010\u6b65\u64cd\u4f5c\u754c\u9762\u5b8c\u6210\u4efb\u52a1",
+        "values-zh-rHK": "\u6309\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9",
+        "values-zh-rTW": "\u4f9d\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "ai-agent",
+      "variant": "default",
+      "engineId": "ai-agent",
+      "requiresHostVersion": 5289,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 78,
+          "versionDate": "2026-09-25",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/releases/tag/v1.0.0",
+          "changelogText": "AI Agent 1.0.0 brings natural-language Android tasks and registered-script invocation to AutoJs6. Tasks can start from the workbench, a floating panel, a shared text draft, a shortcut, or the `ai.agent` script API. Device actions and model requests pass through the AutoJs6 host, with risk-based confirmation and task history.\r\n\r\n## Requirements / \u5b89\u88c5\u8981\u6c42\r\n\r\n- Android 7.0 / API 24 or newer. One APK supports all device ABIs; this plugin has no native payload.\r\n- **AutoJs6 6.8.0 development build 5293 or newer is required for the task API. The currently published AutoJs6 6.7.0 stable release is not compatible.** Attachment alone has a lower protocol floor of build 5289; that does not provide the complete task API.\r\n- Enable a compatible 3-Stone AI plugin in AutoJs6 and configure a model there. AI Agent uses the host's selected model target and does not store provider credentials. OCR is optional.\r\n- \u4e2d\u6587: \u9700\u8981 Android 7+, \u542b Agent \u4efb\u52a1 API \u7684 AutoJs6 6.8.0 \u5f00\u53d1\u7248\u672c (build 5293+), \u4ee5\u53ca\u5df2\u542f\u7528\u5e76\u914d\u7f6e\u6a21\u578b\u7684 3-Stone AI \u63d2\u4ef6. \u5f53\u524d\u516c\u5f00\u7a33\u5b9a\u7248 AutoJs6 6.7.0 \u4e0d\u6ee1\u8db3\u8981\u6c42.\r\n\r\n## Included in 1.0.0\r\n\r\n- Structured observe/action/readback task loop, bounded budgets, cancellation, registered scripts, presets, and explicitly approved preference memory.\r\n- Workbench, task details, input and confirmation cards, background notifications, an optional floating panel, share/shortcut entry points, and ten interface languages.\r\n- Scoped host capabilities, current observation/node checks, adversarial-input boundaries, private task history and redacted diagnostics. Payment actions always require their own confirmation.\r\n- A release-gate correction makes remaining budget values explicit after an observed premature stop caused by interpreting remaining allowances as consumed counts. Actual budget limits and accounting are unchanged.\r\n\r\n\u4e2d\u6587: 1.0.0 \u5df2\u652f\u6301\u81ea\u7136\u8bed\u8a00\u4efb\u52a1, \u5df2\u767b\u8bb0\u811a\u672c, \u9884\u8bbe, \u7ecf\u786e\u8ba4\u7684\u504f\u597d\u8bb0\u5fc6, \u4efb\u52a1\u5386\u53f2, \u540e\u53f0\u786e\u8ba4\u901a\u77e5\u4e0e\u53ef\u9009\u60ac\u6d6e\u7403. \u6240\u6709\u6a21\u578b\u8c03\u7528\u548c\u8bbe\u5907\u64cd\u4f5c\u7ecf\u5bbf\u4e3b\u4ee3\u7406. \u672c\u6b21\u540c\u65f6\u4fee\u590d\u4e86\u6a21\u578b\u8bef\u8bfb\u5269\u4f59\u9884\u7b97\u800c\u63d0\u524d\u505c\u6b62\u7684\u95ee\u9898.\r\n\r\n## Validation and known limits\r\n\r\n- [Build integrity](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/actions/runs/36123770984) and [Markdown verification](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/actions/runs/36123770974) passed on the released source, including the full API 24 and API 35 instrumentation suites. The two opt-in README capture cases are skipped in CI. Earlier failed CI runs remain documented; no failed run is counted as a pass.\r\n- Local release validation: 476 JVM tests passed; one opt-in performance test skipped. Lint: zero errors and six existing warnings. Final build 78 signed-release host entry checks: 5/5 each on XQ-DQ72 and API 37.1 / 16 KB. Its full fresh isolated API 35 suite passed (80 passed, two opt-in screenshot cases skipped, 286.630 s). Focused input/fixture regressions passed on API 24 and API 35. Earlier builds 75/76, with identical production task logic, also passed signed entry checks on Redmi 12C, G8441, Xiaomi Pad and API 24; their results remain labeled with the actual builds.\r\n- Final build 78 Model8 / Fable 5.1 Wi-Fi smoke completed on XQ-DQ72 (12 steps / 12 calls, 64287 ms) and API 37.1 (6 steps / 6 calls, 87349 ms). Both cases used a temporary restricted CONNECT proxy over ADB, and verified the observed switch and independent system state. The AVD success includes confirmation waiting, so its duration is not a model-speed measurement. Its preceding attempt failed strict tool-argument validation and remains recorded, together with the other earlier failures. These results do not certify every model or carrier connection.\r\n- Local Gemma 4 E2B IT still has documented task/decision failures. In the final build 76 Redmi test, Android terminated the Provider for LOW_MEMORY and the task failed with MODEL_FAILED / BINDER_DIED. XQ-AT72 / Android 12 was unavailable and remains pending. No ColorOS activation result is claimed.\r\n- Native tool calling, visual input and dynamic script generation remain planned for 1.1.0. 1.0.0 does not generate and execute arbitrary new scripts.\r\n- \u4e2d\u6587: \u672c\u5730\u6a21\u578b\u7684\u65e2\u6709\u5931\u8d25\u548c\u7f3a\u5e2d\u8bbe\u5907\u5747\u5982\u5b9e\u4fdd\u7559, \u4e0d\u89c6\u4e3a\u901a\u8fc7. \u539f\u751f Tool Calling, \u89c6\u89c9\u8f93\u5165\u548c\u52a8\u6001\u811a\u672c\u751f\u6210\u5c5e\u4e8e\u539f\u8def\u7ebf\u56fe 1.1.0 \u8303\u56f4.\r\n\r\nSee the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent#readme), [validation evidence and publication receipts](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/blob/master/docs/dev/p8-release-evidence-2026-09-25.md), and [roadmap](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/blob/master/ROADMAP.md) for setup, measured cases and pending work. Matching declarations are available as [`@sm003/autojs6-dts@4.21.1`](https://www.npmjs.com/package/@sm003/autojs6-dts/v/4.21.1).\r\n\r\n## Artifact\r\n\r\n- Version: `1.0.0` / build `78`\r\n- Source commit: `20a2ecc25a5e3932f3996ff206d834daed8ba2d0`\r\n- APK: `autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk` (642082 bytes)\r\n- SHA-256: `c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9`\r\n- Signer SHA-256: `31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213`",
+          "assets": [
+            {
+              "name": "autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/releases/download/v1.0.0/autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk",
+              "size": 642082,
+              "digest": "sha256:c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9",
+              "sha256": "c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 78,
+              "packageName": "io.github.supermonster003.autojs6.plugin.ai.agent",
+              "sourceCommit": "20a2ecc25a5e3932f3996ff206d834daed8ba2d0"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.angus.mail",
       "repository": {
         "owner": "SuperMonster003",
@@ -266,7 +346,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Angus-Mail",
+      "title": "Angus Mail",
       "description": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
       "localizedDescriptions": {
         "values": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
@@ -345,7 +425,7 @@
         "name": "AutoJs6-Plugin-APK-Builder-Template"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "APK-Builder-Template",
+      "title": "APK Builder Template",
       "description": "Provides the template APK used by AutoJs6 when packaging standalone applications",
       "localizedDescriptions": {
         "values": "Provides the template APK used by AutoJs6 when packaging standalone applications",
@@ -526,7 +606,7 @@
         "name": "AutoJs6-Plugin-APK-Inspector"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.1/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "APK-Inspector",
+      "title": "APK Inspector",
       "description": "Inspect installation packages and their contents",
       "localizedDescriptions": {
         "values": "Inspect installation packages and their contents",
@@ -602,7 +682,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Archive-Manager/refs/tags/v2.22.3/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Archive-Manager/refs/tags/v2.22.3/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Archive-Manager",
+      "title": "Archive Manager",
       "description": "Browse and extract ZIP, 7Z, RAR, and TAR archives; create and safely manage supported writable formats",
       "localizedDescriptions": {
         "values": "Browse and extract ZIP, 7Z, RAR, and TAR archives; create and safely manage supported writable formats",
@@ -912,7 +992,7 @@
         "name": "AutoJs6-Plugin-DEX-Compiler"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-DEX-Compiler/refs/tags/v1.1.2/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "DEX-Compiler",
+      "title": "DEX Compiler",
       "description": "Compiles bounded JAR inputs with D8 and packages indexed DEX ZIP artifacts",
       "localizedDescriptions": {
         "values": "Compiles bounded JAR inputs with D8 and packages indexed DEX ZIP artifacts",
@@ -988,7 +1068,7 @@
         "name": "AutoJs6-Plugin-File-Inspector"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.1/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "File-Inspector",
+      "title": "File Inspector",
       "description": "Inspect file metadata and verify checksums",
       "localizedDescriptions": {
         "values": "Inspect file metadata and verify checksums",
@@ -1063,7 +1143,7 @@
         "name": "AutoJs6-Plugin-HTML-Previewer"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "HTML-Previewer",
+      "title": "HTML Previewer",
       "description": "Preview HTML and MHTML files",
       "localizedDescriptions": {
         "values": "Preview HTML and MHTML files",
@@ -1138,7 +1218,7 @@
         "name": "AutoJs6-Plugin-Image-Quantization"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Image-Quantization/refs/tags/v1.0.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Image-Quantization",
+      "title": "Image Quantization",
       "description": "Native PNG quantization runtime for AutoJs6 that shrinks PNG files with libimagequant 2.17.0, the engine behind pngquant",
       "localizedDescriptions": {
         "values": "Native PNG quantization runtime for AutoJs6 that shrinks PNG files with libimagequant 2.17.0, the engine behind pngquant",
@@ -1306,7 +1386,7 @@
         "name": "AutoJs6-Plugin-Image-Tools"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Image-Tools/refs/tags/v1.2.1/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Image-Tools",
+      "title": "Image Tools",
       "description": "Edit images and convert image formats",
       "localizedDescriptions": {
         "values": "Edit images and convert image formats",
@@ -1381,7 +1461,7 @@
         "name": "AutoJs6-Plugin-Image-Viewer"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Image-Viewer/refs/tags/v1.3.1/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Image-Viewer",
+      "title": "Image Viewer",
       "description": "View images and inspect image details",
       "localizedDescriptions": {
         "values": "View images and inspect image details",
@@ -1456,7 +1536,7 @@
         "name": "AutoJs6-Plugin-ImGui"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.9.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "ImGui",
+      "title": "Dear ImGui",
       "description": "Create floating user interfaces with Dear ImGui",
       "localizedDescriptions": {
         "values": "Create floating user interfaces with Dear ImGui",
@@ -1624,7 +1704,7 @@
         "name": "AutoJs6-Plugin-Java-Runtime"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Runtime/refs/tags/v0.8.3-m9/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Java-Runtime",
+      "title": "AutoJs6 Java Runtime",
       "description": "Compiles and runs Java source in dedicated processes",
       "localizedDescriptions": {
         "values": "Compiles and runs Java source in dedicated processes",
@@ -1711,7 +1791,7 @@
         "name": "AutoJs6-Plugin-Kotlin-Runtime"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Kotlin-Runtime/refs/tags/v0.7.2-m10/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Kotlin-Runtime",
+      "title": "AutoJs6 Kotlin Runtime",
       "description": "Compiles and runs Kotlin source in dedicated processes",
       "localizedDescriptions": {
         "values": "Compiles and runs Kotlin source in dedicated processes",
@@ -1796,7 +1876,7 @@
         "name": "AutoJs6-Plugin-Lua-Runtime"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Lua-Runtime/refs/tags/v0.1.2-rc.2/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Lua-Runtime",
+      "title": "Lua Runtime",
       "description": "Independent PUC Lua 5.4 runtime plugin",
       "localizedDescriptions": {
         "values": "Independent PUC Lua 5.4 runtime plugin",
@@ -1965,7 +2045,7 @@
         "name": "AutoJs6-Plugin-Markdown-Previewer"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Markdown-Previewer",
+      "title": "Markdown Previewer",
       "description": "Preview Markdown documents",
       "localizedDescriptions": {
         "values": "Preview Markdown documents",
@@ -2041,7 +2121,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "MCP-Server",
+      "title": "MCP Server",
       "description": "Exposes device automation to AI agents over the Model Context Protocol",
       "localizedDescriptions": {
         "values": "Exposes device automation to AI agents over the Model Context Protocol",
@@ -2457,7 +2537,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MLKit-OCR/refs/tags/v1.0.3/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MLKit-OCR/refs/tags/v1.0.3/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "MLKit-OCR",
+      "title": "ML Kit OCR (Chinese)",
       "description": "Chinese OCR powered by Google ML Kit",
       "localizedDescriptions": {
         "values": "Chinese OCR powered by Google ML Kit",
@@ -2627,7 +2707,7 @@
         "name": "AutoJs6-Plugin-NodeJs-Runtime"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.5.6/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "NodeJs-Runtime",
+      "title": "AutoJs6 Node.js Runtime",
       "description": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
       "localizedDescriptions": {
         "values": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
@@ -2770,7 +2850,7 @@
         "name": "AutoJs6-Plugin-Offline-Docs"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Offline-Docs",
+      "title": "Offline Documentation",
       "description": "Offline documentation 6.8.0 content plugin for AutoJs6",
       "localizedDescriptions": {
         "values": "Offline documentation 6.8.0 content plugin for AutoJs6",
@@ -6717,7 +6797,7 @@
         "name": "AutoJs6-Plugin-Python-Runtime"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Python-Runtime/refs/tags/v0.5.4/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Python-Runtime",
+      "title": "AutoJs6 Python Runtime",
       "description": "Runs Python scripts for AutoJs6 in a dedicated plugin process",
       "localizedDescriptions": {
         "values": "Runs Python scripts for AutoJs6 in a dedicated plugin process",
@@ -7401,7 +7481,7 @@
         "name": "AutoJs6-Plugin-Readium-EPUB-Reader"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Readium-EPUB-Reader",
+      "title": "Readium EPUB Reader",
       "description": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
       "localizedDescriptions": {
         "values": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
@@ -7547,7 +7627,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Three-Ember-Player",
+      "title": "3-Ember Player",
       "description": "Video playback with playlists, subtitles, and background audio",
       "localizedDescriptions": {
         "values": "Video playback with playlists, subtitles, and background audio",
@@ -7623,7 +7703,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.1.4/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.1.4/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Three-Stone-AI",
+      "title": "3-Stone AI",
       "description": "AI text generation with private local models and user-configured online services",
       "localizedDescriptions": {
         "values": "AI text generation with private local models and user-configured online services",
@@ -7744,7 +7824,7 @@
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.6.2/app/src/main/res/mipmap/ic_launcher.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.6.2/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Three-Terra-Player",
+      "title": "3-Terra Player",
       "description": "Audio player plugin and standalone app with background playback",
       "localizedDescriptions": {
         "values": "Audio player plugin and standalone app with background playback",
@@ -7822,7 +7902,7 @@
         "name": "AutoJs6-Plugin-TypeScript-Engine"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/refs/tags/v0.6.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "TypeScript-Engine",
+      "title": "TypeScript Engine",
       "description": "Full TypeScript project compiler frontend for AutoJs6",
       "localizedDescriptions": {
         "values": "Full TypeScript project compiler frontend for AutoJs6",
@@ -7990,7 +8070,7 @@
         "name": "AutoJs6-Plugin-Yolo-NCNN"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Yolo-NCNN/refs/tags/v0.1.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Yolo-NCNN",
+      "title": "AutoJs6 YOLO NCNN",
       "description": "Process-isolated NCNN object detection",
       "localizedDescriptions": {
         "values": "Process-isolated NCNN object detection",
