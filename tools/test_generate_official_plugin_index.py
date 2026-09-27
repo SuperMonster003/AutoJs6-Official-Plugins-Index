@@ -35,13 +35,13 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     def test_split_nontranslatable_strings_preserve_title_and_localized_description(self):
         files = {
             "app/src/main/res/values/strings.xml": '<resources><string name="plugin_description">Default description</string></resources>',
-            "app/src/main/res/values/strings_donottranslate.xml": '<resources><string name="app_name" translatable="false">AI Agent</string></resources>',
+            "app/src/main/res/values/strings_donottranslate.xml": '<resources><string name="app_name" translatable="false">Three Stove Agent</string></resources>',
             "app/src/main/res/values-en/strings.xml": '<resources><string name="plugin_description">English description</string></resources>',
         }
         with patch.object(generator, "raw_text", side_effect=lambda owner, repo, ref, path: files[path]):
-            resources = generator.fetch_string_resources(self.OWNER, "AutoJs6-Plugin-AI-Agent", "tag", set(files))
-        entry = self.build_entries("AutoJs6-Plugin-AI-Agent", "", self.assets_for("AutoJs6-Plugin-AI-Agent", [None]), strings_by_dir=resources)[0]
-        self.assertEqual("AI Agent", entry["title"])
+            resources = generator.fetch_string_resources(self.OWNER, "AutoJs6-Plugin-Three-Stove-Agent", "tag", set(files))
+        entry = self.build_entries("AutoJs6-Plugin-Three-Stove-Agent", "", self.assets_for("AutoJs6-Plugin-Three-Stove-Agent", [None]), strings_by_dir=resources)[0]
+        self.assertEqual("Three Stove Agent", entry["title"])
         self.assertEqual("Default description", entry["localizedDescriptions"]["values"])
         self.assertEqual("English description", entry["localizedDescriptions"]["values-en"])
 

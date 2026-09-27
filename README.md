@@ -24,7 +24,7 @@ repository independently of APK flavors. A prerelease is not promoted to stable 
 indexing it.
 
 `official-repositories.json` records the 45 expected official projects, including
-AI Agent and Readium EPUB Reader. Generation fails before writing the index if
+Three Stove Agent and Readium EPUB Reader. Generation fails before writing the index if
 any required project lacks a featured entry with published APK assets, or package
 names collide.
 Additional repositories can still be discovered automatically; add new official
