@@ -1,7 +1,6 @@
 [
   "AutoJs6-Plugin-APK-Builder-Template",
   "AutoJs6-Plugin-APK-Inspector",
-  "AutoJs6-Plugin-Accessibility-Compat",
   "AutoJs6-Plugin-Ace-Editor",
   "AutoJs6-Plugin-Angus-Mail",
   "AutoJs6-Plugin-Archive-Manager",
@@ -38,6 +37,7 @@
   "AutoJs6-Plugin-Rapid-OCR-PP-OCRv6",
   "AutoJs6-Plugin-Readium-EPUB-Reader",
   "AutoJs6-Plugin-Screen-Color-Picker",
+  "AutoJs6-Plugin-Three-Adapt-A11y",
   "AutoJs6-Plugin-Three-Ember-Player",
   "AutoJs6-Plugin-Three-Stone-AI",
   "AutoJs6-Plugin-Three-Stove-Agent",
