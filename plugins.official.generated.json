@@ -8,85 +8,6 @@
   },
   "items": [
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Accessibility-Compat"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "AutoJs6 Accessibility Compat",
-      "description": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
-      "localizedDescriptions": {
-        "values": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
-        "values-ar": "\u0645\u0643\u0648\u0646 \u0625\u0636\u0627\u0641\u064a \u062a\u062c\u0631\u064a\u0628\u064a \u0627\u062e\u062a\u064a\u0627\u0631\u064a \u0642\u062f \u064a\u0633\u0627\u0639\u062f AutoJs6 \u0639\u0644\u0649 \u0627\u0633\u062a\u0631\u062f\u0627\u062f \u0639\u0642\u062f \u0625\u0645\u0643\u0627\u0646\u064a\u0629 \u0627\u0644\u0648\u0635\u0648\u0644 \u0645\u0646 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0627\u0644\u0645\u062f\u0639\u0648\u0645\u0629. \u064a\u0639\u0645\u0644 \u0645\u062d\u0644\u064a\u0627 \u0648\u064a\u062a\u062c\u0627\u0647\u0644 \u0643\u0644 \u0627\u0644\u0623\u062d\u062f\u0627\u062b \u0648\u0644\u0627 \u064a\u0636\u0645\u0646 \u0627\u0644\u0639\u0642\u062f \u0641\u064a \u0643\u0644 \u0627\u0644\u0635\u0641\u062d\u0627\u062a",
-        "values-en": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
-        "values-es": "Complemento experimental y opcional que puede ayudar a AutoJs6 a obtener nodos de accesibilidad de aplicaciones compatibles. Funciona localmente, ignora todos los eventos y no garantiza nodos en todas las p\u00e1ginas",
-        "values-fr": "Compagnon exp\u00e9rimental et facultatif qui peut aider AutoJs6 \u00e0 obtenir les noeuds d\\'accessibilit\u00e9 des applications compatibles. Il fonctionne localement, ignore chaque \u00e9v\u00e9nement et ne garantit pas les noeuds sur toutes les pages",
-        "values-ja": "AutoJs6 \u306b\u3088\u308b\u5bfe\u5fdc\u30a2\u30d7\u30ea\u306e\u30a2\u30af\u30bb\u30b7\u30d3\u30ea\u30c6\u30a3\u30ce\u30fc\u30c9\u53d6\u5f97\u3092\u88dc\u52a9\u3059\u308b\u53ef\u80fd\u6027\u304c\u3042\u308b, \u4efb\u610f\u306e\u8a66\u9a13\u7684\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u3067\u3059. \u30ed\u30fc\u30ab\u30eb\u3067\u52d5\u4f5c\u3057, \u3059\u3079\u3066\u306e\u30a4\u30d9\u30f3\u30c8\u3092\u7121\u8996\u3057\u307e\u3059. \u3059\u3079\u3066\u306e\u30da\u30fc\u30b8\u306e\u30ce\u30fc\u30c9\u306f\u4fdd\u8a3c\u3055\u308c\u307e\u305b\u3093",
-        "values-ko": "AutoJs6\uac00 \uc9c0\uc6d0 \uc571\uc758 \uc811\uadfc\uc131 \ub178\ub4dc\ub97c \uac00\uc838\uc624\ub3c4\ub85d \ub3c4\uc6b8 \uc218 \uc788\ub294 \uc120\ud0dd\uc801 \uc2e4\ud5d8\uc6a9 \ucef4\ud328\ub2c8\uc5b8\uc785\ub2c8\ub2e4. \ub85c\uceec\uc5d0\uc11c \uc2e4\ud589\ub418\uace0 \ubaa8\ub4e0 \uc774\ubca4\ud2b8\ub97c \ubb34\uc2dc\ud558\uba70 \ubaa8\ub4e0 \ud398\uc774\uc9c0\uc758 \ub178\ub4dc\ub97c \ubcf4\uc7a5\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4",
-        "values-ru": "\u041d\u0435\u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u043c\u043e\u0447\u044c AutoJs6 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0443\u0437\u043b\u044b \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439. \u041e\u043d \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e, \u0438\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0432\u0441\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u0438 \u043d\u0435 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u0443\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u0443\u0437\u043b\u043e\u0432 \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435",
-        "values-zh": "\u53ef\u9009\u7684\u5b9e\u9a8c\u6027\u4f34\u751f\u63d2\u4ef6, \u53ef\u80fd\u5e2e\u52a9 AutoJs6 \u83b7\u53d6\u53d7\u652f\u6301\u5e94\u7528\u7684\u65e0\u969c\u788d\u8282\u70b9. \u5b83\u53ea\u5728\u672c\u5730\u8fd0\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8bc1\u6240\u6709\u9875\u9762\u8282\u70b9\u53ef\u7528",
-        "values-zh-rHK": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u63d2\u4ef6, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u53d7\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528",
-        "values-zh-rTW": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u5916\u639b\u7a0b\u5f0f, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "accessibility",
-      "variant": "service-identity",
-      "engineId": "accessibility-compat",
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.3.1",
-          "versionCode": 19,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/releases/tag/v1.3.1",
-          "changelogText": "Accessibility Compat 1.3.1\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `b79e7d755a2337610b7faaa568e908c1b6b5cd2b`\r\n\r\nPublished release.\r\n\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Explain Advanced Protection in the host and companion, showing the global mode separately from actual service availability and secure settings control\r\n- Improvement: Raise targetSdk to 37 (Android 17) after compileSdk; the plugin's behavior does not depend on the new target\r\n\r\nAPK checksums are in `SHA256SUMS`.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-accessibility-compat-v1.3.1-EEA79F3C.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Accessibility-Compat/releases/download/v1.3.1/autojs6-plugin-accessibility-compat-v1.3.1-EEA79F3C.apk",
-              "size": 280169,
-              "digest": "sha256:c2846db91232169bf49dcf4c3d411317169b4aea1e84df29fee9db3947730c9a",
-              "sha256": "c2846db91232169bf49dcf4c3d411317169b4aea1e84df29fee9db3947730c9a",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.3.1",
-              "versionCode": 19,
-              "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
-              "sourceCommit": "b79e7d755a2337610b7faaa568e908c1b6b5cd2b"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
-    },
-    {
       "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
       "repository": {
         "owner": "SuperMonster003",
@@ -256,86 +177,6 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
-    },
-    {
-      "packageName": "io.github.supermonster003.autojs6.plugin.ai.agent",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-AI-Agent"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "AI Agent",
-      "description": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
-      "localizedDescriptions": {
-        "values": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
-        "values-ar": "\u064a\u0646\u0641\u0630 \u0645\u0647\u0627\u0645\u0627 \u0628\u0644\u063a\u0629 \u0637\u0628\u064a\u0639\u064a\u0629 \u0639\u0628\u0631 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u0644\u0629 \u0648\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0634\u0627\u0634\u0629 \u062e\u0637\u0648\u0629 \u0628\u062e\u0637\u0648\u0629",
-        "values-en": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
-        "values-es": "Ejecuta tareas en lenguaje natural eligiendo scripts registrados y manejando la pantalla paso a paso",
-        "values-fr": "Ex\u00e9cute des t\u00e2ches en langage naturel en choisissant des scripts enregistr\u00e9s et en manipulant l\\'\u00e9cran \u00e9tape par \u00e9tape",
-        "values-ja": "\u767b\u9332\u6e08\u307f\u30b9\u30af\u30ea\u30d7\u30c8\u306e\u9078\u629e\u3068\u753b\u9762\u306e\u6bb5\u968e\u7684\u306a\u64cd\u4f5c\u306b\u3088\u308a\u81ea\u7136\u8a00\u8a9e\u306e\u30bf\u30b9\u30af\u3092\u5b9f\u884c",
-        "values-ko": "\ub4f1\ub85d\ub41c \uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc120\ud0dd\ud558\uace0 \ud654\uba74\uc744 \ub2e8\uacc4\ubcc4\ub85c \uc870\uc791\ud558\uc5ec \uc790\uc5f0\uc5b4 \uc791\uc5c5\uc744 \uc2e4\ud589",
-        "values-ru": "\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u0437\u0430\u0434\u0430\u0447\u0438 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c \u044f\u0437\u044b\u043a\u0435, \u0432\u044b\u0431\u0438\u0440\u0430\u044f \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0441\u043a\u0440\u0438\u043f\u0442\u044b \u0438 \u043f\u043e\u0448\u0430\u0433\u043e\u0432\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044f \u044d\u043a\u0440\u0430\u043d\u043e\u043c",
-        "values-zh": "\u6309\u81ea\u7136\u8bed\u8a00\u76ee\u6807\u9009\u62e9\u5df2\u767b\u8bb0\u811a\u672c\u5e76\u9010\u6b65\u64cd\u4f5c\u754c\u9762\u5b8c\u6210\u4efb\u52a1",
-        "values-zh-rHK": "\u6309\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9",
-        "values-zh-rTW": "\u4f9d\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "ai-agent",
-      "variant": "default",
-      "engineId": "ai-agent",
-      "requiresHostVersion": 5289,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.0.0",
-          "versionCode": 78,
-          "versionDate": "2026-09-25",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/releases/tag/v1.0.0",
-          "changelogText": "AI Agent 1.0.0 brings natural-language Android tasks and registered-script invocation to AutoJs6. Tasks can start from the workbench, a floating panel, a shared text draft, a shortcut, or the `ai.agent` script API. Device actions and model requests pass through the AutoJs6 host, with risk-based confirmation and task history.\r\n\r\n## Requirements / \u5b89\u88c5\u8981\u6c42\r\n\r\n- Android 7.0 / API 24 or newer. One APK supports all device ABIs; this plugin has no native payload.\r\n- **AutoJs6 6.8.0 development build 5293 or newer is required for the task API. The currently published AutoJs6 6.7.0 stable release is not compatible.** Attachment alone has a lower protocol floor of build 5289; that does not provide the complete task API.\r\n- Enable a compatible 3-Stone AI plugin in AutoJs6 and configure a model there. AI Agent uses the host's selected model target and does not store provider credentials. OCR is optional.\r\n- \u4e2d\u6587: \u9700\u8981 Android 7+, \u542b Agent \u4efb\u52a1 API \u7684 AutoJs6 6.8.0 \u5f00\u53d1\u7248\u672c (build 5293+), \u4ee5\u53ca\u5df2\u542f\u7528\u5e76\u914d\u7f6e\u6a21\u578b\u7684 3-Stone AI \u63d2\u4ef6. \u5f53\u524d\u516c\u5f00\u7a33\u5b9a\u7248 AutoJs6 6.7.0 \u4e0d\u6ee1\u8db3\u8981\u6c42.\r\n\r\n## Included in 1.0.0\r\n\r\n- Structured observe/action/readback task loop, bounded budgets, cancellation, registered scripts, presets, and explicitly approved preference memory.\r\n- Workbench, task details, input and confirmation cards, background notifications, an optional floating panel, share/shortcut entry points, and ten interface languages.\r\n- Scoped host capabilities, current observation/node checks, adversarial-input boundaries, private task history and redacted diagnostics. Payment actions always require their own confirmation.\r\n- A release-gate correction makes remaining budget values explicit after an observed premature stop caused by interpreting remaining allowances as consumed counts. Actual budget limits and accounting are unchanged.\r\n\r\n\u4e2d\u6587: 1.0.0 \u5df2\u652f\u6301\u81ea\u7136\u8bed\u8a00\u4efb\u52a1, \u5df2\u767b\u8bb0\u811a\u672c, \u9884\u8bbe, \u7ecf\u786e\u8ba4\u7684\u504f\u597d\u8bb0\u5fc6, \u4efb\u52a1\u5386\u53f2, \u540e\u53f0\u786e\u8ba4\u901a\u77e5\u4e0e\u53ef\u9009\u60ac\u6d6e\u7403. \u6240\u6709\u6a21\u578b\u8c03\u7528\u548c\u8bbe\u5907\u64cd\u4f5c\u7ecf\u5bbf\u4e3b\u4ee3\u7406. \u672c\u6b21\u540c\u65f6\u4fee\u590d\u4e86\u6a21\u578b\u8bef\u8bfb\u5269\u4f59\u9884\u7b97\u800c\u63d0\u524d\u505c\u6b62\u7684\u95ee\u9898.\r\n\r\n## Validation and known limits\r\n\r\n- [Build integrity](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/actions/runs/36123770984) and [Markdown verification](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/actions/runs/36123770974) passed on the released source, including the full API 24 and API 35 instrumentation suites. The two opt-in README capture cases are skipped in CI. Earlier failed CI runs remain documented; no failed run is counted as a pass.\r\n- Local release validation: 476 JVM tests passed; one opt-in performance test skipped. Lint: zero errors and six existing warnings. Final build 78 signed-release host entry checks: 5/5 each on XQ-DQ72 and API 37.1 / 16 KB. Its full fresh isolated API 35 suite passed (80 passed, two opt-in screenshot cases skipped, 286.630 s). Focused input/fixture regressions passed on API 24 and API 35. Earlier builds 75/76, with identical production task logic, also passed signed entry checks on Redmi 12C, G8441, Xiaomi Pad and API 24; their results remain labeled with the actual builds.\r\n- Final build 78 Model8 / Fable 5.1 Wi-Fi smoke completed on XQ-DQ72 (12 steps / 12 calls, 64287 ms) and API 37.1 (6 steps / 6 calls, 87349 ms). Both cases used a temporary restricted CONNECT proxy over ADB, and verified the observed switch and independent system state. The AVD success includes confirmation waiting, so its duration is not a model-speed measurement. Its preceding attempt failed strict tool-argument validation and remains recorded, together with the other earlier failures. These results do not certify every model or carrier connection.\r\n- Local Gemma 4 E2B IT still has documented task/decision failures. In the final build 76 Redmi test, Android terminated the Provider for LOW_MEMORY and the task failed with MODEL_FAILED / BINDER_DIED. XQ-AT72 / Android 12 was unavailable and remains pending. No ColorOS activation result is claimed.\r\n- Native tool calling, visual input and dynamic script generation remain planned for 1.1.0. 1.0.0 does not generate and execute arbitrary new scripts.\r\n- \u4e2d\u6587: \u672c\u5730\u6a21\u578b\u7684\u65e2\u6709\u5931\u8d25\u548c\u7f3a\u5e2d\u8bbe\u5907\u5747\u5982\u5b9e\u4fdd\u7559, \u4e0d\u89c6\u4e3a\u901a\u8fc7. \u539f\u751f Tool Calling, \u89c6\u89c9\u8f93\u5165\u548c\u52a8\u6001\u811a\u672c\u751f\u6210\u5c5e\u4e8e\u539f\u8def\u7ebf\u56fe 1.1.0 \u8303\u56f4.\r\n\r\nSee the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent#readme), [validation evidence and publication receipts](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/blob/master/docs/dev/p8-release-evidence-2026-09-25.md), and [roadmap](https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/blob/master/ROADMAP.md) for setup, measured cases and pending work. Matching declarations are available as [`@sm003/autojs6-dts@4.21.1`](https://www.npmjs.com/package/@sm003/autojs6-dts/v/4.21.1).\r\n\r\n## Artifact\r\n\r\n- Version: `1.0.0` / build `78`\r\n- Source commit: `20a2ecc25a5e3932f3996ff206d834daed8ba2d0`\r\n- APK: `autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk` (642082 bytes)\r\n- SHA-256: `c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9`\r\n- Signer SHA-256: `31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213`",
-          "assets": [
-            {
-              "name": "autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AI-Agent/releases/download/v1.0.0/autojs6-plugin-ai-agent-v1.0.0-185ddeb2.apk",
-              "size": 642082,
-              "digest": "sha256:c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9",
-              "sha256": "c2bced292ff41d13dfbb370a58c56b9a9ce71cc687e8dba02631298c481ec6f9",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 78,
-              "packageName": "io.github.supermonster003.autojs6.plugin.ai.agent",
-              "sourceCommit": "20a2ecc25a5e3932f3996ff206d834daed8ba2d0"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 0,
       "nativePageAlignmentSource": "measured"
     },
     {
@@ -7620,6 +7461,85 @@
       "nativePageAlignmentSource": "measured"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Adapt-A11y"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "AutoJs6 Accessibility Compat",
+      "description": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
+      "localizedDescriptions": {
+        "values": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
+        "values-ar": "\u0645\u0643\u0648\u0646 \u0625\u0636\u0627\u0641\u064a \u062a\u062c\u0631\u064a\u0628\u064a \u0627\u062e\u062a\u064a\u0627\u0631\u064a \u0642\u062f \u064a\u0633\u0627\u0639\u062f AutoJs6 \u0639\u0644\u0649 \u0627\u0633\u062a\u0631\u062f\u0627\u062f \u0639\u0642\u062f \u0625\u0645\u0643\u0627\u0646\u064a\u0629 \u0627\u0644\u0648\u0635\u0648\u0644 \u0645\u0646 \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0627\u0644\u0645\u062f\u0639\u0648\u0645\u0629. \u064a\u0639\u0645\u0644 \u0645\u062d\u0644\u064a\u0627 \u0648\u064a\u062a\u062c\u0627\u0647\u0644 \u0643\u0644 \u0627\u0644\u0623\u062d\u062f\u0627\u062b \u0648\u0644\u0627 \u064a\u0636\u0645\u0646 \u0627\u0644\u0639\u0642\u062f \u0641\u064a \u0643\u0644 \u0627\u0644\u0635\u0641\u062d\u0627\u062a",
+        "values-en": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
+        "values-es": "Complemento experimental y opcional que puede ayudar a AutoJs6 a obtener nodos de accesibilidad de aplicaciones compatibles. Funciona localmente, ignora todos los eventos y no garantiza nodos en todas las p\u00e1ginas",
+        "values-fr": "Compagnon exp\u00e9rimental et facultatif qui peut aider AutoJs6 \u00e0 obtenir les noeuds d\\'accessibilit\u00e9 des applications compatibles. Il fonctionne localement, ignore chaque \u00e9v\u00e9nement et ne garantit pas les noeuds sur toutes les pages",
+        "values-ja": "AutoJs6 \u306b\u3088\u308b\u5bfe\u5fdc\u30a2\u30d7\u30ea\u306e\u30a2\u30af\u30bb\u30b7\u30d3\u30ea\u30c6\u30a3\u30ce\u30fc\u30c9\u53d6\u5f97\u3092\u88dc\u52a9\u3059\u308b\u53ef\u80fd\u6027\u304c\u3042\u308b, \u4efb\u610f\u306e\u8a66\u9a13\u7684\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u3067\u3059. \u30ed\u30fc\u30ab\u30eb\u3067\u52d5\u4f5c\u3057, \u3059\u3079\u3066\u306e\u30a4\u30d9\u30f3\u30c8\u3092\u7121\u8996\u3057\u307e\u3059. \u3059\u3079\u3066\u306e\u30da\u30fc\u30b8\u306e\u30ce\u30fc\u30c9\u306f\u4fdd\u8a3c\u3055\u308c\u307e\u305b\u3093",
+        "values-ko": "AutoJs6\uac00 \uc9c0\uc6d0 \uc571\uc758 \uc811\uadfc\uc131 \ub178\ub4dc\ub97c \uac00\uc838\uc624\ub3c4\ub85d \ub3c4\uc6b8 \uc218 \uc788\ub294 \uc120\ud0dd\uc801 \uc2e4\ud5d8\uc6a9 \ucef4\ud328\ub2c8\uc5b8\uc785\ub2c8\ub2e4. \ub85c\uceec\uc5d0\uc11c \uc2e4\ud589\ub418\uace0 \ubaa8\ub4e0 \uc774\ubca4\ud2b8\ub97c \ubb34\uc2dc\ud558\uba70 \ubaa8\ub4e0 \ud398\uc774\uc9c0\uc758 \ub178\ub4dc\ub97c \ubcf4\uc7a5\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4",
+        "values-ru": "\u041d\u0435\u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u043c\u043e\u0447\u044c AutoJs6 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0443\u0437\u043b\u044b \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439. \u041e\u043d \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e, \u0438\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u0432\u0441\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u0438 \u043d\u0435 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u0443\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u0443\u0437\u043b\u043e\u0432 \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435",
+        "values-zh": "\u53ef\u9009\u7684\u5b9e\u9a8c\u6027\u4f34\u751f\u63d2\u4ef6, \u53ef\u80fd\u5e2e\u52a9 AutoJs6 \u83b7\u53d6\u53d7\u652f\u6301\u5e94\u7528\u7684\u65e0\u969c\u788d\u8282\u70b9. \u5b83\u53ea\u5728\u672c\u5730\u8fd0\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8bc1\u6240\u6709\u9875\u9762\u8282\u70b9\u53ef\u7528",
+        "values-zh-rHK": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u63d2\u4ef6, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u53d7\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528",
+        "values-zh-rTW": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u5916\u639b\u7a0b\u5f0f, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "accessibility",
+      "variant": "service-identity",
+      "engineId": "accessibility-compat",
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.3.1",
+          "versionCode": 19,
+          "versionDate": "2026-09-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/tag/v1.3.1",
+          "changelogText": "Accessibility Compat 1.3.1\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `b79e7d755a2337610b7faaa568e908c1b6b5cd2b`\r\n\r\nPublished release.\r\n\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Explain Advanced Protection in the host and companion, showing the global mode separately from actual service availability and secure settings control\r\n- Improvement: Raise targetSdk to 37 (Android 17) after compileSdk; the plugin's behavior does not depend on the new target\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-accessibility-compat-v1.3.1-EEA79F3C.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/download/v1.3.1/autojs6-plugin-accessibility-compat-v1.3.1-EEA79F3C.apk",
+              "size": 280169,
+              "digest": "sha256:c2846db91232169bf49dcf4c3d411317169b4aea1e84df29fee9db3947730c9a",
+              "sha256": "c2846db91232169bf49dcf4c3d411317169b4aea1e84df29fee9db3947730c9a",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.3.1",
+              "versionCode": 19,
+              "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
+              "sourceCommit": "b79e7d755a2337610b7faaa568e908c1b6b5cd2b"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.videoplayer",
       "repository": {
         "owner": "SuperMonster003",
@@ -7814,6 +7734,78 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.stove.agent",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Stove-Agent"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "title": "3-Stove Agent",
+      "description": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
+      "localizedDescriptions": {
+        "values": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
+        "values-ar": "\u064a\u0646\u0641\u0630 \u0645\u0647\u0627\u0645\u0627 \u0628\u0644\u063a\u0629 \u0637\u0628\u064a\u0639\u064a\u0629 \u0639\u0628\u0631 \u0627\u062e\u062a\u064a\u0627\u0631 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0627\u0644\u0645\u0633\u062c\u0644\u0629 \u0648\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0634\u0627\u0634\u0629 \u062e\u0637\u0648\u0629 \u0628\u062e\u0637\u0648\u0629",
+        "values-en": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
+        "values-es": "Ejecuta tareas en lenguaje natural eligiendo scripts registrados y manejando la pantalla paso a paso",
+        "values-fr": "Ex\u00e9cute des t\u00e2ches en langage naturel en choisissant des scripts enregistr\u00e9s et en manipulant l\\'\u00e9cran \u00e9tape par \u00e9tape",
+        "values-ja": "\u767b\u9332\u6e08\u307f\u30b9\u30af\u30ea\u30d7\u30c8\u306e\u9078\u629e\u3068\u753b\u9762\u306e\u6bb5\u968e\u7684\u306a\u64cd\u4f5c\u306b\u3088\u308a\u81ea\u7136\u8a00\u8a9e\u306e\u30bf\u30b9\u30af\u3092\u5b9f\u884c",
+        "values-ko": "\ub4f1\ub85d\ub41c \uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc120\ud0dd\ud558\uace0 \ud654\uba74\uc744 \ub2e8\uacc4\ubcc4\ub85c \uc870\uc791\ud558\uc5ec \uc790\uc5f0\uc5b4 \uc791\uc5c5\uc744 \uc2e4\ud589",
+        "values-ru": "\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u0437\u0430\u0434\u0430\u0447\u0438 \u043d\u0430 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c \u044f\u0437\u044b\u043a\u0435, \u0432\u044b\u0431\u0438\u0440\u0430\u044f \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0441\u043a\u0440\u0438\u043f\u0442\u044b \u0438 \u043f\u043e\u0448\u0430\u0433\u043e\u0432\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044f \u044d\u043a\u0440\u0430\u043d\u043e\u043c",
+        "values-zh": "\u6309\u81ea\u7136\u8bed\u8a00\u76ee\u6807\u9009\u62e9\u5df2\u767b\u8bb0\u811a\u672c\u5e76\u9010\u6b65\u64cd\u4f5c\u754c\u9762\u5b8c\u6210\u4efb\u52a1",
+        "values-zh-rHK": "\u6309\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9",
+        "values-zh-rTW": "\u4f9d\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "three-stove-agent",
+      "variant": "default",
+      "engineId": "three-stove-agent",
+      "requiresHostVersion": 5298,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.2.0",
+          "versionCode": 155,
+          "versionDate": "2026-09-28",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/tag/v1.2.0",
+          "changelogText": "## 3-Stove Agent 1.2.0\r\n\r\nThe AutoJs6 AI agent plugin, renamed from AI Agent (see the hint below). Optional MCP tools, native tool calling, screenshot observation and generated scripts; a redesigned standalone app on Material 3 with a task feed, presets, memory, failure alerts and a floating ball.\r\n\r\n### Requirements\r\n\r\n- AutoJs6 6.8.0 / build 5298 or later. This is the plugin contract V2 host; it already contains every host change the plugin relies on: attachment (5289+), the task API (5293+), native tool calling and image input (5297+).\r\n- A model provider configured in AutoJs6. Native tool calling needs a tools-capable target, for example an online target from 3-Stone AI 1.2.0 or later; other targets keep the JSON decision path.\r\n- Android 7.0 (API 24) or later. Screen actions use the host accessibility service, started through the unattended method configured in AutoJs6 (Root, secure settings or Shizuku) when available.\r\n\r\n### Rename hint\r\n\r\nThe application ID is now `io.github.supermonster003.autojs6.plugin.three.stove.agent`, the plugin ID and engine are `three-stove-agent` and the service action is `org.autojs.plugin.THREE_STOVE_AGENT`. Uninstall the old AI Agent before installing; history, presets and memories are not migrated.\r\n\r\n### Known limitations\r\n\r\n- Small on-device models (Gemma 4 E2B / E4B) decide poorly; prefer an online target for real tasks.\r\n- With default Wi-Fi auto-connect, failures after the VPN's underlying network switches remain unresolved.\r\n- A complete cross-UID vision task has not been accepted; AiGoCode gpt-5.6-sol only passed the initial-image and tool-result-image probes.\r\n\r\n### Verification\r\n\r\nAccepted on five real devices (Xiaomi Pad 6, Redmi Note 12, Sony XQ-DQ72, XQ-AT72, G8441) and on API 24 / 35 / 36.1 emulators; the full evidence is in ROADMAP.md (P11 and P12).\r\n\r\n### Asset\r\n\r\n- `autojs6-plugin-three-stove-agent-v1.2.0-98db6483.apk` (SHA-256 `d7739556f42e9d733e38df733b2b499ed9c9b5a3a2065539db64ec1457b2b228`, CRC32 `98DB6483`)\r\n\r\nThe complete change list is in the in-app version history and in `app/src/main/assets/doc/CHANGELOG.md`.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-stove-agent-v1.2.0-98db6483.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/download/v1.2.0/autojs6-plugin-three-stove-agent-v1.2.0-98db6483.apk",
+              "size": 2471116,
+              "digest": "sha256:d7739556f42e9d733e38df733b2b499ed9c9b5a3a2065539db64ec1457b2b228"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
       "nativePageAlignmentSource": "measured"
     },
     {

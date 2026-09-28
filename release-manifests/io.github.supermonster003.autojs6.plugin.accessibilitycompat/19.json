@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "owner": "SuperMonster003",
-  "repository": "AutoJs6-Plugin-Accessibility-Compat",
+  "repository": "AutoJs6-Plugin-Three-Adapt-A11y",
   "releaseTag": "v1.3.1",
   "sourceCommit": "b79e7d755a2337610b7faaa568e908c1b6b5cd2b",
   "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",

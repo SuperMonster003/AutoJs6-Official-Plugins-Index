@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "owner": "SuperMonster003",
-  "repository": "AutoJs6-Plugin-AI-Agent",
+  "repository": "AutoJs6-Plugin-Three-Stove-Agent",
   "releaseTag": "v1.0.0",
   "sourceCommit": "20a2ecc25a5e3932f3996ff206d834daed8ba2d0",
   "packageName": "io.github.supermonster003.autojs6.plugin.ai.agent",
