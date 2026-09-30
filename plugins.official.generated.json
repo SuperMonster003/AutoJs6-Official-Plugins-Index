@@ -7793,7 +7793,15 @@
               "name": "autojs6-plugin-three-stove-agent-v1.2.0-98db6483.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/download/v1.2.0/autojs6-plugin-three-stove-agent-v1.2.0-98db6483.apk",
               "size": 2471116,
-              "digest": "sha256:d7739556f42e9d733e38df733b2b499ed9c9b5a3a2065539db64ec1457b2b228"
+              "digest": "sha256:d7739556f42e9d733e38df733b2b499ed9c9b5a3a2065539db64ec1457b2b228",
+              "sha256": "d7739556f42e9d733e38df733b2b499ed9c9b5a3a2065539db64ec1457b2b228",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.2.0",
+              "versionCode": 155,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stove.agent",
+              "sourceCommit": "1e104ed0866d71f399d87894bb97d8dbcb7bd920"
             }
           ],
           "prerelease": false,
