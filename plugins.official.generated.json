@@ -7543,10 +7543,10 @@
       "packageName": "io.github.supermonster003.autojs6.plugin.videoplayer",
       "repository": {
         "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Three-Ember-Player"
+        "name": "AutoJs6-Plugin-Three-Amber-Player"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/mipmap/ic_launcher.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/mipmap-night/ic_launcher.png",
       "title": "3-Ember Player",
       "description": "Video playback with playlists, subtitles, and background audio",
       "localizedDescriptions": {
@@ -7563,19 +7563,19 @@
         "values-zh-rTW": "\u652f\u63f4\u64ad\u653e\u6e05\u55ae, \u5b57\u5e55\u8207\u80cc\u666f\u97f3\u8a0a\u7684\u5f71\u7247\u64ad\u653e\u5668"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -7585,12 +7585,12 @@
           "versionName": "3.1.2",
           "versionCode": 28,
           "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/releases/tag/v3.1.2",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/tag/v3.1.2",
           "changelogText": "Three Ember Player 3.1.2\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `d2e4aab8d3f646689a6dc0a599b5f3485f636153`\r\n\r\nPublished release.\r\n\r\n- Fix: Background audio handoff losing foreground service state when the Activity cancels the shared playback notification on Android 17\r\n- Fix: Background playback service remaining active after a media controller stops playback\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Target Android 17 (SDK 37) with foreground service support for background audio playback\r\n\r\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
               "name": "autojs6-plugin-three-ember-player-v3.1.2-universal-58D280DE.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Ember-Player/releases/download/v3.1.2/autojs6-plugin-three-ember-player-v3.1.2-universal-58D280DE.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/download/v3.1.2/autojs6-plugin-three-ember-player-v3.1.2-universal-58D280DE.apk",
               "size": 3284673,
               "digest": "sha256:d5a2391085aa0ac51471fa32dad42e62f4c9c8e0458e6b6090fb1e4a34c37c88",
               "sha256": "d5a2391085aa0ac51471fa32dad42e62f4c9c8e0458e6b6090fb1e4a34c37c88",
