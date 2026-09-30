@@ -7885,7 +7885,7 @@
           ],
           "prerelease": false,
           "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
+          "nativePageAlignmentSource": "declared"
         }
       ],
       "tags": [
@@ -7893,7 +7893,7 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "declared"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
