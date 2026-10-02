@@ -23,8 +23,8 @@ the release channel, and `repository.owner` / `repository.name` identify the sou
 repository independently of APK flavors. A prerelease is not promoted to stable by
 indexing it.
 
-`official-repositories.json` records the 45 expected official projects, including
-Three Stove Agent and Readium EPUB Reader. Generation fails before writing the index if
+`official-repositories.json` records the 46 expected official projects, including
+Three Setup Installer, Three Stove Agent and Readium EPUB Reader. Generation fails before writing the index if
 any required project lacks a featured entry with published APK assets, or package
 names collide.
 Additional repositories can still be discovered automatically; add new official
