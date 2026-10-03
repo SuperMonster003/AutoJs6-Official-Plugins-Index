@@ -180,86 +180,6 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.angus.mail",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Angus-Mail"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "Angus Mail",
-      "description": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
-      "localizedDescriptions": {
-        "values": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
-        "values-ar": "\u064a\u0631\u0633\u0644 \u0627\u0644\u0628\u0631\u064a\u062f \u0648\u064a\u0633\u062a\u0642\u0628\u0644\u0647 \u0648\u064a\u0628\u062d\u062b \u0641\u064a\u0647 \u0648\u064a\u0631\u0627\u0642\u0628\u0647 \u0639\u0628\u0631 IMAP \u0648 POP3 \u0648 SMTP",
-        "values-en": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
-        "values-es": "Env\u00eda, recibe, busca y vigila el correo mediante IMAP, POP3 y SMTP",
-        "values-fr": "Envoie, re\u00e7oit, recherche et surveille le courrier via IMAP, POP3 et SMTP",
-        "values-ja": "IMAP, POP3, SMTP \u3067\u30e1\u30fc\u30eb\u3092\u9001\u53d7\u4fe1, \u691c\u7d22, \u76e3\u8996\u3059\u308b",
-        "values-ko": "IMAP, POP3, SMTP\ub85c \uba54\uc77c\uc744 \ubcf4\ub0b4\uace0 \ubc1b\uace0 \uac80\uc0c9\ud558\uace0 \uac10\uc2dc\ud569\ub2c8\ub2e4",
-        "values-ru": "\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442, \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442, \u0438\u0449\u0435\u0442 \u0438 \u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u0442 \u043f\u043e\u0447\u0442\u0443 \u043f\u043e IMAP, POP3 \u0438 SMTP",
-        "values-zh": "\u901a\u8fc7 IMAP, POP3 \u548c SMTP \u6536\u53d1, \u641c\u7d22\u548c\u76d1\u542c\u90ae\u4ef6",
-        "values-zh-rHK": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6",
-        "values-zh-rTW": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/refs/tags/v1.2.1/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "mail",
-      "variant": "default",
-      "engineId": "angus-mail",
-      "requiresHostVersion": 5282,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.2.1",
-          "versionCode": 68,
-          "versionDate": "2026-09-22",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/tag/v1.2.1",
-          "changelogText": "Angus Mail 1.2.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `0c9f6fadec320e782576462f4ff57cc0e9313af9`\n\nPublished release.\n\n- Fix: The `closed` event of a watch on a session close always names the reason `closed`: the session's worker thread could stop some of the watches first with `session-closed` (seen once in the connected suite on the API 24 emulator).\n- Improvement: The release build carries the maintainer's Google OAuth 2.0 client id as well (the Android client registered on 2026-09-22), so the Gmail preset offers \"Sign in with Google (browser)\". The Google project is in Testing: only its test users can sign in and their refresh tokens expire after 7 days (the plugin then shows \"sign in again\"); other Google accounts get Google's access-denied page, and the token and app-password paths stay as before.\n\nAPK checksums are in `SHA256SUMS`.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-angus-mail-v1.2.1-31f542c9.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Angus-Mail/releases/download/v1.2.1/autojs6-plugin-angus-mail-v1.2.1-31f542c9.apk",
-              "size": 2381525,
-              "digest": "sha256:ed8f5c267b1927ecb99dbd6730c8ad91183b4ea3db241d6a764888c18efa38cd",
-              "sha256": "ed8f5c267b1927ecb99dbd6730c8ad91183b4ea3db241d6a764888c18efa38cd",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.2.1",
-              "versionCode": 68,
-              "packageName": "io.github.supermonster003.autojs6.plugin.angus.mail",
-              "sourceCommit": "0c9f6fadec320e782576462f4ff57cc0e9313af9"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
-    },
-    {
       "packageName": "org.autojs.plugin.apkbuilder.template",
       "repository": {
         "owner": "SuperMonster003",
@@ -7680,6 +7600,85 @@
               "versionCode": 63,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.setup.installer",
               "sourceCommit": "1e63028234e9542f13a1fec8aa75eaa09cf25114"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Stamp-Mail"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/mipmap/ic_launcher_system.png",
+      "title": "3-Stamp Mail",
+      "description": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
+      "localizedDescriptions": {
+        "values": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
+        "values-ar": "\u064a\u0631\u0633\u0644 \u0627\u0644\u0628\u0631\u064a\u062f \u0648\u064a\u0633\u062a\u0642\u0628\u0644\u0647 \u0648\u064a\u0628\u062d\u062b \u0641\u064a\u0647 \u0648\u064a\u0631\u0627\u0642\u0628\u0647 \u0639\u0628\u0631 IMAP \u0648 POP3 \u0648 SMTP",
+        "values-en": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
+        "values-es": "Env\u00eda, recibe, busca y vigila el correo mediante IMAP, POP3 y SMTP",
+        "values-fr": "Envoie, re\u00e7oit, recherche et surveille le courrier via IMAP, POP3 et SMTP",
+        "values-ja": "IMAP, POP3, SMTP \u3067\u30e1\u30fc\u30eb\u3092\u9001\u53d7\u4fe1, \u691c\u7d22, \u76e3\u8996\u3059\u308b",
+        "values-ko": "IMAP, POP3, SMTP\ub85c \uba54\uc77c\uc744 \ubcf4\ub0b4\uace0 \ubc1b\uace0 \uac80\uc0c9\ud558\uace0 \uac10\uc2dc\ud569\ub2c8\ub2e4",
+        "values-ru": "\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442, \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442, \u0438\u0449\u0435\u0442 \u0438 \u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u0442 \u043f\u043e\u0447\u0442\u0443 \u043f\u043e IMAP, POP3 \u0438 SMTP",
+        "values-zh": "\u901a\u8fc7 IMAP, POP3 \u548c SMTP \u6536\u53d1, \u641c\u7d22\u548c\u76d1\u542c\u90ae\u4ef6",
+        "values-zh-rHK": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6",
+        "values-zh-rTW": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "mail",
+      "variant": "default",
+      "engineId": "three-stamp-mail",
+      "requiresHostVersion": 5316,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "2.0.0",
+          "versionCode": 76,
+          "versionDate": "2026-10-03",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/tag/v2.0.0",
+          "changelogText": "3-Stamp Mail v2.0.0 is the renamed AutoJs6 mail plugin, powered by Eclipse Angus Mail.\n\n### \u7b80\u4f53\u4e2d\u6587\n\n- \u5e94\u7528\u66f4\u540d\u4e3a **3-Stamp Mail**, \u4ed3\u5e93\u66f4\u540d\u4e3a **AutoJs6-Plugin-Three-Stamp-Mail**, \u540c\u6b65\u66f4\u65b0\u5305\u540d, \u63d2\u4ef6\u8eab\u4efd, \u7ec4\u4ef6, \u6587\u6863\u53ca\u53d1\u5e03\u6587\u4ef6\u540d.\n- \u4f7f\u7528\u7ef4\u62a4\u8005\u63d0\u4f9b\u7684\u4eae\u6697\u4fe1\u5c01\u56fe\u6807, \u4fdd\u7559\u539f\u7a3f\u6298\u7ebf\u7ec6\u8282\u548c\u900f\u660e\u80cc\u666f; \u652f\u6301\u81ea\u9002\u5e94\u4eae\u8272, \u6697\u8272, \u81ea\u52a8\u53ca\u900f\u660e\u56db\u79cd\u542f\u52a8\u5668\u56fe\u6807.\n- \u5408\u5e76\u6b64\u524d\u5c1a\u672a\u53d1\u5e03\u7684\u5916\u89c2\u8bbe\u7f6e\u66f4\u65b0: \u7edf\u4e00\u8bed\u8a00, \u591c\u95f4\u6a21\u5f0f, \u4e3b\u9898\u8272\u548c\u56fe\u6807\u8bbe\u7f6e, \u63d0\u4f9b\u786e\u8ba4/\u53d6\u6d88\u8bed\u4e49\u53ca\u989c\u8272\u9884\u89c8, \u540e\u53f0\u8bfb\u53d6\u5bbf\u4e3b\u5916\u89c2.\n- Android 7 \u7684\u6d45\u8272\u6a21\u5f0f\u4fdd\u7559\u6df1\u8272\u5bfc\u822a\u680f, \u4f7f\u7cfb\u7edf\u5bfc\u822a\u6309\u94ae\u6e05\u6670\u53ef\u89c1.\n- \u4fdd\u7559 Google/Microsoft \u6d4f\u89c8\u5668\u767b\u5f55, \u4f7f\u7528\u65b0\u5305\u540d\u5bf9\u5e94\u7684 OAuth \u6ce8\u518c\u548c\u56de\u8c03. Google \u767b\u5f55\u4ecd\u53d7\u5176\u9879\u76ee\u73b0\u6709\u6d4b\u8bd5\u7528\u6237\u4e0e\u6388\u6743\u8303\u56f4\u9650\u5236.\n- README \u548c\u63d2\u4ef6\u8bf4\u660e\u8865\u5145\u7cbe\u7b80\u81f4\u8c22, \u5e76\u63d0\u4f9b\u6765\u6e90/\u8bb8\u53ef\u8bc1\u8be6\u60c5\u53ca\u6743\u5229\u5f02\u8bae\u5904\u7406\u8bf4\u660e.\n\n**\u5b89\u88c5\u4e0e\u8fc1\u79fb:** \u65b0\u5305\u540d\u4e3a `io.github.supermonster003.autojs6.plugin.three.stamp.mail`, Android \u4f1a\u5c06\u5176\u4f5c\u4e3a\u72ec\u7acb\u5e94\u7528\u5b89\u88c5. \u65e7 Angus Mail \u53ef\u4ee5\u4fdd\u7559\u5e76\u5b58; \u8d26\u6237, \u8bbe\u7f6e\u4e0e\u540e\u53f0\u5b88\u671b\u4e0d\u4f1a\u81ea\u52a8\u8fc1\u79fb, \u8bf7\u91cd\u65b0\u914d\u7f6e\u548c\u767b\u5f55. \u5728\u63d2\u4ef6\u4e2d\u5fc3\u542f\u7528\u65b0\u63d2\u4ef6; \u82e5\u4e24\u4e2a\u90ae\u4ef6\u63d2\u4ef6\u5747\u542f\u7528, \u5c06 3-Stamp Mail \u8bbe\u4e3a\u4f18\u5148\u4f7f\u7528\u7684\u90ae\u4ef6\u63d2\u4ef6.\n\n\u9700\u8981 Android 7.0 (API 24) \u6216\u66f4\u9ad8\u7248\u672c, \u4ee5\u53ca AutoJs6 6.8.0 build 5316 \u6216\u66f4\u9ad8\u7248\u672c. \u811a\u672c\u5bf9\u8c61 `mail` \u4e0e\u73b0\u6709\u90ae\u4ef6\u534f\u8bae\u4fdd\u6301\u4e0d\u53d8.\n\n### English\n\n- Renames the application to **3-Stamp Mail** and the repository to **AutoJs6-Plugin-Three-Stamp-Mail**, with matching package, plugin identity, components, documentation and APK filenames.\n- Uses the supplied light/dark envelope artwork with its original fold detail, transparent in-app icons, and four launcher choices.\n- Includes the previously unpublished appearance settings: language, dark mode, theme color and launcher selection, confirmation dialogs, color previews and background host-appearance reads.\n- Keeps Android 7 navigation buttons readable with a dark system navigation bar in light mode.\n- Retains Google/Microsoft browser sign-in with the new registration and callbacks. Google's existing project audience restrictions still apply.\n- Adds compact acknowledgements, source/license details and a rights-concern process.\n\n**Installation:** The new package installs separately. Old accounts, settings and background watches are not migrated; configure them and sign in again. The old application may remain installed. Enable 3-Stamp Mail in Plugin Center and select it as the preferred mail plugin if both are enabled. Requires Android 7.0+ and AutoJs6 6.8.0 build 5316+. The `mail` script API and mail protocol remain unchanged.\n\n### Validation and files\n\nBuild 76. Local validation: mail-core JVM 273 passed / 2 optional skips; app JVM 88 passed; host API and mail/settings JVM 84 passed; API 24 instrumentation 41 passed / 14 assumption skips, followed by 11 build-75 appearance/icon/metadata regression passes; relevant Sony API 31 instrumentation 22 passed / 1 real-account skip. Debug, instrumentation and signed release assembly passed. Lint: 0 errors, 67 warnings. No live-account send/receive or new Google consent session was repeated for this rename.\n\nThe APK is one architecture-independent package with no native libraries, signed by the existing release key. Verify it with the attached `SHA256SUMS`.\n\n[Validation details](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/blob/v2.0.0/docs/dev/three-stamp-mail-2.0-validation.md) \u00b7 [Sources and acknowledgements](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/blob/v2.0.0/THIRD_PARTY_NOTICES.md) \u00b7 [Rights concerns](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/blob/v2.0.0/RIGHTS_AND_TAKEDOWN.md)\n\nThe asynchronous host-appearance probe now checks both supported environments: an installed official host supplies a snapshot; standalone CI must report NOT_INSTALLED without a snapshot.\n\nGitHub CI passed for the published source commit: [Build integrity, including API 24 and API 35](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/actions/runs/37099922131) and [Markdown and launcher artwork](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/actions/runs/37099922127).",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-stamp-mail-v2.0.0-7df29dff.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/download/v2.0.0/autojs6-plugin-three-stamp-mail-v2.0.0-7df29dff.apk",
+              "size": 2682609,
+              "digest": "sha256:0ce3ed3c540ee0b458465c950d181d9d858bce21bfc433c4c421c9ce4b013ea6",
+              "sha256": "0ce3ed3c540ee0b458465c950d181d9d858bce21bfc433c4c421c9ce4b013ea6",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.0.0",
+              "versionCode": 76,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
+              "sourceCommit": "c744c8f617afcffe8c7d9c5ea543dd079fe6ea36"
             }
           ],
           "prerelease": false,

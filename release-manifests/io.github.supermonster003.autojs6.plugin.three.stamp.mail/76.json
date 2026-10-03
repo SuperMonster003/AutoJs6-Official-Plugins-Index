@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Stamp-Mail",
+  "releaseTag": "v2.0.0",
+  "sourceCommit": "c744c8f617afcffe8c7d9c5ea543dd079fe6ea36",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
+  "versionName": "2.0.0",
+  "versionCode": 76,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-stamp-mail-v2.0.0-7df29dff.apk",
+      "sha256": "0ce3ed3c540ee0b458465c950d181d9d858bce21bfc433c4c421c9ce4b013ea6",
+      "sizeBytes": 2682609
+    }
+  ]
+}
