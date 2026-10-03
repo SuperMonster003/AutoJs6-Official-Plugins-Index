@@ -24,7 +24,7 @@ repository independently of APK flavors. A prerelease is not promoted to stable 
 indexing it.
 
 `official-repositories.json` records the 46 expected official projects, including
-Three Setup Installer, Three Stove Agent and Readium EPUB Reader. Generation fails before writing the index if
+Three Setup Installer, Three Stove Agent and Three Folio EPUB. Generation fails before writing the index if
 any required project lacks a featured entry with published APK assets, or package
 names collide.
 Additional repositories can still be discovered automatically; add new official
@@ -35,6 +35,12 @@ Version parsing preserves `VERSION_CODE_OFFSET` and APK Builder's paired-host
 composite Android version. Static Gradle package constants, multiline `resValue`
 calls, and explicit numeric reads from `version.properties` are supported without
 executing Gradle. Unresolved expressions remain errors.
+
+Minimum host versions may also use a numeric variable read through the audited
+trim/nonempty `Properties` accessor from `gradle/*.properties`, as used by 3-Folio EPUB.
+The generator follows that explicit loader in the same release tag. Missing,
+duplicate, invalid or escaping references fail generation; an unsupported dynamic
+minimum is never silently treated as absent.
 
 Published source trees must be complete. If a file listed in that tree cannot be
 downloaded, generation fails before writing the index instead of treating the
@@ -146,3 +152,27 @@ Run the generator unit tests without network access:
 ```sh
 python -m unittest discover -s tools -p 'test_*.py' -v
 ```
+
+## Catalog artwork and retired identities
+
+`catalog-icons.json` owns the display artwork independently of APK release metadata.
+The day/night 432 px transparent PNGs are retained under `icons/<package>/<sha256>.png`.
+The generator verifies their format, dimensions and digest; changing artwork requires a new
+content-addressed filename, so image caches cannot reuse the previous revision's URL.
+These images are copied from the plugin's reviewed generated `ic_plugin_center` assets.
+The manifest records source provenance; it does not claim a new APK release.
+Artwork can be prepared before a project's first publication (currently 3-Shell
+Terminal). That registration does not create a downloadable catalog entry: the
+generator still requires a real published repository release and APK assets.
+
+For every official package the index sets `forceIgnoreLocalIcon=true`: Plugin Center uses the
+same catalog artwork before and after installation, even if an installed APK contains an
+older brand icon. Launcher and in-app artwork remain owned by the APK. Offline loading uses
+the existing image cache. Package names, release versions, download URLs and admission hashes
+continue to come from actual published APK releases; artwork cannot rewrite those facts.
+
+`retired-packages.json` names superseded installation identities and their replacements.
+Generation fails if any retired identity reappears. Existing GitHub release history and
+admission receipts are retained, but retired packages are not downloadable entries in the
+current official catalog. A renamed repository must publish its new installation identity
+before the index update can pass the retirement and repository-coverage checks.

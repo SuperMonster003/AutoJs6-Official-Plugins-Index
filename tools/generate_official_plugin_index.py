@@ -13,6 +13,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 from native_page_alignment import release_alignment
+from catalog_presentation import apply_catalog_presentation
 
 
 OFFICIAL_OWNER = "SuperMonster003"
@@ -97,6 +98,7 @@ def main() -> int:
 
     if args.augment_native_alignment:
         payload = json.loads(args.output.read_text(encoding="utf-8"))
+        apply_catalog_presentation(payload["items"])
         for item in payload["items"]:
             for release in item.get("releases", []):
                 declared = release.get("nativePageAlignment") if release.get("nativePageAlignmentSource") == "declared" else None
@@ -117,6 +119,7 @@ def main() -> int:
             items.extend(entries)
             print(f"Indexed {repo['name']}: {len(entries)} distributions", flush=True)
 
+    apply_catalog_presentation(items)
     validate_repository_coverage(items, json.loads(args.required_repositories.read_text(encoding="utf-8")))
     payload = build_payload(items)
     args.output.write_text(
@@ -225,6 +228,7 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
         manifest_text=manifest_text,
         build_gradle=build_gradle,
         manifest_placeholders=manifest_placeholders,
+        read_source=read_source,
         admission_root=admission_root,
         native_cache=native_cache,
     )
@@ -257,6 +261,7 @@ def build_entries_from_release(
     manifest_text: str | None,
     build_gradle: str,
     manifest_placeholders: dict[str, str] | None = None,
+    read_source=None,
     admission_root: Path | None = None,
     admission_manifest_text: str | None = None,
     source_commit: str | None = None,
@@ -327,6 +332,7 @@ def build_entries_from_release(
         build_gradle,
         allow_global_fallback=not flavors,
         version_map=version_map,
+        read_source=read_source,
     )
     manifest_contract_values = {
         field: parse_manifest_metadata_values(manifest_text, manifest_key)
@@ -800,7 +806,7 @@ def parse_product_flavors(build_gradle: str) -> list[ProductFlavor]:
     return flavors
 
 
-def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback: bool = False, version_map: dict[str, str] | None = None) -> dict[str, str]:
+def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback: bool = False, version_map: dict[str, str] | None = None, read_source=None) -> dict[str, str]:
     default_config_block = extract_named_block(build_gradle, "defaultConfig")
     scope = default_config_block if default_config_block is not None else build_gradle
     result = parse_res_values(scope)
@@ -810,6 +816,12 @@ def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback:
         if resource in result:
             raise RuntimeError(f"Duplicate static resource {resource!r}.")
         result[resource] = resolve_numeric_version_property(build_gradle, properties_name, key, version_map)
+    for variable in re.findall(
+        r'resValue\(\s*"string"\s*,\s*"plugin_requires_host_version"\s*,\s*([A-Za-z_][A-Za-z0-9_]*)\.toString\(\)\s*,?\s*\)', scope,
+    ):
+        if REQUIRES_HOST_VERSION_RESOURCE in result:
+            raise RuntimeError("Duplicate minimum host version resource.")
+        result[REQUIRES_HOST_VERSION_RESOURCE] = resolve_numeric_compatibility_property(build_gradle, variable, read_source)
     add_build_config_fallbacks(result, scope)
 
     if allow_global_fallback and default_config_block is not None:
@@ -817,7 +829,67 @@ def parse_default_config_res_values(build_gradle: str, *, allow_global_fallback:
         add_build_config_fallbacks(global_values, build_gradle)
         for key, value in global_values.items():
             result.setdefault(key, value)
+    declared_minimums = re.findall(r'resValue\(\s*"string"\s*,\s*"plugin_requires_host_version"\s*,', scope)
+    if len(declared_minimums) > 1 or (declared_minimums and REQUIRES_HOST_VERSION_RESOURCE not in result):
+        raise RuntimeError("Unresolved or ambiguous minimum host version resource.")
     return resolve_static_resource_strings(result, build_gradle)
+
+
+def resolve_numeric_compatibility_property(build_gradle: str, variable: str, read_source) -> str:
+    """Read the audited numeric-property helper without executing Gradle code.
+
+    Follow one variable, one trim/nonempty property accessor and one Properties
+    loader to a confined gradle/*.properties file from the published source tree.
+    Unsupported or ambiguous expressions cannot silently drop the host minimum.
+    """
+    identifier = r'[A-Za-z_][A-Za-z0-9_]*'
+
+    def one_val(name: str) -> str:
+        declaration = rf'\bval\s+{re.escape(name)}\s*='
+        if len(re.findall(declaration, build_gradle)) != 1:
+            raise RuntimeError(f"Unresolved or ambiguous compatibility declaration {name!r}.")
+        return declaration
+
+    declaration = one_val(variable)
+    literals = re.findall(declaration + r'\s*([0-9]+)L?\s*(?:;|$)', build_gradle, re.MULTILINE)
+    if len(literals) == 1:
+        return str(parse_positive_long(literals[0], source=variable))
+    numeric = re.findall(
+        declaration + rf'\s*({identifier})\("({identifier})"\)\.to(?:Int|Long)\(\)\s*(?:;|$)',
+        build_gradle, re.MULTILINE,
+    )
+    if len(numeric) != 1:
+        raise RuntimeError(f"Unresolved compatibility value {variable!r}.")
+    accessor, key = numeric[0]
+    function = rf'\bfun\s+{re.escape(accessor)}\s*\('
+    if len(re.findall(function, build_gradle)) != 1:
+        raise RuntimeError(f"Unresolved or ambiguous compatibility accessor {accessor!r}.")
+    helpers = re.findall(
+        function + rf'\s*({identifier})\s*:\s*String\s*\)\s*:\s*String\s*=\s*'
+        + rf'({identifier})\.getProperty\(\1\)\s*\?\.trim\(\)\s*'
+        + r'\?\.takeIf\(String::isNotEmpty\)\s*\?:\s*error\("(?:\\.|[^"\\])*"\)\s*(?:;|$)',
+        build_gradle, re.MULTILINE,
+    )
+    if len(helpers) != 1:
+        raise RuntimeError(f"Unsupported compatibility accessor {accessor!r}.")
+    properties_name = helpers[0][1]
+    loaders = re.findall(
+        one_val(properties_name) + rf'\s*Properties\(\)\.apply\s*\{{\s*({identifier})'
+        + r'\.inputStream\(\)\.use\(::load\)\s*\}', build_gradle,
+    )
+    if len(loaders) != 1:
+        raise RuntimeError(f"Unsupported compatibility property loader {properties_name!r}.")
+    paths = re.findall(
+        one_val(loaders[0]) + r'\s*rootProject\.file\("(gradle/[A-Za-z0-9_-]+\.properties)"\)\s*(?:;|$)',
+        build_gradle, re.MULTILINE,
+    )
+    if len(paths) != 1 or read_source is None:
+        raise RuntimeError("Compatibility properties require a confined published source file.")
+    source = read_source(paths[0])
+    values = re.findall(rf'^\s*{re.escape(key)}\s*=\s*([^\r\n]*)', source or '', re.MULTILINE)
+    if len(values) != 1:
+        raise RuntimeError(f"Compatibility property {key!r} must occur exactly once.")
+    return str(parse_positive_long(values[0].strip(), source=f"{paths[0]} {key}"))
 
 
 def resolve_static_resource_strings(values: dict[str, str], build_gradle: str) -> dict[str, str]:

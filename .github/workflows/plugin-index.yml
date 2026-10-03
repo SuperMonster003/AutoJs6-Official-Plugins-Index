@@ -7,6 +7,12 @@ on:
       - tools/generate_official_plugin_index.py
       - tools/test_generate_official_plugin_index.py
       - official-repositories.json
+      - catalog-icons.json
+      - retired-packages.json
+      - icons/**
+      - tools/catalog_presentation.py
+      - tools/test_catalog_presentation.py
+      - tools/test_compatibility_properties.py
       - release-manifests/**
       - .github/workflows/plugin-index.yml
   push:
@@ -17,6 +23,12 @@ on:
       - tools/generate_official_plugin_index.py
       - tools/test_generate_official_plugin_index.py
       - official-repositories.json
+      - catalog-icons.json
+      - retired-packages.json
+      - icons/**
+      - tools/catalog_presentation.py
+      - tools/test_catalog_presentation.py
+      - tools/test_compatibility_properties.py
       - release-manifests/**
       - .github/workflows/plugin-index.yml
   workflow_dispatch:

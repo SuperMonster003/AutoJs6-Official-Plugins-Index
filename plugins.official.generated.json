@@ -177,7 +177,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "org.autojs.plugin.apkbuilder.template",
@@ -358,7 +359,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.apkinspector",
@@ -433,7 +435,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.archivemanager",
@@ -608,7 +611,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
@@ -744,7 +748,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.dexcompiler",
@@ -820,7 +825,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.fileinspector",
@@ -895,7 +901,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.htmlpreviewer",
@@ -970,7 +977,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imagequant",
@@ -1138,7 +1146,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imagetools",
@@ -1213,7 +1222,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imageviewer",
@@ -1288,7 +1298,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
@@ -1456,7 +1467,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.java.runtime",
@@ -1543,7 +1555,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.kotlin.runtime",
@@ -1628,7 +1641,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.lua.runtime",
@@ -1797,7 +1811,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.markdownpreviewer",
@@ -1872,7 +1887,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
@@ -1952,7 +1968,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
@@ -2123,7 +2140,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mlkit.barcode",
@@ -2288,7 +2306,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mlkitocr",
@@ -2459,7 +2478,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
@@ -2602,7 +2622,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.offlinedocs",
@@ -2678,7 +2699,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.opencc",
@@ -2686,8 +2708,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-OpenCC"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.4.2/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-OpenCC/refs/tags/v1.4.2/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.opencc/997e7e90bf000ed55e1035ebca2f13dcaef07ca940291168dd395a9f6306b6c5.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.opencc/c8fa20c72a8e29da62e93c5afd0edc522fe2a8943e85d33dc6e355943f27b46a.png",
       "title": "OpenCC",
       "description": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
       "localizedDescriptions": {
@@ -2849,7 +2871,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.opencv",
@@ -3017,7 +3040,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v3",
@@ -3139,7 +3163,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v4.mobile",
@@ -3310,7 +3335,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v4.server",
@@ -3481,7 +3507,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v4.mobile.en",
@@ -3652,7 +3679,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5",
@@ -3823,7 +3851,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.server",
@@ -3994,7 +4023,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.english",
@@ -4165,7 +4195,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.korean",
@@ -4336,7 +4367,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.latin",
@@ -4507,7 +4539,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.eslav",
@@ -4678,7 +4711,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.thai",
@@ -4849,7 +4883,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.greek",
@@ -5020,7 +5055,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.arabic",
@@ -5191,7 +5227,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.cyrillic",
@@ -5362,7 +5399,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.devanagari",
@@ -5533,7 +5571,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.telugu",
@@ -5704,7 +5743,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.tamil",
@@ -5875,7 +5915,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v6.tiny",
@@ -6047,7 +6088,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v6.small",
@@ -6219,7 +6261,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v6.medium",
@@ -6391,7 +6434,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.pinyin",
@@ -6470,7 +6514,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.pinyin4j",
@@ -6549,7 +6594,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.python.runtime",
@@ -6658,7 +6704,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.quickjs.runtime",
@@ -6825,7 +6872,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.r8compiler",
@@ -6833,8 +6881,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-R8-Compiler"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-R8-Compiler/refs/tags/v0.2.2-provider-dev/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-R8-Compiler/refs/tags/v0.2.2-provider-dev/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.r8compiler/dcfe730f295b3a09cc6d4da2ce9111ab107a28f75917d18b142c859b31599eb5.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.r8compiler/23c528907b3b745c98ddec73bb59f3cae020acdd2347fddbcebfab32b064561d.png",
       "title": "R8 Compiler",
       "description": "Shrinks, optimizes and obfuscates Java bytecode",
       "localizedDescriptions": {
@@ -6891,7 +6939,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3",
@@ -7062,7 +7111,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6",
@@ -7233,87 +7283,18 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.readium.epub.reader",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Readium-EPUB-Reader"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Readium EPUB Reader",
-      "description": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
-      "localizedDescriptions": {
-        "values": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
-        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u0643\u062a\u0628 EPUB \u0645\u0639 \u0627\u0644\u062a\u0646\u0642\u0644 \u0648\u0627\u0644\u0628\u062d\u062b \u0648\u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0635\u0648\u062a\u064a\u0629 \u0648\u0627\u0644\u0648\u0635\u0648\u0644 \u0645\u0646 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a",
-        "values-en": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
-        "values-es": "Lee libros EPUB con navegaci\u00f3n, b\u00fasqueda, lectura en voz alta y acceso desde scripts",
-        "values-fr": "Lit les livres EPUB avec navigation, recherche, lecture \u00e0 voix haute et acc\u00e8s par script",
-        "values-ja": "EPUB \u96fb\u5b50\u66f8\u7c4d\u3092\u8aad\u307f, \u76ee\u6b21, \u691c\u7d22, \u8aad\u307f\u4e0a\u3052\u3068\u30b9\u30af\u30ea\u30d7\u30c8\u62bd\u51fa\u3092\u63d0\u4f9b",
-        "values-ko": "EPUB \uc804\uc790\ucc45\uc744 \uc77d\uace0 \ubaa9\ucc28, \uac80\uc0c9, \uc77d\uc5b4\uc8fc\uae30\uc640 \uc2a4\ud06c\ub9bd\ud2b8 \ucd94\ucd9c\uc744 \uc81c\uacf5",
-        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0445 \u043a\u043d\u0438\u0433 EPUB \u0441 \u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c, \u043f\u043e\u0438\u0441\u043a\u043e\u043c, \u043e\u0437\u0432\u0443\u0447\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c \u0438\u0437 \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432",
-        "values-zh": "\u9605\u8bfb EPUB \u7535\u5b50\u4e66\u5e76\u63d0\u4f9b\u76ee\u5f55, \u641c\u7d22, \u6717\u8bfb\u4e0e\u811a\u672c\u63d0\u53d6\u80fd\u529b",
-        "values-zh-rHK": "\u95b1\u8b80 EPUB \u96fb\u5b50\u66f8\u4e26\u63d0\u4f9b\u76ee\u9304, \u641c\u5c0b, \u6717\u8b80\u8207\u6307\u4ee4\u78bc\u64f7\u53d6\u80fd\u529b",
-        "values-zh-rTW": "\u95b1\u8b80 EPUB \u96fb\u5b50\u66f8\u4e26\u63d0\u4f9b\u76ee\u9304, \u641c\u5c0b, \u6717\u8b80\u8207\u6307\u4ee4\u78bc\u64f7\u53d6\u80fd\u529b"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "explorer-action",
-      "variant": "default",
-      "engineId": "readium-epub-reader",
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.1.0",
-          "versionCode": 73,
-          "versionDate": "2026-09-21",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/releases/tag/v1.1.0",
-          "changelogText": "Readium EPUB Reader 1.1.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `092cf6c2efb8935c554a4d5949ea08226a6fda00`\n\nPublished release.\n\n- Hint: 1.1.0 closes roadmap P9 (highlights, notes and export): the reader highlights and annotates selected text, lists the highlights in a panel and exports them as Markdown; EPUB contract version 2 lets hosts that carry it read the highlights with `book.annotations()` and hear `highlight` events, while AutoJs6 6.8.0 (build 5282) keeps working with contract version 1\n- Feature: Highlights and notes in the reader (roadmap P9.2): the text-selection toolbar highlights the passage with the last chosen colour or opens the note editor (highlight / underline, five colours, note), highlights render in the page and a tap on one reopens its editor, the \"Highlights and notes\" panel lists them by chapter in reading order with jump / edit / delete / clear all, and the settings page shows and clears the stored highlights\n- Feature: Export of a book's highlights and notes as Markdown (roadmap P9.3): the panel's export button shares the text through the system share sheet or saves a `.md` file to a place chosen in the document picker; the document lists the title, the authors and the chapters in reading order with each passage, its note and the time\n- Feature: EPUB contract version 2 for hosts (roadmap P9.4): `IEpubBook.getAnnotations` lists the highlights and notes of a book in reading order, page by page, and a reader session sends a `highlight` event when one is added, edited or removed; the plugin keeps contract version 1 as its advertised baseline, names version 2 in `epubMaxContractVersion`, answers every book and session with the version the host's open request carried, and hosts of version 1 (AutoJs6 6.8.0 build 5282) see no change\n- Dependency: Add `androidx.room:room-runtime` 2.8.1 (the highlights and notes database, roadmap D4 / P9); `room-compiler` runs through KSP at build time only\n- Dependency: Upgrade `epub-api.aar` to the release build of EPUB contract version 2 (host module `plugin-api/epub-api`; the source host commit and digest are recorded in `libs/README.md` and `locks/host-api-aars.lock`)\n\nAPK checksums are in `SHA256SUMS`.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-readium-epub-reader-v1.1.0-7367b5ef.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Readium-EPUB-Reader/releases/download/v1.1.0/autojs6-plugin-readium-epub-reader-v1.1.0-7367b5ef.apk",
-              "size": 3446403,
-              "digest": "sha256:76548cfcb36393e32a0a9750fa86e112e3895098694cb17ff2fdcb7e74e7393a"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
-    },
-    {
-      "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.adapt.a11y",
       "repository": {
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Adapt-A11y"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "AutoJs6 Accessibility Compat",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.adapt.a11y/d5c12f2847456718c0b382cb27abe06dad2d80a3d85829974919edb1f19c7911.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.adapt.a11y/2ea4d213d3c0a9bfdad41ef4dac57ef5037447a5d2b9357423a56de30ee2f3f6.png",
+      "title": "3-Adapt A11y",
       "description": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
       "localizedDescriptions": {
         "values": "Optional experimental companion that may help AutoJs6 retrieve accessibility nodes from supported apps. It runs locally, ignores every event, and does not guarantee nodes on every page",
@@ -7329,47 +7310,47 @@
         "values-zh-rTW": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u5916\u639b\u7a0b\u5f0f, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "engine": "accessibility",
       "variant": "service-identity",
-      "engineId": "accessibility-compat",
+      "engineId": "three-adapt-a11y",
       "featured": true,
       "releases": [
         {
-          "versionName": "1.3.1",
-          "versionCode": 19,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/tag/v1.3.1",
-          "changelogText": "Accessibility Compat 1.3.1\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `b79e7d755a2337610b7faaa568e908c1b6b5cd2b`\r\n\r\nPublished release.\r\n\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Explain Advanced Protection in the host and companion, showing the global mode separately from actual service availability and secure settings control\r\n- Improvement: Raise targetSdk to 37 (Android 17) after compileSdk; the plugin's behavior does not depend on the new target\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.4.0",
+          "versionCode": 30,
+          "versionDate": "2026-10-03",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/tag/v1.4.0",
+          "changelogText": "3-Adapt A11y 1.4.0 uses the new application ID `io.github.supermonster003.autojs6.plugin.three.adapt.a11y`. Android installs it as a separate application. Accessibility Compat and its existing data can remain installed; settings do not migrate automatically. Enable the new service when needed.\n\n- The visible product identity is 3-Adapt A11y; the documented accessibility compatibility class remains unchanged.\n- Unified appearance settings follow AutoJs6 by default, with explicit confirmation and local theme previews.\n- Launcher and Plugin Center artwork follows the common optical size and neutral black/white/grayscale standard.\n- Service discovery, permission boundaries and the private AndroidX receiver permission are checked against the merged APK.\n\nThe signed universal APK is a JVM-only build (version code 30). It does not add networking or access to screen nodes or user content. Checksums are provided in `SHA256SUMS`.\n\n3-Adapt A11y 1.4.0 \u4f7f\u7528\u65b0\u7684\u72ec\u7acb\u5b89\u88c5\u8eab\u4efd, \u539f Accessibility Compat \u53ca\u5176\u6570\u636e\u53ef\u4ee5\u4fdd\u7559. \u672c\u7248\u7edf\u4e00\u5916\u89c2\u8bbe\u7f6e\u4e0e\u56fe\u6807\u89c4\u8303, \u4fdd\u7559\u5df2\u8bf4\u660e\u7684\u65e0\u969c\u788d\u517c\u5bb9\u673a\u5236\u548c\u9690\u79c1\u8fb9\u754c.",
           "assets": [
             {
-              "name": "autojs6-plugin-accessibility-compat-v1.3.1-EEA79F3C.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/download/v1.3.1/autojs6-plugin-accessibility-compat-v1.3.1-EEA79F3C.apk",
-              "size": 280169,
-              "digest": "sha256:c2846db91232169bf49dcf4c3d411317169b4aea1e84df29fee9db3947730c9a",
-              "sha256": "c2846db91232169bf49dcf4c3d411317169b4aea1e84df29fee9db3947730c9a",
+              "name": "autojs6-plugin-three-adapt-a11y-v1.4.0-6E052DD9.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/download/v1.4.0/autojs6-plugin-three-adapt-a11y-v1.4.0-6E052DD9.apk",
+              "size": 1817698,
+              "digest": "sha256:b88c40b113f423e55ca4f146fd29b670e6951b33970382cdadfc2f2d7fe8030b",
+              "sha256": "b88c40b113f423e55ca4f146fd29b670e6951b33970382cdadfc2f2d7fe8030b",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.1",
-              "versionCode": 19,
-              "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
-              "sourceCommit": "b79e7d755a2337610b7faaa568e908c1b6b5cd2b"
+              "versionName": "1.4.0",
+              "versionCode": 30,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.adapt.a11y",
+              "sourceCommit": "95efcd40b40a7e7ebca05f004f1f0e06586ecc5e"
             }
           ],
           "prerelease": false,
@@ -7382,17 +7363,18 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.videoplayer",
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.amber.player",
       "repository": {
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Amber-Player"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/mipmap-night/ic_launcher.png",
-      "title": "3-Ember Player",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.amber.player/1091798a3f42dc780ece7ce2d612d04070acd10dad7d41645ab7fabdb852f83e.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.amber.player/74459a03dafc013a9bd6c5cbaa354c4297e8e0071854937236c4ea40e3073489.png",
+      "title": "3-Amber Player",
       "description": "Video playback with playlists, subtitles, and background audio",
       "localizedDescriptions": {
         "values": "Video playback with playlists, subtitles, and background audio",
@@ -7408,44 +7390,44 @@
         "values-zh-rTW": "\u652f\u63f4\u64ad\u653e\u6e05\u55ae, \u5b57\u5e55\u8207\u80cc\u666f\u97f3\u8a0a\u7684\u5f71\u7247\u64ad\u653e\u5668"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "3.1.2",
-          "versionCode": 28,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/tag/v3.1.2",
-          "changelogText": "Three Ember Player 3.1.2\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `d2e4aab8d3f646689a6dc0a599b5f3485f636153`\r\n\r\nPublished release.\r\n\r\n- Fix: Background audio handoff losing foreground service state when the Activity cancels the shared playback notification on Android 17\r\n- Fix: Background playback service remaining active after a media controller stops playback\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Target Android 17 (SDK 37) with foreground service support for background audio playback\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "4.0.0",
+          "versionCode": 35,
+          "versionDate": "2026-10-03",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/tag/v4.0.0",
+          "changelogText": "3-Amber Player 4.0.0 adopts the new application ID `io.github.supermonster003.autojs6.plugin.three.amber.player` and the Amber product name. Android installs it as a separate app. The old 3-Ember Player installation and its data can remain; player settings are not migrated automatically.\n\n- Unified appearance settings follow AutoJs6 by default, with explicit confirmation and local color previews.\n- Launcher and Plugin Center artwork uses the shared optical sizing standard, preserving the triangle's optical centering.\n- Adaptive light, dark, automatic and transparent launcher modes remain available.\n\nThe APK is a signed universal, JVM-only build (version code 35). Existing video playback and Explorer Action protocols are retained. SHA-256 checksums are provided in `SHA256SUMS`.\n\n3-Amber Player 4.0.0 \u4f7f\u7528\u65b0\u7684\u72ec\u7acb\u5b89\u88c5\u8eab\u4efd. \u65e7\u7248 3-Ember Player \u53ca\u5176\u6570\u636e\u53ef\u4ee5\u4fdd\u7559, \u8bbe\u7f6e\u4e0d\u4f1a\u81ea\u52a8\u8fc1\u79fb. \u672c\u7248\u7edf\u4e00\u5916\u89c2\u8bbe\u7f6e\u4e0e\u56fe\u6807\u89c6\u89c9\u5c3a\u5bf8, \u4fdd\u7559\u89c6\u9891\u64ad\u653e\u548c Explorer Action \u63a5\u53e3.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-ember-player-v3.1.2-universal-58D280DE.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/download/v3.1.2/autojs6-plugin-three-ember-player-v3.1.2-universal-58D280DE.apk",
-              "size": 3284673,
-              "digest": "sha256:d5a2391085aa0ac51471fa32dad42e62f4c9c8e0458e6b6090fb1e4a34c37c88",
-              "sha256": "d5a2391085aa0ac51471fa32dad42e62f4c9c8e0458e6b6090fb1e4a34c37c88",
+              "name": "autojs6-plugin-three-amber-player-v4.0.0-universal-8F7226B1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/download/v4.0.0/autojs6-plugin-three-amber-player-v4.0.0-universal-8F7226B1.apk",
+              "size": 3581835,
+              "digest": "sha256:6669c0c5013f0c6ee8df2ee1bd3098fe52254e272e8e605d163fd1767e715207",
+              "sha256": "6669c0c5013f0c6ee8df2ee1bd3098fe52254e272e8e605d163fd1767e715207",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.2",
-              "versionCode": 28,
-              "packageName": "io.github.supermonster003.autojs6.plugin.videoplayer",
-              "sourceCommit": "d2e4aab8d3f646689a6dc0a599b5f3485f636153"
+              "versionName": "4.0.0",
+              "versionCode": 35,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.amber.player",
+              "sourceCommit": "66b4ffd5e3364dd657289c0a810901bb17a88ba3"
             }
           ],
           "prerelease": false,
@@ -7458,7 +7440,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.color.picker",
@@ -7466,7 +7449,7 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Color-Picker"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.0/app/src/main/res/mipmap/ic_launcher_system.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.color.picker/73b69434fd93fc71c31c21999eb55bbd33cac082705bedcb7a3af183ad646458.png",
       "title": "3-Color Picker",
       "description": "Samples colors anywhere on the screen with a touch-friendly floating picker",
       "localizedDescriptions": {
@@ -7533,7 +7516,90 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.color.picker/05e9a5c265493ea418c87b3033868cdf3c161857d0de906719e2e9313ef8f5e5.png"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.folio.epub",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Folio-EPUB"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.folio.epub/43ce439158b156855d45788ab163e810d9f5600b51f6dc054d9b01dc4fedb2a5.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.folio.epub/1ae82bc1ba8db41bb1ba56e903f4839f25d6b051530332968670a76966ccbc86.png",
+      "title": "3-Folio EPUB",
+      "description": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
+      "localizedDescriptions": {
+        "values": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
+        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u0643\u062a\u0628 EPUB \u0645\u0639 \u0627\u0644\u062a\u0646\u0642\u0644 \u0648\u0627\u0644\u0628\u062d\u062b \u0648\u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u0627\u0644\u0635\u0648\u062a\u064a\u0629 \u0648\u0627\u0644\u0648\u0635\u0648\u0644 \u0645\u0646 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a",
+        "values-en": "Reads EPUB e-books with navigation, search, read-aloud and scripting access",
+        "values-es": "Lee libros EPUB con navegaci\u00f3n, b\u00fasqueda, lectura en voz alta y acceso desde scripts",
+        "values-fr": "Lit les livres EPUB avec navigation, recherche, lecture \u00e0 voix haute et acc\u00e8s par script",
+        "values-ja": "EPUB \u96fb\u5b50\u66f8\u7c4d\u3092\u8aad\u307f, \u76ee\u6b21, \u691c\u7d22, \u8aad\u307f\u4e0a\u3052\u3068\u30b9\u30af\u30ea\u30d7\u30c8\u62bd\u51fa\u3092\u63d0\u4f9b",
+        "values-ko": "EPUB \uc804\uc790\ucc45\uc744 \uc77d\uace0 \ubaa9\ucc28, \uac80\uc0c9, \uc77d\uc5b4\uc8fc\uae30\uc640 \uc2a4\ud06c\ub9bd\ud2b8 \ucd94\ucd9c\uc744 \uc81c\uacf5",
+        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0445 \u043a\u043d\u0438\u0433 EPUB \u0441 \u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c, \u043f\u043e\u0438\u0441\u043a\u043e\u043c, \u043e\u0437\u0432\u0443\u0447\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c \u0438\u0437 \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432",
+        "values-zh": "\u9605\u8bfb EPUB \u7535\u5b50\u4e66\u5e76\u63d0\u4f9b\u76ee\u5f55, \u641c\u7d22, \u6717\u8bfb\u4e0e\u811a\u672c\u63d0\u53d6\u80fd\u529b",
+        "values-zh-rHK": "\u95b1\u8b80 EPUB \u96fb\u5b50\u66f8\u4e26\u63d0\u4f9b\u76ee\u9304, \u641c\u5c0b, \u6717\u8b80\u8207\u6307\u4ee4\u78bc\u64f7\u53d6\u80fd\u529b",
+        "values-zh-rTW": "\u95b1\u8b80 EPUB \u96fb\u5b50\u66f8\u4e26\u63d0\u4f9b\u76ee\u9304, \u641c\u5c0b, \u6717\u8b80\u8207\u6307\u4ee4\u78bc\u64f7\u53d6\u80fd\u529b"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "explorer-action",
+      "variant": "default",
+      "engineId": "three-folio-epub",
+      "requiresHostVersion": 5318,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "2.0.0",
+          "versionCode": 84,
+          "versionDate": "2026-10-03",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/tag/v2.0.0",
+          "changelogText": "3-Folio EPUB 2.0.0 is the renamed Readium EPUB Reader, with the new application ID `io.github.supermonster003.autojs6.plugin.three.folio.epub`. It requires AutoJs6 build **5318 or later**.\r\n\r\nAndroid installs this version as a separate application. The previous Readium EPUB Reader and its data can remain installed. Settings, recent books and annotations are **not migrated automatically**; existing books remain in their original storage locations.\r\n\r\n- The repository, application title, plugin identity and published artifact names now use 3-Folio EPUB.\r\n- The existing open-book icon artwork is preserved byte for byte. Launcher and Plugin Center variants keep the common visual sizing and neutral artwork.\r\n- Appearance settings follow AutoJs6 by default and offer language, night mode, theme color and launcher icon choices. Reader colors remain independently configurable.\r\n- App appearance overrides no longer freeze window orientation or dimensions, restoring landscape layouts and automatic two-page spreads on Android 15.\r\n- Returning to the reader during a preference write keeps the pending choice until the file is saved, including migration of the legacy scroll setting.\r\n- EPUB reading, highlights, notes and host-controlled reader sessions retain the existing Readium engine and API contracts.\r\n- Compact acknowledgments name Readium Kotlin Toolkit, Readium CSS and the AutoJs6 projects used as initial references. Third-party notices and rights/cooperation information remain available in the repository.\r\n\r\nThe signed universal APK is a JVM-only build (version code 84). `SHA256SUMS` records its final digest.\r\n\r\n3-Folio EPUB 2.0.0 \u7531 Readium EPUB Reader \u66f4\u540d\u800c\u6765, \u91c7\u7528\u65b0\u7684\u70b9\u5206\u5305\u540d, \u9700\u8981 AutoJs6 5318 \u6216\u66f4\u9ad8\u7248\u672c. \u539f\u5e94\u7528\u4e0e\u6570\u636e\u53ef\u4fdd\u7559, \u8bbe\u7f6e\u3001\u6700\u8fd1\u4e66\u7c4d\u548c\u6279\u6ce8\u4e0d\u4f1a\u81ea\u52a8\u8fc1\u79fb. \u5bf9\u5f00\u4e66\u9875\u56fe\u6807\u8d44\u6e90\u4fdd\u6301\u539f\u6837, README \u4e2d\u4fdd\u7559\u7cbe\u7b80\u7684\u53c2\u8003\u9879\u76ee\u81f4\u8c22\u4e0e\u6743\u5229\u5904\u7406\u8bf4\u660e.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-folio-epub-v2.0.0-3c92afe1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/download/v2.0.0/autojs6-plugin-three-folio-epub-v2.0.0-3c92afe1.apk",
+              "size": 3821283,
+              "digest": "sha256:773532a2bb9eb7b8e05f98c55dee2872b065af64ebccba67edd6775c47002f40",
+              "sha256": "773532a2bb9eb7b8e05f98c55dee2872b065af64ebccba67edd6775c47002f40",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.0.0",
+              "versionCode": 84,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.folio.epub",
+              "sourceCommit": "5c41914c4c36417b9807f50576279ae4e751c5dd"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.setup.installer",
@@ -7541,7 +7607,7 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Setup-Installer"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.0/app/src/main/res/mipmap/ic_launcher_system.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/66f03e5fb0af8aa32ab856e699c1893a7718c2f9be8ea9f6270c3f08a4184ba0.png",
       "title": "3-Setup Installer",
       "description": "Installs, updates and uninstalls Android apps, with silent installation through Shizuku, Root or Dhizuku",
       "localizedDescriptions": {
@@ -7612,7 +7678,9 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/67509f3aba27d7dc1a91c4f4d5c14690d941d58118b6469d923456d834b212da.png"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
@@ -7620,7 +7688,7 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Stamp-Mail"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.0.0/app/src/main/res/mipmap/ic_launcher_system.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.stamp.mail/00f306477c8a709d2499f135797f2693a46f80a81c82b623cd97043371b53cb4.png",
       "title": "3-Stamp Mail",
       "description": "Sends, receives, searches, and watches mail over IMAP, POP3, and SMTP",
       "localizedDescriptions": {
@@ -7691,7 +7759,9 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.stamp.mail/da86507bdd1827d0e6b4f06760ec8388912f95730872576f4cf51aa47563685a.png"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
@@ -7699,8 +7769,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Stone-AI"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.1.4/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.1.4/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.threestoneai/255f3025ed2af4cef8857e167088aaa830c94074dbf58370e7e5f3314b318fbe.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.threestoneai/c6117ef5debe0cfbf078c112d84a4932b62bf7cd1cd0941b1bf820483d06c763.png",
       "title": "3-Stone AI",
       "description": "AI text generation with private local models and user-configured online services",
       "localizedDescriptions": {
@@ -7812,7 +7882,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.stove.agent",
@@ -7820,8 +7891,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Stove-Agent"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.2.0/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.stove.agent/24a5d94ab0692c30af134f2a5d6f54b6fcdb1ab9c953873df2018d3132c9c011.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.stove.agent/4338cf2268d8be20d5fcf65ecb06c8386a529ee3108751c04652735acf74f2ba.png",
       "title": "3-Stove Agent",
       "description": "Runs natural-language tasks by choosing registered scripts and operating the screen step by step",
       "localizedDescriptions": {
@@ -7892,7 +7963,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
@@ -7900,8 +7972,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Terra-Player"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.6.2/app/src/main/res/mipmap/ic_launcher.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/refs/tags/v1.6.2/app/src/main/res/mipmap-night/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.audioplayer/0624bd5785c3dddb9ed8e39e2dd82f58dfb1653a39988aee296727f5c21c8f42.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.audioplayer/0297a7d2b4a49ac8b3b63e3e19c1e59fddf5e5118f5f364a1261baf6a7594d67.png",
       "title": "3-Terra Player",
       "description": "Audio player plugin and standalone app with background playback",
       "localizedDescriptions": {
@@ -7971,7 +8043,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
@@ -8139,7 +8212,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.yolo.ncnn",
@@ -8311,7 +8385,8 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured"
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true
     }
   ]
 }

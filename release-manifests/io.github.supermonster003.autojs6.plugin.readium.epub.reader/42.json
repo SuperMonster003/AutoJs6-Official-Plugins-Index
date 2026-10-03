@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "owner": "SuperMonster003",
-  "repository": "AutoJs6-Plugin-Readium-EPUB-Reader",
+  "repository": "AutoJs6-Plugin-Three-Folio-EPUB",
   "releaseTag": "v1.0.0",
   "sourceCommit": "c7a3159394b6878953f1a80307966d983b5ed7c2",
   "packageName": "io.github.supermonster003.autojs6.plugin.readium.epub.reader",

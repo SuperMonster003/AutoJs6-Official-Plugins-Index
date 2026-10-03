@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Amber-Player",
+  "releaseTag": "v4.0.0",
+  "sourceCommit": "66b4ffd5e3364dd657289c0a810901bb17a88ba3",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.amber.player",
+  "versionName": "4.0.0",
+  "versionCode": 35,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-amber-player-v4.0.0-universal-8F7226B1.apk",
+      "sha256": "6669c0c5013f0c6ee8df2ee1bd3098fe52254e272e8e605d163fd1767e715207",
+      "sizeBytes": 3581835
+    }
+  ]
+}
