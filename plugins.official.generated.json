@@ -7386,81 +7386,6 @@
       "nativePageAlignmentSource": "measured"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.screencolorpicker",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Screen-Color-Picker"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/mipmap/ic_launcher.png",
-      "title": "Screen Color Picker",
-      "description": "Samples colors anywhere on the screen with a touch-friendly floating picker",
-      "localizedDescriptions": {
-        "values": "Samples colors anywhere on the screen with a touch-friendly floating picker",
-        "values-ar": "\u064a\u0644\u062a\u0642\u0637 \u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0645\u0646 \u0623\u064a \u0645\u0643\u0627\u0646 \u0639\u0644\u0649 \u0627\u0644\u0634\u0627\u0634\u0629 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0646\u062a\u0642\u064a \u0639\u0627\u0626\u0645 \u0645\u0646\u0627\u0633\u0628 \u0644\u0644\u0645\u0633",
-        "values-en": "Samples colors anywhere on the screen with a touch-friendly floating picker",
-        "values-es": "Toma colores de cualquier parte de la pantalla con un selector flotante t\u00e1ctil",
-        "values-fr": "\u00c9chantillonne les couleurs partout sur l\\'\u00e9cran avec un s\u00e9lecteur flottant tactile",
-        "values-ja": "\u30bf\u30c3\u30c1\u64cd\u4f5c\u3057\u3084\u3059\u3044\u30d5\u30ed\u30fc\u30c6\u30a3\u30f3\u30b0\u30d4\u30c3\u30ab\u30fc\u3067\u753b\u9762\u4e0a\u306e\u8272\u3092\u53d6\u5f97\u3057\u307e\u3059",
-        "values-ko": "\ud130\uce58\ud558\uae30 \uc26c\uc6b4 \ud50c\ub85c\ud305 \uc120\ud0dd\uae30\ub85c \ud654\uba74 \uc5b4\ub514\uc11c\ub098 \uc0c9\uc0c1\uc744 \ucd94\ucd9c\ud569\ub2c8\ub2e4",
-        "values-ru": "\u0412\u044b\u0431\u0438\u0440\u0430\u0435\u0442 \u0446\u0432\u0435\u0442\u0430 \u0432 \u043b\u044e\u0431\u043e\u0439 \u0442\u043e\u0447\u043a\u0435 \u044d\u043a\u0440\u0430\u043d\u0430 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0443\u0434\u043e\u0431\u043d\u043e\u0439 \u043f\u043b\u0430\u0432\u0430\u044e\u0449\u0435\u0439 \u043f\u0438\u043f\u0435\u0442\u043a\u0438",
-        "values-zh": "\u4f7f\u7528\u9002\u5408\u89e6\u6478\u64cd\u4f5c\u7684\u6d6e\u52a8\u53d6\u8272\u5668\u83b7\u53d6\u5c4f\u5e55\u4efb\u610f\u4f4d\u7f6e\u7684\u989c\u8272",
-        "values-zh-rHK": "\u4f7f\u7528\u9069\u5408\u89f8\u63a7\u64cd\u4f5c\u7684\u6d6e\u52d5\u53d6\u8272\u5668\u64f7\u53d6\u87a2\u5e55\u4efb\u4f55\u4f4d\u7f6e\u7684\u984f\u8272",
-        "values-zh-rTW": "\u4f7f\u7528\u9069\u5408\u89f8\u63a7\u64cd\u4f5c\u7684\u6d6e\u52d5\u53d6\u8272\u5668\u64f7\u53d6\u87a2\u5e55\u4efb\u610f\u4f4d\u7f6e\u7684\u984f\u8272"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.1.3",
-          "versionCode": 16,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/releases/tag/v1.1.3",
-          "changelogText": "Screen Color Picker 1.1.3\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `c38fed3fb7e0a1aaa917af2f2aa967ea67cdcec5`\r\n\r\nPublished release.\r\n\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Raise targetSdk to 37 (Android 17) after compileSdk; the plugin's behavior does not depend on the new target\r\n\r\nAPK checksums are in `SHA256SUMS`.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-screen-color-picker-v1.1.3-68f4ea1d.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Screen-Color-Picker/releases/download/v1.1.3/autojs6-plugin-screen-color-picker-v1.1.3-68f4ea1d.apk",
-              "size": 1410091,
-              "digest": "sha256:83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12",
-              "sha256": "83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.1.3",
-              "versionCode": 16,
-              "packageName": "io.github.supermonster003.autojs6.plugin.screencolorpicker",
-              "sourceCommit": "c38fed3fb7e0a1aaa917af2f2aa967ea67cdcec5"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 0,
-      "nativePageAlignmentSource": "measured"
-    },
-    {
       "packageName": "io.github.supermonster003.autojs6.plugin.accessibilitycompat",
       "repository": {
         "owner": "SuperMonster003",
@@ -7601,6 +7526,81 @@
               "versionCode": 28,
               "packageName": "io.github.supermonster003.autojs6.plugin.videoplayer",
               "sourceCommit": "d2e4aab8d3f646689a6dc0a599b5f3485f636153"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.screencolorpicker",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Color-Picker"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/mipmap/ic_launcher.png",
+      "title": "Screen Color Picker",
+      "description": "Samples colors anywhere on the screen with a touch-friendly floating picker",
+      "localizedDescriptions": {
+        "values": "Samples colors anywhere on the screen with a touch-friendly floating picker",
+        "values-ar": "\u064a\u0644\u062a\u0642\u0637 \u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0645\u0646 \u0623\u064a \u0645\u0643\u0627\u0646 \u0639\u0644\u0649 \u0627\u0644\u0634\u0627\u0634\u0629 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0646\u062a\u0642\u064a \u0639\u0627\u0626\u0645 \u0645\u0646\u0627\u0633\u0628 \u0644\u0644\u0645\u0633",
+        "values-en": "Samples colors anywhere on the screen with a touch-friendly floating picker",
+        "values-es": "Toma colores de cualquier parte de la pantalla con un selector flotante t\u00e1ctil",
+        "values-fr": "\u00c9chantillonne les couleurs partout sur l\\'\u00e9cran avec un s\u00e9lecteur flottant tactile",
+        "values-ja": "\u30bf\u30c3\u30c1\u64cd\u4f5c\u3057\u3084\u3059\u3044\u30d5\u30ed\u30fc\u30c6\u30a3\u30f3\u30b0\u30d4\u30c3\u30ab\u30fc\u3067\u753b\u9762\u4e0a\u306e\u8272\u3092\u53d6\u5f97\u3057\u307e\u3059",
+        "values-ko": "\ud130\uce58\ud558\uae30 \uc26c\uc6b4 \ud50c\ub85c\ud305 \uc120\ud0dd\uae30\ub85c \ud654\uba74 \uc5b4\ub514\uc11c\ub098 \uc0c9\uc0c1\uc744 \ucd94\ucd9c\ud569\ub2c8\ub2e4",
+        "values-ru": "\u0412\u044b\u0431\u0438\u0440\u0430\u0435\u0442 \u0446\u0432\u0435\u0442\u0430 \u0432 \u043b\u044e\u0431\u043e\u0439 \u0442\u043e\u0447\u043a\u0435 \u044d\u043a\u0440\u0430\u043d\u0430 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0443\u0434\u043e\u0431\u043d\u043e\u0439 \u043f\u043b\u0430\u0432\u0430\u044e\u0449\u0435\u0439 \u043f\u0438\u043f\u0435\u0442\u043a\u0438",
+        "values-zh": "\u4f7f\u7528\u9002\u5408\u89e6\u6478\u64cd\u4f5c\u7684\u6d6e\u52a8\u53d6\u8272\u5668\u83b7\u53d6\u5c4f\u5e55\u4efb\u610f\u4f4d\u7f6e\u7684\u989c\u8272",
+        "values-zh-rHK": "\u4f7f\u7528\u9069\u5408\u89f8\u63a7\u64cd\u4f5c\u7684\u6d6e\u52d5\u53d6\u8272\u5668\u64f7\u53d6\u87a2\u5e55\u4efb\u4f55\u4f4d\u7f6e\u7684\u984f\u8272",
+        "values-zh-rTW": "\u4f7f\u7528\u9069\u5408\u89f8\u63a7\u64cd\u4f5c\u7684\u6d6e\u52d5\u53d6\u8272\u5668\u64f7\u53d6\u87a2\u5e55\u4efb\u610f\u4f4d\u7f6e\u7684\u984f\u8272"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v1.1.3/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.1.3",
+          "versionCode": 16,
+          "versionDate": "2026-09-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/releases/tag/v1.1.3",
+          "changelogText": "Screen Color Picker 1.1.3\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `c38fed3fb7e0a1aaa917af2f2aa967ea67cdcec5`\r\n\r\nPublished release.\r\n\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Raise targetSdk to 37 (Android 17) after compileSdk; the plugin's behavior does not depend on the new target\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-screen-color-picker-v1.1.3-68f4ea1d.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/releases/download/v1.1.3/autojs6-plugin-screen-color-picker-v1.1.3-68f4ea1d.apk",
+              "size": 1410091,
+              "digest": "sha256:83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12",
+              "sha256": "83a9a9fcf1cd8acd670f4354f1edee26de05a88c4cf6384c11993e64b1dc1f12",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.3",
+              "versionCode": 16,
+              "packageName": "io.github.supermonster003.autojs6.plugin.screencolorpicker",
+              "sourceCommit": "c38fed3fb7e0a1aaa917af2f2aa967ea67cdcec5"
             }
           ],
           "prerelease": false,
