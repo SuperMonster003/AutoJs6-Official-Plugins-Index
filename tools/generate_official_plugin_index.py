@@ -1517,6 +1517,11 @@ def choose_default_localized(values: dict[str, str]) -> str | None:
 
 
 def resolve_icon_path(icon_ref: str | None, tree_paths: set[str]) -> str | None:
+    # This explicit resource is shared with the installed-plugin resolver. The
+    # application icon may have an opaque adaptive/brand background instead.
+    dedicated = "app/src/main/res/mipmap/ic_plugin_center.png"
+    if dedicated in tree_paths:
+        return dedicated
     for candidate in build_icon_candidates(icon_ref):
         if candidate in tree_paths:
             return candidate
@@ -1524,6 +1529,9 @@ def resolve_icon_path(icon_ref: str | None, tree_paths: set[str]) -> str | None:
 
 
 def resolve_night_icon_path(icon_ref: str | None, tree_paths: set[str]) -> str | None:
+    dedicated = "app/src/main/res/mipmap-night/ic_plugin_center.png"
+    if dedicated in tree_paths:
+        return dedicated
     for candidate in build_night_icon_candidates(icon_ref):
         if candidate in tree_paths:
             return candidate

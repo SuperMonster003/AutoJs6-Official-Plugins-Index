@@ -11,6 +11,20 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     OWNER = "SuperMonster003"
     VERSION = "1.0.0"
 
+    def test_plugin_center_artwork_precedes_opaque_application_icons(self):
+        day = "app/src/main/res/mipmap/ic_plugin_center.png"
+        night = "app/src/main/res/mipmap-night/ic_plugin_center.png"
+        paths = {day, night, "app/src/main/res/mipmap/ic_launcher_system.png"}
+        self.assertEqual(day, generator.resolve_icon_path("@mipmap/ic_launcher_system", paths))
+        self.assertEqual(night, generator.resolve_night_icon_path("@mipmap/ic_launcher_system", paths))
+        self.assertEqual(day, generator.resolve_icon_path(None, paths))
+
+    def test_legacy_releases_keep_their_existing_icon_paths(self):
+        day = "app/src/main/res/mipmap/ic_launcher.png"
+        night = "app/src/main/res/mipmap-night/ic_launcher.png"
+        self.assertEqual(day, generator.resolve_icon_path("@mipmap/ic_launcher", {day, night}))
+        self.assertEqual(night, generator.resolve_night_icon_path("@mipmap/ic_launcher", {day, night}))
+
     def test_declared_version_download_failure_cannot_downgrade_release_to_zero(self):
         repo = {"name": "AutoJs6-Plugin-Example", "owner": {"login": self.OWNER}}
         release = {"tag_name": "v1.0.0", "published_at": "2026-09-25T00:00:00Z"}
