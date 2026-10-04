@@ -1,40 +1,420 @@
 {
   "schemaVersion": 1,
   "icons": {
-    "io.github.supermonster003.autojs6.plugin.audioplayer": {
-      "repository": "AutoJs6-Plugin-Three-Terra-Player",
-      "sourceCommit": "a5e7f028692655a94b6189a990eeaae4fdffbcff",
+    "io.github.supermonster003.autojs6.plugin.ace.editor": {
+      "repository": "AutoJs6-Plugin-Ace-Editor",
+      "sourceCommit": "2092bb26d711d4fac20f0af4c4bf1cd9f0421e00",
+      "sourceDirty": false,
+      "recipeSha256": "b7598379488f2a1bc405afae2fda4c802c6d2428fd94cf9fe6c5a7075bc607b1",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "#000040"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.audioplayer/0624bd5785c3dddb9ed8e39e2dd82f58dfb1653a39988aee296727f5c21c8f42.png",
-        "sha256": "0624bd5785c3dddb9ed8e39e2dd82f58dfb1653a39988aee296727f5c21c8f42"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.ace.editor/f4480ed8a95bd1f427f94b68a43d852d8374f5747bb8fe2c917c848d9a24eee1.png",
+        "sha256": "f4480ed8a95bd1f427f94b68a43d852d8374f5747bb8fe2c917c848d9a24eee1"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.audioplayer/0297a7d2b4a49ac8b3b63e3e19c1e59fddf5e5118f5f364a1261baf6a7594d67.png",
-        "sha256": "0297a7d2b4a49ac8b3b63e3e19c1e59fddf5e5118f5f364a1261baf6a7594d67"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.ace.editor/76dd7393e43c66710c01f4b6f57f2bbc0615ec60e925ccc7b8c46784bdd4645e.png",
+        "sha256": "76dd7393e43c66710c01f4b6f57f2bbc0615ec60e925ccc7b8c46784bdd4645e"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.audioplayer": {
+      "repository": "AutoJs6-Plugin-Three-Terra-Player",
+      "sourceCommit": "55174170254f2149f89132e9d284cb2080a0e479",
+      "sourceDirty": false,
+      "recipeSha256": "cbfcc442711ed7401976a05121afdd793bc098b98dc2d2a2ced24f853a4b0aa1",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.audioplayer/d6c31400859678e9a0bf3b269d1d0b57b4d845c1baed5c7b4e9a5f1763b196bc.png",
+        "sha256": "d6c31400859678e9a0bf3b269d1d0b57b4d845c1baed5c7b4e9a5f1763b196bc"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.audioplayer/52d5a54599adefdcaf2d7b05ccc39969525d8d3678a133c273fe3c32f15d0332.png",
+        "sha256": "52d5a54599adefdcaf2d7b05ccc39969525d8d3678a133c273fe3c32f15d0332"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.bun.runtime": {
+      "repository": "AutoJs6-Plugin-Bun-Runtime",
+      "sourceCommit": "412f4dc5bbd36ac98c6e4b70260ff78407639be7",
+      "sourceDirty": false,
+      "recipeSha256": "f2ae513832d3008689992615fa6c0857b660f3469a46539ef4ddf0f760e5e237",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.bun.runtime/6ed64f6c765aafb9f9e54834f137339ecc44736d04da7548e7491ad0bb327cae.png",
+        "sha256": "6ed64f6c765aafb9f9e54834f137339ecc44736d04da7548e7491ad0bb327cae"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.bun.runtime/3da0656d4cf9244f91795be257a1a62e50aa7872828b895564c160820943d3ef.png",
+        "sha256": "3da0656d4cf9244f91795be257a1a62e50aa7872828b895564c160820943d3ef"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.compose.ui": {
+      "repository": "AutoJs6-Plugin-Compose-UI",
+      "sourceCommit": "8d2528c81d81a3cf3a87a5b728d71e74e78f708c",
+      "sourceDirty": false,
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.compose.ui/af962a3bd5da529d07cd68f6df4cdd36456627445b8c1f9c1cba521454df176f.png",
+        "sha256": "af962a3bd5da529d07cd68f6df4cdd36456627445b8c1f9c1cba521454df176f"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.compose.ui/13fa50226c3a6252524b78f60dd5dfd219da4d5b6b9bfa62ee7bc969a556bb2c.png",
+        "sha256": "13fa50226c3a6252524b78f60dd5dfd219da4d5b6b9bfa62ee7bc969a556bb2c"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.imagequant": {
+      "repository": "AutoJs6-Plugin-Image-Quantization",
+      "sourceCommit": "2fa70ee49e733a088c82310ba6ffaadbd66dcbf0",
+      "sourceDirty": false,
+      "recipeSha256": "2f920650c60b37a54418c6dabd03c8486916232970960ba85735eea7edb16616",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.imagequant/64b6db3a5f15ee6f8cd5ccfc9d37d04258e1a55241f698ff59772b93386118f2.png",
+        "sha256": "64b6db3a5f15ee6f8cd5ccfc9d37d04258e1a55241f698ff59772b93386118f2"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.imagequant/b15aa9838cc81594d34fd206a09c34135f0ed776449caf08673977b7909d44d3.png",
+        "sha256": "b15aa9838cc81594d34fd206a09c34135f0ed776449caf08673977b7909d44d3"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.imgui": {
+      "repository": "AutoJs6-Plugin-ImGui",
+      "sourceCommit": "35fbb403665ef726de661e1902acc57205a646f4",
+      "sourceDirty": false,
+      "recipeSha256": "66abc7733cae58e792057509c389bba56d3f67146f23842c48262bca38e66a80",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#10161f",
+        "night": "#10161f"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.imgui/7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f.png",
+        "sha256": "7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.imgui/7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f.png",
+        "sha256": "7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.java.runtime": {
+      "repository": "AutoJs6-Plugin-Java-Runtime",
+      "sourceCommit": "7891a6db9c95a47935d61aa8ecf836ed365e071e",
+      "sourceDirty": false,
+      "recipeSha256": "ee86369620865b07a4565435c4febcef41efa31feb8a272dea0542578970f9fa",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.java.runtime/ea93b989d89bfa9906d56e2df104c9943b213c06b04f4e6172cedc01ed22ff0e.png",
+        "sha256": "ea93b989d89bfa9906d56e2df104c9943b213c06b04f4e6172cedc01ed22ff0e"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.java.runtime/d7c281b489ed7265e27810fea3e3ceace9058f3899d2e7b7ec2fe3ce3272d424.png",
+        "sha256": "d7c281b489ed7265e27810fea3e3ceace9058f3899d2e7b7ec2fe3ce3272d424"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.kotlin.runtime": {
+      "repository": "AutoJs6-Plugin-Kotlin-Runtime",
+      "sourceCommit": "aa3cbfd50bf97296acfbdb77418ebafba257a814",
+      "sourceDirty": false,
+      "recipeSha256": "dfe8ac035e8a0993fd1db89192683a7f9f9a4ef9d76ce6f690dc084cbcca6b77",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/7fad797d9f4611106bb3e14b4fffe737d40b93744608d088f353ce63fc94e5b1.png",
+        "sha256": "7fad797d9f4611106bb3e14b4fffe737d40b93744608d088f353ce63fc94e5b1"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/7fad797d9f4611106bb3e14b4fffe737d40b93744608d088f353ce63fc94e5b1.png",
+        "sha256": "7fad797d9f4611106bb3e14b4fffe737d40b93744608d088f353ce63fc94e5b1"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.lua.runtime": {
+      "repository": "AutoJs6-Plugin-Lua-Runtime",
+      "sourceCommit": "5d81581f898b751c00cd89caabb9e7c38d1d31fe",
+      "sourceDirty": false,
+      "recipeSha256": "e9ce15fac06fe3c91ec842df4806eb4cd5d1fa77a0e3901960c25e7e619b93df",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.lua.runtime/4f8be9899dce58a16333817964af1f602a8e7b12bdb305ed353f76a08a86b7e6.png",
+        "sha256": "4f8be9899dce58a16333817964af1f602a8e7b12bdb305ed353f76a08a86b7e6"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.lua.runtime/326ec11eb71131cd36b6a60ae9dbc0e4f32a2657b3d3789af73be89ebf591cfc.png",
+        "sha256": "326ec11eb71131cd36b6a60ae9dbc0e4f32a2657b3d3789af73be89ebf591cfc"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.mcp.server": {
+      "repository": "AutoJs6-Plugin-MCP-Server",
+      "sourceCommit": "b210ff202f967eb3c5efb60e3e6d114766b24c98",
+      "sourceDirty": false,
+      "recipeSha256": "ef5a9ce6270e777476372fa53a0455e58c1b081c3fdd8c34c7b50ddc277afd93",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#0f766e",
+        "night": "#115e59"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mcp.server/afb437f112efdb787408687f38a308ffcb15e00482aea9c2d72fbac6a086014e.png",
+        "sha256": "afb437f112efdb787408687f38a308ffcb15e00482aea9c2d72fbac6a086014e"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mcp.server/a55a804184c1160cb91458dc4e92f6598725371b99c10fc89a783cb08f0bb3ae.png",
+        "sha256": "a55a804184c1160cb91458dc4e92f6598725371b99c10fc89a783cb08f0bb3ae"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.mediainfo": {
+      "repository": "AutoJs6-Plugin-MediaInfo",
+      "sourceCommit": "6354a4c955072a523878a2d69ce6bcddc801eff0",
+      "sourceDirty": false,
+      "recipeSha256": "3c37a599e445a24ad0731779fdcbe056b1c67845c8340b9ff25a9258326ceacd",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mediainfo/166b52e7c9be57ca3348a77be17070b9b768288723c61ca49537daeb769e1e1e.png",
+        "sha256": "166b52e7c9be57ca3348a77be17070b9b768288723c61ca49537daeb769e1e1e"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mediainfo/74f1a49d717e4368716377234e1c5351c78f86cabef1707e971ee421361a3c12.png",
+        "sha256": "74f1a49d717e4368716377234e1c5351c78f86cabef1707e971ee421361a3c12"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.mlkit.barcode": {
+      "repository": "AutoJs6-Plugin-MLKit-Barcode",
+      "sourceCommit": "a87472dffe99e2cd1b2aaf9c9b2944e979915c6d",
+      "sourceDirty": false,
+      "recipeSha256": "95e3b782f59ceed00c590dabc770dc7faa04fd5e4d3bb948ec91884380c2d627",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mlkit.barcode/363f0e77a0b152fcd58f890d9cf57735ca5c1200ceff97537bf390c4d5630679.png",
+        "sha256": "363f0e77a0b152fcd58f890d9cf57735ca5c1200ceff97537bf390c4d5630679"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mlkit.barcode/dd8a5aba4515c95a9870f1456d04478c2380a47162a455ced21bb6d05f15e32c.png",
+        "sha256": "dd8a5aba4515c95a9870f1456d04478c2380a47162a455ced21bb6d05f15e32c"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.mlkitocr": {
+      "repository": "AutoJs6-Plugin-MLKit-OCR",
+      "sourceCommit": "61c04de86f29b862aaac541800853c19b9523e64",
+      "sourceDirty": false,
+      "recipeSha256": "20dd1c0525daae30242493e5d7481765cd284e8352f849f3c6e59f3375402383",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mlkitocr/6f07caf49498a5052830ca653ba8fc20a08db6944dda146a111964ac60fb240d.png",
+        "sha256": "6f07caf49498a5052830ca653ba8fc20a08db6944dda146a111964ac60fb240d"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.mlkitocr/deed3b6d6a6b45c80c570df1ae8e335b913300184fbb68cbfe379fbc6db5542a.png",
+        "sha256": "deed3b6d6a6b45c80c570df1ae8e335b913300184fbb68cbfe379fbc6db5542a"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.nodejs": {
+      "repository": "AutoJs6-Plugin-NodeJs-Runtime",
+      "sourceCommit": "7db9b91b6f8cba49e3aaa5370d978b464d004a8b",
+      "sourceDirty": false,
+      "recipeSha256": "0d99ba95a602ad616a34bae52925c4f2beba5ced3952db96153ba54dd43abf58",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "#002800"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.nodejs/9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8.png",
+        "sha256": "9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.nodejs/9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8.png",
+        "sha256": "9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.offlinedocs": {
+      "repository": "AutoJs6-Plugin-Offline-Docs",
+      "sourceCommit": "9559c228b57961bf8cf5fdece9d2c0858c706dfb",
+      "sourceDirty": false,
+      "recipeSha256": "51bb933939a20889b0190ef3b1c565b9db23a73bbb25b28079646a90f178a7fd",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "#280000"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png",
+        "sha256": "4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png",
+        "sha256": "4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.opencv": {
+      "repository": "AutoJs6-Plugin-OpenCV",
+      "sourceCommit": "3acaa0e72ffbfb4631c0b8c84b960ddc49051061",
+      "sourceDirty": false,
+      "recipeSha256": "2aabe18e941eb17834009f65dd10eeefad1c31d3db56e35d275a7e2160119af9",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "#303030"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.opencv/ecf2a96544dcc761257e5b50631161a0f27e676826648bd34d3f40cd80061477.png",
+        "sha256": "ecf2a96544dcc761257e5b50631161a0f27e676826648bd34d3f40cd80061477"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.opencv/ecf2a96544dcc761257e5b50631161a0f27e676826648bd34d3f40cd80061477.png",
+        "sha256": "ecf2a96544dcc761257e5b50631161a0f27e676826648bd34d3f40cd80061477"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.python.runtime": {
+      "repository": "AutoJs6-Plugin-Python-Runtime",
+      "sourceCommit": "55fbf88d752f724daf9621513539358d3652273b",
+      "sourceDirty": false,
+      "recipeSha256": "be88094258668d403bf56ecb47317a7698ab042fa6e20c88ceb9b99ece11b4ac",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.python.runtime/24d8b2c210eae9ed64a1592239165983f7e5b51b55b3df786fb11d3dc3d74c06.png",
+        "sha256": "24d8b2c210eae9ed64a1592239165983f7e5b51b55b3df786fb11d3dc3d74c06"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.python.runtime/24d8b2c210eae9ed64a1592239165983f7e5b51b55b3df786fb11d3dc3d74c06.png",
+        "sha256": "24d8b2c210eae9ed64a1592239165983f7e5b51b55b3df786fb11d3dc3d74c06"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.quickjs.runtime": {
+      "repository": "AutoJs6-Plugin-QuickJS-Runtime",
+      "sourceCommit": "c45a7f04cee3c70d6a07d7d4236eac030e5220eb",
+      "sourceDirty": false,
+      "recipeSha256": "94e7b0ac8d83067a27b9194be4158fade164f4fb7378acd4a8767ea875e830ce",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "#280000"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/f15b0203166d37d8af44d7bbb97b91abdf421263f1ea16527823584b2b3d246e.png",
+        "sha256": "f15b0203166d37d8af44d7bbb97b91abdf421263f1ea16527823584b2b3d246e"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/f15b0203166d37d8af44d7bbb97b91abdf421263f1ea16527823584b2b3d246e.png",
+        "sha256": "f15b0203166d37d8af44d7bbb97b91abdf421263f1ea16527823584b2b3d246e"
       }
     },
     "io.github.supermonster003.autojs6.plugin.r8compiler": {
       "repository": "AutoJs6-Plugin-R8-Compiler",
-      "sourceCommit": "66d528fc5b28436b4998f83d9d731640e415a911",
+      "sourceCommit": "5db56b19078b7d995fca4a3f546f2a237eac50e1",
+      "sourceDirty": false,
+      "recipeSha256": "75202ea5aaf821232efe6033764aa93e638ed16e6a0e990891b86a1f5ebfd1f5",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.r8compiler/dcfe730f295b3a09cc6d4da2ce9111ab107a28f75917d18b142c859b31599eb5.png",
-        "sha256": "dcfe730f295b3a09cc6d4da2ce9111ab107a28f75917d18b142c859b31599eb5"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.r8compiler/09127ea36c21abab034a98a6da5004a8cc5b3d212f29006d1894a9f495acd07c.png",
+        "sha256": "09127ea36c21abab034a98a6da5004a8cc5b3d212f29006d1894a9f495acd07c"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.r8compiler/23c528907b3b745c98ddec73bb59f3cae020acdd2347fddbcebfab32b064561d.png",
-        "sha256": "23c528907b3b745c98ddec73bb59f3cae020acdd2347fddbcebfab32b064561d"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.r8compiler/e7b93ae1c7969c63a8e405415d330fb10344eb9a281fe0e30829f7cabe6d22f5.png",
+        "sha256": "e7b93ae1c7969c63a8e405415d330fb10344eb9a281fe0e30829f7cabe6d22f5"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3": {
+      "repository": "AutoJs6-Plugin-Rapid-OCR-PP-OCRv3",
+      "sourceCommit": "60d61b56213240632bc78cf1194cf542b21d7b89",
+      "sourceDirty": false,
+      "recipeSha256": "e42758d011a8991ac215b0ccfc0ebebec210b493f366f718296ab305aaed39c0",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3/6cd3b17f62e2676ca7062a1e2485618d46013aaf418d9136c0f2dcdda4a9263e.png",
+        "sha256": "6cd3b17f62e2676ca7062a1e2485618d46013aaf418d9136c0f2dcdda4a9263e"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv3/4cf500f1747f3a54f6f9f6817cc2229cbdf668c9cd20c9c7cf114d4ad38edc1d.png",
+        "sha256": "4cf500f1747f3a54f6f9f6817cc2229cbdf668c9cd20c9c7cf114d4ad38edc1d"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6": {
+      "repository": "AutoJs6-Plugin-Rapid-OCR-PP-OCRv6",
+      "sourceCommit": "151afbf25a180202a97009af9baabc74401772d6",
+      "sourceDirty": false,
+      "recipeSha256": "42f22e05f1ddbd645557f2ef75ea78e0cc1b70f50b8fc9db31314edca8d5995c",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6/f224cfda405507125973aa7a8227787e008cce6051f403b3e64a5f5b4e432f20.png",
+        "sha256": "f224cfda405507125973aa7a8227787e008cce6051f403b3e64a5f5b4e432f20"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.rapidocr.ppocrv6/7e3f0acb2bc9538a7b7d27a74aba1403e34b2e68cd4d96865a7335781f8b987a.png",
+        "sha256": "7e3f0acb2bc9538a7b7d27a74aba1403e34b2e68cd4d96865a7335781f8b987a"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.adapt.a11y": {
       "repository": "AutoJs6-Plugin-Three-Adapt-A11y",
-      "sourceCommit": "f79e194c4891c3626fb587a70ca66c151dbda8ec",
+      "sourceCommit": "06286922ffbf537740d785380b84310d944ef476",
+      "sourceDirty": false,
+      "recipeSha256": "a595f7318b9f4834cda2ff7a3142205abdb232402349f29b2901a88f1bac1d49",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.adapt.a11y/d5c12f2847456718c0b382cb27abe06dad2d80a3d85829974919edb1f19c7911.png",
-        "sha256": "d5c12f2847456718c0b382cb27abe06dad2d80a3d85829974919edb1f19c7911"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.adapt.a11y/e898d496b6fedb5bccffe4a1443e6604dcbed6b8e7b4dfd209e46b6a5b8d400a.png",
+        "sha256": "e898d496b6fedb5bccffe4a1443e6604dcbed6b8e7b4dfd209e46b6a5b8d400a"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.adapt.a11y/2ea4d213d3c0a9bfdad41ef4dac57ef5037447a5d2b9357423a56de30ee2f3f6.png",
-        "sha256": "2ea4d213d3c0a9bfdad41ef4dac57ef5037447a5d2b9357423a56de30ee2f3f6"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.adapt.a11y/e678d88a9f11991ea205e1eaba60e21bb7315beb862307c7c4d964403be197a4.png",
+        "sha256": "e678d88a9f11991ea205e1eaba60e21bb7315beb862307c7c4d964403be197a4"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.amber.player": {
@@ -51,196 +431,230 @@
     },
     "io.github.supermonster003.autojs6.plugin.three.color.picker": {
       "repository": "AutoJs6-Plugin-Three-Color-Picker",
-      "sourceCommit": "163b06cd595616dbdb1f50e46c1d6dc187118fe4",
+      "sourceCommit": "2d867458317341bddecefd96de7167753b747781",
+      "sourceDirty": false,
+      "recipeSha256": "ffb3223c7d33921cc9f756106743a49f63c16e05c9ae413e2ebf5bdb8f693d9b",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.color.picker/73b69434fd93fc71c31c21999eb55bbd33cac082705bedcb7a3af183ad646458.png",
-        "sha256": "73b69434fd93fc71c31c21999eb55bbd33cac082705bedcb7a3af183ad646458"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.color.picker/5787cf7e5288c2a7baea7379ff6a16bfce1a0b69cb8cd252ca1d015f063e7a9b.png",
+        "sha256": "5787cf7e5288c2a7baea7379ff6a16bfce1a0b69cb8cd252ca1d015f063e7a9b"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.color.picker/05e9a5c265493ea418c87b3033868cdf3c161857d0de906719e2e9313ef8f5e5.png",
-        "sha256": "05e9a5c265493ea418c87b3033868cdf3c161857d0de906719e2e9313ef8f5e5"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.color.picker/e7dab53bfe57ef5ef0a2569f68b42882949ebc4104ffe0b1e212448f71fa504b.png",
+        "sha256": "e7dab53bfe57ef5ef0a2569f68b42882949ebc4104ffe0b1e212448f71fa504b"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.folio.epub": {
       "repository": "AutoJs6-Plugin-Three-Folio-EPUB",
-      "sourceCommit": "5c41914c4c36417b9807f50576279ae4e751c5dd",
+      "sourceCommit": "805148ef669e883525fa009f4f7cf4c86e733ca5",
+      "sourceDirty": false,
+      "recipeSha256": "43cdfa1269c16f4bee2643a732b521c3d54a3d57ba6a41519d1370415256fc56",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.folio.epub/43ce439158b156855d45788ab163e810d9f5600b51f6dc054d9b01dc4fedb2a5.png",
-        "sha256": "43ce439158b156855d45788ab163e810d9f5600b51f6dc054d9b01dc4fedb2a5"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.folio.epub/63f65fdba6375229481791758d09face2874b17e0dfc8dede1f178100dc7c3f4.png",
+        "sha256": "63f65fdba6375229481791758d09face2874b17e0dfc8dede1f178100dc7c3f4"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.folio.epub/1ae82bc1ba8db41bb1ba56e903f4839f25d6b051530332968670a76966ccbc86.png",
-        "sha256": "1ae82bc1ba8db41bb1ba56e903f4839f25d6b051530332968670a76966ccbc86"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.folio.epub/6af7f18a6d03eece9cafb1afa9dd0c122b090df471493aec11540dd9e7ca69b9.png",
+        "sha256": "6af7f18a6d03eece9cafb1afa9dd0c122b090df471493aec11540dd9e7ca69b9"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.hanzi.cc": {
       "repository": "AutoJs6-Plugin-Three-Hanzi-CC",
-      "sourceCommit": "4d063c101edfa19dcf5444d1791d204669df8df9",
+      "sourceCommit": "2b1e615aee4f3dd313d2cc8fdd4e3a9ff7c7f0c3",
       "sourceDirty": false,
+      "recipeSha256": "ba5cf161c4a83660d4c21096fb30544e51c6376daa5c9acb8b683a72c11e5ed1",
+      "generatorVersion": "1.2.0",
       "backgrounds": {
         "day": "#fafafa",
         "night": "#212121"
       },
-      "recipeSha256": "cd002d441093d1e63777c77fae5a8b9997d123bed8b8209f1322c8feec068127",
-      "generatorVersion": "1.0.0",
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/b43c66914b3b007407eefeec48864dd0a6d256bcee1f140a929d5d94abdcbbfa.png",
-        "sha256": "b43c66914b3b007407eefeec48864dd0a6d256bcee1f140a929d5d94abdcbbfa"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/d6c22054b2d913c9885edf02698ff8dc704212734ef5b6a08f2b7d9b63cc74ea.png",
+        "sha256": "d6c22054b2d913c9885edf02698ff8dc704212734ef5b6a08f2b7d9b63cc74ea"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/7fb8ef87a7dd312af3b1433297d4920a4dfe0b3d9f89fc8ff1da392145c0ea9b.png",
-        "sha256": "7fb8ef87a7dd312af3b1433297d4920a4dfe0b3d9f89fc8ff1da392145c0ea9b"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/808f369a7a1a09feb8ddfe90bbc044d2953e5c7ab7d9c886e0c55e778b5defdc.png",
+        "sha256": "808f369a7a1a09feb8ddfe90bbc044d2953e5c7ab7d9c886e0c55e778b5defdc"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.maple.image": {
       "repository": "AutoJs6-Plugin-Three-Maple-Image",
-      "sourceCommit": "028af2535089fc8ccfa22f695d1bad09b16fa332",
+      "sourceCommit": "ae3c9bf9df0b58c303ebf6f46adf78ad596d6bda",
       "sourceDirty": false,
+      "recipeSha256": "1ca35c538c750691c7a609f4831fd879b8cf3be4ad75cdb1e3d930d5563c0068",
+      "generatorVersion": "1.2.0",
       "backgrounds": {
         "day": "#fafafa",
         "night": "#212121"
       },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.maple.image/46ca5c25e59296bf03c7ebbeb299a9fd9b1d5f10050eedfd63997287fa1c49fa.png",
-        "sha256": "46ca5c25e59296bf03c7ebbeb299a9fd9b1d5f10050eedfd63997287fa1c49fa"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.maple.image/088d599f5c81f0a95c996e78cb196d1d10e42b72ebdefd646bf4e12e370019e5.png",
+        "sha256": "088d599f5c81f0a95c996e78cb196d1d10e42b72ebdefd646bf4e12e370019e5"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.maple.image/7d6b520dadff3e3dca4187d73c8202d02dba2b3264b18d9ba17151e1d0af5619.png",
-        "sha256": "7d6b520dadff3e3dca4187d73c8202d02dba2b3264b18d9ba17151e1d0af5619"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.maple.image/1bb7916b155e5f50da811ddd764549de3bbfada1621158d2d438e255f391d74e.png",
+        "sha256": "1bb7916b155e5f50da811ddd764549de3bbfada1621158d2d438e255f391d74e"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.setup.installer": {
       "repository": "AutoJs6-Plugin-Three-Setup-Installer",
-      "sourceCommit": "01e67562c818ef2e941b3a66399d39adc948b7cb",
-      "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/66f03e5fb0af8aa32ab856e699c1893a7718c2f9be8ea9f6270c3f08a4184ba0.png",
-        "sha256": "66f03e5fb0af8aa32ab856e699c1893a7718c2f9be8ea9f6270c3f08a4184ba0"
-      },
-      "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/67509f3aba27d7dc1a91c4f4d5c14690d941d58118b6469d923456d834b212da.png",
-        "sha256": "67509f3aba27d7dc1a91c4f4d5c14690d941d58118b6469d923456d834b212da"
-      }
-    },
-    "io.github.supermonster003.autojs6.plugin.three.shell.terminal": {
-      "repository": "AutoJs6-Plugin-Three-Shell-Terminal",
-      "sourceCommit": "15a28641965b69c1ca06e61e076dd3272ceea5f9",
-      "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.shell.terminal/05a13c6cce95669bd0c03e0e27de9587f303bf5b7b706de046983c03947e593e.png",
-        "sha256": "05a13c6cce95669bd0c03e0e27de9587f303bf5b7b706de046983c03947e593e"
-      },
-      "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.shell.terminal/7bb8d9998e23e482518f208d9616689d71d7784f922b5a384bd047f325527f19.png",
-        "sha256": "7bb8d9998e23e482518f208d9616689d71d7784f922b5a384bd047f325527f19"
-      }
-    },
-    "io.github.supermonster003.autojs6.plugin.three.stack.archive": {
-      "repository": "AutoJs6-Plugin-Three-Stack-Archive",
-      "sourceCommit": "09a3ad310232faacaf63f1ea343eed86c76d18ae",
+      "sourceCommit": "e28f4db65bf1c4025f32dbac4d3647c505cbe8f3",
       "sourceDirty": false,
+      "recipeSha256": "d5ea7b17f638fee37227120c36ebc3b9dc718ab8acf2991ee917c23552de6f6c",
+      "generatorVersion": "1.2.0",
       "backgrounds": {
         "day": "#fafafa",
         "night": "#212121"
       },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stack.archive/b17c2c8a1651a39c3715eba829cca4aa0a4eb81a5954c4a22ef3ce843927c759.png",
-        "sha256": "b17c2c8a1651a39c3715eba829cca4aa0a4eb81a5954c4a22ef3ce843927c759"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/54f6763bba6535586cf275bc5c446da07873000fdee4fc333d0c8696f774069c.png",
+        "sha256": "54f6763bba6535586cf275bc5c446da07873000fdee4fc333d0c8696f774069c"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stack.archive/50407acc59cd7c536374f65bfe81a08da5424b430a1c6825f3b7ed4456b2e259.png",
-        "sha256": "50407acc59cd7c536374f65bfe81a08da5424b430a1c6825f3b7ed4456b2e259"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/22928b60fe6aa475cf8c2a45b4e0c41583e4c64e538c2f5fe83b8c7f3bcc8ead.png",
+        "sha256": "22928b60fe6aa475cf8c2a45b4e0c41583e4c64e538c2f5fe83b8c7f3bcc8ead"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.three.shell.terminal": {
+      "repository": "AutoJs6-Plugin-Three-Shell-Terminal",
+      "sourceCommit": "e5ad9d0893e62e3b05bea3483f32d48637734510",
+      "sourceDirty": false,
+      "recipeSha256": "64465137e5f7a2ab047b48503d1572ec2a84d7514f88d0114a93ceebf9b9fc3e",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.shell.terminal/f8a54f5f775b1a23081fbbbeb914dc7848735fcb5eb889f9838c60c600412481.png",
+        "sha256": "f8a54f5f775b1a23081fbbbeb914dc7848735fcb5eb889f9838c60c600412481"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.shell.terminal/c5038a46aed57c05c5fe352485e9c0feddfc2f21f4ec12df04fecf3bd5faa395.png",
+        "sha256": "c5038a46aed57c05c5fe352485e9c0feddfc2f21f4ec12df04fecf3bd5faa395"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.three.stack.archive": {
+      "repository": "AutoJs6-Plugin-Three-Stack-Archive",
+      "sourceCommit": "9a1d3fedebe84acc1f15caf7b49b4ffd15828121",
+      "sourceDirty": false,
+      "recipeSha256": "cf66ae17d6ae9b94426c046db1da7776dab479edf060f2055aeb3b27fdf66a49",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stack.archive/6e67f25236ce9dde12c6bc922cac0d98f07a19631cdb2e98ed72210b5a4471cd.png",
+        "sha256": "6e67f25236ce9dde12c6bc922cac0d98f07a19631cdb2e98ed72210b5a4471cd"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stack.archive/b71baa08272e4ef944e6152573f69af00fbd009e16c5cd25360b3e8cebd306cf.png",
+        "sha256": "b71baa08272e4ef944e6152573f69af00fbd009e16c5cd25360b3e8cebd306cf"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.stamp.mail": {
       "repository": "AutoJs6-Plugin-Three-Stamp-Mail",
-      "sourceCommit": "46dc1a7dfc3ff58b8baefdc09c0ce49715df8889",
+      "sourceCommit": "84b7fdd028276d6850b273a7cd4aa0c0311ee00a",
+      "sourceDirty": false,
+      "recipeSha256": "d9683b782235a480140dd6430398434805ba36975479e8ea1b186d78fbfb353f",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stamp.mail/00f306477c8a709d2499f135797f2693a46f80a81c82b623cd97043371b53cb4.png",
-        "sha256": "00f306477c8a709d2499f135797f2693a46f80a81c82b623cd97043371b53cb4"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stamp.mail/59277abc4a27b13d02151fe0af594dac165b8b4c0aa203be5fe8fb02c342b64f.png",
+        "sha256": "59277abc4a27b13d02151fe0af594dac165b8b4c0aa203be5fe8fb02c342b64f"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stamp.mail/da86507bdd1827d0e6b4f06760ec8388912f95730872576f4cf51aa47563685a.png",
-        "sha256": "da86507bdd1827d0e6b4f06760ec8388912f95730872576f4cf51aa47563685a"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stamp.mail/2e15f72ecb5f4cd51bf4d4d4c444f62950e37cad1e4cc4c75c483058865e288b.png",
+        "sha256": "2e15f72ecb5f4cd51bf4d4d4c444f62950e37cad1e4cc4c75c483058865e288b"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.stove.agent": {
       "repository": "AutoJs6-Plugin-Three-Stove-Agent",
-      "sourceCommit": "7fb99a79a4cc55486d63af88f1d42c3ad660b3e5",
+      "sourceCommit": "28a2f1487f7b35c7eb14c59c00e7c87bb743c20b",
+      "sourceDirty": false,
+      "recipeSha256": "07555896a12c44ee0ff684f258598fb872000b07e76a43f9679161c91fdd4c1e",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stove.agent/24a5d94ab0692c30af134f2a5d6f54b6fcdb1ab9c953873df2018d3132c9c011.png",
-        "sha256": "24a5d94ab0692c30af134f2a5d6f54b6fcdb1ab9c953873df2018d3132c9c011"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stove.agent/9657d9cae7389bd7981adf3cff25bd69cbc24a252db3fa627de7e8e0efcaf349.png",
+        "sha256": "9657d9cae7389bd7981adf3cff25bd69cbc24a252db3fa627de7e8e0efcaf349"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stove.agent/4338cf2268d8be20d5fcf65ecb06c8386a529ee3108751c04652735acf74f2ba.png",
-        "sha256": "4338cf2268d8be20d5fcf65ecb06c8386a529ee3108751c04652735acf74f2ba"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.stove.agent/c4040fdf4b757ab384c250c850669de82707cd1bd3bed7e8e4eaa0be873e5da0.png",
+        "sha256": "c4040fdf4b757ab384c250c850669de82707cd1bd3bed7e8e4eaa0be873e5da0"
       }
     },
     "io.github.supermonster003.autojs6.plugin.threestoneai": {
       "repository": "AutoJs6-Plugin-Three-Stone-AI",
-      "sourceCommit": "a3c78660099f627400d93c6f7e35a80ea2e4ef32",
+      "sourceCommit": "6a12e9b0365a5fb18371bde0dde1c5dc42ff24be",
+      "sourceDirty": false,
+      "recipeSha256": "5a33c895b640969af326bc5ff7fb92657eb87293e667367dcb4d0b587f8aab1b",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.threestoneai/255f3025ed2af4cef8857e167088aaa830c94074dbf58370e7e5f3314b318fbe.png",
-        "sha256": "255f3025ed2af4cef8857e167088aaa830c94074dbf58370e7e5f3314b318fbe"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.threestoneai/2b348a3046015f3e949bdc0b3d96ccb179e1a06ce1928e99e476194e603ee89e.png",
+        "sha256": "2b348a3046015f3e949bdc0b3d96ccb179e1a06ce1928e99e476194e603ee89e"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.threestoneai/c6117ef5debe0cfbf078c112d84a4932b62bf7cd1cd0941b1bf820483d06c763.png",
-        "sha256": "c6117ef5debe0cfbf078c112d84a4932b62bf7cd1cd0941b1bf820483d06c763"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.threestoneai/fe0fc7c4cbfa0f240ffcd41c445de584996382ffba7f6b8b22c861a5a0705c5e.png",
+        "sha256": "fe0fc7c4cbfa0f240ffcd41c445de584996382ffba7f6b8b22c861a5a0705c5e"
       }
     },
-    "io.github.supermonster003.autojs6.plugin.quickjs.runtime": {
-      "repository": "AutoJs6-Plugin-QuickJS-Runtime",
-      "sourceCommit": "b5634b09ffbe0b0ac2e07a777bc1230898527eeb",
+    "io.github.supermonster003.autojs6.plugin.yolo.ncnn": {
+      "repository": "AutoJs6-Plugin-Yolo-NCNN",
+      "sourceCommit": "05a0fbcace223e43241a80b22357cc80ee467b11",
       "sourceDirty": false,
-      "recipeSha256": "fbb2be3359453d52de1f95e3e33d2d5784390c97a42bba7eedb232cc59004ba4",
+      "recipeSha256": "8145d038b5f1f825307d1ed3131ba56c8640a8027ed7c04535b10364c76e1138",
       "generatorVersion": "1.2.0",
       "backgrounds": {
         "day": "transparent",
         "night": "transparent"
       },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c.png",
-        "sha256": "c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.yolo.ncnn/dd2484ff8fb201d735d1e7a59b8843031626e5e3fc24770035ec1866c29f78ef.png",
+        "sha256": "dd2484ff8fb201d735d1e7a59b8843031626e5e3fc24770035ec1866c29f78ef"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c.png",
-        "sha256": "c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.yolo.ncnn/a5584d0454d67feccb9b73055c1837beddff2a79a25fcdf7f33ea67b04c657dd.png",
+        "sha256": "a5584d0454d67feccb9b73055c1837beddff2a79a25fcdf7f33ea67b04c657dd"
       }
     },
-    "io.github.supermonster003.autojs6.plugin.kotlin.runtime": {
-      "repository": "AutoJs6-Plugin-Kotlin-Runtime",
-      "sourceCommit": "fdbcc1492a090299fe611dfaeede07d3352f8b15",
+    "org.autojs.plugin.apkbuilder.template": {
+      "repository": "AutoJs6-Plugin-APK-Builder-Template",
+      "sourceCommit": "0e31d382f4ae4810209b991877dbbb3f6b21bf77",
       "sourceDirty": false,
-      "recipeSha256": "1c7d00ad3866b40fc1dd5393b853ee72480451bd0f0bd4ad8d703ecae637d17e",
+      "recipeSha256": "e8dabce5533000a013c76d914a6d71d9cbb92cc302550a71be1d2277a8628e41",
       "generatorVersion": "1.2.0",
       "backgrounds": {
         "day": "transparent",
-        "night": "transparent"
+        "night": "#403417"
       },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021.png",
-        "sha256": "2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021"
+        "path": "icons/org.autojs.plugin.apkbuilder.template/f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0.png",
+        "sha256": "f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021.png",
-        "sha256": "2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021"
-      }
-    },
-    "io.github.supermonster003.autojs6.plugin.java.runtime": {
-      "repository": "AutoJs6-Plugin-Java-Runtime",
-      "sourceCommit": "d9871a313181be5fc5121f814a82c067d97dca3f",
-      "sourceDirty": false,
-      "recipeSha256": "43e8c11498ca4c6757c044583248f7efe0fb0eb0b696e1471574c9a4bcc950c1",
-      "generatorVersion": "1.2.0",
-      "backgrounds": {
-        "day": "transparent",
-        "night": "transparent"
-      },
-      "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.java.runtime/13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646.png",
-        "sha256": "13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646"
-      },
-      "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.java.runtime/13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646.png",
-        "sha256": "13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646"
+        "path": "icons/org.autojs.plugin.apkbuilder.template/f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0.png",
+        "sha256": "f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0"
       }
     }
   }

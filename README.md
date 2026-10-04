@@ -161,8 +161,9 @@ The generator verifies their format, dimensions and digest; changing artwork req
 content-addressed filename, so image caches cannot reuse the previous revision's URL.
 These images are copied from the plugin's reviewed generated `ic_plugin_center` assets.
 The manifest records source provenance; it does not claim a new APK release.
-Artwork can be prepared before a project's first publication (currently 3-Shell
-Terminal). That registration does not create a downloadable catalog entry: the
+Artwork can be prepared before a project's first APK release (currently 3-Shell
+Terminal and Compose UI). Their source repositories are public. Artwork registration
+does not create a downloadable catalog entry: the
 generator still requires a real published repository release and APK assets.
 
 For every official package the index sets `forceIgnoreLocalIcon=true`: Plugin Center uses the
