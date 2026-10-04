@@ -185,6 +185,63 @@
         "path": "icons/io.github.supermonster003.autojs6.plugin.threestoneai/c6117ef5debe0cfbf078c112d84a4932b62bf7cd1cd0941b1bf820483d06c763.png",
         "sha256": "c6117ef5debe0cfbf078c112d84a4932b62bf7cd1cd0941b1bf820483d06c763"
       }
+    },
+    "io.github.supermonster003.autojs6.plugin.quickjs.runtime": {
+      "repository": "AutoJs6-Plugin-QuickJS-Runtime",
+      "sourceCommit": "b5634b09ffbe0b0ac2e07a777bc1230898527eeb",
+      "sourceDirty": false,
+      "recipeSha256": "fbb2be3359453d52de1f95e3e33d2d5784390c97a42bba7eedb232cc59004ba4",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c.png",
+        "sha256": "c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c.png",
+        "sha256": "c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.kotlin.runtime": {
+      "repository": "AutoJs6-Plugin-Kotlin-Runtime",
+      "sourceCommit": "fdbcc1492a090299fe611dfaeede07d3352f8b15",
+      "sourceDirty": false,
+      "recipeSha256": "1c7d00ad3866b40fc1dd5393b853ee72480451bd0f0bd4ad8d703ecae637d17e",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021.png",
+        "sha256": "2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021.png",
+        "sha256": "2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.java.runtime": {
+      "repository": "AutoJs6-Plugin-Java-Runtime",
+      "sourceCommit": "d9871a313181be5fc5121f814a82c067d97dca3f",
+      "sourceDirty": false,
+      "recipeSha256": "43e8c11498ca4c6757c044583248f7efe0fb0eb0b696e1471574c9a4bcc950c1",
+      "generatorVersion": "1.2.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.java.runtime/13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646.png",
+        "sha256": "13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.java.runtime/13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646.png",
+        "sha256": "13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646"
+      }
     }
   }
 }

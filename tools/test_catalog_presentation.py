@@ -11,8 +11,12 @@ import catalog_presentation as catalog
 class CatalogPresentationTest(unittest.TestCase):
     def test_checked_in_artwork_has_content_addressed_paths(self):
         artwork = catalog.load_artwork()
-        self.assertEqual(14, len(artwork))
-        self.assertTrue(all(value['day']['sha256'] != value['night']['sha256'] for value in artwork.values()))
+        self.assertTrue(artwork)
+        # Three uses different neutral foregrounds in each theme. Other plugins
+        # may intentionally share a colored, transparent image across both modes.
+        self.assertTrue(all(value['day']['sha256'] != value['night']['sha256']
+                            for value in artwork.values()
+                            if value.get('repository', '').startswith('AutoJs6-Plugin-Three-')))
 
     def test_presentation_does_not_change_release_identity_or_artifact_facts(self):
         package = 'io.github.supermonster003.autojs6.plugin.three.folio.epub'
@@ -40,6 +44,19 @@ class CatalogPresentationTest(unittest.TestCase):
         entry = {'packageName': 'example.ocr.plugin', 'iconUrl': 'published-brand.png'}
         catalog.apply_catalog_presentation([entry])
         self.assertEqual('published-brand.png', entry['iconUrl'])
+        self.assertTrue(entry['forceIgnoreLocalIcon'])
+
+    def test_non_three_artwork_can_be_shared_across_themes(self):
+        package = 'example.runtime.plugin'
+        entry = {'packageName': package}
+        art = {'repository': 'AutoJs6-Plugin-Example-Runtime',
+               'day': {'path': 'shared.png'}, 'night': {'path': 'shared.png'},
+               'backgrounds': {'day': 'transparent', 'night': 'transparent'}}
+        with patch.object(catalog, 'load_artwork', return_value={package: art}):
+            catalog.apply_catalog_presentation([entry])
+        self.assertEqual(entry['iconUrl'], entry['nightIconUrl'])
+        self.assertEqual('transparent', entry['iconBackgroundColor'])
+        self.assertEqual('transparent', entry['nightIconBackgroundColor'])
         self.assertTrue(entry['forceIgnoreLocalIcon'])
 
     def test_custom_backgrounds_remain_independent_of_release_facts(self):

@@ -1166,7 +1166,7 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Java-Runtime"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Runtime/refs/tags/v0.8.3-m9/app/src/main/res/mipmap/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.java.runtime/13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646.png",
       "title": "AutoJs6 Java Runtime",
       "description": "Compiles and runs Java source in dedicated processes",
       "localizedDescriptions": {
@@ -1248,7 +1248,8 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "transparent"
+      "nightIconBackgroundColor": "transparent",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.java.runtime/13bd565e819a7b4180496ced8cc80a01082ab7c66cb83f88ec2f0aef9347a646.png"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.kotlin.runtime",
@@ -1256,7 +1257,7 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Kotlin-Runtime"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Kotlin-Runtime/refs/tags/v0.7.2-m10/app/src/main/res/mipmap/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021.png",
       "title": "AutoJs6 Kotlin Runtime",
       "description": "Compiles and runs Kotlin source in dedicated processes",
       "localizedDescriptions": {
@@ -1336,7 +1337,8 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "transparent"
+      "nightIconBackgroundColor": "transparent",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.kotlin.runtime/2d3b37eedd10ac1fa0b8074641fb61cf36a2543e0d1b9ea22f35d53099212021.png"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.lua.runtime",
@@ -6299,7 +6301,7 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-QuickJS-Runtime"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-QuickJS-Runtime/refs/tags/v1.0.3/app/src/main/res/mipmap/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c.png",
       "title": "QuickJS Runtime",
       "description": "Runs JavaScript with an independent QuickJS engine in an isolated Android process",
       "localizedDescriptions": {
@@ -6461,7 +6463,8 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "transparent"
+      "nightIconBackgroundColor": "transparent",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/c82f1924054527015b95faa81dd6a2313d5e078c15ae4043d9b79297f14cff3c.png"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.r8compiler",
