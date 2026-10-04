@@ -23,7 +23,7 @@ the release channel, and `repository.owner` / `repository.name` identify the sou
 repository independently of APK flavors. A prerelease is not promoted to stable by
 indexing it.
 
-`official-repositories.json` records the 46 expected official projects, including
+`official-repositories.json` records the 45 expected official projects, including
 Three Setup Installer, Three Stove Agent and Three Folio EPUB. Generation fails before writing the index if
 any required project lacks a featured entry with published APK assets, or package
 names collide.
@@ -176,3 +176,19 @@ Generation fails if any retired identity reappears. Existing GitHub release hist
 admission receipts are retained, but retired packages are not downloadable entries in the
 current official catalog. A renamed repository must publish its new installation identity
 before the index update can pass the retirement and repository-coverage checks.
+
+
+### Circular background colors
+
+Catalog PNGs retain their transparent artwork. Optional `backgrounds.day` and
+`backgrounds.night` in `catalog-icons.json` accept `#RRGGBB` or `transparent`.
+They generate `iconBackgroundColor` and `nightIconBackgroundColor`, which the host
+paints inside its circular icon container. Three-series entries always use
+`#fafafa` / `#212121`; other entries default to transparent unless configured.
+The same presentation applies before and after installation. Older hosts ignore
+these optional fields. Background metadata never changes release admission facts.
+
+Image Viewer and Image Tools now ship together as 3-Maple Image. Archive Manager
+is 3-Stack Archive and OpenCC is 3-Hanzi CC. Their old installation identities are
+retired from active listings; historical admission manifests and releases remain.
+The archived Image Tools repository is excluded from active repository discovery.

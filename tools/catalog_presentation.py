@@ -22,6 +22,12 @@ def load_artwork(root: Path = ROOT) -> dict[str, dict]:
     for package, icon in manifest["icons"].items():
         if not PACKAGE.fullmatch(package):
             raise RuntimeError(f"Invalid catalog icon package: {package}")
+        backgrounds = icon.get("backgrounds")
+        if backgrounds is not None and (
+            not isinstance(backgrounds, dict) or set(backgrounds) != {"day", "night"}
+            or any(not isinstance(c, str) or not re.fullmatch(r"transparent|#[0-9a-fA-F]{6}", c) for c in backgrounds.values())
+        ):
+            raise RuntimeError(f"Invalid catalog background colors: {package}")
         for mode in ("day", "night"):
             digest = icon.get(mode, {}).get("sha256", "")
             if not SHA256.fullmatch(digest):
@@ -58,6 +64,14 @@ def apply_catalog_presentation(items: list[dict], root: Path = ROOT) -> None:
         # installation state changes, not only the normalized standalone group.
         item["forceIgnoreLocalIcon"] = True
         icon = artwork.get(package)
+        repository = item.get("repository", {})
+        name = repository.get("name", "") if isinstance(repository, dict) else str(repository)
+        if name.startswith("AutoJs6-Plugin-Three-") or (icon or {}).get("repository", "").startswith("AutoJs6-Plugin-Three-"):
+            background = {"day": "#fafafa", "night": "#212121"}
+        else:
+            background = (icon or {}).get("backgrounds", {"day": "transparent", "night": "transparent"})
+        item["iconBackgroundColor"] = background["day"]
+        item["nightIconBackgroundColor"] = background["night"]
         if icon is None:
             continue
         item["iconUrl"] = BASE_URL + icon["day"]["path"]

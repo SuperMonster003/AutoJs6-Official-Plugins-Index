@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "owner": "SuperMonster003",
-  "repository": "AutoJs6-Plugin-Archive-Manager",
+  "repository": "AutoJs6-Plugin-Three-Stack-Archive",
   "releaseTag": "v2.22.3",
   "sourceCommit": "62b0875f1c02e71f5591029f097c4a4240ebb087",
   "packageName": "io.github.supermonster003.autojs6.plugin.archivemanager",

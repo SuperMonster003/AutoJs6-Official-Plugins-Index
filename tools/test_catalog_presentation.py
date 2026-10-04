@@ -11,7 +11,7 @@ import catalog_presentation as catalog
 class CatalogPresentationTest(unittest.TestCase):
     def test_checked_in_artwork_has_content_addressed_paths(self):
         artwork = catalog.load_artwork()
-        self.assertEqual(12, len(artwork))
+        self.assertEqual(14, len(artwork))
         self.assertTrue(all(value['day']['sha256'] != value['night']['sha256'] for value in artwork.values()))
 
     def test_presentation_does_not_change_release_identity_or_artifact_facts(self):
@@ -27,6 +27,8 @@ class CatalogPresentationTest(unittest.TestCase):
         self.assertTrue(entry['forceIgnoreLocalIcon'])
         self.assertIn('/icons/' + package + '/', entry['iconUrl'])
         self.assertNotEqual(entry['iconUrl'], entry['nightIconUrl'])
+        self.assertEqual('#fafafa', entry['iconBackgroundColor'])
+        self.assertEqual('#212121', entry['nightIconBackgroundColor'])
 
     def test_retired_packages_cannot_be_reintroduced_by_an_old_release(self):
         retired = json.loads((catalog.ROOT / 'retired-packages.json').read_text())['replacements']
@@ -39,6 +41,26 @@ class CatalogPresentationTest(unittest.TestCase):
         catalog.apply_catalog_presentation([entry])
         self.assertEqual('published-brand.png', entry['iconUrl'])
         self.assertTrue(entry['forceIgnoreLocalIcon'])
+
+    def test_custom_backgrounds_remain_independent_of_release_facts(self):
+        package = 'example.custom.plugin'
+        entry = {'packageName': package, 'iconUrl': 'brand.png'}
+        art = {'day': {'path': 'day.png'}, 'night': {'path': 'night.png'},
+               'backgrounds': {'day': '#336699', 'night': 'transparent'}}
+        with patch.object(catalog, 'load_artwork', return_value={package: art}):
+            catalog.apply_catalog_presentation([entry])
+        self.assertEqual('#336699', entry['iconBackgroundColor'])
+        self.assertEqual('transparent', entry['nightIconBackgroundColor'])
+
+    def test_three_backgrounds_cannot_be_overridden_with_color(self):
+        package = 'example.three.plugin'
+        entry = {'packageName': package, 'repository': {'name': 'AutoJs6-Plugin-Three-Test'}}
+        art = {'day': {'path': 'day.png'}, 'night': {'path': 'night.png'},
+               'backgrounds': {'day': '#ff0000', 'night': 'transparent'}}
+        with patch.object(catalog, 'load_artwork', return_value={package: art}):
+            catalog.apply_catalog_presentation([entry])
+        self.assertEqual('#fafafa', entry['iconBackgroundColor'])
+        self.assertEqual('#212121', entry['nightIconBackgroundColor'])
 
     def test_changed_bytes_cannot_reuse_an_existing_icon_url(self):
         with patch.object(Path, 'read_bytes', return_value=b'changed-image'):

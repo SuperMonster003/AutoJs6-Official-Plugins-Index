@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "owner": "SuperMonster003",
-  "repository": "AutoJs6-Plugin-OpenCC",
+  "repository": "AutoJs6-Plugin-Three-Hanzi-CC",
   "releaseTag": "v1.4.2",
   "sourceCommit": "c5516ceccfc17135cab723a8ac76b6ece7d73a46",
   "packageName": "io.github.supermonster003.autojs6.plugin.opencc",

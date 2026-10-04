@@ -5,6 +5,10 @@
     "io.github.supermonster003.autojs6.plugin.accessibilitycompat": "io.github.supermonster003.autojs6.plugin.three.adapt.a11y",
     "io.github.supermonster003.autojs6.plugin.angus.mail": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
     "io.github.supermonster003.autojs6.plugin.videoplayer": "io.github.supermonster003.autojs6.plugin.three.amber.player",
-    "io.github.supermonster003.autojs6.plugin.readium.epub.reader": "io.github.supermonster003.autojs6.plugin.three.folio.epub"
+    "io.github.supermonster003.autojs6.plugin.readium.epub.reader": "io.github.supermonster003.autojs6.plugin.three.folio.epub",
+    "io.github.supermonster003.autojs6.plugin.imageviewer": "io.github.supermonster003.autojs6.plugin.three.maple.image",
+    "io.github.supermonster003.autojs6.plugin.imagetools": "io.github.supermonster003.autojs6.plugin.three.maple.image",
+    "io.github.supermonster003.autojs6.plugin.archivemanager": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+    "io.github.supermonster003.autojs6.plugin.opencc": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc"
   }
 }
