@@ -173,10 +173,18 @@ the existing image cache. Package names, release versions, download URLs and adm
 continue to come from actual published APK releases; artwork cannot rewrite those facts.
 
 `retired-packages.json` names superseded installation identities and their replacements.
-Generation fails if any retired identity reappears. Existing GitHub release history and
-admission receipts are retained, but retired packages are not downloadable entries in the
-current official catalog. A renamed repository must publish its new installation identity
-before the index update can pass the retirement and repository-coverage checks.
+It is a rejection list, not a catalog of downloadable plugins. Generation fails if a
+retired package reappears as a download, registers artwork, or has files under
+`release-manifests/` or `icons/`. Remove those obsolete files from the current tree when
+retiring a package; their earlier revisions remain available in Git history. A renamed
+repository must publish its new installation identity before the index update can pass
+the retirement and repository-coverage checks. Package names still used by current
+releases, such as 3-Terra Player's `audioplayer`, remain active.
+
+When checking GitHub for obsolete projects, verify the canonical repository name and ID:
+an old URL may redirect to the current renamed repository and is not a separate deletion
+target. Image Tools has been deleted. The other renamed projects continue in their current
+repositories; their existing GitHub release history is independent of this index cleanup.
 
 
 ### Circular background colors
@@ -191,5 +199,5 @@ these optional fields. Background metadata never changes release admission facts
 
 Image Viewer and Image Tools now ship together as 3-Maple Image. Archive Manager
 is 3-Stack Archive and OpenCC is 3-Hanzi CC. Their old installation identities are
-retired from active listings; historical admission manifests and releases remain.
-The archived Image Tools repository is excluded from active repository discovery.
+retired from active listings; their old admission manifests and artwork have been removed
+from the current index tree, along with those of the other superseded installation identities.

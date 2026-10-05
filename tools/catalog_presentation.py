@@ -56,6 +56,13 @@ def apply_catalog_presentation(items: list[dict], root: Path = ROOT) -> None:
     for package, replacement in retired["replacements"].items():
         if not PACKAGE.fullmatch(package) or not PACKAGE.fullmatch(replacement) or package == replacement:
             raise RuntimeError(f"Invalid retired package replacement: {package}")
+        if package in artwork:
+            raise RuntimeError(f"Retired package {package} cannot register catalog artwork")
+        for directory in ("release-manifests", "icons"):
+            retired_path = root / directory / package
+            # Git does not publish empty local directories.
+            if retired_path.is_file() or any(path.is_file() for path in retired_path.rglob("*")):
+                raise RuntimeError(f"Retired package files must be removed: {directory}/{package}")
     for item in items:
         package = item["packageName"]
         if package in retired["replacements"]:

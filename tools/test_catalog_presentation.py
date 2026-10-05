@@ -46,6 +46,35 @@ class CatalogPresentationTest(unittest.TestCase):
         self.assertEqual('published-brand.png', entry['iconUrl'])
         self.assertTrue(entry['forceIgnoreLocalIcon'])
 
+    def test_retired_package_files_cannot_be_published_even_without_a_download_entry(self):
+        package = 'example.retired.plugin'
+        for directory in ('release-manifests', 'icons'):
+            with self.subTest(directory=directory), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                (root / 'retired-packages.json').write_text(json.dumps({
+                    'schemaVersion': 1, 'replacements': {package: 'example.current.plugin'},
+                }), encoding='utf-8')
+                stale = root / directory / package
+                stale.mkdir(parents=True)
+                (stale / 'old-release.json' if directory == 'release-manifests'
+                 else stale / 'old-icon.png').write_bytes(b'obsolete')
+                with patch.object(catalog, 'load_artwork', return_value={}):
+                    with self.assertRaisesRegex(RuntimeError, 'Retired package files must be removed'):
+                        catalog.apply_catalog_presentation([], root=root)
+
+    def test_retired_artwork_cannot_be_registered_before_a_release(self):
+        package = 'io.github.supermonster003.autojs6.plugin.opencc'
+        with patch.object(catalog, 'load_artwork', return_value={package: {}}):
+            with self.assertRaisesRegex(RuntimeError, 'cannot register catalog artwork'):
+                catalog.apply_catalog_presentation([])
+
+    def test_active_package_retained_across_a_rename_is_still_supported(self):
+        entry = {'packageName': 'io.github.supermonster003.autojs6.plugin.audioplayer',
+                 'repository': {'name': 'AutoJs6-Plugin-Three-Terra-Player'}}
+        catalog.apply_catalog_presentation([entry])
+        self.assertIn('/icons/' + entry['packageName'] + '/', entry['iconUrl'])
+        self.assertTrue(entry['forceIgnoreLocalIcon'])
+
     def test_non_three_artwork_can_be_shared_across_themes(self):
         package = 'example.runtime.plugin'
         entry = {'packageName': package}

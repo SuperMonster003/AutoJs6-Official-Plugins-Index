@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "replacements": {
+    "io.github.supermonster003.autojs6.plugin.ai.agent": "io.github.supermonster003.autojs6.plugin.three.stove.agent",
     "io.github.supermonster003.autojs6.plugin.screencolorpicker": "io.github.supermonster003.autojs6.plugin.three.color.picker",
     "io.github.supermonster003.autojs6.plugin.accessibilitycompat": "io.github.supermonster003.autojs6.plugin.three.adapt.a11y",
     "io.github.supermonster003.autojs6.plugin.angus.mail": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
