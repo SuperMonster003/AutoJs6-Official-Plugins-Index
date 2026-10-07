@@ -1,8 +1,11 @@
 import json
+import io
 import tempfile
 import unittest
+from contextlib import redirect_stderr
 from pathlib import Path
 from unittest.mock import patch
+from urllib.error import HTTPError
 
 import generate_official_plugin_index as generator
 
@@ -10,6 +13,42 @@ import generate_official_plugin_index as generator
 class OfficialPluginIndexGeneratorTest(unittest.TestCase):
     OWNER = "SuperMonster003"
     VERSION = "1.0.0"
+
+    def test_transient_server_failure_retries_and_returns_the_complete_resource(self):
+        url = "https://raw.githubusercontent.com/owner/repo/tag/strings.xml"
+        transient = HTTPError(url, 503, "first byte timeout", {}, None)
+        with patch.object(generator, "urlopen", side_effect=[transient, io.BytesIO(b"<resources/>")]) as download, \
+                patch.object(generator.time, "sleep") as sleep, redirect_stderr(io.StringIO()):
+            self.assertEqual("<resources/>", generator.request_text(url, "text/plain"))
+            self.assertEqual(2, download.call_count)
+            sleep.assert_called_once_with(1)
+
+    def test_timeout_retries_are_bounded_and_preserve_the_failure(self):
+        with patch.object(generator, "urlopen", side_effect=TimeoutError("read timeout")) as download, \
+                patch.object(generator.time, "sleep") as sleep, redirect_stderr(io.StringIO()):
+            with self.assertRaises(TimeoutError):
+                generator.request_text("https://example.test/source", "text/plain")
+            self.assertEqual(4, download.call_count)
+            self.assertEqual([1, 2, 4], [call.args[0] for call in sleep.call_args_list])
+
+    def test_missing_and_forbidden_sources_are_not_retried(self):
+        url = "https://example.test/source"
+        for status in (400, 401, 403, 404):
+            with self.subTest(status=status), \
+                    patch.object(generator, "urlopen", side_effect=HTTPError(url, status, "failed", {}, None)) as download, \
+                    patch.object(generator.time, "sleep") as sleep:
+                with self.assertRaises(HTTPError):
+                    generator.request_text(url, "text/plain")
+                self.assertEqual(1, download.call_count)
+                sleep.assert_not_called()
+
+    def test_exhausted_retries_cannot_drop_a_declared_published_source(self):
+        path = "app/src/main/res/values/strings.xml"
+        with patch.object(generator, "urlopen", side_effect=HTTPError("https://example.test", 503, "unavailable", {}, None)) as download, \
+                patch.object(generator.time, "sleep"), redirect_stderr(io.StringIO()):
+            with self.assertRaisesRegex(RuntimeError, "Cannot read declared published source"):
+                generator.fetch_source_text(self.OWNER, "example", "tag", path, {path})
+            self.assertEqual(4, download.call_count)
 
     def test_plugin_center_artwork_precedes_opaque_application_icons(self):
         day = "app/src/main/res/mipmap/ic_plugin_center.png"

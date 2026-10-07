@@ -5,6 +5,7 @@ import json
 import os
 import re
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
@@ -1706,8 +1707,19 @@ def request_text(url: str, accept: str) -> str:
     if token and url.startswith("https://api.github.com/"):
         headers["Authorization"] = f"Bearer {token}"
     req = Request(url, headers=headers)
-    with urlopen(req, timeout=30) as response:
-        return response.read().decode("utf-8")
+    for attempt in range(4):
+        try:
+            with urlopen(req, timeout=30) as response:
+                return response.read().decode("utf-8")
+        except HTTPError as exc:
+            # Retry temporary server failures, never missing/private source or invalid requests.
+            if exc.code not in {500, 502, 503, 504} or attempt == 3:
+                raise
+        except (URLError, TimeoutError):
+            if attempt == 3:
+                raise
+        print(f"Warning: transient download failure; retry {attempt + 1}/3 for {url}", file=sys.stderr)
+        time.sleep(2 ** attempt)
 
 
 def raw_url(owner: str, repo: str, ref: str, path: str) -> str:
