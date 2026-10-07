@@ -7556,6 +7556,181 @@
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.setup.installer/22928b60fe6aa475cf8c2a45b4e0c41583e4c64e538c2f5fe83b8c7f3bcc8ead.png"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Shell-Terminal"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.shell.terminal/f8a54f5f775b1a23081fbbbeb914dc7848735fcb5eb889f9838c60c600412481.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.shell.terminal/c5038a46aed57c05c5fe352485e9c0feddfc2f21f4ec12df04fecf3bd5faa395.png",
+      "title": "3-Shell Terminal",
+      "description": "A multi-session terminal running the system shell in a pty, with background sessions, a key bar and Node.js commands",
+      "localizedDescriptions": {
+        "values": "A multi-session terminal running the system shell in a pty, with background sessions, a key bar and Node.js commands",
+        "values-ar": "\u0637\u0631\u0641\u064a\u0629 \u0645\u062a\u0639\u062f\u062f\u0629 \u0627\u0644\u062c\u0644\u0633\u0627\u062a \u062a\u0634\u063a\u0644 shell \u0627\u0644\u0646\u0638\u0627\u0645 \u0641\u064a pty, \u0645\u0639 \u062c\u0644\u0633\u0627\u062a \u0641\u064a \u0627\u0644\u062e\u0644\u0641\u064a\u0629 \u0648\u0634\u0631\u064a\u0637 \u0645\u0641\u0627\u062a\u064a\u062d \u0648\u0623\u0648\u0627\u0645\u0631 Node.js",
+        "values-en": "A multi-session terminal running the system shell in a pty, with background sessions, a key bar and Node.js commands",
+        "values-es": "Terminal multisesi\u00f3n que ejecuta el shell del sistema en un pty, con sesiones en segundo plano, barra de teclas y comandos Node.js",
+        "values-fr": "Terminal multi-session ex\u00e9cutant le shell syst\u00e8me dans un pty, avec sessions en arri\u00e8re-plan, barre de touches et commandes Node.js",
+        "values-ja": "pty \u3067\u30b7\u30b9\u30c6\u30e0\u30b7\u30a7\u30eb\u3092\u5b9f\u884c\u3059\u308b\u30de\u30eb\u30c1\u30bb\u30c3\u30b7\u30e7\u30f3\u7aef\u672b. \u30d0\u30c3\u30af\u30b0\u30e9\u30a6\u30f3\u30c9\u5b9f\u884c, \u30ad\u30fc\u30d0\u30fc, Node.js \u30b3\u30de\u30f3\u30c9\u306b\u5bfe\u5fdc",
+        "values-ko": "pty\uc5d0\uc11c \uc2dc\uc2a4\ud15c \uc178\uc744 \uc2e4\ud589\ud558\ub294 \ub2e4\uc911 \uc138\uc158 \ud130\ubbf8\ub110. \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc2e4\ud589, \ud0a4 \ubc14, Node.js \uba85\ub839 \uc9c0\uc6d0",
+        "values-ru": "\u041c\u043d\u043e\u0433\u043e\u0441\u0435\u0430\u043d\u0441\u043e\u0432\u044b\u0439 \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b, \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u044e\u0449\u0438\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u0443\u044e \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0443 \u0432 pty, \u0441 \u0444\u043e\u043d\u043e\u0432\u044b\u043c\u0438 \u0441\u0435\u0430\u043d\u0441\u0430\u043c\u0438, \u043f\u0430\u043d\u0435\u043b\u044c\u044e \u043a\u043b\u0430\u0432\u0438\u0448 \u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 Node.js",
+        "values-zh": "\u591a\u4f1a\u8bdd\u7ec8\u7aef, \u5728 pty \u4e2d\u8fd0\u884c\u7cfb\u7edf shell, \u652f\u6301\u540e\u53f0\u8fd0\u884c, \u5feb\u6377\u6309\u952e\u53ca Node.js \u547d\u4ee4",
+        "values-zh-rHK": "\u591a\u5de5\u4f5c\u968e\u6bb5\u7d42\u7aef\u6a5f, \u5728 pty \u4e2d\u57f7\u884c\u7cfb\u7d71 shell, \u652f\u63f4\u80cc\u666f\u57f7\u884c, \u5feb\u6377\u6309\u9375\u53ca Node.js \u547d\u4ee4",
+        "values-zh-rTW": "\u591a\u5de5\u4f5c\u968e\u6bb5\u7d42\u7aef\u6a5f, \u5728 pty \u4e2d\u57f7\u884c\u7cfb\u7d71 shell, \u652f\u63f4\u80cc\u666f\u57f7\u884c, \u5feb\u6377\u6309\u9375\u53ca Node.js \u547d\u4ee4"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "terminal",
+      "variant": "default",
+      "engineId": "three-shell-terminal",
+      "requiresHostVersion": 5304,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 35,
+          "versionDate": "2026-10-07",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/tag/v1.0.0",
+          "changelogText": "3-Shell Terminal \u7684\u9996\u6b21\u6b63\u5f0f\u7248\u672c, \u63d0\u4f9b\u72ec\u7acb\u7ec8\u7aef\u5e94\u7528\u548c AutoJs6 \u7ec8\u7aef\u63d2\u4ef6\u96c6\u6210.\r\n\r\n- \u591a\u4e2a pty shell \u4f1a\u8bdd, \u4f1a\u8bdd\u7ba1\u7406\u5668, \u540e\u53f0\u8fd0\u884c\u4e0e\u524d\u53f0\u670d\u52a1\u901a\u77e5\r\n- \u5feb\u6377\u952e\u680f, \u6587\u672c\u9009\u62e9, \u590d\u5236\u4e0e\u5206\u4eab, \u5b57\u53f7\u548c\u5916\u89c2\u8bbe\u7f6e\r\n- AutoJs6 \u62bd\u5c49, \u76ee\u5f55\u83dc\u5355\u548c\u9879\u76ee\u5de5\u5177\u680f\u5165\u53e3, \u4ee5\u53ca terminal / $terminal \u811a\u672c API\r\n- \u540c\u6b65\u4e0e\u5f02\u6b65\u8c03\u7528, \u8f93\u5165\u548c\u8f93\u51fa\u4e8b\u4ef6, \u8f93\u51fa\u7b49\u5f85, \u9000\u51fa\u7801\u548c\u6ea2\u51fa\u901a\u77e5\r\n- \u53ef\u9009 Node.js Runtime \u96c6\u6210, node / npm / corepack \u547d\u4ee4\u53ca npm \u5305\u7ba1\u7406\u8bbe\u7f6e\r\n- \u4fee\u590d\u6301\u7eed\u8f93\u51fa\u548c\u4f1a\u8bdd\u5173\u95ed\u65f6\u7684\u54cd\u5e94\u53ca\u8d44\u6e90\u56de\u6536, \u5e76\u5728\u6253\u5f00\u7ec8\u7aef\u65f6\u91cd\u8bd5\u88ab\u540e\u53f0\u9650\u5236\u963b\u6b62\u7684\u524d\u53f0\u4fdd\u62a4\r\n\r\n\u652f\u6301 Android 7.0 \u53ca\u4ee5\u4e0a. \u63d0\u4f9b arm64-v8a, armeabi-v7a, x86_64, x86 \u548c universal APK,\r\n\u539f\u751f\u5e93\u652f\u6301 16 KiB \u9875. \u4e0d\u786e\u5b9a\u8bbe\u5907\u67b6\u6784\u65f6\u53ef\u9009\u62e9 universal.\r\n\r\n\u72ec\u7acb\u7ec8\u7aef\u53ef\u4ee5\u5355\u72ec\u8fd0\u884c. \u5bbf\u4e3b\u5165\u53e3\u9700\u8981 AutoJs6 6.8.0 \u4e2d\u7684\u7ec8\u7aef\u534f\u8bae (\u6700\u4f4e\u6784\u5efa 5304),\r\n\u5b8c\u6574\u811a\u672c API \u9700\u8981\u6784\u5efa 5315 \u6216\u66f4\u65b0\u7248\u672c. \u5b89\u88c5\u63d2\u4ef6\u4e0d\u4f1a\u7ed9\u65e7\u5bbf\u4e3b\u8865\u5165\u7f3a\u5931\u7684\u811a\u672c API.\r\nNode.js \u547d\u4ee4\u9700\u8981\u7b7e\u540d\u53ef\u4fe1\u7684 Node.js Runtime 1.5.0 \u6216\u66f4\u65b0\u7248\u672c.\r\n\r\n\u7ec8\u7aef\u4f7f\u7528\u63d2\u4ef6\u81ea\u5df1\u7684\u6743\u9650, \u8bbf\u95ee\u5171\u4eab\u5b58\u50a8\u9700\u8981\u5355\u72ec\u6388\u6743. Android/OEM \u7684\u540e\u53f0\u9650\u5236\u4ecd\u7136\u9002\u7528;\r\n\u63d2\u4ef6\u8fdb\u7a0b\u7ec8\u6b62\u540e\u65e0\u6cd5\u6062\u590d\u539f\u4f1a\u8bdd, \u91cd\u65b0\u6253\u5f00\u4f1a\u521b\u5efa\u65b0\u4f1a\u8bdd, \u4fdd\u7559\u79c1\u6709\u6587\u4ef6\u4e14\u4e0d\u91cd\u653e\u65e7\u547d\u4ee4. Android \u5bf9\u53ef\u6267\u884c\u6587\u4ef6\u548c\u539f\u751f Node addon \u7684\u9650\u5236\u89c1\u9879\u76ee\u8bf4\u660e.\r\n\r\n\u9879\u76ee\u4f7f\u7528 MPL-2.0; jackpal \u7ec8\u7aef\u7ec4\u4ef6\u4fdd\u7559 Apache-2.0 \u8bb8\u53ef\u548c\u6765\u6e90\u8bf4\u660e.\r\n\u5b8c\u6574\u7684\u5341\u8bed\u8a00\u66f4\u65b0\u65e5\u5fd7, \u811a\u672c\u793a\u4f8b\u548c\u517c\u5bb9\u8bf4\u660e\u89c1\u9879\u76ee README \u4e0e\u5185\u7f6e\u53d1\u884c\u5386\u53f2.\r\n\r\n\u672c\u6b21\u53d1\u5e03\u4e3a v1.0.0 (build 35), \u6765\u6e90\u63d0\u4ea4 `7af6fc27984546f0b8032af03c5254a77558c769`.\r\n\r\n\u53d1\u5e03\u9a8c\u6536\u8986\u76d6 Xiaomi 23046RP50C (API 35), Sony G8441 (API 28, \u542b armv7),\r\nSony XQ-AT72 (API 31), Redmi 22120RN86C (API 33), API 24 x86 \u4e0e API 37.1 x86_64 / 16 KiB AVD.\r\n\u6700\u7ec8\u4e94\u79cd\u7b7e\u540d\u5305\u5b8c\u6210 13 \u6b21\u5b89\u88c5\u4e0e 26 \u9879\u5bbf\u4e3b\u68c0\u67e5. \u672c\u5730 176 \u9879\u5355\u5143\u6d4b\u8bd5, debug/release lint,\r\n\u56db ABI \u539f\u751f\u9875\u5bf9\u9f50\u548c\u6587\u6863/\u56fe\u6807\u91cd\u73b0\u68c0\u67e5\u901a\u8fc7. GitHub [\u6784\u5efa\u4e0e\u6a21\u62df\u5668\u9a8c\u6536](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/actions/runs/37589278646)\r\n\u548c [\u6587\u6863\u68c0\u67e5](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/actions/runs/37589278620) \u5bf9\u5e94\u540c\u4e00\u6765\u6e90\u63d0\u4ea4.\r\n\r\n\u9644\u4ef6 `SHA256SUMS` \u53ef\u7528\u4e8e\u6838\u5bf9\u4e0b\u8f7d\u6587\u4ef6.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-shell-terminal-v1.0.0-arm64-v8a-20aae111.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.0.0/autojs6-plugin-three-shell-terminal-v1.0.0-arm64-v8a-20aae111.apk",
+              "size": 1783222,
+              "digest": "sha256:46aeaa9e3e25f3497b83309137f0bd488658b1ab90739e0a9ceb4a02f0682fed",
+              "sha256": "46aeaa9e3e25f3497b83309137f0bd488658b1ab90739e0a9ceb4a02f0682fed",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 35,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7af6fc27984546f0b8032af03c5254a77558c769"
+            },
+            {
+              "name": "autojs6-plugin-three-shell-terminal-v1.0.0-armeabi-v7a-2ae6381a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.0.0/autojs6-plugin-three-shell-terminal-v1.0.0-armeabi-v7a-2ae6381a.apk",
+              "size": 1780438,
+              "digest": "sha256:f1c224cb274b8f1a065aeaeaee622f8957a395d492e3c1e4b5bd3ee90f54b22a",
+              "sha256": "f1c224cb274b8f1a065aeaeaee622f8957a395d492e3c1e4b5bd3ee90f54b22a",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 35,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7af6fc27984546f0b8032af03c5254a77558c769"
+            },
+            {
+              "name": "autojs6-plugin-three-shell-terminal-v1.0.0-universal-d5c19308.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.0.0/autojs6-plugin-three-shell-terminal-v1.0.0-universal-d5c19308.apk",
+              "size": 1882323,
+              "digest": "sha256:541ab60617e5cbbe9e7b06f4280216383a1ac74d12cb421220e0ab408fd39442",
+              "sha256": "541ab60617e5cbbe9e7b06f4280216383a1ac74d12cb421220e0ab408fd39442",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 35,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7af6fc27984546f0b8032af03c5254a77558c769"
+            },
+            {
+              "name": "autojs6-plugin-three-shell-terminal-v1.0.0-x86-491fce88.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.0.0/autojs6-plugin-three-shell-terminal-v1.0.0-x86-491fce88.apk",
+              "size": 1781654,
+              "digest": "sha256:3be5893edb5fe5217828a34683ac8239e646bcf306e41e5d91104247aebf3ee4",
+              "sha256": "3be5893edb5fe5217828a34683ac8239e646bcf306e41e5d91104247aebf3ee4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 35,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7af6fc27984546f0b8032af03c5254a77558c769"
+            },
+            {
+              "name": "autojs6-plugin-three-shell-terminal-v1.0.0-x86_64-726b5a94.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.0.0/autojs6-plugin-three-shell-terminal-v1.0.0-x86_64-726b5a94.apk",
+              "size": 1783520,
+              "digest": "sha256:352b50c79576fa5c26cefabd88a9b74cfbcfa29f59b102f813cde0d6b0a788a7",
+              "sha256": "352b50c79576fa5c26cefabd88a9b74cfbcfa29f59b102f813cde0d6b0a788a7",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 35,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7af6fc27984546f0b8032af03c5254a77558c769"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
       "repository": {
         "owner": "SuperMonster003",

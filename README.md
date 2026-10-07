@@ -23,8 +23,8 @@ the release channel, and `repository.owner` / `repository.name` identify the sou
 repository independently of APK flavors. A prerelease is not promoted to stable by
 indexing it.
 
-`official-repositories.json` records the 45 expected official projects, including
-Three Setup Installer, Three Stove Agent and Three Folio EPUB. Generation fails before writing the index if
+`official-repositories.json` records the 46 expected official projects, including
+Three Setup Installer, Three Stove Agent, Three Folio EPUB and Three Shell Terminal. Generation fails before writing the index if
 any required project lacks a featured entry with published APK assets, or package
 names collide.
 Additional repositories can still be discovered automatically; add new official
@@ -48,6 +48,9 @@ file as absent and defaulting its version or dropping artifact admission data.
 String metadata is merged from `strings.xml` and `strings_*.xml` in each values
 directory, including nontranslatable application names. Duplicate names within
 one directory are rejected instead of being resolved by download order.
+Temporary server errors and connection/read timeouts receive at most three retries
+with bounded backoff. Missing or forbidden files are not retried, and exhausted
+retries still fail generation before any incomplete index is written.
 
 Schema version 2 expands APK-producing `productFlavors` into separate plugin entries. Each entry contains only the APK assets for its `distributionVariant`; `featured` controls whether Plugin Center should show that distribution by default. Metadata is read from the release tag so it stays aligned with the published APKs. An APK that cannot be assigned to exactly one declared flavor, or a configured featured distribution without an APK, makes generation fail.
 
