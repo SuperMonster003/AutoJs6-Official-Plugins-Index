@@ -13,7 +13,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
-from native_page_alignment import release_alignment
+from native_page_alignment import SUPPORTED_ABIS_META_DATA, release_alignment, release_supported_abis
 from catalog_presentation import apply_catalog_presentation
 
 
@@ -52,6 +52,7 @@ CLASS_NAME_PATTERN = re.compile(r"[A-Za-z_][A-Za-z0-9_$]*(?:\.[A-Za-z_][A-Za-z0-
 SHA256_PATTERN = re.compile(r"[0-9a-fA-F]{64}")
 COMMIT_SHA_PATTERN = re.compile(r"[0-9a-fA-F]{40}")
 PACKAGE_NAME_PATTERN = re.compile(r"[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)+")
+APK_UNIVERSAL_ABIS = "universal"
 SUPPORTED_ABIS = {
     "arm64-v8a",
     "armeabi-v7a",
@@ -425,17 +426,18 @@ def build_entries_from_release(
                     f"protocolApiMin {protocol_api_min}."
                 )
 
-        declared_supported_abis = contract["supportedAbis"]
-        if (
-            declared_supported_abis is not None
-            and asset_supported_abis is not None
-            and declared_supported_abis != asset_supported_abis
-        ):
-            raise RuntimeError(
-                f"{entry_context} supportedAbis declaration {declared_supported_abis} conflicts "
-                f"with release asset names {asset_supported_abis}."
+        apk_supported_abis = None
+        if native_cache is not None:
+            apk_supported_abis = parse_apk_supported_abis(
+                release_supported_abis(flavor_assets, cache_root=native_cache),
+                source=f"{entry_context} release APK {SUPPORTED_ABIS_META_DATA}",
             )
-        supported_abis = declared_supported_abis or asset_supported_abis
+        supported_abis = resolve_supported_abis(
+            entry_context,
+            apk=apk_supported_abis,
+            declared=contract["supportedAbis"],
+            assets=asset_supported_abis,
+        )
         entry_admission_text = admission_manifest_text
         if entry_admission_text is None and admission_root is not None:
             entry_admission_text = read_admission_manifest(
@@ -1370,6 +1372,48 @@ def parse_protocol_version(value: str, *, source: str) -> str:
 def protocol_version_key(value: str) -> tuple[int, int]:
     major, minor = value.split(".", 1)
     return int(major), int(minor)
+
+
+def parse_apk_supported_abis(value: str | None, *, source: str) -> list[str] | None:
+    """The build-written manifest meta-data: None when absent, [] for `universal` (any ABI)."""
+    if value is None:
+        return None
+    if value.strip() == APK_UNIVERSAL_ABIS:
+        return []
+    return parse_supported_abis(value, source=source)
+
+
+def resolve_supported_abis(
+    context: str,
+    *,
+    apk: list[str] | None,
+    declared: list[str] | None,
+    assets: list[str] | None,
+) -> list[str] | None:
+    """Pick the supported ABI list: APK meta-data, then the source declaration, then asset names.
+
+    The meta-data written by the plugin build is the truth and every other source must agree
+    with it, so a stale hand-written declaration or a mislabeled release asset fails the index.
+    """
+    if apk is not None:
+        apk_abis = apk or None
+        if declared is not None and declared != apk_abis:
+            raise RuntimeError(
+                f"{context} supportedAbis declaration {declared} conflicts with the release APK "
+                f"meta-data {apk_abis if apk_abis is not None else APK_UNIVERSAL_ABIS}; remove the hand-written declaration."
+            )
+        if assets is not None and assets != apk_abis:
+            raise RuntimeError(
+                f"{context} release asset names {assets} conflict with the release APK "
+                f"meta-data {apk_abis if apk_abis is not None else APK_UNIVERSAL_ABIS}."
+            )
+        return apk_abis
+    if declared is not None and assets is not None and declared != assets:
+        raise RuntimeError(
+            f"{context} supportedAbis declaration {declared} conflicts "
+            f"with release asset names {assets}."
+        )
+    return declared or assets
 
 
 def parse_supported_abis(value: str, *, source: str) -> list[str]:

@@ -14,8 +14,11 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
+from axml import manifest_meta_data
+
 STRICT_MACHINES = {62, 183}
-CACHE_REVISION = 1
+CACHE_REVISION = 2
+SUPPORTED_ABIS_META_DATA = 'org.autojs.plugin.contract.SUPPORTED_ABIS'
 
 
 def elf_alignment(prefix):
@@ -68,13 +71,26 @@ def measure_apk(path):
                                 visit(child, name + '!/' + info.filename, depth + 1)
         elif name.endswith('.so'):
             raise ValueError(f'Native payload is not ELF: {name}')
+    supported_abis = None
     with zipfile.ZipFile(path) as archive:
         for info in archive.infolist():
             if not info.is_dir() and (info.filename.startswith('lib/') or info.filename.startswith('assets/')):
                 with archive.open(info) as stream:
                     visit(stream, info.filename)
+        # The build-written supported-ABI meta-data (nativeAlignment 1.9.0+) travels in the
+        # compiled manifest; older releases simply carry none.
+        try:
+            manifest = archive.read('AndroidManifest.xml')
+        except KeyError:
+            manifest = None
+    if manifest is not None:
+        supported_abis = manifest_meta_data(manifest).get(SUPPORTED_ABIS_META_DATA)
     strict = [e['minLoadAlign'] for e in entries if e['machine'] in STRICT_MACHINES]
-    return {'nativePageAlignment': min(strict or [e['minLoadAlign'] for e in entries], default=0), 'entries': entries}
+    return {
+        'nativePageAlignment': min(strict or [e['minLoadAlign'] for e in entries], default=0),
+        'entries': entries,
+        'supportedAbisMetaData': supported_abis,
+    }
 
 
 def measure_asset(asset, cache_root):
@@ -89,7 +105,7 @@ def measure_asset(asset, cache_root):
     if cache and cache.is_file():
         saved = json.loads(cache.read_text(encoding='utf-8'))
         if saved.get('sha256') == expected and saved.get('schemaRevision') == CACHE_REVISION:
-            return saved['nativePageAlignment']
+            return saved
     if not url:
         return None
     try:
@@ -112,19 +128,39 @@ def measure_asset(asset, cache_root):
         result = measure_apk(apk)
         result.update(schemaRevision=CACHE_REVISION, sha256=actual)
         (cache_root / (actual + '.json')).write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
-        return result['nativePageAlignment']
+        return result
 
 
-def release_alignment(assets, declared=None, *, cache_root):
+def select_assets(assets):
     # A universal artifact contains all released ABIs. Otherwise inspect every split,
     # so a pure/32-bit APK cannot hide a 4 KB arm64 or x86_64 library.
     universal = [a for a in assets if 'universal' in str(a.get('name', '')).lower()]
     strict = [a for a in assets if re.search(r'arm64|aarch64|x86[-_]?64|amd64', str(a.get('name', '')), re.I)]
-    selected = universal[:1] or strict or assets
-    values = [measure_asset(a, cache_root) for a in selected]
+    return universal[:1] or strict or assets
+
+
+def release_alignment(assets, declared=None, *, cache_root):
+    records = [measure_asset(a, cache_root) for a in select_assets(assets)]
+    values = [r['nativePageAlignment'] if r is not None else None for r in records]
     if values and all(v is not None for v in values):
         nonzero = [v for v in values if v]
         return {'nativePageAlignment': min(nonzero, default=0), 'nativePageAlignmentSource': 'measured'}
     if declared is not None:
         return {'nativePageAlignment': declared, 'nativePageAlignmentSource': 'declared'}
     return {}
+
+
+def release_supported_abis(assets, *, cache_root):
+    """The supported-ABI meta-data shared by the selected release APKs.
+
+    Returns the raw meta-data string when every selected APK could be measured and they
+    agree, None when an APK is unavailable or carries no meta-data, and raises when the
+    split APKs of one release disagree with each other.
+    """
+    records = [measure_asset(a, cache_root) for a in select_assets(assets)]
+    if not records or any(r is None for r in records):
+        return None
+    values = {r.get('supportedAbisMetaData') for r in records}
+    if len(values) != 1:
+        raise ValueError(f'Release APKs disagree on supported ABI meta-data: {sorted(map(str, values))}')
+    return values.pop()

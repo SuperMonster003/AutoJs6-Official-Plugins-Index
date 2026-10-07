@@ -91,8 +91,12 @@ declare the following Android string `resValue` keys and repeat them as manifest
 - `plugin_backend`, `plugin_task`, and `plugin_decoder`
   (`org.autojs.plugin.contract.BACKEND`, `org.autojs.plugin.contract.TASK`, and
   `org.autojs.plugin.contract.DECODER`): stable contract identifiers.
-- `plugin_supported_abis` (`org.autojs.plugin.contract.SUPPORTED_ABIS`): a comma-separated ABI list. When
-  APK names also encode specific ABIs, both declarations must agree.
+- `plugin_supported_abis` (`org.autojs.plugin.contract.SUPPORTED_ABIS`): a comma-separated ABI list. The
+  compiled manifest of the released APKs is read first: the shared `nativeAlignment` Gradle plugin (1.9.0+)
+  writes this meta-data from the native libraries it actually packaged (`universal` for packages without
+  native code), so plugin repositories no longer need a hand-written declaration. A hand-written source
+  declaration or ABI-encoding APK names must agree with that meta-data, and with each other when the APKs
+  carry none; every split APK of one release must carry the same value.
 
 These fields remain absent for legacy plugins. An explicitly empty, malformed,
 unresolved, incomplete, or conflicting declaration stops generation. The
