@@ -287,7 +287,7 @@ def build_entries_from_release(
 
     manifest_author = parse_manifest_author(manifest_text)
     release_author = release.get("author", {}).get("login")
-    author = (
+    fallback_author = (
         resolve_string_reference(manifest_author, strings_by_dir)
         or literal_resource_value(manifest_author)
         or release_author
@@ -350,6 +350,12 @@ def build_entries_from_release(
         res_values = dict(default_res_values)
         if flavor is not None:
             res_values.update(flavor.res_values)
+
+        author = (
+            res_values.get(manifest_author.removeprefix("@string/"))
+            if manifest_author and manifest_author.startswith("@string/")
+            else None
+        ) or fallback_author
 
         application_id_suffix = flavor.application_id_suffix if flavor is not None else ""
         version_name_suffix = flavor.version_name_suffix if flavor is not None else ""

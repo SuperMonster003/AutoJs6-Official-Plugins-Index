@@ -48,6 +48,9 @@ file as absent and defaulting its version or dropping artifact admission data.
 String metadata is merged from `strings.xml` and `strings_*.xml` in each values
 directory, including nontranslatable application names. Duplicate names within
 one directory are rejected instead of being resolved by download order.
+Developer attribution follows the manifest's `org.autojs.plugin.info.AUTHOR`
+resource, including Gradle `resValue` declarations and flavor overrides. The
+release publisher is only a fallback when the declared author cannot be resolved.
 Temporary server errors and connection/read timeouts receive at most three retries
 with bounded backoff. Missing or forbidden files are not retried, and exhausted
 retries still fail generation before any incomplete index is written.

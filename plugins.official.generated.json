@@ -2629,7 +2629,7 @@
         "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv3/refs/tags/v1.0.5/app/src/main/res/raw-zh/plugin_instruction.md",
         "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Paddle-OCR-PP-OCRv3/refs/tags/v1.0.5/app/src/main/res/raw/plugin_instruction.md"
       },
-      "author": "SuperMonster003",
+      "author": "TonyJiangWJ",
       "collaborators": [],
       "engine": "paddle-ocr",
       "variant": "v3",

@@ -436,6 +436,40 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertAssetVariants(by_variant["small"], {"small"})
         self.assertAssetVariants(by_variant["tiny"], {"tiny"})
 
+    def test_author_resolves_gradle_resource_before_release_publisher(self):
+        repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3"
+        manifest = '<manifest><application><meta-data android:name="org.autojs.plugin.info.AUTHOR" android:value="@string/plugin_author" /></application></manifest>'
+        assets = self.assets_for(repo_name, [None])
+        cases = [
+            ('defaultConfig { resValue("string", "plugin_author", "TonyJiangWJ") }', {}, manifest, "TonyJiangWJ"),
+            ("", {"values": {"plugin_author": "Resource Author"}}, manifest, "Resource Author"),
+            ("", {}, manifest.replace("@string/plugin_author", "Literal Author"), "Literal Author"),
+            ("", {}, manifest, self.OWNER),
+        ]
+        for gradle, resources, source, expected in cases:
+            with self.subTest(expected=expected):
+                entry = self.build_entries(repo_name, gradle, assets, manifest_text=source, strings_by_dir=resources)[0]
+                self.assertEqual(expected, entry["author"])
+
+    def test_author_resolves_flavor_resource_override(self):
+        repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4"
+        gradle = self.gradle_with_flavors(
+            base_package="io.github.supermonster003.autojs6.plugin.paddleocr.v4",
+            plugin_variant="v4",
+            flavors=[
+                self.flavor("mobile", ".mobile", "-mobile", "Mobile", "mobile-id").replace(
+                    'dimension = "ocrProfile"',
+                    'dimension = "ocrProfile"\nresValue("string", "plugin_author", "Mobile Author")',
+                ),
+                self.flavor("server", ".server", "-server", "Server", "server-id"),
+            ],
+        ).replace('defaultConfig {', 'defaultConfig {\nresValue("string", "plugin_author", "Default Author")')
+        manifest = '<meta-data android:name="org.autojs.plugin.info.AUTHOR" android:value="@string/plugin_author" />'
+        entries = self.build_entries(repo_name, gradle, self.assets_for(repo_name, ["mobile", "server"]), manifest_text=manifest)
+        self.assertEqual({"mobile": "Mobile Author", "server": "Default Author"}, {
+            entry["distributionVariant"]: entry["author"] for entry in entries
+        })
+
     def test_single_variant_project_keeps_legacy_shape_and_assets(self):
         repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3"
         gradle = """
