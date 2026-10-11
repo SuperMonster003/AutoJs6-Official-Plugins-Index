@@ -180,7 +180,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "#000040"
+      "nightIconBackgroundColor": "transparent"
     },
     {
       "packageName": "org.autojs.plugin.apkbuilder.template",
@@ -364,7 +364,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "#403417",
+      "nightIconBackgroundColor": "transparent",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/org.autojs.plugin.apkbuilder.template/f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0.png"
     },
     {
@@ -2337,7 +2337,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "#002800",
+      "nightIconBackgroundColor": "transparent",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.nodejs/9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8.png"
     },
     {
@@ -2417,7 +2417,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "#280000",
+      "nightIconBackgroundColor": "transparent",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png"
     },
     {
@@ -2589,7 +2589,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "#303030",
+      "nightIconBackgroundColor": "transparent",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.opencv/ecf2a96544dcc761257e5b50631161a0f27e676826648bd34d3f40cd80061477.png"
     },
     {
@@ -6471,7 +6471,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "#280000",
+      "nightIconBackgroundColor": "transparent",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.quickjs.runtime/f15b0203166d37d8af44d7bbb97b91abdf421263f1ea16527823584b2b3d246e.png"
     },
     {
@@ -7220,8 +7220,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Hanzi-CC"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/d6c22054b2d913c9885edf02698ff8dc704212734ef5b6a08f2b7d9b63cc74ea.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/808f369a7a1a09feb8ddfe90bbc044d2953e5c7ab7d9c886e0c55e778b5defdc.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/110f974cd690cd8636f4b4ac48e48c2c6484a1d0782bb5b9a72084a661e48b4e.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.hanzi.cc/579a06b92fc4a267dbea742b6cb7b7f12597ccd6aa771ad54eb8712f8f94f8a9.png",
       "title": "3-Hanzi CC",
       "description": "Offline OpenCC Chinese converter for standalone use and AutoJs6",
       "localizedDescriptions": {
