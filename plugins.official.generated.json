@@ -1618,19 +1618,19 @@
         "values-zh-rTW": "\u900f\u904e Model Context Protocol \u5411 AI \u4ee3\u7406\u958b\u653e\u88dd\u7f6e\u81ea\u52d5\u5316\u80fd\u529b"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.0.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -1641,25 +1641,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.2",
-          "versionCode": 67,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.0.2",
-          "changelogText": "MCP Server 1.0.2\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `1061bbcfede66b69a08919f80e4afd0946699bbf`\r\n\r\nPublished release.\r\n\r\n- Fix: Settings buttons, switch tracks and thumbs, text inputs, radio choices and dialog buttons follow the host theme color with improved contrast in light and dark modes\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Android 17 local network authorization moves to plugin-center enablement and plugin settings, with no launcher permission page; missing permission keeps the plugin disabled and automatic startup silent\r\n- Improvement: Target Android 17 (SDK 37) with separate local network permission controls and recovery guidance\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.0.3",
+          "versionCode": 168,
+          "versionDate": "2026-10-11",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.0.3",
+          "changelogText": "MCP Server 1.0.3\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `d8a75f30e86e3d4bb19f7e1c4937adce10a969b6`\n\nPublished release.\n\n- Feature: VS Code mcp.json snippet in the client configuration of the settings page: VS Code asks for the token when the server first starts, so the token stays out of the file (the dialog has a \"Copy token\" button)\n- Feature: The client configuration snippets and the token dialog on the settings page can show a QR code holding the same text as the \"Copy\" button (the token included when the text contains it; the window blocks screenshots)\n- Feature: The annotate option of screen_capture, which draws the #n references of the latest ui_dump / ui_find on the image (boxes and labels); the annotation field of the result reports how many were drawn\n- Improvement: Resumable event streams on the stateful MCP endpoint: events carry ids, clients of protocol 2025-11-25 or newer first receive a priming event with the reconnection interval, and a dropped request stream can be resumed with a GET carrying Last-Event-ID, which replays the missed events and the final result (bounded retention per session)\n- Improvement: device_info, screen_state, script_run and script_run_file declare an output schema (outputSchema) that clients can validate their structured results against; errors of these tools carry the error code and message as text only\n- Improvement: Plugin Center icons use the sizes, positions, light and dark artwork, and circular backgrounds adjusted in Icon Studio, retaining reproducible sources and parameters\n- Improvement: Android App info icons share Icon Studio artwork and light/dark backgrounds while preserving transparent Plugin Center artwork and existing launcher choices\n- Dependency: ZXing Core 3.5.4 (`com.google.zxing:core`) added to draw the settings page QR codes (encoder only, Apache 2.0)\n\nRequires AutoJs6 host build 5279 or later. On the computer, the stdio bridge `autojs6-mcp-bridge` 0.1.1 (Node.js 22 or newer) opens a new session by itself when the phone's listener restarts.\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-mcp-server-v1.0.2-3321db9b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.0.2/autojs6-plugin-mcp-server-v1.0.2-3321db9b.apk",
-              "size": 1391706,
-              "digest": "sha256:2dd26f232d4d2d855e0433a94d250d285d734d31f582034b97a637967be74ca7",
-              "sha256": "2dd26f232d4d2d855e0433a94d250d285d734d31f582034b97a637967be74ca7",
+              "name": "autojs6-plugin-mcp-server-v1.0.3-4f5b5fd7.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.0.3/autojs6-plugin-mcp-server-v1.0.3-4f5b5fd7.apk",
+              "size": 1766122,
+              "digest": "sha256:bd444519a88c0b5a83e8bb1db1a1a0a2110108de85defd954d1fa9e77cae0949",
+              "sha256": "bd444519a88c0b5a83e8bb1db1a1a0a2110108de85defd954d1fa9e77cae0949",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.2",
-              "versionCode": 67,
+              "versionName": "1.0.3",
+              "versionCode": 168,
               "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
-              "sourceCommit": "1061bbcfede66b69a08919f80e4afd0946699bbf"
+              "sourceCommit": "d8a75f30e86e3d4bb19f7e1c4937adce10a969b6"
             }
           ],
           "prerelease": false,
