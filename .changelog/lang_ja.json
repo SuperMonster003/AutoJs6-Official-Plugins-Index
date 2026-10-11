@@ -1,0 +1,18 @@
+{
+  "changelog_label_hint": "ヒント",
+  "changelog_label_feature": "機能",
+  "changelog_label_fix": "修正",
+  "changelog_label_improvement": "改善",
+  "changelog_label_dependency": "依存関係",
+  "$data": {
+    "2026-10-12": {
+      "released_date": "2026/10/12",
+      "feature": [
+        "README とリポジトリ変更履歴の 10 言語対応. ルートは簡体字中国語とし, 各言語の文書を `.readme/` と `.changelog/` に統一"
+      ],
+      "improvement": [
+        "JSON と共通テンプレートから文書を生成し, 公式プロジェクト数を自動取得. Ubuntu / Windows CI で原稿と生成物を検証"
+      ]
+    }
+  }
+}

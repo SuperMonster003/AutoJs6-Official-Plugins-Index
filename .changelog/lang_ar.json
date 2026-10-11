@@ -1,0 +1,18 @@
+{
+  "changelog_label_hint": "تلميح",
+  "changelog_label_feature": "ميزة",
+  "changelog_label_fix": "إصلاح",
+  "changelog_label_improvement": "تحسين",
+  "changelog_label_dependency": "تبعية",
+  "$data": {
+    "2026-10-12": {
+      "released_date": "2026/10/12",
+      "feature": [
+        "README وسجل المستودع بعشر لغات, مع الصينية المبسطة في الجذر والوثائق المترجمة داخل `.readme/` و `.changelog/`"
+      ],
+      "improvement": [
+        "توليد الوثائق من JSON وقوالب مشتركة وقراءة عدد المشاريع الرسمية تلقائيا والتحقق من المصادر والنتائج في CI على Ubuntu / Windows"
+      ]
+    }
+  }
+}

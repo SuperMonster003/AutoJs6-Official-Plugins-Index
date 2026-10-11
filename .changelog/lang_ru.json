@@ -1,0 +1,18 @@
+{
+  "changelog_label_hint": "Подсказка",
+  "changelog_label_feature": "Функция",
+  "changelog_label_fix": "Исправление",
+  "changelog_label_improvement": "Улучшение",
+  "changelog_label_dependency": "Зависимость",
+  "$data": {
+    "2026-10-12": {
+      "released_date": "2026/10/12",
+      "feature": [
+        "README и журнал репозитория на десяти языках, упрощенный китайский в корне и языковые документы в `.readme/` и `.changelog/`"
+      ],
+      "improvement": [
+        "Создание документов из JSON и общих шаблонов, автоматическое чтение числа официальных проектов и проверка источников и результатов в CI Ubuntu / Windows"
+      ]
+    }
+  }
+}

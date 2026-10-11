@@ -1,0 +1,18 @@
+{
+  "changelog_label_hint": "提示",
+  "changelog_label_feature": "新增",
+  "changelog_label_fix": "修復",
+  "changelog_label_improvement": "優化",
+  "changelog_label_dependency": "相依性",
+  "$data": {
+    "2026-10-12": {
+      "released_date": "2026/10/12",
+      "feature": [
+        "README 與儲存庫更新日誌支援 10 種語言, 根 README 使用簡體中文, 各語言文件統一存放在 `.readme/` 與 `.changelog/`"
+      ],
+      "improvement": [
+        "透過 JSON 與共用範本產生文件, 自動讀取官方專案數量, 並在 Ubuntu / Windows CI 中驗證文案來源與產生的檔案"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "changelog_label_hint": "힌트",
+  "changelog_label_feature": "기능",
+  "changelog_label_fix": "수정",
+  "changelog_label_improvement": "개선",
+  "changelog_label_dependency": "의존성",
+  "$data": {
+    "2026-10-12": {
+      "released_date": "2026/10/12",
+      "feature": [
+        "README와 저장소 변경 기록을 10개 언어로 제공. 루트는 중국어 간체를 사용하고 언어별 문서는 `.readme/`와 `.changelog/`에 통일"
+      ],
+      "improvement": [
+        "JSON과 공통 템플릿으로 문서를 생성하고 공식 프로젝트 수를 자동으로 읽으며 Ubuntu / Windows CI에서 원본과 생성 파일 검증"
+      ]
+    }
+  }
+}

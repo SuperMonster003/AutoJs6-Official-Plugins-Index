@@ -1,0 +1,18 @@
+{
+  "changelog_label_hint": "Hint",
+  "changelog_label_feature": "Feature",
+  "changelog_label_fix": "Fix",
+  "changelog_label_improvement": "Improvement",
+  "changelog_label_dependency": "Dependency",
+  "$data": {
+    "2026-10-12": {
+      "released_date": "2026/10/12",
+      "feature": [
+        "README and repository changelog in ten languages, with Simplified Chinese at the root and localized documents under `.readme/` and `.changelog/`"
+      ],
+      "improvement": [
+        "Generate documentation from JSON and shared templates, read the official project count automatically, and validate sources and artifacts in Ubuntu / Windows CI"
+      ]
+    }
+  }
+}
