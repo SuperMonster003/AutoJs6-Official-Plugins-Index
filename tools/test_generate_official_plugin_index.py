@@ -98,6 +98,17 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertEqual("Default description", entry["localizedDescriptions"]["values"])
         self.assertEqual("English description", entry["localizedDescriptions"]["values-en"])
 
+    def test_plugin_name_res_value_takes_precedence_over_repository_title(self):
+        gradle = """
+            android {
+                defaultConfig {
+                    resValue("string", "plugin_name", "AutoJs4 Runtime")
+                }
+            }
+        """
+        entry = self.build_entries("AutoJs6-Plugin-AutoJs4-Runtime", gradle, self.assets_for("AutoJs6-Plugin-AutoJs4-Runtime", [None]))[0]
+        self.assertEqual("AutoJs4 Runtime", entry["title"])
+
     def test_split_strings_reject_ambiguous_names_and_unreadable_declared_files(self):
         paths = {"app/src/main/res/values/strings.xml", "app/src/main/res/values/strings_donottranslate.xml"}
         with patch.object(generator, "raw_text", return_value='<resources><string name="app_name">Duplicate</string></resources>'):

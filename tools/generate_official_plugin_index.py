@@ -362,7 +362,9 @@ def build_entries_from_release(
         distribution_variant = flavor.distribution_variant if flavor is not None else None
         package_name = base_package_name + application_id_suffix
         version_name = base_version_name + version_name_suffix
-        title = res_values.get("app_name") or base_title
+        # plugin_name is the display name of plugins whose embedded libraries localize app_name themselves
+        # (AutoJs4 Runtime); app_name stays the default for every other official plugin.
+        title = res_values.get("plugin_name") or res_values.get("app_name") or base_title
         asset_supported_abis = supported_abis_from_assets(flavor_assets)
         entry_context = repo_name + (f"/{distribution_variant}" if distribution_variant else "")
         routing = {

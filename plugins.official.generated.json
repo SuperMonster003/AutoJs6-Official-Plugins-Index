@@ -446,6 +446,181 @@
       "nightIconBackgroundColor": "transparent"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-AutoJs4-Runtime"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.autojs4.runtime/5df4a139c7b5fd15ab171f742377f8c47e5d1c407a77adc0ac8d2b627a9a8fa1.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.autojs4.runtime/49495851cb3b9a94167df3ae303763130e497667e72b8c17de0882a8109a48fd.png",
+      "title": "AutoJs4 Runtime",
+      "description": "Runs scripts with the embedded Auto.js 4.1.1 Alpha2 engine to compare results with AutoJs6",
+      "localizedDescriptions": {
+        "values": "Runs scripts with the embedded Auto.js 4.1.1 Alpha2 engine to compare results with AutoJs6",
+        "values-ar": "\u064a\u0634\u063a\u0651\u0644 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0628\u0645\u062d\u0631\u0643 Auto.js 4.1.1 Alpha2 \u0627\u0644\u0645\u0636\u0645\u0651\u0646 \u0644\u0645\u0642\u0627\u0631\u0646\u0629 \u0627\u0644\u0646\u062a\u0627\u0626\u062c \u0645\u0639 AutoJs6",
+        "values-en": "Runs scripts with the embedded Auto.js 4.1.1 Alpha2 engine to compare results with AutoJs6",
+        "values-es": "Ejecuta scripts con el motor Auto.js 4.1.1 Alpha2 integrado para comparar los resultados con AutoJs6",
+        "values-fr": "Ex\u00e9cute des scripts avec le moteur Auto.js 4.1.1 Alpha2 embarqu\u00e9 pour comparer les r\u00e9sultats avec AutoJs6",
+        "values-ja": "\u5185\u8535\u306e Auto.js 4.1.1 Alpha2 \u30a8\u30f3\u30b8\u30f3\u3067\u30b9\u30af\u30ea\u30d7\u30c8\u3092\u5b9f\u884c\u3057, AutoJs6 \u306e\u7d50\u679c\u3068\u6bd4\u8f03\u3059\u308b",
+        "values-ko": "\ub0b4\uc7a5\ub41c Auto.js 4.1.1 Alpha2 \uc5d4\uc9c4\uc73c\ub85c \uc2a4\ud06c\ub9bd\ud2b8\ub97c \uc2e4\ud589\ud558\uc5ec AutoJs6 \uacb0\uacfc\uc640 \ube44\uad50",
+        "values-ru": "\u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u0441\u043a\u0440\u0438\u043f\u0442\u044b \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u043c \u0434\u0432\u0438\u0436\u043a\u043e\u043c Auto.js 4.1.1 Alpha2 \u0434\u043b\u044f \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432 \u0441 AutoJs6",
+        "values-zh": "\u4f7f\u7528\u5185\u5d4c\u7684 Auto.js 4.1.1 Alpha2 \u5f15\u64ce\u8fd0\u884c\u811a\u672c, \u7528\u4e8e\u5bf9\u7167 AutoJs6 \u7684\u8fd0\u884c\u7ed3\u679c",
+        "values-zh-rHK": "\u4f7f\u7528\u5167\u5d4c\u7684 Auto.js 4.1.1 Alpha2 \u5f15\u64ce\u57f7\u884c\u8173\u672c, \u7528\u65bc\u5c0d\u7167 AutoJs6 \u7684\u57f7\u884c\u7d50\u679c",
+        "values-zh-rTW": "\u4f7f\u7528\u5167\u5d4c\u7684 Auto.js 4.1.1 Alpha2 \u5f15\u64ce\u57f7\u884c\u6307\u4ee4\u78bc, \u7528\u65bc\u5c0d\u7167 AutoJs6 \u7684\u57f7\u884c\u7d50\u679c"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "autojs4",
+      "variant": "default",
+      "engineId": "autojs4-runtime",
+      "requiresHostVersion": 5334,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 10,
+          "versionDate": "2026-10-12",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/tag/v1.0.0",
+          "changelogText": "AutoJs4 Runtime 1.0.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `16c313d`\n\nPublished release.\n\n- Hint: armeabi-v7a uses AutoJs4's original OpenCV 3.4.3 native library, 64-bit devices use the same release rebuilt with NDK 28.2; the x86 build has no OpenCV, like AutoJs4\n- Feature: Run `.js` files, `.auto` recordings and project folders from the AutoJs6 file manager with the embedded AutoJs4 4.4.0 engine (Rhino 1.7.7.2, OpenCV 3.4.3) through the `Run with AutoJs4` menu entry\n- Feature: Protected runtime service with the versioned `autojs4-runtime-api` AIDL contract: file-path requests, streamed console lines, start and completion events, cancellation and concurrent executions\n- Feature: Plugin settings page with accessibility service, display over other apps, storage access, battery optimization and root status, plus the `Show AutoJs4 console window` switch\n- Feature: Ship `arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86` and `universal` APKs, Wake activation, complete PluginInfo metadata, plugin-center instructions, README and changelog in 10 languages\n- Improvement: Build the arm64-v8a and x86_64 OpenCV 3.4.3 and jackpal terminal libraries with 16 KB page alignment and verify ELF alignment plus full JNI symbol coverage of the original library at build time\n- Dependency: Embed AutoJs4 4.4.0 as a Git submodule at commit `3fb08269198ebd49a880ab3ca2621383eaa10443`\n\nAPK checksums are in `SHA256SUMS`.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-autojs4-runtime-v1.0.0-arm64-v8a-9752fd2d.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.0.0/autojs6-plugin-autojs4-runtime-v1.0.0-arm64-v8a-9752fd2d.apk",
+              "size": 22518042,
+              "digest": "sha256:3837470e15fbe030fe05dc5ce9c65e81a5ea02abc5368b6f59703ccd23c0c3d4",
+              "sha256": "3837470e15fbe030fe05dc5ce9c65e81a5ea02abc5368b6f59703ccd23c0c3d4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 10,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "16c313d68872562976b2c2e70ec10b562eb33a8d"
+            },
+            {
+              "name": "autojs6-plugin-autojs4-runtime-v1.0.0-armeabi-v7a-7895ebae.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.0.0/autojs6-plugin-autojs4-runtime-v1.0.0-armeabi-v7a-7895ebae.apk",
+              "size": 17455740,
+              "digest": "sha256:f37896be94f943dc6981367919597358160faa4a0243c1e7ba14eb0b928d187e",
+              "sha256": "f37896be94f943dc6981367919597358160faa4a0243c1e7ba14eb0b928d187e",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 10,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "16c313d68872562976b2c2e70ec10b562eb33a8d"
+            },
+            {
+              "name": "autojs6-plugin-autojs4-runtime-v1.0.0-universal-51345acc.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.0.0/autojs6-plugin-autojs4-runtime-v1.0.0-universal-51345acc.apk",
+              "size": 51294114,
+              "digest": "sha256:e8f184300bb65b14b299bd7cf10712123e797dadddc4ec69648787a2d134b59a",
+              "sha256": "e8f184300bb65b14b299bd7cf10712123e797dadddc4ec69648787a2d134b59a",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 10,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "16c313d68872562976b2c2e70ec10b562eb33a8d"
+            },
+            {
+              "name": "autojs6-plugin-autojs4-runtime-v1.0.0-x86-b35ba03a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.0.0/autojs6-plugin-autojs4-runtime-v1.0.0-x86-b35ba03a.apk",
+              "size": 6252884,
+              "digest": "sha256:1e9253b81d629ebc555653abccf079e8a8fae8b1f8fae7e576acbfc1252f0b7a",
+              "sha256": "1e9253b81d629ebc555653abccf079e8a8fae8b1f8fae7e576acbfc1252f0b7a",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 10,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "16c313d68872562976b2c2e70ec10b562eb33a8d"
+            },
+            {
+              "name": "autojs6-plugin-autojs4-runtime-v1.0.0-x86_64-b5ef6023.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.0.0/autojs6-plugin-autojs4-runtime-v1.0.0-x86_64-b5ef6023.apk",
+              "size": 23719185,
+              "digest": "sha256:de466718eedacdc54d3e23a2c36fc36009cddccf43a19d4e91586226008db32d",
+              "sha256": "de466718eedacdc54d3e23a2c36fc36009cddccf43a19d4e91586226008db32d",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 10,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "16c313d68872562976b2c2e70ec10b562eb33a8d"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "transparent",
+      "nightIconBackgroundColor": "transparent"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.bun.runtime",
       "repository": {
         "owner": "SuperMonster003",

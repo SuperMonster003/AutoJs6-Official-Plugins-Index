@@ -33,7 +33,7 @@ python tools/generate_official_plugin_index.py
 
 インデックスは公開日時に基づき, 各リポジトリで最後に**公開された**リリースを選びます. マイルストーン版とリリース候補版も含み, ドラフトと未公開版は除外します. GitHub の `/releases/latest` はプレリリースを除外するため, それだけを使うとマイルストーン版や候補版のみを公開した公式プラグインが見えなくなります. 追加フィールド `releases[].prerelease` はリリースチャネルを保持し, `repository.owner` / `repository.name` は APK のバリアントと独立してソースリポジトリを識別します. インデックスへの登録でプレリリースが安定版になることはありません.
 
-`official-repositories.json` は Three Setup Installer, Three Stove Agent, Three Folio EPUB, Three Shell Terminal を含む 46 個の必須公式プロジェクトを記録します. 必須プロジェクトに公開 APK 付きの推奨エントリがない場合やパッケージ名が衝突する場合, 書き込み前に生成が失敗します. 他のリポジトリも自動検出できます. 新しい公式プロジェクトはこの一覧に追加し, 意図しない欠落を防いでください. APK のバリアントによりエントリ数がプロジェクト数を上回ることがあります.
+`official-repositories.json` は Three Setup Installer, Three Stove Agent, Three Folio EPUB, Three Shell Terminal を含む 47 個の必須公式プロジェクトを記録します. 必須プロジェクトに公開 APK 付きの推奨エントリがない場合やパッケージ名が衝突する場合, 書き込み前に生成が失敗します. 他のリポジトリも自動検出できます. 新しい公式プロジェクトはこの一覧に追加し, 意図しない欠落を防いでください. APK のバリアントによりエントリ数がプロジェクト数を上回ることがあります.
 
 ## メタデータと互換性
 
