@@ -104,7 +104,7 @@ python -m unittest discover -s tools -p 'test_*.py' -v
 
 ## 目录图标与已退役标识
 
-`catalog-icons.json` 独立于 APK 发行元数据管理展示图标. 日间/夜间 432 px 透明 PNG 保存于 `icons/<package>/<sha256>.png`. 生成器验证格式, 尺寸与摘要; 更换图标须使用新的内容寻址文件名, 避免图像缓存复用上一版 URL. 图像复制自插件经过审核并生成的 `ic_plugin_center` 资源. 清单记录来源, 不表示发布了新 APK. 图标可在项目首次 APK 发行前准备 (当前为 3-Shell Terminal 和 Compose UI), 对应源码仓库是公开的. 注册图标不会创建可下载目录条目: 生成器仍要求真实的仓库发行版与 APK 资源.
+`catalog-icons.json` 独立于 APK 发行元数据管理展示图标. 日间/夜间 432 px 透明 PNG 保存于 `icons/<package>/<sha256>.png`. 生成器验证格式, 尺寸与摘要; 更换图标须使用新的内容寻址文件名, 避免图像缓存复用上一版 URL. 图像复制自插件经过审核并生成的 `ic_plugin_center` 资源. 清单记录来源, 不表示发布了新 APK. 图标可在项目首次 APK 发行前准备 (当前为 3-Shell Terminal 和 3-Block Compose), 对应源码仓库是公开的. 注册图标不会创建可下载目录条目: 生成器仍要求真实的仓库发行版与 APK 资源.
 
 索引为每个官方包设置 `forceIgnoreLocalIcon=true`: 插件中心在安装前后使用相同的目录图标, 即使已安装 APK 内含旧品牌图标. 启动器与应用内图标仍由 APK 管理. 离线加载使用现有图像缓存. 包名, 发行版本, 下载 URL 与准入哈希仍来自实际已发布的 APK; 图标配置不能改写这些事实.
 

@@ -77,25 +77,6 @@
         "sha256": "3da0656d4cf9244f91795be257a1a62e50aa7872828b895564c160820943d3ef"
       }
     },
-    "io.github.supermonster003.autojs6.plugin.compose.ui": {
-      "repository": "AutoJs6-Plugin-Compose-UI",
-      "sourceCommit": "bd3d84a9ebbc95eec905330f24001110f5916802",
-      "sourceDirty": true,
-      "recipeSha256": "f03bb9d32cc6a62f3badaf222edc6001b3fb6a541a0b67ebef79a95ed20b7e81",
-      "generatorVersion": "1.3.0",
-      "backgrounds": {
-        "day": "#fafafa",
-        "night": "#212121"
-      },
-      "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.compose.ui/471d09120fa1dafaf331ebfa3888cf9d105962a6ac39a5bf50255e485422b250.png",
-        "sha256": "471d09120fa1dafaf331ebfa3888cf9d105962a6ac39a5bf50255e485422b250"
-      },
-      "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.compose.ui/fc546087a534f065626b9c23dc25a1887298f8734cab4e17df5ffbd74f3088c2.png",
-        "sha256": "fc546087a534f065626b9c23dc25a1887298f8734cab4e17df5ffbd74f3088c2"
-      }
-    },
     "io.github.supermonster003.autojs6.plugin.imagequant": {
       "repository": "AutoJs6-Plugin-Image-Quantization",
       "sourceCommit": "2fa70ee49e733a088c82310ba6ffaadbd66dcbf0",
@@ -448,6 +429,25 @@
       "night": {
         "path": "icons/io.github.supermonster003.autojs6.plugin.three.amber.player/74459a03dafc013a9bd6c5cbaa354c4297e8e0071854937236c4ea40e3073489.png",
         "sha256": "74459a03dafc013a9bd6c5cbaa354c4297e8e0071854937236c4ea40e3073489"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.three.block.compose": {
+      "repository": "AutoJs6-Plugin-Three-Block-Compose",
+      "sourceCommit": "7dbc3b217c6f397e5b5b18e8f7305de700b21f17",
+      "sourceDirty": false,
+      "recipeSha256": "afdb4fa21b5df1ca829377a118a7d432a231250c695a1b5c8d7e6c008aa96a3e",
+      "generatorVersion": "1.3.1",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.block.compose/f933b7487a1db4f5e8d9a6e41ca55e0fbd7448c8c698856986875524219b9e95.png",
+        "sha256": "f933b7487a1db4f5e8d9a6e41ca55e0fbd7448c8c698856986875524219b9e95"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.block.compose/e4dae7c3f23a441ebfdd940225c2ed8932b586f33bebbfd51e67af25dc496706.png",
+        "sha256": "e4dae7c3f23a441ebfdd940225c2ed8932b586f33bebbfd51e67af25dc496706"
       }
     },
     "io.github.supermonster003.autojs6.plugin.three.color.picker": {

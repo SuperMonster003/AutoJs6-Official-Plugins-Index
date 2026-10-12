@@ -104,7 +104,7 @@ python -m unittest discover -s tools -p 'test_*.py' -v
 
 ## 目錄圖示與已退役識別
 
-`catalog-icons.json` 獨立於 APK 發行中繼資料管理顯示圖示. 日間/夜間 432 px 透明 PNG 保存在 `icons/<package>/<sha256>.png`. 產生器驗證格式, 尺寸與摘要; 更換圖示須使用新的內容定址檔名, 避免影像快取重用上一版 URL. 影像複製自外掛經審查並產生的 `ic_plugin_center` 資源. 清單記錄來源, 不表示發行了新 APK. 圖示可在專案首次 APK 發行前準備 (目前為 3-Shell Terminal 與 Compose UI), 對應原始碼儲存庫是公開的. 註冊圖示不會建立可下載目錄項目: 產生器仍要求真實的儲存庫發行版與 APK 資源.
+`catalog-icons.json` 獨立於 APK 發行中繼資料管理顯示圖示. 日間/夜間 432 px 透明 PNG 保存在 `icons/<package>/<sha256>.png`. 產生器驗證格式, 尺寸與摘要; 更換圖示須使用新的內容定址檔名, 避免影像快取重用上一版 URL. 影像複製自外掛經審查並產生的 `ic_plugin_center` 資源. 清單記錄來源, 不表示發行了新 APK. 圖示可在專案首次 APK 發行前準備 (目前為 3-Shell Terminal 與 3-Block Compose), 對應原始碼儲存庫是公開的. 註冊圖示不會建立可下載目錄項目: 產生器仍要求真實的儲存庫發行版與 APK 資源.
 
 索引為每個官方套件設定 `forceIgnoreLocalIcon=true`: 外掛中心在安裝前後使用相同目錄圖示, 即使已安裝 APK 內含舊品牌圖示. 啟動器與應用程式內圖示仍由 APK 管理. 離線載入使用既有影像快取. 套件名稱, 發行版本, 下載 URL 與准入雜湊仍來自實際已發行 APK; 圖示設定不能改寫這些事實.
 
