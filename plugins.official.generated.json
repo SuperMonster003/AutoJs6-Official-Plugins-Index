@@ -7588,19 +7588,19 @@
         "values-zh-rTW": "\u5716\u7247\u6aa2\u8996, \u7de8\u8f2f\u8207\u683c\u5f0f\u8f49\u63db"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.0.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -7611,37 +7611,49 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "2.0.0",
-          "versionCode": 33,
-          "versionDate": "2026-10-04",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/tag/v2.0.0",
-          "changelogText": "\u5408\u5e76 Image Viewer \u548c Image Tools. \u72ec\u7acb\u9996\u9875\u63d0\u4f9b\u56fe\u7247\u67e5\u770b\u3001\u7f16\u8f91\u548c\u683c\u5f0f\u8f6c\u6362, \u5171\u4eab\u8bbe\u7f6e\u4e0e Four-mode \u542f\u52a8\u5668\u56fe\u6807. AutoJs6 \u6587\u4ef6\u64cd\u4f5c\u4fdd\u7559\u539f\u534f\u8bae\u548c\u80fd\u529b.\n\n\u65b0\u5b89\u88c5\u8eab\u4efd: `io.github.supermonster003.autojs6.plugin.three.maple.image`. Android \u4f1a\u5c06\u5176\u89c6\u4e3a\u65b0\u5e94\u7528, \u53ef\u4e0e\u65e7\u5305\u5e76\u5b58; \u65e7\u8bbe\u7f6e\u548c\u6570\u636e\u4e0d\u4f1a\u81ea\u52a8\u8fc1\u79fb. \u56fe\u6807 PNG \u4fdd\u6301\u900f\u660e, Three \u7cfb\u5217\u81ea\u9002\u5e94\u5e95\u8272\u4e3a #FAFAFA / #212121.\n\nCombines Image Viewer and Image Tools into one app with standalone viewing, editing and conversion, shared appearance settings and four launcher icon modes. Existing AutoJs6 file action capabilities remain available.\n\nThe new application ID installs alongside the old app. Existing settings and data are not automatically migrated. This release uses the existing official signing certificate.\n\nVersion: **v2.0.0 (33)**. Checksums: `SHA256SUMS`.",
+          "versionName": "3.0.0",
+          "versionCode": 107,
+          "versionDate": "2026-10-13",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/tag/v3.0.0",
+          "changelogText": "\u9996\u9875\u53d8\u4e3a\u76f8\u518c: \u6309\u6587\u4ef6\u5939\u6d4f\u89c8\u8bbe\u5907\u4e0a\u7684\u56fe\u7247, \u53ef\u5207\u6362\u4e3a\u6240\u6709\u56fe\u7247\u7684\u5e73\u94fa\u89c6\u56fe; \u7f51\u683c 3-6 \u5217 (\u83dc\u5355\u6216\u53cc\u6307\u634f\u5408), \u6392\u5e8f\u6309\u76f8\u518c\u8bb0\u4f4f, \u5feb\u901f\u6eda\u52a8\u6761\u5e26\u65e5\u671f\u63d0\u793a, \u652f\u6301\u4e0b\u62c9\u5237\u65b0. \u67e5\u770b\u5668\u53ef\u5728\u6574\u4e2a\u76f8\u518c\u4e2d\u5de6\u53f3\u7ffb\u9875, \u5e95\u90e8\u7f29\u7565\u56fe\u6761\u70b9\u6309\u8df3\u8f6c, \u8fd4\u56de\u65f6\u7f51\u683c\u505c\u5728\u6700\u540e\u67e5\u770b\u7684\u56fe\u7247; \u53cc\u6307\u65cb\u8f6c\u540e\u5bf9\u9f50\u5230 90 \u5ea6 (\u4ec5\u6539\u53d8\u663e\u793a). \u8bbe\u7f6e\u65b0\u589e \u5b58\u50a8\u6743\u9650 \u9875 (\u6388\u6743\u72b6\u6001, \u7ba1\u7406\u6240\u9009\u7167\u7247, \u5df2\u6388\u6743\u6587\u4ef6\u5939, \u53ef\u9009\u7684\u6240\u6709\u6587\u4ef6\u8bbf\u95ee). AutoJs6 \u6587\u4ef6\u7ba1\u7406\u5668\u7684\u6587\u4ef6\u5939\u83dc\u5355\u65b0\u589e \u4ee5\u76f8\u518c\u6d4f\u89c8.\n\n\u6743\u9650: \u72ec\u7acb\u542f\u52a8\u65f6\u7533\u8bf7\u4e00\u6b21\u7167\u7247\u6743\u9650 (Android 13 \u53ca\u4ee5\u4e0a\u4e3a\u7167\u7247\u548c\u89c6\u9891, \u66f4\u65e9\u7248\u672c\u4e3a\u5b58\u50a8), \u62d2\u7edd\u540e\u4ecd\u53ef\u901a\u8fc7\u7cfb\u7edf\u9009\u62e9\u5668\u67e5\u770b, \u7f16\u8f91\u548c\u8f6c\u6362; \u4ece AutoJs6 \u6216\u5176\u4ed6\u5e94\u7528\u6253\u5f00\u56fe\u7247\u4ece\u4e0d\u7533\u8bf7\u6743\u9650; \u63d2\u4ef6\u4e0d\u7533\u8bf7\u7f51\u7edc\u6743\u9650. \u6700\u4f4e AutoJs6 \u7248\u672c\u4e0d\u53d8 (explorer-action \u534f\u8bae\u4ecd\u4e3a v12). 5 \u4e07\u5f20\u56fe\u5e93\u5b9e\u6d4b: \u9996\u9875 2 \u79d2\u5185\u53ef\u7528, \u5feb\u901f\u6ed1\u52a8\u6389\u5e27\u4f4e\u4e8e 2%.\n\nThe home screen becomes an album view: browse the images on the device by folder, or switch to a flat view of all images; the grid offers 3-6 columns (menu or pinch), per-album sort memory, a fast scroller with a date hint and pull to refresh. The viewer pages through the whole album, a thumbnail strip jumps to a page on tap, and the grid returns to the last image viewed; two-finger rotation snaps to quarter turns (display only). Settings gain a Storage permission page (access state, selected photos, authorized folders, optional all files access). The AutoJs6 file manager's folder menu gains View as album.\n\nPermissions: launched on its own, the app asks once for photo access (photos and videos on Android 13+, storage on older versions); without it, viewing, editing and converting keep working through the system picker. Opening images from AutoJs6 or other apps never asks for a permission, and the plugin has no network permission. The minimum AutoJs6 version is unchanged (explorer-action protocol v12). Tested with a 50000-image library: the home is usable within 2 seconds and fast scrolling stays under 2% janky frames.\n\nVersion: **v3.0.0 (107)**. Checksums: `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-maple-image-v2.0.0-6159e229.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/download/v2.0.0/autojs6-plugin-three-maple-image-v2.0.0-6159e229.apk",
-              "size": 2184255,
-              "digest": "sha256:58521b3635d53b4898fa3b4ce2d3fd2b8a873fd2a6fa5f0a7710b6f7b93c5fff",
-              "sha256": "58521b3635d53b4898fa3b4ce2d3fd2b8a873fd2a6fa5f0a7710b6f7b93c5fff",
+              "name": "autojs6-plugin-three-maple-image-v3.0.0-7507237a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/download/v3.0.0/autojs6-plugin-three-maple-image-v3.0.0-7507237a.apk",
+              "size": 3600395,
+              "digest": "sha256:6c4670898b7f3e45d5427e7f5dd23791f9b2424a3226e9deeab4b287aab0ccf0",
+              "sha256": "6c4670898b7f3e45d5427e7f5dd23791f9b2424a3226e9deeab4b287aab0ccf0",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.0",
-              "versionCode": 33,
+              "versionName": "3.0.0",
+              "versionCode": 107,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.maple.image",
-              "sourceCommit": "028af2535089fc8ccfa22f695d1bad09b16fa332"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "75cf9829f3bebc302728607821d05580060fbf0f"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
