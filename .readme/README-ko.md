@@ -33,7 +33,7 @@ python tools/generate_official_plugin_index.py
 
 인덱스는 게시 시각을 기준으로 각 저장소에서 가장 최근에 **게시된** 릴리스를 선택하며 마일스톤과 후보 빌드도 포함합니다. 초안과 미게시 릴리스는 제외합니다. GitHub의 `/releases/latest`는 사전 릴리스를 제외하므로 이를 사용하면 마일스톤이나 후보만 게시한 공식 플러그인이 누락될 수 있습니다. 추가 필드 `releases[].prerelease`는 배포 채널을 보존하고, `repository.owner` / `repository.name`은 APK 변형과 독립적으로 소스 저장소를 식별합니다. 인덱스 등록이 사전 릴리스를 안정판으로 바꾸지는 않습니다.
 
-`official-repositories.json`은 Three Setup Installer, Three Stove Agent, Three Folio EPUB, Three Shell Terminal을 포함한 필수 공식 프로젝트 47개를 기록합니다. 필수 프로젝트에 게시된 APK를 가진 추천 항목이 없거나 패키지 이름이 충돌하면 기록 전에 생성이 실패합니다. 다른 저장소도 자동으로 발견할 수 있습니다. 새 공식 프로젝트를 목록에 추가해 실수로 누락되는 것을 방지하세요. APK 변형 때문에 항목 수가 프로젝트 수보다 많을 수 있습니다.
+`official-repositories.json`은 Three Setup Installer, Three Stove Agent, Three Folio EPUB, Three Shell Terminal을 포함한 필수 공식 프로젝트 48개를 기록합니다. 필수 프로젝트에 게시된 APK를 가진 추천 항목이 없거나 패키지 이름이 충돌하면 기록 전에 생성이 실패합니다. 다른 저장소도 자동으로 발견할 수 있습니다. 새 공식 프로젝트를 목록에 추가해 실수로 누락되는 것을 방지하세요. APK 변형 때문에 항목 수가 프로젝트 수보다 많을 수 있습니다.
 
 ## 메타데이터와 호환성
 
@@ -104,7 +104,7 @@ python -m unittest discover -s tools -p 'test_*.py' -v
 
 ## 카탈로그 이미지와 폐기된 식별 정보
 
-`catalog-icons.json`은 APK 릴리스 메타데이터와 독립적으로 표시 이미지를 관리합니다. 주간/야간 432 px 투명 PNG는 `icons/<package>/<sha256>.png`에 보관합니다. 생성기는 형식, 크기, 다이제스트를 검증합니다. 이미지를 바꾸려면 내용 기반 새 파일 이름이 필요하므로 캐시가 이전 URL을 재사용하지 않습니다. 이미지는 플러그인의 검토된 생성 `ic_plugin_center` 리소스에서 복사합니다. 매니페스트는 출처를 기록하며 새 APK 릴리스를 의미하지 않습니다. 첫 APK 릴리스 전에 이미지를 준비할 수 있습니다 (현재 3-Shell Terminal과 3-Block Compose). 해당 소스 저장소는 공개되어 있습니다. 이미지 등록만으로 다운로드 항목이 생기지는 않으며 실제 저장소 릴리스와 APK가 여전히 필요합니다.
+`catalog-icons.json`은 APK 릴리스 메타데이터와 독립적으로 표시 이미지를 관리합니다. 주간/야간 432 px 투명 PNG는 `icons/<package>/<sha256>.png`에 보관합니다. 생성기는 형식, 크기, 다이제스트를 검증합니다. 이미지를 바꾸려면 내용 기반 새 파일 이름이 필요하므로 캐시가 이전 URL을 재사용하지 않습니다. 이미지는 플러그인의 검토된 생성 `ic_plugin_center` 리소스에서 복사합니다. 매니페스트는 출처를 기록하며 새 APK 릴리스를 의미하지 않습니다. 소스 저장소가 공개되어 있으면 첫 APK 릴리스 전에 이미지를 준비할 수 있습니다 (3-Shell Terminal과 3-Block Compose가 이렇게 등록되었습니다). 이미지 등록만으로 다운로드 항목이 생기지는 않으며 실제 저장소 릴리스와 APK가 여전히 필요합니다.
 
 공식 패키지마다 `forceIgnoreLocalIcon=true`를 설정합니다. 설치된 APK에 예전 브랜드 아이콘이 있어도 플러그인 센터는 설치 전후 같은 카탈로그 이미지를 사용합니다. 런처와 앱 내부 이미지는 APK가 관리합니다. 오프라인 로딩은 기존 이미지 캐시를 사용합니다. 패키지 이름, 릴리스 버전, 다운로드 URL, 승인 해시는 실제 게시된 APK에서 가져오며 이미지가 이를 변경할 수 없습니다.
 

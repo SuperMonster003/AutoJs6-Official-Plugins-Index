@@ -7228,6 +7228,89 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.block.compose",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Block-Compose"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.block.compose/f933b7487a1db4f5e8d9a6e41ca55e0fbd7448c8c698856986875524219b9e95.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.block.compose/e4dae7c3f23a441ebfdd940225c2ed8932b586f33bebbfd51e67af25dc496706.png",
+      "title": "3-Block Compose",
+      "description": "Renders script-declared user interfaces with Jetpack Compose and Material 3",
+      "localizedDescriptions": {
+        "values": "Renders script-declared user interfaces with Jetpack Compose and Material 3",
+        "values-ar": "\u064a\u0639\u0631\u0636 \u0627\u0644\u0648\u0627\u062c\u0647\u0627\u062a \u0627\u0644\u062a\u064a \u062a\u0639\u0644\u0646\u0647\u0627 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 Jetpack Compose \u0648 Material 3",
+        "values-en": "Renders script-declared user interfaces with Jetpack Compose and Material 3",
+        "values-es": "Renderiza interfaces declaradas por scripts con Jetpack Compose y Material 3",
+        "values-fr": "Affiche les interfaces d\u00e9clar\u00e9es par les scripts avec Jetpack Compose et Material 3",
+        "values-ja": "\u30b9\u30af\u30ea\u30d7\u30c8\u304c\u5ba3\u8a00\u3057\u305f UI \u3092 Jetpack Compose \u3068 Material 3 \u3067\u63cf\u753b",
+        "values-ko": "\uc2a4\ud06c\ub9bd\ud2b8\uac00 \uc120\uc5b8\ud55c UI\ub97c Jetpack Compose\uc640 Material 3\ub85c \ub80c\ub354\ub9c1",
+        "values-ru": "\u041e\u0442\u0440\u0438\u0441\u043e\u0432\u044b\u0432\u0430\u0435\u0442 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u043d\u044b\u0439 \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u043c \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430\u043c\u0438 Jetpack Compose \u0438 Material 3",
+        "values-zh": "\u4ee5 Jetpack Compose \u4e0e Material 3 \u6e32\u67d3\u811a\u672c\u58f0\u660e\u7684\u754c\u9762",
+        "values-zh-rHK": "\u4ee5 Jetpack Compose \u8207 Material 3 \u6e32\u67d3\u8173\u672c\u8072\u660e\u7684\u754c\u9762",
+        "values-zh-rTW": "\u4ee5 Jetpack Compose \u8207 Material 3 \u8f49\u8b6f\u6307\u4ee4\u78bc\u5ba3\u544a\u7684\u4ecb\u9762"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "compose",
+      "variant": "default",
+      "engineId": "three-block-compose",
+      "requiresHostVersion": 5322,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.4.0",
+          "versionCode": 136,
+          "versionDate": "2026-10-13",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/releases/tag/v1.4.0",
+          "changelogText": "3-Block Compose \u662f AutoJs6 \u7684\u754c\u9762\u6e32\u67d3\u63d2\u4ef6, \u8fd9\u662f\u5b83\u7684\u9996\u4e2a\u516c\u5f00\u53d1\u884c\u7248. \u811a\u672c\u901a\u8fc7 `compose` / `$compose` \u4ee5 Jetpack Compose \u4e0e Material 3 \u58f0\u660e\u754c\u9762, \u53ef\u7528\u4e8e `\"ui\";` \u9875\u9762, \u60ac\u6d6e\u7a97\u4e0e\u72ec\u7acb\u5bf9\u8bdd\u6846, \u5171 55 \u4e2a\u7ec4\u4ef6, \u4e5f\u53ef\u4ee5\u7528 TSX \u7f16\u5199; \u754c\u9762\u5728 AutoJs6 \u8fdb\u7a0b\u5185\u6e32\u67d3, state \u53d8\u5316\u65f6\u81ea\u52a8\u66f4\u65b0. \u63d2\u4ef6\u81ea\u5e26\u53ef\u89c6\u5316\u8bbe\u8ba1\u5668 (\u542f\u52a8\u5668\u5165\u53e3): \u811a\u672c\u6587\u4ef6\u5373\u5de5\u7a0b, \u771f\u5b9e\u6e32\u67d3\u5668\u6240\u89c1\u5373\u6240\u5f97\u5730\u9884\u89c8\u754c\u9762\u6811, \u7ec4\u4ef6\u9762\u677f, \u5c5e\u6027\u62bd\u5c49, \u753b\u5e03\u62d6\u653e, \u64a4\u9500\u91cd\u505a\u4e0e\u8349\u7a3f\u6062\u590d, \u72b6\u6001\u9762\u677f\u4e0e\u4ea4\u4e92\u9884\u89c8; \u53ef\u5728 AutoJs6 \u7f16\u8f91\u5668\u4e0e\u8bbe\u8ba1\u5668\u4e4b\u95f4\u5f80\u8fd4, 1.4.0 \u8d77\u53ef\u7f16\u8f91 TSX \u5de5\u7a0b. \u53e6\u9644\u7ec4\u4ef6\u753b\u5eca (\u6bcf\u4e2a\u7ec4\u4ef6\u7684\u9884\u89c8\u4e0e\u793a\u4f8b\u811a\u672c) \u4e0e\u4e94\u4e2a\u793a\u4f8b.\n\n\u8981\u6c42: AutoJs6 6.8.0 (5322) \u6216\u66f4\u9ad8\u7248\u672c\u4e2d\u5305\u542b\u5bbf\u4e3b\u63d0\u4ea4 f12665ffde \u7684\u6784\u5efa (\u53d1\u5e03\u65f6 6.8.0 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03); \u8bbe\u8ba1\u5668\u7684 TSX \u5de5\u7a0b\u9700\u8981 TypeScript Engine 0.7.0, \u672a\u5b89\u88c5\u65f6 TSX \u5de5\u7a0b\u4ee5\u53ea\u8bfb\u6e90\u7801\u6253\u5f00. \u63d2\u4ef6\u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc, \u8bbe\u8ba1\u5668\u4e0d\u6267\u884c\u811a\u672c.\n\n3-Block Compose is a user interface rendering plugin for AutoJs6, and this is its first public release. Scripts declare interfaces through `compose` / `$compose` with Jetpack Compose and Material 3, in `\"ui\";` pages, floating windows and independent dialogs, with 55 components and optional TSX; the interface renders inside the AutoJs6 process and updates when state changes. The plugin ships a visual designer (the launcher entry): the script file is the project, the real renderer previews the interface tree as you edit it, with a component palette, a property drawer, canvas drag and drop, undo / redo, draft recovery, a State panel and an interactive preview; projects travel between the AutoJs6 editor and the designer, and since 1.4.0 TSX projects can be edited too. A component gallery (previews and example scripts for every component) and five examples are included.\n\nRequirements: an AutoJs6 6.8.0 (5322) or later build that contains host commit f12665ffde (6.8.0 was not yet officially released at publication); TSX projects in the designer need TypeScript Engine 0.7.0 and open as read-only source without it. The plugin requests no runtime permission, has no network access, and the designer never runs scripts.\n\nVersion: **v1.4.0 (136)**. Checksums: `SHA256SUMS`.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-block-compose-v1.4.0-9932ae9f.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/releases/download/v1.4.0/autojs6-plugin-three-block-compose-v1.4.0-9932ae9f.apk",
+              "size": 5221337,
+              "digest": "sha256:7fb611c3523074824e90c3bad4564914217ab2b11d35918c79820b9e4bdba759",
+              "sha256": "7fb611c3523074824e90c3bad4564914217ab2b11d35918c79820b9e4bdba759",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.4.0",
+              "versionCode": 136,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.block.compose",
+              "sourceCommit": "bd624a6fb9b89c6cdebd52a4d4152bdfedb70944"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.color.picker",
       "repository": {
         "owner": "SuperMonster003",
@@ -8473,7 +8556,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-TypeScript-Engine"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/refs/tags/v0.6.3/app/src/main/res/mipmap/ic_launcher.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/refs/tags/v0.7.0/app/src/main/res/mipmap/ic_plugin_center.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/refs/tags/v0.7.0/app/src/main/res/mipmap-night/ic_plugin_center.png",
       "title": "TypeScript Engine",
       "description": "Full TypeScript project compiler frontend for AutoJs6",
       "localizedDescriptions": {
@@ -8510,23 +8594,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "0.6.3",
-          "versionCode": 82,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/tag/v0.6.3",
-          "changelogText": "TypeScript Engine 0.6.3\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `7e3025c19d49cb3817b10f93d598401540dfd0e6`\r\n\r\nPublished release.\r\n\r\n- Fix: SDK XML v4 parsing warnings with AGP 9.1 and APK native alignment checks incorrectly triggered by JVM unit-test assembly tasks, using shared build plugins 1.8.3\r\n- Improvement: Raise compileSdk and targetSdk to 37 (Android 17); the plugin's behavior does not depend on the new target\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "0.7.0",
+          "versionCode": 123,
+          "versionDate": "2026-10-13",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/tag/v0.7.0",
+          "changelogText": "TypeScript Engine 0.7.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `1e92487b638d0e24b641acbe0d30c9c0d644b53e`\n\nPublished release. Changes since 0.6.3:\n\n- Feature: TypeScript syntax tree parsing service (`org.autojs.plugin.typescript.PARSER`) for plugins such as the 3-Block Compose designer to parse a single .ts / .tsx / .js file: syntax analysis only, returning the syntax tree with source positions and the syntax errors, without type checking or compilation, and never queuing behind or ahead of the compiler service\n- Improvement: TypeScript / TSX declarations and argument checks for compose.memo\n- Improvement: TypeScript / TSX properties, slots and event declarations for Compose UI V2 components\n- Improvement: compose.dialog returns an updatable, closable session for dialogs and modal bottom sheets in UI or ordinary scripts\n- Improvement: Compose UI TSX: XML `<compose>` containers and compose.attach embed independent Compose sessions in UI pages or legacy floating windows; compose.AndroidView embeds an existing Android View or one returned by a synchronous factory\n- Improvement: Rhino projects recognize Compose UI TSX component properties and callbacks; legacy XML TSX remains available\n- Improvement: Android App info icons share Icon Studio artwork and light/dark backgrounds while preserving transparent Plugin Center artwork and existing launcher choices\n- Hint: the parsing service loads its own copy of TypeScript on first use (about 1 second) and releases it after about 1 minute idle or when the system is low on memory; 3-Block Compose 1.4.0 TSX projects require TypeScript Engine 0.7.0\n- Hint: the Compose features above need an AutoJs6 6.8.0 host build (5320 - 5323 depending on the feature; 6.8.0 was not yet officially released at publication)\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-typescript-engine-v0.6.3-arm64-v8a-74487BCE.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.6.3/autojs6-plugin-typescript-engine-v0.6.3-arm64-v8a-74487BCE.apk",
-              "size": 3119442,
-              "digest": "sha256:b98880eeb7b07f10bdb1eec85ae0789c1dc4d79d4f4421d2e1979dc576f10242",
-              "sha256": "b98880eeb7b07f10bdb1eec85ae0789c1dc4d79d4f4421d2e1979dc576f10242",
+              "name": "autojs6-plugin-typescript-engine-v0.7.0-arm64-v8a-0C55988B.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.0/autojs6-plugin-typescript-engine-v0.7.0-arm64-v8a-0C55988B.apk",
+              "size": 4199065,
+              "digest": "sha256:dc9128283fb09b9f81c4c1444cebbdd3e6b397eaf646da579f02a446f56bf3d3",
+              "sha256": "dc9128283fb09b9f81c4c1444cebbdd3e6b397eaf646da579f02a446f56bf3d3",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "0.6.3",
-              "versionCode": 82,
+              "versionName": "0.7.0",
+              "versionCode": 123,
               "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
               "supportedAbis": [
                 "arm64-v8a",
@@ -8534,19 +8618,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "7e3025c19d49cb3817b10f93d598401540dfd0e6"
+              "sourceCommit": "1e92487b638d0e24b641acbe0d30c9c0d644b53e"
             },
             {
-              "name": "autojs6-plugin-typescript-engine-v0.6.3-armeabi-v7a-511F039F.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.6.3/autojs6-plugin-typescript-engine-v0.6.3-armeabi-v7a-511F039F.apk",
-              "size": 3118184,
-              "digest": "sha256:535c4524a031e22c5ab7c956aacdb49e02694fd8d8edf6af58e0b161a806ea53",
-              "sha256": "535c4524a031e22c5ab7c956aacdb49e02694fd8d8edf6af58e0b161a806ea53",
+              "name": "autojs6-plugin-typescript-engine-v0.7.0-armeabi-v7a-2F7C6697.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.0/autojs6-plugin-typescript-engine-v0.7.0-armeabi-v7a-2F7C6697.apk",
+              "size": 4197807,
+              "digest": "sha256:71a39cab9d9ca8bfb62c0a9be5e669afee394137a426945d5d547c9650dd69fc",
+              "sha256": "71a39cab9d9ca8bfb62c0a9be5e669afee394137a426945d5d547c9650dd69fc",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "0.6.3",
-              "versionCode": 82,
+              "versionName": "0.7.0",
+              "versionCode": 123,
               "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
               "supportedAbis": [
                 "arm64-v8a",
@@ -8554,19 +8638,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "7e3025c19d49cb3817b10f93d598401540dfd0e6"
+              "sourceCommit": "1e92487b638d0e24b641acbe0d30c9c0d644b53e"
             },
             {
-              "name": "autojs6-plugin-typescript-engine-v0.6.3-universal-CA8FBE6C.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.6.3/autojs6-plugin-typescript-engine-v0.6.3-universal-CA8FBE6C.apk",
-              "size": 3168858,
-              "digest": "sha256:d296d7d3b0df1b3a16921dd1a470c550fecc3d88a2b9b7e779852ef69d7ebfc7",
-              "sha256": "d296d7d3b0df1b3a16921dd1a470c550fecc3d88a2b9b7e779852ef69d7ebfc7",
+              "name": "autojs6-plugin-typescript-engine-v0.7.0-universal-8A9C09F6.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.0/autojs6-plugin-typescript-engine-v0.7.0-universal-8A9C09F6.apk",
+              "size": 4248481,
+              "digest": "sha256:3f84fb87fea38592ee43c1e7e5e75050aad0268513dc25bb0ec70e1fe7959b41",
+              "sha256": "3f84fb87fea38592ee43c1e7e5e75050aad0268513dc25bb0ec70e1fe7959b41",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "0.6.3",
-              "versionCode": 82,
+              "versionName": "0.7.0",
+              "versionCode": 123,
               "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
               "supportedAbis": [
                 "arm64-v8a",
@@ -8574,19 +8658,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "7e3025c19d49cb3817b10f93d598401540dfd0e6"
+              "sourceCommit": "1e92487b638d0e24b641acbe0d30c9c0d644b53e"
             },
             {
-              "name": "autojs6-plugin-typescript-engine-v0.6.3-x86-3D5EF567.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.6.3/autojs6-plugin-typescript-engine-v0.6.3-x86-3D5EF567.apk",
-              "size": 3118432,
-              "digest": "sha256:6ab2f3f1c24ee9e3d89358425f4e020ff0f64178311ed22fdb00c28ad38ef7e3",
-              "sha256": "6ab2f3f1c24ee9e3d89358425f4e020ff0f64178311ed22fdb00c28ad38ef7e3",
+              "name": "autojs6-plugin-typescript-engine-v0.7.0-x86-7AEDED84.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.0/autojs6-plugin-typescript-engine-v0.7.0-x86-7AEDED84.apk",
+              "size": 4198055,
+              "digest": "sha256:5a7d6075cdf67f8ab44db80d5cda57ef5dbd2e9a6e9f6135946fe37ac0f07347",
+              "sha256": "5a7d6075cdf67f8ab44db80d5cda57ef5dbd2e9a6e9f6135946fe37ac0f07347",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "0.6.3",
-              "versionCode": 82,
+              "versionName": "0.7.0",
+              "versionCode": 123,
               "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
               "supportedAbis": [
                 "arm64-v8a",
@@ -8594,19 +8678,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "7e3025c19d49cb3817b10f93d598401540dfd0e6"
+              "sourceCommit": "1e92487b638d0e24b641acbe0d30c9c0d644b53e"
             },
             {
-              "name": "autojs6-plugin-typescript-engine-v0.6.3-x86_64-2C5EDF9E.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.6.3/autojs6-plugin-typescript-engine-v0.6.3-x86_64-2C5EDF9E.apk",
-              "size": 3119455,
-              "digest": "sha256:1554977c7f4af379696781d506b928886cf753bbb645a4e3e28b75f1bf8c8f71",
-              "sha256": "1554977c7f4af379696781d506b928886cf753bbb645a4e3e28b75f1bf8c8f71",
+              "name": "autojs6-plugin-typescript-engine-v0.7.0-x86_64-A708E57E.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.0/autojs6-plugin-typescript-engine-v0.7.0-x86_64-A708E57E.apk",
+              "size": 4199078,
+              "digest": "sha256:f70e876e94a801908f87aa390f65310f6b4063226ca25c0e4047bea46076900c",
+              "sha256": "f70e876e94a801908f87aa390f65310f6b4063226ca25c0e4047bea46076900c",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "0.6.3",
-              "versionCode": 82,
+              "versionName": "0.7.0",
+              "versionCode": 123,
               "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
               "supportedAbis": [
                 "arm64-v8a",
@@ -8614,7 +8698,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "7e3025c19d49cb3817b10f93d598401540dfd0e6"
+              "sourceCommit": "1e92487b638d0e24b641acbe0d30c9c0d644b53e"
             }
           ],
           "prerelease": false,

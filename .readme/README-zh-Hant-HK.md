@@ -33,7 +33,7 @@ python tools/generate_official_plugin_index.py
 
 索引依發行時間選擇每個倉庫最近一次**已發行**的版本, 包括里程碑版與候選版. 草稿及未發行版本不參與選擇. GitHub 的 `/releases/latest` 端點排除預發行版, 因此直接使用它會遺漏僅發行里程碑版或候選版的官方外掛. 附加的 `releases[].prerelease` 欄位保留發行管道, `repository.owner` / `repository.name` 則獨立於 APK 發行變體識別來源倉庫. 索引收錄不會將預發行版變成穩定版.
 
-`official-repositories.json` 記錄預期的 47 個官方項目, 包括 Three Setup Installer, Three Stove Agent, Three Folio EPUB 與 Three Shell Terminal. 若任何必要項目缺少附有已發行 APK 資源的推薦條目, 或出現套件名稱衝突, 生成器會在寫入索引前失敗. 其他倉庫仍可自動探索; 新增官方項目時應將其加入清單, 防止意外遺漏. APK 發行變體可能使條目數超過項目數.
+`official-repositories.json` 記錄預期的 48 個官方項目, 包括 Three Setup Installer, Three Stove Agent, Three Folio EPUB 與 Three Shell Terminal. 若任何必要項目缺少附有已發行 APK 資源的推薦條目, 或出現套件名稱衝突, 生成器會在寫入索引前失敗. 其他倉庫仍可自動探索; 新增官方項目時應將其加入清單, 防止意外遺漏. APK 發行變體可能使條目數超過項目數.
 
 ## 元數據與相容性
 
@@ -104,7 +104,7 @@ python -m unittest discover -s tools -p 'test_*.py' -v
 
 ## 目錄圖標與已退役識別
 
-`catalog-icons.json` 獨立於 APK 發行元數據管理顯示圖標. 日間/夜間 432 px 透明 PNG 保存在 `icons/<package>/<sha256>.png`. 生成器驗證格式, 尺寸與摘要; 更換圖標須使用新的內容定址檔名, 避免影像快取重用上一版 URL. 影像複製自外掛經審查並生成的 `ic_plugin_center` 資源. 清單記錄來源, 不表示發行了新 APK. 圖標可在項目首次 APK 發行前準備 (當前為 3-Shell Terminal 與 3-Block Compose), 對應源碼倉庫是公開的. 註冊圖標不會建立可下載目錄條目: 生成器仍要求真實的倉庫發行版與 APK 資源.
+`catalog-icons.json` 獨立於 APK 發行元數據管理顯示圖標. 日間/夜間 432 px 透明 PNG 保存在 `icons/<package>/<sha256>.png`. 生成器驗證格式, 尺寸與摘要; 更換圖標須使用新的內容定址檔名, 避免影像快取重用上一版 URL. 影像複製自外掛經審查並生成的 `ic_plugin_center` 資源. 清單記錄來源, 不表示發行了新 APK. 源碼倉庫公開的項目可在首次 APK 發行前準備圖標 (3-Shell Terminal 與 3-Block Compose 都是這樣準入的). 註冊圖標不會建立可下載目錄條目: 生成器仍要求真實的倉庫發行版與 APK 資源.
 
 索引為每個官方套件設定 `forceIgnoreLocalIcon=true`: 外掛中心在安裝前後使用相同目錄圖標, 即使已安裝 APK 內含舊品牌圖標. 啟動器與應用程式內圖標仍由 APK 管理. 離線載入使用既有影像快取. 套件名稱, 發行版本, 下載 URL 與准入雜湊仍來自實際已發行 APK; 圖標設定不能改寫這些事實.
 
