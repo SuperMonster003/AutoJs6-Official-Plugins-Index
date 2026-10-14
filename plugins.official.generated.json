@@ -50,27 +50,27 @@
       "engine": "editor",
       "variant": "ace",
       "engineId": "ace-editor",
-      "requiresHostVersion": 5276,
+      "requiresHostVersion": 5352,
       "featured": true,
       "releases": [
         {
-          "versionName": "1.13.1",
-          "versionCode": 113,
-          "versionDate": "2026-09-25",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/tag/v1.13.1",
-          "changelogText": "Ace Editor now bundles AutoJs6 declarations 4.21.1, including EPUB, ai.agent registered-script results and task APIs, plus editor guidance for presets, tool permissions, budgets and preference memory.\r\n\r\n- Fix Lua language service startup when a 32-bit APK is installed on a 64-bit device. Verification uses the installed executable ABI and retains the pinned size and SHA-256 checks.\r\n- Requires Android 7.0 / API 24 and AutoJs6 build 5276 or later. The Agent task APIs described by completion require host build 5293 or later.\r\n- Five signed packages are provided: arm64-v8a, armeabi-v7a, x86, x86_64 and universal. LuaLS is available on arm64-v8a, armeabi-v7a and x86_64; x86 uses static Lua completion.\r\n- Validation: 171 JVM tests, LSP/completion checks, signature/CRC/ABI and 16 KB alignment gates, and host-side release activation/Binder/editor loading on five Android environments.\r\n\r\nTypeScript semantic operations retain a 2 second budget. On slower devices, including the Redmi 12C extended diagnostic test, an operation can exceed that budget and fall back to static completion. The full API 37 contract/Lua/editor suite passed; the Redmi extended suite has a recorded intermittent diagnostic timeout.\r\n\r\nSee [validation details](https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/blob/v1.13.1/docs/development/release-1.13.1.md) for the exact test scope and artifact hashes. SHA-256 sums are also attached.",
+          "versionName": "2.0.0",
+          "versionCode": 265,
+          "versionDate": "2026-10-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/tag/v2.0.0",
+          "changelogText": "Ace Editor 2.0.0 moves the bundled editor from the Auto.js build of Ace 1.4.12 to the official Ace 1.44.0 and rebuilds the mobile touch behavior on top of it. This is the first GitHub release since 1.13.1, so it also contains the changes of 1.14.0 to 1.32.0 listed in the changelog.\n\n- New editor options: TSX highlighting with its own mode, vector gutter icons, active indent guide highlighting, whitespace in selection, editor scrollbars and symbol occurrence highlighting (on by default), plus the drag magnifier and the inline completion preview (off by default). AutoJs6 shows them in its code editor settings when the host includes them; older hosts run with the defaults.\n- Touch and input: taps, double tap and long press selection, handle dragging and fling keep their behavior. The release adds a paste and select all toolbar, mouse and stylus mouse mode, popups that keep the cursor line visible, a font size that follows pinch zoom, Gboard dot member completion, and select mode arrows for Baidu and Sogou.\n- Fixes Lua language features and Java diagnostics when the editor runs inside AutoJs6, a too bright background where the selection overlaps word highlights in dark themes, and pinch zoom clearing the selection.\n- Requires Android 7.0 / API 24 and AutoJs6 build 5352 or later (Editor API contract 7).\n- Five signed packages are provided: arm64-v8a, armeabi-v7a, x86, x86_64 and universal. LuaLS is available on arm64-v8a, armeabi-v7a and x86_64; x86 uses static Lua completion.\n- Validation: 177 JVM tests, 50 bridge tests, 558 touch overlay replay checks, signature/CRC/ABI and 16 KB alignment gates, the full device suite on eight Android environments (API 27 to 36.1), manual touch and IME tests with Gboard and Baidu, and host-side release loading tests with the final packages.\n\nReplacing a document with a single 500,000 character line is about 20% slower than with 1.4.12; the difference comes from Ace 1.44.0 itself.\n\nSee [validation details](https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/blob/v2.0.0/docs/development/release-2.0.0.md) for the exact test scope and artifact hashes. SHA-256 sums are also attached.",
           "assets": [
             {
-              "name": "autojs6-plugin-ace-editor-v1.13.1-arm64-v8a-2aeb9e68.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v1.13.1/autojs6-plugin-ace-editor-v1.13.1-arm64-v8a-2aeb9e68.apk",
-              "size": 16372764,
-              "digest": "sha256:6a3a0dadef8347da500e5ca9533717005ad64fa48c8b2283091d8d0db88b2692",
-              "sha256": "6a3a0dadef8347da500e5ca9533717005ad64fa48c8b2283091d8d0db88b2692",
+              "name": "autojs6-plugin-ace-editor-v2.0.0-arm64-v8a-d02eed49.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.0/autojs6-plugin-ace-editor-v2.0.0-arm64-v8a-d02eed49.apk",
+              "size": 17066991,
+              "digest": "sha256:93e206043ef0f713d9b04e19650c585ea0d724edf89944add8ebfc5c6568b700",
+              "sha256": "93e206043ef0f713d9b04e19650c585ea0d724edf89944add8ebfc5c6568b700",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.13.1",
-              "versionCode": 113,
+              "versionName": "2.0.0",
+              "versionCode": 265,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -78,19 +78,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "31490c19a4dab0d4466a86fca16af6608b56e1b1"
+              "sourceCommit": "79d0a4b70d454c8f85e9b8413bd7e03c98f70066"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v1.13.1-armeabi-v7a-31a28982.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v1.13.1/autojs6-plugin-ace-editor-v1.13.1-armeabi-v7a-31a28982.apk",
-              "size": 16318462,
-              "digest": "sha256:5a68ae40c768af62be133ae83394ad725eafa41424c112cb3b5875e675807b44",
-              "sha256": "5a68ae40c768af62be133ae83394ad725eafa41424c112cb3b5875e675807b44",
+              "name": "autojs6-plugin-ace-editor-v2.0.0-armeabi-v7a-bb98ae35.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.0/autojs6-plugin-ace-editor-v2.0.0-armeabi-v7a-bb98ae35.apk",
+              "size": 17012689,
+              "digest": "sha256:1b60df217714d4631554159ade4b3a5c6bb087e9f6a61eb6713d0bc989b67738",
+              "sha256": "1b60df217714d4631554159ade4b3a5c6bb087e9f6a61eb6713d0bc989b67738",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.13.1",
-              "versionCode": 113,
+              "versionName": "2.0.0",
+              "versionCode": 265,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -98,19 +98,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "31490c19a4dab0d4466a86fca16af6608b56e1b1"
+              "sourceCommit": "79d0a4b70d454c8f85e9b8413bd7e03c98f70066"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v1.13.1-universal-0756a71c.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v1.13.1/autojs6-plugin-ace-editor-v1.13.1-universal-0756a71c.apk",
-              "size": 17933589,
-              "digest": "sha256:282155e6abd4e94fac220fc3d3830b4b547ab439340534f7c1608b829a211523",
-              "sha256": "282155e6abd4e94fac220fc3d3830b4b547ab439340534f7c1608b829a211523",
+              "name": "autojs6-plugin-ace-editor-v2.0.0-universal-ae0c3b6c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.0/autojs6-plugin-ace-editor-v2.0.0-universal-ae0c3b6c.apk",
+              "size": 18627816,
+              "digest": "sha256:f98244d6e7da46eed24d613e6a47e99f18efaea992eed6eaeb0efef96a93c483",
+              "sha256": "f98244d6e7da46eed24d613e6a47e99f18efaea992eed6eaeb0efef96a93c483",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.13.1",
-              "versionCode": 113,
+              "versionName": "2.0.0",
+              "versionCode": 265,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -118,19 +118,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "31490c19a4dab0d4466a86fca16af6608b56e1b1"
+              "sourceCommit": "79d0a4b70d454c8f85e9b8413bd7e03c98f70066"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v1.13.1-x86-a0aa890f.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v1.13.1/autojs6-plugin-ace-editor-v1.13.1-x86-a0aa890f.apk",
-              "size": 15582789,
-              "digest": "sha256:1a8505e25c9dbfd3568d08094de3f3b75b9663e42a80ce22883dca9b9aa8776a",
-              "sha256": "1a8505e25c9dbfd3568d08094de3f3b75b9663e42a80ce22883dca9b9aa8776a",
+              "name": "autojs6-plugin-ace-editor-v2.0.0-x86-e27d34dd.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.0/autojs6-plugin-ace-editor-v2.0.0-x86-e27d34dd.apk",
+              "size": 16277016,
+              "digest": "sha256:6dc7f10f1908848fb4b87e06dcba53c3d4c4ebd69a99bf2cc87e57b9c5b3d4f3",
+              "sha256": "6dc7f10f1908848fb4b87e06dcba53c3d4c4ebd69a99bf2cc87e57b9c5b3d4f3",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.13.1",
-              "versionCode": 113,
+              "versionName": "2.0.0",
+              "versionCode": 265,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -138,19 +138,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "31490c19a4dab0d4466a86fca16af6608b56e1b1"
+              "sourceCommit": "79d0a4b70d454c8f85e9b8413bd7e03c98f70066"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v1.13.1-x86_64-5208ffbe.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v1.13.1/autojs6-plugin-ace-editor-v1.13.1-x86_64-5208ffbe.apk",
-              "size": 16405669,
-              "digest": "sha256:bea75e64322d46b4a9c2c9ace3af3001c939b43026a450bc3e5413dc6308fb1a",
-              "sha256": "bea75e64322d46b4a9c2c9ace3af3001c939b43026a450bc3e5413dc6308fb1a",
+              "name": "autojs6-plugin-ace-editor-v2.0.0-x86_64-8a53ccf9.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.0/autojs6-plugin-ace-editor-v2.0.0-x86_64-8a53ccf9.apk",
+              "size": 17099896,
+              "digest": "sha256:fc0504ac1a0d5bdb1116d43843864718a39041a61e256fbf4fb29fa7a2eee27d",
+              "sha256": "fc0504ac1a0d5bdb1116d43843864718a39041a61e256fbf4fb29fa7a2eee27d",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.13.1",
-              "versionCode": 113,
+              "versionName": "2.0.0",
+              "versionCode": 265,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -158,7 +158,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "31490c19a4dab0d4466a86fca16af6608b56e1b1"
+              "sourceCommit": "79d0a4b70d454c8f85e9b8413bd7e03c98f70066"
             }
           ],
           "prerelease": false,
