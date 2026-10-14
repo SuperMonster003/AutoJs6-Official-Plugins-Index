@@ -7251,19 +7251,19 @@
         "values-zh-rTW": "\u4ee5 Jetpack Compose \u8207 Material 3 \u8f49\u8b6f\u6307\u4ee4\u78bc\u5ba3\u544a\u7684\u4ecb\u9762"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/refs/tags/v1.5.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -7274,25 +7274,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.5.0",
-          "versionCode": 139,
-          "versionDate": "2026-10-13",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/releases/tag/v1.5.0",
-          "changelogText": "3-Block Compose 1.5.0: \u8bbe\u8ba1\u5668\u7684\u4ea4\u4e92\u9884\u89c8\u4f1a\u771f\u6b63\u8fd0\u884c JavaScript \u5de5\u7a0b\u7684\u811a\u672c (Android 8.0 \u6216\u66f4\u9ad8\u7248\u672c). \u6253\u5f00 \"\u4ea4\u4e92\" \u540e, \u6e32\u67d3\u51fd\u6570\u4e0e\u4e8b\u4ef6\u5904\u7406\u51fd\u6570\u5728\u63d2\u4ef6\u5185\u7684\u53d7\u9650\u6c99\u7bb1\u4e2d\u8fd0\u884c, \u70b9\u6309\u94ae, \u8f93\u5165\u6587\u5b57, \u62e8\u52a8\u5f00\u5173, \u753b\u5e03\u90fd\u6309\u811a\u672c\u7684\u903b\u8f91\u66f4\u65b0; \u72b6\u6001\u9762\u677f\u7684\u9884\u89c8\u503c\u4f5c\u4e3a state \u7684\u521d\u503c, \u5de5\u7a0b\u6216\u9884\u89c8\u503c\u4fee\u6539\u540e\u811a\u672c\u91cd\u65b0\u8fd0\u884c. \u6c99\u7bb1\u53ea\u63d0\u4f9b `compose`, \u63a7\u5236\u53f0, toast \u4e0e\u5b9a\u65f6\u5668, \u4e0d\u80fd\u8bbf\u95ee Java / Android \u4e0e\u5176\u4ed6 AutoJs6 \u6a21\u5757 (\u4f7f\u7528\u65f6\u62a5 \"\u9884\u89c8\u4e2d\u4e0d\u53ef\u7528\"), \u5355\u6b21\u8fd0\u884c\u8d85\u8fc7\u7ea6 3 \u79d2 (\u4f8b\u5982\u6b7b\u5faa\u73af) \u4f1a\u88ab\u505c\u6b62, \u7ed3\u679c\u53ea\u753b\u5728\u753b\u5e03\u4e0a, \u4ece\u4e0d\u6539\u52a8\u5de5\u7a0b. \u65b0\u589e \"\u63a7\u5236\u53f0\" \u6807\u7b7e\u9875, \u663e\u793a\u811a\u672c\u7684\u8f93\u51fa, toast \u4e0e\u9519\u8bef; \u811a\u672c\u9519\u8bef\u4e5f\u663e\u793a\u5728\u753b\u5e03\u5e95\u90e8. TSX \u5de5\u7a0b\u4e0e Android 8.0 \u4ee5\u4e0b\u7684\u8bbe\u5907\u6cbf\u7528\u6b64\u524d\u7684\u4ea4\u4e92\u9884\u89c8.\n\n\u4fee\u590d: \u7f16\u8f91\u6a21\u5f0f\u4e0b\u753b\u5e03\u91cc\u7684\u8f93\u5165\u6846\u53ef\u80fd\u81ea\u5df1\u83b7\u5f97\u7126\u70b9\u5e76\u5f39\u51fa\u952e\u76d8, \u6321\u4f4f\u4e0b\u65b9\u9762\u677f (\u591a\u89c1\u4e8e Android 7.x).\n\n\u8981\u6c42: AutoJs6 6.8.0 (5322) \u6216\u66f4\u9ad8\u7248\u672c\u4e2d\u5305\u542b\u5bbf\u4e3b\u63d0\u4ea4 f12665ffde \u7684\u6784\u5efa (\u53d1\u5e03\u65f6 6.8.0 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03); \u8bbe\u8ba1\u5668\u7684 TSX \u5de5\u7a0b\u9700\u8981 TypeScript Engine 0.7.0. \u63d2\u4ef6\u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc; \u8bbe\u8ba1\u5668\u53ea\u5728\u4ea4\u4e92\u9884\u89c8\u4e2d, \u4e8e\u6c99\u7bb1\u5185\u8fd0\u884c JavaScript \u5de5\u7a0b\u7684\u811a\u672c.\n\n3-Block Compose 1.5.0: the designer's interactive preview now really runs a JavaScript project's script (Android 8.0 or later). With Interact on, the render function and the event handlers run inside the plugin in a restricted sandbox, so tapping buttons, typing and flipping switches update the canvas the way the script decides; the State panel's preview values become the states' initial values, and the script starts again after the project or a preview value changes. The sandbox offers `compose`, the console, toast and timers only, cannot reach Java / Android or other AutoJs6 modules (using one reports that it is not available in the preview), stops a run longer than about 3 seconds (an endless loop, for example), and changes only the canvas, never the project. A new Console tab shows the script's output, toasts and errors; a script error also appears at the bottom of the canvas. TSX projects and devices below Android 8.0 keep the previous interactive preview.\n\nFix: in edit mode a text field on the canvas could take focus by itself and raise the keyboard over the panels (mostly on Android 7.x).\n\nRequirements: an AutoJs6 6.8.0 (5322) or later build that contains host commit f12665ffde (6.8.0 was not yet officially released at publication); TSX projects in the designer need TypeScript Engine 0.7.0. The plugin requests no runtime permission and has no network access; the designer runs a JavaScript project's script only in the interactive preview, inside the sandbox.\n\nVersion: **v1.5.0 (139)**. Checksums: `SHA256SUMS`.",
+          "versionName": "1.5.1",
+          "versionCode": 144,
+          "versionDate": "2026-10-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/releases/tag/v1.5.1",
+          "changelogText": "3-Block Compose 1.5.1 \u4fee\u590d: \u8bbe\u8ba1\u5668\u753b\u5e03\u4e0a\u51fa\u73b0\u65b0\u7684\u8f93\u5165\u6846\u65f6\u63d2\u4ef6\u53ef\u80fd\u95ea\u9000, \u4f8b\u5982\u4ece\u7ec4\u4ef6\u9762\u677f\u63d2\u5165\u8f93\u5165\u6846, \u64a4\u9500 / \u91cd\u505a\u4f7f\u8f93\u5165\u6846\u91cd\u65b0\u51fa\u73b0, \u6216\u4ea4\u4e92\u9884\u89c8\u4e2d\u7684\u811a\u672c\u663e\u793a\u51fa\u8f93\u5165\u6846. \u8be5\u95ee\u9898\u81ea 1.4.0 \u8d77\u5b58\u5728, 1.5.0 \u7684\u4ea4\u4e92\u9884\u89c8\u6c99\u7bb1\u8ba9\u5b83\u66f4\u5bb9\u6613\u51fa\u73b0; \u73b0\u5728\u8fd9\u4e9b\u8f93\u5165\u6846\u90fd\u4f1a\u6b63\u5e38\u663e\u793a. \u5176\u5b83\u884c\u4e3a\u4e0e 1.5.0 \u76f8\u540c.\n\n\u8981\u6c42: AutoJs6 6.8.0 (5322) \u6216\u66f4\u9ad8\u7248\u672c\u4e2d\u5305\u542b\u5bbf\u4e3b\u63d0\u4ea4 f12665ffde \u7684\u6784\u5efa (\u53d1\u5e03\u65f6 6.8.0 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03); \u8bbe\u8ba1\u5668\u7684 TSX \u5de5\u7a0b\u9700\u8981 TypeScript Engine 0.7.0; \u5728\u4ea4\u4e92\u9884\u89c8\u4e2d\u8fd0\u884c\u811a\u672c\u9700\u8981 Android 8.0 \u6216\u66f4\u9ad8\u7248\u672c. \u63d2\u4ef6\u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc; \u8bbe\u8ba1\u5668\u53ea\u5728\u4ea4\u4e92\u9884\u89c8\u4e2d, \u4e8e\u6c99\u7bb1\u5185\u8fd0\u884c JavaScript \u5de5\u7a0b\u7684\u811a\u672c.\n\n3-Block Compose 1.5.1 fixes a crash: the plugin could close unexpectedly when a new text field appeared on the designer canvas, for example when inserting a text field from the component palette, when undo / redo brought a text field back, or when a script in the interactive preview showed one. The problem existed since 1.4.0, and the interactive preview's sandbox in 1.5.0 made it more frequent; such text fields now appear normally. Everything else is as in 1.5.0.\n\nRequirements: an AutoJs6 6.8.0 (5322) or later build that contains host commit f12665ffde (6.8.0 was not yet officially released at publication); TSX projects in the designer need TypeScript Engine 0.7.0; running scripts in the interactive preview needs Android 8.0 or later. The plugin requests no runtime permission and has no network access; the designer runs a JavaScript project's script only in the interactive preview, inside the sandbox.\n\nVersion: **v1.5.1 (144)**. Checksums: `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-block-compose-v1.5.0-bdbbb1a2.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/releases/download/v1.5.0/autojs6-plugin-three-block-compose-v1.5.0-bdbbb1a2.apk",
-              "size": 5615650,
-              "digest": "sha256:c6616272df634f10e96974fe1ce845509e4ea119473a4f3a4962c941f135c680",
-              "sha256": "c6616272df634f10e96974fe1ce845509e4ea119473a4f3a4962c941f135c680",
+              "name": "autojs6-plugin-three-block-compose-v1.5.1-6c974050.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Block-Compose/releases/download/v1.5.1/autojs6-plugin-three-block-compose-v1.5.1-6c974050.apk",
+              "size": 5617018,
+              "digest": "sha256:9b4c9b26a9324d065a411adc1f31450391ccad613e6ce84b4efa41e7b99e9241",
+              "sha256": "9b4c9b26a9324d065a411adc1f31450391ccad613e6ce84b4efa41e7b99e9241",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.5.0",
-              "versionCode": 139,
+              "versionName": "1.5.1",
+              "versionCode": 144,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.block.compose",
-              "sourceCommit": "8bc620a52d4c1e4705ea667791096f0a63dfb082"
+              "sourceCommit": "a9b8b91541377087ef330cdb6bf0c939a86f48e1"
             }
           ],
           "prerelease": false,
