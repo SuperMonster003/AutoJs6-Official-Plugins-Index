@@ -7671,19 +7671,19 @@
         "values-zh-rTW": "\u5716\u7247\u6aa2\u8996, \u7de8\u8f2f\u8207\u683c\u5f0f\u8f49\u63db"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.1.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -7694,23 +7694,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "3.1.0",
-          "versionCode": 126,
+          "versionName": "3.1.1",
+          "versionCode": 147,
           "versionDate": "2026-10-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/tag/v3.1.0",
-          "changelogText": "\u76f8\u518c\u53ef\u4ee5\u7ba1\u7406\u56fe\u7247\u4e86: \u957f\u6309\u56fe\u7247\u8fdb\u5165\u591a\u9009, \u957f\u6309\u540e\u4e0d\u62ac\u624b\u62d6\u52a8\u53ef\u9009\u4e2d\u4e00\u6bb5, \u652f\u6301\u5168\u9009\u4e0e\u53cd\u9009; \u53ef\u4e00\u6b21\u5206\u4eab, \u6536\u85cf, \u79fb\u52a8, \u590d\u5236\u6216\u5220\u9664\u591a\u5f20\u56fe\u7247, \u4e5f\u53ef\u91cd\u547d\u540d\u5355\u5f20\u6216\u67e5\u770b\u8be6\u60c5. \u79fb\u52a8\u548c\u590d\u5236\u53ef\u9009\u62e9\u76f8\u518c\u6216\u65b0\u5efa\u76f8\u518c, \u6700\u8fd1\u7528\u8fc7\u7684\u76f8\u518c\u6392\u5728\u524d\u9762, \u9047\u5230\u540c\u540d\u56fe\u7247\u65f6\u8be2\u95ee\u4e00\u6b21 (\u4fdd\u7559\u4e24\u8005, \u8df3\u8fc7\u6216\u66ff\u6362). \u5220\u9664\u7684\u56fe\u7247\u5148\u8fdb\u5165\u56de\u6536\u7ad9 (Android 11 \u53ca\u4ee5\u4e0a\u4e3a\u7cfb\u7edf\u56de\u6536\u7ad9, Android 7-10 \u4e3a\u672c\u5e94\u7528\u7684\u56de\u6536\u7ad9, \u4fdd\u7559 30 \u5929), \u5220\u9664, \u79fb\u52a8\u548c\u91cd\u547d\u540d\u540e\u90fd\u53ef\u64a4\u9500; \u56de\u6536\u7ad9\u5728\u9996\u9875\u53f3\u4e0a\u89d2\u83dc\u5355\u4e2d, \u53ef\u6062\u590d, \u6c38\u4e45\u5220\u9664\u6216\u6e05\u7a7a. \u6536\u85cf\u7684\u56fe\u7247\u96c6\u4e2d\u5728\u76f8\u518c\u5217\u8868\u6700\u524d\u9762\u7684 \u6536\u85cf \u76f8\u518c; \u4ece\u76f8\u518c\u6253\u5f00\u7684\u67e5\u770b\u5668\u9876\u680f\u65b0\u589e\u5fc3\u5f62\u6309\u94ae, \u5e95\u680f\u7684 \u5220\u9664 \u53d6\u4ee3 \u5176\u4ed6\u5e94\u7528 (\u79fb\u5230\u53f3\u4e0a\u89d2\u83dc\u5355, \u4e0e\u91cd\u547d\u540d, \u79fb\u52a8, \u590d\u5236\u5728\u4e00\u8d77).\n\n\u6743\u9650: \u5728 Android 11 \u53ca\u4ee5\u4e0a\u5220\u9664, \u79fb\u52a8\u6216\u91cd\u547d\u540d\u5176\u4ed6\u5e94\u7528\u4fdd\u5b58\u7684\u56fe\u7247\u65f6, \u7cfb\u7edf\u6bcf\u6279\u786e\u8ba4\u4e00\u6b21; \u5728 \u8bbe\u7f6e > \u5b58\u50a8\u6743\u9650 \u5f00\u542f \u5a92\u4f53\u7ba1\u7406 (Android 12 \u53ca\u4ee5\u4e0a) \u540e\u4e0d\u518d\u9010\u6b21\u786e\u8ba4. \u65b0\u589e\u4f9d\u8d56 Room 2.8.1, \u7528\u4e8e\u4fdd\u5b58\u6536\u85cf\u548c Android 7-10 \u7684\u56de\u6536\u7ad9\u8bb0\u5f55. \u6700\u4f4e AutoJs6 \u7248\u672c\u4e0d\u53d8 (explorer-action \u534f\u8bae\u4ecd\u4e3a v12), \u63d2\u4ef6\u4ecd\u4e0d\u7533\u8bf7\u7f51\u7edc\u6743\u9650.\n\nThe album can now manage images: long-press an image to start selecting, keep the finger down to drag over a range, and use select all or invert selection; share, favorite, move, copy or delete many images at once, or rename one and view its details. Move and copy offer your albums or a new album, with recently used ones first, and ask once when a name is already taken (keep both, skip or replace). Deleted images go to a recycle bin first (the system one on Android 11+, the app's own on Android 7-10, kept for 30 days), and deleting, moving and renaming can be undone; the recycle bin is in the home's top-right menu and can restore, delete for good or empty. Favorites gather in the Favorites album at the front of the album list; the viewer opened from an album gains a heart in the top bar, and Delete replaces Open with in the bottom bar (Open with moves to the top-right menu, next to rename, move and copy).\n\nPermissions: on Android 11+ the system confirms once per batch when you delete, move or rename images saved by other apps; turning on Media management (Android 12+) in Settings > Storage permission removes the repeated confirmation. New dependency: Room 2.8.1, which stores favorites and the Android 7-10 recycle bin records. The minimum AutoJs6 version is unchanged (explorer-action protocol v12), and the plugin still has no network permission.\n\nVersion: **v3.1.0 (126)**. Checksums: `SHA256SUMS`.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/tag/v3.1.1",
+          "changelogText": "\u76f8\u518c\u66f4\u597d\u6574\u7406\u548c\u67e5\u627e\u4e86: \u5728\u76f8\u518c\u5217\u8868\u4e2d\u957f\u6309\u76f8\u518c\u8fdb\u5165\u591a\u9009, \u53ef\u7f6e\u9876 (\u6392\u5728 \u6536\u85cf \u4e4b\u540e), \u6392\u9664 (\u53ea\u5728\u672c\u56fe\u5e93\u4e2d\u4e0d\u663e\u793a, \u8bbe\u5907\u4e0a\u7684\u6587\u4ef6\u4e0d\u53d8), \u9690\u85cf (\u5728\u6587\u4ef6\u5939\u4e2d\u653e\u5165 .nomedia, \u5176\u4ed6\u56fe\u5e93\u4e5f\u4e0d\u518d\u663e\u793a, \u9700\u8981 \u6240\u6709\u6587\u4ef6\u8bbf\u95ee), \u5220\u9664\u6574\u4e2a\u76f8\u518c (\u8fdb\u5165\u56de\u6536\u7ad9, \u53ef\u64a4\u9500) \u6216\u91cd\u547d\u540d\u76f8\u518c; \u8bbe\u7f6e \u4e2d\u7684 \u5df2\u6392\u9664\u7684\u6587\u4ef6\u5939 \u548c \u9690\u85cf\u7684\u6587\u4ef6\u5939 \u53ef\u67e5\u770b\u5e76\u6062\u590d, \u9690\u85cf\u7684\u6587\u4ef6\u5939\u4e5f\u53ef\u4ee5\u663e\u793a\u5728\u76f8\u518c\u5217\u8868\u672b\u5c3e. \u6392\u5e8f\u6539\u4e3a\u5bf9\u8bdd\u6846, \u65b0\u589e\u968f\u673a\u6392\u5e8f\u548c\u6309\u65e5 / \u6309\u6708\u5206\u7ec4 (\u7ec4\u6807\u9898\u505c\u5728\u9876\u90e8), \u53ef\u52fe\u9009 \u4ec5\u672c\u76f8\u518c; \u76f8\u518c\u5217\u8868\u53ef\u6309\u540d\u79f0, \u4fee\u6539\u65f6\u95f4, \u62cd\u6444\u65f6\u95f4\u6216\u56fe\u7247\u6570\u91cf\u6392\u5e8f. \u9996\u9875\u65b0\u589e\u641c\u7d22, \u540c\u65f6\u67e5\u627e\u76f8\u518c\u540d\u548c\u6587\u4ef6\u540d, \u70b9\u5f00\u7684\u56fe\u7247\u53ef\u5728\u7ed3\u679c\u4e2d\u5de6\u53f3\u7ffb\u9875; \u76f8\u518c\u5185\u7684\u641c\u7d22\u6309\u6587\u4ef6\u540d\u7b5b\u9009.\n\n\u4fee\u590d: \u5b58\u50a8\u5361\u4e0a\u7684\u56fe\u7247\u79fb\u52a8\u6216\u590d\u5236\u5230\u5185\u7f6e\u5b58\u50a8\u7684\u76f8\u518c (\u6216\u53cd\u8fc7\u6765) \u65f6\u4f1a\u653e\u9519\u4f4d\u7f6e, \u73b0\u5728\u90fd\u4f1a\u653e\u8fdb\u6240\u9009\u7684\u76f8\u518c; Android 7-10 \u4e0d\u5141\u8bb8\u5e94\u7528\u4fee\u6539\u5b58\u50a8\u5361, \u8fd9\u4e9b\u7248\u672c\u4e0a\u5220\u9664, \u79fb\u52a8\u6216\u91cd\u547d\u540d\u5b58\u50a8\u5361\u4e0a\u7684\u56fe\u7247\u65f6\u4fdd\u6301\u539f\u6837\u5e76\u63d0\u793a. \u6570\u636e\u5e93\u5347\u7ea7\u5230\u7248\u672c 2 (\u81ea\u52a8\u8fc1\u79fb, \u6536\u85cf\u4e0e\u56de\u6536\u7ad9\u8bb0\u5f55\u4fdd\u7559). \u6700\u4f4e AutoJs6 \u7248\u672c\u4e0d\u53d8 (explorer-action \u534f\u8bae\u4ecd\u4e3a v12), \u63d2\u4ef6\u4ecd\u4e0d\u7533\u8bf7\u7f51\u7edc\u6743\u9650.\n\nAlbums are easier to organize and find: long-press an album in the album list to select albums, then pin them (after Favorites), exclude them (gone from this gallery only, the files stay as they are), hide them (a .nomedia file in the folder hides them from other galleries too; needs All files access), delete whole albums (to the recycle bin, with undo) or rename one; Excluded folders and Hidden folders in Settings list them and bring them back, and hidden folders can also show at the end of the album list. Sorting moves to a dialog with random order and groups by day or by month (the group title stays at the top), optionally for this album only; the album list sorts by name, date modified, date taken or number of images. The home screen gains search over album names and file names, and an opened image pages through the results; inside an album the search filters by file name.\n\nFixes: moving or copying images between a storage card and the internal storage put them in the wrong place; they now land in the chosen album. Android 7-10 do not let apps change a storage card, so deleting, moving or renaming images there now leaves them as they are with a message. The database moves to version 2 (automatic migration, favorites and recycle bin records kept). The minimum AutoJs6 version is unchanged (explorer-action protocol v12), and the plugin still has no network permission.\n\nVersion: **v3.1.1 (147)**. Checksums: `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-maple-image-v3.1.0-115e8c55.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/download/v3.1.0/autojs6-plugin-three-maple-image-v3.1.0-115e8c55.apk",
-              "size": 3837717,
-              "digest": "sha256:03d4fc71f273408ac375176c7f08aed36378e03aee82bdc7f9e08544d95ebc3b",
-              "sha256": "03d4fc71f273408ac375176c7f08aed36378e03aee82bdc7f9e08544d95ebc3b",
+              "name": "autojs6-plugin-three-maple-image-v3.1.1-1d7e15ef.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/download/v3.1.1/autojs6-plugin-three-maple-image-v3.1.1-1d7e15ef.apk",
+              "size": 3967129,
+              "digest": "sha256:c2fb228a86c0b4f565679b54c02ebd086b39d369711d1dc9cbbb80dad36042a9",
+              "sha256": "c2fb228a86c0b4f565679b54c02ebd086b39d369711d1dc9cbbb80dad36042a9",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.0",
-              "versionCode": 126,
+              "versionName": "3.1.1",
+              "versionCode": 147,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.maple.image",
               "supportedAbis": [
                 "arm64-v8a",
@@ -7718,7 +7718,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "7dadcc4ab3db39e73e096b6d0ac41cf07cfbe533"
+              "sourceCommit": "d0dc1b9096693b0cde02de5935d56bdb5f2eb0b8"
             }
           ],
           "prerelease": false,
