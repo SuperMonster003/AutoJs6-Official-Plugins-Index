@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Block-Compose",
+  "releaseTag": "v1.7.0",
+  "sourceCommit": "8b967b34bbe8bd26456f3c0f2183a61b3753474e",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.block.compose",
+  "versionName": "1.7.0",
+  "versionCode": 170,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-block-compose-v1.7.0-d4361bd3.apk",
+      "sha256": "9f70a325463d59ef6a408861c60a93536ec0c0ee5923c66e7b4489bf4db7b95e",
+      "sizeBytes": 5857120
+    }
+  ]
+}
