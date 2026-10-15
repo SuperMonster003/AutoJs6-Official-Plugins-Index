@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Maple-Image",
+  "releaseTag": "v3.4.0",
+  "sourceCommit": "c8e7e9c6e0a8fbe0762b9bd28c8f8428f56f77cc",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.maple.image",
+  "versionName": "3.4.0",
+  "versionCode": 198,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-maple-image-v3.4.0-fb292602.apk",
+      "sha256": "beb5aaa5f14c3e4dece059ea2032d7475a3f84325aeb26e1c004f4bdc301607a",
+      "sizeBytes": 4395590
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
