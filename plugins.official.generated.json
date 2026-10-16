@@ -644,19 +644,19 @@
         "values-zh-rTW": "\u4f7f\u7528\u5c0b\u627e\u53d6\u4ee3, \u6b63\u5247\u8868\u793a\u5f0f, \u8a08\u6578\u5668\u8207\u65e5\u671f\u8b8a\u6578\u6279\u6b21\u91cd\u65b0\u547d\u540d\u6a94\u6848\u8207\u8cc7\u6599\u593e"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/refs/tags/v1.1.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -667,23 +667,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.1.0",
-          "versionCode": 46,
+          "versionName": "1.1.1",
+          "versionCode": 49,
           "versionDate": "2026-10-16",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/releases/tag/v1.1.0",
-          "changelogText": "Batch Rename 1.1.0 \u65b0\u589e\u6c49\u5b57\u8f6c\u62fc\u97f3 (\"\u540d\u79f0\u6e05\u7406\" \u4e2d\u7684 \"\u6c49\u5b57\u8f6c\u62fc\u97f3\" \u4e0e `${pinyin}` \u53d8\u91cf, \u53ef\u9009\u58f0\u8c03, \u97f3\u8282\u5206\u9694, \u5927\u5c0f\u5199\u4e0e\u53ea\u53d6\u9996\u5b57\u6bcd), \u7167\u7247\u5143\u6570\u636e\u53d8\u91cf (\u62cd\u6444\u65f6\u95f4, \u76f8\u673a, \u955c\u5934, \u5149\u5708, \u5feb\u95e8, \u611f\u5149\u5ea6, GPS \u7b49 25 \u9879, \u8bfb\u53d6 EXIF \u4e0e XMP, \u7f3a\u5c11\u5143\u6570\u636e\u7684\u884c\u4f1a\u6807\u51fa) \u4e0e\u547d\u540d\u9884\u8bbe (\u9876\u680f \"\u9884\u8bbe\" \u6309\u94ae\u4fdd\u5b58\u4e0e\u52a0\u8f7d, \u53ef\u901a\u8fc7\u6587\u4ef6\u6216\u526a\u8d34\u677f\u5bfc\u5165\u5bfc\u51fa). \u9876\u680f \"\u66f4\u591a\u9009\u9879\" \u83dc\u5355\u672b\u5c3e\u7684 \"\u91cd\u547d\u540d\u5386\u53f2\" \u6253\u5f00 AutoJs6 \u7684\u91cd\u547d\u540d\u5386\u53f2\u9875\u9762, \u53ef\u67e5\u770b, \u641c\u7d22, \u64a4\u9500\u6216\u5220\u9664\u6587\u4ef6\u7ba1\u7406\u5668\u4e0e\u811a\u672c\u7684\u6279\u6b21. \u811a\u672c `files.batchRename` \u65b0\u589e `preview` (\u4e0d\u8bbf\u95ee\u6587\u4ef6\u7684\u540d\u79f0\u8bd5\u7b97), `presets` / `importPresets` \u4e0e `deleteHistory` / `clearHistory`, \u9009\u9879\u652f\u6301 `pinyin`, `metadata` \u4e0e `preset`. \u63d2\u4ef6\u56fe\u6807\u6539\u4e3a\u591a\u884c\u6587\u672c\u4e0e\u6587\u672c\u5149\u6807. \u9700\u8981 AutoJs6 6.8.0 \u6784\u5efa\u53f7 5455 \u6216\u66f4\u9ad8.\n\nBatch Rename 1.1.0 adds Chinese to pinyin (\"Chinese characters to pinyin\" under \"Name cleanup\" and the `${pinyin}` variable, with optional tones, syllable separators, capitalization and initials only), photo metadata variables (date taken, camera, lens, aperture, shutter speed, ISO, GPS and more, 25 values read from EXIF and XMP; rows without metadata are marked) and named presets (saved and loaded with the \"Presets\" button in the top bar, imported and exported through files or the clipboard). \"Rename history\" at the end of the \"More options\" menu opens the rename history page of AutoJs6, where batches of the file manager and of scripts can be viewed, searched, undone or deleted. The `files.batchRename` script API gains `preview` (names computed without any file), `presets` / `importPresets` and `deleteHistory` / `clearHistory`, and the options `pinyin`, `metadata` and `preset`. The plugin icon now shows text lines and a text caret. Requires AutoJs6 6.8.0 build 5455 or later.\n\nVersion: **v1.1.0 (46)**. Checksums: `SHA256SUMS`.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/releases/tag/v1.1.1",
+          "changelogText": "Batch Rename 1.1.1 \u4fee\u590d\u90e8\u5206\u7cfb\u7edf (\u5982 ColorOS \u7684\u5e94\u7528\u4fe1\u606f\u9875) \u5c06\u5e94\u7528\u56fe\u6807\u663e\u793a\u5728\u9ed1\u8272\u5e95\u677f\u4e0a, \u56fe\u6807\u96be\u4ee5\u8fa8\u8ba4\u7684\u95ee\u9898: \u5e94\u7528\u56fe\u6807\u6539\u4e3a\u6d45\u8272\u5e95\u677f (\u591c\u95f4\u4e3a\u6df1\u8272), \u63d2\u4ef6\u4e2d\u5fc3\u4e2d\u7684\u56fe\u6807\u4e0d\u53d8. \u9700\u8981 AutoJs6 6.8.0 \u6784\u5efa\u53f7 5455 \u6216\u66f4\u9ad8.\n\nBatch Rename 1.1.1 fixes the app icon, which some systems (such as the app info page of ColorOS) showed on a black plate where it was hard to make out: the app icon now sits on a light plate (dark at night); the icon in Plugin Center is unchanged. Requires AutoJs6 6.8.0 build 5455 or later.\n\nVersion: **v1.1.1 (49)**. Checksums: `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-batch-rename-v1.1.0-ee897167.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/releases/download/v1.1.0/autojs6-plugin-batch-rename-v1.1.0-ee897167.apk",
-              "size": 2660244,
-              "digest": "sha256:24494b7c915c45f62fb006496ece707151c6b68844b9856e3cb37b0413687b05",
-              "sha256": "24494b7c915c45f62fb006496ece707151c6b68844b9856e3cb37b0413687b05",
+              "name": "autojs6-plugin-batch-rename-v1.1.1-fdbdf848.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Batch-Rename/releases/download/v1.1.1/autojs6-plugin-batch-rename-v1.1.1-fdbdf848.apk",
+              "size": 2676576,
+              "digest": "sha256:acb19314a1719220db4d8d3d051300181cfdc08c26a77cde887d5f9517be8d44",
+              "sha256": "acb19314a1719220db4d8d3d051300181cfdc08c26a77cde887d5f9517be8d44",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.0",
-              "versionCode": 46,
+              "versionName": "1.1.1",
+              "versionCode": 49,
               "packageName": "io.github.supermonster003.autojs6.plugin.batch.rename",
               "supportedAbis": [
                 "arm64-v8a",
@@ -691,7 +691,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "2dbf5c49b19fea9e227d0195c81edc18a6b879d5"
+              "sourceCommit": "bbe2bb68de0fb6ac4e3c788886a70e2966e640f3"
             }
           ],
           "prerelease": false,
