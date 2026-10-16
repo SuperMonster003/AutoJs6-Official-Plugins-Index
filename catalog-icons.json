@@ -60,21 +60,21 @@
     },
     "io.github.supermonster003.autojs6.plugin.batch.rename": {
       "repository": "AutoJs6-Plugin-Batch-Rename",
-      "sourceCommit": "034233892f46d25772d4208b6f9fbb610c3e7820",
+      "sourceCommit": "2dbf5c49b19fea9e227d0195c81edc18a6b879d5",
       "sourceDirty": false,
-      "recipeSha256": "4ea4af23264edf975e0e2636791946330eb85df7240bfcdfb8dd0fa382b2ffe2",
+      "recipeSha256": "3a532ae084aa06b56f21a66278d76895d8e214d568279b61f5dfe1420526c990",
       "generatorVersion": "1.3.0",
       "backgrounds": {
         "day": "transparent",
         "night": "transparent"
       },
       "day": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.batch.rename/946a3fa4c01c66858533255a98564ef809f7fd11da80b588ddd460850fc51ab5.png",
-        "sha256": "946a3fa4c01c66858533255a98564ef809f7fd11da80b588ddd460850fc51ab5"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.batch.rename/c027616ed57ddd94a7f6b963bc89a6f67809245ba296908dd0e4e58521eb0bcb.png",
+        "sha256": "c027616ed57ddd94a7f6b963bc89a6f67809245ba296908dd0e4e58521eb0bcb"
       },
       "night": {
-        "path": "icons/io.github.supermonster003.autojs6.plugin.batch.rename/ce02a9e346de25d4d06b593c23f77dda48438892f336ad8f1574c7e1577e6b92.png",
-        "sha256": "ce02a9e346de25d4d06b593c23f77dda48438892f336ad8f1574c7e1577e6b92"
+        "path": "icons/io.github.supermonster003.autojs6.plugin.batch.rename/85889932a9349b3c344ef999e5e9066961c60a807833e4ffa00c977bf33fc970.png",
+        "sha256": "85889932a9349b3c344ef999e5e9066961c60a807833e4ffa00c977bf33fc970"
       }
     },
     "io.github.supermonster003.autojs6.plugin.bun.runtime": {
