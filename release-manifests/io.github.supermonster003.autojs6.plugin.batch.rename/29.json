@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Batch-Rename",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "034233892f46d25772d4208b6f9fbb610c3e7820",
+  "packageName": "io.github.supermonster003.autojs6.plugin.batch.rename",
+  "versionName": "1.0.0",
+  "versionCode": 29,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-batch-rename-v1.0.0-35aa6dd3.apk",
+      "sha256": "e57a8efe081140aed129fa31715b8ce8eb1cfead7b6acbf4c99ae395c7741a4d",
+      "sizeBytes": 2203815
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

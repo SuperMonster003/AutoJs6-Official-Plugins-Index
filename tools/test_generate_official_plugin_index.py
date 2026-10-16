@@ -173,6 +173,18 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             generator.parse_default_config_res_values(gradle.replace('val codeNamespace = "io.github.example.archive"', 'val codeNamespace = findPackage()'))
 
+    def test_resource_resolves_an_integer_literal_constant(self):
+        gradle = '''
+            val requiredHostVersion = 5438
+            defaultConfig {
+                resValue("string", "plugin_requires_host_version", "$requiredHostVersion")
+            }
+        '''
+        values = generator.parse_default_config_res_values(gradle)
+        self.assertEqual("5438", values["plugin_requires_host_version"])
+        with self.assertRaises(RuntimeError):
+            generator.parse_default_config_res_values(gradle.replace("val requiredHostVersion = 5438", "val requiredHostVersion = base + 1"))
+
     def test_manifest_host_version_reads_only_explicit_version_properties_loader(self):
         manifest = '<meta-data android:name="requiresHostVersion" android:value="${requiredHostVersion}"/>'
         gradle = '''

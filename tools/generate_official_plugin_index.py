@@ -904,16 +904,17 @@ def resolve_numeric_compatibility_property(build_gradle: str, variable: str, rea
 
 
 def resolve_static_resource_strings(values: dict[str, str], build_gradle: str) -> dict[str, str]:
-    """Resolve only literal top-level string constants, never Gradle expressions."""
+    """Resolve only literal top-level string or integer constants, never Gradle expressions."""
     def substitute(match):
         name = match.group(1) or match.group(2)
         declarations = re.findall(
-            rf'\bval\s+{re.escape(name)}\s*=\s*"([^"$\\]*)"\s*(?:;|$)',
+            rf'\bval\s+{re.escape(name)}\s*=\s*(?:"([^"$\\]*)"|([0-9]+)L?)\s*(?:;|$)',
             build_gradle, re.MULTILINE,
         )
         if len(declarations) != 1:
             raise RuntimeError(f"Unresolved or ambiguous static resource constant {name!r}.")
-        return declarations[0]
+        text, number = declarations[0]
+        return text or number
     return {
         key: re.sub(r'\$\{([A-Za-z_][A-Za-z0-9_]*)\}|\$([A-Za-z_][A-Za-z0-9_]*)', substitute, value)
         for key, value in values.items()
