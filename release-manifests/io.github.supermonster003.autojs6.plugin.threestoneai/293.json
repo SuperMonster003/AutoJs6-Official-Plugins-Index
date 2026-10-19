@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Stone-AI",
+  "releaseTag": "v1.4.1",
+  "sourceCommit": "ab46e17a8e34f13175eae6556e036bc933668857",
+  "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
+  "versionName": "1.4.1",
+  "versionCode": 293,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-stone-ai-v1.4.1-universal-9E3583E0.apk",
+      "sha256": "7d29237622eab2fea72e3c28d4ca62f10bc4083892df35e58be9bd24e23f9902",
+      "sizeBytes": 49977346
+    },
+    {
+      "name": "autojs6-plugin-three-stone-ai-v1.4.1-x86-A1B36DEB.apk",
+      "sha256": "161f23f2832004e92e1ee8c6c5d6cf32b74951d9c8def5030f0f41d8b3ee9053",
+      "sizeBytes": 3552885
+    },
+    {
+      "name": "autojs6-plugin-three-stone-ai-v1.4.1-armeabi-v7a-A1B36DEB.apk",
+      "sha256": "161f23f2832004e92e1ee8c6c5d6cf32b74951d9c8def5030f0f41d8b3ee9053",
+      "sizeBytes": 3552885
+    },
+    {
+      "name": "autojs6-plugin-three-stone-ai-v1.4.1-arm64-v8a-7B0347C2.apk",
+      "sha256": "fe39402988e90ace20991b67d604a22f956269e3a1bc67cf7d321768047a52a4",
+      "sizeBytes": 24753615
+    },
+    {
+      "name": "autojs6-plugin-three-stone-ai-v1.4.1-x86_64-35D842E7.apk",
+      "sha256": "393791e27a8007ce5f577ae57fb9775dd3e48c9137a858ad9b013ad904dbcee4",
+      "sizeBytes": 28776372
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
