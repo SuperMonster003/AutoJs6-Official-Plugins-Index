@@ -17,7 +17,7 @@
   "p_generate_command": "發行或更新 AutoJs6 官方外掛儲存庫後, 執行以下命令:",
   "p_generated_index": "此命令更新 `plugins.official.generated.json`. 將索引放在獨立儲存庫中, 可在更新官方外掛中繼資料時無需修改 AutoJs6 主儲存庫.",
   "p_release_selection": "索引依發行時間選擇每個儲存庫最近一次**已發行**的版本, 包括里程碑版與候選版. 草稿及未發行版本不參與選擇. GitHub 的 `/releases/latest` 端點排除預發行版, 因此直接使用它會遺漏僅發行里程碑版或候選版的官方外掛. 附加的 `releases[].prerelease` 欄位保留發行管道, `repository.owner` / `repository.name` 則獨立於 APK 發行變體識別來源儲存庫. 索引收錄不會將預發行版變成穩定版.",
-  "p_inventory": "`official-repositories.json` 記錄預期的 {{ expected_project_count }} 個官方專案, 包括 Three Setup Installer, Three Stove Agent, Three Folio EPUB 與 Three Shell Terminal. 若任何必要專案缺少附有已發行 APK 資源的推薦項目, 或出現套件名稱衝突, 產生器會在寫入索引前失敗. 其他儲存庫仍可自動探索; 新增官方專案時應將其加入清單, 防止意外遺漏. APK 發行變體可能使項目數超過專案數.",
+  "p_inventory": "`official-repositories.json` 記錄預期的 {{ expected_project_count }} 個官方專案, 包括 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB 與 3-Shell Terminal. 若任何必要專案缺少附有已發行 APK 資源的推薦項目, 或出現套件名稱衝突, 產生器會在寫入索引前失敗. 其他儲存庫仍可自動探索; 新增官方專案時應將其加入清單, 防止意外遺漏. APK 發行變體可能使項目數超過專案數.",
   "p_versions": "版本解析保留 `VERSION_CODE_OFFSET` 與 APK Builder 配對宿主的複合 Android 版本. 支援靜態 Gradle 套件名稱常數, 多行 `resValue` 呼叫, 以及從 `version.properties` 明確讀取數值, 無需執行 Gradle. 無法解析的運算式仍會報錯.",
   "p_host_versions": "最低宿主版本也可使用透過已審查的 `Properties` 存取器從 `gradle/*.properties` 讀取的數值變數, 存取器須去除頭尾空白並檢查非空, 3-Folio EPUB 即採用此方式. 產生器在同一發行標籤內追蹤這個明確的載入器. 缺少, 重複, 無效或越界參照均會使產生失敗; 不支援的動態最低版本不會被預設為未宣告.",
   "p_source_integrity": "已發行的原始碼樹必須完整. 樹中列出的檔案若無法下載, 產生器會在寫入索引前失敗, 不會視為不存在並退回預設版本或捨棄產物准入資料. 每個 values 目錄中的字串中繼資料合併自 `strings.xml` 與 `strings_*.xml`, 包括不可翻譯的應用程式名稱. 同一目錄中的同名資源會遭拒, 不依下載順序覆寫. 開發者署名遵循資訊清單的 `org.autojs.plugin.info.AUTHOR` 資源, 包括 Gradle `resValue` 宣告與發行變體覆寫. 僅在無法解析宣告的作者時才退回發行者. 暫時的伺服器錯誤及連線或讀取逾時最多重試三次, 採用有界退避. 缺少或禁止存取的檔案不會重試; 重試耗盡後仍會在寫入不完整索引前失敗.",
