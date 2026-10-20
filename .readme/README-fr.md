@@ -33,7 +33,7 @@ La commande met à jour `plugins.official.generated.json`. Un dépôt indépenda
 
 L'index sélectionne la version la plus récemment **publiée** de chaque dépôt selon sa date de publication, y compris les jalons et versions candidates. Les brouillons et versions non publiées sont exclus. Le point d'accès GitHub `/releases/latest` exclut les préversions et masquerait donc les plugins officiels ayant uniquement des jalons ou candidats publiés. Le champ ajouté `releases[].prerelease` conserve le canal de publication, et `repository.owner` / `repository.name` identifient le dépôt source indépendamment des variantes APK. L'indexation ne transforme pas une préversion en version stable.
 
-`official-repositories.json` répertorie les 49 projets officiels attendus, dont 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB et 3-Shell Terminal. La génération échoue avant toute écriture si un projet requis n'a pas d'entrée recommandée avec des APK publiés ou si des noms de paquet se chevauchent. D'autres dépôts peuvent toujours être découverts automatiquement; ajoutez les nouveaux projets officiels à cet inventaire pour éviter leur omission. Les variantes APK peuvent produire davantage d'entrées que de projets.
+`official-repositories.json` répertorie les 50 projets officiels attendus, dont 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB et 3-Shell Terminal. La génération échoue avant toute écriture si un projet requis n'a pas d'entrée recommandée avec des APK publiés ou si des noms de paquet se chevauchent. D'autres dépôts peuvent toujours être découverts automatiquement; ajoutez les nouveaux projets officiels à cet inventaire pour éviter leur omission. Les variantes APK peuvent produire davantage d'entrées que de projets.
 
 ## Métadonnées et compatibilité
 

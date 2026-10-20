@@ -33,7 +33,7 @@ python tools/generate_official_plugin_index.py
 
 인덱스는 게시 시각을 기준으로 각 저장소에서 가장 최근에 **게시된** 릴리스를 선택하며 마일스톤과 후보 빌드도 포함합니다. 초안과 미게시 릴리스는 제외합니다. GitHub의 `/releases/latest`는 사전 릴리스를 제외하므로 이를 사용하면 마일스톤이나 후보만 게시한 공식 플러그인이 누락될 수 있습니다. 추가 필드 `releases[].prerelease`는 배포 채널을 보존하고, `repository.owner` / `repository.name`은 APK 변형과 독립적으로 소스 저장소를 식별합니다. 인덱스 등록이 사전 릴리스를 안정판으로 바꾸지는 않습니다.
 
-`official-repositories.json`은 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB, 3-Shell Terminal을 포함한 필수 공식 프로젝트 49개를 기록합니다. 필수 프로젝트에 게시된 APK를 가진 추천 항목이 없거나 패키지 이름이 충돌하면 기록 전에 생성이 실패합니다. 다른 저장소도 자동으로 발견할 수 있습니다. 새 공식 프로젝트를 목록에 추가해 실수로 누락되는 것을 방지하세요. APK 변형 때문에 항목 수가 프로젝트 수보다 많을 수 있습니다.
+`official-repositories.json`은 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB, 3-Shell Terminal을 포함한 필수 공식 프로젝트 50개를 기록합니다. 필수 프로젝트에 게시된 APK를 가진 추천 항목이 없거나 패키지 이름이 충돌하면 기록 전에 생성이 실패합니다. 다른 저장소도 자동으로 발견할 수 있습니다. 새 공식 프로젝트를 목록에 추가해 실수로 누락되는 것을 방지하세요. APK 변형 때문에 항목 수가 프로젝트 수보다 많을 수 있습니다.
 
 ## 메타데이터와 호환성
 

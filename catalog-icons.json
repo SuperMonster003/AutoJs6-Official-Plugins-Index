@@ -526,6 +526,25 @@
         "sha256": "579a06b92fc4a267dbea742b6cb7b7f12597ccd6aa771ad54eb8712f8f94f8a9"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.three.macaw.speech": {
+      "repository": "AutoJs6-Plugin-Three-Macaw-Speech",
+      "sourceCommit": "69743699a238a2ddfea5bac0410425a4ffaf58ce",
+      "sourceDirty": false,
+      "recipeSha256": "2c2faeeece89d1d2a09c787956cb85e125e8b790062652cfae1cc2d4d3429512",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.macaw.speech/0da2599b38a85c97f080f0028ff076b9ea44d5f123287710b2186de92f0bd7da.png",
+        "sha256": "0da2599b38a85c97f080f0028ff076b9ea44d5f123287710b2186de92f0bd7da"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.macaw.speech/0823fc171c7758ecf623b4f6a50c4489a793acd684b56f7a98a70c26e3afd129.png",
+        "sha256": "0823fc171c7758ecf623b4f6a50c4489a793acd684b56f7a98a70c26e3afd129"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.three.maple.image": {
       "repository": "AutoJs6-Plugin-Three-Maple-Image",
       "sourceCommit": "ae3c9bf9df0b58c303ebf6f46adf78ad596d6bda",

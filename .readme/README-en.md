@@ -33,7 +33,7 @@ The command updates `plugins.official.generated.json`. Keeping this index in a s
 
 The index selects the most recently **published** release of each repository by publication time, including milestone and release-candidate builds. Drafts and unpublished releases are excluded. GitHub's `/releases/latest` endpoint excludes prereleases, which would otherwise hide official plugins that have only published milestone or candidate versions. The additive `releases[].prerelease` field retains the release channel, and `repository.owner` / `repository.name` identify the source repository independently of APK flavors. A prerelease is not promoted to stable by indexing it.
 
-`official-repositories.json` records the 49 expected official projects, including 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB and 3-Shell Terminal. Generation fails before writing the index if any required project lacks a featured entry with published APK assets, or package names collide. Additional repositories can still be discovered automatically; add new official projects to this inventory to protect them against accidental omission. APK flavors can produce more entries than the number of projects.
+`official-repositories.json` records the 50 expected official projects, including 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB and 3-Shell Terminal. Generation fails before writing the index if any required project lacks a featured entry with published APK assets, or package names collide. Additional repositories can still be discovered automatically; add new official projects to this inventory to protect them against accidental omission. APK flavors can produce more entries than the number of projects.
 
 ## Metadata and compatibility
 
