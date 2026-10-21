@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Macaw-Speech",
+  "releaseTag": "v1.1.0",
+  "sourceCommit": "8fdf6d8f9e822f04681a9c05dea11250fc85b506",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
+  "versionName": "1.1.0",
+  "versionCode": 81,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-macaw-speech-v1.1.0-arm64-v8a-f9ea8e5a.apk",
+      "sha256": "4f6bec82a25a2340c49749f7513240f16b99afee4e4394532b993d778a2f305a",
+      "sizeBytes": 14599617
+    },
+    {
+      "name": "autojs6-plugin-three-macaw-speech-v1.1.0-armeabi-v7a-f453cfc9.apk",
+      "sha256": "bb3993c09a33f4b6ad5324540b2499b77b09e565b58481b96e8c3d565534adc2",
+      "sizeBytes": 13775659
+    },
+    {
+      "name": "autojs6-plugin-three-macaw-speech-v1.1.0-x86_64-6071816f.apk",
+      "sha256": "232519c80b9f6edb40ddf53edd45eeef9c837dde0d60f398a20a17edf4258016",
+      "sizeBytes": 15797456
+    },
+    {
+      "name": "autojs6-plugin-three-macaw-speech-v1.1.0-x86-25ba1da3.apk",
+      "sha256": "39fcd3c24b4f83ac74289d94c8c52cb44b1f46e285b7856229ba202949db201f",
+      "sizeBytes": 16026255
+    },
+    {
+      "name": "autojs6-plugin-three-macaw-speech-v1.1.0-universal-4a06aba5.apk",
+      "sha256": "21f7fe183134e8ccf4d579833c42820abba1884c92d4efaa396312880c4c7995",
+      "sizeBytes": 46192990
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
