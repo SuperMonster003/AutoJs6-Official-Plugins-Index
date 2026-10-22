@@ -23,6 +23,8 @@ INDEX_REPO = "AutoJs6-Official-Plugins-Index"
 INDEX_BRANCH = "main"
 OUTPUT_FILE = "plugins.official.generated.json"
 USER_AGENT = "AutoJs6-Official-Plugin-Index-Generator"
+# GitHub list endpoints answer roughly a third to half of requests for nonempty resources with 200 `[]`.
+EMPTY_LIST_ATTEMPTS = 16
 SCHEMA_VERSION = 2
 DEFAULT_ADMISSION_ROOT = Path(__file__).resolve().parent.parent / "release-manifests"
 DEFAULT_REQUIRED_REPOSITORIES = Path(__file__).resolve().parent.parent / "official-repositories.json"
@@ -174,7 +176,7 @@ def fetch_official_repos() -> list[dict]:
             f"https://api.github.com/users/{OFFICIAL_OWNER}/repos"
             f"?per_page=100&type=public&sort=updated&page={page}"
         )
-        chunk = api_json(url)
+        chunk = api_json_list(url)
         if not isinstance(chunk, list):
             raise RuntimeError("GitHub repository list response is not an array.")
         repos.extend(
@@ -197,7 +199,7 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
     if not repo_name:
         return []
 
-    releases = api_json(f"https://api.github.com/repos/{owner}/{repo_name}/releases?per_page=100")
+    releases = api_json_list(f"https://api.github.com/repos/{owner}/{repo_name}/releases?per_page=100")
     release = latest_published_release(releases)
     if not isinstance(release, dict):
         print(f"Warning: skip {repo_name}, latest release unavailable.", file=sys.stderr)
@@ -1728,6 +1730,16 @@ def score_icon_path(path: str) -> int:
 
 def api_json(url: str):
     return json.loads(request_text(url, accept="application/vnd.github+json"))
+
+
+def api_json_list(url: str):
+    # An empty list is trusted only after repeated answers; other payloads are returned for the caller to validate.
+    for attempt in range(EMPTY_LIST_ATTEMPTS):
+        payload = api_json(url)
+        if payload != [] or attempt == EMPTY_LIST_ATTEMPTS - 1:
+            return payload
+        print(f"Warning: GitHub returned an empty list; retry {attempt + 1}/{EMPTY_LIST_ATTEMPTS - 1} for {url}", file=sys.stderr)
+        time.sleep(min(attempt + 1, 5))
 
 
 def safe_api_json(url: str):

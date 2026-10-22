@@ -75,6 +75,52 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
                 generator.build_entries(repo)
             build.assert_not_called()
 
+    def test_transient_empty_releases_list_is_retried_before_building_entries(self):
+        repo = {"name": "AutoJs6-Plugin-Example", "owner": {"login": self.OWNER}}
+        release = {"tag_name": "v1.0.0", "published_at": "2026-09-25T00:00:00Z"}
+        with patch.object(generator, "request_text", side_effect=["[]", "[]", json.dumps([release])]) as download, \
+                patch.object(generator, "fetch_tree_paths", return_value=set()), \
+                patch.object(generator, "build_entries_from_release", return_value=["entry"]) as build, \
+                patch.object(generator.time, "sleep") as sleep, redirect_stderr(io.StringIO()):
+            self.assertEqual(["entry"], generator.build_entries(repo))
+            self.assertEqual(3, download.call_count)
+            self.assertEqual([1, 2], [call.args[0] for call in sleep.call_args_list])
+            self.assertEqual(release, build.call_args.kwargs["release"])
+
+    def test_persistently_empty_releases_list_still_skips_the_repository(self):
+        repo = {"name": "AutoJs6-Plugin-Example", "owner": {"login": self.OWNER}}
+        stderr = io.StringIO()
+        with patch.object(generator, "api_json", return_value=[]) as request, \
+                patch.object(generator, "fetch_tree_paths") as tree, \
+                patch.object(generator.time, "sleep") as sleep, redirect_stderr(stderr):
+            self.assertEqual([], generator.build_entries(repo))
+            self.assertEqual(generator.EMPTY_LIST_ATTEMPTS, request.call_count)
+            self.assertEqual(generator.EMPTY_LIST_ATTEMPTS - 1, sleep.call_count)
+            self.assertLessEqual(max(call.args[0] for call in sleep.call_args_list), 5)
+            tree.assert_not_called()
+        self.assertIn("skip AutoJs6-Plugin-Example, latest release unavailable", stderr.getvalue())
+
+    def test_transient_empty_repository_page_is_retried(self):
+        repos = [
+            {"name": "AutoJs6-Plugin-Zeta"},
+            {"name": "AutoJs6-Plugin-Alpha"},
+            {"name": "AutoJs6-Plugin-Fork", "fork": True},
+            {"name": "Unrelated"},
+        ]
+        with patch.object(generator, "api_json", side_effect=[[], repos]) as request, \
+                patch.object(generator.time, "sleep") as sleep, redirect_stderr(io.StringIO()):
+            names = [repo["name"] for repo in generator.fetch_official_repos()]
+            self.assertEqual(["AutoJs6-Plugin-Alpha", "AutoJs6-Plugin-Zeta"], names)
+            self.assertEqual(2, request.call_count)
+            sleep.assert_called_once_with(1)
+
+    def test_error_payload_is_not_retried_as_an_empty_list(self):
+        with patch.object(generator, "api_json", return_value={"message": "API error"}) as request, \
+                patch.object(generator.time, "sleep") as sleep:
+            self.assertEqual({"message": "API error"}, generator.api_json_list("https://example.test/list"))
+            self.assertEqual(1, request.call_count)
+            sleep.assert_not_called()
+
     def test_missing_or_truncated_tree_cannot_be_treated_as_absent_metadata(self):
         for response in (None, {}, {"tree": [], "truncated": True}):
             with self.subTest(response=response), patch.object(generator, "safe_api_json", return_value=response):
