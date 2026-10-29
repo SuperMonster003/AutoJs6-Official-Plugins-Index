@@ -33,7 +33,7 @@ python tools/generate_official_plugin_index.py
 
 索引依發行時間選擇每個倉庫最近一次**已發行**的版本, 包括里程碑版與候選版. 草稿及未發行版本不參與選擇. GitHub 的 `/releases/latest` 端點排除預發行版, 因此直接使用它會遺漏僅發行里程碑版或候選版的官方外掛. 附加的 `releases[].prerelease` 欄位保留發行管道, `repository.owner` / `repository.name` 則獨立於 APK 發行變體識別來源倉庫. 索引收錄不會將預發行版變成穩定版.
 
-`official-repositories.json` 記錄預期的 50 個官方項目, 包括 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB 與 3-Shell Terminal. 若任何必要項目缺少附有已發行 APK 資源的推薦條目, 或出現套件名稱衝突, 生成器會在寫入索引前失敗. 其他倉庫仍可自動探索; 新增官方項目時應將其加入清單, 防止意外遺漏. APK 發行變體可能使條目數超過項目數.
+`official-repositories.json` 記錄預期的 51 個官方項目, 包括 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB 與 3-Shell Terminal. 若任何必要項目缺少附有已發行 APK 資源的推薦條目, 或出現套件名稱衝突, 生成器會在寫入索引前失敗. 其他倉庫仍可自動探索; 新增官方項目時應將其加入清單, 防止意外遺漏. APK 發行變體可能使條目數超過項目數.
 
 ## 元數據與相容性
 

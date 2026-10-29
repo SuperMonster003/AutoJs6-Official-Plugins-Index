@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Bundled-Libraries",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "d287681a8b8b18aebe05d50156b918b813de664b",
+  "packageName": "io.github.supermonster003.autojs6.plugin.bundled.libraries",
+  "versionName": "1.0.0",
+  "versionCode": 7,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-bundled-libraries-v1.0.0-universal-b45b2448.apk",
+      "sha256": "a28ab943b5f3ab8fc697e5e69866de5e6554e897bd3f34a31c1ee30b7852bd61",
+      "sizeBytes": 1125943
+    }
+  ]
+}

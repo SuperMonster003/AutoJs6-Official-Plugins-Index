@@ -96,6 +96,25 @@
         "sha256": "3da0656d4cf9244f91795be257a1a62e50aa7872828b895564c160820943d3ef"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.bundled.libraries": {
+      "repository": "AutoJs6-Plugin-Bundled-Libraries",
+      "sourceCommit": "d287681a8b8b18aebe05d50156b918b813de664b",
+      "sourceDirty": false,
+      "recipeSha256": "583d32bc24e7b88bdce14e9f5cb059b24d1578f54ef3ec71f375e707df2a0b4c",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.bundled.libraries/be12fd7a1f8ff196ce85bf6ede69ff33462350319728b21325cd2e90c1d2298b.png",
+        "sha256": "be12fd7a1f8ff196ce85bf6ede69ff33462350319728b21325cd2e90c1d2298b"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.bundled.libraries/be12fd7a1f8ff196ce85bf6ede69ff33462350319728b21325cd2e90c1d2298b.png",
+        "sha256": "be12fd7a1f8ff196ce85bf6ede69ff33462350319728b21325cd2e90c1d2298b"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.imagequant": {
       "repository": "AutoJs6-Plugin-Image-Quantization",
       "sourceCommit": "2fa70ee49e733a088c82310ba6ffaadbd66dcbf0",
