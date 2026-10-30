@@ -2606,25 +2606,77 @@
               "name": "autojs6-plugin-nodejs-runtime-v2.0.0-arm64-v8a-9c2507fa.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-arm64-v8a-9c2507fa.apk",
               "size": 46441522,
-              "digest": "sha256:2df318aec73e10fd30794fa69f388b8a543ce57e63b08aa8c366285a148bde69"
+              "digest": "sha256:2df318aec73e10fd30794fa69f388b8a543ce57e63b08aa8c366285a148bde69",
+              "sha256": "2df318aec73e10fd30794fa69f388b8a543ce57e63b08aa8c366285a148bde69",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.0.0",
+              "versionCode": 340,
+              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64"
+              ],
+              "sourceCommit": "0e1e6d14a224b11073e8fc2483073e5b3a21067b"
             },
             {
               "name": "autojs6-plugin-nodejs-runtime-v2.0.0-armeabi-v7a-0e367d60.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-armeabi-v7a-0e367d60.apk",
               "size": 45482974,
-              "digest": "sha256:6f845c1bfac9216437a506a0eba3c4338f41aed182e654882897cd67a10c87dc"
+              "digest": "sha256:6f845c1bfac9216437a506a0eba3c4338f41aed182e654882897cd67a10c87dc",
+              "sha256": "6f845c1bfac9216437a506a0eba3c4338f41aed182e654882897cd67a10c87dc",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.0.0",
+              "versionCode": 340,
+              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64"
+              ],
+              "sourceCommit": "0e1e6d14a224b11073e8fc2483073e5b3a21067b"
             },
             {
               "name": "autojs6-plugin-nodejs-runtime-v2.0.0-universal-aa361836.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-universal-aa361836.apk",
               "size": 132646150,
-              "digest": "sha256:a3ed68be67075e893e7849c8bf7d5cd4d94d1180092b84f6b96e2f7d4f4b6c4b"
+              "digest": "sha256:a3ed68be67075e893e7849c8bf7d5cd4d94d1180092b84f6b96e2f7d4f4b6c4b",
+              "sha256": "a3ed68be67075e893e7849c8bf7d5cd4d94d1180092b84f6b96e2f7d4f4b6c4b",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.0.0",
+              "versionCode": 340,
+              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64"
+              ],
+              "sourceCommit": "0e1e6d14a224b11073e8fc2483073e5b3a21067b"
             },
             {
               "name": "autojs6-plugin-nodejs-runtime-v2.0.0-x86_64-2d10598a.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-x86_64-2d10598a.apk",
               "size": 48269870,
-              "digest": "sha256:df9ab08d8237ccf781490321a109764dfebd487af0d2f5a572c9655c5dabaca4"
+              "digest": "sha256:df9ab08d8237ccf781490321a109764dfebd487af0d2f5a572c9655c5dabaca4",
+              "sha256": "df9ab08d8237ccf781490321a109764dfebd487af0d2f5a572c9655c5dabaca4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.0.0",
+              "versionCode": 340,
+              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64"
+              ],
+              "sourceCommit": "0e1e6d14a224b11073e8fc2483073e5b3a21067b"
             }
           ],
           "prerelease": false,
