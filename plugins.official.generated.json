@@ -2576,19 +2576,19 @@
         "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u57f7\u884c\u968e\u6bb5"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -2596,87 +2596,87 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.32.0",
-          "versionCode": 299,
-          "versionDate": "2026-10-29",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.32.0",
-          "changelogText": "Node.js Runtime 1.32.0 (build 299)\n\nSource: `a9cee7332b7ea1fc169d60e6aefe7f0fd9566cff`\n\n\u672c\u7248\u4ecd\u4f7f\u7528 Node.js 24.21.0 (\u542b\u56de\u8865\u7684 OpenSSL 3.5.9 \u5b89\u5168\u4fee\u590d), \u5305\u542b\u5b8c\u6574 ICU \u533a\u57df\u6570\u636e, \u652f\u6301 arm64-v8a, armeabi-v7a \u548c x86_64. \u76f8\u6bd4 1.6.0 \u7684\u4e3b\u8981\u53d8\u5316 (1.7.0 - 1.32.0):\n\n- Node.js \u9879\u76ee\u548c\u811a\u672c\u53ef\u6253\u5305\u4e3a\u72ec\u7acb\u7b7e\u540d\u7684\u5e94\u7528, \u8fd0\u884c\u65f6\u8c03\u7528 Node.js Runtime \u63d2\u4ef6, \u63d2\u4ef6\u4e0d\u53ef\u7528\u65f6\u663e\u793a\u5b89\u88c5\u5f15\u5bfc.\n- \u56fe\u50cf\u4e0e\u6587\u5b57: OpenCC \u8f6c\u6362, \u56fe\u50cf\u7f16\u89e3\u7801, \u9ad8\u7ea7\u6ee4\u955c, \u591a\u70b9\u627e\u8272, SIFT/ORB \u7279\u5f81\u5339\u914d, PNG \u91cf\u5316\u538b\u7f29, pinyin; \u4e3b\u7ebf\u7a0b\u4e0e Worker \u5747\u53ef\u8c03\u7528.\n- \u5f55\u5c4f (H.264 MP4 \u4e0e AAC \u97f3\u9891), \u5f55\u5236\u671f\u95f4\u53ef\u5e76\u884c\u622a\u56fe.\n- \u754c\u9762: \u539f\u751f\u5e03\u5c40, Compose, XML \u8868\u5355\u4e0e\u5e03\u5c40\u7ec4\u4ef6, Drawer / Toolbar / ViewPager; WebView \u652f\u6301\u9875\u9762\u52a0\u8f7d, \u4e0b\u8f7d, \u6587\u4ef6\u9009\u62e9, \u62cd\u7167\u5f55\u50cf, getUserMedia \u548c\u5c4f\u5e55\u5171\u4eab.\n- \u5bbf\u4e3b\u63a5\u53e3: database/sqlite, \u4f20\u611f\u5668, Shell (\u542b Shizuku), \u4e8b\u4ef6\u4e0e\u901a\u77e5, \u8bbe\u5907\u63a7\u5236\u4e0e\u5bf9\u8bdd\u6846, \u65e5\u5386\u4e0e IntentTask, Java/Android \u5bf9\u8c61\u4e92\u64cd\u4f5c\u4e0e\u56de\u8c03\u4ee3\u7406, \u6587\u5b57\u8f6c\u8bed\u97f3, \u8bed\u97f3\u8bc6\u522b, EPUB, \u90ae\u4ef6, Flow \u81ea\u52a8\u5316, AI \u6587\u672c\u751f\u6210\u4e0e ai.agent.\n- \u4e0e AutoJs6 \u811a\u672c\u4e00\u81f4\u7684 util, species, s13n, fmt/cvt \u548c jsox \u5de5\u5177\u6a21\u5757, \u4ee5 autojs6:util \u7b49\u6a21\u5757\u540d\u5f15\u5165.\n- \u4fee\u590d: images.captureScreen \u622a\u56fe\u88ab\u62d2\u7edd, database/sqlite.open \u5ffd\u7565 timeoutMs/signal, \u4f20\u611f\u5668\u76d1\u542c\u5668\u9057\u7559, \u542b java.new \u7b49\u4fdd\u7559\u5b57\u6210\u5458\u7684\u5bbf\u4e3b\u6a21\u5757 ESM \u5bfc\u5165\u5931\u8d25, web.cancelFileChooser() \u672a\u5173\u95ed\u6587\u4ef6\u9009\u62e9\u5668\u7b49\u95ee\u9898.\n\n\u65b0\u7684\u5bbf\u4e3b\u63a5\u53e3\u7531\u5bbf\u4e3b provider \u5b9e\u73b0, \u9700\u8981\u5305\u542b\u5bf9\u5e94 provider \u7684\u5bbf\u4e3b\u7248\u672c\u53ca\u76f8\u5e94 Android \u6388\u6743; \u5bbf\u4e3b\u672a\u63d0\u4f9b\u7684\u80fd\u529b\u6309\u80fd\u529b\u76ee\u5f55\u62a5\u544a\u4e0d\u53ef\u7528.\n\n\u56db\u4e2a APK \u4f7f\u7528\u73b0\u6709\u53d1\u5e03\u8bc1\u4e66\u7b7e\u540d (\u4e0e 1.6.0 \u76f8\u540c), 64 \u4f4d\u539f\u751f\u5e93\u53ca APK \u901a\u8fc7 16 KB \u5bf9\u9f50\u68c0\u67e5; arm64 \u771f\u673a, x86_64 \u6a21\u62df\u5668\u4e0e universal \u5305\u5747\u901a\u8fc7 SimpleRun / NpmEcosystem / Manifest / PluginInfo \u9a8c\u6536. \u6458\u8981\u89c1 SHA256SUMS. \u672c\u6b21\u672a\u9644 capability catalog, runtime-kit \u4e0e nodejs-api \u5feb\u7167.",
+          "versionName": "1.32.1",
+          "versionCode": 302,
+          "versionDate": "2026-10-30",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.32.1",
+          "changelogText": "Node.js Runtime 1.32.1 (build 302)\n\nSource: `85bfb835f9ac197e19958299d639effab4d58cea` (branch `release/1.x`)\n\n\u672c\u7248\u662f 1.x \u7ef4\u62a4\u5206\u652f\u7684\u7248\u672c, \u4ecd\u4f7f\u7528 Node.js 24.21.0 (\u542b\u56de\u8865\u7684 OpenSSL 3.5.9 \u5b89\u5168\u4fee\u590d), \u5305\u542b\u5b8c\u6574 ICU \u533a\u57df\u6570\u636e, \u652f\u6301 arm64-v8a, armeabi-v7a \u548c x86_64. \u76f8\u6bd4 1.32.0:\n\n- \u4fee\u590d: rhino.install() \u88c5\u5165\u7684 Packages / java / android \u4ee3\u7406\u5728\u8bfb\u53d6\u9759\u6001\u5b57\u6bb5, \u8c03\u7528 describe(), \u8c03\u7528\u9759\u6001\u65b9\u6cd5\u6216\u7528 new \u521b\u5efa\u5bf9\u8c61\u65f6\u62a5\u9519\u7684\u95ee\u9898.\n\n1.x \u7ef4\u62a4\u8bf4\u660e: \u63d2\u4ef6 2.0.0 \u8d77\u6539\u7528 Node.js 26. \u9700\u8981\u7ee7\u7eed\u4f7f\u7528 Node.js 24 \u7684\u7528\u6237\u53ef\u4ee5\u7559\u5728 1.x, \u8be5\u5206\u652f\u53ea\u63a5\u6536\u5b89\u5168\u66f4\u65b0, \u7ef4\u62a4\u5230 Node.js 24 \u7ec8\u6b62\u652f\u6301\u7684 2028-04-30. 1.x \u7684\u6784\u5efa\u53f7\u4f4e\u4e8e 2.x, \u4ece 2.x \u6539\u56de 1.x \u9700\u8981\u5148\u5378\u8f7d.\n\n\u56db\u4e2a APK \u4f7f\u7528\u73b0\u6709\u53d1\u5e03\u8bc1\u4e66\u7b7e\u540d (\u4e0e 1.32.0 \u76f8\u540c), 64 \u4f4d\u539f\u751f\u5e93\u53ca APK \u901a\u8fc7 16 KB \u5bf9\u9f50\u68c0\u67e5; arm64 \u771f\u673a (OnePlus OPD2413, Android 15) \u4e0a\u914d\u5957\u6df7\u6dc6\u6d4b\u8bd5\u5305\u7684\u5b8c\u6574\u5e38\u89c4\u7ec4 37 / 37 \u7c7b (114 \u9879) \u901a\u8fc7. \u6458\u8981\u89c1 SHA256SUMS. \u672c\u6b21\u672a\u9644 capability catalog, runtime-kit \u4e0e nodejs-api \u5feb\u7167.",
           "assets": [
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.0-arm64-v8a-b46ac340.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.0/autojs6-plugin-nodejs-runtime-v1.32.0-arm64-v8a-b46ac340.apk",
-              "size": 43162749,
-              "digest": "sha256:1670284b09c8e524f7da344f137f91bbaf3ed45e58cb4e5d03d6c6d92f022275",
-              "sha256": "1670284b09c8e524f7da344f137f91bbaf3ed45e58cb4e5d03d6c6d92f022275",
+              "name": "autojs6-plugin-nodejs-runtime-v1.32.1-arm64-v8a-a54086d1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.1/autojs6-plugin-nodejs-runtime-v1.32.1-arm64-v8a-a54086d1.apk",
+              "size": 43163257,
+              "digest": "sha256:126885d9973d1c32f6365365fb0d15237a15412c0625228dd6f3b5efb88ad935",
+              "sha256": "126885d9973d1c32f6365365fb0d15237a15412c0625228dd6f3b5efb88ad935",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.32.0",
-              "versionCode": 299,
+              "versionName": "1.32.1",
+              "versionCode": 302,
               "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
               "supportedAbis": [
                 "arm64-v8a",
                 "armeabi-v7a",
                 "x86_64"
               ],
-              "sourceCommit": "a9cee7332b7ea1fc169d60e6aefe7f0fd9566cff"
+              "sourceCommit": "85bfb835f9ac197e19958299d639effab4d58cea"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.0-armeabi-v7a-749b5993.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.0/autojs6-plugin-nodejs-runtime-v1.32.0-armeabi-v7a-749b5993.apk",
-              "size": 42142629,
-              "digest": "sha256:cd20204eaad47efb1c46630ede4ee0871a6b30b503a92c7c831d21b263eee8bf",
-              "sha256": "cd20204eaad47efb1c46630ede4ee0871a6b30b503a92c7c831d21b263eee8bf",
+              "name": "autojs6-plugin-nodejs-runtime-v1.32.1-armeabi-v7a-252a8b79.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.1/autojs6-plugin-nodejs-runtime-v1.32.1-armeabi-v7a-252a8b79.apk",
+              "size": 42142721,
+              "digest": "sha256:3aec19b2a81693348247b496971e0cdb1c1f1f69d3f1a91663b8e300769f3579",
+              "sha256": "3aec19b2a81693348247b496971e0cdb1c1f1f69d3f1a91663b8e300769f3579",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.32.0",
-              "versionCode": 299,
+              "versionName": "1.32.1",
+              "versionCode": 302,
               "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
               "supportedAbis": [
                 "arm64-v8a",
                 "armeabi-v7a",
                 "x86_64"
               ],
-              "sourceCommit": "a9cee7332b7ea1fc169d60e6aefe7f0fd9566cff"
+              "sourceCommit": "85bfb835f9ac197e19958299d639effab4d58cea"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.0-universal-e6a32b72.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.0/autojs6-plugin-nodejs-runtime-v1.32.0-universal-e6a32b72.apk",
-              "size": 122963029,
-              "digest": "sha256:6ca54cdccfd77537facb63f1b11732925dc433c068700a3eeecf1e3e14d548d9",
-              "sha256": "6ca54cdccfd77537facb63f1b11732925dc433c068700a3eeecf1e3e14d548d9",
+              "name": "autojs6-plugin-nodejs-runtime-v1.32.1-universal-f94bc8c5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.1/autojs6-plugin-nodejs-runtime-v1.32.1-universal-f94bc8c5.apk",
+              "size": 122961989,
+              "digest": "sha256:4b2e0875a8cecf9ed470d28735d5b73e3300169b6754c64fd1d44c6e7e99fe49",
+              "sha256": "4b2e0875a8cecf9ed470d28735d5b73e3300169b6754c64fd1d44c6e7e99fe49",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.32.0",
-              "versionCode": 299,
+              "versionName": "1.32.1",
+              "versionCode": 302,
               "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
               "supportedAbis": [
                 "arm64-v8a",
                 "armeabi-v7a",
                 "x86_64"
               ],
-              "sourceCommit": "a9cee7332b7ea1fc169d60e6aefe7f0fd9566cff"
+              "sourceCommit": "85bfb835f9ac197e19958299d639effab4d58cea"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.0-x86_64-f46369d9.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.0/autojs6-plugin-nodejs-runtime-v1.32.0-x86_64-f46369d9.apk",
-              "size": 44796681,
-              "digest": "sha256:1c48b06e4266db5d91ef4954b4b145d0fb83d275f9e05c4eeb42b08357820f6f",
-              "sha256": "1c48b06e4266db5d91ef4954b4b145d0fb83d275f9e05c4eeb42b08357820f6f",
+              "name": "autojs6-plugin-nodejs-runtime-v1.32.1-x86_64-cdac2704.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.1/autojs6-plugin-nodejs-runtime-v1.32.1-x86_64-cdac2704.apk",
+              "size": 44796505,
+              "digest": "sha256:1edede92cede5f2cee07379cc6bae7f0374b6ea82ce1eb1fb7073959d64df1e1",
+              "sha256": "1edede92cede5f2cee07379cc6bae7f0374b6ea82ce1eb1fb7073959d64df1e1",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.32.0",
-              "versionCode": 299,
+              "versionName": "1.32.1",
+              "versionCode": 302,
               "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
               "supportedAbis": [
                 "arm64-v8a",
                 "armeabi-v7a",
                 "x86_64"
               ],
-              "sourceCommit": "a9cee7332b7ea1fc169d60e6aefe7f0fd9566cff"
+              "sourceCommit": "85bfb835f9ac197e19958299d639effab4d58cea"
             }
           ],
           "prerelease": false,
