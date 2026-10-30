@@ -343,6 +343,120 @@
         "sha256": "ecf2a96544dcc761257e5b50631161a0f27e676826648bd34d3f40cd80061477"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.paddleocr.v3": {
+      "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3",
+      "sourceCommit": "39a340a02a030f4d44921f45aaeb951cec467820",
+      "sourceDirty": false,
+      "recipeSha256": "6d835880a8c3edde6cee870b9302572d316bb3b61fd1b5f374e07f81eaa8d129",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.paddleocr.v3.en": {
+      "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3",
+      "sourceCommit": "39a340a02a030f4d44921f45aaeb951cec467820",
+      "sourceDirty": false,
+      "recipeSha256": "6d835880a8c3edde6cee870b9302572d316bb3b61fd1b5f374e07f81eaa8d129",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.en/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.en/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.paddleocr.v3.ja": {
+      "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3",
+      "sourceCommit": "39a340a02a030f4d44921f45aaeb951cec467820",
+      "sourceDirty": false,
+      "recipeSha256": "6d835880a8c3edde6cee870b9302572d316bb3b61fd1b5f374e07f81eaa8d129",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.ja/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.ja/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.paddleocr.v3.ko": {
+      "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3",
+      "sourceCommit": "39a340a02a030f4d44921f45aaeb951cec467820",
+      "sourceDirty": false,
+      "recipeSha256": "6d835880a8c3edde6cee870b9302572d316bb3b61fd1b5f374e07f81eaa8d129",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.ko/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.ko/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.paddleocr.v3.paddlelite": {
+      "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3-Paddle-Lite",
+      "sourceCommit": "d5e1e1931946177bac5a795ecce4de78f29527a9",
+      "sourceDirty": false,
+      "recipeSha256": "5fd34fcea54d6be810116cf08ec03458daf6fe4d1baa5f05e5ab3196234146e8",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.paddlelite/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.paddlelite/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      }
+    },
+    "io.github.supermonster003.autojs6.plugin.paddleocr.v3.zhhant": {
+      "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3",
+      "sourceCommit": "39a340a02a030f4d44921f45aaeb951cec467820",
+      "sourceDirty": false,
+      "recipeSha256": "6d835880a8c3edde6cee870b9302572d316bb3b61fd1b5f374e07f81eaa8d129",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.zhhant/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.paddleocr.v3.zhhant/92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148.png",
+        "sha256": "92bb8dc56408d12f71ee8ecb48c12e84eb58e3eef01326657645f290991d5148"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.python.runtime": {
       "repository": "AutoJs6-Plugin-Python-Runtime",
       "sourceCommit": "55fbf88d752f724daf9621513539358d3652273b",

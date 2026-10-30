@@ -479,6 +479,31 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         self.assertTrue(all(not by_variant[profile]["featured"] for profile in profiles if profile != "mobile"))
         self.assertAssetVariants(by_variant["mobile"], {"mobile"})
 
+    def test_v3_only_zh_is_featured_and_zh_hant_uses_its_kebab_token(self):
+        repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3"
+        gradle = self.gradle_with_flavors(
+            base_package="io.github.supermonster003.autojs6.plugin.paddleocr.v3",
+            plugin_variant="v3",
+            flavors=[
+                self.flavor("zh", "", "", "Paddle OCR (PP-OCRv3)", "paddle-ocr-pp-ocrv3"),
+                self.flavor("en", ".en", "", "Paddle OCR (PP-OCRv3 EN)", "paddle-ocr-pp-ocrv3-en"),
+                self.flavor("zhHant", ".zhhant", "", "Paddle OCR (PP-OCRv3 ZH-Hant)", "paddle-ocr-pp-ocrv3-zh-hant"),
+            ],
+        )
+        entries = self.build_entries(repo_name, gradle, self.assets_for(repo_name, ["zh", "en", "zh-hant"]))
+        by_variant = {entry["distributionVariant"]: entry for entry in entries}
+
+        self.assertEqual({"zh", "en", "zh-hant"}, set(by_variant))
+        self.assertTrue(by_variant["zh"]["featured"])
+        self.assertFalse(by_variant["en"]["featured"])
+        self.assertFalse(by_variant["zh-hant"]["featured"])
+        self.assertEqual(
+            "io.github.supermonster003.autojs6.plugin.paddleocr.v3.zhhant",
+            by_variant["zh-hant"]["packageName"],
+        )
+        self.assertAssetVariants(by_variant["zh"], {"zh"})
+        self.assertAssetVariants(by_variant["zh-hant"], {"zh-hant"})
+
     def test_v6_only_small_is_featured(self):
         repo_name = "AutoJs6-Plugin-Paddle-OCR-PP-OCRv6"
         gradle = self.gradle_with_flavors(

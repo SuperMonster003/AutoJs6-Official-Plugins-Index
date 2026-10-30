@@ -67,6 +67,7 @@ SUPPORTED_ABIS = {
 }
 
 FEATURED_DISTRIBUTIONS = {
+    "AutoJs6-Plugin-Paddle-OCR-PP-OCRv3": {"zh"},
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv4": {"mobile"},
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv5": {"mobile"},
     "AutoJs6-Plugin-Paddle-OCR-PP-OCRv6": {"small"},
