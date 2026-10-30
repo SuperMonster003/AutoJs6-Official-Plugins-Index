@@ -2561,34 +2561,34 @@
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.nodejs/9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8.png",
       "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.nodejs/9aead0ed6ac7eea721193871f9d37ec55fb25370e7c3138d316dd65981f504f8.png",
       "title": "AutoJs6 Node.js Runtime",
-      "description": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
+      "description": "Provides the Node.js 26.13.0 native runtime for AutoJs6",
       "localizedDescriptions": {
-        "values": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
-        "values-ar": "\u064a\u0648\u0641\u0631 \u0628\u064a\u0626\u0629 \u062a\u0634\u063a\u064a\u0644 Node.js 24.21.0 \u0627\u0644\u0627\u0635\u0644\u064a\u0629 \u0644 AutoJs6",
-        "values-en": "Provides the Node.js 24.21.0 native runtime for AutoJs6",
-        "values-es": "Proporciona el runtime nativo Node.js 24.21.0 para AutoJs6",
-        "values-fr": "Fournit le runtime natif Node.js 24.21.0 pour AutoJs6",
-        "values-ja": "AutoJs6 \u306b Node.js 24.21.0 \u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30f3\u30bf\u30a4\u30e0\u3092\u63d0\u4f9b",
-        "values-ko": "AutoJs6 \uc5d0 Node.js 24.21.0 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \uc81c\uacf5",
-        "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0430\u0442\u0438\u0432\u043d\u0443\u044e \u0441\u0440\u0435\u0434\u0443 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f Node.js 24.21.0 \u0434\u043b\u044f AutoJs6",
-        "values-zh": "\u4e3a AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u8fd0\u884c\u65f6",
-        "values-zh-rHK": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u904b\u884c\u6642",
-        "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 24.21.0 \u539f\u751f\u57f7\u884c\u968e\u6bb5"
+        "values": "Provides the Node.js 26.13.0 native runtime for AutoJs6",
+        "values-ar": "\u064a\u0648\u0641\u0631 \u0628\u064a\u0626\u0629 \u062a\u0634\u063a\u064a\u0644 Node.js 26.13.0 \u0627\u0644\u0627\u0635\u0644\u064a\u0629 \u0644 AutoJs6",
+        "values-en": "Provides the Node.js 26.13.0 native runtime for AutoJs6",
+        "values-es": "Proporciona el runtime nativo Node.js 26.13.0 para AutoJs6",
+        "values-fr": "Fournit le runtime natif Node.js 26.13.0 pour AutoJs6",
+        "values-ja": "AutoJs6 \u306b Node.js 26.13.0 \u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30f3\u30bf\u30a4\u30e0\u3092\u63d0\u4f9b",
+        "values-ko": "AutoJs6 \uc5d0 Node.js 26.13.0 \ub124\uc774\ud2f0\ube0c \ub7f0\ud0c0\uc784 \uc81c\uacf5",
+        "values-ru": "\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0430\u0442\u0438\u0432\u043d\u0443\u044e \u0441\u0440\u0435\u0434\u0443 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f Node.js 26.13.0 \u0434\u043b\u044f AutoJs6",
+        "values-zh": "\u4e3a AutoJs6 \u63d0\u4f9b Node.js 26.13.0 \u539f\u751f\u8fd0\u884c\u65f6",
+        "values-zh-rHK": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 26.13.0 \u539f\u751f\u904b\u884c\u6642",
+        "values-zh-rTW": "\u70ba AutoJs6 \u63d0\u4f9b Node.js 26.13.0 \u539f\u751f\u57f7\u884c\u968e\u6bb5"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v1.32.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/refs/tags/v2.0.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -2596,87 +2596,35 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.32.2",
-          "versionCode": 303,
+          "versionName": "2.0.0",
+          "versionCode": 340,
           "versionDate": "2026-10-30",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.32.2",
-          "changelogText": "Node.js Runtime 1.32.2 (build 303)\n\nSource: `c8a6487817a6b37258262d303aafd3c63b7cd2bc` (branch `release/1.x`)\n\n\u672c\u7248\u662f 1.x \u7ef4\u62a4\u5206\u652f\u7684\u7248\u672c, \u4ecd\u4f7f\u7528 Node.js 24.21.0 (\u542b\u56de\u8865\u7684 OpenSSL 3.5.9 \u5b89\u5168\u4fee\u590d), \u5305\u542b\u5b8c\u6574 ICU \u533a\u57df\u6570\u636e, \u652f\u6301 arm64-v8a, armeabi-v7a \u548c x86_64. \u76f8\u6bd4 1.32.1:\n\n- \u4fee\u590d: shell.exec \u6267\u884c\u5f88\u5feb\u7ed3\u675f\u7684\u547d\u4ee4\u65f6\u5076\u5c14\u4ee5 ERR_STREAM_DESTROYED \u9519\u8bef\u5931\u8d25\u7684\u95ee\u9898.\n\n1.x \u7ef4\u62a4\u8bf4\u660e: \u63d2\u4ef6 2.0.0 \u8d77\u6539\u7528 Node.js 26. \u9700\u8981\u7ee7\u7eed\u4f7f\u7528 Node.js 24 \u7684\u7528\u6237\u53ef\u4ee5\u7559\u5728 1.x, \u8be5\u5206\u652f\u53ea\u63a5\u6536\u5b89\u5168\u66f4\u65b0, \u7ef4\u62a4\u5230 Node.js 24 \u7ec8\u6b62\u652f\u6301\u7684 2028-04-30. 1.x \u7684\u6784\u5efa\u53f7\u4f4e\u4e8e 2.x, \u4ece 2.x \u6539\u56de 1.x \u9700\u8981\u5148\u5378\u8f7d.\n\n\u56db\u4e2a APK \u4f7f\u7528\u73b0\u6709\u53d1\u5e03\u8bc1\u4e66\u7b7e\u540d (\u4e0e 1.32.1 \u76f8\u540c), 64 \u4f4d\u539f\u751f\u5e93\u53ca APK \u901a\u8fc7 16 KB \u5bf9\u9f50\u68c0\u67e5; arm64 \u771f\u673a (OnePlus OPD2413, Android 15) \u4e0e armeabi-v7a \u771f\u673a (Sony G8441, Android 9) \u4e0a\u914d\u5957\u6df7\u6dc6\u6d4b\u8bd5\u5305\u7684\u5b8c\u6574\u5e38\u89c4\u7ec4\u5747 37 / 37 \u7c7b (114 \u9879) \u901a\u8fc7, AutoJs6 6.8.0 \u7684 Node \u63d2\u4ef6\u5951\u7ea6\u6d4b\u8bd5\u901a\u8fc7. \u6458\u8981\u89c1 SHA256SUMS. \u672c\u6b21\u672a\u9644 capability catalog, runtime-kit \u4e0e nodejs-api \u5feb\u7167.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v2.0.0",
+          "changelogText": "Node.js Runtime 2.0.0 (build 340)\n\nSource: `0e1e6d14a224b11073e8fc2483073e5b3a21067b`\n\n\u672c\u7248\u6539\u7528 Node.js 26.13.0 LTS (V8 14.6, OpenSSL 3.5.9, ICU 78.3), \u4e09\u4e2a ABI \u5747\u4ece\u6e90\u7801\u6784\u5efa, \u5305\u542b\u5b8c\u6574 ICU \u533a\u57df\u6570\u636e, \u652f\u6301 arm64-v8a, armeabi-v7a \u548c x86_64. \u6700\u4f4e\u5bbf\u4e3b\u7248\u672c\u4e0d\u53d8.\n\n\u5347\u7ea7\u524d\u8bf7\u6ce8\u610f:\n\n- Node.js 26 \u79fb\u9664\u4e86 Node.js 24 \u4e2d\u5df2\u5f03\u7528\u7684\u90e8\u5206\u63a5\u53e3 (\u4f8b\u5982 SlowBuffer, fs.rmdir \u7684 recursive \u9009\u9879, fs.F_OK \u7b49\u5e38\u91cf, assert.CallTracker \u548c node:_stream_wrap), \u4f9d\u8d56\u5b83\u4eec\u7684\u811a\u672c\u9700\u8981\u6539\u5199.\n- \u76f4\u63a5\u8c03\u7528 V8 \u63a5\u53e3\u7f16\u8bd1\u7684 native addon (.node) \u9700\u8981\u9488\u5bf9 Node.js 26 \u91cd\u65b0\u7f16\u8bd1, \u57fa\u4e8e Node-API \u7684\u6269\u5c55\u4e0d\u53d7\u5f71\u54cd.\n- \u9700\u8981\u7ee7\u7eed\u4f7f\u7528 Node.js 24 \u65f6, \u53ef\u4ee5\u5378\u8f7d 2.x \u540e\u5b89\u88c5 [1.32.2](https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/tag/v1.32.2). 1.x \u53ea\u63a5\u6536\u5b89\u5168\u66f4\u65b0, \u7ef4\u62a4\u5230 2028-04-30.\n\n\u76f8\u6bd4 1.32.x \u7684\u4e3b\u8981\u53d8\u5316:\n\n- Node.js 26 \u5185\u7f6e\u7684 Temporal \u5168\u5c40\u5bf9\u8c61, \u53ef\u76f4\u63a5\u5904\u7406\u65e5\u671f, \u65f6\u95f4, \u65f6\u533a\u4e0e\u65e5\u5386.\n- Node.js \u4e0e Worker \u4e2d, \u4ee5\u4e0b\u6a21\u5757\u4e0e AutoJs6 \u811a\u672c\u4e00\u81f4: app, shell \u548c shizuku; \u7cfb\u7edf\u4fe1\u606f (autojs, installer, memory, settings, sysprops, power_manager, autojs6:system, \u901a\u77e5\u5f00\u5173\u4e0e\u6e20\u9053, dialogs.build, engines, plugins.extend \u4e0e plugins.tools); device, sensors \u548c media (\u8bfb\u53d6\u8bbe\u5907\u6807\u8bc6\u9700\u8981\u58f0\u660e\u65b0\u589e\u7684 device.identifiers \u80fd\u529b); colors/Color, files, zip, mime \u548c\u8ba1\u65f6\u8bb0\u5f55\u5668. \u53ef\u901a\u8fc7 autojs6:global \u4f7f\u7528 dayjs, pangu.js, cheerio \u548c banana-i18n.\n- \u4fee\u590d: rhino.install() \u88c5\u5165\u7684 Packages / java / android \u4ee3\u7406\u5728\u8bfb\u53d6\u9759\u6001\u5b57\u6bb5, \u8c03\u7528 describe(), \u8c03\u7528\u9759\u6001\u65b9\u6cd5\u6216\u7528 new \u521b\u5efa\u5bf9\u8c61\u65f6\u62a5\u9519\u7684\u95ee\u9898 (1.32.1 \u8d77\u540c\u6837\u5305\u542b).\n- \u4fee\u590d: shell.exec \u6267\u884c\u5f88\u5feb\u7ed3\u675f\u7684\u547d\u4ee4\u65f6\u5076\u5c14\u4ee5 ERR_STREAM_DESTROYED \u9519\u8bef\u5931\u8d25\u7684\u95ee\u9898 (1.32.2 \u540c\u6837\u5305\u542b).\n- Node.js 26 \u4e0d\u518d\u81ea\u5e26 corepack, \u63d2\u4ef6\u7ee7\u7eed\u968f\u5305\u63d0\u4f9b corepack 0.36.0, \u7ec8\u7aef\u7528\u6cd5\u4e0d\u53d8; npm \u5347\u7ea7\u5230 11.20.0.\n\n\u56db\u4e2a APK \u4f7f\u7528\u73b0\u6709\u53d1\u5e03\u8bc1\u4e66\u7b7e\u540d (\u4e0e 1.32.x \u76f8\u540c), 64 \u4f4d\u539f\u751f\u5e93\u53ca APK \u901a\u8fc7 16 KB \u5bf9\u9f50\u68c0\u67e5; arm64 \u771f\u673a (OnePlus OPD2413, Android 15) \u4e0e armeabi-v7a \u771f\u673a (Sony G8441, Android 9) \u4e0a\u914d\u5957\u6df7\u6dc6\u6d4b\u8bd5\u5305\u7684\u5b8c\u6574\u5e38\u89c4\u7ec4\u5747 37 / 37 \u7c7b (114 \u9879) \u901a\u8fc7, AutoJs6 6.8.0 \u7684 Node \u63d2\u4ef6\u5951\u7ea6\u6d4b\u8bd5\u5728 2.0.0 \u4e0e 1.32.2 \u4e0b\u5747\u901a\u8fc7. \u6458\u8981\u89c1 SHA256SUMS. \u672c\u6b21\u672a\u9644 capability catalog, runtime-kit \u4e0e nodejs-api \u5feb\u7167.",
           "assets": [
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.2-arm64-v8a-0e50187c.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.2/autojs6-plugin-nodejs-runtime-v1.32.2-arm64-v8a-0e50187c.apk",
-              "size": 43172333,
-              "digest": "sha256:2c774df2dfeeb1148e13247315a6e1c55466b3a89e9a6612f277075c51a1990c",
-              "sha256": "2c774df2dfeeb1148e13247315a6e1c55466b3a89e9a6612f277075c51a1990c",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.32.2",
-              "versionCode": 303,
-              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64"
-              ],
-              "sourceCommit": "c8a6487817a6b37258262d303aafd3c63b7cd2bc"
+              "name": "autojs6-plugin-nodejs-runtime-v2.0.0-arm64-v8a-9c2507fa.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-arm64-v8a-9c2507fa.apk",
+              "size": 46441522,
+              "digest": "sha256:2df318aec73e10fd30794fa69f388b8a543ce57e63b08aa8c366285a148bde69"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.2-armeabi-v7a-7fb4bcc5.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.2/autojs6-plugin-nodejs-runtime-v1.32.2-armeabi-v7a-7fb4bcc5.apk",
-              "size": 42147597,
-              "digest": "sha256:45ecfd4c8153b3b8e0a7993c6bb5e407f1acd98323130b88d6fd64222027b89b",
-              "sha256": "45ecfd4c8153b3b8e0a7993c6bb5e407f1acd98323130b88d6fd64222027b89b",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.32.2",
-              "versionCode": 303,
-              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64"
-              ],
-              "sourceCommit": "c8a6487817a6b37258262d303aafd3c63b7cd2bc"
+              "name": "autojs6-plugin-nodejs-runtime-v2.0.0-armeabi-v7a-0e367d60.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-armeabi-v7a-0e367d60.apk",
+              "size": 45482974,
+              "digest": "sha256:6f845c1bfac9216437a506a0eba3c4338f41aed182e654882897cd67a10c87dc"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.2-universal-147621b7.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.2/autojs6-plugin-nodejs-runtime-v1.32.2-universal-147621b7.apk",
-              "size": 122983565,
-              "digest": "sha256:96561973c27cad8cc1049a2a750c4c955c4023ce8f57b937850610c52660d04a",
-              "sha256": "96561973c27cad8cc1049a2a750c4c955c4023ce8f57b937850610c52660d04a",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.32.2",
-              "versionCode": 303,
-              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64"
-              ],
-              "sourceCommit": "c8a6487817a6b37258262d303aafd3c63b7cd2bc"
+              "name": "autojs6-plugin-nodejs-runtime-v2.0.0-universal-aa361836.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-universal-aa361836.apk",
+              "size": 132646150,
+              "digest": "sha256:a3ed68be67075e893e7849c8bf7d5cd4d94d1180092b84f6b96e2f7d4f4b6c4b"
             },
             {
-              "name": "autojs6-plugin-nodejs-runtime-v1.32.2-x86_64-21d1ad96.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v1.32.2/autojs6-plugin-nodejs-runtime-v1.32.2-x86_64-21d1ad96.apk",
-              "size": 44805705,
-              "digest": "sha256:15aa870575dd1f4a27b6f1dc657ce82a5b3cac4056954a5ba08ea4351c8b4260",
-              "sha256": "15aa870575dd1f4a27b6f1dc657ce82a5b3cac4056954a5ba08ea4351c8b4260",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.32.2",
-              "versionCode": 303,
-              "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64"
-              ],
-              "sourceCommit": "c8a6487817a6b37258262d303aafd3c63b7cd2bc"
+              "name": "autojs6-plugin-nodejs-runtime-v2.0.0-x86_64-2d10598a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-NodeJs-Runtime/releases/download/v2.0.0/autojs6-plugin-nodejs-runtime-v2.0.0-x86_64-2d10598a.apk",
+              "size": 48269870,
+              "digest": "sha256:df9ab08d8237ccf781490321a109764dfebd487af0d2f5a572c9655c5dabaca4"
             }
           ],
           "prerelease": false,
