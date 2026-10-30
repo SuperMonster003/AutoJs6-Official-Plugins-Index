@@ -1368,19 +1368,19 @@
         "values-zh-rTW": "\u4f7f\u7528 Dear ImGui \u5efa\u7acb\u6d6e\u52d5\u4f7f\u7528\u8005\u4ecb\u9762"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.15.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.16.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -1388,23 +1388,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.15.0",
-          "versionCode": 48,
+          "versionName": "1.16.0",
+          "versionCode": 51,
           "versionDate": "2026-10-30",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/tag/v1.15.0",
-          "changelogText": "ImGui 1.15.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `8b749883bdfa0d4c4d6e49b1a8dd54dc9971cffe`\n\n### 1.15.0\n\n- Feature: Keyboard queries: isKeyDown / isKeyPressed / isKeyReleased / getKeyPressedAmount / getKeyName / isKeyChordPressed, plus keyboard shortcuts with shortcut and setNextItemShortcut. Combine keys as ui.Mod.Ctrl | ui.Key.S. The Key constants now cover the whole keyboard: A to Z, Digit0 to Digit9, F1 to F24, the keypad and more\n- Feature: Clipboard: getClipboardText / setClipboardText use the same Android clipboard as the host's getClip / setClip, and so do Ctrl+C / Ctrl+V in text fields. From Android 10 the system lets an app read the clipboard only while it has the input focus; docs/LIMITS.md explains what that means for floating windows\n- Feature: Drag and drop: drag an item onto another with beginDragDropSource / setDragDropPayload / beginDragDropTarget / acceptDragDropPayload and the helpers withDragDropSource / withDragDropTarget (DragDropFlags sets the options). The payload can be a string, a number or any JSON-serializable object, and colors can be dragged from color widgets; see the new section of the widget-overview example\n- Feature: Custom drawing: Path functions (pathLineTo / pathArcTo / pathBezierCubicCurveTo / pathStroke / pathFillConvex and more), pushClipRect / popClipRect on draw lists and windows, and new shapes: addEllipse, addNgon, addQuad and their filled forms, addBezierQuadratic, addRectFilledMultiColor, addConvexPolyFilled, addConcavePolyFilled, addImageQuad, addImageRounded; see the widget-overview example\n- Feature: Simulated touch: addMousePosEvent(x, y) and addMouseButtonEvent(button, down) let a script act like a finger on the window, for example to test a UI automatically. Coordinates are frame pixels, like getMousePos, not the dp of createWindow; the apps below the window are not affected\n\nAPK checksums are in `SHA256SUMS`.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/tag/v1.16.0",
+          "changelogText": "ImGui 1.16.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `b3ddd02aaf188fd0231642238d2012aa846c64d0`\n\n### 1.16.0\n\n- Feature: session.capture(options) takes a picture of the window and returns an image for the images module, for example images.save(session.capture(), path). options.region picks a part of the window, in dp. A window in privileged mode can only be captured between two frames, for example from setTimeout(fn, 0)\n- Feature: createWindow({systemCjkFont: true}) shows every CJK character the device has, including rare ones like \u9f98 that are missing from the bundled font. Android draws each character when it is first used, so this takes almost no extra memory; docs/LIMITS.md lists what the bundled font covers\n- Feature: createWindow({pinchZoom: true}) lets two fingers change the text size from 0.5 to 3 times; moving both fingers together still scrolls. Read the scale from session.fontScale, set it with session.setFontScale(scale), and listen to the new fontScaleChanged event. The widget-overview example shows all of this\n- Feature: Text input in privileged mode: tapping an inputText now opens a small input box of AutoJs6 with the keyboard (this needs the overlay permission of AutoJs6). The OK button, the done key or a tap elsewhere enters the text at the cursor of the field; text already in the field can not be edited in the box\n- Improvement: Windows now follow changes of the display size (density) and the system font size while they run: text and controls get the new size, and the window keeps its size in dp. configurationChanged has the new fields density, oldDensity, fontScale and oldFontScale. A full-screen window of imgui.launch closes instead (session.closeReason is \"configuration-changed\"), because Android recreates the Activity it lives in\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-imgui-v1.15.0-arm64-v8a-89B32146.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.15.0/autojs6-plugin-imgui-v1.15.0-arm64-v8a-89B32146.apk",
-              "size": 4560399,
-              "digest": "sha256:262ef6bcbae047dea70c89adbe2e011c519829857d6c862a3b664ed7a1a0ef1f",
-              "sha256": "262ef6bcbae047dea70c89adbe2e011c519829857d6c862a3b664ed7a1a0ef1f",
+              "name": "autojs6-plugin-imgui-v1.16.0-arm64-v8a-A1D4893D.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.16.0/autojs6-plugin-imgui-v1.16.0-arm64-v8a-A1D4893D.apk",
+              "size": 4582107,
+              "digest": "sha256:2929b99c55f72a4000c73117d90de053898bec904e70238b04ceb0f3fba8ce11",
+              "sha256": "2929b99c55f72a4000c73117d90de053898bec904e70238b04ceb0f3fba8ce11",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.15.0",
-              "versionCode": 48,
+              "versionName": "1.16.0",
+              "versionCode": 51,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1412,19 +1412,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "8b749883bdfa0d4c4d6e49b1a8dd54dc9971cffe"
+              "sourceCommit": "b3ddd02aaf188fd0231642238d2012aa846c64d0"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.15.0-armeabi-v7a-696DA96B.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.15.0/autojs6-plugin-imgui-v1.15.0-armeabi-v7a-696DA96B.apk",
-              "size": 4531061,
-              "digest": "sha256:3d603db09fce825fc1271a3efd5bfdeec0414fac5e14aedef0dc172a1e6a4a2b",
-              "sha256": "3d603db09fce825fc1271a3efd5bfdeec0414fac5e14aedef0dc172a1e6a4a2b",
+              "name": "autojs6-plugin-imgui-v1.16.0-armeabi-v7a-F5BFEFD5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.16.0/autojs6-plugin-imgui-v1.16.0-armeabi-v7a-F5BFEFD5.apk",
+              "size": 4552653,
+              "digest": "sha256:173abf33e786ae0a5cc44dd382e2d3772cbb46ba10b4a771b7658f463d5677ab",
+              "sha256": "173abf33e786ae0a5cc44dd382e2d3772cbb46ba10b4a771b7658f463d5677ab",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.15.0",
-              "versionCode": 48,
+              "versionName": "1.16.0",
+              "versionCode": 51,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1432,19 +1432,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "8b749883bdfa0d4c4d6e49b1a8dd54dc9971cffe"
+              "sourceCommit": "b3ddd02aaf188fd0231642238d2012aa846c64d0"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.15.0-universal-E65F9BCC.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.15.0/autojs6-plugin-imgui-v1.15.0-universal-E65F9BCC.apk",
-              "size": 6654613,
-              "digest": "sha256:97892b7c2b797901e9b2853595ad05e6bc9fb995668b0c6cb5e5840bf9a49557",
-              "sha256": "97892b7c2b797901e9b2853595ad05e6bc9fb995668b0c6cb5e5840bf9a49557",
+              "name": "autojs6-plugin-imgui-v1.16.0-universal-4E80C2AF.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.16.0/autojs6-plugin-imgui-v1.16.0-universal-4E80C2AF.apk",
+              "size": 6684773,
+              "digest": "sha256:2b49f2d0f684e703fca1c4abd09586174fe3f0666613c7b281c456c01b469374",
+              "sha256": "2b49f2d0f684e703fca1c4abd09586174fe3f0666613c7b281c456c01b469374",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.15.0",
-              "versionCode": 48,
+              "versionName": "1.16.0",
+              "versionCode": 51,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1452,19 +1452,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "8b749883bdfa0d4c4d6e49b1a8dd54dc9971cffe"
+              "sourceCommit": "b3ddd02aaf188fd0231642238d2012aa846c64d0"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.15.0-x86-5069AB16.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.15.0/autojs6-plugin-imgui-v1.15.0-x86-5069AB16.apk",
-              "size": 4605361,
-              "digest": "sha256:073fade2f9f7c1be9b3be0d074a7fdf5c8ee4c76e4e4cccbbf90c5c677046f72",
-              "sha256": "073fade2f9f7c1be9b3be0d074a7fdf5c8ee4c76e4e4cccbbf90c5c677046f72",
+              "name": "autojs6-plugin-imgui-v1.16.0-x86-CB3E9C9C.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.16.0/autojs6-plugin-imgui-v1.16.0-x86-CB3E9C9C.apk",
+              "size": 4627149,
+              "digest": "sha256:7ad6aa0c66430fdf87a3850555c2a019399be06f36204e6331ed0dea189c4245",
+              "sha256": "7ad6aa0c66430fdf87a3850555c2a019399be06f36204e6331ed0dea189c4245",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.15.0",
-              "versionCode": 48,
+              "versionName": "1.16.0",
+              "versionCode": 51,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1472,19 +1472,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "8b749883bdfa0d4c4d6e49b1a8dd54dc9971cffe"
+              "sourceCommit": "b3ddd02aaf188fd0231642238d2012aa846c64d0"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.15.0-x86_64-A024B9C1.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.15.0/autojs6-plugin-imgui-v1.15.0-x86_64-A024B9C1.apk",
-              "size": 4601468,
-              "digest": "sha256:bf65e29ed27066946a780d167d6115deb623c7679e380cf616cdb6b2c060293f",
-              "sha256": "bf65e29ed27066946a780d167d6115deb623c7679e380cf616cdb6b2c060293f",
+              "name": "autojs6-plugin-imgui-v1.16.0-x86_64-FE2284CF.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.16.0/autojs6-plugin-imgui-v1.16.0-x86_64-FE2284CF.apk",
+              "size": 4623512,
+              "digest": "sha256:1d1925479082d924917f0382018ad5ed330f57d694142a5d8344d51764b2e5c2",
+              "sha256": "1d1925479082d924917f0382018ad5ed330f57d694142a5d8344d51764b2e5c2",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.15.0",
-              "versionCode": 48,
+              "versionName": "1.16.0",
+              "versionCode": 51,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1492,7 +1492,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "8b749883bdfa0d4c4d6e49b1a8dd54dc9971cffe"
+              "sourceCommit": "b3ddd02aaf188fd0231642238d2012aa846c64d0"
             }
           ],
           "prerelease": false,
