@@ -1368,19 +1368,19 @@
         "values-zh-rTW": "\u4f7f\u7528 Dear ImGui \u5efa\u7acb\u6d6e\u52d5\u4f7f\u7528\u8005\u4ecb\u9762"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.17.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-ImGui/refs/tags/v1.18.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -1388,23 +1388,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.17.0",
-          "versionCode": 53,
-          "versionDate": "2026-10-31",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/tag/v1.17.0",
-          "changelogText": "ImGui 1.17.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `d79ac0d78a445ef7a8b6190591270f347a9539af`\n\n### 1.17.0\n\n- Feature: Multi-select lists: beginMultiSelect / endMultiSelect / setNextItemSelectionUserData / isItemToggledSelection select several rows with a tap, Ctrl+tap, Shift+tap, Ctrl+A and Escape (MultiSelectFlags sets the options). imgui.selectionStorage() keeps the selected rows for you. It works with listClipper: a Shift range can span 100000 rows, even rows that were never drawn. A phone has no Ctrl or Shift key, so the large-list example shows two checkboxes that hold them; docs/LIMITS.md explains the rest.\n- Feature: New example multi-window and new guide docs/MULTI-WINDOW.md: several panels in one session, each with its own position, collapse arrow and close button, and the window you tap comes to the front. Only one session (one Surface) can exist at a time, so \"multiple windows\" always means windows inside one session, not several floating windows.\n- Fix: Overlay windows in the default TouchMode.Auto: a touch arrived one status bar height below the finger, so controls near the top of a window could miss it and title bars could not be dragged\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.18.0",
+          "versionCode": 58,
+          "versionDate": "2026-11-01",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/tag/v1.18.0",
+          "changelogText": "ImGui 1.18.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `79f9efa275e65b13196815bdef96474fc284beeb`\n\n### 1.18.0\n\n- Feature: setNextWindowFocus() and setNextWindowCollapsed(collapsed, condition) let a script focus or fold one window of a session, for the next begin or withWindow. The example multi-window has a button for each\n- Fix: dataTable: the render function of a column was documented but never called. It now draws the cells of that column\n- Fix: launchPrivileged: on Android 12 and later, touches on the temporary text box and the keyboard did not arrive, and a touch outside did not close the box. The layer is now hidden while the box is open\n- Improvement: imgui.d.ts describes the API precisely: every member has a comment with its units and thread, alert / confirm / singleChoice / multiChoice have real signatures, each session event has its own fields, and a misspelled option name is now an error in TypeScript. The toast options title and background, which never did anything, are gone. All bundled examples pass tsc --strict\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-imgui-v1.17.0-arm64-v8a-85954E4D.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.17.0/autojs6-plugin-imgui-v1.17.0-arm64-v8a-85954E4D.apk",
-              "size": 4595788,
-              "digest": "sha256:50f450b78a38788c62f5d1c58d6c3f08a82a1dc16eaf189874c39a57c7993ae5",
-              "sha256": "50f450b78a38788c62f5d1c58d6c3f08a82a1dc16eaf189874c39a57c7993ae5",
+              "name": "autojs6-plugin-imgui-v1.18.0-arm64-v8a-4DFAA8BE.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.18.0/autojs6-plugin-imgui-v1.18.0-arm64-v8a-4DFAA8BE.apk",
+              "size": 4617868,
+              "digest": "sha256:4097da5f4f1137a0571df01f6eaea0fb93b6614e156b7c6503b1aea8a896d896",
+              "sha256": "4097da5f4f1137a0571df01f6eaea0fb93b6614e156b7c6503b1aea8a896d896",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.17.0",
-              "versionCode": 53,
+              "versionName": "1.18.0",
+              "versionCode": 58,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1412,19 +1412,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d79ac0d78a445ef7a8b6190591270f347a9539af"
+              "sourceCommit": "79f9efa275e65b13196815bdef96474fc284beeb"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.17.0-armeabi-v7a-2C9A73AB.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.17.0/autojs6-plugin-imgui-v1.17.0-armeabi-v7a-2C9A73AB.apk",
-              "size": 4566690,
-              "digest": "sha256:e12234c4a7e1f22d4f3b843902f0977f690fbf521a7a659194f5003d8a684164",
-              "sha256": "e12234c4a7e1f22d4f3b843902f0977f690fbf521a7a659194f5003d8a684164",
+              "name": "autojs6-plugin-imgui-v1.18.0-armeabi-v7a-DC77C797.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.18.0/autojs6-plugin-imgui-v1.18.0-armeabi-v7a-DC77C797.apk",
+              "size": 4588630,
+              "digest": "sha256:dd8431f71657583dde739a34f684bf553e003bacd968d5304b9881b76aa31f80",
+              "sha256": "dd8431f71657583dde739a34f684bf553e003bacd968d5304b9881b76aa31f80",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.17.0",
-              "versionCode": 53,
+              "versionName": "1.18.0",
+              "versionCode": 58,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1432,19 +1432,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d79ac0d78a445ef7a8b6190591270f347a9539af"
+              "sourceCommit": "79f9efa275e65b13196815bdef96474fc284beeb"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.17.0-universal-D074154D.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.17.0/autojs6-plugin-imgui-v1.17.0-universal-D074154D.apk",
-              "size": 6704090,
-              "digest": "sha256:680f190f003b39fa55f22d7093f5decde991067221ecc5834be9468cde77f7a7",
-              "sha256": "680f190f003b39fa55f22d7093f5decde991067221ecc5834be9468cde77f7a7",
+              "name": "autojs6-plugin-imgui-v1.18.0-universal-9B9EC821.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.18.0/autojs6-plugin-imgui-v1.18.0-universal-9B9EC821.apk",
+              "size": 6726782,
+              "digest": "sha256:cc1514429107251d29157d2a703fe272aa1c75ca7c0d6adc08083c91ada3f92d",
+              "sha256": "cc1514429107251d29157d2a703fe272aa1c75ca7c0d6adc08083c91ada3f92d",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.17.0",
-              "versionCode": 53,
+              "versionName": "1.18.0",
+              "versionCode": 58,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1452,19 +1452,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d79ac0d78a445ef7a8b6190591270f347a9539af"
+              "sourceCommit": "79f9efa275e65b13196815bdef96474fc284beeb"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.17.0-x86-D6C6D71C.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.17.0/autojs6-plugin-imgui-v1.17.0-x86-D6C6D71C.apk",
-              "size": 4641438,
-              "digest": "sha256:8f5d0ab06e48c0e52c13808e661fca01959ca492895f4b2b6830ffcc733a20f3",
-              "sha256": "8f5d0ab06e48c0e52c13808e661fca01959ca492895f4b2b6830ffcc733a20f3",
+              "name": "autojs6-plugin-imgui-v1.18.0-x86-9C90C937.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.18.0/autojs6-plugin-imgui-v1.18.0-x86-9C90C937.apk",
+              "size": 4663270,
+              "digest": "sha256:0282fe3c079de36f60b073b610b863f788938214d6dc69f4602019839608ac7c",
+              "sha256": "0282fe3c079de36f60b073b610b863f788938214d6dc69f4602019839608ac7c",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.17.0",
-              "versionCode": 53,
+              "versionName": "1.18.0",
+              "versionCode": 58,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1472,19 +1472,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d79ac0d78a445ef7a8b6190591270f347a9539af"
+              "sourceCommit": "79f9efa275e65b13196815bdef96474fc284beeb"
             },
             {
-              "name": "autojs6-plugin-imgui-v1.17.0-x86_64-8390B6EF.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.17.0/autojs6-plugin-imgui-v1.17.0-x86_64-8390B6EF.apk",
-              "size": 4637861,
-              "digest": "sha256:9296ad13324237f35447f8f5774b3860d86a74468043da581f06df0a035292f5",
-              "sha256": "9296ad13324237f35447f8f5774b3860d86a74468043da581f06df0a035292f5",
+              "name": "autojs6-plugin-imgui-v1.18.0-x86_64-3784B3B1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-ImGui/releases/download/v1.18.0/autojs6-plugin-imgui-v1.18.0-x86_64-3784B3B1.apk",
+              "size": 4659793,
+              "digest": "sha256:33d65c1a5ff0b9e26b48721f2b1bd6ef84c45254cea03fb63725f4104f320fb3",
+              "sha256": "33d65c1a5ff0b9e26b48721f2b1bd6ef84c45254cea03fb63725f4104f320fb3",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.17.0",
-              "versionCode": 53,
+              "versionName": "1.18.0",
+              "versionCode": 58,
               "packageName": "io.github.supermonster003.autojs6.plugin.imgui",
               "supportedAbis": [
                 "arm64-v8a",
@@ -1492,7 +1492,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d79ac0d78a445ef7a8b6190591270f347a9539af"
+              "sourceCommit": "79f9efa275e65b13196815bdef96474fc284beeb"
             }
           ],
           "prerelease": false,
