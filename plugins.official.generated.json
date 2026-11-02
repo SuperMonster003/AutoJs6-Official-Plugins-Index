@@ -54,23 +54,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "2.0.2",
-          "versionCode": 272,
-          "versionDate": "2026-10-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/tag/v2.0.2",
-          "changelogText": "Ace Editor 2.0.2 is a patch release on top of 2.0.1.\n\n- Fixes taps on the editor that no longer brought up the keyboard after one request had not shown it, for example while the input method was still starting.\n- Requires Android 7.0 / API 24 and AutoJs6 build 5352 or later (Editor API contract 7), as 2.0.0 and 2.0.1 do.\n- Five signed packages are provided: arm64-v8a, armeabi-v7a, x86, x86_64 and universal. LuaLS is available on arm64-v8a, armeabi-v7a and x86_64; x86 uses static Lua completion.\n- Validation: 186 JVM tests including the IME state controller, signature/CRC/ABI and 16 KB alignment gates, the full device suite on an emulator configured like the GitHub workflow, a refused keyboard request on G8441, and host-side release loading tests with the final packages.\n\nSee [validation details](https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/blob/v2.0.2/docs/development/release-2.0.2.md) for the exact test scope and artifact hashes. SHA-256 sums are also attached.",
+          "versionName": "2.49.0",
+          "versionCode": 393,
+          "versionDate": "2026-11-02",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/tag/v2.49.0",
+          "changelogText": "Ace Editor 2.49.0 brings together the 55 versions after 2.0.2.\n\n- Script completion follows the AutoJs6 6.8.0 API: bundled declarations @sm003/autojs6-dts 4.87.0, the members and returned objects of Node.js Runtime 2.1.0 and Bun Runtime 0.22.0, imgui and $imgui with AutoJs6 Plugin ImGui 1.18.x in Rhino scripts, and the AutoJs6 APIs of the Python, Lua, Java and Kotlin runtimes.\n- AutoJs6 6.8.0 is not public yet. On AutoJs6 6.7.0 and earlier, completion can offer APIs that the host does not have.\n- Requires Android 7.0 / API 24 and AutoJs6 build 5352 or later.\n- Five signed packages are provided: arm64-v8a, armeabi-v7a, x86, x86_64 and universal.\n- Validation: the JVM tests, lint and the 84 instrumentation tests of the GitHub workflow on an API 35 emulator; signature, CRC, ABI and 16 KB alignment gates; and, with the final arm64-v8a package on 22120RN86C (API 33), the host-side release smoke test and the 8 host loading tests.\n\nSee [validation details](https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/blob/master/docs/development/release-2.49.0.md) for the artifact hashes. SHA-256 sums are also attached.",
           "assets": [
             {
-              "name": "autojs6-plugin-ace-editor-v2.0.2-arm64-v8a-f32884b4.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.2/autojs6-plugin-ace-editor-v2.0.2-arm64-v8a-f32884b4.apk",
-              "size": 17069347,
-              "digest": "sha256:6c9e5e1b281b5fe4e1b024a067fef3266eef299452afbf44694614b866fac1bf",
-              "sha256": "6c9e5e1b281b5fe4e1b024a067fef3266eef299452afbf44694614b866fac1bf",
+              "name": "autojs6-plugin-ace-editor-v2.49.0-arm64-v8a-d868042c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.49.0/autojs6-plugin-ace-editor-v2.49.0-arm64-v8a-d868042c.apk",
+              "size": 18130684,
+              "digest": "sha256:06b139fa293e4f930680d191c914213adb2e80d274b7bdeedd3b02bf0a65af9a",
+              "sha256": "06b139fa293e4f930680d191c914213adb2e80d274b7bdeedd3b02bf0a65af9a",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.2",
-              "versionCode": 272,
+              "versionName": "2.49.0",
+              "versionCode": 393,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -78,19 +78,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "e2fe9bae45d3e8784d4b9cc34f1edb730f483f9b"
+              "sourceCommit": "8d9e26ace3a4598dd36bd8e186cc708917c0bc17"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v2.0.2-armeabi-v7a-8e1e9532.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.2/autojs6-plugin-ace-editor-v2.0.2-armeabi-v7a-8e1e9532.apk",
-              "size": 17015049,
-              "digest": "sha256:690c2ec94930011f6f12e68d4acf471d89bdbf84ecb2234f7d9bafc6ec53b11f",
-              "sha256": "690c2ec94930011f6f12e68d4acf471d89bdbf84ecb2234f7d9bafc6ec53b11f",
+              "name": "autojs6-plugin-ace-editor-v2.49.0-armeabi-v7a-3b19eeb1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.49.0/autojs6-plugin-ace-editor-v2.49.0-armeabi-v7a-3b19eeb1.apk",
+              "size": 18076382,
+              "digest": "sha256:951a0634b005169d7ee884486d16f1608c22848beddea21aab93fbd883bb84ed",
+              "sha256": "951a0634b005169d7ee884486d16f1608c22848beddea21aab93fbd883bb84ed",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.2",
-              "versionCode": 272,
+              "versionName": "2.49.0",
+              "versionCode": 393,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -98,19 +98,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "e2fe9bae45d3e8784d4b9cc34f1edb730f483f9b"
+              "sourceCommit": "8d9e26ace3a4598dd36bd8e186cc708917c0bc17"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v2.0.2-universal-84653905.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.2/autojs6-plugin-ace-editor-v2.0.2-universal-84653905.apk",
-              "size": 18630176,
-              "digest": "sha256:71e495ff5a5909a4036f1c405bb1a60948798467a03c40fef3ae2275816540ba",
-              "sha256": "71e495ff5a5909a4036f1c405bb1a60948798467a03c40fef3ae2275816540ba",
+              "name": "autojs6-plugin-ace-editor-v2.49.0-universal-960a9512.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.49.0/autojs6-plugin-ace-editor-v2.49.0-universal-960a9512.apk",
+              "size": 19691513,
+              "digest": "sha256:68345fea82d57184c7b94d03c464f6c836f01874045ad25a635063a631db43d8",
+              "sha256": "68345fea82d57184c7b94d03c464f6c836f01874045ad25a635063a631db43d8",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.2",
-              "versionCode": 272,
+              "versionName": "2.49.0",
+              "versionCode": 393,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -118,19 +118,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "e2fe9bae45d3e8784d4b9cc34f1edb730f483f9b"
+              "sourceCommit": "8d9e26ace3a4598dd36bd8e186cc708917c0bc17"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v2.0.2-x86-f724e7ae.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.2/autojs6-plugin-ace-editor-v2.0.2-x86-f724e7ae.apk",
-              "size": 16279376,
-              "digest": "sha256:a088d47f15742d90762fb9a911f86bd2b0dbecbe8d3732edc3d97f6b853c3659",
-              "sha256": "a088d47f15742d90762fb9a911f86bd2b0dbecbe8d3732edc3d97f6b853c3659",
+              "name": "autojs6-plugin-ace-editor-v2.49.0-x86-f2122c1a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.49.0/autojs6-plugin-ace-editor-v2.49.0-x86-f2122c1a.apk",
+              "size": 17340709,
+              "digest": "sha256:840cd087ea18191b62dff122fa7ced2afd5c5a2b82eed6bb65a26198747f99d4",
+              "sha256": "840cd087ea18191b62dff122fa7ced2afd5c5a2b82eed6bb65a26198747f99d4",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.2",
-              "versionCode": 272,
+              "versionName": "2.49.0",
+              "versionCode": 393,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -138,19 +138,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "e2fe9bae45d3e8784d4b9cc34f1edb730f483f9b"
+              "sourceCommit": "8d9e26ace3a4598dd36bd8e186cc708917c0bc17"
             },
             {
-              "name": "autojs6-plugin-ace-editor-v2.0.2-x86_64-dd21fa82.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.0.2/autojs6-plugin-ace-editor-v2.0.2-x86_64-dd21fa82.apk",
-              "size": 17102256,
-              "digest": "sha256:1ea2f046d9e7893b2af17b65b70903bef5bf2c9d1053e3d160ac802a40217f6f",
-              "sha256": "1ea2f046d9e7893b2af17b65b70903bef5bf2c9d1053e3d160ac802a40217f6f",
+              "name": "autojs6-plugin-ace-editor-v2.49.0-x86_64-1f8bba8a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Ace-Editor/releases/download/v2.49.0/autojs6-plugin-ace-editor-v2.49.0-x86_64-1f8bba8a.apk",
+              "size": 18163589,
+              "digest": "sha256:324c9e132847f30f7f36ee1b7d32838acd5fc31fe3930e2aadf9f6e7e6bfaab2",
+              "sha256": "324c9e132847f30f7f36ee1b7d32838acd5fc31fe3930e2aadf9f6e7e6bfaab2",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.2",
-              "versionCode": 272,
+              "versionName": "2.49.0",
+              "versionCode": 393,
               "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
               "supportedAbis": [
                 "arm64-v8a",
@@ -158,7 +158,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "e2fe9bae45d3e8784d4b9cc34f1edb730f483f9b"
+              "sourceCommit": "8d9e26ace3a4598dd36bd8e186cc708917c0bc17"
             }
           ],
           "prerelease": false,
@@ -2706,6 +2706,7 @@
         "name": "AutoJs6-Plugin-Offline-Docs"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png",
       "title": "Offline Documentation",
       "description": "Offline documentation 6.8.0 content plugin for AutoJs6",
       "localizedDescriptions": {
@@ -2722,19 +2723,19 @@
         "values-zh-rTW": "\u9069\u7528\u65bc AutoJs6 \u7684 6.8.0 \u96e2\u7dda\u8aaa\u660e\u6587\u4ef6\u5167\u5bb9\u5916\u639b"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.3/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/refs/tags/v6.8.40/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -2742,25 +2743,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "6.8.3",
-          "versionCode": 60,
-          "versionDate": "2026-09-25",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/releases/tag/v6.8.3",
-          "changelogText": "Updated offline reference for AutoJs6 6.8.0, including AI Agent task APIs, presets, memory and global settings.\r\n\r\nRequires Android 7.0 / API 24 and AutoJs6 build 5240 or later for the documentation plugin. Agent task APIs described in the documentation require host build 5293 or later, AI Agent and 3-Stone AI. Documentation content version and plugin release version are independent.\r\n\r\n- Document Agent 1.0.0 Android and host requirements, the 3-Stone AI model catalog and text/OCR observations; keep documentation content at 6.8.0 with an independent plugin release version\r\n- Synchronize Agent global tool groups, cautious mode, budget defaults and protocol limits, with preset and per-task narrowing rules\r\n- Synchronize Agent preference memory, individual confirmation, scoped queries, JSON import/export and the distinction between automatic injection and memory tools\r\n- Synchronize named Agent presets, default selection, model selection, fixed context merging and tool, budget, confirmation, script-folder and memory-scope restrictions\r\n- Synchronize ai.agent task APIs, AgentRun lifecycle, input and confirmation, budgets, registered-script results, three examples and the offline search index\r\n- Synchronized the EPUB reference and the offline search index, covering the epub global of the Readium EPUB Reader plugin, the EpubBook members for metadata, table of contents, reading order, text extraction, cover and resource export and full-text search, the EpubReaderSession events, controls and reading preferences, the EpubLocator position object and the EpubError codes\r\n- Synchronized the EPUB reference and the offline search index with the highlights and notes of the Readium EPUB Reader plugin 1.1.0 (EPUB contract version 2): EpubBook#annotations and the convenience epub.annotations, the EpubReaderSession highlight event and the EpubLocator carriers\r\n\r\nValidated with Temurin, JVM and APK integrity gates, and real-host release smoke on Redmi 12C / API 33 and API 37 / 16 KB. The universal APK contains no native libraries.\r\n\r\nSHA-256: `60481110fa7dc25ca57fbf520741c3168a4154d1b5622112cc422cb3896c297f`",
+          "versionName": "6.8.40",
+          "versionCode": 253,
+          "versionDate": "2026-11-02",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/releases/tag/v6.8.40",
+          "changelogText": "Updated offline reference for AutoJs6 6.8.0, bringing together the 37 versions after 6.8.3 (documentation source 78f6c85).\n\nRequires Android 7.0 / API 24 and AutoJs6 build 5240 or later for the documentation plugin. AutoJs6 6.8.0 is not public yet, so APIs described here as new in 6.8.0 are not available on AutoJs6 6.7.0 and earlier. Documentation content version and plugin release version are independent.\n\n- API documentation: ai.agent task controls, events and registered-script context/results for Node.js, Bun and Workers, with explicit authorization for packaged applications\n- Offline documentation validators no longer treat the entry interface name `AutoJsJvmEntry` of the Java and Kotlin Runtime plugins as a legacy bare product name\n- 3-Block Compose Designer reference: from 1.9.0 three new sections: \"New in the interactive preview\" (dialogs, the Back key, pause and resume, status bar and navigation bar colors, the main thread busy limit), \"TSX UI projects\" (editing JSX layouts in .tsx scripts, how event stubs are written, running TSX in the interactive preview) and \"Linked editing of <compose> containers\" (editing Compose interfaces attached with compose.attach directly on the canvas, adding a container in one step); the \"Preview Differences\" table now has separate columns for AutoJs6 builds with and without preview contract v4\n\nValidated with the JVM and APK integrity gates of the GitHub workflow and a real-host release smoke test on 22120RN86C (API 33). The universal APK contains no native libraries.\n\nSHA-256: `cca53ee35b4dbe3e828c0fae0d0d18b5d8d16d4d2f22cdd68416a3c25db5c914`",
           "assets": [
             {
-              "name": "autojs6-plugin-offline-docs-v6.8.3-universal-7a93968d.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/releases/download/v6.8.3/autojs6-plugin-offline-docs-v6.8.3-universal-7a93968d.apk",
-              "size": 3792082,
-              "digest": "sha256:60481110fa7dc25ca57fbf520741c3168a4154d1b5622112cc422cb3896c297f",
-              "sha256": "60481110fa7dc25ca57fbf520741c3168a4154d1b5622112cc422cb3896c297f",
+              "name": "autojs6-plugin-offline-docs-v6.8.40-universal-bb39089e.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Offline-Docs/releases/download/v6.8.40/autojs6-plugin-offline-docs-v6.8.40-universal-bb39089e.apk",
+              "size": 5501503,
+              "digest": "sha256:cca53ee35b4dbe3e828c0fae0d0d18b5d8d16d4d2f22cdd68416a3c25db5c914",
+              "sha256": "cca53ee35b4dbe3e828c0fae0d0d18b5d8d16d4d2f22cdd68416a3c25db5c914",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "6.8.3",
-              "versionCode": 60,
+              "versionName": "6.8.40",
+              "versionCode": 253,
               "packageName": "io.github.supermonster003.autojs6.plugin.offlinedocs",
-              "sourceCommit": "c19f2d7cff88553627c9c61c4676492187622414"
+              "sourceCommit": "7187d91248729b0d5fb01fdf96e28aa0c1234fb6"
             }
           ],
           "prerelease": false,
@@ -2776,8 +2777,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "transparent",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png"
+      "nightIconBackgroundColor": "transparent"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.opencv",
