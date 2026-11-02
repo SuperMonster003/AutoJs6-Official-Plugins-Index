@@ -9956,19 +9956,19 @@
         "values-zh-rTW": "\u96e2\u7dda\u8a9e\u97f3\u8fa8\u8b58, \u559a\u9192\u8a5e\u5075\u6e2c, \u8a9e\u97f3\u6d3b\u52d5\u5075\u6e2c\u8207\u795e\u7d93\u7db2\u8def\u8a9e\u97f3\u5408\u6210, \u53ef\u8a3b\u518a\u70ba\u7cfb\u7d71 TTS \u5f15\u64ce"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -9979,23 +9979,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.3.0",
-          "versionCode": 162,
-          "versionDate": "2026-10-30",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/tag/v1.3.0",
-          "changelogText": "3-Macaw Speech 1.3.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `b426dd95c951d44b9d81273118932afddc7a1bc6`\n\nPublished release.\n\n- Speaker recognition: on the new Speakers page, read 3 sentences aloud to enroll a voice (the speaker recognition model is about 26.5 MB). With \"Only enrolled voices\" (Settings > Resident wake word), the resident wake word opens the sheet only for an enrolled person. Voiceprints stay on the device and are never uploaded or exported.\n- File analyses on Try it out: Find speakers (who spoke when, with enrolled voices named; \"Speakers and text\" also transcribes each person), Identify language (the 99 languages of Whisper, one result per 30 seconds of speech) and Tag sounds (527 kinds of sounds, such as speech, music or a barking dog). They run offline, keep going after you leave the screen and show their progress in a notification. Analyzing long audio takes a lot of memory (a 10 minute recording peaked at about 470 MB to 1.3 GB in tests), so the plugin asks Android for a larger memory limit.\n- Scripts get `speech.speaker`, `speech.diarize`, `speech.detectLanguage` and `speech.tag` (with `...Async` versions), and five new plugin tools serve the MCP Server plugin, 3-Stove Agent and `plugins.tools`: `speech_speaker_verify`, `speech_speaker_identify` (names and scores only, never voiceprints), `speech_diarize`, `speech_detect_language` and `speech_tag`. They need the AutoJs6 6.8.0 release; with an older AutoJs6 (internal build 5456 or later, as in 1.0.0), the Speakers page, \"Only enrolled voices\" and the file analyses still work because they run in the plugin itself.\n- More models: offline Spanish recognition (NeMo), an eight-language streaming model that detects the language by itself (PengChengStarling: Arabic, Indonesian, Thai, Vietnamese, Japanese, Russian, Chinese and English), the Kokoro v1.0 multilingual voices (49 speakers in 7 languages), two Arabic voices and one Korean voice. Licenses are shown before each download.\n- Power saving for the resident wake word (on by default): the wake word model runs only while the phone hears sound, which takes half to nine tenths less CPU time.\n- The model catalog is now version 3, signed and published as `speech-models-v3` of AutoJs6-Shared-Assets; 1.2.0 and earlier see its new language models as well.\n- Fixes: model downloads work again on Android 7.0 (the plugin now carries the ISRG Root X1 certificate), and sizes no longer show a wide gap between the number and the unit on some phones.\n- No new permissions.\n- Choose the APK of your device's processor (most phones: `arm64-v8a`), or `universal` for every device.\n- See the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.3.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.3.0/.readme/README-en.md).\n\nLicense: the plugin's source code is under the MPL-2.0. `libsherpa-onnx-jni.so` statically links eSpeak NG and UCD Tools (GPL-3.0-or-later), so the APKs as a whole are conveyed under the GPL-3.0-or-later, without any warranty. The corresponding source of the speech runtime is attached as `autojs6-plugin-three-macaw-speech-corresponding-source-sherpa-onnx-v1.13.8-ac68c80b.tar`: the sherpa-onnx v1.13.8 source with its build scripts and every dependency archive that its build pins by URL and SHA-256 (unchanged since 1.0.0).\n\nAPK and source archive checksums are in `SHA256SUMS`.",
+          "versionName": "1.4.0",
+          "versionCode": 175,
+          "versionDate": "2026-11-02",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/tag/v1.4.0",
+          "changelogText": "3-Macaw Speech 1.4.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `feebf11a82c8129dcca6a36bd839c2eb00cb43b7`\n\nPublished release.\n\n- Audio playback on Try it out: file recognition now plays the file, with a seek bar, speeds from 0.5x to 2x and 5 second skips. The sentence you hear lights up and stays in view, a tap on a sentence plays from there, and a lyrics view shows the current sentence in large type, for speakers, languages and sound tags too. The latest result can still be played after you leave the page, as long as the file is there: the plugin keeps read access to that one file until you clear it or pick another.\n- Model updates: when a newer version of an installed model is available, its card on the home screen says \"Update available (v2)\" and one tap updates it. The new version is downloaded and checked first, so a failed or paused update leaves the old one working, and a model in use can be updated too. Scripts see `updateAvailable` and `latestVersionCode` in `speech.models.list()`, and `speech.models.install()` updates.\n- Language identification goes sentence by sentence: when a recording mixes languages, Try it out, `speech.detectLanguage` and the `speech_detect_language` tool show the language of each sentence (very short sentences join a neighbor). The overall language is the one spoken longest. Each sentence takes its own pass, so this is somewhat slower than in 1.3.0.\n- Fixes: after deleting or replacing a speech synthesis model, other models could lose most of the text they read aloud, without any error, until the plugin restarted; opening the plugin from the system's text-to-speech settings left the list one row above the synthesis group; and while a model downloaded, its total showed twice the real size, because unpacking was counted in. The home screen and the notification now show the download against the model's size, then the installation on its own.\n- Evaluated, not adopted: recognition on the phone's NPU (speech under 8 seconds got slower, only recent Qualcomm flagship phones can use it, and the APK and the models would grow a lot) and sherpa-onnx 2.0 (it drops eSpeak NG, and 10 of the 13 speech synthesis models went silent or skipped words). Recognition stays on the CPU and the speech runtime on sherpa-onnx 1.13.8.\n- `speech.detectLanguage` and its tool still need the AutoJs6 6.8.0 release, as in 1.3.0; with an older AutoJs6 (internal build 5456 or later, as in 1.0.0), everything else above works, because it runs in the plugin itself.\n- The model catalog is unchanged (version 3, the signed `speech-models-v3` of AutoJs6-Shared-Assets).\n- No new permissions.\n- Choose the APK of your device's processor (most phones: `arm64-v8a`), or `universal` for every device.\n- See the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.4.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.4.0/.readme/README-en.md).\n\nLicense: the plugin's source code is under the MPL-2.0. `libsherpa-onnx-jni.so` statically links eSpeak NG and UCD Tools (GPL-3.0-or-later), so the APKs as a whole are conveyed under the GPL-3.0-or-later, without any warranty. The corresponding source of the speech runtime is attached as `autojs6-plugin-three-macaw-speech-corresponding-source-sherpa-onnx-v1.13.8-ac68c80b.tar`: the sherpa-onnx v1.13.8 source with its build scripts and every dependency archive that its build pins by URL and SHA-256 (unchanged since 1.0.0).\n\nAPK and source archive checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.3.0-arm64-v8a-1b1b2a4a.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.3.0/autojs6-plugin-three-macaw-speech-v1.3.0-arm64-v8a-1b1b2a4a.apk",
-              "size": 15228373,
-              "digest": "sha256:ed9712518cf83a744dba29a8710594106412954ec91470a13b3a47b86e2005b3",
-              "sha256": "ed9712518cf83a744dba29a8710594106412954ec91470a13b3a47b86e2005b3",
+              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-arm64-v8a-0b8fa6af.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-arm64-v8a-0b8fa6af.apk",
+              "size": 15302705,
+              "digest": "sha256:9b551950ee56ee6c9d4cc291381c2f6619eda859cd6e7f5b28f8a46a6f522cf7",
+              "sha256": "9b551950ee56ee6c9d4cc291381c2f6619eda859cd6e7f5b28f8a46a6f522cf7",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.0",
-              "versionCode": 162,
+              "versionName": "1.4.0",
+              "versionCode": 175,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10003,19 +10003,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b426dd95c951d44b9d81273118932afddc7a1bc6"
+              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.3.0-armeabi-v7a-6d1c6a8e.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.3.0/autojs6-plugin-three-macaw-speech-v1.3.0-armeabi-v7a-6d1c6a8e.apk",
-              "size": 14404415,
-              "digest": "sha256:90cb49cb7029fd0c4c89c0ad03517527139ef5459aa4a262ee17e2304135b278",
-              "sha256": "90cb49cb7029fd0c4c89c0ad03517527139ef5459aa4a262ee17e2304135b278",
+              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-armeabi-v7a-9d6184e5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-armeabi-v7a-9d6184e5.apk",
+              "size": 14478743,
+              "digest": "sha256:6142ea134d29208fe107c8cf114237537466ad721c7b525fead02eafece93e4e",
+              "sha256": "6142ea134d29208fe107c8cf114237537466ad721c7b525fead02eafece93e4e",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.0",
-              "versionCode": 162,
+              "versionName": "1.4.0",
+              "versionCode": 175,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10023,19 +10023,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b426dd95c951d44b9d81273118932afddc7a1bc6"
+              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.3.0-universal-5c2e1dce.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.3.0/autojs6-plugin-three-macaw-speech-v1.3.0-universal-5c2e1dce.apk",
-              "size": 46821746,
-              "digest": "sha256:34771c65671666ee68c79427c9f0091ba3660c816bbcf8f52a752256c0c16b0b",
-              "sha256": "34771c65671666ee68c79427c9f0091ba3660c816bbcf8f52a752256c0c16b0b",
+              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-universal-0b23c075.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-universal-0b23c075.apk",
+              "size": 46896074,
+              "digest": "sha256:819dde3160af8277cbc632635aab8bc77ea8464fb1682b7f826136abf9c5eaec",
+              "sha256": "819dde3160af8277cbc632635aab8bc77ea8464fb1682b7f826136abf9c5eaec",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.0",
-              "versionCode": 162,
+              "versionName": "1.4.0",
+              "versionCode": 175,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10043,19 +10043,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b426dd95c951d44b9d81273118932afddc7a1bc6"
+              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.3.0-x86-a15b4980.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.3.0/autojs6-plugin-three-macaw-speech-v1.3.0-x86-a15b4980.apk",
-              "size": 16655011,
-              "digest": "sha256:adbe3df7d51f630b35f60032e7e841c650731af3c7b3489affe89778a557af1c",
-              "sha256": "adbe3df7d51f630b35f60032e7e841c650731af3c7b3489affe89778a557af1c",
+              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-x86-d03cf1c6.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-x86-d03cf1c6.apk",
+              "size": 16729343,
+              "digest": "sha256:3bb5d96879ca3e6217ff9b65c9bf560e377f5c7ea403c33aa2d333947ce40b79",
+              "sha256": "3bb5d96879ca3e6217ff9b65c9bf560e377f5c7ea403c33aa2d333947ce40b79",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.0",
-              "versionCode": 162,
+              "versionName": "1.4.0",
+              "versionCode": 175,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10063,19 +10063,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b426dd95c951d44b9d81273118932afddc7a1bc6"
+              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.3.0-x86_64-ff6d4c02.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.3.0/autojs6-plugin-three-macaw-speech-v1.3.0-x86_64-ff6d4c02.apk",
-              "size": 16426212,
-              "digest": "sha256:b1ef65a4e3b63e855386a83df70b0956e0290271b56c2685ad8ca7b947c86b53",
-              "sha256": "b1ef65a4e3b63e855386a83df70b0956e0290271b56c2685ad8ca7b947c86b53",
+              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-x86_64-535c5ed0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-x86_64-535c5ed0.apk",
+              "size": 16500544,
+              "digest": "sha256:cf8a82e6140b7152d5aa7c8ce788f39d3a5cba57b05bbc33afd2bd942d4c7751",
+              "sha256": "cf8a82e6140b7152d5aa7c8ce788f39d3a5cba57b05bbc33afd2bd942d4c7751",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.0",
-              "versionCode": 162,
+              "versionName": "1.4.0",
+              "versionCode": 175,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10083,7 +10083,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b426dd95c951d44b9d81273118932afddc7a1bc6"
+              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
             }
           ],
           "prerelease": false,
