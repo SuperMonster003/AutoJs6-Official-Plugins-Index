@@ -189,6 +189,7 @@
         "name": "AutoJs6-Plugin-APK-Builder-Template"
       },
       "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/org.autojs.plugin.apkbuilder.template/f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/org.autojs.plugin.apkbuilder.template/f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0.png",
       "title": "APK Builder Template",
       "description": "Provides the template APK used by AutoJs6 when packaging standalone applications",
       "localizedDescriptions": {
@@ -218,19 +219,19 @@
         "values-zh-rHK": "\u5b89\u88dd\u8207 AutoJs6 \u5339\u914d\u7684\u63d2\u4ef6\u7248\u672c, \u8b93 APK \u69cb\u5efa\u5668\u4f7f\u7528\u5916\u90e8\u6a21\u677f APK",
         "values-zh-rTW": "\u5b89\u88dd\u8207 AutoJs6 \u76f8\u7b26\u7684\u5916\u639b\u7248\u672c, \u8b93 APK \u5efa\u7f6e\u5668\u4f7f\u7528\u5916\u90e8\u7bc4\u672c APK"
       },
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v1.0.3/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/refs/tags/v6.8.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -238,23 +239,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.3+autojs6-6.8.0",
-          "versionCode": 528201,
-          "versionDate": "2026-09-20",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/tag/v1.0.3",
-          "changelogText": "APK Builder Template 1.0.3, paired with AutoJs6 6.8.0 / **5282**.\r\n\r\nThe supported host range is **5282 through 5282**. Other host builds require their own compatible Runtime Kit. The kit source is the local host checkout recorded in `release-evidence.json`, not a claimed public host release.\r\n\r\nFive official signed APKs are provided: universal, arm64-v8a, armeabi-v7a, x86_64 and x86. Each embeds its matching Runtime Kit; all five original kit ZIPs are included for reproducibility. Android versionCode is **528201** and versionName is **1.0.3+autojs6-6.8.0**.\r\n\r\nSource: `ef436aa89e92b5a28e4a02400ba866a7db4577be`\r\n\r\nValidation: JVM tests and Android lint passed. All 47 discovery and remote build instrumentation tests passed on Android 13 / arm64 / 4 KB and the Android 17 / x86_64 emulator reporting 16 KB userspace pages. The latter is emulator evidence, not physical 16 KB hardware coverage. The real host's encrypted TypeScript and plain JavaScript packaging paths and generated applications were exercised on both environments; detailed results are included in `release-evidence.json`. The emulator host workflow used the universal variant because its advertised ABI preference includes arm64 translation; the 47 plugin tests used the x86_64 variant.\r\n\r\nThe test fixes verify V1-only signing against its legacy Android range and construct a ZIP fixture that actually exceeds the compression-ratio policy. Default production signing and resource limits are unchanged.\r\n\r\n`compat-matrix.json` binds compatible hosts and ABI variants to these exact APK hashes. `SHA256SUMS` covers APKs, Runtime Kits, and evidence files. APK signing certificate SHA-256: `31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213`.",
+          "versionName": "1.2.27+autojs6-6.8.0",
+          "versionCode": 664002,
+          "versionDate": "2026-11-03",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/tag/v6.8.0",
+          "changelogText": "APK Builder Template v1.2.27 built from AutoJs6 Runtime Kit v6.8.0.\n\n- Plugin: 1.2.27 (build 116, Android versionCode 664002)\n- Paired host: AutoJs6 6.8.0 (versionCode 6640)\n- Assets: universal + arm64-v8a + armeabi-v7a + x86_64 + x86\n- Remote build: experimental and disabled by default\n- Evidence: autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-vc664002-release-evidence.json\n\nThe APK includes the 10-language changelog and usage documentation.",
           "assets": [
             {
-              "name": "autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-arm64-v8a-511a2e6e.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v1.0.3/autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-arm64-v8a-511a2e6e.apk",
-              "size": 37551300,
-              "digest": "sha256:4fe1c613ca70115917656e44db403866aa05ac2e72fd0d2ae918dbe72c423716",
-              "sha256": "4fe1c613ca70115917656e44db403866aa05ac2e72fd0d2ae918dbe72c423716",
+              "name": "autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-arm64-v8a-8b89b92e.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0/autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-arm64-v8a-8b89b92e.apk",
+              "size": 42951041,
+              "digest": "sha256:9737e176bc9446ee5d6cac8b3db29d50af35a8307ce807a87f7a6a5f0231c7e9",
+              "sha256": "9737e176bc9446ee5d6cac8b3db29d50af35a8307ce807a87f7a6a5f0231c7e9",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.3+autojs6-6.8.0",
-              "versionCode": 528201,
+              "versionName": "1.2.27+autojs6-6.8.0",
+              "versionCode": 664002,
               "packageName": "org.autojs.plugin.apkbuilder.template",
               "supportedAbis": [
                 "arm64-v8a",
@@ -262,19 +263,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ef436aa89e92b5a28e4a02400ba866a7db4577be"
+              "sourceCommit": "0b8c39b8eb3adda94632b93264a4c22fb09ac40e"
             },
             {
-              "name": "autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-armeabi-v7a-af2371ca.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v1.0.3/autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-armeabi-v7a-af2371ca.apk",
-              "size": 37498760,
-              "digest": "sha256:21878d09058a7562086c29fa42b66832d58763722ef67bbecc568bb394f91852",
-              "sha256": "21878d09058a7562086c29fa42b66832d58763722ef67bbecc568bb394f91852",
+              "name": "autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-armeabi-v7a-501d1b99.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0/autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-armeabi-v7a-501d1b99.apk",
+              "size": 42901665,
+              "digest": "sha256:d73e7765bb688e5281d64eb953c3f39994eb167d73cb745ab2a01605324dc2a5",
+              "sha256": "d73e7765bb688e5281d64eb953c3f39994eb167d73cb745ab2a01605324dc2a5",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.3+autojs6-6.8.0",
-              "versionCode": 528201,
+              "versionName": "1.2.27+autojs6-6.8.0",
+              "versionCode": 664002,
               "packageName": "org.autojs.plugin.apkbuilder.template",
               "supportedAbis": [
                 "arm64-v8a",
@@ -282,19 +283,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ef436aa89e92b5a28e4a02400ba866a7db4577be"
+              "sourceCommit": "0b8c39b8eb3adda94632b93264a4c22fb09ac40e"
             },
             {
-              "name": "autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-universal-6f3df580.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v1.0.3/autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-universal-6f3df580.apk",
-              "size": 38741120,
-              "digest": "sha256:f90a83fb8c61c92067bce230f8466f7b01f8826ba7ac2d72d8ab36af5b47c16f",
-              "sha256": "f90a83fb8c61c92067bce230f8466f7b01f8826ba7ac2d72d8ab36af5b47c16f",
+              "name": "autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-universal-512a0ca5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0/autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-universal-512a0ca5.apk",
+              "size": 44156645,
+              "digest": "sha256:74b0fadd277a3552d9655c1b145f7a18790d184c196eba90750a81a70bc5f44a",
+              "sha256": "74b0fadd277a3552d9655c1b145f7a18790d184c196eba90750a81a70bc5f44a",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.3+autojs6-6.8.0",
-              "versionCode": 528201,
+              "versionName": "1.2.27+autojs6-6.8.0",
+              "versionCode": 664002,
               "packageName": "org.autojs.plugin.apkbuilder.template",
               "supportedAbis": [
                 "arm64-v8a",
@@ -302,19 +303,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ef436aa89e92b5a28e4a02400ba866a7db4577be"
+              "sourceCommit": "0b8c39b8eb3adda94632b93264a4c22fb09ac40e"
             },
             {
-              "name": "autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-x86-1f73f99b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v1.0.3/autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-x86-1f73f99b.apk",
-              "size": 37571860,
-              "digest": "sha256:2792a86cd33ace00fd9c69ea4db4e8795e58763352fb6aedfa1f2fea202bf4af",
-              "sha256": "2792a86cd33ace00fd9c69ea4db4e8795e58763352fb6aedfa1f2fea202bf4af",
+              "name": "autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-x86-4f56a9a5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0/autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-x86-4f56a9a5.apk",
+              "size": 42972865,
+              "digest": "sha256:b184f78ebd83c56f596dd86dc2341ef0a843691f008a3b7392e57ffdd0aac56d",
+              "sha256": "b184f78ebd83c56f596dd86dc2341ef0a843691f008a3b7392e57ffdd0aac56d",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.3+autojs6-6.8.0",
-              "versionCode": 528201,
+              "versionName": "1.2.27+autojs6-6.8.0",
+              "versionCode": 664002,
               "packageName": "org.autojs.plugin.apkbuilder.template",
               "supportedAbis": [
                 "arm64-v8a",
@@ -322,19 +323,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ef436aa89e92b5a28e4a02400ba866a7db4577be"
+              "sourceCommit": "0b8c39b8eb3adda94632b93264a4c22fb09ac40e"
             },
             {
-              "name": "autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-x86_64-cc8cf5ce.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v1.0.3/autojs6-apk-builder-template-v1.0.3-autojs6-v6.8.0-x86_64-cc8cf5ce.apk",
-              "size": 37566424,
-              "digest": "sha256:09899f2bd53e8e7dd1aa3477735438ed1e11614bffffd3c585725d57751167c1",
-              "sha256": "09899f2bd53e8e7dd1aa3477735438ed1e11614bffffd3c585725d57751167c1",
+              "name": "autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-x86_64-12aa6140.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Builder-Template/releases/download/v6.8.0/autojs6-apk-builder-template-v1.2.27-autojs6-v6.8.0-x86_64-12aa6140.apk",
+              "size": 42967973,
+              "digest": "sha256:a9cc3f32a57a3b9158b4ea6975fede16e2cffdc613e68a66fcdafb8260bf72bc",
+              "sha256": "a9cc3f32a57a3b9158b4ea6975fede16e2cffdc613e68a66fcdafb8260bf72bc",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.3+autojs6-6.8.0",
-              "versionCode": 528201,
+              "versionName": "1.2.27+autojs6-6.8.0",
+              "versionCode": 664002,
               "packageName": "org.autojs.plugin.apkbuilder.template",
               "supportedAbis": [
                 "arm64-v8a",
@@ -342,7 +343,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ef436aa89e92b5a28e4a02400ba866a7db4577be"
+              "sourceCommit": "0b8c39b8eb3adda94632b93264a4c22fb09ac40e"
             }
           ],
           "prerelease": false,
@@ -364,8 +365,7 @@
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "transparent",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/org.autojs.plugin.apkbuilder.template/f07f5cee56809829b4789d3efadf62a881de1062af904cd53dd8d6c4ff303dc0.png"
+      "nightIconBackgroundColor": "transparent"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.apkinspector",
