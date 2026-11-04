@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-QuickJS-Runtime",
+  "releaseTag": "v1.0.4",
+  "sourceCommit": "0bcee523feaa50c9d99318dc93fdb0e25b5afe2e",
+  "packageName": "io.github.supermonster003.autojs6.plugin.quickjs.runtime",
+  "versionName": "1.0.4",
+  "versionCode": 42,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-quickjs-runtime-v1.0.4-arm64-v8a-cd872254.apk",
+      "sha256": "e0d8aee1aeb048d465dcac18666b81b4591c82843720a553560323f98d16820f",
+      "sizeBytes": 1454281
+    },
+    {
+      "name": "autojs6-plugin-quickjs-runtime-v1.0.4-armeabi-v7a-6bf21d57.apk",
+      "sha256": "9881a739148f6949b8c32228717f6c4b61f5dd7846e4b5ef1003636b472f29cd",
+      "sizeBytes": 1068583
+    },
+    {
+      "name": "autojs6-plugin-quickjs-runtime-v1.0.4-universal-7ee569be.apk",
+      "sha256": "86a7c3d7682552f91b393f90d9d87217e2c0bfd4e7b96770a6c89b0e28898445",
+      "sizeBytes": 4903114
+    },
+    {
+      "name": "autojs6-plugin-quickjs-runtime-v1.0.4-x86-8023c387.apk",
+      "sha256": "34a3a52b2e5a75071c460794c70dec1790a58937665b73f8a81f838864f744d0",
+      "sizeBytes": 1461347
+    },
+    {
+      "name": "autojs6-plugin-quickjs-runtime-v1.0.4-x86_64-f60a1402.apk",
+      "sha256": "b494842208a7ff00ecf849f844790a278b400603516bff4eb4b566c7f5df7d48",
+      "sizeBytes": 1527750
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

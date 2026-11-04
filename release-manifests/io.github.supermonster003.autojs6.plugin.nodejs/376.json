@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-NodeJs-Runtime",
+  "releaseTag": "v2.1.0",
+  "sourceCommit": "97ac555db66a373ee72a668ee7cda17e811f6a49",
+  "packageName": "io.github.supermonster003.autojs6.plugin.nodejs",
+  "versionName": "2.1.0",
+  "versionCode": 376,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-nodejs-runtime-v2.1.0-arm64-v8a-3bca9d64.apk",
+      "sha256": "c199d9db4c852b8623bad666457f37fce07791452f3718050f5a3d4469c8d736",
+      "sizeBytes": 46492350
+    },
+    {
+      "name": "autojs6-plugin-nodejs-runtime-v2.1.0-armeabi-v7a-0dcfbdb7.apk",
+      "sha256": "0e250e632ed8aa83c86f55a506a6f98ab6ff2df7369a764624c51f9af20596dc",
+      "sizeBytes": 45536722
+    },
+    {
+      "name": "autojs6-plugin-nodejs-runtime-v2.1.0-universal-0cbc58e5.apk",
+      "sha256": "0d799a8acc33e7bb7b8d1e885c286c7c8852d706507fc8407d2e8801acb55958",
+      "sizeBytes": 132768038
+    },
+    {
+      "name": "autojs6-plugin-nodejs-runtime-v2.1.0-x86_64-ed0fa37f.apk",
+      "sha256": "2cfb83a3580305f74b5bdd7ca44f3ac0cc5ba5a65e5db55706878148dae03b14",
+      "sizeBytes": 48318438
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Stove-Agent",
+  "releaseTag": "v1.3.0",
+  "sourceCommit": "51b4ae666a0225a99ef3e592b37e32e4c1071e4a",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.stove.agent",
+  "versionName": "1.3.0",
+  "versionCode": 437,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-stove-agent-v1.3.0-f551884e.apk",
+      "sha256": "b2192e4079be107c4ffa4ae49dd007d2b8c18cd7301d05282875982ed17229db",
+      "sizeBytes": 2811698
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-MLKit-OCR",
+  "releaseTag": "v1.0.4",
+  "sourceCommit": "a33ea5cfad8b2976a4dd571be1047c7f92f56174",
+  "packageName": "io.github.supermonster003.autojs6.plugin.mlkitocr",
+  "versionName": "1.0.4",
+  "versionCode": 32,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-mlkit-ocr-v1.0.4-universal-EF802C94.apk",
+      "sha256": "492d3a2e87d78793e6cd02ee7d19dbfcbfa7a78a919b0e0e261d5fa559d6f326",
+      "sizeBytes": 20385572
+    },
+    {
+      "name": "autojs6-plugin-mlkit-ocr-v1.0.4-armeabi-v7a-50E5CBEB.apk",
+      "sha256": "289acc00c2299d67a8a43722182b34951828a87c4de93e7197f7ae00a51fd35f",
+      "sizeBytes": 6910808
+    },
+    {
+      "name": "autojs6-plugin-mlkit-ocr-v1.0.4-x86_64-EFA0AFF4.apk",
+      "sha256": "8151bd69d3346ebc294a7bd8b08176657b9d4b6a2b91814ac980da256b9f206a",
+      "sizeBytes": 7868359
+    },
+    {
+      "name": "autojs6-plugin-mlkit-ocr-v1.0.4-x86-5530E7AB.apk",
+      "sha256": "58f4c55bcac1a774005b863a695fc0e9d1177a50cb9b2c3da6c7b53123a6b75c",
+      "sizeBytes": 7995612
+    },
+    {
+      "name": "autojs6-plugin-mlkit-ocr-v1.0.4-arm64-v8a-13923065.apk",
+      "sha256": "9cf03689d52e4abebd544100959058ed56e2a1bca84dd0ec49112d7eda3d5b83",
+      "sizeBytes": 7803354
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

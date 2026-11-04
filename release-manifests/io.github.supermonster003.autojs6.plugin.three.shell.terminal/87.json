@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Shell-Terminal",
+  "releaseTag": "v1.1.0",
+  "sourceCommit": "4d763faf76f2fc272f7d572de2e09ea1c496dd25",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
+  "versionName": "1.1.0",
+  "versionCode": 87,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-shell-terminal-v1.1.0-arm64-v8a-99fcd4fa.apk",
+      "sha256": "343ba8066481e9022fa3104644475fb3b8fbc7045ca1cec2c6fb399a53bc2038",
+      "sizeBytes": 1950609
+    },
+    {
+      "name": "autojs6-plugin-three-shell-terminal-v1.1.0-armeabi-v7a-342cad29.apk",
+      "sha256": "df5443cef1ae6a1d30a843c724bc1a47e27029b95c2ccc8b78bb6cceb6ce94f6",
+      "sizeBytes": 1947825
+    },
+    {
+      "name": "autojs6-plugin-three-shell-terminal-v1.1.0-universal-1006e519.apk",
+      "sha256": "b53ee67eb6f349661f245e59c38564ab2793f6664657ee3eb7898abfa9f21e9f",
+      "sizeBytes": 2049710
+    },
+    {
+      "name": "autojs6-plugin-three-shell-terminal-v1.1.0-x86-1fed9871.apk",
+      "sha256": "c5e0c9212a6449441003c3edea1fd8e0ab36c75407d79a9e78ce6064c31f7331",
+      "sizeBytes": 1949041
+    },
+    {
+      "name": "autojs6-plugin-three-shell-terminal-v1.1.0-x86_64-7d06e0c2.apk",
+      "sha256": "0bf9338349b352c2846022826f34018639a224de4aad6364ea37de72e8420e9e",
+      "sizeBytes": 1950907
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

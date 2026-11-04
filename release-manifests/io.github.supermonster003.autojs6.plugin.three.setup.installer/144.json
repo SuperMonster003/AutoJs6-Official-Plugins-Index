@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Setup-Installer",
+  "releaseTag": "v1.2.1",
+  "sourceCommit": "2efe36678eecc8bd7173e3c40e9704828c120fd6",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.setup.installer",
+  "versionName": "1.2.1",
+  "versionCode": 144,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-setup-installer-v1.2.1-43828a62.apk",
+      "sha256": "011ef12ff3f76a12beccc7ee1b553914a8d85bfd04748a98befd3844ed6e4a5d",
+      "sizeBytes": 2214851
+    }
+  ]
+}

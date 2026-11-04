@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Paddle-OCR-PP-OCRv5",
+  "releaseTag": "v1.0.5",
+  "sourceCommit": "522b2d4183de8963a070ec0f7b0db655d18c84e6",
+  "packageName": "io.github.supermonster003.autojs6.plugin.paddleocr.v5.devanagari",
+  "versionName": "1.0.5-devanagari",
+  "versionCode": 91,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.5-devanagari-universal-75FD878E.apk",
+      "sha256": "ff9b0edda65e48eee7a41720bbf320dded0f267e37002021afaee56b222b9600",
+      "sizeBytes": 94830207
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.5-devanagari-armeabi-v7a-3F2DA6AB.apk",
+      "sha256": "6945b084307d1031198bee3f14c48472bc818d540eca6d47e36866d70466abf1",
+      "sizeBytes": 25914561
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.5-devanagari-x86_64-8D5BE6C4.apk",
+      "sha256": "ec8445d33a39b5821196f15b48bb897f3cfd7423b15285f21cc050df7da81bf2",
+      "sizeBytes": 42349273
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.5-devanagari-x86-4797B649.apk",
+      "sha256": "66dce8cdc0300674ac99925c5faff40cd42a6b57ab700d3ece4dfe06e71b5a50",
+      "sizeBytes": 36500869
+    },
+    {
+      "name": "autojs6-plugin-paddle-ocr-pp-ocrv5-v1.0.5-devanagari-arm64-v8a-A4F54CCE.apk",
+      "sha256": "4d6872a7cbc6696e2a9059daac6dc74090f67dadf0fd8d51c89f1e229076ebff",
+      "sizeBytes": 27490961
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

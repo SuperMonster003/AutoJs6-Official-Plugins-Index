@@ -1,0 +1,46 @@
+{
+  "repository": "AutoJs6-Plugin-Three-Hanzi-CC",
+  "sourceCommit": "02d31bd8142af0ea6ce26e7228384fc4fd04780d",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc",
+  "versionName": "2.1.0",
+  "versionCode": 150,
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "releaseTag": "v2.1.0",
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-hanzi-cc-v2.1.0-arm64-v8a-a4a3bd53.apk",
+      "sha256": "764d43b666952f49b75f8556e0d55a746408411e74763e782454011487dfa472",
+      "sizeBytes": 4133622
+    },
+    {
+      "name": "autojs6-plugin-three-hanzi-cc-v2.1.0-armeabi-v7a-a3822179.apk",
+      "sha256": "c20df751ac68f9e67336053b3b8681671f008e0b2b5985bc9f9a9b90a40aa73f",
+      "sizeBytes": 3794892
+    },
+    {
+      "name": "autojs6-plugin-three-hanzi-cc-v2.1.0-universal-13d7ad2c.apk",
+      "sha256": "29681b395a6edf09334fda41c2643b0784e5196bbc00e4f78c0356ca666910d5",
+      "sizeBytes": 6469171
+    },
+    {
+      "name": "autojs6-plugin-three-hanzi-cc-v2.1.0-x86-54839d1c.apk",
+      "sha256": "5e20612abdf0635eb03c1366dc7be03d9b59468170169c7dc31caf0b46bd0470",
+      "sizeBytes": 4095848
+    },
+    {
+      "name": "autojs6-plugin-three-hanzi-cc-v2.1.0-x86_64-6c9e9d3b.apk",
+      "sha256": "998de75da5ca0bbdae9c68643c9af638a30cb9aa56a9fa5fcac97b3bfdce06c4",
+      "sizeBytes": 4142419
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

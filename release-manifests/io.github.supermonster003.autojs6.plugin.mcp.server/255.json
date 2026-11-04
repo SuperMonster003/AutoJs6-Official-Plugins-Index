@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-MCP-Server",
+  "releaseTag": "v1.2.0",
+  "sourceCommit": "8fef1ba9ec10a288df934342e12c25408b74eddb",
+  "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
+  "versionName": "1.2.0",
+  "versionCode": 255,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-mcp-server-v1.2.0-3ddcfb09.apk",
+      "sha256": "8659497dc5d27dc74984c7e77b7f4f082b0470328c686466f54d7504375707d7",
+      "sizeBytes": 1899726
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Java-Runtime",
+  "releaseTag": "v0.8.4-m9",
+  "sourceCommit": "1689b8526b0c5a4173069e7683ce03732d4c760c",
+  "packageName": "io.github.supermonster003.autojs6.plugin.java.runtime",
+  "versionName": "0.8.4-m9",
+  "versionCode": 80,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-java-runtime-v0.8.4-m9-C0801916.apk",
+      "sha256": "3cf5f72e8cbb2cc19e4a6e90c63c3201f037d5854c5d66b1b34721a4d9ed564c",
+      "sizeBytes": 27346995
+    }
+  ],
+  "runtimeComponent": "io.github.supermonster003.autojs6.plugin.java.runtime/org.autojs.plugin.jvmsource.java.service.JavaSourceCompilerService"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-MediaInfo",
+  "releaseTag": "v2.1.4",
+  "sourceCommit": "df6ef26ab63009e895f3ce9277c6e5db4b0275f8",
+  "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
+  "versionName": "2.1.4",
+  "versionCode": 86,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-mediainfo-v2.1.4-arm64-v8a-684D6F84.apk",
+      "sha256": "9b79bd0ca0ca3cf2a207a62acaebaddea3edbb27dbb0c7bfeefda8f3c001e4b3",
+      "sizeBytes": 3116811
+    },
+    {
+      "name": "autojs6-plugin-mediainfo-v2.1.4-armeabi-v7a-30CDDCD9.apk",
+      "sha256": "064e53426e1ccfb6e9a35bcd8d328b71d4354423db42e20fa18754c45827e501",
+      "sizeBytes": 2886853
+    },
+    {
+      "name": "autojs6-plugin-mediainfo-v2.1.4-universal-3441A141.apk",
+      "sha256": "bef5de6da764c831dd7e310ef3deba61290fffa1917d41cb984a78c8a16f9354",
+      "sizeBytes": 11887037
+    },
+    {
+      "name": "autojs6-plugin-mediainfo-v2.1.4-x86-2C23094E.apk",
+      "sha256": "05cfb9d50e52344c2c55cf28916c6a7873c0a344a1814106fdc4807ac9b5d0d8",
+      "sizeBytes": 3505145
+    },
+    {
+      "name": "autojs6-plugin-mediainfo-v2.1.4-x86_64-70BB023D.apk",
+      "sha256": "c0fc1a7669369c5394809ad2810ce357e5cde7c99b6b35024bbcaf2d2ef7cbff",
+      "sizeBytes": 3239172
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
