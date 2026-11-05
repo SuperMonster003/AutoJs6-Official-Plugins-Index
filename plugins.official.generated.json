@@ -2059,19 +2059,19 @@
         "values-zh-rTW": "\u900f\u904e Model Context Protocol \u5411 AI \u4ee3\u7406\u958b\u653e\u88dd\u7f6e\u81ea\u52d5\u5316\u80fd\u529b"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -2082,25 +2082,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.0",
-          "versionCode": 255,
-          "versionDate": "2026-11-04",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.2.0",
-          "changelogText": "MCP Server 1.2.0\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `8fef1ba9ec10a288df934342e12c25408b74eddb`\r\n\r\nPublished release.\r\n\r\n- Hint: The plugin tools and script_catalog / script_registered_run rely on host support that ships with the AutoJs6 6.8.0 release; without it, or without the matching plugin, they do not appear and the other tools work as before (the minimum host stays build 5298)\r\n- Feature: Six plugin tool groups with their own switches (OCR text recognition, barcode recognition, OpenCV image and color search, Pinyin and Pinyin4j conversion, MediaInfo media metadata): their tools appear in the client tool list only while the matching AutoJs6 plugin is installed and enabled, the list updates itself after a plugin is installed, removed or updated, and calling a tool whose plugin is missing explains why (PLUGIN_UNAVAILABLE); recognition calls that read the screen (image \"screen\") share the limit of 30 screenshots per minute per client with screen_capture, while image files on the phone are not counted\r\n- Feature: ocr_recognize tool, which recognizes text on the phone screen or in an image file on the phone (needs an installed and enabled ML Kit, Paddle OCR or Rapid OCR plugin): image \"screen\" captures and recognizes inside AutoJs6, a path inside the working directory reads the file first; optional region crop and engine choice (automatic by default); results carry text, confidence and bounds (large files in their own pixels), and no image leaves the phone\r\n- Feature: barcode_detect tool, which reads barcodes and QR codes on the phone screen or in an image file on the phone (needs an installed and enabled ML Kit Barcode plugin): image \"screen\" captures and detects inside AutoJs6, a path inside the working directory reads the file first; optional formats filter, region crop and maxResults limit; results carry the content, symbology and bounds (large files in their own pixels), and no image leaves the phone\r\n- Feature: opencv_find_image, opencv_find_color and opencv_find_multi_colors tools, which find an image, a color or a multi-point color pattern on the phone screen or in an image file on the phone (need an installed and enabled OpenCV plugin): the template of the image search is an image in the working directory, and each match comes with its bounds, center and similarity; the color searches return the first matching pixel; region limits every search, and no image leaves the phone\r\n- Feature: pinyin_convert and pinyin4j_convert tools, which convert Chinese text to pinyin (need an installed and enabled Pinyin or Pinyin4j plugin respectively): pinyin_convert reads whole words from a phrase dictionary, so characters with several readings usually come out right, with tone styles, first letters and a surname / place name mode; pinyin4j_convert works character by character and offers other romanizations such as Wade-Giles and Yale, tone marks or numbers, upper case, and every reading of each character\r\n- Feature: mediainfo_read tool, which reads the format, duration, bit rates, codecs, resolution, channels, sampling rate and tags of an audio, video or image file on the phone (needs an installed and enabled MediaInfo plugin): the path is a file in the working directory, and the result carries a summary and every field of each track, optionally with the full text report\r\n- Feature: \"Allow reading shared storage\" switch on the settings page (off by default), which lets the recognition, media and list / stat tools read absolute paths in shared storage, such as photos and downloads: absolute paths are refused until it is on, Android/data and Android/obb are never readable, and the other file tools stay in the working directory (AutoJs6 needs All files access)\r\n- Feature: script_catalog and script_registered_run tools in the script group, which list and run the scripts the user registered for models in the AutoJs6 working directory (a script with an @agent header comment, or a project with an agent entry in project.json; AutoJs6 6.8.0 or later): the catalog shows each script's description, parameters, risk and whether to ask first; a run has AutoJs6 check the arguments against the registered parameters and fill in defaults, stops the script after its registered time, and returns the value the script reported and its newest console lines; the tools appear only when AutoJs6 grants them, and the model asks the user before running a script marked sensitive or confirm-first\r\n- Feature: Tools that AutoJs6 plugins describe themselves (for example opencc_convert of the 3-Hanzi CC plugin for Chinese conversion; needs AutoJs6 6.8.0 or later): they appear in the tool list in one group per plugin; groups of official plugins are on by default, third-party plugins must be switched on under \"Plugin tools\" in the settings, and tools that write, delete or reach the network also need the second switch of their group; image arguments take \"screen\" or a path, directory arguments a directory path (such as a model directory), files a tool produces go under plugin-outputs in the working directory with the extension of their actual format, and their paths are returned (outputPaths chooses the place; tools such as extraction write a folder, which may exist already, keeping the files in it), with a preview for images up to 1 MiB; the list follows installs, removals and updates of plugins\r\n- Feature: MCP device_start_remote_server tool starts AutoJs6 server mode on the phone (TCP 7347), reports listening status and connection count, and keeps existing connections on repeated calls; requires a supporting host and asks the user to grant local network access on the phone when missing\r\n- Fix: Clients receiving dozens of repeated tools/list_changed notifications (one per tool) after a tool group was switched on the settings page\r\n- Fix: Device evidence scripts starting a leftover debug test APK against the release app and crashing its process\r\n- Improvement: The device_info tool and the autojs6://device/info resource gain a plugins field (AutoJs6 6.8.0 or later): the state of each plugin family, such as OCR, barcode, OpenCV, Pinyin, Pinyin4j, MediaInfo and offline docs (available / not installed / disabled / incompatible), the tools it brings and an install hint, so a model can tell the user what to install in the plugin center\r\n- Improvement: The device_info tool and the autojs6://device/info resource gain a pluginTools field (AutoJs6 6.8.0 or later): the plugins that declare tools, their status, trust and group switches, whether each tool is listed, and what to do when tools are missing\r\n- Improvement: With AutoJs6 6.8.0 build 5333 or later, the settings page notice about turned-off notifications says that pairing requests also appear while AutoJs6 is in the foreground\r\n- Dependency: Upgrade AutoJs6 platform versions and native alignment build plugins 1.9.0 -> 1.9.7\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.3.0",
+          "versionCode": 256,
+          "versionDate": "2026-11-05",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.3.0",
+          "changelogText": "MCP Server 1.3.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `3b9b9928aeb08786a439a3883d509c66c85a7a72`\n\nPublished release.\n\n- Hint: Exporting and importing the settings together with AutoJs6 needs AutoJs6 6.8.1 or later (not released yet); with an earlier AutoJs6 this version works like 1.2.0\n- Feature: The plugin's settings can be exported and imported together with AutoJs6's settings, so a new phone or a reinstall does not need them set up again: the port, the listening scope (this device only / LAN), developer mode, the extra allowed host names, the LAN access reminder, the idle auto-stop, the switches of the tool groups and plugin tools, the root shell and shared storage reading switches, the access token and the paired clients. Because the token and the pairings are included, the plugin is not selected by default when exporting, and once it is selected AutoJs6 encrypts its part of the archive (set a password when exporting to import it on another phone). Imported settings apply at once and imported pairings join the existing list; when the server is running and the port, the listening scope, developer mode or the host names change, the plugin restarts its server process and AutoJs6 then opens the server again (if the pairing confirmation dialog is open at that moment, they apply the next time the server process starts)\n- Dependency: Upgrade the common-plugin-api local module to 1.1.0 (from AutoJs6 host build 8fe6d154f9, hash-locked) for the settings export and import\n- Dependency: Add org.json version 20231013 (JVM tests only)\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-mcp-server-v1.2.0-3ddcfb09.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.2.0/autojs6-plugin-mcp-server-v1.2.0-3ddcfb09.apk",
-              "size": 1899726,
-              "digest": "sha256:8659497dc5d27dc74984c7e77b7f4f082b0470328c686466f54d7504375707d7",
-              "sha256": "8659497dc5d27dc74984c7e77b7f4f082b0470328c686466f54d7504375707d7",
+              "name": "autojs6-plugin-mcp-server-v1.3.0-23829dfa.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.3.0/autojs6-plugin-mcp-server-v1.3.0-23829dfa.apk",
+              "size": 1928262,
+              "digest": "sha256:64535ef55bfc2360bda2c3cf843fc2f212d80eadc3802f4f75b35f837e775d34",
+              "sha256": "64535ef55bfc2360bda2c3cf843fc2f212d80eadc3802f4f75b35f837e775d34",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 255,
+              "versionName": "1.3.0",
+              "versionCode": 256,
               "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
-              "sourceCommit": "8fef1ba9ec10a288df934342e12c25408b74eddb"
+              "sourceCommit": "3b9b9928aeb08786a439a3883d509c66c85a7a72"
             }
           ],
           "prerelease": false,
@@ -10060,19 +10060,19 @@
         "values-zh-rTW": "\u96e2\u7dda\u8a9e\u97f3\u8fa8\u8b58, \u559a\u9192\u8a5e\u5075\u6e2c, \u8a9e\u97f3\u6d3b\u52d5\u5075\u6e2c\u8207\u795e\u7d93\u7db2\u8def\u8a9e\u97f3\u5408\u6210, \u53ef\u8a3b\u518a\u70ba\u7cfb\u7d71 TTS \u5f15\u64ce"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -10083,23 +10083,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.4.0",
-          "versionCode": 175,
-          "versionDate": "2026-11-02",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/tag/v1.4.0",
-          "changelogText": "3-Macaw Speech 1.4.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `feebf11a82c8129dcca6a36bd839c2eb00cb43b7`\n\nPublished release.\n\n- Audio playback on Try it out: file recognition now plays the file, with a seek bar, speeds from 0.5x to 2x and 5 second skips. The sentence you hear lights up and stays in view, a tap on a sentence plays from there, and a lyrics view shows the current sentence in large type, for speakers, languages and sound tags too. The latest result can still be played after you leave the page, as long as the file is there: the plugin keeps read access to that one file until you clear it or pick another.\n- Model updates: when a newer version of an installed model is available, its card on the home screen says \"Update available (v2)\" and one tap updates it. The new version is downloaded and checked first, so a failed or paused update leaves the old one working, and a model in use can be updated too. Scripts see `updateAvailable` and `latestVersionCode` in `speech.models.list()`, and `speech.models.install()` updates.\n- Language identification goes sentence by sentence: when a recording mixes languages, Try it out, `speech.detectLanguage` and the `speech_detect_language` tool show the language of each sentence (very short sentences join a neighbor). The overall language is the one spoken longest. Each sentence takes its own pass, so this is somewhat slower than in 1.3.0.\n- Fixes: after deleting or replacing a speech synthesis model, other models could lose most of the text they read aloud, without any error, until the plugin restarted; opening the plugin from the system's text-to-speech settings left the list one row above the synthesis group; and while a model downloaded, its total showed twice the real size, because unpacking was counted in. The home screen and the notification now show the download against the model's size, then the installation on its own.\n- Evaluated, not adopted: recognition on the phone's NPU (speech under 8 seconds got slower, only recent Qualcomm flagship phones can use it, and the APK and the models would grow a lot) and sherpa-onnx 2.0 (it drops eSpeak NG, and 10 of the 13 speech synthesis models went silent or skipped words). Recognition stays on the CPU and the speech runtime on sherpa-onnx 1.13.8.\n- `speech.detectLanguage` and its tool still need the AutoJs6 6.8.0 release, as in 1.3.0; with an older AutoJs6 (internal build 5456 or later, as in 1.0.0), everything else above works, because it runs in the plugin itself.\n- The model catalog is unchanged (version 3, the signed `speech-models-v3` of AutoJs6-Shared-Assets).\n- No new permissions.\n- Choose the APK of your device's processor (most phones: `arm64-v8a`), or `universal` for every device.\n- See the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.4.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.4.0/.readme/README-en.md).\n\nLicense: the plugin's source code is under the MPL-2.0. `libsherpa-onnx-jni.so` statically links eSpeak NG and UCD Tools (GPL-3.0-or-later), so the APKs as a whole are conveyed under the GPL-3.0-or-later, without any warranty. The corresponding source of the speech runtime is attached as `autojs6-plugin-three-macaw-speech-corresponding-source-sherpa-onnx-v1.13.8-ac68c80b.tar`: the sherpa-onnx v1.13.8 source with its build scripts and every dependency archive that its build pins by URL and SHA-256 (unchanged since 1.0.0).\n\nAPK and source archive checksums are in `SHA256SUMS`.",
+          "versionName": "1.5.0",
+          "versionCode": 177,
+          "versionDate": "2026-11-05",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/tag/v1.5.0",
+          "changelogText": "3-Macaw Speech 1.5.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `98b745694c2629cd29621bded397bb1fa74d8c16`\n\nPublished release.\n\n- Settings export and import with AutoJs6: the plugin's settings can be exported and imported together with AutoJs6's settings, so a new phone or a reinstall does not need them set again one by one: endpoint sensitivity, voice activity detection, speed, releasing idle models, downloads on metered networks, the speaker and voice chosen for each model, the floating microphone and the trigger key, the wake words and options of the resident wake word, the appearance (language, dark mode, theme color) and automatic update checks. Models, enrolled voices and the switches of features such as the resident wake word and the voice input are not included; download or turn them on again on the new phone. Imported settings apply at once; if Android does not let the plugin start the resident wake word or the floating microphone in the background, they apply the next time the plugin opens.\n- Exporting and importing the settings together with AutoJs6 needs AutoJs6 6.8.1 or later (not released yet); with an earlier AutoJs6 (internal build 5456 or later, as in 1.0.0) this version works like 1.4.0. The plugin's part of the archive holds no secret, so it is never encrypted.\n- The model catalog is unchanged (version 3, the signed `speech-models-v3` of AutoJs6-Shared-Assets).\n- No new permissions.\n- Choose the APK of your device's processor (most phones: `arm64-v8a`), or `universal` for every device.\n- See the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.5.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/blob/v1.5.0/.readme/README-en.md).\n\nLicense: the plugin's source code is under the MPL-2.0. `libsherpa-onnx-jni.so` statically links eSpeak NG and UCD Tools (GPL-3.0-or-later), so the APKs as a whole are conveyed under the GPL-3.0-or-later, without any warranty. The corresponding source of the speech runtime is attached as `autojs6-plugin-three-macaw-speech-corresponding-source-sherpa-onnx-v1.13.8-ac68c80b.tar`: the sherpa-onnx v1.13.8 source with its build scripts and every dependency archive that its build pins by URL and SHA-256 (unchanged since 1.0.0).\n\nAPK and source archive checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-arm64-v8a-0b8fa6af.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-arm64-v8a-0b8fa6af.apk",
-              "size": 15302705,
-              "digest": "sha256:9b551950ee56ee6c9d4cc291381c2f6619eda859cd6e7f5b28f8a46a6f522cf7",
-              "sha256": "9b551950ee56ee6c9d4cc291381c2f6619eda859cd6e7f5b28f8a46a6f522cf7",
+              "name": "autojs6-plugin-three-macaw-speech-v1.5.0-arm64-v8a-15dacffe.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.5.0/autojs6-plugin-three-macaw-speech-v1.5.0-arm64-v8a-15dacffe.apk",
+              "size": 15322297,
+              "digest": "sha256:aadeb023dedd3d405fed5f26d857f390fa050503aeab6da7fed2ec81a3b82d4e",
+              "sha256": "aadeb023dedd3d405fed5f26d857f390fa050503aeab6da7fed2ec81a3b82d4e",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.0",
-              "versionCode": 175,
+              "versionName": "1.5.0",
+              "versionCode": 177,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10107,19 +10107,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
+              "sourceCommit": "98b745694c2629cd29621bded397bb1fa74d8c16"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-armeabi-v7a-9d6184e5.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-armeabi-v7a-9d6184e5.apk",
-              "size": 14478743,
-              "digest": "sha256:6142ea134d29208fe107c8cf114237537466ad721c7b525fead02eafece93e4e",
-              "sha256": "6142ea134d29208fe107c8cf114237537466ad721c7b525fead02eafece93e4e",
+              "name": "autojs6-plugin-three-macaw-speech-v1.5.0-armeabi-v7a-01182d7d.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.5.0/autojs6-plugin-three-macaw-speech-v1.5.0-armeabi-v7a-01182d7d.apk",
+              "size": 14498339,
+              "digest": "sha256:129e488ac974dd982f20b833f901b808b05ba953b7e556ef5c94ffbb5d7e47a2",
+              "sha256": "129e488ac974dd982f20b833f901b808b05ba953b7e556ef5c94ffbb5d7e47a2",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.0",
-              "versionCode": 175,
+              "versionName": "1.5.0",
+              "versionCode": 177,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10127,19 +10127,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
+              "sourceCommit": "98b745694c2629cd29621bded397bb1fa74d8c16"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-universal-0b23c075.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-universal-0b23c075.apk",
-              "size": 46896074,
-              "digest": "sha256:819dde3160af8277cbc632635aab8bc77ea8464fb1682b7f826136abf9c5eaec",
-              "sha256": "819dde3160af8277cbc632635aab8bc77ea8464fb1682b7f826136abf9c5eaec",
+              "name": "autojs6-plugin-three-macaw-speech-v1.5.0-universal-c2d18ea7.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.5.0/autojs6-plugin-three-macaw-speech-v1.5.0-universal-c2d18ea7.apk",
+              "size": 46915670,
+              "digest": "sha256:07e91038c5e5ddc0abf2c7a32aeea071e96889ed3bdb36c0bde7b0ddb353c4b6",
+              "sha256": "07e91038c5e5ddc0abf2c7a32aeea071e96889ed3bdb36c0bde7b0ddb353c4b6",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.0",
-              "versionCode": 175,
+              "versionName": "1.5.0",
+              "versionCode": 177,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10147,19 +10147,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
+              "sourceCommit": "98b745694c2629cd29621bded397bb1fa74d8c16"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-x86-d03cf1c6.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-x86-d03cf1c6.apk",
-              "size": 16729343,
-              "digest": "sha256:3bb5d96879ca3e6217ff9b65c9bf560e377f5c7ea403c33aa2d333947ce40b79",
-              "sha256": "3bb5d96879ca3e6217ff9b65c9bf560e377f5c7ea403c33aa2d333947ce40b79",
+              "name": "autojs6-plugin-three-macaw-speech-v1.5.0-x86-46912db7.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.5.0/autojs6-plugin-three-macaw-speech-v1.5.0-x86-46912db7.apk",
+              "size": 16748935,
+              "digest": "sha256:36820fc0e629f7eb1a94bc90aa1afccf7e14cbc482c20a82077f338bd82fcd67",
+              "sha256": "36820fc0e629f7eb1a94bc90aa1afccf7e14cbc482c20a82077f338bd82fcd67",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.0",
-              "versionCode": 175,
+              "versionName": "1.5.0",
+              "versionCode": 177,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10167,19 +10167,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
+              "sourceCommit": "98b745694c2629cd29621bded397bb1fa74d8c16"
             },
             {
-              "name": "autojs6-plugin-three-macaw-speech-v1.4.0-x86_64-535c5ed0.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.4.0/autojs6-plugin-three-macaw-speech-v1.4.0-x86_64-535c5ed0.apk",
-              "size": 16500544,
-              "digest": "sha256:cf8a82e6140b7152d5aa7c8ce788f39d3a5cba57b05bbc33afd2bd942d4c7751",
-              "sha256": "cf8a82e6140b7152d5aa7c8ce788f39d3a5cba57b05bbc33afd2bd942d4c7751",
+              "name": "autojs6-plugin-three-macaw-speech-v1.5.0-x86_64-d3693736.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Macaw-Speech/releases/download/v1.5.0/autojs6-plugin-three-macaw-speech-v1.5.0-x86_64-d3693736.apk",
+              "size": 16520140,
+              "digest": "sha256:041ac8ee34e3013b591c418b6cc294b6699cfee2401214a6077b5bfdcd39fed6",
+              "sha256": "041ac8ee34e3013b591c418b6cc294b6699cfee2401214a6077b5bfdcd39fed6",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.0",
-              "versionCode": 175,
+              "versionName": "1.5.0",
+              "versionCode": 177,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.macaw.speech",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10187,7 +10187,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "feebf11a82c8129dcca6a36bd839c2eb00cb43b7"
+              "sourceCommit": "98b745694c2629cd29621bded397bb1fa74d8c16"
             }
           ],
           "prerelease": false,
