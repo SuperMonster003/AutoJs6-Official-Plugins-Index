@@ -153,6 +153,25 @@
         "sha256": "7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.java.libraries": {
+      "repository": "AutoJs6-Plugin-Java-Libraries",
+      "sourceCommit": "4798a897711cdc5834d1c9190c5d961cabab6920",
+      "sourceDirty": false,
+      "recipeSha256": "f8c574975818d3384d016a6dc0dba8ce0210e3df744fc2bc6d95d19afcba048f",
+      "generatorVersion": "1.4.0",
+      "backgrounds": {
+        "day": "transparent",
+        "night": "transparent"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.java.libraries/f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948.png",
+        "sha256": "f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.java.libraries/f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948.png",
+        "sha256": "f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.java.runtime": {
       "repository": "AutoJs6-Plugin-Java-Runtime",
       "sourceCommit": "7891a6db9c95a47935d61aa8ecf836ed365e071e",

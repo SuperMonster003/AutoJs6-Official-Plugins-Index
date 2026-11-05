@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Java-Libraries",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "4798a897711cdc5834d1c9190c5d961cabab6920",
+  "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
+  "versionName": "1.0.0",
+  "versionCode": 14,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
+      "sha256": "cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
+      "sizeBytes": 1210067
+    }
+  ]
+}
