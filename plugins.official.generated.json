@@ -9723,19 +9723,19 @@
         "values-zh-rTW": "\u9b27\u9418\u61c9\u7528\u7a0b\u5f0f, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u9023\u52d5\u6307\u4ee4\u78bc"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -9746,25 +9746,25 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.0",
-          "versionCode": 43,
+          "versionName": "1.0.1",
+          "versionCode": 48,
           "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/tag/v1.0.0",
-          "changelogText": "3-Chime Alarm 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `cc7f61d77d6a589bba938dbe1b647b7367c61b7f`\n\nFirst release.\n\n- An alarm clock app that also works without AutoJs6: one-time and repeating alarms with RFC 5545 calendar rules (weekdays, the nth weekday of a month, the end of a month, day intervals, end dates and counts), excluded dates and skipping only the next ring.\n- Ringing with a system ringtone or imported audio, spoken text, independent volume with a fade-in, custom vibration, snooze and auto silence, and a full screen ringing screen on the lock screen. Alarms are rescheduled after a reboot, a time or time zone change and an update, and ring even before the first unlock.\n- AutoJs6 scripts manage the alarms through the `alarms` module (Rhino), listen to ring, snooze and dismiss events, and register scripts that AutoJs6 starts when an alarm rings. Nine `alarm_*` plugin tools work through the MCP Server plugin and `plugins.tools.call`.\n- The plugin can handle the set, show, dismiss and snooze alarm requests of other apps.\n- The screens follow the language, night mode and theme color of AutoJs6 by default and come in 10 languages.\n\nRequirements: Android 7.0 or later. Enabling the plugin in the Plugin Center, the plugin tools and the `alarms` module need AutoJs6 6.8.1 (internal build 6641) or later; with AutoJs6 6.8.0 the plugin works only as a standalone alarm clock app.\n\nColorOS (OPPO, OnePlus, realme): turn on auto launch for the plugin both in the app details and in Settings > Apps > Auto launch, otherwise alarms do not ring once the plugin process has been cleaned up. See the FAQ of the README.\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/tag/v1.0.1",
+          "changelogText": "3-Chime Alarm 1.0.1\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `a8389b6f694bb45a39a58f33f24adc18a1c5d9f8`\n\nFix\n\n- When another app or an AutoJs6 script sent two alarm requests of the same kind in quick succession (for example two new alarms in a row, or two calls of `alarms.system.setAlarm` aimed at this plugin) while no plugin screen was open, the second request was ignored without any message and its alarm was never created; every request is now handled. On Android 7.0 - 8.1 this needs the \"reorder running apps\" permission (`REORDER_TASKS`, granted at install, not requested on Android 9 or later).\n\nRequirements: Android 7.0 or later. Enabling the plugin in the Plugin Center, the plugin tools and the `alarms` module need AutoJs6 6.8.1 (internal build 6641) or later; with AutoJs6 6.8.0 the plugin works only as a standalone alarm clock app.\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-chime-alarm-v1.0.0-3e40a84f.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/download/v1.0.0/autojs6-plugin-three-chime-alarm-v1.0.0-3e40a84f.apk",
-              "size": 2379177,
-              "digest": "sha256:6ec5252dc392f085ab5161dccbcf14689a3f2afef8dbc678280caf070c0c4943",
-              "sha256": "6ec5252dc392f085ab5161dccbcf14689a3f2afef8dbc678280caf070c0c4943",
+              "name": "autojs6-plugin-three-chime-alarm-v1.0.1-d3c110dc.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/download/v1.0.1/autojs6-plugin-three-chime-alarm-v1.0.1-d3c110dc.apk",
+              "size": 2382613,
+              "digest": "sha256:79362c365769f8a10f724fcda90f9bf1dcbbf4ae865b12428477fc8455256b58",
+              "sha256": "79362c365769f8a10f724fcda90f9bf1dcbbf4ae865b12428477fc8455256b58",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.0",
-              "versionCode": 43,
+              "versionName": "1.0.1",
+              "versionCode": 48,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
-              "sourceCommit": "cc7f61d77d6a589bba938dbe1b647b7367c61b7f"
+              "sourceCommit": "a8389b6f694bb45a39a58f33f24adc18a1c5d9f8"
             }
           ],
           "prerelease": false,
