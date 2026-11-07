@@ -503,31 +503,101 @@
               "name": "autojs6-plugin-autojs4-runtime-v1.1.0-arm64-v8a-fd5df5e7.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-arm64-v8a-fd5df5e7.apk",
               "size": 22558586,
-              "digest": "sha256:71b5a211af29540e4aa1a41df386cf5c48535b4025b77694e18696789120c555"
+              "digest": "sha256:71b5a211af29540e4aa1a41df386cf5c48535b4025b77694e18696789120c555",
+              "sha256": "71b5a211af29540e4aa1a41df386cf5c48535b4025b77694e18696789120c555",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.0",
+              "versionCode": 14,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
             },
             {
               "name": "autojs6-plugin-autojs4-runtime-v1.1.0-armeabi-v7a-3455c46c.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-armeabi-v7a-3455c46c.apk",
               "size": 17496284,
-              "digest": "sha256:0ef80c9ed23986a12118e2f5c123378f9cab08703e39bbfb2d7a5132090c7bd4"
+              "digest": "sha256:0ef80c9ed23986a12118e2f5c123378f9cab08703e39bbfb2d7a5132090c7bd4",
+              "sha256": "0ef80c9ed23986a12118e2f5c123378f9cab08703e39bbfb2d7a5132090c7bd4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.0",
+              "versionCode": 14,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
             },
             {
               "name": "autojs6-plugin-autojs4-runtime-v1.1.0-universal-62914695.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-universal-62914695.apk",
               "size": 51334658,
-              "digest": "sha256:1b9248e00c6e384a732fd2a29b82df2b9df499ae491de0ca8e360cd8da1b413c"
+              "digest": "sha256:1b9248e00c6e384a732fd2a29b82df2b9df499ae491de0ca8e360cd8da1b413c",
+              "sha256": "1b9248e00c6e384a732fd2a29b82df2b9df499ae491de0ca8e360cd8da1b413c",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.0",
+              "versionCode": 14,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
             },
             {
               "name": "autojs6-plugin-autojs4-runtime-v1.1.0-x86-8c604556.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-x86-8c604556.apk",
               "size": 6293428,
-              "digest": "sha256:9cd49ec094f5e2900a8be26dbc0f1fa323f26c28c6aad15efc5d46a19ed82a3d"
+              "digest": "sha256:9cd49ec094f5e2900a8be26dbc0f1fa323f26c28c6aad15efc5d46a19ed82a3d",
+              "sha256": "9cd49ec094f5e2900a8be26dbc0f1fa323f26c28c6aad15efc5d46a19ed82a3d",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.0",
+              "versionCode": 14,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
             },
             {
               "name": "autojs6-plugin-autojs4-runtime-v1.1.0-x86_64-049dac77.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-x86_64-049dac77.apk",
               "size": 23759729,
-              "digest": "sha256:27f64320ef79e433ce3dc3a1dd42cecd739b0fa8f0b571a11415deac120918fa"
+              "digest": "sha256:27f64320ef79e433ce3dc3a1dd42cecd739b0fa8f0b571a11415deac120918fa",
+              "sha256": "27f64320ef79e433ce3dc3a1dd42cecd739b0fa8f0b571a11415deac120918fa",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.0",
+              "versionCode": 14,
+              "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
             }
           ],
           "prerelease": false,
@@ -1080,7 +1150,15 @@
               "name": "autojs6-plugin-html-previewer-v1.1.6-701fe515.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/releases/download/v1.1.6/autojs6-plugin-html-previewer-v1.1.6-701fe515.apk",
               "size": 3232528,
-              "digest": "sha256:da11708a68cf031e3f6c065f5923afea037fb97322671a92deb2a2aad0f74894"
+              "digest": "sha256:da11708a68cf031e3f6c065f5923afea037fb97322671a92deb2a2aad0f74894",
+              "sha256": "da11708a68cf031e3f6c065f5923afea037fb97322671a92deb2a2aad0f74894",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.1.6",
+              "versionCode": 43,
+              "packageName": "io.github.supermonster003.autojs6.plugin.htmlpreviewer",
+              "sourceCommit": "69c1ca038e7d3de4880bc330f053ce5f85a3e2b0"
             }
           ],
           "prerelease": false,
@@ -1931,7 +2009,15 @@
               "name": "autojs6-plugin-markdown-previewer-v1.2.6-971d43e5.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/releases/download/v1.2.6/autojs6-plugin-markdown-previewer-v1.2.6-971d43e5.apk",
               "size": 3266352,
-              "digest": "sha256:7605f2e5389463ec171832e9918045b24a0925455fc14d568da99bace804c99d"
+              "digest": "sha256:7605f2e5389463ec171832e9918045b24a0925455fc14d568da99bace804c99d",
+              "sha256": "7605f2e5389463ec171832e9918045b24a0925455fc14d568da99bace804c99d",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.2.6",
+              "versionCode": 37,
+              "packageName": "io.github.supermonster003.autojs6.plugin.markdownpreviewer",
+              "sourceCommit": "bacf19a5323d161fa45ed273698690eab445e347"
             }
           ],
           "prerelease": false,
