@@ -1,0 +1,47 @@
+{
+  "repository": "AutoJs6-Plugin-Three-Stack-Archive",
+  "sourceCommit": "b65b980ae5e5e5554bb18ee8900f06ed229d117b",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+  "versionName": "3.1.2",
+  "versionCode": 133,
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "releaseTag": "v3.1.2",
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-stack-archive-v3.1.2-arm64-v8a-D98AA044.apk",
+      "sha256": "c6bbc885d6ef965148a95e5df0ea7912245129e3dd49603489340979b03161fe",
+      "sizeBytes": 3523984
+    },
+    {
+      "name": "autojs6-plugin-three-stack-archive-v3.1.2-armeabi-v7a-9DD654D1.apk",
+      "sha256": "4cd9aeff6a55d5dfad3a3abf2e54f883cc3d29e132edde94e73b56b83b62e7d4",
+      "sizeBytes": 3410958
+    },
+    {
+      "name": "autojs6-plugin-three-stack-archive-v3.1.2-universal-BC0669DA.apk",
+      "sha256": "cb8b5f3e90209bde8877aa33ea7dfd2050776e05f9f6b3de12d45d5aecb0e826",
+      "sizeBytes": 5020706
+    },
+    {
+      "name": "autojs6-plugin-three-stack-archive-v3.1.2-x86-22AC3466.apk",
+      "sha256": "c5b8e25fb4fd9fecaceac153c13ae6794818681a9dff033becdc02eb7bea06b2",
+      "sizeBytes": 3599938
+    },
+    {
+      "name": "autojs6-plugin-three-stack-archive-v3.1.2-x86_64-22526F51.apk",
+      "sha256": "e8087679480895333dec45506cb865babcae7b5e3a052c5183033cecfcd83c5d",
+      "sizeBytes": 3595053
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ],
+  "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService"
+}
