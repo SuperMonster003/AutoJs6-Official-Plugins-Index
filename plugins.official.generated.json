@@ -9700,6 +9700,89 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Chime-Alarm"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.chime.alarm/98c3045503906a596bf8ceb302c9cec3d4b9d497d72c057ce9703f3cc009b62e.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.chime.alarm/a814c40248847fa1456f7dce3f8f69f26d168eae613d7001b67ae7a571dd2227.png",
+      "title": "3-Chime Alarm",
+      "description": "Alarm clock with calendar recurrence rules, spoken ringing and script hooks when an alarm rings",
+      "localizedDescriptions": {
+        "values": "Alarm clock with calendar recurrence rules, spoken ringing and script hooks when an alarm rings",
+        "values-ar": "\u0645\u0646\u0628\u0647 \u0628\u0642\u0648\u0627\u0639\u062f \u062a\u0643\u0631\u0627\u0631 \u062a\u0642\u0648\u064a\u0645\u064a\u0629 \u0648\u0642\u0631\u0627\u0621\u0629 \u0635\u0648\u062a\u064a\u0629 \u0648\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0639\u0646\u062f \u0627\u0644\u0631\u0646\u064a\u0646",
+        "values-en": "Alarm clock with calendar recurrence rules, spoken ringing and script hooks when an alarm rings",
+        "values-es": "Alarma con reglas de repetici\u00f3n de calendario, lectura en voz alta y scripts al sonar la alarma",
+        "values-fr": "R\u00e9veil avec r\u00e8gles de r\u00e9p\u00e9tition de calendrier, sonnerie parl\u00e9e et scripts d\u00e9clench\u00e9s \u00e0 la sonnerie",
+        "values-ja": "\u30ab\u30ec\u30f3\u30c0\u30fc\u5f62\u5f0f\u306e\u7e70\u308a\u8fd4\u3057\u30eb\u30fc\u30eb, \u8aad\u307f\u4e0a\u3052\u4ed8\u304d\u306e\u9cf4\u52d5, \u9cf4\u52d5\u6642\u306e\u30b9\u30af\u30ea\u30d7\u30c8\u9023\u643a\u306b\u5bfe\u5fdc\u3057\u305f\u30a2\u30e9\u30fc\u30e0",
+        "values-ko": "\ub2ec\ub825 \ubc18\ubcf5 \uaddc\uce59, \uc74c\uc131 \uc77d\uae30 \uc54c\ub78c, \uc54c\ub78c\uc774 \uc6b8\ub9b4 \ub54c \uc2a4\ud06c\ub9bd\ud2b8 \uc5f0\ub3d9\uc744 \uc9c0\uc6d0\ud558\ub294 \uc54c\ub78c \uc571",
+        "values-ru": "\u0411\u0443\u0434\u0438\u043b\u044c\u043d\u0438\u043a \u0441 \u043a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u043c\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430\u043c\u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0430, \u043e\u0437\u0432\u0443\u0447\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432 \u043f\u0440\u0438 \u0437\u0432\u043e\u043d\u043a\u0435",
+        "values-zh": "\u95f9\u949f\u5e94\u7528, \u652f\u6301\u65e5\u5386\u91cd\u590d\u89c4\u5219, \u6717\u8bfb\u54cd\u94c3\u4e0e\u54cd\u94c3\u65f6\u8054\u52a8\u811a\u672c",
+        "values-zh-rHK": "\u9b27\u9418\u61c9\u7528\u7a0b\u5f0f, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u806f\u52d5\u8173\u672c",
+        "values-zh-rTW": "\u9b27\u9418\u61c9\u7528\u7a0b\u5f0f, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u9023\u52d5\u6307\u4ee4\u78bc"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "alarm",
+      "variant": "default",
+      "engineId": "three-chime-alarm",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 43,
+          "versionDate": "2026-11-07",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/tag/v1.0.0",
+          "changelogText": "3-Chime Alarm 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `cc7f61d77d6a589bba938dbe1b647b7367c61b7f`\n\nFirst release.\n\n- An alarm clock app that also works without AutoJs6: one-time and repeating alarms with RFC 5545 calendar rules (weekdays, the nth weekday of a month, the end of a month, day intervals, end dates and counts), excluded dates and skipping only the next ring.\n- Ringing with a system ringtone or imported audio, spoken text, independent volume with a fade-in, custom vibration, snooze and auto silence, and a full screen ringing screen on the lock screen. Alarms are rescheduled after a reboot, a time or time zone change and an update, and ring even before the first unlock.\n- AutoJs6 scripts manage the alarms through the `alarms` module (Rhino), listen to ring, snooze and dismiss events, and register scripts that AutoJs6 starts when an alarm rings. Nine `alarm_*` plugin tools work through the MCP Server plugin and `plugins.tools.call`.\n- The plugin can handle the set, show, dismiss and snooze alarm requests of other apps.\n- The screens follow the language, night mode and theme color of AutoJs6 by default and come in 10 languages.\n\nRequirements: Android 7.0 or later. Enabling the plugin in the Plugin Center, the plugin tools and the `alarms` module need AutoJs6 6.8.1 (internal build 6641) or later; with AutoJs6 6.8.0 the plugin works only as a standalone alarm clock app.\n\nColorOS (OPPO, OnePlus, realme): turn on auto launch for the plugin both in the app details and in Settings > Apps > Auto launch, otherwise alarms do not ring once the plugin process has been cleaned up. See the FAQ of the README.\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-chime-alarm-v1.0.0-3e40a84f.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/download/v1.0.0/autojs6-plugin-three-chime-alarm-v1.0.0-3e40a84f.apk",
+              "size": 2379177,
+              "digest": "sha256:6ec5252dc392f085ab5161dccbcf14689a3f2afef8dbc678280caf070c0c4943",
+              "sha256": "6ec5252dc392f085ab5161dccbcf14689a3f2afef8dbc678280caf070c0c4943",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 43,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
+              "sourceCommit": "cc7f61d77d6a589bba938dbe1b647b7367c61b7f"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.color.picker",
       "repository": {
         "owner": "SuperMonster003",
