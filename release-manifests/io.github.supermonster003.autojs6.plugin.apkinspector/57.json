@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-APK-Inspector",
+  "releaseTag": "v1.2.3",
+  "sourceCommit": "9744708c702ddd60c0e0b813ac02ef5fd82c83c1",
+  "packageName": "io.github.supermonster003.autojs6.plugin.apkinspector",
+  "versionName": "1.2.3",
+  "versionCode": 57,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-apk-inspector-v1.2.3-5b5ae19b.apk",
+      "sha256": "1e5d2b7fa532f03efa1aa7200128a50fc770694dd336dab96356a3e12bc6f843",
+      "sizeBytes": 4999901
+    }
+  ]
+}
