@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Prism-Camera",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+  "versionName": "1.0.0",
+  "versionCode": 40,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-prism-camera-v1.0.0-arm64-v8a-42c6fe90.apk",
+      "sha256": "d30842d64070e11802123f1e6dffdb826b161af2e08e1cfe5d1429ef576b0adf",
+      "sizeBytes": 2238580
+    },
+    {
+      "name": "autojs6-plugin-three-prism-camera-v1.0.0-armeabi-v7a-ff362846.apk",
+      "sha256": "fa45523b2cd593e833fb0dbb6cc8c8fe609d9f2e30a41e6138b3a0c16c6e04ca",
+      "sizeBytes": 2237150
+    },
+    {
+      "name": "autojs6-plugin-three-prism-camera-v1.0.0-x86_64-e30e2d6b.apk",
+      "sha256": "0935cb8baa05f619b632bcab5984c2b652e28402db625713df1392cd746ea4f7",
+      "sizeBytes": 2271355
+    },
+    {
+      "name": "autojs6-plugin-three-prism-camera-v1.0.0-x86-87d3ced7.apk",
+      "sha256": "4875799b3153d5d95bb1c493a730777f555be96d3ea660948fcae97cfa1a5496",
+      "sizeBytes": 2253862
+    },
+    {
+      "name": "autojs6-plugin-three-prism-camera-v1.0.0-universal-9ea313a8.apk",
+      "sha256": "e2067ddb18a4fd8c23fb21716c693ae55b0651057f35cfcb1a3c5dd69eefe123",
+      "sizeBytes": 2485118
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

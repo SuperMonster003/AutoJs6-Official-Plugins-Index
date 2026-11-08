@@ -868,6 +868,25 @@
         "sha256": "1bb7916b155e5f50da811ddd764549de3bbfada1621158d2d438e255f391d74e"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.three.prism.camera": {
+      "repository": "AutoJs6-Plugin-Three-Prism-Camera",
+      "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5",
+      "sourceDirty": false,
+      "recipeSha256": "7c0ebfb6d6bf3e2e1e8e237e738ff676741df217372425f62312f5e38d620d53",
+      "generatorVersion": "1.3.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.prism.camera/5f3d69a8149ca74bd0a2247339a5df185bacc3bf899122be4270dde27b0ff8df.png",
+        "sha256": "5f3d69a8149ca74bd0a2247339a5df185bacc3bf899122be4270dde27b0ff8df"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.prism.camera/c77de67c1bdfcbd18056fc0e3b58f2b4988942dc5a667fc85ba79bc5b4e3adab.png",
+        "sha256": "c77de67c1bdfcbd18056fc0e3b58f2b4988942dc5a667fc85ba79bc5b4e3adab"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.three.setup.installer": {
       "repository": "AutoJs6-Plugin-Three-Setup-Installer",
       "sourceCommit": "e28f4db65bf1c4025f32dbac4d3647c505cbe8f3",
