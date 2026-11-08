@@ -906,6 +906,25 @@
         "sha256": "c5038a46aed57c05c5fe352485e9c0feddfc2f21f4ec12df04fecf3bd5faa395"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.three.slate.studio": {
+      "repository": "AutoJs6-Plugin-Three-Slate-Studio",
+      "sourceCommit": "96c8bfecdb76eb39af28f5ec6972142e6b24cecd",
+      "sourceDirty": false,
+      "recipeSha256": "e71f4ba2546bce9ad944bc4f0c251796a7f089751943ed54c91c656a1a870a50",
+      "generatorVersion": "1.4.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.slate.studio/b577573f1d097a83b4277c4134540df5b5ac3bdfc3dcc78bd0145c64e8e73f87.png",
+        "sha256": "b577573f1d097a83b4277c4134540df5b5ac3bdfc3dcc78bd0145c64e8e73f87"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.slate.studio/818bfaff24169d0d5ad413325d9d5a1888db32c2efc597c99565c4a895e2174d.png",
+        "sha256": "818bfaff24169d0d5ad413325d9d5a1888db32c2efc597c99565c4a895e2174d"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.three.stack.archive": {
       "repository": "AutoJs6-Plugin-Three-Stack-Archive",
       "sourceCommit": "9a1d3fedebe84acc1f15caf7b49b4ffd15828121",

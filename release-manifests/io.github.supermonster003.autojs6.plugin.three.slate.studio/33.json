@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Slate-Studio",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "96c8bfecdb76eb39af28f5ec6972142e6b24cecd",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.slate.studio",
+  "versionName": "1.0.0",
+  "versionCode": 33,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-slate-studio-v1.0.0-c2db405c.apk",
+      "sha256": "748caeb400ca1192c6f88a83b79fc746d86624b1b492500fd0f19ae67d7655a4",
+      "sizeBytes": 4350440
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
