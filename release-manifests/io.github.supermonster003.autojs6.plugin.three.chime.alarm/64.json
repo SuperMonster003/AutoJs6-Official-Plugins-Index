@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Chime-Alarm",
+  "releaseTag": "v1.1.0",
+  "sourceCommit": "375dc1dd5ec647892ceea1fc2c362b365db9ae04",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
+  "versionName": "1.1.0",
+  "versionCode": 64,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-chime-alarm-v1.1.0-87d11e5b.apk",
+      "sha256": "ef31812ef6cc5b7d667248997b2e1855fdca0ccb7ef3bf5b4278aba39a5a4b0f",
+      "sizeBytes": 2470929
+    }
+  ]
+}
