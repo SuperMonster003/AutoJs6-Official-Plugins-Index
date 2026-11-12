@@ -11202,19 +11202,19 @@
         "values-zh-rTW": "\u4f7f\u7528\u79c1\u6709\u672c\u6a5f\u6a21\u578b\u8207\u4f7f\u7528\u8005\u8a2d\u5b9a\u7dda\u4e0a\u670d\u52d9\u7684 AI \u6587\u5b57\u751f\u6210"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.5.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -11222,23 +11222,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.5.0",
-          "versionCode": 305,
-          "versionDate": "2026-11-04",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/tag/v1.5.0",
-          "changelogText": "3-Stone AI 1.5.0\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `d3db0bfc6ee3da9307ab2ef18c4df4552a458126`\r\n\r\nPublished release.\r\n\r\n- Feature: Independently signed applications can request explicit AI access in the plugin, bound to their identity and installation, with settings-based revocation that stops active requests\r\n- Feature: The screen stays on while a reply is being generated instead of turning off at the screen timeout\r\n- Fix: Subsequent AI requests failed when service shutdown discarded a queued session cleanup\r\n- Fix: Sequential AI requests were rejected while a cancelled model session was still closing\r\n- Fix: Anthropic profiles always sent max_tokens=1024 while the maximum output tokens setting was unlimited, so replies were cut off around 1024 tokens without any notice (Claude models that think by default count their thinking against it); the default is now 16384 tokens, and a reply stopped at the output limit is marked \"Output limit reached\" under the message, for OpenAI-compatible and Gemini profiles as well\r\n- Fix: The connection test allowed the model only 8 output tokens; Claude models that think by default spent them all on thinking and returned no text, so a correctly configured Anthropic profile was reported as an invalid response. The test now allows 1024 tokens\r\n- Fix: When cloud generation or the connection test failed, only a fixed failure category was shown and the actual cause (for example an exhausted account balance) stayed invisible; the HTTP status and the provider's own explanation (at most 300 characters, with keys masked) now appear under the failure message\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.6.0",
+          "versionCode": 320,
+          "versionDate": "2026-11-12",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/tag/v1.6.0",
+          "changelogText": "3-Stone AI 1.6.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c`\n\nPublished release.\n\n- Feature: Online profiles can set a default effort (Low, Medium, High, Extra high or Max; with \"Default\" the model decides), and Anthropic profiles can use fast mode by default (faster replies at a higher price); both can also be changed for the current conversation only, the change is saved with the conversation, and new conversations start from the profile defaults. When a model does not support the chosen level, the closest lower level is used\n- Feature: Switching models now opens a panel from the bottom: search, models grouped by profile, favorites pinned on top, and labels showing which models support image input, reasoning and fast mode; the panel also changes the effort and fast mode of the current conversation, and \"Manage models and services\" at the bottom opens the model settings. The bar at the top of the chat shows the effort and fast mode of the current conversation\n- Feature: Chats now show how the model thinks (Claude 5 and newer, Gemini 2.5 and newer, and OpenAI-compatible services that return their reasoning, such as DeepSeek): while a reply is generated, the reasoning streams in a card above it; when the reply is done the card folds into \"Thought for N s\", and a tap opens or closes it. The reasoning is saved with the conversation, but it is not read aloud and message search does not match it. \"Show reasoning while generating\" and \"Collapse reasoning when done\" in the settings are on by default and can be turned off. Scripts that call AI through the plugin do not receive the reasoning\n- Fix: A reply being generated was stopped when the screen was rotated or when dark mode, the language or the message font size was changed; the reply now keeps generating, and a reply that finishes while you are away from the chat is shown in full when you come back\n- Fix: After tapping \"Stop\", the online request kept running in the background until the reply was complete (and still counted toward usage); tapping Stop now ends the request within 1 second, and so do starting a new conversation, switching conversations, switching models and deleting messages\n- Fix: Newer Claude models rejected requests from Anthropic profiles that set temperature, Top K or Top P; Anthropic profiles no longer send these three settings, and the settings page says so\n- Fix: After the default model of a profile was changed, a new conversation that was already open but had no messages kept the old default model; it now switches to the new default model (unless you picked another model in that conversation)\n- Fix: When adding or editing an online profile, swiping down on the form easily closed it and everything you had typed was lost; the form now closes only with the close button at the top right, \"Cancel\" or Back, asks first when there are unsaved changes, and keeps what you typed when the screen is rotated\n- Fix: Online model catalog updates failed after the Gemini documentation moved and changed its table format\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.5.0-arm64-v8a-C7992421.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.5.0/autojs6-plugin-three-stone-ai-v1.5.0-arm64-v8a-C7992421.apk",
-              "size": 24792879,
-              "digest": "sha256:108e883d076330c624fd9125e4eb336a263d3b7f636162e177cd0f5be65d0a48",
-              "sha256": "108e883d076330c624fd9125e4eb336a263d3b7f636162e177cd0f5be65d0a48",
+              "name": "autojs6-plugin-three-stone-ai-v1.6.0-arm64-v8a-A9B23F7D.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-arm64-v8a-A9B23F7D.apk",
+              "size": 24859849,
+              "digest": "sha256:1348bde80f21e2f25622c7f6cebc4c5a21bb92940f11673406627625e9927630",
+              "sha256": "1348bde80f21e2f25622c7f6cebc4c5a21bb92940f11673406627625e9927630",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.5.0",
-              "versionCode": 305,
+              "versionName": "1.6.0",
+              "versionCode": 320,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11246,19 +11246,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d3db0bfc6ee3da9307ab2ef18c4df4552a458126"
+              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.5.0-armeabi-v7a-1E39BF1F.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.5.0/autojs6-plugin-three-stone-ai-v1.5.0-armeabi-v7a-1E39BF1F.apk",
-              "size": 3582045,
-              "digest": "sha256:4d0de9ead7a76254176100e3e63ce9c5928eff695010c58244cc1cb322ddbfc0",
-              "sha256": "4d0de9ead7a76254176100e3e63ce9c5928eff695010c58244cc1cb322ddbfc0",
+              "name": "autojs6-plugin-three-stone-ai-v1.6.0-armeabi-v7a-E5FD27B0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-armeabi-v7a-E5FD27B0.apk",
+              "size": 3654287,
+              "digest": "sha256:8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
+              "sha256": "8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.5.0",
-              "versionCode": 305,
+              "versionName": "1.6.0",
+              "versionCode": 320,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11266,19 +11266,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d3db0bfc6ee3da9307ab2ef18c4df4552a458126"
+              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.5.0-universal-C91D42DE.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.5.0/autojs6-plugin-three-stone-ai-v1.5.0-universal-C91D42DE.apk",
-              "size": 50016610,
-              "digest": "sha256:e33541bba68725fc7086ad44a6365996c8cd107a7b2a35bf3f9fd6eec29b71cf",
-              "sha256": "e33541bba68725fc7086ad44a6365996c8cd107a7b2a35bf3f9fd6eec29b71cf",
+              "name": "autojs6-plugin-three-stone-ai-v1.6.0-universal-857C2906.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-universal-857C2906.apk",
+              "size": 50083580,
+              "digest": "sha256:23a8206781bf2dd43c9b5689dbc6097937403d6c2a44760c02dbf0553a370a6d",
+              "sha256": "23a8206781bf2dd43c9b5689dbc6097937403d6c2a44760c02dbf0553a370a6d",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.5.0",
-              "versionCode": 305,
+              "versionName": "1.6.0",
+              "versionCode": 320,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11286,19 +11286,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d3db0bfc6ee3da9307ab2ef18c4df4552a458126"
+              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.5.0-x86-1E39BF1F.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.5.0/autojs6-plugin-three-stone-ai-v1.5.0-x86-1E39BF1F.apk",
-              "size": 3582045,
-              "digest": "sha256:4d0de9ead7a76254176100e3e63ce9c5928eff695010c58244cc1cb322ddbfc0",
-              "sha256": "4d0de9ead7a76254176100e3e63ce9c5928eff695010c58244cc1cb322ddbfc0",
+              "name": "autojs6-plugin-three-stone-ai-v1.6.0-x86-E5FD27B0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-x86-E5FD27B0.apk",
+              "size": 3654287,
+              "digest": "sha256:8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
+              "sha256": "8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.5.0",
-              "versionCode": 305,
+              "versionName": "1.6.0",
+              "versionCode": 320,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11306,19 +11306,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d3db0bfc6ee3da9307ab2ef18c4df4552a458126"
+              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.5.0-x86_64-8740F768.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.5.0/autojs6-plugin-three-stone-ai-v1.5.0-x86_64-8740F768.apk",
-              "size": 28815636,
-              "digest": "sha256:5add25a451f8fcfb15267f0d68303a7aab36319f3954760bf10153af3d8d3f05",
-              "sha256": "5add25a451f8fcfb15267f0d68303a7aab36319f3954760bf10153af3d8d3f05",
+              "name": "autojs6-plugin-three-stone-ai-v1.6.0-x86_64-32F254E0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-x86_64-32F254E0.apk",
+              "size": 28882606,
+              "digest": "sha256:c1692742e21d8a14800c65ba83289dd6ef82f4e8f681486516f4d96b2b9f68fc",
+              "sha256": "c1692742e21d8a14800c65ba83289dd6ef82f4e8f681486516f4d96b2b9f68fc",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.5.0",
-              "versionCode": 305,
+              "versionName": "1.6.0",
+              "versionCode": 320,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11326,7 +11326,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "d3db0bfc6ee3da9307ab2ef18c4df4552a458126"
+              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
             }
           ],
           "prerelease": false,
