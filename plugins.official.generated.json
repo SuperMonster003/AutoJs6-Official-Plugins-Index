@@ -11529,6 +11529,87 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Tally-Sheet"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_plugin_center.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "title": "3-Tally Sheet",
+      "description": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
+      "localizedDescriptions": {
+        "values": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
+        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u062c\u062f\u0627\u0648\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a XLSX / XLS / CSV \u0648\u0643\u062a\u0627\u0628\u062a\u0647\u0627 \u0648\u062a\u062d\u0648\u064a\u0644\u0647\u0627 \u0648\u062a\u062d\u0631\u064a\u0631\u0647\u0627, \u0645\u0639 \u0639\u0627\u0631\u0636 \u0645\u062f\u0645\u062c \u0648\u0645\u062f\u0627\u062e\u0644 \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
+        "values-en": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
+        "values-es": "Lectura, escritura, conversi\u00f3n y edici\u00f3n de hojas de c\u00e1lculo XLSX / XLS / CSV, con visor integrado y entradas en el gestor de archivos",
+        "values-fr": "Lecture, \u00e9criture, conversion et modification de feuilles de calcul XLSX / XLS / CSV, avec une visionneuse int\u00e9gr\u00e9e et des entr\u00e9es dans le gestionnaire de fichiers",
+        "values-ja": "XLSX / XLS / CSV \u8868\u8a08\u7b97\u30d5\u30a1\u30a4\u30eb\u306e\u8aad\u307f\u8fbc\u307f, \u66f8\u304d\u8fbc\u307f, \u5909\u63db\u3068\u7de8\u96c6, \u30d3\u30e5\u30fc\u30a2\u30fc\u3068\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u5165\u53e3\u3092\u5185\u8535",
+        "values-ko": "XLSX / XLS / CSV \uc2a4\ud504\ub808\ub4dc\uc2dc\ud2b8 \ud30c\uc77c \uc77d\uae30, \uc4f0\uae30, \ubcc0\ud658\uacfc \ud3b8\uc9d1, \ubdf0\uc5b4\uc640 \ud30c\uc77c \uad00\ub9ac\uc790 \uc9c4\uc785\uc810 \ub0b4\uc7a5",
+        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435, \u0437\u0430\u043f\u0438\u0441\u044c, \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0430\u0431\u043b\u0438\u0446 XLSX / XLS / CSV, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0449\u0438\u043a \u0438 \u043f\u0443\u043d\u043a\u0442\u044b \u0432 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u043c \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0435",
+        "values-zh": "\u8bfb\u53d6, \u5199\u5165, \u8f6c\u6362\u4e0e\u7f16\u8f91 XLSX / XLS / CSV \u8868\u683c\u6587\u4ef6, \u5185\u7f6e\u67e5\u770b\u5668\u4e0e\u6587\u4ef6\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rHK": "\u8b80\u53d6, \u5beb\u5165, \u8f49\u63db\u8207\u7de8\u8f2f XLSX / XLS / CSV \u8868\u683c\u6a94\u6848, \u5167\u7f6e\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rTW": "\u8b80\u53d6, \u5beb\u5165, \u8f49\u63db\u8207\u7de8\u8f2f XLSX / XLS / CSV \u8a66\u7b97\u8868\u6a94\u6848, \u5167\u5efa\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u54e1\u5165\u53e3"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "xlsx",
+      "variant": "default",
+      "engineId": "three-tally-sheet",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 68,
+          "versionDate": "2026-11-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/tag/v1.0.0",
+          "changelogText": "3-Tally Sheet 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `3c50add39959f5d02d0b8a52f30fe0922d46f84d`\n\nFirst release.\n\n- AutoJs6 script module `xlsx` (also `$xlsx`): reads and writes xlsx, xlsm, xls, csv and tsv files, edits cells through workbook and sheet objects, and sets styles, column widths, frozen panes, merged cells, hyperlinks and comments; it can also show data in the viewer and return the rows the user selects.\n- Also available in Node.js and Bun scripts: `require('autojs6:xlsx')` in Node.js Runtime 2.2.0 or later, and `host.xlsx` in Bun Runtime 0.23.0 or later (Android 13+); apps packaged by AutoJs6 can use the module too when this plugin is installed on the device that runs them.\n- Large sheets: streaming reads in batches (up to 1000 rows each) and streaming writes without loading the whole sheet into memory; long operations have `xxxAsync` forms and can be canceled midway.\n- CSV: detects the encoding (including GBK / GB18030 and UTF-16) and the delimiter automatically; writes UTF-8 with a BOM by default, so Excel opens the file without garbled text.\n- Formulas recalculated on save or on demand (unsupported functions only produce warnings), conditional formatting and data validation, and password-protected xlsx (AES-256) and xls (RC4) files.\n- Viewer: styles, merged cells, conditional formatting, hyperlinks and comments, frozen header row and first column, sheet switching, sorting and search; opens from the AutoJs6 file manager, \"Open with\" in other apps or the plugin home screen.\n- Editor: values and formulas with a live preview, rows, columns and sheets, style editing, copy and paste with styles, and up to 50 undo steps; files over 20 MB can only be viewed.\n- Toolbox: five wizards to convert the format, merge files, split a file, change the CSV encoding and remove duplicate rows; tasks run in the background with their progress in a notification.\n- AutoJs6 file manager entries: open spreadsheets with the plugin and convert to xlsx or csv, merge the selected files, split sheets and re-encode CSV.\n- A single APK for every ABI: the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `xlsx` script module and the AutoJs6 file manager entries need AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the viewer, the editor and the toolbox do not depend on AutoJs6. See the [xlsx chapter](https://docs.autojs6.com/#/xlsx) of the AutoJs6 documentation for the script API.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) only for the files you open or save in the plugin screens (scripts hand files to the plugin through AutoJs6 and do not need it), notifications for the toolbox progress notification (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). VBA macros are never executed and external links are never refreshed. See \"Permissions and security\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Apache POI 5.5.1 with XMLBeans, Apache Commons and aalto-xml, juniversalchardet, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/download/v1.0.0/autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
+              "size": 6531506,
+              "digest": "sha256:6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
       "repository": {
         "owner": "SuperMonster003",
