@@ -11297,19 +11297,19 @@
         "values-zh-rTW": "\u4f7f\u7528\u79c1\u6709\u672c\u6a5f\u6a21\u578b\u8207\u4f7f\u7528\u8005\u8a2d\u5b9a\u7dda\u4e0a\u670d\u52d9\u7684 AI \u6587\u5b57\u751f\u6210"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.6.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/refs/tags/v1.7.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -11317,23 +11317,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.6.0",
-          "versionCode": 320,
-          "versionDate": "2026-11-12",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/tag/v1.6.0",
-          "changelogText": "3-Stone AI 1.6.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c`\n\nPublished release.\n\n- Feature: Online profiles can set a default effort (Low, Medium, High, Extra high or Max; with \"Default\" the model decides), and Anthropic profiles can use fast mode by default (faster replies at a higher price); both can also be changed for the current conversation only, the change is saved with the conversation, and new conversations start from the profile defaults. When a model does not support the chosen level, the closest lower level is used\n- Feature: Switching models now opens a panel from the bottom: search, models grouped by profile, favorites pinned on top, and labels showing which models support image input, reasoning and fast mode; the panel also changes the effort and fast mode of the current conversation, and \"Manage models and services\" at the bottom opens the model settings. The bar at the top of the chat shows the effort and fast mode of the current conversation\n- Feature: Chats now show how the model thinks (Claude 5 and newer, Gemini 2.5 and newer, and OpenAI-compatible services that return their reasoning, such as DeepSeek): while a reply is generated, the reasoning streams in a card above it; when the reply is done the card folds into \"Thought for N s\", and a tap opens or closes it. The reasoning is saved with the conversation, but it is not read aloud and message search does not match it. \"Show reasoning while generating\" and \"Collapse reasoning when done\" in the settings are on by default and can be turned off. Scripts that call AI through the plugin do not receive the reasoning\n- Fix: A reply being generated was stopped when the screen was rotated or when dark mode, the language or the message font size was changed; the reply now keeps generating, and a reply that finishes while you are away from the chat is shown in full when you come back\n- Fix: After tapping \"Stop\", the online request kept running in the background until the reply was complete (and still counted toward usage); tapping Stop now ends the request within 1 second, and so do starting a new conversation, switching conversations, switching models and deleting messages\n- Fix: Newer Claude models rejected requests from Anthropic profiles that set temperature, Top K or Top P; Anthropic profiles no longer send these three settings, and the settings page says so\n- Fix: After the default model of a profile was changed, a new conversation that was already open but had no messages kept the old default model; it now switches to the new default model (unless you picked another model in that conversation)\n- Fix: When adding or editing an online profile, swiping down on the form easily closed it and everything you had typed was lost; the form now closes only with the close button at the top right, \"Cancel\" or Back, asks first when there are unsaved changes, and keeps what you typed when the screen is rotated\n- Fix: Online model catalog updates failed after the Gemini documentation moved and changed its table format\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.7.0",
+          "versionCode": 353,
+          "versionDate": "2026-11-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/tag/v1.7.0",
+          "changelogText": "3-Stone AI 1.7.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `673620ab151215dc40fe8484f5e434c719a422e4`\n\nPublished release.\n\n- Feature: You can now add attachments in chat: tap \"+\" to the left of the input box to choose images or files, up to 20 per message. Supported are images (up to 5 MB each; oversized images are scaled down automatically), UTF-8 text files (such as txt, md, json, csv and code files, up to 256 KB) and PDFs (up to 32 MB and 100 pages). Images need \"Image input\" turned on for the current model; PDFs can currently be sent only to services whose provider is Anthropic or Gemini (for Gemini, the attachments of one request may total at most 20 MB); local models do not take attachments yet. Attachments the current model does not support are dimmed; remove them or switch to another model before sending\n- Feature: Attachments are saved with the message in the app's data: the message shows image thumbnails or file names, and tapping one opens it in another app; attachments that are chosen but not yet sent are kept when the screen rotates or the app is closed. When the conversation continues later, earlier attachments are sent to the model again as far as the context allows; for those that do not fit, the model is told only the file names. The attachments of one conversation may total at most 48 MB; deleting a conversation deletes its attachments, and \"Clean unreferenced files\" on the \"Models and services\" page also removes attachments that are no longer used\n- Feature: Regenerating a reply or editing and resending a message no longer deletes the rest of the conversation; it adds a new version of that turn instead: \"< 2/3 >\" appears under the reply, the arrows on either side switch versions, the later messages switch with them, and the conversation reopens on the version chosen last. A turn has up to 8 versions; when the versions not shown in a conversation take more than about 2 MB together, the oldest ones are dropped first. Search, export, reading aloud, usage and continuing the conversation use only the version shown, and deleting a message with several versions deletes only the version shown. After going back to 1.6.0 or earlier, only the version shown at that time is visible; as soon as the older release opens the chat page, the other versions of every conversation are dropped, and upgrading again does not bring them back\n- Feature: Conversations can be exported as a Markdown file or shared as an image: long-press a conversation in the side drawer, or open the chat page menu, and choose \"Export as Markdown\" or \"Share as image\". Both contain the version shown; the Markdown file lists attachments by file name only, and the image shows image thumbnails or file names; when the conversation has reasoning, you are asked first whether to include it (not included by default). You choose where the Markdown file is saved, and other Markdown readers display it properly; the image follows the look of the chat page and then opens the share sheet, and very long conversations are scaled down (to at most 16384 pixels high). While a reply is still being generated, wait for it to finish before exporting\n- Fix: In long conversations, earlier messages are automatically condensed into a summary to save context, but some online services and local models wrapped the summary in Markdown code block markers or added explanatory text, so condensing failed and the model was more likely to forget earlier parts of the conversation; these markers and text are now removed before the summary is read\n- Fix: After a local model was deleted, the cache files created when it was first loaded (up to several GB per model) stayed in the app cache and kept using storage; deleting a local model now deletes these caches too. Caches left behind by models deleted earlier are cleaned up automatically the next time you open this plugin, or with \"Clean unreferenced files\" on the \"Models and services\" page; caches of the local models you still have are not affected\n- Improvement: Reorganized the settings: the home page now holds only the appearance settings and 5 entries, \"Conversation\", \"Models and services\", \"Voice\", \"Privacy and permissions\" and \"Updates and about\", and each setting appears in only one place; \"Generation\" under \"Conversation\" is renamed \"Output length and sampling\", and its form no longer closes when swiped down or tapped outside, asking first when there are unsaved changes; the version history moved to \"Updates and about\". The chat page menu and side drawer no longer have a separate \"Models\" entry, everything is reached through \"Settings\"; opening this plugin's settings from AutoJs6 goes straight to \"Models and services\", and Back returns to the settings home page\n- Improvement: Merged the former \"Models\" and \"Online services\" pages into a single \"Models and services\" page: the default target and \"Allow mobile and metered networks\" are at the top, followed by two sections, \"Online services\" and \"Local models\". Every service and local model is shown as the same kind of card with a \"Default\", \"Ready\", \"API key missing\" or \"Unavailable\" label; actions such as set as default, test, rename, clone, clear API key and delete are in the menu on the right of each card, while import / export services, refresh model presets and clean up unreferenced files are in the menu on the right of each section title. Tap a local model to see its details and copy its model ID. Online profiles are now called \"services\" throughout\n- Improvement: Merged the former \"Default online target\" and the selected local model into a single \"Default target\", which can be any online or local model and is used by new conversations and by scripts that do not specify a model; after the upgrade it keeps your previous default. When the default target is temporarily unavailable (for example after clearing its API key), another available model is used automatically until it is available again; if its service or model is deleted, another available model is used as well. The \"Default model\" of a service is renamed \"Preferred model\"\n- Improvement: Services are now added and edited on a full-screen \"Service details\" page instead of the former bottom sheet form: the connection details (service name, provider, Base URL, API key and so on) are at the top, and the \"Model list\" is below; long-press a row or drag its handle to change the order, or use each row's menu to set it as the preferred model, mark it for \"Image input\", move it up or down, or remove it, and add several models at once. The former \"Model ID\", \"Default model\" and \"Models with image input\" selectors are therefore gone. Tap the check mark at the top right to save, then test the connection on the same page; going back with unsaved changes asks first, and what you have entered is kept when the screen rotates or the system reclaims the app in the background. After reordering, the default target and favorites still point to the same models\n- Improvement: Downloading a recommended local model now takes one step: after you confirm, the model is downloaded to the app's private storage and imported automatically once it is verified, with no more \"Choose save location\" first and \"Import downloaded model\" afterwards. While it downloads, the \"Models and services\" page shows a download card where you can pause, resume or cancel, and retry after a failure; if the network drops or the app is closed, the downloaded part is kept and resuming or retrying continues from where it stopped. The download confirmation shows the model's minimum memory and warns when this device has less, but still allows the download. Model files downloaded elsewhere earlier can still be added with \"Import model file\". Downloaded models are stored in the app's data and are deleted when the app data is cleared or the app is uninstalled\n- Improvement: In the model switching panel each model now appears only once: favorites are shown only in the \"Favorites\" group at the top instead of also appearing under their service, and return to their place when unfavorited; search results are no longer grouped and are listed in their usual order. Each row shows its service underneath, and local models show their file size; the \"On this device\" group is renamed \"Local models\"\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.6.0-arm64-v8a-A9B23F7D.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-arm64-v8a-A9B23F7D.apk",
-              "size": 24859849,
-              "digest": "sha256:1348bde80f21e2f25622c7f6cebc4c5a21bb92940f11673406627625e9927630",
-              "sha256": "1348bde80f21e2f25622c7f6cebc4c5a21bb92940f11673406627625e9927630",
+              "name": "autojs6-plugin-three-stone-ai-v1.7.0-arm64-v8a-0437DBBC.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.0/autojs6-plugin-three-stone-ai-v1.7.0-arm64-v8a-0437DBBC.apk",
+              "size": 25008681,
+              "digest": "sha256:88bb6c0d9074e168950f3e9a3811c47b9106afe11244617a8c955672928106e8",
+              "sha256": "88bb6c0d9074e168950f3e9a3811c47b9106afe11244617a8c955672928106e8",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.6.0",
-              "versionCode": 320,
+              "versionName": "1.7.0",
+              "versionCode": 353,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11341,19 +11341,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
+              "sourceCommit": "673620ab151215dc40fe8484f5e434c719a422e4"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.6.0-armeabi-v7a-E5FD27B0.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-armeabi-v7a-E5FD27B0.apk",
-              "size": 3654287,
-              "digest": "sha256:8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
-              "sha256": "8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
+              "name": "autojs6-plugin-three-stone-ai-v1.7.0-armeabi-v7a-48A03D39.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.0/autojs6-plugin-three-stone-ai-v1.7.0-armeabi-v7a-48A03D39.apk",
+              "size": 3807587,
+              "digest": "sha256:9f714bf4fb6b71d515ebf0eb0e856acb77dc38c919d6bf94e6dea3dd6aac876a",
+              "sha256": "9f714bf4fb6b71d515ebf0eb0e856acb77dc38c919d6bf94e6dea3dd6aac876a",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.6.0",
-              "versionCode": 320,
+              "versionName": "1.7.0",
+              "versionCode": 353,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11361,19 +11361,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
+              "sourceCommit": "673620ab151215dc40fe8484f5e434c719a422e4"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.6.0-universal-857C2906.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-universal-857C2906.apk",
-              "size": 50083580,
-              "digest": "sha256:23a8206781bf2dd43c9b5689dbc6097937403d6c2a44760c02dbf0553a370a6d",
-              "sha256": "23a8206781bf2dd43c9b5689dbc6097937403d6c2a44760c02dbf0553a370a6d",
+              "name": "autojs6-plugin-three-stone-ai-v1.7.0-universal-FCF72938.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.0/autojs6-plugin-three-stone-ai-v1.7.0-universal-FCF72938.apk",
+              "size": 50232412,
+              "digest": "sha256:98b681887162d416501d5b76b00b13a0448fce6af6d140bf9a5d4f45660dc896",
+              "sha256": "98b681887162d416501d5b76b00b13a0448fce6af6d140bf9a5d4f45660dc896",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.6.0",
-              "versionCode": 320,
+              "versionName": "1.7.0",
+              "versionCode": 353,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11381,19 +11381,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
+              "sourceCommit": "673620ab151215dc40fe8484f5e434c719a422e4"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.6.0-x86-E5FD27B0.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-x86-E5FD27B0.apk",
-              "size": 3654287,
-              "digest": "sha256:8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
-              "sha256": "8700cc8a8301b86207f0488a717f376b6fad5b63a9c3413c49ae087a2952db0f",
+              "name": "autojs6-plugin-three-stone-ai-v1.7.0-x86-48A03D39.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.0/autojs6-plugin-three-stone-ai-v1.7.0-x86-48A03D39.apk",
+              "size": 3807587,
+              "digest": "sha256:9f714bf4fb6b71d515ebf0eb0e856acb77dc38c919d6bf94e6dea3dd6aac876a",
+              "sha256": "9f714bf4fb6b71d515ebf0eb0e856acb77dc38c919d6bf94e6dea3dd6aac876a",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.6.0",
-              "versionCode": 320,
+              "versionName": "1.7.0",
+              "versionCode": 353,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11401,19 +11401,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
+              "sourceCommit": "673620ab151215dc40fe8484f5e434c719a422e4"
             },
             {
-              "name": "autojs6-plugin-three-stone-ai-v1.6.0-x86_64-32F254E0.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.6.0/autojs6-plugin-three-stone-ai-v1.6.0-x86_64-32F254E0.apk",
-              "size": 28882606,
-              "digest": "sha256:c1692742e21d8a14800c65ba83289dd6ef82f4e8f681486516f4d96b2b9f68fc",
-              "sha256": "c1692742e21d8a14800c65ba83289dd6ef82f4e8f681486516f4d96b2b9f68fc",
+              "name": "autojs6-plugin-three-stone-ai-v1.7.0-x86_64-7153B6E5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.0/autojs6-plugin-three-stone-ai-v1.7.0-x86_64-7153B6E5.apk",
+              "size": 29031438,
+              "digest": "sha256:2cfed41bd52742d824816ace886391273964553cd935e28d0ff605f4668a581c",
+              "sha256": "2cfed41bd52742d824816ace886391273964553cd935e28d0ff605f4668a581c",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.6.0",
-              "versionCode": 320,
+              "versionName": "1.7.0",
+              "versionCode": 353,
               "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
               "supportedAbis": [
                 "arm64-v8a",
@@ -11421,7 +11421,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "ffc0ff5bbaa5a5a4117b5ede816bd36312c29e5c"
+              "sourceCommit": "673620ab151215dc40fe8484f5e434c719a422e4"
             }
           ],
           "prerelease": false,
