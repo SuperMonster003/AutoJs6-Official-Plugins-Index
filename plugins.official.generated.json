@@ -10390,6 +10390,101 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.paper.pdf",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Paper-PDF"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/6d75c58b912d71af4d0e5a756d4f73c44ac386baf02d717858205ee156e9bede.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/af61dfa6a425ede2ee24e4e7ad92a7d67d493cad3c00920c73c058b1f3ee843b.png",
+      "title": "3-Paper PDF",
+      "description": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
+      "localizedDescriptions": {
+        "values": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
+        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u0645\u0644\u0641\u0627\u062a PDF \u0648\u0639\u0631\u0636\u0647\u0627 \u0648\u062f\u0645\u062c\u0647\u0627 \u0648\u062a\u0642\u0633\u064a\u0645\u0647\u0627 \u0648\u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0648\u062a\u0634\u0641\u064a\u0631\u0647\u0627, \u0645\u0639 \u0639\u0627\u0631\u0636 \u0645\u062f\u0645\u062c \u0648\u0645\u062f\u0627\u062e\u0644 \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
+        "values-en": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
+        "values-es": "Lectura, renderizado, combinaci\u00f3n, divisi\u00f3n, generaci\u00f3n y cifrado de archivos PDF, con visor integrado y entradas en el gestor de archivos",
+        "values-fr": "Lecture, rendu, fusion, d\u00e9coupage, g\u00e9n\u00e9ration et chiffrement de fichiers PDF, avec une visionneuse int\u00e9gr\u00e9e et des entr\u00e9es dans le gestionnaire de fichiers",
+        "values-ja": "PDF \u30d5\u30a1\u30a4\u30eb\u306e\u8aad\u307f\u8fbc\u307f, \u30ec\u30f3\u30c0\u30ea\u30f3\u30b0, \u7d50\u5408, \u5206\u5272, \u751f\u6210\u3068\u6697\u53f7\u5316, \u30d3\u30e5\u30fc\u30a2\u30fc\u3068\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u5165\u53e3\u3092\u5185\u8535",
+        "values-ko": "PDF \ud30c\uc77c \uc77d\uae30, \ub80c\ub354\ub9c1, \ubcd1\ud569, \ubd84\ud560, \uc0dd\uc131\uacfc \uc554\ud638\ud654, \ubdf0\uc5b4\uc640 \ud30c\uc77c \uad00\ub9ac\uc790 \uc9c4\uc785\uc810 \ub0b4\uc7a5",
+        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435, \u043e\u0442\u0440\u0438\u0441\u043e\u0432\u043a\u0430, \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435, \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435, \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0438 \u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0435 PDF-\u0444\u0430\u0439\u043b\u043e\u0432, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0449\u0438\u043a \u0438 \u043f\u0443\u043d\u043a\u0442\u044b \u0432 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u043c \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0435",
+        "values-zh": "\u8bfb\u53d6, \u6e32\u67d3, \u5408\u5e76, \u62c6\u5206, \u751f\u6210\u4e0e\u52a0\u5bc6 PDF \u6587\u4ef6, \u5185\u7f6e\u67e5\u770b\u5668\u4e0e\u6587\u4ef6\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rHK": "\u8b80\u53d6, \u6e32\u67d3, \u5408\u4f75, \u62c6\u5206, \u751f\u6210\u8207\u52a0\u5bc6 PDF \u6a94\u6848, \u5167\u7f6e\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rTW": "\u8b80\u53d6, \u7b97\u7e6a, \u5408\u4f75, \u5206\u5272, \u7522\u751f\u8207\u52a0\u5bc6 PDF \u6a94\u6848, \u5167\u5efa\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u54e1\u5165\u53e3"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "pdf",
+      "variant": "default",
+      "engineId": "three-paper-pdf",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 41,
+          "versionDate": "2026-11-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/releases/tag/v1.0.0",
+          "changelogText": "3-Paper PDF 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `9f61b3e8c9c19d5d5d818311363ea76e942696b0`\n\nFirst release.\n\n- AutoJs6 script module `pdf` (also `$pdf`): read the information, text, outline and images of PDF files, search text, render pages to images, merge, split, extract, delete, reorder and rotate pages, generate PDF files from images, text or HTML, and encrypt and decrypt; every method has a blocking form and an `xxxAsync` form that can report progress and be cancelled.\n- The `ocr` option of `pdf.text` recognizes scanned pages without a text layer with an installed OCR plugin (ML Kit OCR, Paddle OCR or Rapid OCR).\n- `pdf.view` opens a PDF in the plugin viewer; scripts receive page change and close events and can go to a page or close the viewer.\n- Node.js and Bun scripts can use the `pdf` module too; its methods return Promises, and calls can be aborted with `signal` or `timeoutMs`.\n- Apps packaged by AutoJs6 6.8.1 or later can use the `pdf` module too, with the needed permission added when packaging; documents and viewer sessions they open answer only the app that created them.\n- Viewer: continuous scrolling, pinch zoom, thumbnails, outline, search highlights, go to page, password prompt and night mode; it opens from the launcher, and other apps can hand PDF files to it with \"Open with\" or sharing.\n- AutoJs6 file manager: tapping a PDF opens it in the plugin viewer, and PDF files of up to 512 MiB inside archives open directly too; the menu offers merge, split, convert to images, extract text, encrypt and remove the password.\n- Toolbox with 8 tools: merge, split, PDF to images, images to PDF, encrypt, remove the password, extract text, and rotating, deleting and reordering pages with thumbnails; tasks run one after another in a foreground service with a progress notification that can cancel them.\n- Home screen with the tools, task progress and recent files (files opened with the system file picker still open directly after a restart), a built-in file browser, and a settings screen (default output folder, resolution, language, night mode, theme color, launcher icon, update check).\n- A single APK for every ABI: PDF processing contains no native library; the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `pdf` module of AutoJs6 scripts and the file manager entries need AutoJs6 6.8.1 (internal build 6641) or later (not released yet); on older AutoJs6 versions the Plugin Center shows the plugin as incompatible, and the toolbox and the viewer still work on their own. Node.js scripts need Node.js Runtime 2.2.0 or later and Bun scripts need Bun Runtime 0.23.0 or later (Android 13 and later); neither version is released yet. The script API is described in the \"Script API\" section of the README and in the `pdf` chapter of the AutoJs6 documentation, which comes with AutoJs6 6.8.1.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) only for the files you choose in the toolbox and the viewer (script files arrive as file descriptors), notifications for the task progress notification (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). Document passwords are only used for the current operation and are never stored. See \"Permissions and security\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (PDFBox-Android 2.0.27.0, Bouncy Castle, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-paper-pdf-v1.0.0-2bf2221b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/releases/download/v1.0.0/autojs6-plugin-three-paper-pdf-v1.0.0-2bf2221b.apk",
+              "size": 8231848,
+              "digest": "sha256:44e6c96b915837ca7c47d6f8f9fb8f73210e8ecc561431fbf46cc31bf27d9d58",
+              "sha256": "44e6c96b915837ca7c47d6f8f9fb8f73210e8ecc561431fbf46cc31bf27d9d58",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 41,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.paper.pdf",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "9f61b3e8c9c19d5d5d818311363ea76e942696b0"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
       "repository": {
         "owner": "SuperMonster003",

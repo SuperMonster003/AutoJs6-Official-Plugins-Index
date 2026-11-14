@@ -868,6 +868,25 @@
         "sha256": "1bb7916b155e5f50da811ddd764549de3bbfada1621158d2d438e255f391d74e"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.three.paper.pdf": {
+      "repository": "AutoJs6-Plugin-Three-Paper-PDF",
+      "sourceCommit": "9f61b3e8c9c19d5d5d818311363ea76e942696b0",
+      "sourceDirty": false,
+      "recipeSha256": "89d9b7aae21f099590469c30ddfb6a6b7d2d37366081d4f66265dc3f7c540f26",
+      "generatorVersion": "1.4.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/6d75c58b912d71af4d0e5a756d4f73c44ac386baf02d717858205ee156e9bede.png",
+        "sha256": "6d75c58b912d71af4d0e5a756d4f73c44ac386baf02d717858205ee156e9bede"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/af61dfa6a425ede2ee24e4e7ad92a7d67d493cad3c00920c73c058b1f3ee843b.png",
+        "sha256": "af61dfa6a425ede2ee24e4e7ad92a7d67d493cad3c00920c73c058b1f3ee843b"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.three.prism.camera": {
       "repository": "AutoJs6-Plugin-Three-Prism-Camera",
       "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5",
