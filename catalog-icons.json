@@ -1020,6 +1020,25 @@
         "sha256": "c4040fdf4b757ab384c250c850669de82707cd1bd3bed7e8e4eaa0be873e5da0"
       }
     },
+    "io.github.supermonster003.autojs6.plugin.three.tally.sheet": {
+      "repository": "AutoJs6-Plugin-Three-Tally-Sheet",
+      "sourceCommit": "3c50add39959f5d02d0b8a52f30fe0922d46f84d",
+      "sourceDirty": false,
+      "recipeSha256": "bf30879f90a441f82a9c57cddb3d359e3153b42c0548537b943860fbbf1caa0d",
+      "generatorVersion": "1.4.0",
+      "backgrounds": {
+        "day": "#fafafa",
+        "night": "#212121"
+      },
+      "day": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/43bd4c97c2072a7a8a619753b2062caec3b5e55df469e2a157d7729dc250e0f5.png",
+        "sha256": "43bd4c97c2072a7a8a619753b2062caec3b5e55df469e2a157d7729dc250e0f5"
+      },
+      "night": {
+        "path": "icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/cc4775b58626069b18fc905523e916c89222dac88b6afe69a3595a07e67c19ce.png",
+        "sha256": "cc4775b58626069b18fc905523e916c89222dac88b6afe69a3595a07e67c19ce"
+      }
+    },
     "io.github.supermonster003.autojs6.plugin.threestoneai": {
       "repository": "AutoJs6-Plugin-Three-Stone-AI",
       "sourceCommit": "6a12e9b0365a5fb18371bde0dde1c5dc42ff24be",

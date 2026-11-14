@@ -11534,8 +11534,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Three-Tally-Sheet"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/43bd4c97c2072a7a8a619753b2062caec3b5e55df469e2a157d7729dc250e0f5.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/cc4775b58626069b18fc905523e916c89222dac88b6afe69a3595a07e67c19ce.png",
       "title": "3-Tally Sheet",
       "description": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
       "localizedDescriptions": {
@@ -11585,7 +11585,21 @@
               "name": "autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/download/v1.0.0/autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
               "size": 6531506,
-              "digest": "sha256:6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438"
+              "digest": "sha256:6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
+              "sha256": "6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 68,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "3c50add39959f5d02d0b8a52f30fe0922d46f84d"
             }
           ],
           "prerelease": false,

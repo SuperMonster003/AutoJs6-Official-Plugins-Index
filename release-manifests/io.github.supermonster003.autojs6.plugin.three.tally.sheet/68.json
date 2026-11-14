@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Tally-Sheet",
+  "releaseTag": "v1.0.0",
+  "sourceCommit": "3c50add39959f5d02d0b8a52f30fe0922d46f84d",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
+  "versionName": "1.0.0",
+  "versionCode": 68,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
+      "sha256": "6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
+      "sizeBytes": 6531506
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
