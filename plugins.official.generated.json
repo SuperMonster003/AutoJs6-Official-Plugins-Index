@@ -9756,7 +9756,15 @@
               "name": "autojs6-plugin-three-chime-alarm-v1.3.0-026daa91.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/download/v1.3.0/autojs6-plugin-three-chime-alarm-v1.3.0-026daa91.apk",
               "size": 3078762,
-              "digest": "sha256:ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2"
+              "digest": "sha256:ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2",
+              "sha256": "ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.3.0",
+              "versionCode": 90,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
+              "sourceCommit": "1a6892a5c65663d3f59f56c8f636967ff09a604e"
             }
           ],
           "prerelease": false,
