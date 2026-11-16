@@ -10318,19 +10318,19 @@
         "values-zh-rTW": "\u5716\u7247\u6aa2\u8996, \u7de8\u8f2f\u8207\u683c\u5f0f\u8f49\u63db"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.3/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/refs/tags/v3.4.4/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -10341,23 +10341,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "3.4.3",
-          "versionCode": 209,
-          "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/tag/v3.4.3",
-          "changelogText": "3-Maple Image 3.4.3\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `2849b71f9b7f0237c16643a42494e1ccce590ecc`\n\nPublished release.\n\n- Fix: In the AutoJs6 file manager, the options \"View as album\" and \"Convert images\" of this plugin no longer appear in English in other interface languages\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "3.4.4",
+          "versionCode": 210,
+          "versionDate": "2026-11-16",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/tag/v3.4.4",
+          "changelogText": "3-Maple Image 3.4.4\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `9a6ce3fd1326cc83ed5adc220189b0230d481584`\r\n\r\nPublished release.\r\n\r\n- Fix: Appearance settings reported AutoJs6 as unavailable even when installed and enabled, preventing its language, night mode and theme color from being followed\r\n\r\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-maple-image-v3.4.3-c6b03c94.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/download/v3.4.3/autojs6-plugin-three-maple-image-v3.4.3-c6b03c94.apk",
-              "size": 4399306,
-              "digest": "sha256:f589ed8c9400f6977c42d251131f5d709c830d28be1f8bc6135c77911cb06312",
-              "sha256": "f589ed8c9400f6977c42d251131f5d709c830d28be1f8bc6135c77911cb06312",
+              "name": "autojs6-plugin-three-maple-image-v3.4.4-198a821a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Maple-Image/releases/download/v3.4.4/autojs6-plugin-three-maple-image-v3.4.4-198a821a.apk",
+              "size": 4400330,
+              "digest": "sha256:624154adb1df1bd80fe1ff9ea32255997e8baff51f337a233c3965fa074bee0e",
+              "sha256": "624154adb1df1bd80fe1ff9ea32255997e8baff51f337a233c3965fa074bee0e",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.4.3",
-              "versionCode": 209,
+              "versionName": "3.4.4",
+              "versionCode": 210,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.maple.image",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10365,7 +10365,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "2849b71f9b7f0237c16643a42494e1ccce590ecc"
+              "sourceCommit": "9a6ce3fd1326cc83ed5adc220189b0230d481584"
             }
           ],
           "prerelease": false,
@@ -11036,19 +11036,19 @@
         "values-zh-rTW": "\u58d3\u7e2e\u6a94\u6848\u700f\u89bd, \u89e3\u58d3\u7e2e, \u5efa\u7acb\u8207\u7ba1\u7406"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/refs/tags/v3.1.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -11057,23 +11057,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "3.1.2",
-          "versionCode": 133,
-          "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/tag/v3.1.2",
-          "changelogText": "3-Stack Archive 3.1.2\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `b65b980ae5e5e5554bb18ee8900f06ed229d117b`\n\nPublished release.\n\n- Fix: In the AutoJs6 file manager, the options \"Open as archive...\" and \"Compress...\" of this plugin no longer appear in English in other interface languages\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "3.1.3",
+          "versionCode": 134,
+          "versionDate": "2026-11-16",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/tag/v3.1.3",
+          "changelogText": "3-Stack Archive 3.1.3\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `6af2fe93bb3434e5f2b8766f3d522e984b7c5349`\r\n\r\nPublished release.\r\n\r\n- Fix: Appearance settings reported AutoJs6 as unavailable even when installed and enabled, preventing its language, night mode and theme color from being followed\r\n\r\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-stack-archive-v3.1.2-arm64-v8a-D98AA044.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.2/autojs6-plugin-three-stack-archive-v3.1.2-arm64-v8a-D98AA044.apk",
-              "size": 3523984,
-              "digest": "sha256:c6bbc885d6ef965148a95e5df0ea7912245129e3dd49603489340979b03161fe",
-              "sha256": "c6bbc885d6ef965148a95e5df0ea7912245129e3dd49603489340979b03161fe",
+              "name": "autojs6-plugin-three-stack-archive-v3.1.3-arm64-v8a-363DD0F8.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.3/autojs6-plugin-three-stack-archive-v3.1.3-arm64-v8a-363DD0F8.apk",
+              "size": 3541376,
+              "digest": "sha256:2b9de0146d5fbde10ae2b34862af6bb295b82be95a69008b4058e4142d6f8c6f",
+              "sha256": "2b9de0146d5fbde10ae2b34862af6bb295b82be95a69008b4058e4142d6f8c6f",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.2",
-              "versionCode": 133,
+              "versionName": "3.1.3",
+              "versionCode": 134,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
               "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
               "supportedAbis": [
@@ -11082,19 +11082,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b65b980ae5e5e5554bb18ee8900f06ed229d117b"
+              "sourceCommit": "6af2fe93bb3434e5f2b8766f3d522e984b7c5349"
             },
             {
-              "name": "autojs6-plugin-three-stack-archive-v3.1.2-armeabi-v7a-9DD654D1.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.2/autojs6-plugin-three-stack-archive-v3.1.2-armeabi-v7a-9DD654D1.apk",
-              "size": 3410958,
-              "digest": "sha256:4cd9aeff6a55d5dfad3a3abf2e54f883cc3d29e132edde94e73b56b83b62e7d4",
-              "sha256": "4cd9aeff6a55d5dfad3a3abf2e54f883cc3d29e132edde94e73b56b83b62e7d4",
+              "name": "autojs6-plugin-three-stack-archive-v3.1.3-armeabi-v7a-3A03DDED.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.3/autojs6-plugin-three-stack-archive-v3.1.3-armeabi-v7a-3A03DDED.apk",
+              "size": 3428350,
+              "digest": "sha256:1c2ccfddd31fc433cc32ad012c67a7ceeeddd71f02a77397dd4567e4ade58f60",
+              "sha256": "1c2ccfddd31fc433cc32ad012c67a7ceeeddd71f02a77397dd4567e4ade58f60",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.2",
-              "versionCode": 133,
+              "versionName": "3.1.3",
+              "versionCode": 134,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
               "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
               "supportedAbis": [
@@ -11103,19 +11103,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b65b980ae5e5e5554bb18ee8900f06ed229d117b"
+              "sourceCommit": "6af2fe93bb3434e5f2b8766f3d522e984b7c5349"
             },
             {
-              "name": "autojs6-plugin-three-stack-archive-v3.1.2-universal-BC0669DA.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.2/autojs6-plugin-three-stack-archive-v3.1.2-universal-BC0669DA.apk",
-              "size": 5020706,
-              "digest": "sha256:cb8b5f3e90209bde8877aa33ea7dfd2050776e05f9f6b3de12d45d5aecb0e826",
-              "sha256": "cb8b5f3e90209bde8877aa33ea7dfd2050776e05f9f6b3de12d45d5aecb0e826",
+              "name": "autojs6-plugin-three-stack-archive-v3.1.3-universal-FC009D30.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.3/autojs6-plugin-three-stack-archive-v3.1.3-universal-FC009D30.apk",
+              "size": 5038098,
+              "digest": "sha256:cc3f870889f7a7c6283ec528d6bb860c6bd7bf57312343b5263b7bd9997d2453",
+              "sha256": "cc3f870889f7a7c6283ec528d6bb860c6bd7bf57312343b5263b7bd9997d2453",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.2",
-              "versionCode": 133,
+              "versionName": "3.1.3",
+              "versionCode": 134,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
               "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
               "supportedAbis": [
@@ -11124,19 +11124,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b65b980ae5e5e5554bb18ee8900f06ed229d117b"
+              "sourceCommit": "6af2fe93bb3434e5f2b8766f3d522e984b7c5349"
             },
             {
-              "name": "autojs6-plugin-three-stack-archive-v3.1.2-x86-22AC3466.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.2/autojs6-plugin-three-stack-archive-v3.1.2-x86-22AC3466.apk",
-              "size": 3599938,
-              "digest": "sha256:c5b8e25fb4fd9fecaceac153c13ae6794818681a9dff033becdc02eb7bea06b2",
-              "sha256": "c5b8e25fb4fd9fecaceac153c13ae6794818681a9dff033becdc02eb7bea06b2",
+              "name": "autojs6-plugin-three-stack-archive-v3.1.3-x86-9A71229D.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.3/autojs6-plugin-three-stack-archive-v3.1.3-x86-9A71229D.apk",
+              "size": 3617330,
+              "digest": "sha256:336db2097392bc1bbb4c1cead2c6d0a28093543ae3de91c2b09f95524af22ebe",
+              "sha256": "336db2097392bc1bbb4c1cead2c6d0a28093543ae3de91c2b09f95524af22ebe",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.2",
-              "versionCode": 133,
+              "versionName": "3.1.3",
+              "versionCode": 134,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
               "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
               "supportedAbis": [
@@ -11145,19 +11145,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b65b980ae5e5e5554bb18ee8900f06ed229d117b"
+              "sourceCommit": "6af2fe93bb3434e5f2b8766f3d522e984b7c5349"
             },
             {
-              "name": "autojs6-plugin-three-stack-archive-v3.1.2-x86_64-22526F51.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.2/autojs6-plugin-three-stack-archive-v3.1.2-x86_64-22526F51.apk",
-              "size": 3595053,
-              "digest": "sha256:e8087679480895333dec45506cb865babcae7b5e3a052c5183033cecfcd83c5d",
-              "sha256": "e8087679480895333dec45506cb865babcae7b5e3a052c5183033cecfcd83c5d",
+              "name": "autojs6-plugin-three-stack-archive-v3.1.3-x86_64-B7E1842C.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.3/autojs6-plugin-three-stack-archive-v3.1.3-x86_64-B7E1842C.apk",
+              "size": 3612445,
+              "digest": "sha256:b4f8f1f558aafac4092c48a04adc434ca6627bae3d983d30ab22ef31517695d6",
+              "sha256": "b4f8f1f558aafac4092c48a04adc434ca6627bae3d983d30ab22ef31517695d6",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "3.1.2",
-              "versionCode": 133,
+              "versionName": "3.1.3",
+              "versionCode": 134,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
               "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
               "supportedAbis": [
@@ -11166,7 +11166,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "b65b980ae5e5e5554bb18ee8900f06ed229d117b"
+              "sourceCommit": "6af2fe93bb3434e5f2b8766f3d522e984b7c5349"
             }
           ],
           "prerelease": false,
