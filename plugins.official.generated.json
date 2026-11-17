@@ -373,8 +373,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-APK-Inspector"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.3/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.3/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.apkinspector/fc4c36adc0ded50d4a7ffcf5fce9f5c9be0b5b1b8afec790176d5d2e7c98c680.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.apkinspector/dc9767c9cfab5dcb17e93c3ac43f7dcf34c5c87be9fe99d13543e584d577d7b6.png",
       "title": "APK Inspector",
       "description": "Inspect installation packages and their contents",
       "localizedDescriptions": {
@@ -944,8 +944,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-DEX-Compiler"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-DEX-Compiler/refs/tags/v1.1.3/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-DEX-Compiler/refs/tags/v1.1.3/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.dexcompiler/2adcbeb0ed8e8fb409fb4f9b5c53c105c91ee69a4bc9c279af41a55919d45fc3.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.dexcompiler/1fac9abc83af24e6ee21fffee9f4e6c3a864658852f6f9deefc594a0d96d2744.png",
       "title": "DEX Compiler",
       "description": "Compiles bounded JAR inputs with D8 and packages indexed DEX ZIP artifacts",
       "localizedDescriptions": {
@@ -1024,8 +1024,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-File-Inspector"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.3/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.3/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.fileinspector/7fd90e879e7ab0c65d149f879b0b491935699da539258f4fad9ce8752e58b7af.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.fileinspector/7e0f05703199c25a7c74abd2d37d77429945422ff53c04da4d2264ebbd911d7c.png",
       "title": "File Inspector",
       "description": "Inspect file metadata and verify checksums",
       "localizedDescriptions": {
@@ -1103,8 +1103,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-HTML-Previewer"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.6/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.6/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.htmlpreviewer/df46a61502c2fab153dc5db80d2d843032e705529335ef6894fdd56bc50ad268.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.htmlpreviewer/0b7efecbc39a7fffbdbf53d0132d0dcbe9be35698a2c99b3295075d4a0da52e2.png",
       "title": "HTML Previewer",
       "description": "Preview HTML and MHTML files",
       "localizedDescriptions": {
@@ -1354,8 +1354,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-ImGui"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.imgui/7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.imgui/7b1d204de728016800c058956789382bf3c84c4d3614d36ac332dc77aab2b09f.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.imgui/844d8c52499e93539d14c2bac5718ac0a2df4306b5be272db21bb64aa045b806.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.imgui/86740f9157fc6db28831e7988cbb0da7b5ec031973d83c4c14ea51f2c0ba7b0e.png",
       "title": "Dear ImGui",
       "description": "Create floating user interfaces with Dear ImGui",
       "localizedDescriptions": {
@@ -1517,8 +1517,8 @@
       "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#10161f",
-      "nightIconBackgroundColor": "#10161f"
+      "iconBackgroundColor": "transparent",
+      "nightIconBackgroundColor": "transparent"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
@@ -1962,8 +1962,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Markdown-Previewer"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.6/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.6/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.markdownpreviewer/04d441e891e24be6c90aed6e4b43d6249ffc1ca908c898d9a92ede8dbaa85b43.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.markdownpreviewer/932e4e2ec3bd6a55cfa4c546309916a0f294c2f84a9f71ec1670c1358505cd79.png",
       "title": "Markdown Previewer",
       "description": "Preview Markdown documents",
       "localizedDescriptions": {
@@ -2041,8 +2041,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-MCP-Server"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.mcp.server/afb437f112efdb787408687f38a308ffcb15e00482aea9c2d72fbac6a086014e.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.mcp.server/a55a804184c1160cb91458dc4e92f6598725371b99c10fc89a783cb08f0bb3ae.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.mcp.server/8ae69d495bb767184693155a7c6f243a4e057f6ab959e6ac3631abaf0395a55a.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.mcp.server/8109458f760250466e63bb2e16a1989f1ceb5cb352a18c3374ac56d3ed1e27eb.png",
       "title": "MCP Server",
       "description": "Exposes device automation to AI agents over the Model Context Protocol",
       "localizedDescriptions": {
@@ -2115,8 +2115,8 @@
       "nativePageAlignment": 0,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#0f766e",
-      "nightIconBackgroundColor": "#115e59"
+      "iconBackgroundColor": "transparent",
+      "nightIconBackgroundColor": "transparent"
     },
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.mediainfo",
@@ -2793,8 +2793,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Offline-Docs"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/4e882099f6086eb870e5d5d396780be048ecae5aaa548ae7e87ebb5bb3ce5b59.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/0325e356371b571df7d162af2ba47e8e0d28861f2fb46c30c4debf54de896908.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.offlinedocs/38581a2bc578d3059f4b80ed65120b4bc05e1b6e76cfa483303f8cb6d8d5ce73.png",
       "title": "Offline Documentation",
       "description": "Offline documentation 6.8.0 content plugin for AutoJs6",
       "localizedDescriptions": {
@@ -8596,8 +8596,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Pinyin"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Pinyin/refs/tags/v1.0.4/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Pinyin/refs/tags/v1.0.4/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.pinyin/86227a5f746795e562b3dea3b147e89d9d7d61b41f99e4f3fcd5d31bae1b0018.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.pinyin/0336504c5a4ce535d12970c96da87e1c92c52dce0a7e88f7cfd3abf22b8178bf.png",
       "title": "Pinyin",
       "description": "Pinyin plugin for Chinese pronunciation conversion",
       "localizedDescriptions": {
@@ -8678,8 +8678,8 @@
         "owner": "SuperMonster003",
         "name": "AutoJs6-Plugin-Pinyin4j"
       },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Pinyin4j/refs/tags/v1.4.0/app/src/main/res/mipmap/ic_plugin_center.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Pinyin4j/refs/tags/v1.4.0/app/src/main/res/mipmap-night/ic_plugin_center.png",
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.pinyin4j/55db1d03f3fc25c0efa5db4c833a180c67e556fceec0400c5d4bc7330639f057.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.pinyin4j/dddf5a317d6ee23d6635de87e68b67f59cd2c3c76d74fb8966a2c9b40c9255c8.png",
       "title": "Pinyin4j",
       "description": "Pinyin4j plugin for Chinese to Hanyu Pinyin conversion",
       "localizedDescriptions": {
