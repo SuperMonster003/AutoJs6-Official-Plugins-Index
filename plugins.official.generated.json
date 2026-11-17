@@ -11327,31 +11327,101 @@
               "name": "autojs6-plugin-three-stone-ai-v1.7.1-arm64-v8a-903C95DD.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.1/autojs6-plugin-three-stone-ai-v1.7.1-arm64-v8a-903C95DD.apk",
               "size": 25092527,
-              "digest": "sha256:d6acee1948d5d8c17a9dc9c9e810566bcecd038d53e41576abf1514534f25a3a"
+              "digest": "sha256:d6acee1948d5d8c17a9dc9c9e810566bcecd038d53e41576abf1514534f25a3a",
+              "sha256": "d6acee1948d5d8c17a9dc9c9e810566bcecd038d53e41576abf1514534f25a3a",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.7.1",
+              "versionCode": 359,
+              "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d8dde3e05f34c3f884d33d885d643a702a578091"
             },
             {
               "name": "autojs6-plugin-three-stone-ai-v1.7.1-armeabi-v7a-C976D055.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.1/autojs6-plugin-three-stone-ai-v1.7.1-armeabi-v7a-C976D055.apk",
               "size": 3882317,
-              "digest": "sha256:7f9d22820d4ee4cc904662a9bcef095007637d61304e29c31b8cfe848b34316b"
+              "digest": "sha256:7f9d22820d4ee4cc904662a9bcef095007637d61304e29c31b8cfe848b34316b",
+              "sha256": "7f9d22820d4ee4cc904662a9bcef095007637d61304e29c31b8cfe848b34316b",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.7.1",
+              "versionCode": 359,
+              "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d8dde3e05f34c3f884d33d885d643a702a578091"
             },
             {
               "name": "autojs6-plugin-three-stone-ai-v1.7.1-universal-3BB842B1.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.1/autojs6-plugin-three-stone-ai-v1.7.1-universal-3BB842B1.apk",
               "size": 50316258,
-              "digest": "sha256:956d0b00c39989fe0806f06c2d666321a506d8c686d35c9686495a876f5ba9de"
+              "digest": "sha256:956d0b00c39989fe0806f06c2d666321a506d8c686d35c9686495a876f5ba9de",
+              "sha256": "956d0b00c39989fe0806f06c2d666321a506d8c686d35c9686495a876f5ba9de",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.7.1",
+              "versionCode": 359,
+              "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d8dde3e05f34c3f884d33d885d643a702a578091"
             },
             {
               "name": "autojs6-plugin-three-stone-ai-v1.7.1-x86-C976D055.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.1/autojs6-plugin-three-stone-ai-v1.7.1-x86-C976D055.apk",
               "size": 3882317,
-              "digest": "sha256:7f9d22820d4ee4cc904662a9bcef095007637d61304e29c31b8cfe848b34316b"
+              "digest": "sha256:7f9d22820d4ee4cc904662a9bcef095007637d61304e29c31b8cfe848b34316b",
+              "sha256": "7f9d22820d4ee4cc904662a9bcef095007637d61304e29c31b8cfe848b34316b",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.7.1",
+              "versionCode": 359,
+              "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d8dde3e05f34c3f884d33d885d643a702a578091"
             },
             {
               "name": "autojs6-plugin-three-stone-ai-v1.7.1-x86_64-2E95582E.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stone-AI/releases/download/v1.7.1/autojs6-plugin-three-stone-ai-v1.7.1-x86_64-2E95582E.apk",
               "size": 29115284,
-              "digest": "sha256:668842905550925404a35b145cf54c7dc50dc71a1abf498f232a09034f9ed94f"
+              "digest": "sha256:668842905550925404a35b145cf54c7dc50dc71a1abf498f232a09034f9ed94f",
+              "sha256": "668842905550925404a35b145cf54c7dc50dc71a1abf498f232a09034f9ed94f",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.7.1",
+              "versionCode": 359,
+              "packageName": "io.github.supermonster003.autojs6.plugin.threestoneai",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d8dde3e05f34c3f884d33d885d643a702a578091"
             }
           ],
           "prerelease": false,
