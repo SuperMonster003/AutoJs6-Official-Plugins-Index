@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-TypeScript-Engine",
+  "releaseTag": "v0.7.1",
+  "sourceCommit": "7dfb0e8f8b31d03a89d376f52fb847a63e39166d",
+  "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
+  "versionName": "0.7.1",
+  "versionCode": 127,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-typescript-engine-v0.7.1-universal-59BD897B.apk",
+      "sha256": "de5881235e1831352b1286eaa3d21f635c70dfd28f7849b099bf1ab774ab0de9",
+      "sizeBytes": 4256608
+    },
+    {
+      "name": "autojs6-plugin-typescript-engine-v0.7.1-armeabi-v7a-9B706420.apk",
+      "sha256": "71aae279f52ae09cbabade080e872035b59ea9f03ad2bc804cef3e09a5a42861",
+      "sizeBytes": 4205934
+    },
+    {
+      "name": "autojs6-plugin-typescript-engine-v0.7.1-x86_64-EA5EAB12.apk",
+      "sha256": "98c78b3fad31c4f1dd63811fdd99c49ce131029ff230c6d2f101cc41f81cdb51",
+      "sizeBytes": 4207205
+    },
+    {
+      "name": "autojs6-plugin-typescript-engine-v0.7.1-x86-A8C7F681.apk",
+      "sha256": "55b74024a8f28bf50d97d9c396fcf07722593df166329f06a8a22cf012bf1d02",
+      "sizeBytes": 4206182
+    },
+    {
+      "name": "autojs6-plugin-typescript-engine-v0.7.1-arm64-v8a-153BB711.apk",
+      "sha256": "6f470d19b8f22cfa0e42b2e9cbef29db68d1241f905beb4f28e5244dbb4ece0e",
+      "sizeBytes": 4207192
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

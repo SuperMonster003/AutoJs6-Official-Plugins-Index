@@ -11759,31 +11759,101 @@
               "name": "autojs6-plugin-typescript-engine-v0.7.1-arm64-v8a-153BB711.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.1/autojs6-plugin-typescript-engine-v0.7.1-arm64-v8a-153BB711.apk",
               "size": 4207192,
-              "digest": "sha256:6f470d19b8f22cfa0e42b2e9cbef29db68d1241f905beb4f28e5244dbb4ece0e"
+              "digest": "sha256:6f470d19b8f22cfa0e42b2e9cbef29db68d1241f905beb4f28e5244dbb4ece0e",
+              "sha256": "6f470d19b8f22cfa0e42b2e9cbef29db68d1241f905beb4f28e5244dbb4ece0e",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "0.7.1",
+              "versionCode": 127,
+              "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7dfb0e8f8b31d03a89d376f52fb847a63e39166d"
             },
             {
               "name": "autojs6-plugin-typescript-engine-v0.7.1-armeabi-v7a-9B706420.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.1/autojs6-plugin-typescript-engine-v0.7.1-armeabi-v7a-9B706420.apk",
               "size": 4205934,
-              "digest": "sha256:71aae279f52ae09cbabade080e872035b59ea9f03ad2bc804cef3e09a5a42861"
+              "digest": "sha256:71aae279f52ae09cbabade080e872035b59ea9f03ad2bc804cef3e09a5a42861",
+              "sha256": "71aae279f52ae09cbabade080e872035b59ea9f03ad2bc804cef3e09a5a42861",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "0.7.1",
+              "versionCode": 127,
+              "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7dfb0e8f8b31d03a89d376f52fb847a63e39166d"
             },
             {
               "name": "autojs6-plugin-typescript-engine-v0.7.1-universal-59BD897B.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.1/autojs6-plugin-typescript-engine-v0.7.1-universal-59BD897B.apk",
               "size": 4256608,
-              "digest": "sha256:de5881235e1831352b1286eaa3d21f635c70dfd28f7849b099bf1ab774ab0de9"
+              "digest": "sha256:de5881235e1831352b1286eaa3d21f635c70dfd28f7849b099bf1ab774ab0de9",
+              "sha256": "de5881235e1831352b1286eaa3d21f635c70dfd28f7849b099bf1ab774ab0de9",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "0.7.1",
+              "versionCode": 127,
+              "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7dfb0e8f8b31d03a89d376f52fb847a63e39166d"
             },
             {
               "name": "autojs6-plugin-typescript-engine-v0.7.1-x86-A8C7F681.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.1/autojs6-plugin-typescript-engine-v0.7.1-x86-A8C7F681.apk",
               "size": 4206182,
-              "digest": "sha256:55b74024a8f28bf50d97d9c396fcf07722593df166329f06a8a22cf012bf1d02"
+              "digest": "sha256:55b74024a8f28bf50d97d9c396fcf07722593df166329f06a8a22cf012bf1d02",
+              "sha256": "55b74024a8f28bf50d97d9c396fcf07722593df166329f06a8a22cf012bf1d02",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "0.7.1",
+              "versionCode": 127,
+              "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7dfb0e8f8b31d03a89d376f52fb847a63e39166d"
             },
             {
               "name": "autojs6-plugin-typescript-engine-v0.7.1-x86_64-EA5EAB12.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-TypeScript-Engine/releases/download/v0.7.1/autojs6-plugin-typescript-engine-v0.7.1-x86_64-EA5EAB12.apk",
               "size": 4207205,
-              "digest": "sha256:98c78b3fad31c4f1dd63811fdd99c49ce131029ff230c6d2f101cc41f81cdb51"
+              "digest": "sha256:98c78b3fad31c4f1dd63811fdd99c49ce131029ff230c6d2f101cc41f81cdb51",
+              "sha256": "98c78b3fad31c4f1dd63811fdd99c49ce131029ff230c6d2f101cc41f81cdb51",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "0.7.1",
+              "versionCode": 127,
+              "packageName": "io.github.supermonster003.autojs6.plugin.typescript",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7dfb0e8f8b31d03a89d376f52fb847a63e39166d"
             }
           ],
           "prerelease": false,
