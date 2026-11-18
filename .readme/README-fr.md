@@ -35,6 +35,8 @@ L'index sélectionne la version la plus récemment **publiée** de chaque dépô
 
 `official-repositories.json` répertorie les 58 projets officiels attendus, dont 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB et 3-Shell Terminal. La génération échoue avant toute écriture si un projet requis n'a pas d'entrée recommandée avec des APK publiés ou si des noms de paquet se chevauchent. D'autres dépôts peuvent toujours être découverts automatiquement; ajoutez les nouveaux projets officiels à cet inventaire pour éviter leur omission. Les variantes APK peuvent produire davantage d'entrées que de projets.
 
+`published-host.json` indique le plus récent hôte AutoJs6 publié pour les utilisateurs (par exemple 6.8.0, code de version 6640). Les hôtes jusqu'à 6.8.0 ne vérifient pas `requiresHostVersion` et considèrent comme installables les plugins qui exigent un hôte plus récent. Lorsque la dernière version d'un dépôt exige un code de version hôte supérieur, son entrée passe donc dans le champ de premier niveau `deferredItems`, et `items` liste à la place la version antérieure la plus récente du même paquet qui respecte l'exigence et possède un manifeste d'admission; sans une telle version, le paquet n'est pas listé. Ces entrées de remplacement sont régénérées depuis l'étiquette de l'ancienne version et conservent son propre `requiresHostVersion`. Les anciens hôtes ignorent les champs de premier niveau inconnus; le contrôle de couverture des dépôts compte aussi `deferredItems`, et le champ de premier niveau `publishedHost` indique la version hôte utilisée pour la génération. Après la publication d'un nouvel hôte, remplacez `versionName` et `versionCode` par cette version puis poussez; une fois l'index régénéré par la CI, ces entrées reviennent dans `items`. Chaque exécution compare le fichier à la dernière version stable du dépôt de l'hôte sur GitHub et n'émet qu'un avertissement Actions en cas d'écart, sans modifier l'index généré.
+
 ## Métadonnées et compatibilité
 
 L'analyse des versions conserve `VERSION_CODE_OFFSET` et la version Android composite liée à l'hôte d'APK Builder. Les constantes Gradle de nom de paquet, les appels `resValue` sur plusieurs lignes et les lectures numériques explicites de `version.properties` sont pris en charge sans exécuter Gradle. Les expressions non résolues restent des erreurs.
@@ -135,6 +137,13 @@ Chaque langue produit `.readme/README-<code>.md` et `.changelog/CHANGELOG-<code>
 ## Journal des modifications
 
 Les changements du dépôt sont classés par date. Les versions des plugins restent dans l'index généré et les manifestes d'admission.
+
+### 2026-11-18
+
+_2026/11/18_
+
+- `Fonctionnalité` Les hôtes déjà publiés (6.8.0 et versions antérieures) ne voient plus les plugins qui exigent un hôte plus récent pour être activés: ces entrées passent dans `deferredItems` et reviennent après la mise à jour de `published-host.json` lors de la publication d'un nouvel hôte
+- `Amélioration` La génération de l'index compare `published-host.json` à la dernière version stable de l'hôte sur GitHub et affiche un avertissement Actions en cas d'écart
 
 ### 2026-10-12
 

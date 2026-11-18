@@ -5,6 +5,15 @@
   "changelog_label_improvement": "تحسين",
   "changelog_label_dependency": "تبعية",
   "$data": {
+    "2026-11-18": {
+      "released_date": "2026/11/18",
+      "feature": [
+        "لم تعد المضيفات المنشورة (6.8.0 وما قبله) ترى الإضافات التي تحتاج مضيفا أحدث لتفعيلها: تنتقل هذه الإدخالات إلى `deferredItems`, وتعود بعد تحديث `published-host.json` عند نشر مضيف جديد"
+      ],
+      "improvement": [
+        "يقارن توليد الفهرس `published-host.json` بأحدث إصدار مستقر للمضيف على GitHub, ويعرض تحذيرا في Actions عند عدم التطابق"
+      ]
+    },
     "2026-10-12": {
       "released_date": "2026/10/12",
       "feature": [

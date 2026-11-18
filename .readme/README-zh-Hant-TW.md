@@ -35,6 +35,8 @@ python tools/generate_official_plugin_index.py
 
 `official-repositories.json` 記錄預期的 58 個官方專案, 包括 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB 與 3-Shell Terminal. 若任何必要專案缺少附有已發行 APK 資源的推薦項目, 或出現套件名稱衝突, 產生器會在寫入索引前失敗. 其他儲存庫仍可自動探索; 新增官方專案時應將其加入清單, 防止意外遺漏. APK 發行變體可能使項目數超過專案數.
 
+`published-host.json` 記錄已向使用者發行的最新 AutoJs6 宿主 (例如 6.8.0, 版本代碼 6640). 6.8.0 及更早的宿主不檢查 `requiresHostVersion`, 會把要求更高宿主的外掛視為可安裝. 因此, 儲存庫最新發行要求的宿主版本代碼高於此值時, 該項目移入頂層 `deferredItems`, `items` 改列同一套件名稱中符合要求且附有准入清單的最近一次舊發行; 沒有這樣的發行時則不列出. 這些替代項目從舊發行標籤重新產生, 保留該發行本身的 `requiresHostVersion`. 舊宿主會忽略未知的頂層欄位; 儲存庫涵蓋檢查同時計入 `deferredItems`, 頂層 `publishedHost` 記錄本次產生使用的宿主版本. 新宿主發行後, 將 `versionName` 與 `versionCode` 改為該版本並推送, CI 重新產生後這些項目即回到 `items`. 每次產生都會與宿主儲存庫在 GitHub 上的最新正式發行比對, 不一致時只在 Actions 中發出警告, 不影響產生結果.
+
 ## 中繼資料與相容性
 
 版本解析保留 `VERSION_CODE_OFFSET` 與 APK Builder 配對宿主的複合 Android 版本. 支援靜態 Gradle 套件名稱常數, 多行 `resValue` 呼叫, 以及從 `version.properties` 明確讀取數值, 無需執行 Gradle. 無法解析的運算式仍會報錯.
@@ -135,6 +137,13 @@ python -m unittest discover -s .python/tests
 ## 更新日誌
 
 儲存庫變更依日期記錄. 外掛發行版本繼續保存在產生的外掛索引與准入清單中.
+
+### 2026-11-18
+
+_2026/11/18_
+
+- `新增` 已發行的宿主 (6.8.0 及更早) 不再看到需要更新宿主才能啟用的外掛: 這類項目移入 `deferredItems`, 宿主發行新版後修改 `published-host.json` 即可恢復
+- `優化` 產生索引時核對 `published-host.json` 與宿主在 GitHub 上的最新正式發行, 不一致時在 Actions 中提示
 
 ### 2026-10-12
 

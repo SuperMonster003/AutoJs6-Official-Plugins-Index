@@ -17,6 +17,13 @@ Repository changes are recorded by date. Plugin release versions remain in the g
 - [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ru.md)
 - [العربية [ar]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ar.md)
 
+## 2026-11-18
+
+_2026/11/18_
+
+- `Feature` Hosts already released to users (6.8.0 and earlier) no longer see plugins that need a newer host before they can be enabled: such entries move to `deferredItems`, and updating `published-host.json` after a host release brings them back
+- `Improvement` Index generation compares `published-host.json` with the latest stable host release on GitHub and shows an Actions warning when they differ
+
 ## 2026-10-12
 
 _2026/10/12_

@@ -17,6 +17,13 @@
 - [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ru.md)
 - [العربية [ar]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ar.md)
 
+## 2026-11-18
+
+_2026/11/18_
+
+- `新增` 已发布的宿主 (6.8.0 及更早) 不再看到需要更新宿主才能启用的插件: 这类条目移入 `deferredItems`, 宿主发布新版后修改 `published-host.json` 即可恢复
+- `优化` 生成索引时核对 `published-host.json` 与宿主在 GitHub 上的最新正式发行, 不一致时在 Actions 中提示
+
 ## 2026-10-12
 
 _2026/10/12_

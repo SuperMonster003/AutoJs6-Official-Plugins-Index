@@ -5,6 +5,15 @@
   "changelog_label_improvement": "優化",
   "changelog_label_dependency": "依賴",
   "$data": {
+    "2026-11-18": {
+      "released_date": "2026/11/18",
+      "feature": [
+        "已發行的宿主 (6.8.0 及更早) 不再看到需要更新宿主才能啟用的外掛: 這類條目移入 `deferredItems`, 宿主發行新版後修改 `published-host.json` 即可恢復"
+      ],
+      "improvement": [
+        "生成索引時核對 `published-host.json` 與宿主在 GitHub 上的最新正式發行, 不一致時在 Actions 中提示"
+      ]
+    },
     "2026-10-12": {
       "released_date": "2026/10/12",
       "feature": [

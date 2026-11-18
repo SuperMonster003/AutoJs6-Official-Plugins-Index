@@ -35,6 +35,8 @@ El índice selecciona la versión **publicada** más reciente de cada repositori
 
 `official-repositories.json` registra los 58 proyectos oficiales esperados, incluidos 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB y 3-Shell Terminal. La generación falla antes de escribir si algún proyecto obligatorio carece de una entrada destacada con APK publicados o si hay colisiones de nombres de paquete. Aún se pueden descubrir otros repositorios automáticamente; añada los proyectos oficiales nuevos al inventario para evitar omisiones. Las variantes APK pueden producir más entradas que proyectos.
 
+`published-host.json` registra el host AutoJs6 más reciente publicado para los usuarios (por ejemplo 6.8.0, código de versión 6640). Los hosts hasta 6.8.0 no comprueban `requiresHostVersion` y consideran instalables los plugins que exigen un host más reciente. Por ello, cuando la última versión de un repositorio requiere un código de versión del host superior, su entrada pasa al campo de primer nivel `deferredItems`, y `items` muestra en su lugar la versión anterior más reciente del mismo paquete que cumple el requisito y tiene manifiesto de admisión; si no existe tal versión, el paquete no se incluye. Estas entradas de reemplazo se regeneran desde la etiqueta de la versión anterior y conservan su propio `requiresHostVersion`. Los hosts antiguos ignoran los campos de primer nivel desconocidos; la comprobación de cobertura de repositorios también cuenta `deferredItems`, y el campo de primer nivel `publishedHost` registra la versión del host usada en la generación. Tras publicar un host nuevo, cambie `versionName` y `versionCode` a esa versión y envíe los cambios; cuando la CI regenere el índice, estas entradas vuelven a `items`. Cada ejecución compara el archivo con la última versión estable del repositorio del host en GitHub y, si no coinciden, solo emite una advertencia en Actions sin alterar el índice generado.
+
 ## Metadatos y compatibilidad
 
 El análisis de versiones conserva `VERSION_CODE_OFFSET` y la versión Android compuesta del host emparejado de APK Builder. Admite constantes Gradle de paquete, llamadas `resValue` multilínea y lecturas numéricas explícitas de `version.properties` sin ejecutar Gradle. Las expresiones sin resolver siguen siendo errores.
@@ -135,6 +137,13 @@ Cada idioma genera `.readme/README-<code>.md` y `.changelog/CHANGELOG-<code>.md`
 ## Registro de cambios
 
 Los cambios del repositorio se registran por fecha. Las versiones de plugins permanecen en el índice generado y los manifiestos de admisión.
+
+### 2026-11-18
+
+_2026/11/18_
+
+- `Función` Los hosts ya publicados (6.8.0 y anteriores) dejan de ver plugins que necesitan un host más reciente para activarse: esas entradas pasan a `deferredItems` y vuelven al actualizar `published-host.json` tras publicar un host nuevo
+- `Mejora` La generación del índice compara `published-host.json` con la última versión estable del host en GitHub y muestra una advertencia en Actions si no coinciden
 
 ### 2026-10-12
 

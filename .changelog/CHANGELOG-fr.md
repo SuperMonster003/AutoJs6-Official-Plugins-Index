@@ -17,6 +17,13 @@ Les changements du dépôt sont classés par date. Les versions des plugins rest
 - [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ru.md)
 - [العربية [ar]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ar.md)
 
+## 2026-11-18
+
+_2026/11/18_
+
+- `Fonctionnalité` Les hôtes déjà publiés (6.8.0 et versions antérieures) ne voient plus les plugins qui exigent un hôte plus récent pour être activés: ces entrées passent dans `deferredItems` et reviennent après la mise à jour de `published-host.json` lors de la publication d'un nouvel hôte
+- `Amélioration` La génération de l'index compare `published-host.json` à la dernière version stable de l'hôte sur GitHub et affiche un avertissement Actions en cas d'écart
+
 ## 2026-10-12
 
 _2026/10/12_

@@ -17,6 +17,13 @@
 - [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ru.md)
 - العربية [ar] # الحالية
 
+## 2026-11-18
+
+_2026/11/18_
+
+- `ميزة` لم تعد المضيفات المنشورة (6.8.0 وما قبله) ترى الإضافات التي تحتاج مضيفا أحدث لتفعيلها: تنتقل هذه الإدخالات إلى `deferredItems`, وتعود بعد تحديث `published-host.json` عند نشر مضيف جديد
+- `تحسين` يقارن توليد الفهرس `published-host.json` بأحدث إصدار مستقر للمضيف على GitHub, ويعرض تحذيرا في Actions عند عدم التطابق
+
 ## 2026-10-12
 
 _2026/10/12_

@@ -26,6 +26,8 @@ python tools/generate_official_plugin_index.py
 
 {{ p_inventory }}
 
+{{ p_published_host }}
+
 ## {{ h2_metadata }}
 
 {{ p_versions }}

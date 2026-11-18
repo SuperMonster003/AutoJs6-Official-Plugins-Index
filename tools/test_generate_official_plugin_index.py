@@ -2,10 +2,10 @@ import json
 import io
 import tempfile
 import unittest
-from contextlib import redirect_stderr
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 
 import generate_official_plugin_index as generator
 
@@ -1166,6 +1166,252 @@ class OfficialPluginIndexGeneratorTest(unittest.TestCase):
         for expected in expected_variants:
             self.assertTrue(all(f"-{expected}-" in name for name in asset_names), asset_names)
         self.assertEqual(3, len(asset_names))
+
+
+class PublishedHostDeferralTest(unittest.TestCase):
+    """Entries whose latest release requires an unpublished host stay out of `items` (hosts up to 6.8.0 read only it)."""
+
+    OWNER = "SuperMonster003"
+    REPO = {"name": "AutoJs6-Plugin-Example", "owner": {"login": OWNER}, "default_branch": "main"}
+    CEILING = 6640
+
+    def test_compatible_latest_release_is_listed_without_reading_older_releases(self):
+        releases = [self.release("v1.0.0", 1), self.release("v1.1.0", 2)]
+        items, deferred, calls, _, _ = self.build(releases, {"v1.1.0": [("example.plugin", self.CEILING)]})
+        self.assertEqual(["1.1.0"], self.versions(items))
+        self.assertEqual([], deferred)
+        self.assertEqual([("v1.1.0", "full")], calls)
+
+    def test_newer_host_requirement_falls_back_to_the_newest_compatible_admitted_release(self):
+        releases = [self.release("v1.0.0", 1), self.release("v1.2.0", 3), self.release("v1.1.0", 2)]
+        catalog = {
+            "v1.2.0": [("example.plugin", 6641)],
+            "v1.1.0": [("example.plugin", 6641)],
+            "v1.0.0": [("example.plugin", 6000)],
+        }
+        items, deferred, calls, out, _ = self.build(releases, catalog)
+        self.assertEqual(["1.0.0"], self.versions(items))
+        # The fallback carries the requirement of its own release, which is what the host applies to it.
+        self.assertEqual(6000, items[0]["requiresHostVersion"])
+        self.assertEqual(["1.2.0"], self.versions(deferred))
+        self.assertEqual(6641, deferred[0]["requiresHostVersion"])
+        # Releases that still require a newer host get the metadata-only pass: no APK or admission evidence is read.
+        self.assertEqual([("v1.2.0", "full"), ("v1.1.0", "probe"), ("v1.0.0", "probe"), ("v1.0.0", "full")], calls)
+        self.assertIn("Deferred example.plugin 1.2.0: requires host 6641 > published 6640; items lists 1.0.0 instead.", out)
+
+    def test_package_without_a_compatible_release_is_only_deferred(self):
+        releases = [self.release("v1.0.0", 1), self.release("v1.0.1", 2), self.release("v1.1.0", 3)]
+        catalog = {tag: [("example.plugin", 6641)] for tag in ("v1.0.0", "v1.0.1", "v1.1.0")}
+        items, deferred, calls, out, _ = self.build(releases, catalog)
+        self.assertEqual([], items)
+        self.assertEqual(["1.1.0"], self.versions(deferred))
+        self.assertEqual([("v1.1.0", "full"), ("v1.0.1", "probe"), ("v1.0.0", "probe")], calls)
+        self.assertIn("items lists no release", out)
+
+    def test_fallback_without_admission_evidence_is_not_listed(self):
+        releases = [self.release("v1.0.0", 1), self.release("v2.0.0", 2)]
+        catalog = {"v2.0.0": [("example.plugin", 6641)], "v1.0.0": [("example.plugin", 6000, False)]}
+        items, deferred, _, _, err = self.build(releases, catalog)
+        self.assertEqual([], items)
+        self.assertEqual(["2.0.0"], self.versions(deferred))
+        self.assertIn("skip AutoJs6-Plugin-Example@v1.0.0 as the fallback of example.plugin: no admission manifest", err)
+
+    def test_unbuildable_older_release_is_skipped_but_the_latest_release_still_fails_closed(self):
+        releases = [self.release("v1.0.0", 1), self.release("v1.1.0", 2), self.release("v1.2.0", 3)]
+        catalog = {
+            "v1.2.0": [("example.plugin", 6641)],
+            "v1.1.0": RuntimeError("unsupported legacy metadata"),
+            "v1.0.0": [("example.plugin", 6000)],
+        }
+        items, _, _, _, err = self.build(releases, catalog)
+        self.assertEqual(["1.0.0"], self.versions(items))
+        self.assertIn("skip AutoJs6-Plugin-Example@v1.1.0 as a host-compatible fallback: unsupported legacy metadata", err)
+        with self.assertRaisesRegex(RuntimeError, "unsupported legacy metadata"):
+            self.build(releases, {**catalog, "v1.2.0": RuntimeError("unsupported legacy metadata")})
+
+    def test_distributions_fall_back_independently_and_keep_their_order(self):
+        releases = [self.release("v1.0.0", 1), self.release("v2.0.0", 2)]
+        catalog = {
+            "v2.0.0": [("example.plugin.a", 6641), ("example.plugin.b", self.CEILING)],
+            "v1.0.0": [("example.plugin.a", 6000), ("example.plugin.b", 6000)],
+        }
+        items, deferred, _, _, _ = self.build(releases, catalog)
+        self.assertEqual(
+            [("example.plugin.a", "1.0.0"), ("example.plugin.b", "2.0.0")],
+            [(item["packageName"], item["releases"][0]["versionName"]) for item in items],
+        )
+        self.assertEqual(["example.plugin.a"], [item["packageName"] for item in deferred])
+
+    def test_fallback_order_uses_publication_date_and_ignores_drafts(self):
+        releases = [
+            self.release("v1.4.0", 1, published_at="2026-10-01T00:00:00Z"),
+            self.release("v3.0.0", 9, published_at="2026-11-12T00:00:00Z", draft=True),
+            self.release("v2.0.0", 3, published_at="2026-11-10T00:00:00Z"),
+            self.release("v1.5.0-rc.1", 2, published_at="2026-11-05T00:00:00Z", prerelease=True),
+        ]
+        catalog = {
+            "v2.0.0": [("example.plugin", 6641)],
+            "v1.5.0-rc.1": [("example.plugin", 6000)],
+            "v1.4.0": [("example.plugin", 6000)],
+        }
+        items, deferred, _, _, _ = self.build(releases, catalog)
+        self.assertEqual(["1.5.0-rc.1"], self.versions(items))
+        self.assertEqual(["2.0.0"], self.versions(deferred))
+
+    def test_without_a_host_ceiling_or_requirement_the_latest_release_is_listed(self):
+        releases = [self.release("v1.0.0", 1), self.release("v1.1.0", 2)]
+        items, deferred, calls, _, _ = self.build(releases, {"v1.1.0": [("example.plugin", 6641)]}, host_ceiling=None)
+        self.assertEqual((["1.1.0"], []), (self.versions(items), deferred))
+        self.assertEqual([("v1.1.0", "full")], calls)
+        items, deferred, _, _, _ = self.build(releases, {"v1.1.0": [("example.plugin", None)]})
+        self.assertEqual((["1.1.0"], []), (self.versions(items), deferred))
+
+    def test_published_host_file_is_strictly_validated(self):
+        valid = {"schemaVersion": 1, "versionName": "6.8.0", "versionCode": 6640}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "published-host.json"
+            path.write_text(json.dumps(valid), encoding="utf-8")
+            self.assertEqual({"versionName": "6.8.0", "versionCode": 6640}, generator.load_published_host(path))
+            for invalid in (
+                {**valid, "schemaVersion": 2},
+                {**valid, "schemaVersion": True},
+                {key: value for key, value in valid.items() if key != "versionCode"},
+                {**valid, "maxVersionCode": 6641},
+                {**valid, "versionCode": 0},
+                {**valid, "versionCode": "6640"},
+                {**valid, "versionCode": True},
+                {**valid, "versionName": ""},
+                {**valid, "versionName": " 6.8.0"},
+                {**valid, "versionName": "6.8.0 Alpha5"},
+            ):
+                with self.subTest(invalid=invalid):
+                    path.write_text(json.dumps(invalid), encoding="utf-8")
+                    with self.assertRaises(RuntimeError):
+                        generator.load_published_host(path)
+        # The checked-in file must stay loadable; CI generation reads it on every run.
+        self.assertGreater(generator.load_published_host(generator.DEFAULT_PUBLISHED_HOST)["versionCode"], 0)
+
+    def test_published_host_release_check_only_warns(self):
+        host = {"versionName": "6.8.0", "versionCode": 6640}
+        with patch.object(generator, "api_json", return_value={"tag_name": "v6.8.0"}) as request:
+            self.assertIsNone(generator.published_host_release_warning(host))
+            self.assertEqual("https://api.github.com/repos/SuperMonster003/AutoJs6/releases/latest", request.call_args.args[0])
+        with patch.object(generator, "api_json", return_value={"tag_name": "v6.8.1"}):
+            warning = generator.published_host_release_warning(host)
+            self.assertIn("published-host.json records AutoJs6 6.8.0 (6640)", warning)
+            self.assertIn("latest published AutoJs6 release is v6.8.1", warning)
+        with patch.object(generator, "api_json", return_value={"message": "Not Found"}):
+            self.assertIn("release is unknown", generator.published_host_release_warning(host))
+        for failure in (HTTPError("https://example.test", 403, "Forbidden", {}, None), URLError("offline")):
+            with self.subTest(failure=failure), patch.object(generator, "api_json", side_effect=failure):
+                self.assertIn("Cannot read the latest published AutoJs6 release", generator.published_host_release_warning(host))
+
+    def test_payload_lists_deferred_entries_after_items(self):
+        payload = generator.build_payload(
+            [{"packageName": "listed"}],
+            deferred_items=[{"packageName": "deferred"}],
+            published_host={"versionName": "6.8.0", "versionCode": 6640},
+        )
+        self.assertEqual(["schemaVersion", "source", "repository", "publishedHost", "items", "deferredItems"], list(payload))
+        self.assertEqual(2, payload["schemaVersion"])
+        self.assertEqual({"versionName": "6.8.0", "versionCode": 6640}, payload["publishedHost"])
+
+    def test_repository_coverage_counts_deferred_entries(self):
+        required = ["AutoJs6-Plugin-Example"]
+        entry = self.covered_entry("example.plugin")
+        generator.validate_repository_coverage([], required, deferred_items=[entry])
+        generator.validate_repository_coverage([entry], required, deferred_items=[entry])
+        with self.assertRaisesRegex(RuntimeError, "Deferred plugin entries contain duplicate"):
+            generator.validate_repository_coverage([], required, deferred_items=[entry, entry])
+        with self.assertRaisesRegex(RuntimeError, "no featured, published APK release"):
+            generator.validate_repository_coverage([], required, deferred_items=[{**entry, "featured": False}])
+
+    def test_main_writes_deferred_entries_with_catalog_presentation(self):
+        entry = self.covered_entry("io.github.example.deferred")
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "published-host.json").write_text(
+                json.dumps({"schemaVersion": 1, "versionName": "6.8.0", "versionCode": 6640}), encoding="utf-8"
+            )
+            (root / "required.json").write_text(json.dumps(["AutoJs6-Plugin-Example"]), encoding="utf-8")
+            argv = [
+                "generate_official_plugin_index.py",
+                "--output", str(root / "index.json"),
+                "--published-host", str(root / "published-host.json"),
+                "--required-repositories", str(root / "required.json"),
+                "--native-cache", str(root / "cache"),
+            ]
+            with patch("sys.argv", argv), \
+                    patch.object(generator, "published_host_release_warning", return_value="host 6.8.1 is out"), \
+                    patch.object(generator, "fetch_official_repos", return_value=[self.REPO]), \
+                    patch.object(generator, "build_repository_entries", return_value=([], [entry])) as build, \
+                    redirect_stdout(io.StringIO()) as out:
+                self.assertEqual(0, generator.main())
+            payload = json.loads((root / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(6640, build.call_args.kwargs["host_ceiling"])
+        self.assertIn("::warning title=Published AutoJs6 host::host 6.8.1 is out", out.getvalue())
+        self.assertIn("Indexed AutoJs6-Plugin-Example: 0 distributions, 1 deferred", out.getvalue())
+        self.assertEqual([], payload["items"])
+        self.assertEqual({"versionName": "6.8.0", "versionCode": 6640}, payload["publishedHost"])
+        deferred = payload["deferredItems"][0]
+        self.assertEqual("io.github.example.deferred", deferred["packageName"])
+        self.assertTrue(deferred["forceIgnoreLocalIcon"])
+        self.assertEqual("transparent", deferred["iconBackgroundColor"])
+
+    def build(self, releases, catalog, host_ceiling=CEILING):
+        """Run build_repository_entries on fake releases; catalog maps a tag to (package, requiresHostVersion[, admitted])."""
+        calls = []
+
+        def build_entries(*, release, admission_root, native_cache, **_):
+            tag = release["tag_name"]
+            full = admission_root is not None
+            calls.append((tag, "full" if full else "probe"))
+            self.assertEqual(full, native_cache is not None)
+            spec = catalog[tag]
+            if isinstance(spec, Exception):
+                raise spec
+            return [
+                self.entry(package, tag.removeprefix("v"), requires, admitted=full and (rest[0] if rest else True))
+                for package, requires, *rest in spec
+            ]
+
+        with patch.object(generator, "api_json_list", return_value=releases), \
+                patch.object(generator, "fetch_release_sources", side_effect=lambda owner, repo, release, branch: {"release": release}), \
+                patch.object(generator, "build_entries_from_release", side_effect=build_entries), \
+                redirect_stdout(io.StringIO()) as out, redirect_stderr(io.StringIO()) as err:
+            items, deferred = generator.build_repository_entries(
+                self.REPO,
+                admission_root=Path("release-manifests"),
+                native_cache=Path(".cache/native-alignment"),
+                host_ceiling=host_ceiling,
+            )
+        return items, deferred, calls, out.getvalue(), err.getvalue()
+
+    @staticmethod
+    def release(tag, release_id, *, published_at=None, **extra):
+        return {"id": release_id, "tag_name": tag, "published_at": published_at or f"2026-11-{release_id:02d}T00:00:00Z", **extra}
+
+    @staticmethod
+    def entry(package, version, requires, *, admitted):
+        asset = {"name": f"{package}-v{version}-universal.apk"}
+        if admitted:
+            asset.update(sha256="a" * 64, signerSha256=["b" * 64])
+        entry = {"packageName": package, "releases": [{"versionName": version, "assets": [asset]}]}
+        if requires is not None:
+            entry["requiresHostVersion"] = requires
+        return entry
+
+    def covered_entry(self, package):
+        return {
+            "packageName": package,
+            "repository": {"owner": self.OWNER, "name": "AutoJs6-Plugin-Example"},
+            "requiresHostVersion": 6641,
+            "releases": [{"versionName": "1.0.0", "assets": [{"name": "example.apk"}]}],
+        }
+
+    @staticmethod
+    def versions(entries):
+        return [entry["releases"][0]["versionName"] for entry in entries]
 
 
 if __name__ == "__main__":

@@ -5,6 +5,15 @@
   "changelog_label_improvement": "Improvement",
   "changelog_label_dependency": "Dependency",
   "$data": {
+    "2026-11-18": {
+      "released_date": "2026/11/18",
+      "feature": [
+        "Hosts already released to users (6.8.0 and earlier) no longer see plugins that need a newer host before they can be enabled: such entries move to `deferredItems`, and updating `published-host.json` after a host release brings them back"
+      ],
+      "improvement": [
+        "Index generation compares `published-host.json` with the latest stable host release on GitHub and shows an Actions warning when they differ"
+      ]
+    },
     "2026-10-12": {
       "released_date": "2026/10/12",
       "feature": [

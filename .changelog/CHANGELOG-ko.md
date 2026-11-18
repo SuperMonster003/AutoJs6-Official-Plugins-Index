@@ -17,6 +17,13 @@
 - [Русский [ru]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ru.md)
 - [العربية [ar]](https://github.com/SuperMonster003/AutoJs6-Official-Plugins-Index/blob/main/.changelog/CHANGELOG-ar.md)
 
+## 2026-11-18
+
+_2026/11/18_
+
+- `기능` 이미 공개된 호스트 (6.8.0 이하)에서는 활성화하려면 더 새로운 호스트가 필요한 플러그인이 더 이상 보이지 않습니다. 해당 항목은 `deferredItems`로 옮겨지며, 새 호스트를 공개한 뒤 `published-host.json`을 수정하면 다시 나타납니다
+- `개선` 인덱스를 생성할 때 `published-host.json`과 GitHub에 있는 호스트의 최신 정식 릴리스를 비교하고, 다르면 Actions에 경고를 표시합니다
+
 ## 2026-10-12
 
 _2026/10/12_

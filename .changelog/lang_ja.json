@@ -5,6 +5,15 @@
   "changelog_label_improvement": "改善",
   "changelog_label_dependency": "依存関係",
   "$data": {
+    "2026-11-18": {
+      "released_date": "2026/11/18",
+      "feature": [
+        "公開済みのホスト (6.8.0 以前) には, 有効化にはより新しいホストが必要なプラグインを表示しなくなりました. 該当エントリは `deferredItems` に移り, ホストの新版公開後に `published-host.json` を更新すると元に戻ります"
+      ],
+      "improvement": [
+        "インデックス生成時に `published-host.json` と GitHub 上のホストの最新正式リリースを照合し, 一致しない場合は Actions で警告します"
+      ]
+    },
     "2026-10-12": {
       "released_date": "2026/10/12",
       "feature": [

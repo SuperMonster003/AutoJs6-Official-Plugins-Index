@@ -28,6 +28,10 @@ EMPTY_LIST_ATTEMPTS = 16
 SCHEMA_VERSION = 2
 DEFAULT_ADMISSION_ROOT = Path(__file__).resolve().parent.parent / "release-manifests"
 DEFAULT_REQUIRED_REPOSITORIES = Path(__file__).resolve().parent.parent / "official-repositories.json"
+DEFAULT_PUBLISHED_HOST = Path(__file__).resolve().parent.parent / "published-host.json"
+HOST_REPO = "AutoJs6"
+PUBLISHED_HOST_SCHEMA_VERSION = 1
+PUBLISHED_HOST_VERSION_NAME_PATTERN = re.compile(r"[0-9A-Za-z][0-9A-Za-z.+-]{0,63}")
 ADMISSION_MANIFEST_SCHEMA_VERSION = 1
 MAX_SIGNED_LONG = (1 << 63) - 1
 ROUTING_RESOURCE_KEYS = {
@@ -97,45 +101,68 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=Path(OUTPUT_FILE))
     parser.add_argument("--admission-root", type=Path, default=DEFAULT_ADMISSION_ROOT)
     parser.add_argument("--required-repositories", type=Path, default=DEFAULT_REQUIRED_REPOSITORIES)
+    parser.add_argument("--published-host", type=Path, default=DEFAULT_PUBLISHED_HOST)
     parser.add_argument("--native-cache", type=Path, default=Path(".cache/native-alignment"))
     parser.add_argument("--augment-native-alignment", action="store_true", help="Measure assets in the existing index without refreshing unrelated metadata")
     args = parser.parse_args()
 
     if args.augment_native_alignment:
         payload = json.loads(args.output.read_text(encoding="utf-8"))
-        apply_catalog_presentation(payload["items"])
-        for item in payload["items"]:
-            for release in item.get("releases", []):
-                declared = release.get("nativePageAlignment") if release.get("nativePageAlignmentSource") == "declared" else None
-                release.update(release_alignment(release.get("assets", []), declared, cache_root=args.native_cache))
-            copy_latest_native_alignment(item)
-            print(f"Measured {item['packageName']}: {item.get('nativePageAlignment', 'unknown')}", flush=True)
+        for group in (payload["items"], payload.get("deferredItems", [])):
+            apply_catalog_presentation(group)
+            for item in group:
+                for release in item.get("releases", []):
+                    declared = release.get("nativePageAlignment") if release.get("nativePageAlignmentSource") == "declared" else None
+                    release.update(release_alignment(release.get("assets", []), declared, cache_root=args.native_cache))
+                copy_latest_native_alignment(item)
+                print(f"Measured {item['packageName']}: {item.get('nativePageAlignment', 'unknown')}", flush=True)
         args.output.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
         return 0
 
+    published_host = load_published_host(args.published_host)
+    warning = published_host_release_warning(published_host)
+    if warning:
+        # A workflow command on stdout becomes a visible annotation of the Actions run; generation continues.
+        print(f"::warning title=Published AutoJs6 host::{warning}", flush=True)
     repos = fetch_official_repos()
     items = []
+    deferred_items = []
     with ThreadPoolExecutor(max_workers=4) as workers:
         results = workers.map(
-            lambda repo: build_entries(repo, admission_root=args.admission_root, native_cache=args.native_cache),
+            lambda repo: build_repository_entries(
+                repo,
+                admission_root=args.admission_root,
+                native_cache=args.native_cache,
+                host_ceiling=published_host["versionCode"],
+            ),
             repos,
         )
-        for repo, entries in zip(repos, results):
+        for repo, (entries, deferred) in zip(repos, results):
             items.extend(entries)
-            print(f"Indexed {repo['name']}: {len(entries)} distributions", flush=True)
+            deferred_items.extend(deferred)
+            suffix = f", {len(deferred)} deferred" if deferred else ""
+            print(f"Indexed {repo['name']}: {len(entries)} distributions{suffix}", flush=True)
 
     apply_catalog_presentation(items)
-    validate_repository_coverage(items, json.loads(args.required_repositories.read_text(encoding="utf-8")))
-    payload = build_payload(items)
+    apply_catalog_presentation(deferred_items)
+    validate_repository_coverage(
+        items,
+        json.loads(args.required_repositories.read_text(encoding="utf-8")),
+        deferred_items=deferred_items,
+    )
+    payload = build_payload(items, deferred_items=deferred_items, published_host=published_host)
     args.output.write_text(
         json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=False) + "\n",
         encoding="utf-8",
     )
-    print(f"Generated {args.output.resolve()} with {len(items)} official plugin entries.")
+    print(
+        f"Generated {args.output.resolve()} with {len(items)} official plugin entries "
+        f"and {len(deferred_items)} deferred entries."
+    )
     return 0
 
 
-def validate_repository_coverage(items: list[dict], required_repositories: list[str]) -> None:
+def validate_repository_coverage(items: list[dict], required_repositories: list[str], *, deferred_items: list[dict] = ()) -> None:
     if not isinstance(required_repositories, list) or not required_repositories:
         raise RuntimeError("Required official repositories must be a nonempty array.")
     if any(not isinstance(name, str) or not re.fullmatch(r"AutoJs6-Plugin-[A-Za-z0-9-]+", name) for name in required_repositories):
@@ -145,8 +172,12 @@ def validate_repository_coverage(items: list[dict], required_repositories: list[
     packages = [item["packageName"] for item in items]
     if len(packages) != len(set(packages)):
         raise RuntimeError("Official plugin entries contain duplicate package names.")
+    deferred_packages = [item["packageName"] for item in deferred_items]
+    if len(deferred_packages) != len(set(deferred_packages)):
+        raise RuntimeError("Deferred plugin entries contain duplicate package names.")
+    # A repository whose latest release waits for a published host is still present, in deferredItems.
     featured_repositories = {
-        item.get("repository", {}).get("name") for item in items
+        item.get("repository", {}).get("name") for item in (*items, *deferred_items)
         if item.get("featured", True) and item.get("releases")
         and item.get("repository", {}).get("owner") == OFFICIAL_OWNER
         and item["releases"][0].get("assets")
@@ -156,8 +187,8 @@ def validate_repository_coverage(items: list[dict], required_repositories: list[
         raise RuntimeError("Required repositories have no featured, published APK release: " + ", ".join(missing))
 
 
-def build_payload(items: list[dict]) -> dict:
-    return {
+def build_payload(items: list[dict], *, deferred_items: list[dict] | None = None, published_host: dict | None = None) -> dict:
+    payload = {
         "schemaVersion": SCHEMA_VERSION,
         "source": "OFFICIAL",
         "repository": {
@@ -165,8 +196,56 @@ def build_payload(items: list[dict]) -> dict:
             "repo": INDEX_REPO,
             "branch": INDEX_BRANCH,
         },
-        "items": items,
     }
+    if published_host is not None:
+        payload["publishedHost"] = {
+            "versionName": published_host["versionName"],
+            "versionCode": published_host["versionCode"],
+        }
+    payload["items"] = items
+    if deferred_items is not None:
+        # Hosts up to 6.8.0 read only `items` and ignore unknown top-level fields.
+        payload["deferredItems"] = deferred_items
+    return payload
+
+
+def load_published_host(path: Path) -> dict:
+    """Read the newest AutoJs6 host published to users, maintained by hand in published-host.json."""
+    source = path.name
+    document = parse_json_object(path.read_text(encoding="utf-8"), source=source)
+    assert_exact_keys(
+        document,
+        required={"schemaVersion", "versionName", "versionCode"},
+        optional=set(),
+        source=source,
+    )
+    schema_version = document["schemaVersion"]
+    if type(schema_version) is not int or schema_version != PUBLISHED_HOST_SCHEMA_VERSION:
+        raise RuntimeError(f"{source} schemaVersion must be {PUBLISHED_HOST_SCHEMA_VERSION}.")
+    version_name = require_nonempty_string(document["versionName"], source=f"{source} versionName")
+    if version_name != document["versionName"] or not PUBLISHED_HOST_VERSION_NAME_PATTERN.fullmatch(version_name):
+        raise RuntimeError(f"{source} versionName must be a release version such as 6.8.0, got {document['versionName']!r}.")
+    version_code = require_positive_json_integer(document["versionCode"], source=f"{source} versionCode")
+    return {"versionName": version_name, "versionCode": version_code}
+
+
+def published_host_release_warning(published_host: dict) -> str | None:
+    """Compare published-host.json with the latest published host release; the index itself never depends on it."""
+    url = f"https://api.github.com/repos/{OFFICIAL_OWNER}/{HOST_REPO}/releases/latest"
+    try:
+        release = api_json(url)
+    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
+        return f"Cannot read the latest published {HOST_REPO} release to check published-host.json: {exc}"
+    tag = str(release.get("tag_name") or "").strip() if isinstance(release, dict) else ""
+    released_name = tag[1:] if tag[:1] in ("v", "V") else tag
+    if released_name and released_name == published_host["versionName"]:
+        return None
+    return (
+        f"published-host.json records {HOST_REPO} {published_host['versionName']} ({published_host['versionCode']}), "
+        f"but the latest published {HOST_REPO} release is {tag or 'unknown'}. After a host release, set versionName "
+        "and versionCode to that release and regenerate the index; until then, entries requiring a newer host "
+        "stay in deferredItems."
+    )
 
 
 def fetch_official_repos() -> list[dict]:
@@ -194,18 +273,130 @@ def fetch_official_repos() -> list[dict]:
 
 
 def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION_ROOT, native_cache: Path | None = None) -> list[dict]:
+    return build_repository_entries(repo, admission_root=admission_root, native_cache=native_cache)[0]
+
+
+def build_repository_entries(
+    repo: dict,
+    *,
+    admission_root: Path | None = DEFAULT_ADMISSION_ROOT,
+    native_cache: Path | None = None,
+    host_ceiling: int | None = None,
+) -> tuple[list[dict], list[dict]]:
+    """Build one repository's `items` entries and, given the published host versionCode, its `deferredItems`.
+
+    Hosts up to 6.8.0 ignore requiresHostVersion, so an entry whose latest release requires a host newer
+    than the published one moves to deferredItems. Its place in items goes to the newest older release of
+    the same package that the published host can run and that has admission evidence; without one, the
+    package stays out of items until the required host is published.
+    """
     owner = repo.get("owner", {}).get("login") or OFFICIAL_OWNER
     repo_name = repo.get("name")
     branch = repo.get("default_branch") or "master"
     if not repo_name:
-        return []
+        return [], []
 
-    releases = api_json_list(f"https://api.github.com/repos/{owner}/{repo_name}/releases?per_page=100")
-    release = latest_published_release(releases)
-    if not isinstance(release, dict):
+    releases = published_releases_newest_first(
+        api_json_list(f"https://api.github.com/repos/{owner}/{repo_name}/releases?per_page=100")
+    )
+    if not releases:
         print(f"Warning: skip {repo_name}, latest release unavailable.", file=sys.stderr)
-        return []
+        return [], []
 
+    entries = build_entries_from_release(
+        **fetch_release_sources(owner, repo_name, releases[0], branch),
+        admission_root=admission_root,
+        native_cache=native_cache,
+    )
+    if host_ceiling is None:
+        return entries, []
+    deferred = [entry for entry in entries if requires_newer_host(entry, host_ceiling)]
+    if not deferred:
+        return entries, []
+
+    fallbacks = find_host_compatible_fallbacks(
+        owner=owner,
+        repo_name=repo_name,
+        branch=branch,
+        releases=releases[1:],
+        packages={entry["packageName"] for entry in deferred},
+        host_ceiling=host_ceiling,
+        admission_root=admission_root,
+        native_cache=native_cache,
+    )
+    items = []
+    for entry in entries:
+        if not requires_newer_host(entry, host_ceiling):
+            items.append(entry)
+            continue
+        fallback = fallbacks.get(entry["packageName"])
+        if fallback is not None:
+            items.append(fallback)
+        listed = f"lists {fallback['releases'][0]['versionName']} instead" if fallback else "lists no release"
+        print(
+            f"Deferred {entry['packageName']} {entry['releases'][0]['versionName']}: requires host "
+            f"{entry['requiresHostVersion']} > published {host_ceiling}; items {listed}.",
+            flush=True,
+        )
+    return items, deferred
+
+
+def find_host_compatible_fallbacks(
+    *,
+    owner: str,
+    repo_name: str,
+    branch: str,
+    releases: list[dict],
+    packages: set[str],
+    host_ceiling: int,
+    admission_root: Path | None,
+    native_cache: Path | None,
+) -> dict[str, dict]:
+    """Rebuild older published releases, newest first, until each package has a host-compatible entry."""
+    pending = set(packages)
+    found = {}
+    for release in releases:
+        if not pending:
+            break
+        tag = str(release.get("tag_name") or "").strip() or "untagged"
+        try:
+            sources = fetch_release_sources(owner, repo_name, release, branch)
+            # The metadata-only pass downloads no APK, so releases that still require a newer host stay cheap.
+            probe = build_entries_from_release(**sources, admission_root=None, native_cache=None)
+            compatible = {
+                entry["packageName"] for entry in probe
+                if entry["packageName"] in pending and not requires_newer_host(entry, host_ceiling)
+            }
+            if not compatible:
+                continue
+            candidates = build_entries_from_release(**sources, admission_root=admission_root, native_cache=native_cache)
+        except RuntimeError as exc:
+            # A fallback that cannot be rebuilt leaves the package deferred; it never blocks the index.
+            print(f"Warning: skip {repo_name}@{tag} as a host-compatible fallback: {exc}", file=sys.stderr)
+            continue
+        for entry in candidates:
+            package = entry["packageName"]
+            if package not in compatible or requires_newer_host(entry, host_ceiling):
+                continue
+            if not has_admission_evidence(entry):
+                print(f"Warning: skip {repo_name}@{tag} as the fallback of {package}: no admission manifest.", file=sys.stderr)
+                continue
+            found[package] = entry
+            pending.discard(package)
+    return found
+
+
+def requires_newer_host(entry: dict, host_ceiling: int) -> bool:
+    return (entry.get("requiresHostVersion") or 0) > host_ceiling
+
+
+def has_admission_evidence(entry: dict) -> bool:
+    assets = [asset for release in entry.get("releases", []) for asset in release.get("assets", [])]
+    return bool(assets) and all(asset.get("sha256") and asset.get("signerSha256") for asset in assets)
+
+
+def fetch_release_sources(owner: str, repo_name: str, release: dict, branch: str) -> dict:
+    """Read the published source tree of one release tag; the result is the keyword set of build_entries_from_release."""
     metadata_ref = release_metadata_ref(release, branch)
     tree_paths = fetch_tree_paths(owner, repo_name, metadata_ref)
     strings_by_dir = fetch_string_resources(owner, repo_name, metadata_ref, tree_paths)
@@ -221,36 +412,37 @@ def build_entries(repo: dict, *, admission_root: Path | None = DEFAULT_ADMISSION
         read_source=read_source,
         version_map=version_map,
     )
-
-    return build_entries_from_release(
-        owner=owner,
-        repo_name=repo_name,
-        ref=metadata_ref,
-        release=release,
-        tree_paths=tree_paths,
-        strings_by_dir=strings_by_dir,
-        version_map=version_map,
-        manifest_text=manifest_text,
-        build_gradle=build_gradle,
-        manifest_placeholders=manifest_placeholders,
-        read_source=read_source,
-        admission_root=admission_root,
-        native_cache=native_cache,
-    )
+    return {
+        "owner": owner,
+        "repo_name": repo_name,
+        "ref": metadata_ref,
+        "release": release,
+        "tree_paths": tree_paths,
+        "strings_by_dir": strings_by_dir,
+        "version_map": version_map,
+        "manifest_text": manifest_text,
+        "build_gradle": build_gradle,
+        "manifest_placeholders": manifest_placeholders,
+        "read_source": read_source,
+    }
 
 
 def latest_published_release(releases: list[dict]) -> dict | None:
     """Include published milestone/RC builds without promoting them to stable."""
+    return next(iter(published_releases_newest_first(releases)), None)
+
+
+def published_releases_newest_first(releases: list[dict]) -> list[dict]:
     if not isinstance(releases, list):
         raise RuntimeError("GitHub releases response is not an array.")
     published = [
         release for release in releases
         if not release.get("draft", False) and release.get("published_at")
     ]
-    return max(
+    return sorted(
         published,
         key=lambda release: (str(release["published_at"]), int(release.get("id") or 0)),
-        default=None,
+        reverse=True,
     )
 
 

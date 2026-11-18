@@ -35,6 +35,8 @@ python tools/generate_official_plugin_index.py
 
 `official-repositories.json`은 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB, 3-Shell Terminal을 포함한 필수 공식 프로젝트 58개를 기록합니다. 필수 프로젝트에 게시된 APK를 가진 추천 항목이 없거나 패키지 이름이 충돌하면 기록 전에 생성이 실패합니다. 다른 저장소도 자동으로 발견할 수 있습니다. 새 공식 프로젝트를 목록에 추가해 실수로 누락되는 것을 방지하세요. APK 변형 때문에 항목 수가 프로젝트 수보다 많을 수 있습니다.
 
+`published-host.json`은 사용자에게 공개된 최신 AutoJs6 호스트 (예: 6.8.0, 버전 코드 6640)를 기록합니다. 6.8.0 이하 호스트는 `requiresHostVersion`을 확인하지 않아 더 새로운 호스트가 필요한 플러그인도 설치 가능하다고 판단합니다. 따라서 저장소의 최신 릴리스가 이보다 높은 호스트 버전 코드를 요구하면 해당 항목은 최상위 `deferredItems`로 옮겨지고, `items`에는 같은 패키지 중 요구 사항을 충족하고 승인 매니페스트가 있는 가장 최근의 이전 릴리스가 대신 실립니다. 그런 릴리스가 없으면 싣지 않습니다. 이 대체 항목은 이전 릴리스 태그에서 다시 생성되며 해당 릴리스 자체의 `requiresHostVersion`을 유지합니다. 오래된 호스트는 알 수 없는 최상위 필드를 무시합니다. 저장소 포함 검사는 `deferredItems`도 함께 세며, 최상위 `publishedHost`는 생성에 사용한 호스트 버전을 기록합니다. 새 호스트를 공개한 뒤 `versionName`과 `versionCode`를 그 버전으로 바꾸고 push하세요. CI가 인덱스를 다시 생성하면 이 항목들은 `items`로 돌아옵니다. 생성할 때마다 GitHub에 있는 호스트 저장소의 최신 정식 릴리스와 비교하며, 다를 경우 Actions 경고만 남기고 생성 결과는 바꾸지 않습니다.
+
 ## 메타데이터와 호환성
 
 버전 분석은 `VERSION_CODE_OFFSET`과 APK Builder의 연결된 호스트 기반 복합 Android 버전을 보존합니다. Gradle 실행 없이 정적 패키지 상수, 여러 줄 `resValue` 호출, `version.properties`의 명시적 숫자 읽기를 지원합니다. 해석할 수 없는 표현식은 오류로 처리합니다.
@@ -135,6 +137,13 @@ python -m unittest discover -s .python/tests
 ## 변경 기록
 
 저장소 변경은 날짜별로 기록합니다. 플러그인 릴리스 버전은 생성된 인덱스와 승인 매니페스트에 유지됩니다.
+
+### 2026-11-18
+
+_2026/11/18_
+
+- `기능` 이미 공개된 호스트 (6.8.0 이하)에서는 활성화하려면 더 새로운 호스트가 필요한 플러그인이 더 이상 보이지 않습니다. 해당 항목은 `deferredItems`로 옮겨지며, 새 호스트를 공개한 뒤 `published-host.json`을 수정하면 다시 나타납니다
+- `개선` 인덱스를 생성할 때 `published-host.json`과 GitHub에 있는 호스트의 최신 정식 릴리스를 비교하고, 다르면 Actions에 경고를 표시합니다
 
 ### 2026-10-12
 

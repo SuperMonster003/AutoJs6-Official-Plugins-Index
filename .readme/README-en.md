@@ -35,6 +35,8 @@ The index selects the most recently **published** release of each repository by 
 
 `official-repositories.json` records the 58 expected official projects, including 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB and 3-Shell Terminal. Generation fails before writing the index if any required project lacks a featured entry with published APK assets, or package names collide. Additional repositories can still be discovered automatically; add new official projects to this inventory to protect them against accidental omission. APK flavors can produce more entries than the number of projects.
 
+`published-host.json` records the newest AutoJs6 host released to users (for example 6.8.0, version code 6640). Hosts up to 6.8.0 do not check `requiresHostVersion` and treat plugins that need a newer host as installable. When the latest release of a repository requires a higher host version code, its entry therefore moves to the top-level `deferredItems`, and `items` lists instead the newest older release of the same package that meets the requirement and has an admission manifest; without such a release, the package is not listed. These replacement entries are regenerated from the older release tag and keep that release's own `requiresHostVersion`. Older hosts ignore unknown top-level fields; the repository coverage check also counts `deferredItems`, and the top-level `publishedHost` records the host version used for the run. After a new host release, set `versionName` and `versionCode` to that release and push; once CI regenerates the index, these entries return to `items`. Each run compares the file with the latest stable release of the host repository on GitHub and only emits an Actions warning on a mismatch, without changing the generated index.
+
 ## Metadata and compatibility
 
 Version parsing preserves `VERSION_CODE_OFFSET` and APK Builder's paired-host composite Android version. Static Gradle package constants, multiline `resValue` calls, and explicit numeric reads from `version.properties` are supported without executing Gradle. Unresolved expressions remain errors.
@@ -135,6 +137,13 @@ Every language produces `.readme/README-<code>.md` and `.changelog/CHANGELOG-<co
 ## Changelog
 
 Repository changes are recorded by date. Plugin release versions remain in the generated plugin index and admission manifests.
+
+### 2026-11-18
+
+_2026/11/18_
+
+- `Feature` Hosts already released to users (6.8.0 and earlier) no longer see plugins that need a newer host before they can be enabled: such entries move to `deferredItems`, and updating `published-host.json` after a host release brings them back
+- `Improvement` Index generation compares `published-host.json` with the latest stable host release on GitHub and shows an Actions warning when they differ
 
 ### 2026-10-12
 

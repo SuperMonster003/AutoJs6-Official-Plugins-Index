@@ -35,6 +35,8 @@ python tools/generate_official_plugin_index.py
 
 `official-repositories.json` 记录预期的 58 个官方项目, 包括 3-Setup Installer, 3-Stove Agent, 3-Folio EPUB 和 3-Shell Terminal. 如果任何必需项目缺少带有已发布 APK 资源的推荐条目, 或出现包名冲突, 生成器会在写入索引前失败. 其他仓库仍可自动发现; 新增官方项目时应将其加入清单, 防止意外遗漏. APK 分发变体可能使条目数超过项目数.
 
+`published-host.json` 记录已向用户发布的最新 AutoJs6 宿主 (例如 6.8.0, 版本码 6640). 6.8.0 及更早的宿主不检查 `requiresHostVersion`, 会把要求更高宿主的插件当作可安装. 因此, 仓库最新发行要求的宿主版本码高于此值时, 该条目移入顶层 `deferredItems`, `items` 改列同一包名中满足要求且有准入清单的最近一次旧发行; 没有这样的发行时则不列出. 这些替代条目从旧发行标签重新生成, 保留该发行自身的 `requiresHostVersion`. 旧宿主忽略未知的顶层字段; 仓库覆盖检查同时计入 `deferredItems`, 顶层 `publishedHost` 记录本次生成使用的宿主版本. 新宿主发布后, 将 `versionName` 与 `versionCode` 改为该版本并推送, CI 重新生成后这些条目即回到 `items`. 每次生成都会与宿主仓库在 GitHub 上的最新正式发行比对, 不一致时只在 Actions 中给出警告, 不影响生成结果.
+
 ## 元数据与兼容性
 
 版本解析保留 `VERSION_CODE_OFFSET` 与 APK Builder 配对宿主的复合 Android 版本. 支持静态 Gradle 包名常量, 多行 `resValue` 调用, 以及从 `version.properties` 显式读取数值, 无需执行 Gradle. 无法解析的表达式仍会报错.
@@ -135,6 +137,13 @@ python -m unittest discover -s .python/tests
 ## 更新日志
 
 仓库变更按日期记录. 插件发行版本继续保存在生成的插件索引与准入清单中.
+
+### 2026-11-18
+
+_2026/11/18_
+
+- `新增` 已发布的宿主 (6.8.0 及更早) 不再看到需要更新宿主才能启用的插件: 这类条目移入 `deferredItems`, 宿主发布新版后修改 `published-host.json` 即可恢复
+- `优化` 生成索引时核对 `published-host.json` 与宿主在 GitHub 上的最新正式发行, 不一致时在 Actions 中提示
 
 ### 2026-10-12
 
