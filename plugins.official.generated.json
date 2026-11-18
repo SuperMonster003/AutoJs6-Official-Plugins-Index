@@ -6,6 +6,10 @@
     "repo": "AutoJs6-Official-Plugins-Index",
     "branch": "main"
   },
+  "publishedHost": {
+    "versionName": "6.8.0",
+    "versionCode": 6640
+  },
   "items": [
     {
       "packageName": "io.github.supermonster003.autojs6.plugin.ace.editor",
@@ -1515,89 +1519,6 @@
       ],
       "source": "OFFICIAL",
       "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured",
-      "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "transparent",
-      "nightIconBackgroundColor": "transparent"
-    },
-    {
-      "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Java-Libraries"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.java.libraries/f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.java.libraries/f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948.png",
-      "title": "Java Libraries",
-      "description": "Apache Commons Lang3, Commons IO and Jackson for direct use as Java classes in AutoJs6 scripts",
-      "localizedDescriptions": {
-        "values": "Apache Commons Lang3, Commons IO and Jackson for direct use as Java classes in AutoJs6 scripts",
-        "values-ar": "\u0645\u0643\u062a\u0628\u0627\u062a Java \u0645\u0646 Apache Commons Lang3 \u0648Commons IO \u0648Jackson \u0644\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0628\u0627\u0634\u0631 \u0641\u064a \u0633\u0643\u0631\u0628\u062a\u0627\u062a AutoJs6",
-        "values-en": "Apache Commons Lang3, Commons IO and Jackson for direct use as Java classes in AutoJs6 scripts",
-        "values-es": "Apache Commons Lang3, Commons IO y Jackson para usar directamente como clases Java en scripts de AutoJs6",
-        "values-fr": "Apache Commons Lang3, Commons IO et Jackson \u00e0 utiliser directement comme classes Java dans les scripts AutoJs6",
-        "values-ja": "AutoJs6 \u30b9\u30af\u30ea\u30d7\u30c8\u304b\u3089 Java \u30af\u30e9\u30b9\u3068\u3057\u3066\u76f4\u63a5\u4f7f\u3048\u308b Apache Commons Lang3, Commons IO, Jackson",
-        "values-ko": "AutoJs6 \uc2a4\ud06c\ub9bd\ud2b8\uc5d0\uc11c Java \ud074\ub798\uc2a4\ub85c \ubc14\ub85c \uc4f8 \uc218 \uc788\ub294 Apache Commons Lang3, Commons IO, Jackson",
-        "values-ru": "Apache Commons Lang3, Commons IO \u0438 Jackson \u0434\u043b\u044f \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f Java-\u043a\u043b\u0430\u0441\u0441\u043e\u0432 \u0432 \u0441\u043a\u0440\u0438\u043f\u0442\u0430\u0445 AutoJs6",
-        "values-zh": "\u4f9b AutoJs6 \u811a\u672c\u4ee5 Java \u7c7b\u76f4\u63a5\u8c03\u7528\u7684 Apache Commons Lang3, Commons IO \u4e0e Jackson",
-        "values-zh-rHK": "\u4f9b AutoJs6 \u8173\u672c\u4ee5 Java \u985e\u76f4\u63a5\u8abf\u7528\u7684 Apache Commons Lang3, Commons IO \u8207 Jackson",
-        "values-zh-rTW": "\u4f9b AutoJs6 \u8173\u672c\u4ee5 Java \u985e\u5225\u76f4\u63a5\u547c\u53eb\u7684 Apache Commons Lang3, Commons IO \u8207 Jackson"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "java-libraries",
-      "variant": "default",
-      "engineId": "java-libraries",
-      "requiresHostVersion": 6641,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.0.0",
-          "versionCode": 14,
-          "versionDate": "2026-11-05",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/tag/v1.0.0",
-          "changelogText": "Java Libraries 1.0.0: AutoJs6 6.8.0 \u4e0d\u518d\u5185\u7f6e\u7684 Java \u5e93 Apache Commons Lang3, Commons IO \u4e0e Jackson \u6539\u7531\u672c\u63d2\u4ef6\u63d0\u4f9b, \u811a\u672c\u53ef\u4ee5\u50cf\u4ee5\u524d\u4e00\u6837\u76f4\u63a5\u4f7f\u7528 `org.apache.commons.lang3.StringUtils`, `com.fasterxml.jackson.databind.ObjectMapper` \u7b49\u7c7b.\n\n* `\u63d0\u793a` \u9700\u8981 AutoJs6 6.8.1 (\u6784\u5efa 6641) \u6216\u66f4\u9ad8\u7248\u672c\n* `\u63d0\u793a` AutoJs6 6.8.0 \u8d77\u4e0d\u518d\u5185\u7f6e Apache Commons Lang3, Commons IO \u4e0e Jackson; \u5b89\u88c5\u5e76\u542f\u7528\u672c\u63d2\u4ef6\u540e, \u811a\u672c\u7167\u5e38\u4ee5\u5168\u540d\u4f7f\u7528\u8fd9\u4e9b\u5e93\u7684\u7c7b, \u5199\u6cd5\u4e0e AutoJs6 6.7.0 \u76f8\u540c, \u539f\u6709\u811a\u672c\u65e0\u9700\u4fee\u6539\n* `\u65b0\u589e` Apache Commons Lang3 3.18.0, Apache Commons IO 2.8.0 \u4e0e Jackson 2.13.4.2 (core \u4e0e annotations \u4e3a 2.13.4), \u7248\u672c\u4e0e AutoJs6 6.7.0 \u5185\u7f6e\u7684\u76f8\u540c\n* `\u65b0\u589e` \u63d2\u4ef6\u53ea\u662f\u4e00\u4e2a\u8d44\u6e90\u5305: AutoJs6 \u76f4\u63a5\u4ece\u63d2\u4ef6\u52a0\u8f7d\u8fd9\u4e9b\u7c7b, \u811a\u672c\u8fd0\u884c\u65f6\u4e0d\u542f\u52a8\u63d2\u4ef6\u8fdb\u7a0b, \u63d2\u4ef6\u4e0d\u7533\u8bf7\u4efb\u4f55\u6743\u9650\n* `\u65b0\u589e` \u7528 AutoJs6 \u6253\u5305\u5e94\u7528\u65f6\u53ef\u4ee5\u5e26\u5165\u8fd9\u4e9b\u7c7b (\u81ea\u52a8\u626b\u63cf\u811a\u672c, \u4e5f\u53ef\u4ee5\u5728\u5e93\u5217\u8868\u4e2d\u52fe\u9009), \u6253\u5305\u540e\u7684\u5e94\u7528\u5728\u6ca1\u6709\u672c\u63d2\u4ef6\u7684\u8bbe\u5907\u4e0a\u4e5f\u80fd\u4f7f\u7528\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u663e\u793a\u5404\u5e93\u7684\u7248\u672c, \u8bb8\u53ef\u8bc1, Java \u5305, \u4f7f\u7528\u793a\u4f8b, NOTICE \u6587\u4ef6\u4e0e\u53d1\u884c\u5386\u53f2\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u8ddf\u968f AutoJs6 \u7684\u8bed\u8a00, \u591c\u95f4\u6a21\u5f0f\u4e0e\u4e3b\u9898\u8272, \u672a\u5b89\u88c5 AutoJs6 \u6216\u65e0\u6cd5\u8bfb\u53d6\u5176\u8bbe\u7f6e\u65f6\u8ddf\u968f\u7cfb\u7edf\n* `\u4f9d\u8d56` \u9644\u52a0 AutoJs6 Common Plugin API\n* `\u4f9d\u8d56` \u9644\u52a0 desugar_jdk_libs_nio 2.1.5\n\n\u8981\u6c42: \u6784\u5efa\u53f7 6641 \u6216\u66f4\u9ad8\u7684 AutoJs6, \u5373 6.8.1 \u53ca\u4ee5\u540e\u7684\u7248\u672c (\u53d1\u5e03\u65f6 6.8.1 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03; AutoJs6 6.8.0 \u7684\u6784\u5efa\u53f7\u662f 6640, \u63d2\u4ef6\u4e2d\u5fc3\u4f1a\u63d0\u793a\u9700\u8981\u66f4\u65b0 AutoJs6). \u63d2\u4ef6\u4e0d\u542b\u539f\u751f\u5e93, \u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc.\n\nJava Libraries 1.0.0: the Java libraries AutoJs6 6.8.0 no longer includes, Apache Commons Lang3, Commons IO and Jackson, now come with this plugin, so scripts can use classes such as `org.apache.commons.lang3.StringUtils` and `com.fasterxml.jackson.databind.ObjectMapper` directly as before.\n\n* `Hint` Requires AutoJs6 6.8.1 (build 6641) or later\n* `Hint` Starting with AutoJs6 6.8.0, Apache Commons Lang3, Commons IO and Jackson are no longer built in; with this plugin installed and enabled, scripts use the classes of these libraries by their full names as with AutoJs6 6.7.0, and existing scripts need no change\n* `Feature` Apache Commons Lang3 3.18.0, Apache Commons IO 2.8.0 and Jackson 2.13.4.2 (core and annotations 2.13.4), the versions AutoJs6 6.7.0 included\n* `Feature` The plugin is only a resource package: AutoJs6 loads the classes straight from the plugin, running scripts never starts the plugin process, and the plugin asks for no permission\n* `Feature` Apps packaged with AutoJs6 can carry these classes (found by scanning the scripts, or ticked in the list of libraries) and then use them on devices without the plugin\n* `Feature` The plugin page shows the version, license and Java package of each library, an example, the NOTICE files and the release history\n* `Feature` The plugin page follows the language, night mode and theme color of AutoJs6, and the system when AutoJs6 is not installed or its settings cannot be read\n* `Dependency` Attach AutoJs6 Common Plugin API\n* `Dependency` Attach desugar_jdk_libs_nio 2.1.5\n\nRequirements: an AutoJs6 build 6641 or later, that is 6.8.1 and later versions (6.8.1 was not yet officially released at publication; AutoJs6 6.8.0 is build 6640, and its Plugin Center says that AutoJs6 needs an update). The plugin has no native libraries, requests no runtime permission and has no network access.\n\nVersion: **v1.0.0 (14)**. Checksums: `SHA256SUMS`.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/download/v1.0.0/autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
-              "size": 1210067,
-              "digest": "sha256:cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
-              "sha256": "cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 14,
-              "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
-              "sourceCommit": "4798a897711cdc5834d1c9190c5d961cabab6920"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 0,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 0,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
@@ -9700,89 +9621,6 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Three-Chime-Alarm"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.chime.alarm/98c3045503906a596bf8ceb302c9cec3d4b9d497d72c057ce9703f3cc009b62e.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.chime.alarm/a814c40248847fa1456f7dce3f8f69f26d168eae613d7001b67ae7a571dd2227.png",
-      "title": "3-Chime Alarm",
-      "description": "Alarm clock, timers and stopwatch with calendar recurrence rules, holidays, dismiss challenges, spoken ringing and script hooks when an alarm rings",
-      "localizedDescriptions": {
-        "values": "Alarm clock, timers and stopwatch with calendar recurrence rules, holidays, dismiss challenges, spoken ringing and script hooks when an alarm rings",
-        "values-ar": "\u0645\u0646\u0628\u0647 \u0648\u0645\u0624\u0642\u062a\u0627\u062a \u0648\u0633\u0627\u0639\u0629 \u0625\u064a\u0642\u0627\u0641 \u0628\u0642\u0648\u0627\u0639\u062f \u062a\u0643\u0631\u0627\u0631 \u062a\u0642\u0648\u064a\u0645\u064a\u0629 \u0648\u0645\u0631\u0627\u0639\u0627\u0629 \u0627\u0644\u0639\u0637\u0644\u0627\u062a \u0648\u062a\u062d\u062f\u064a\u0627\u062a \u0627\u0644\u0625\u064a\u0642\u0627\u0641 \u0648\u0642\u0631\u0627\u0621\u0629 \u0635\u0648\u062a\u064a\u0629 \u0648\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0639\u0646\u062f \u0627\u0644\u0631\u0646\u064a\u0646",
-        "values-en": "Alarm clock, timers and stopwatch with calendar recurrence rules, holidays, dismiss challenges, spoken ringing and script hooks when an alarm rings",
-        "values-es": "Alarma, temporizadores y cron\u00f3metro con reglas de repetici\u00f3n de calendario, festivos, desaf\u00edos para descartar, lectura en voz alta y scripts al sonar la alarma",
-        "values-fr": "R\u00e9veil, minuteurs et chronom\u00e8tre avec r\u00e8gles de r\u00e9p\u00e9tition de calendrier, jours f\u00e9ri\u00e9s, d\u00e9fis d\\'arr\u00eat, sonnerie parl\u00e9e et scripts d\u00e9clench\u00e9s \u00e0 la sonnerie",
-        "values-ja": "\u30ab\u30ec\u30f3\u30c0\u30fc\u5f62\u5f0f\u306e\u7e70\u308a\u8fd4\u3057\u30eb\u30fc\u30eb, \u795d\u65e5, \u505c\u6b62\u30c1\u30e3\u30ec\u30f3\u30b8, \u8aad\u307f\u4e0a\u3052\u4ed8\u304d\u306e\u9cf4\u52d5, \u9cf4\u52d5\u6642\u306e\u30b9\u30af\u30ea\u30d7\u30c8\u9023\u643a\u306b\u5bfe\u5fdc\u3057\u305f\u30a2\u30e9\u30fc\u30e0, \u30bf\u30a4\u30de\u30fc, \u30b9\u30c8\u30c3\u30d7\u30a6\u30a9\u30c3\u30c1",
-        "values-ko": "\ub2ec\ub825 \ubc18\ubcf5 \uaddc\uce59, \uacf5\ud734\uc77c, \ud574\uc81c \ucc4c\ub9b0\uc9c0, \uc74c\uc131 \uc77d\uae30 \uc54c\ub78c, \uc54c\ub78c\uc774 \uc6b8\ub9b4 \ub54c \uc2a4\ud06c\ub9bd\ud2b8 \uc5f0\ub3d9\uc744 \uc9c0\uc6d0\ud558\ub294 \uc54c\ub78c, \ud0c0\uc774\uba38, \uc2a4\ud1b1\uc6cc\uce58 \uc571",
-        "values-ru": "\u0411\u0443\u0434\u0438\u043b\u044c\u043d\u0438\u043a, \u0442\u0430\u0439\u043c\u0435\u0440\u044b \u0438 \u0441\u0435\u043a\u0443\u043d\u0434\u043e\u043c\u0435\u0440 \u0441 \u043a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u043c\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430\u043c\u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0430, \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0430\u043c\u0438, \u0437\u0430\u0434\u0430\u043d\u0438\u044f\u043c\u0438 \u0434\u043b\u044f \u0432\u044b\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f, \u043e\u0437\u0432\u0443\u0447\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432 \u043f\u0440\u0438 \u0437\u0432\u043e\u043d\u043a\u0435",
-        "values-zh": "\u95f9\u949f, \u8ba1\u65f6\u5668\u4e0e\u79d2\u8868, \u652f\u6301\u65e5\u5386\u91cd\u590d\u89c4\u5219, \u8282\u5047\u65e5\u4e0e\u5173\u95ed\u6311\u6218, \u6717\u8bfb\u54cd\u94c3\u4e0e\u54cd\u94c3\u65f6\u8054\u52a8\u811a\u672c",
-        "values-zh-rHK": "\u9b27\u9418, \u8a08\u6642\u5668\u8207\u79d2\u9336, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u7bc0\u5047\u65e5\u8207\u95dc\u9589\u6311\u6230, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u806f\u52d5\u8173\u672c",
-        "values-zh-rTW": "\u9b27\u9418, \u8a08\u6642\u5668\u8207\u78bc\u9336, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u7bc0\u5047\u65e5\u8207\u95dc\u9589\u6311\u6230, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u9023\u52d5\u6307\u4ee4\u78bc"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "alarm",
-      "variant": "default",
-      "engineId": "three-chime-alarm",
-      "requiresHostVersion": 6641,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.3.0",
-          "versionCode": 90,
-          "versionDate": "2026-11-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/tag/v1.3.0",
-          "changelogText": "3-Chime Alarm 1.3.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `1a6892a5c65663d3f59f56c8f636967ff09a604e`\n\nHint\n\n- Dismiss challenges set on the plugin screens need no AutoJs6; setting them in scripts (the `dismiss` option of alarms) and the script condition need AutoJs6 6.8.1 (internal build 6641) or later and this plugin 1.3.0 or later; with plugin 1.2.x or earlier, a call with the `dismiss` option fails with a message asking to update the plugin.\n- An alarm with a dismiss challenge can always be ended: auto stop (at least 30 minutes when not set on the alarm) and emergency dismiss (5 presses of a volume key within 4 seconds on the ringing screen) are always available; emergency dismiss can be turned off on the settings screen, and then only auto stop ends the ringing until the challenge is done.\n\nFeature\n\n- Dismiss challenges: an alarm can require solving math problems (easy, medium or hard, 3 problems by default), shaking the phone (30 shakes by default) or typing a sentence (your own, or a random built-in one) before it can be dismissed, and can allow or forbid snoozing during the challenge; set it in the \"Dismiss challenge\" row of the edit screen, and the challenge takes the place of the dismiss slider on the ringing screen.\n- While a challenge is in effect, the \"Dismiss\" button of the notification and dismiss requests from other apps no longer dismiss the alarm directly but open the challenge on the ringing screen; when snoozing is not allowed the notification shows no \"Snooze\" button; on a device without an accelerometer the shake challenge becomes math problems.\n- Safety valves: when an alarm with a challenge does not set auto stop, auto stop takes the longer of the default on the settings screen and 30 minutes, and the ringing screen shows the time left; 5 presses of a volume key within 4 seconds while the ringing screen is in front (also on the lock screen) dismiss the alarm in an emergency, and during a challenge the volume keys only count presses and do not change the volume; the new \"Dismiss challenges\" group of the settings screen can turn emergency dismiss off (on by default).\n- Script condition: set by an AutoJs6 script, the alarm rings until a script dismisses it; when the device has not been unlocked since a reboot, there is no script, AutoJs6 is unavailable, or the scripts failed to start or have ended, the alarm falls back at once to the chosen challenge (a normal dismiss by default), and the reason is recorded in the plugin log.\n- New in the AutoJs6 script module: the `dismiss` option of alarms (the kind of challenge, the difficulty and number of math problems, the number of shakes, the text to type, the challenge used when no script can run, and whether snoozing is allowed), the `challenge` in `alarms.ringing()` and in the `ring` / `dismiss` events, and `by: 'challenge'` in the `dismiss` event (needs AutoJs6 6.8.1; see the [AutoJs6 documentation](https://docs.autojs6.com/#/alarms)).\n- The plugin tools `alarm_add` and `alarm_update` accept the `dismiss` option and can set the math, shake and type challenges (the script condition excepted).\n\nRequirements: Android 7.0 or later. Enabling the plugin in the Plugin Center, the plugin tools and the `alarms` module need AutoJs6 6.8.1 (internal build 6641) or later; with AutoJs6 6.8.0 the plugin works only as a standalone alarm clock app.\n\nHoliday data: generated from the open source project python-holidays (MIT License); its full license text and list of contributors are published together with the data.\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-three-chime-alarm-v1.3.0-026daa91.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/download/v1.3.0/autojs6-plugin-three-chime-alarm-v1.3.0-026daa91.apk",
-              "size": 3078762,
-              "digest": "sha256:ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2",
-              "sha256": "ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.3.0",
-              "versionCode": 90,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
-              "sourceCommit": "1a6892a5c65663d3f59f56c8f636967ff09a604e"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured",
-      "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#fafafa",
-      "nightIconBackgroundColor": "#212121"
-    },
-    {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.color.picker",
       "repository": {
         "owner": "SuperMonster003",
@@ -10390,276 +10228,6 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.three.paper.pdf",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Three-Paper-PDF"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/6d75c58b912d71af4d0e5a756d4f73c44ac386baf02d717858205ee156e9bede.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/af61dfa6a425ede2ee24e4e7ad92a7d67d493cad3c00920c73c058b1f3ee843b.png",
-      "title": "3-Paper PDF",
-      "description": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
-      "localizedDescriptions": {
-        "values": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
-        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u0645\u0644\u0641\u0627\u062a PDF \u0648\u0639\u0631\u0636\u0647\u0627 \u0648\u062f\u0645\u062c\u0647\u0627 \u0648\u062a\u0642\u0633\u064a\u0645\u0647\u0627 \u0648\u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0648\u062a\u0634\u0641\u064a\u0631\u0647\u0627, \u0645\u0639 \u0639\u0627\u0631\u0636 \u0645\u062f\u0645\u062c \u0648\u0645\u062f\u0627\u062e\u0644 \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
-        "values-en": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
-        "values-es": "Lectura, renderizado, combinaci\u00f3n, divisi\u00f3n, generaci\u00f3n y cifrado de archivos PDF, con visor integrado y entradas en el gestor de archivos",
-        "values-fr": "Lecture, rendu, fusion, d\u00e9coupage, g\u00e9n\u00e9ration et chiffrement de fichiers PDF, avec une visionneuse int\u00e9gr\u00e9e et des entr\u00e9es dans le gestionnaire de fichiers",
-        "values-ja": "PDF \u30d5\u30a1\u30a4\u30eb\u306e\u8aad\u307f\u8fbc\u307f, \u30ec\u30f3\u30c0\u30ea\u30f3\u30b0, \u7d50\u5408, \u5206\u5272, \u751f\u6210\u3068\u6697\u53f7\u5316, \u30d3\u30e5\u30fc\u30a2\u30fc\u3068\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u5165\u53e3\u3092\u5185\u8535",
-        "values-ko": "PDF \ud30c\uc77c \uc77d\uae30, \ub80c\ub354\ub9c1, \ubcd1\ud569, \ubd84\ud560, \uc0dd\uc131\uacfc \uc554\ud638\ud654, \ubdf0\uc5b4\uc640 \ud30c\uc77c \uad00\ub9ac\uc790 \uc9c4\uc785\uc810 \ub0b4\uc7a5",
-        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435, \u043e\u0442\u0440\u0438\u0441\u043e\u0432\u043a\u0430, \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435, \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435, \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0438 \u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0435 PDF-\u0444\u0430\u0439\u043b\u043e\u0432, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0449\u0438\u043a \u0438 \u043f\u0443\u043d\u043a\u0442\u044b \u0432 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u043c \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0435",
-        "values-zh": "\u8bfb\u53d6, \u6e32\u67d3, \u5408\u5e76, \u62c6\u5206, \u751f\u6210\u4e0e\u52a0\u5bc6 PDF \u6587\u4ef6, \u5185\u7f6e\u67e5\u770b\u5668\u4e0e\u6587\u4ef6\u7ba1\u7406\u5668\u5165\u53e3",
-        "values-zh-rHK": "\u8b80\u53d6, \u6e32\u67d3, \u5408\u4f75, \u62c6\u5206, \u751f\u6210\u8207\u52a0\u5bc6 PDF \u6a94\u6848, \u5167\u7f6e\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u5668\u5165\u53e3",
-        "values-zh-rTW": "\u8b80\u53d6, \u7b97\u7e6a, \u5408\u4f75, \u5206\u5272, \u7522\u751f\u8207\u52a0\u5bc6 PDF \u6a94\u6848, \u5167\u5efa\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u54e1\u5165\u53e3"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "pdf",
-      "variant": "default",
-      "engineId": "three-paper-pdf",
-      "requiresHostVersion": 6641,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.0.0",
-          "versionCode": 41,
-          "versionDate": "2026-11-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/releases/tag/v1.0.0",
-          "changelogText": "3-Paper PDF 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `9f61b3e8c9c19d5d5d818311363ea76e942696b0`\n\nFirst release.\n\n- AutoJs6 script module `pdf` (also `$pdf`): read the information, text, outline and images of PDF files, search text, render pages to images, merge, split, extract, delete, reorder and rotate pages, generate PDF files from images, text or HTML, and encrypt and decrypt; every method has a blocking form and an `xxxAsync` form that can report progress and be cancelled.\n- The `ocr` option of `pdf.text` recognizes scanned pages without a text layer with an installed OCR plugin (ML Kit OCR, Paddle OCR or Rapid OCR).\n- `pdf.view` opens a PDF in the plugin viewer; scripts receive page change and close events and can go to a page or close the viewer.\n- Node.js and Bun scripts can use the `pdf` module too; its methods return Promises, and calls can be aborted with `signal` or `timeoutMs`.\n- Apps packaged by AutoJs6 6.8.1 or later can use the `pdf` module too, with the needed permission added when packaging; documents and viewer sessions they open answer only the app that created them.\n- Viewer: continuous scrolling, pinch zoom, thumbnails, outline, search highlights, go to page, password prompt and night mode; it opens from the launcher, and other apps can hand PDF files to it with \"Open with\" or sharing.\n- AutoJs6 file manager: tapping a PDF opens it in the plugin viewer, and PDF files of up to 512 MiB inside archives open directly too; the menu offers merge, split, convert to images, extract text, encrypt and remove the password.\n- Toolbox with 8 tools: merge, split, PDF to images, images to PDF, encrypt, remove the password, extract text, and rotating, deleting and reordering pages with thumbnails; tasks run one after another in a foreground service with a progress notification that can cancel them.\n- Home screen with the tools, task progress and recent files (files opened with the system file picker still open directly after a restart), a built-in file browser, and a settings screen (default output folder, resolution, language, night mode, theme color, launcher icon, update check).\n- A single APK for every ABI: PDF processing contains no native library; the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `pdf` module of AutoJs6 scripts and the file manager entries need AutoJs6 6.8.1 (internal build 6641) or later (not released yet); on older AutoJs6 versions the Plugin Center shows the plugin as incompatible, and the toolbox and the viewer still work on their own. Node.js scripts need Node.js Runtime 2.2.0 or later and Bun scripts need Bun Runtime 0.23.0 or later (Android 13 and later); neither version is released yet. The script API is described in the \"Script API\" section of the README and in the `pdf` chapter of the AutoJs6 documentation, which comes with AutoJs6 6.8.1.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) only for the files you choose in the toolbox and the viewer (script files arrive as file descriptors), notifications for the task progress notification (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). Document passwords are only used for the current operation and are never stored. See \"Permissions and security\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (PDFBox-Android 2.0.27.0, Bouncy Castle, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-three-paper-pdf-v1.0.0-2bf2221b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/releases/download/v1.0.0/autojs6-plugin-three-paper-pdf-v1.0.0-2bf2221b.apk",
-              "size": 8231848,
-              "digest": "sha256:44e6c96b915837ca7c47d6f8f9fb8f73210e8ecc561431fbf46cc31bf27d9d58",
-              "sha256": "44e6c96b915837ca7c47d6f8f9fb8f73210e8ecc561431fbf46cc31bf27d9d58",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 41,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.paper.pdf",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "9f61b3e8c9c19d5d5d818311363ea76e942696b0"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86_64",
-        "x86"
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured",
-      "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#fafafa",
-      "nightIconBackgroundColor": "#212121"
-    },
-    {
-      "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Three-Prism-Camera"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.prism.camera/5f3d69a8149ca74bd0a2247339a5df185bacc3bf899122be4270dde27b0ff8df.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.prism.camera/c77de67c1bdfcbd18056fc0e3b58f2b4988942dc5a667fc85ba79bc5b4e3adab.png",
-      "title": "3-Prism Camera",
-      "description": "Photo capture, continuous frame analysis and viewfinder preview through CameraX, with frames ready for OCR, barcode, YOLO and other recognition modules",
-      "localizedDescriptions": {
-        "values": "Photo capture, continuous frame analysis and viewfinder preview through CameraX, with frames ready for OCR, barcode, YOLO and other recognition modules",
-        "values-ar": "\u0627\u0644\u062a\u0642\u0627\u0637 \u0627\u0644\u0635\u0648\u0631 \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0625\u0637\u0627\u0631\u0627\u062a \u0627\u0644\u0645\u062a\u062a\u0627\u0628\u0639\u0629 \u0648\u0645\u0639\u0627\u064a\u0646\u0629 \u0627\u0644\u0639\u062f\u0633\u0629 \u0639\u0628\u0631 CameraX \u0645\u0639 \u062a\u0645\u0631\u064a\u0631 \u0627\u0644\u0625\u0637\u0627\u0631\u0627\u062a \u0645\u0628\u0627\u0634\u0631\u0629 \u0625\u0644\u0649 \u0648\u062d\u062f\u0627\u062a \u0627\u0644\u062a\u0639\u0631\u0641 \u0645\u062b\u0644 OCR \u0648\u0627\u0644\u0631\u0645\u0648\u0632 \u0627\u0644\u0634\u0631\u064a\u0637\u064a\u0629 \u0648 YOLO",
-        "values-en": "Photo capture, continuous frame analysis and viewfinder preview through CameraX, with frames ready for OCR, barcode, YOLO and other recognition modules",
-        "values-es": "Captura de fotos, an\u00e1lisis continuo de fotogramas y vista previa del visor con CameraX, con fotogramas listos para m\u00f3dulos de reconocimiento OCR, de c\u00f3digos de barras, YOLO y otros",
-        "values-fr": "Prise de photos, analyse continue des images et aper\u00e7u du viseur via CameraX, avec des images pr\u00eates pour les modules de reconnaissance OCR, codes-barres, YOLO et autres",
-        "values-ja": "CameraX \u306b\u3088\u308b\u5199\u771f\u64ae\u5f71, \u9023\u7d9a\u30d5\u30ec\u30fc\u30e0\u89e3\u6790, \u30d5\u30a1\u30a4\u30f3\u30c0\u30fc\u30d7\u30ec\u30d3\u30e5\u30fc\u3092\u63d0\u4f9b\u3057, \u30d5\u30ec\u30fc\u30e0\u3092 OCR, \u30d0\u30fc\u30b3\u30fc\u30c9, YOLO \u306a\u3069\u306e\u8a8d\u8b58\u30e2\u30b8\u30e5\u30fc\u30eb\u3078\u76f4\u63a5\u6e21\u305b\u307e\u3059",
-        "values-ko": "CameraX \uae30\ubc18 \uc0ac\uc9c4 \ucd2c\uc601, \uc5f0\uc18d \ud504\ub808\uc784 \ubd84\uc11d, \ubdf0\ud30c\uc778\ub354 \ubbf8\ub9ac\ubcf4\uae30, \ud504\ub808\uc784\uc744 OCR, \ubc14\ucf54\ub4dc, YOLO \ub4f1 \uc778\uc2dd \ubaa8\ub4c8\uc5d0 \ubc14\ub85c \uc804\ub2ec \uac00\ub2a5",
-        "values-ru": "\u0424\u043e\u0442\u043e\u0441\u044a\u0451\u043c\u043a\u0430, \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043a\u0430\u0434\u0440\u043e\u0432 \u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0432\u0438\u0434\u043e\u0438\u0441\u043a\u0430\u0442\u0435\u043b\u044f \u0447\u0435\u0440\u0435\u0437 CameraX, \u043a\u0430\u0434\u0440\u044b \u043c\u043e\u0436\u043d\u043e \u0441\u0440\u0430\u0437\u0443 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044f\u043c \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u044f OCR, \u0448\u0442\u0440\u0438\u0445\u043a\u043e\u0434\u043e\u0432, YOLO \u0438 \u0434\u0440\u0443\u0433\u0438\u043c",
-        "values-zh": "\u901a\u8fc7 CameraX \u62cd\u7167, \u8fde\u7eed\u53d6\u5e27\u4e0e\u53d6\u666f\u9884\u89c8, \u5e27\u53ef\u76f4\u63a5\u4ea4\u7ed9 OCR, \u6761\u7801\u4e0e YOLO \u7b49\u8bc6\u522b\u6a21\u5757",
-        "values-zh-rHK": "\u900f\u904e CameraX \u62cd\u7167, \u9023\u7e8c\u53d6\u5e40\u8207\u53d6\u666f\u9810\u89bd, \u5e40\u53ef\u76f4\u63a5\u4ea4\u7d66 OCR, \u689d\u78bc\u8207 YOLO \u7b49\u8b58\u5225\u6a21\u7d44",
-        "values-zh-rTW": "\u900f\u904e CameraX \u62cd\u7167, \u9023\u7e8c\u64f7\u53d6\u5f71\u683c\u8207\u53d6\u666f\u9810\u89bd, \u5f71\u683c\u53ef\u76f4\u63a5\u4ea4\u7d66 OCR, \u689d\u78bc\u8207 YOLO \u7b49\u8fa8\u8b58\u6a21\u7d44"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "camera",
-      "variant": "default",
-      "engineId": "three-prism-camera",
-      "requiresHostVersion": 6641,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.0.0",
-          "versionCode": 40,
-          "versionDate": "2026-11-08",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/tag/v1.0.0",
-          "changelogText": "3-Prism Camera 1.0.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `c0e8c613c65b4e9c52a6c1885a4beb880a8baef5`\n\nFirst release.\n\n- Camera for AutoJs6 scripts through Jetpack CameraX 1.6.2: the `camera` module lists the lenses and opens one session at a time (a busy camera names its holder); the camera is released when the script or AutoJs6 exits.\n- Live frames: RGBA frames at the chosen resolution and frame rate reach the script through shared memory (Android 8.1 or later) or temporary files (Android 7.0 - 8.0), already turned upright for the screen; a frame is valid during its callback, use `img.clone()` to keep it.\n- Photos: `camera.capture()` returns an image or writes the JPEG to a file, with quality, resolution and flash mode; the EXIF orientation is set, and a mirrored photo only gets its orientation rewritten.\n- Preview in a `SurfaceView` of a script UI, plus torch, flash mode, zoom, exposure compensation and tap to focus.\n- Viewfinder screen from the launcher, also used by `camera.capture({ ui: true })`: lens switching, flashlight, zoom and tap to focus; cancelling returns `null`.\n- Settings page: appearance, permissions, the default lens, analysis size and frame rate (used when a script leaves them out), diagnostics, version history and the update check.\n- A foreground notification shows while the camera is in use, and a session opened in the foreground keeps delivering frames in the background and with the screen off. Android 11 and later do not let an app in the background open the camera: `open` then reports `CAMERA_DISABLED`.\n- Choose the APK of your device's processor (most phones: `arm64-v8a`), or `universal` for every device. The native libraries that come with CameraX and Compose are aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `camera` script module needs AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the viewfinder and the settings page do not depend on AutoJs6. See the camera chapter (https://docs.autojs6.com/#/camera) of the AutoJs6 documentation for the script API.\n\nPermissions: the camera, notifications for the camera-in-use notification (Android 13 or later), and the network only for the update check (the official plugin index, automatically at most once every 12 hours); the plugin never uploads frames or photos.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Jetpack CameraX 1.6.2, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hashes of the APKs.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-three-prism-camera-v1.0.0-arm64-v8a-42c6fe90.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-arm64-v8a-42c6fe90.apk",
-              "size": 2238580,
-              "digest": "sha256:d30842d64070e11802123f1e6dffdb826b161af2e08e1cfe5d1429ef576b0adf",
-              "sha256": "d30842d64070e11802123f1e6dffdb826b161af2e08e1cfe5d1429ef576b0adf",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 40,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
-            },
-            {
-              "name": "autojs6-plugin-three-prism-camera-v1.0.0-armeabi-v7a-ff362846.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-armeabi-v7a-ff362846.apk",
-              "size": 2237150,
-              "digest": "sha256:fa45523b2cd593e833fb0dbb6cc8c8fe609d9f2e30a41e6138b3a0c16c6e04ca",
-              "sha256": "fa45523b2cd593e833fb0dbb6cc8c8fe609d9f2e30a41e6138b3a0c16c6e04ca",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 40,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
-            },
-            {
-              "name": "autojs6-plugin-three-prism-camera-v1.0.0-universal-9ea313a8.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-universal-9ea313a8.apk",
-              "size": 2485118,
-              "digest": "sha256:e2067ddb18a4fd8c23fb21716c693ae55b0651057f35cfcb1a3c5dd69eefe123",
-              "sha256": "e2067ddb18a4fd8c23fb21716c693ae55b0651057f35cfcb1a3c5dd69eefe123",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 40,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
-            },
-            {
-              "name": "autojs6-plugin-three-prism-camera-v1.0.0-x86-87d3ced7.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-x86-87d3ced7.apk",
-              "size": 2253862,
-              "digest": "sha256:4875799b3153d5d95bb1c493a730777f555be96d3ea660948fcae97cfa1a5496",
-              "sha256": "4875799b3153d5d95bb1c493a730777f555be96d3ea660948fcae97cfa1a5496",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 40,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
-            },
-            {
-              "name": "autojs6-plugin-three-prism-camera-v1.0.0-x86_64-e30e2d6b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-x86_64-e30e2d6b.apk",
-              "size": 2271355,
-              "digest": "sha256:0935cb8baa05f619b632bcab5984c2b652e28402db625713df1392cd746ea4f7",
-              "sha256": "0935cb8baa05f619b632bcab5984c2b652e28402db625713df1392cd746ea4f7",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 40,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86_64",
-        "x86"
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured",
-      "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#fafafa",
-      "nightIconBackgroundColor": "#212121"
-    },
-    {
       "packageName": "io.github.supermonster003.autojs6.plugin.three.setup.installer",
       "repository": {
         "owner": "SuperMonster003",
@@ -10894,101 +10462,6 @@
                 "x86"
               ],
               "sourceCommit": "3b93a6987a1f9549416e88ba8d123e1be4f2a4e4"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86_64",
-        "x86"
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured",
-      "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#fafafa",
-      "nightIconBackgroundColor": "#212121"
-    },
-    {
-      "packageName": "io.github.supermonster003.autojs6.plugin.three.slate.studio",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Three-Slate-Studio"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.slate.studio/b577573f1d097a83b4277c4134540df5b5ac3bdfc3dcc78bd0145c64e8e73f87.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.slate.studio/818bfaff24169d0d5ad413325d9d5a1888db32c2efc597c99565c4a895e2174d.png",
-      "title": "3-Slate Studio",
-      "description": "Video and audio processing, multi-track timeline editing, transitions and subtitles, with script code generated from the app screens",
-      "localizedDescriptions": {
-        "values": "Video and audio processing, multi-track timeline editing, transitions and subtitles, with script code generated from the app screens",
-        "values-ar": "\u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0641\u064a\u062f\u064a\u0648 \u0648\u0627\u0644\u0635\u0648\u062a, \u062a\u062d\u0631\u064a\u0631 \u0645\u062a\u0639\u062f\u062f \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062a \u0639\u0644\u0649 \u062e\u0637 \u0632\u0645\u0646\u064a, \u0627\u0646\u062a\u0642\u0627\u0644\u0627\u062a \u0648\u062a\u0631\u062c\u0645\u0627\u062a, \u0645\u0639 \u062a\u0648\u0644\u064a\u062f \u0634\u064a\u0641\u0631\u0629 \u0627\u0644\u0633\u0643\u0631\u0628\u062a \u0645\u0646 \u0634\u0627\u0634\u0627\u062a \u0627\u0644\u062a\u0637\u0628\u064a\u0642",
-        "values-en": "Video and audio processing, multi-track timeline editing, transitions and subtitles, with script code generated from the app screens",
-        "values-es": "Procesamiento de v\u00eddeo y audio, edici\u00f3n multipista con l\u00ednea de tiempo, transiciones y subt\u00edtulos, con c\u00f3digo de script generado desde las pantallas",
-        "values-fr": "Traitement vid\u00e9o et audio, montage multipiste sur une timeline, transitions et sous-titres, avec du code de script g\u00e9n\u00e9r\u00e9 depuis les \u00e9crans",
-        "values-ja": "\u52d5\u753b\u3068\u97f3\u58f0\u306e\u52a0\u5de5, \u30de\u30eb\u30c1\u30c8\u30e9\u30c3\u30af\u306e\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3\u7de8\u96c6, \u30c8\u30e9\u30f3\u30b8\u30b7\u30e7\u30f3\u3068\u5b57\u5e55, \u753b\u9762\u306e\u64cd\u4f5c\u304b\u3089\u30b9\u30af\u30ea\u30d7\u30c8\u30b3\u30fc\u30c9\u3092\u751f\u6210",
-        "values-ko": "\ub3d9\uc601\uc0c1\uacfc \uc624\ub514\uc624 \uac00\uacf5, \uba40\ud2f0\ud2b8\ub799 \ud0c0\uc784\ub77c\uc778 \ud3b8\uc9d1, \uc804\ud658 \ud6a8\uacfc\uc640 \uc790\ub9c9, \ud654\uba74 \uc870\uc791\uc73c\ub85c \uc2a4\ud06c\ub9bd\ud2b8 \ucf54\ub4dc \uc0dd\uc131",
-        "values-ru": "\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0432\u0438\u0434\u0435\u043e \u0438 \u0430\u0443\u0434\u0438\u043e, \u043c\u043d\u043e\u0433\u043e\u0434\u043e\u0440\u043e\u0436\u0435\u0447\u043d\u044b\u0439 \u043c\u043e\u043d\u0442\u0430\u0436 \u043d\u0430 \u0442\u0430\u0439\u043c\u043b\u0430\u0439\u043d\u0435, \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b \u0438 \u0441\u0443\u0431\u0442\u0438\u0442\u0440\u044b, \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u043a\u043e\u0434\u0430 \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432 \u0438\u0437 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0432 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0435",
-        "values-zh": "\u89c6\u9891\u4e0e\u97f3\u9891\u52a0\u5de5, \u591a\u8f68\u65f6\u95f4\u7ebf\u526a\u8f91, \u8f6c\u573a\u4e0e\u5b57\u5e55, \u754c\u9762\u64cd\u4f5c\u53ef\u751f\u6210\u811a\u672c\u4ee3\u7801",
-        "values-zh-rHK": "\u5f71\u7247\u8207\u97f3\u8a0a\u8655\u7406, \u591a\u8ecc\u6642\u9593\u7dda\u526a\u8f2f, \u8f49\u5834\u8207\u5b57\u5e55, \u4ecb\u9762\u64cd\u4f5c\u53ef\u751f\u6210\u8173\u672c\u7a0b\u5f0f\u78bc",
-        "values-zh-rTW": "\u5f71\u7247\u8207\u97f3\u8a0a\u8655\u7406, \u591a\u8ecc\u6642\u9593\u8ef8\u526a\u8f2f, \u8f49\u5834\u8207\u5b57\u5e55, \u4ecb\u9762\u64cd\u4f5c\u53ef\u7522\u751f\u6307\u4ee4\u78bc"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "media-studio",
-      "variant": "default",
-      "engineId": "three-slate-studio",
-      "requiresHostVersion": 6641,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.0.0",
-          "versionCode": 33,
-          "versionDate": "2026-11-08",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/releases/tag/v1.0.0",
-          "changelogText": "3-Slate Studio 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `96c8bfecdb76eb39af28f5ec6972142e6b24cecd`\n\nFirst release.\n\n- Video processing: trim, join, speed (0.25x - 8x), scale, rotate, crop and flip, text or image watermarks, audio track extraction or removal, and transcoding (H.264, or H.265 where the device supports it).\n- Frames, thumbnails and GIF: PNG / JPG files or Image objects, and a built-in GIF encoder (palette, dithering, looping).\n- Audio processing: trim, join, mix (scaled down automatically when it would clip), volume and fades, speed, and conversion to M4A / WAV / FLAC / OGG (OGG needs Android 10+).\n- Multi-track composition with `video.compose`: up to 8 video tracks and 16 audio tracks, 7 transitions, text / image overlays and subtitles.\n- Subtitles: SRT reading and writing and a basic subset of ASS, burned into the picture with `video.burnSubtitles`, and `video.subtitles.parse` / `write` for subtitle files.\n- AutoJs6 script modules `video` / `audio` (Rhino, Node.js and Bun): every processing method has an `xxxAsync` form and a progress callback, and stopping the script cancels its tasks.\n- Studio screens: media library, toolbox, task queue and settings; the appearance follows AutoJs6 or uses its own language, night mode and theme color.\n- Toolbox wizards, one per processing feature, and a timeline editor (multi-track editing, transitions, overlays and subtitles, live preview, undo / redo, `.slate.json` projects); the wizards, the timeline and the recorder show the equivalent complete script, ready to copy or to open in AutoJs6.\n- Studio recorder: microphone, device audio (Android 10+) or both, M4A / WAV, pause / resume, recording with the screen off and controls in the notification.\n- Long tasks run in a foreground service with a progress notification; outputs without a path go to the 3-Slate Studio folders under Movies, Music and Pictures.\n- A single APK for every ABI: the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. Processing media with `video` / `audio` in scripts needs AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the plugin screens, the timeline editor and the Studio recorder do not depend on AutoJs6. See the [video](https://docs.autojs6.com/#/video) and [audio](https://docs.autojs6.com/#/audio) chapters of the AutoJs6 documentation for the script API.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) for the paths that scripts and screens choose, media access for the media library (Android 13+), the microphone for the Studio recorder only, the system screen sharing consent when the recorder captures device audio, notifications for the progress and recording notifications (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). See \"Permissions and their purposes\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Jetpack Media3 1.10.1, Jetpack Compose, AndroidX, Kotlin, Guava and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-three-slate-studio-v1.0.0-c2db405c.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/releases/download/v1.0.0/autojs6-plugin-three-slate-studio-v1.0.0-c2db405c.apk",
-              "size": 4350440,
-              "digest": "sha256:748caeb400ca1192c6f88a83b79fc746d86624b1b492500fd0f19ae67d7655a4",
-              "sha256": "748caeb400ca1192c6f88a83b79fc746d86624b1b492500fd0f19ae67d7655a4",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 33,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.slate.studio",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "96c8bfecdb76eb39af28f5ec6972142e6b24cecd"
             }
           ],
           "prerelease": false,
@@ -11529,101 +11002,6 @@
       "nightIconBackgroundColor": "#212121"
     },
     {
-      "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
-      "repository": {
-        "owner": "SuperMonster003",
-        "name": "AutoJs6-Plugin-Three-Tally-Sheet"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/43bd4c97c2072a7a8a619753b2062caec3b5e55df469e2a157d7729dc250e0f5.png",
-      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/cc4775b58626069b18fc905523e916c89222dac88b6afe69a3595a07e67c19ce.png",
-      "title": "3-Tally Sheet",
-      "description": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
-      "localizedDescriptions": {
-        "values": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
-        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u062c\u062f\u0627\u0648\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a XLSX / XLS / CSV \u0648\u0643\u062a\u0627\u0628\u062a\u0647\u0627 \u0648\u062a\u062d\u0648\u064a\u0644\u0647\u0627 \u0648\u062a\u062d\u0631\u064a\u0631\u0647\u0627, \u0645\u0639 \u0639\u0627\u0631\u0636 \u0645\u062f\u0645\u062c \u0648\u0645\u062f\u0627\u062e\u0644 \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
-        "values-en": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
-        "values-es": "Lectura, escritura, conversi\u00f3n y edici\u00f3n de hojas de c\u00e1lculo XLSX / XLS / CSV, con visor integrado y entradas en el gestor de archivos",
-        "values-fr": "Lecture, \u00e9criture, conversion et modification de feuilles de calcul XLSX / XLS / CSV, avec une visionneuse int\u00e9gr\u00e9e et des entr\u00e9es dans le gestionnaire de fichiers",
-        "values-ja": "XLSX / XLS / CSV \u8868\u8a08\u7b97\u30d5\u30a1\u30a4\u30eb\u306e\u8aad\u307f\u8fbc\u307f, \u66f8\u304d\u8fbc\u307f, \u5909\u63db\u3068\u7de8\u96c6, \u30d3\u30e5\u30fc\u30a2\u30fc\u3068\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u5165\u53e3\u3092\u5185\u8535",
-        "values-ko": "XLSX / XLS / CSV \uc2a4\ud504\ub808\ub4dc\uc2dc\ud2b8 \ud30c\uc77c \uc77d\uae30, \uc4f0\uae30, \ubcc0\ud658\uacfc \ud3b8\uc9d1, \ubdf0\uc5b4\uc640 \ud30c\uc77c \uad00\ub9ac\uc790 \uc9c4\uc785\uc810 \ub0b4\uc7a5",
-        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435, \u0437\u0430\u043f\u0438\u0441\u044c, \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0430\u0431\u043b\u0438\u0446 XLSX / XLS / CSV, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0449\u0438\u043a \u0438 \u043f\u0443\u043d\u043a\u0442\u044b \u0432 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u043c \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0435",
-        "values-zh": "\u8bfb\u53d6, \u5199\u5165, \u8f6c\u6362\u4e0e\u7f16\u8f91 XLSX / XLS / CSV \u8868\u683c\u6587\u4ef6, \u5185\u7f6e\u67e5\u770b\u5668\u4e0e\u6587\u4ef6\u7ba1\u7406\u5668\u5165\u53e3",
-        "values-zh-rHK": "\u8b80\u53d6, \u5beb\u5165, \u8f49\u63db\u8207\u7de8\u8f2f XLSX / XLS / CSV \u8868\u683c\u6a94\u6848, \u5167\u7f6e\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u5668\u5165\u53e3",
-        "values-zh-rTW": "\u8b80\u53d6, \u5beb\u5165, \u8f49\u63db\u8207\u7de8\u8f2f XLSX / XLS / CSV \u8a66\u7b97\u8868\u6a94\u6848, \u5167\u5efa\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u54e1\u5165\u53e3"
-      },
-      "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
-      "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
-      },
-      "author": "SuperMonster003",
-      "collaborators": [],
-      "engine": "xlsx",
-      "variant": "default",
-      "engineId": "three-tally-sheet",
-      "requiresHostVersion": 6641,
-      "featured": true,
-      "releases": [
-        {
-          "versionName": "1.0.0",
-          "versionCode": 68,
-          "versionDate": "2026-11-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/tag/v1.0.0",
-          "changelogText": "3-Tally Sheet 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `3c50add39959f5d02d0b8a52f30fe0922d46f84d`\n\nFirst release.\n\n- AutoJs6 script module `xlsx` (also `$xlsx`): reads and writes xlsx, xlsm, xls, csv and tsv files, edits cells through workbook and sheet objects, and sets styles, column widths, frozen panes, merged cells, hyperlinks and comments; it can also show data in the viewer and return the rows the user selects.\n- Also available in Node.js and Bun scripts: `require('autojs6:xlsx')` in Node.js Runtime 2.2.0 or later, and `host.xlsx` in Bun Runtime 0.23.0 or later (Android 13+); apps packaged by AutoJs6 can use the module too when this plugin is installed on the device that runs them.\n- Large sheets: streaming reads in batches (up to 1000 rows each) and streaming writes without loading the whole sheet into memory; long operations have `xxxAsync` forms and can be canceled midway.\n- CSV: detects the encoding (including GBK / GB18030 and UTF-16) and the delimiter automatically; writes UTF-8 with a BOM by default, so Excel opens the file without garbled text.\n- Formulas recalculated on save or on demand (unsupported functions only produce warnings), conditional formatting and data validation, and password-protected xlsx (AES-256) and xls (RC4) files.\n- Viewer: styles, merged cells, conditional formatting, hyperlinks and comments, frozen header row and first column, sheet switching, sorting and search; opens from the AutoJs6 file manager, \"Open with\" in other apps or the plugin home screen.\n- Editor: values and formulas with a live preview, rows, columns and sheets, style editing, copy and paste with styles, and up to 50 undo steps; files over 20 MB can only be viewed.\n- Toolbox: five wizards to convert the format, merge files, split a file, change the CSV encoding and remove duplicate rows; tasks run in the background with their progress in a notification.\n- AutoJs6 file manager entries: open spreadsheets with the plugin and convert to xlsx or csv, merge the selected files, split sheets and re-encode CSV.\n- A single APK for every ABI: the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `xlsx` script module and the AutoJs6 file manager entries need AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the viewer, the editor and the toolbox do not depend on AutoJs6. See the [xlsx chapter](https://docs.autojs6.com/#/xlsx) of the AutoJs6 documentation for the script API.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) only for the files you open or save in the plugin screens (scripts hand files to the plugin through AutoJs6 and do not need it), notifications for the toolbox progress notification (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). VBA macros are never executed and external links are never refreshed. See \"Permissions and security\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Apache POI 5.5.1 with XMLBeans, Apache Commons and aalto-xml, juniversalchardet, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
-          "assets": [
-            {
-              "name": "autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/download/v1.0.0/autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
-              "size": 6531506,
-              "digest": "sha256:6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
-              "sha256": "6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.0.0",
-              "versionCode": 68,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
-              "supportedAbis": [
-                "arm64-v8a",
-                "armeabi-v7a",
-                "x86_64",
-                "x86"
-              ],
-              "sourceCommit": "3c50add39959f5d02d0b8a52f30fe0922d46f84d"
-            }
-          ],
-          "prerelease": false,
-          "nativePageAlignment": 16384,
-          "nativePageAlignmentSource": "measured"
-        }
-      ],
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86_64",
-        "x86"
-      ],
-      "tags": [
-        "official"
-      ],
-      "source": "OFFICIAL",
-      "nativePageAlignment": 16384,
-      "nativePageAlignmentSource": "measured",
-      "forceIgnoreLocalIcon": true,
-      "iconBackgroundColor": "#fafafa",
-      "nightIconBackgroundColor": "#212121"
-    },
-    {
       "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
       "repository": {
         "owner": "SuperMonster003",
@@ -12062,6 +11440,634 @@
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
       "nightIconBackgroundColor": "transparent"
+    }
+  ],
+  "deferredItems": [
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Java-Libraries"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.java.libraries/f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.java.libraries/f3809b8fc216672115c61df2bd9847459ea17dc0d75e658725203b0a2aaf7948.png",
+      "title": "Java Libraries",
+      "description": "Apache Commons Lang3, Commons IO and Jackson for direct use as Java classes in AutoJs6 scripts",
+      "localizedDescriptions": {
+        "values": "Apache Commons Lang3, Commons IO and Jackson for direct use as Java classes in AutoJs6 scripts",
+        "values-ar": "\u0645\u0643\u062a\u0628\u0627\u062a Java \u0645\u0646 Apache Commons Lang3 \u0648Commons IO \u0648Jackson \u0644\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0645\u0628\u0627\u0634\u0631 \u0641\u064a \u0633\u0643\u0631\u0628\u062a\u0627\u062a AutoJs6",
+        "values-en": "Apache Commons Lang3, Commons IO and Jackson for direct use as Java classes in AutoJs6 scripts",
+        "values-es": "Apache Commons Lang3, Commons IO y Jackson para usar directamente como clases Java en scripts de AutoJs6",
+        "values-fr": "Apache Commons Lang3, Commons IO et Jackson \u00e0 utiliser directement comme classes Java dans les scripts AutoJs6",
+        "values-ja": "AutoJs6 \u30b9\u30af\u30ea\u30d7\u30c8\u304b\u3089 Java \u30af\u30e9\u30b9\u3068\u3057\u3066\u76f4\u63a5\u4f7f\u3048\u308b Apache Commons Lang3, Commons IO, Jackson",
+        "values-ko": "AutoJs6 \uc2a4\ud06c\ub9bd\ud2b8\uc5d0\uc11c Java \ud074\ub798\uc2a4\ub85c \ubc14\ub85c \uc4f8 \uc218 \uc788\ub294 Apache Commons Lang3, Commons IO, Jackson",
+        "values-ru": "Apache Commons Lang3, Commons IO \u0438 Jackson \u0434\u043b\u044f \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f Java-\u043a\u043b\u0430\u0441\u0441\u043e\u0432 \u0432 \u0441\u043a\u0440\u0438\u043f\u0442\u0430\u0445 AutoJs6",
+        "values-zh": "\u4f9b AutoJs6 \u811a\u672c\u4ee5 Java \u7c7b\u76f4\u63a5\u8c03\u7528\u7684 Apache Commons Lang3, Commons IO \u4e0e Jackson",
+        "values-zh-rHK": "\u4f9b AutoJs6 \u8173\u672c\u4ee5 Java \u985e\u76f4\u63a5\u8abf\u7528\u7684 Apache Commons Lang3, Commons IO \u8207 Jackson",
+        "values-zh-rTW": "\u4f9b AutoJs6 \u8173\u672c\u4ee5 Java \u985e\u5225\u76f4\u63a5\u547c\u53eb\u7684 Apache Commons Lang3, Commons IO \u8207 Jackson"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "java-libraries",
+      "variant": "default",
+      "engineId": "java-libraries",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 14,
+          "versionDate": "2026-11-05",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/tag/v1.0.0",
+          "changelogText": "Java Libraries 1.0.0: AutoJs6 6.8.0 \u4e0d\u518d\u5185\u7f6e\u7684 Java \u5e93 Apache Commons Lang3, Commons IO \u4e0e Jackson \u6539\u7531\u672c\u63d2\u4ef6\u63d0\u4f9b, \u811a\u672c\u53ef\u4ee5\u50cf\u4ee5\u524d\u4e00\u6837\u76f4\u63a5\u4f7f\u7528 `org.apache.commons.lang3.StringUtils`, `com.fasterxml.jackson.databind.ObjectMapper` \u7b49\u7c7b.\n\n* `\u63d0\u793a` \u9700\u8981 AutoJs6 6.8.1 (\u6784\u5efa 6641) \u6216\u66f4\u9ad8\u7248\u672c\n* `\u63d0\u793a` AutoJs6 6.8.0 \u8d77\u4e0d\u518d\u5185\u7f6e Apache Commons Lang3, Commons IO \u4e0e Jackson; \u5b89\u88c5\u5e76\u542f\u7528\u672c\u63d2\u4ef6\u540e, \u811a\u672c\u7167\u5e38\u4ee5\u5168\u540d\u4f7f\u7528\u8fd9\u4e9b\u5e93\u7684\u7c7b, \u5199\u6cd5\u4e0e AutoJs6 6.7.0 \u76f8\u540c, \u539f\u6709\u811a\u672c\u65e0\u9700\u4fee\u6539\n* `\u65b0\u589e` Apache Commons Lang3 3.18.0, Apache Commons IO 2.8.0 \u4e0e Jackson 2.13.4.2 (core \u4e0e annotations \u4e3a 2.13.4), \u7248\u672c\u4e0e AutoJs6 6.7.0 \u5185\u7f6e\u7684\u76f8\u540c\n* `\u65b0\u589e` \u63d2\u4ef6\u53ea\u662f\u4e00\u4e2a\u8d44\u6e90\u5305: AutoJs6 \u76f4\u63a5\u4ece\u63d2\u4ef6\u52a0\u8f7d\u8fd9\u4e9b\u7c7b, \u811a\u672c\u8fd0\u884c\u65f6\u4e0d\u542f\u52a8\u63d2\u4ef6\u8fdb\u7a0b, \u63d2\u4ef6\u4e0d\u7533\u8bf7\u4efb\u4f55\u6743\u9650\n* `\u65b0\u589e` \u7528 AutoJs6 \u6253\u5305\u5e94\u7528\u65f6\u53ef\u4ee5\u5e26\u5165\u8fd9\u4e9b\u7c7b (\u81ea\u52a8\u626b\u63cf\u811a\u672c, \u4e5f\u53ef\u4ee5\u5728\u5e93\u5217\u8868\u4e2d\u52fe\u9009), \u6253\u5305\u540e\u7684\u5e94\u7528\u5728\u6ca1\u6709\u672c\u63d2\u4ef6\u7684\u8bbe\u5907\u4e0a\u4e5f\u80fd\u4f7f\u7528\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u663e\u793a\u5404\u5e93\u7684\u7248\u672c, \u8bb8\u53ef\u8bc1, Java \u5305, \u4f7f\u7528\u793a\u4f8b, NOTICE \u6587\u4ef6\u4e0e\u53d1\u884c\u5386\u53f2\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u8ddf\u968f AutoJs6 \u7684\u8bed\u8a00, \u591c\u95f4\u6a21\u5f0f\u4e0e\u4e3b\u9898\u8272, \u672a\u5b89\u88c5 AutoJs6 \u6216\u65e0\u6cd5\u8bfb\u53d6\u5176\u8bbe\u7f6e\u65f6\u8ddf\u968f\u7cfb\u7edf\n* `\u4f9d\u8d56` \u9644\u52a0 AutoJs6 Common Plugin API\n* `\u4f9d\u8d56` \u9644\u52a0 desugar_jdk_libs_nio 2.1.5\n\n\u8981\u6c42: \u6784\u5efa\u53f7 6641 \u6216\u66f4\u9ad8\u7684 AutoJs6, \u5373 6.8.1 \u53ca\u4ee5\u540e\u7684\u7248\u672c (\u53d1\u5e03\u65f6 6.8.1 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03; AutoJs6 6.8.0 \u7684\u6784\u5efa\u53f7\u662f 6640, \u63d2\u4ef6\u4e2d\u5fc3\u4f1a\u63d0\u793a\u9700\u8981\u66f4\u65b0 AutoJs6). \u63d2\u4ef6\u4e0d\u542b\u539f\u751f\u5e93, \u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc.\n\nJava Libraries 1.0.0: the Java libraries AutoJs6 6.8.0 no longer includes, Apache Commons Lang3, Commons IO and Jackson, now come with this plugin, so scripts can use classes such as `org.apache.commons.lang3.StringUtils` and `com.fasterxml.jackson.databind.ObjectMapper` directly as before.\n\n* `Hint` Requires AutoJs6 6.8.1 (build 6641) or later\n* `Hint` Starting with AutoJs6 6.8.0, Apache Commons Lang3, Commons IO and Jackson are no longer built in; with this plugin installed and enabled, scripts use the classes of these libraries by their full names as with AutoJs6 6.7.0, and existing scripts need no change\n* `Feature` Apache Commons Lang3 3.18.0, Apache Commons IO 2.8.0 and Jackson 2.13.4.2 (core and annotations 2.13.4), the versions AutoJs6 6.7.0 included\n* `Feature` The plugin is only a resource package: AutoJs6 loads the classes straight from the plugin, running scripts never starts the plugin process, and the plugin asks for no permission\n* `Feature` Apps packaged with AutoJs6 can carry these classes (found by scanning the scripts, or ticked in the list of libraries) and then use them on devices without the plugin\n* `Feature` The plugin page shows the version, license and Java package of each library, an example, the NOTICE files and the release history\n* `Feature` The plugin page follows the language, night mode and theme color of AutoJs6, and the system when AutoJs6 is not installed or its settings cannot be read\n* `Dependency` Attach AutoJs6 Common Plugin API\n* `Dependency` Attach desugar_jdk_libs_nio 2.1.5\n\nRequirements: an AutoJs6 build 6641 or later, that is 6.8.1 and later versions (6.8.1 was not yet officially released at publication; AutoJs6 6.8.0 is build 6640, and its Plugin Center says that AutoJs6 needs an update). The plugin has no native libraries, requests no runtime permission and has no network access.\n\nVersion: **v1.0.0 (14)**. Checksums: `SHA256SUMS`.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/download/v1.0.0/autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
+              "size": 1210067,
+              "digest": "sha256:cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
+              "sha256": "cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 14,
+              "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
+              "sourceCommit": "4798a897711cdc5834d1c9190c5d961cabab6920"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 0,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 0,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "transparent",
+      "nightIconBackgroundColor": "transparent"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Chime-Alarm"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.chime.alarm/98c3045503906a596bf8ceb302c9cec3d4b9d497d72c057ce9703f3cc009b62e.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.chime.alarm/a814c40248847fa1456f7dce3f8f69f26d168eae613d7001b67ae7a571dd2227.png",
+      "title": "3-Chime Alarm",
+      "description": "Alarm clock, timers and stopwatch with calendar recurrence rules, holidays, dismiss challenges, spoken ringing and script hooks when an alarm rings",
+      "localizedDescriptions": {
+        "values": "Alarm clock, timers and stopwatch with calendar recurrence rules, holidays, dismiss challenges, spoken ringing and script hooks when an alarm rings",
+        "values-ar": "\u0645\u0646\u0628\u0647 \u0648\u0645\u0624\u0642\u062a\u0627\u062a \u0648\u0633\u0627\u0639\u0629 \u0625\u064a\u0642\u0627\u0641 \u0628\u0642\u0648\u0627\u0639\u062f \u062a\u0643\u0631\u0627\u0631 \u062a\u0642\u0648\u064a\u0645\u064a\u0629 \u0648\u0645\u0631\u0627\u0639\u0627\u0629 \u0627\u0644\u0639\u0637\u0644\u0627\u062a \u0648\u062a\u062d\u062f\u064a\u0627\u062a \u0627\u0644\u0625\u064a\u0642\u0627\u0641 \u0648\u0642\u0631\u0627\u0621\u0629 \u0635\u0648\u062a\u064a\u0629 \u0648\u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0633\u0643\u0631\u0628\u062a\u0627\u062a \u0639\u0646\u062f \u0627\u0644\u0631\u0646\u064a\u0646",
+        "values-en": "Alarm clock, timers and stopwatch with calendar recurrence rules, holidays, dismiss challenges, spoken ringing and script hooks when an alarm rings",
+        "values-es": "Alarma, temporizadores y cron\u00f3metro con reglas de repetici\u00f3n de calendario, festivos, desaf\u00edos para descartar, lectura en voz alta y scripts al sonar la alarma",
+        "values-fr": "R\u00e9veil, minuteurs et chronom\u00e8tre avec r\u00e8gles de r\u00e9p\u00e9tition de calendrier, jours f\u00e9ri\u00e9s, d\u00e9fis d\\'arr\u00eat, sonnerie parl\u00e9e et scripts d\u00e9clench\u00e9s \u00e0 la sonnerie",
+        "values-ja": "\u30ab\u30ec\u30f3\u30c0\u30fc\u5f62\u5f0f\u306e\u7e70\u308a\u8fd4\u3057\u30eb\u30fc\u30eb, \u795d\u65e5, \u505c\u6b62\u30c1\u30e3\u30ec\u30f3\u30b8, \u8aad\u307f\u4e0a\u3052\u4ed8\u304d\u306e\u9cf4\u52d5, \u9cf4\u52d5\u6642\u306e\u30b9\u30af\u30ea\u30d7\u30c8\u9023\u643a\u306b\u5bfe\u5fdc\u3057\u305f\u30a2\u30e9\u30fc\u30e0, \u30bf\u30a4\u30de\u30fc, \u30b9\u30c8\u30c3\u30d7\u30a6\u30a9\u30c3\u30c1",
+        "values-ko": "\ub2ec\ub825 \ubc18\ubcf5 \uaddc\uce59, \uacf5\ud734\uc77c, \ud574\uc81c \ucc4c\ub9b0\uc9c0, \uc74c\uc131 \uc77d\uae30 \uc54c\ub78c, \uc54c\ub78c\uc774 \uc6b8\ub9b4 \ub54c \uc2a4\ud06c\ub9bd\ud2b8 \uc5f0\ub3d9\uc744 \uc9c0\uc6d0\ud558\ub294 \uc54c\ub78c, \ud0c0\uc774\uba38, \uc2a4\ud1b1\uc6cc\uce58 \uc571",
+        "values-ru": "\u0411\u0443\u0434\u0438\u043b\u044c\u043d\u0438\u043a, \u0442\u0430\u0439\u043c\u0435\u0440\u044b \u0438 \u0441\u0435\u043a\u0443\u043d\u0434\u043e\u043c\u0435\u0440 \u0441 \u043a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u043c\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430\u043c\u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0430, \u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0430\u043c\u0438, \u0437\u0430\u0434\u0430\u043d\u0438\u044f\u043c\u0438 \u0434\u043b\u044f \u0432\u044b\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f, \u043e\u0437\u0432\u0443\u0447\u0438\u0432\u0430\u043d\u0438\u0435\u043c \u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432 \u043f\u0440\u0438 \u0437\u0432\u043e\u043d\u043a\u0435",
+        "values-zh": "\u95f9\u949f, \u8ba1\u65f6\u5668\u4e0e\u79d2\u8868, \u652f\u6301\u65e5\u5386\u91cd\u590d\u89c4\u5219, \u8282\u5047\u65e5\u4e0e\u5173\u95ed\u6311\u6218, \u6717\u8bfb\u54cd\u94c3\u4e0e\u54cd\u94c3\u65f6\u8054\u52a8\u811a\u672c",
+        "values-zh-rHK": "\u9b27\u9418, \u8a08\u6642\u5668\u8207\u79d2\u9336, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u7bc0\u5047\u65e5\u8207\u95dc\u9589\u6311\u6230, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u806f\u52d5\u8173\u672c",
+        "values-zh-rTW": "\u9b27\u9418, \u8a08\u6642\u5668\u8207\u78bc\u9336, \u652f\u63f4\u65e5\u66c6\u91cd\u8907\u898f\u5247, \u7bc0\u5047\u65e5\u8207\u95dc\u9589\u6311\u6230, \u6717\u8b80\u97ff\u9234\u8207\u97ff\u9234\u6642\u9023\u52d5\u6307\u4ee4\u78bc"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "alarm",
+      "variant": "default",
+      "engineId": "three-chime-alarm",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.3.0",
+          "versionCode": 90,
+          "versionDate": "2026-11-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/tag/v1.3.0",
+          "changelogText": "3-Chime Alarm 1.3.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `1a6892a5c65663d3f59f56c8f636967ff09a604e`\n\nHint\n\n- Dismiss challenges set on the plugin screens need no AutoJs6; setting them in scripts (the `dismiss` option of alarms) and the script condition need AutoJs6 6.8.1 (internal build 6641) or later and this plugin 1.3.0 or later; with plugin 1.2.x or earlier, a call with the `dismiss` option fails with a message asking to update the plugin.\n- An alarm with a dismiss challenge can always be ended: auto stop (at least 30 minutes when not set on the alarm) and emergency dismiss (5 presses of a volume key within 4 seconds on the ringing screen) are always available; emergency dismiss can be turned off on the settings screen, and then only auto stop ends the ringing until the challenge is done.\n\nFeature\n\n- Dismiss challenges: an alarm can require solving math problems (easy, medium or hard, 3 problems by default), shaking the phone (30 shakes by default) or typing a sentence (your own, or a random built-in one) before it can be dismissed, and can allow or forbid snoozing during the challenge; set it in the \"Dismiss challenge\" row of the edit screen, and the challenge takes the place of the dismiss slider on the ringing screen.\n- While a challenge is in effect, the \"Dismiss\" button of the notification and dismiss requests from other apps no longer dismiss the alarm directly but open the challenge on the ringing screen; when snoozing is not allowed the notification shows no \"Snooze\" button; on a device without an accelerometer the shake challenge becomes math problems.\n- Safety valves: when an alarm with a challenge does not set auto stop, auto stop takes the longer of the default on the settings screen and 30 minutes, and the ringing screen shows the time left; 5 presses of a volume key within 4 seconds while the ringing screen is in front (also on the lock screen) dismiss the alarm in an emergency, and during a challenge the volume keys only count presses and do not change the volume; the new \"Dismiss challenges\" group of the settings screen can turn emergency dismiss off (on by default).\n- Script condition: set by an AutoJs6 script, the alarm rings until a script dismisses it; when the device has not been unlocked since a reboot, there is no script, AutoJs6 is unavailable, or the scripts failed to start or have ended, the alarm falls back at once to the chosen challenge (a normal dismiss by default), and the reason is recorded in the plugin log.\n- New in the AutoJs6 script module: the `dismiss` option of alarms (the kind of challenge, the difficulty and number of math problems, the number of shakes, the text to type, the challenge used when no script can run, and whether snoozing is allowed), the `challenge` in `alarms.ringing()` and in the `ring` / `dismiss` events, and `by: 'challenge'` in the `dismiss` event (needs AutoJs6 6.8.1; see the [AutoJs6 documentation](https://docs.autojs6.com/#/alarms)).\n- The plugin tools `alarm_add` and `alarm_update` accept the `dismiss` option and can set the math, shake and type challenges (the script condition excepted).\n\nRequirements: Android 7.0 or later. Enabling the plugin in the Plugin Center, the plugin tools and the `alarms` module need AutoJs6 6.8.1 (internal build 6641) or later; with AutoJs6 6.8.0 the plugin works only as a standalone alarm clock app.\n\nHoliday data: generated from the open source project python-holidays (MIT License); its full license text and list of contributors are published together with the data.\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-chime-alarm-v1.3.0-026daa91.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Chime-Alarm/releases/download/v1.3.0/autojs6-plugin-three-chime-alarm-v1.3.0-026daa91.apk",
+              "size": 3078762,
+              "digest": "sha256:ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2",
+              "sha256": "ce8973f512a33ee8f452eb1681fd863ced23fc114376b5f957adad1f843fe7c2",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.3.0",
+              "versionCode": 90,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.chime.alarm",
+              "sourceCommit": "1a6892a5c65663d3f59f56c8f636967ff09a604e"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.paper.pdf",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Paper-PDF"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/6d75c58b912d71af4d0e5a756d4f73c44ac386baf02d717858205ee156e9bede.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.paper.pdf/af61dfa6a425ede2ee24e4e7ad92a7d67d493cad3c00920c73c058b1f3ee843b.png",
+      "title": "3-Paper PDF",
+      "description": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
+      "localizedDescriptions": {
+        "values": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
+        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u0645\u0644\u0641\u0627\u062a PDF \u0648\u0639\u0631\u0636\u0647\u0627 \u0648\u062f\u0645\u062c\u0647\u0627 \u0648\u062a\u0642\u0633\u064a\u0645\u0647\u0627 \u0648\u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0648\u062a\u0634\u0641\u064a\u0631\u0647\u0627, \u0645\u0639 \u0639\u0627\u0631\u0636 \u0645\u062f\u0645\u062c \u0648\u0645\u062f\u0627\u062e\u0644 \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
+        "values-en": "Read, render, merge, split, generate and encrypt PDF files, with a built-in viewer and file manager entries",
+        "values-es": "Lectura, renderizado, combinaci\u00f3n, divisi\u00f3n, generaci\u00f3n y cifrado de archivos PDF, con visor integrado y entradas en el gestor de archivos",
+        "values-fr": "Lecture, rendu, fusion, d\u00e9coupage, g\u00e9n\u00e9ration et chiffrement de fichiers PDF, avec une visionneuse int\u00e9gr\u00e9e et des entr\u00e9es dans le gestionnaire de fichiers",
+        "values-ja": "PDF \u30d5\u30a1\u30a4\u30eb\u306e\u8aad\u307f\u8fbc\u307f, \u30ec\u30f3\u30c0\u30ea\u30f3\u30b0, \u7d50\u5408, \u5206\u5272, \u751f\u6210\u3068\u6697\u53f7\u5316, \u30d3\u30e5\u30fc\u30a2\u30fc\u3068\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u5165\u53e3\u3092\u5185\u8535",
+        "values-ko": "PDF \ud30c\uc77c \uc77d\uae30, \ub80c\ub354\ub9c1, \ubcd1\ud569, \ubd84\ud560, \uc0dd\uc131\uacfc \uc554\ud638\ud654, \ubdf0\uc5b4\uc640 \ud30c\uc77c \uad00\ub9ac\uc790 \uc9c4\uc785\uc810 \ub0b4\uc7a5",
+        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435, \u043e\u0442\u0440\u0438\u0441\u043e\u0432\u043a\u0430, \u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435, \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435, \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0438 \u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0435 PDF-\u0444\u0430\u0439\u043b\u043e\u0432, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0449\u0438\u043a \u0438 \u043f\u0443\u043d\u043a\u0442\u044b \u0432 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u043c \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0435",
+        "values-zh": "\u8bfb\u53d6, \u6e32\u67d3, \u5408\u5e76, \u62c6\u5206, \u751f\u6210\u4e0e\u52a0\u5bc6 PDF \u6587\u4ef6, \u5185\u7f6e\u67e5\u770b\u5668\u4e0e\u6587\u4ef6\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rHK": "\u8b80\u53d6, \u6e32\u67d3, \u5408\u4f75, \u62c6\u5206, \u751f\u6210\u8207\u52a0\u5bc6 PDF \u6a94\u6848, \u5167\u7f6e\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rTW": "\u8b80\u53d6, \u7b97\u7e6a, \u5408\u4f75, \u5206\u5272, \u7522\u751f\u8207\u52a0\u5bc6 PDF \u6a94\u6848, \u5167\u5efa\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u54e1\u5165\u53e3"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "pdf",
+      "variant": "default",
+      "engineId": "three-paper-pdf",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 41,
+          "versionDate": "2026-11-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/releases/tag/v1.0.0",
+          "changelogText": "3-Paper PDF 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `9f61b3e8c9c19d5d5d818311363ea76e942696b0`\n\nFirst release.\n\n- AutoJs6 script module `pdf` (also `$pdf`): read the information, text, outline and images of PDF files, search text, render pages to images, merge, split, extract, delete, reorder and rotate pages, generate PDF files from images, text or HTML, and encrypt and decrypt; every method has a blocking form and an `xxxAsync` form that can report progress and be cancelled.\n- The `ocr` option of `pdf.text` recognizes scanned pages without a text layer with an installed OCR plugin (ML Kit OCR, Paddle OCR or Rapid OCR).\n- `pdf.view` opens a PDF in the plugin viewer; scripts receive page change and close events and can go to a page or close the viewer.\n- Node.js and Bun scripts can use the `pdf` module too; its methods return Promises, and calls can be aborted with `signal` or `timeoutMs`.\n- Apps packaged by AutoJs6 6.8.1 or later can use the `pdf` module too, with the needed permission added when packaging; documents and viewer sessions they open answer only the app that created them.\n- Viewer: continuous scrolling, pinch zoom, thumbnails, outline, search highlights, go to page, password prompt and night mode; it opens from the launcher, and other apps can hand PDF files to it with \"Open with\" or sharing.\n- AutoJs6 file manager: tapping a PDF opens it in the plugin viewer, and PDF files of up to 512 MiB inside archives open directly too; the menu offers merge, split, convert to images, extract text, encrypt and remove the password.\n- Toolbox with 8 tools: merge, split, PDF to images, images to PDF, encrypt, remove the password, extract text, and rotating, deleting and reordering pages with thumbnails; tasks run one after another in a foreground service with a progress notification that can cancel them.\n- Home screen with the tools, task progress and recent files (files opened with the system file picker still open directly after a restart), a built-in file browser, and a settings screen (default output folder, resolution, language, night mode, theme color, launcher icon, update check).\n- A single APK for every ABI: PDF processing contains no native library; the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `pdf` module of AutoJs6 scripts and the file manager entries need AutoJs6 6.8.1 (internal build 6641) or later (not released yet); on older AutoJs6 versions the Plugin Center shows the plugin as incompatible, and the toolbox and the viewer still work on their own. Node.js scripts need Node.js Runtime 2.2.0 or later and Bun scripts need Bun Runtime 0.23.0 or later (Android 13 and later); neither version is released yet. The script API is described in the \"Script API\" section of the README and in the `pdf` chapter of the AutoJs6 documentation, which comes with AutoJs6 6.8.1.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) only for the files you choose in the toolbox and the viewer (script files arrive as file descriptors), notifications for the task progress notification (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). Document passwords are only used for the current operation and are never stored. See \"Permissions and security\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (PDFBox-Android 2.0.27.0, Bouncy Castle, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-paper-pdf-v1.0.0-2bf2221b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Paper-PDF/releases/download/v1.0.0/autojs6-plugin-three-paper-pdf-v1.0.0-2bf2221b.apk",
+              "size": 8231848,
+              "digest": "sha256:44e6c96b915837ca7c47d6f8f9fb8f73210e8ecc561431fbf46cc31bf27d9d58",
+              "sha256": "44e6c96b915837ca7c47d6f8f9fb8f73210e8ecc561431fbf46cc31bf27d9d58",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 41,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.paper.pdf",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "9f61b3e8c9c19d5d5d818311363ea76e942696b0"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Prism-Camera"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.prism.camera/5f3d69a8149ca74bd0a2247339a5df185bacc3bf899122be4270dde27b0ff8df.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.prism.camera/c77de67c1bdfcbd18056fc0e3b58f2b4988942dc5a667fc85ba79bc5b4e3adab.png",
+      "title": "3-Prism Camera",
+      "description": "Photo capture, continuous frame analysis and viewfinder preview through CameraX, with frames ready for OCR, barcode, YOLO and other recognition modules",
+      "localizedDescriptions": {
+        "values": "Photo capture, continuous frame analysis and viewfinder preview through CameraX, with frames ready for OCR, barcode, YOLO and other recognition modules",
+        "values-ar": "\u0627\u0644\u062a\u0642\u0627\u0637 \u0627\u0644\u0635\u0648\u0631 \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0625\u0637\u0627\u0631\u0627\u062a \u0627\u0644\u0645\u062a\u062a\u0627\u0628\u0639\u0629 \u0648\u0645\u0639\u0627\u064a\u0646\u0629 \u0627\u0644\u0639\u062f\u0633\u0629 \u0639\u0628\u0631 CameraX \u0645\u0639 \u062a\u0645\u0631\u064a\u0631 \u0627\u0644\u0625\u0637\u0627\u0631\u0627\u062a \u0645\u0628\u0627\u0634\u0631\u0629 \u0625\u0644\u0649 \u0648\u062d\u062f\u0627\u062a \u0627\u0644\u062a\u0639\u0631\u0641 \u0645\u062b\u0644 OCR \u0648\u0627\u0644\u0631\u0645\u0648\u0632 \u0627\u0644\u0634\u0631\u064a\u0637\u064a\u0629 \u0648 YOLO",
+        "values-en": "Photo capture, continuous frame analysis and viewfinder preview through CameraX, with frames ready for OCR, barcode, YOLO and other recognition modules",
+        "values-es": "Captura de fotos, an\u00e1lisis continuo de fotogramas y vista previa del visor con CameraX, con fotogramas listos para m\u00f3dulos de reconocimiento OCR, de c\u00f3digos de barras, YOLO y otros",
+        "values-fr": "Prise de photos, analyse continue des images et aper\u00e7u du viseur via CameraX, avec des images pr\u00eates pour les modules de reconnaissance OCR, codes-barres, YOLO et autres",
+        "values-ja": "CameraX \u306b\u3088\u308b\u5199\u771f\u64ae\u5f71, \u9023\u7d9a\u30d5\u30ec\u30fc\u30e0\u89e3\u6790, \u30d5\u30a1\u30a4\u30f3\u30c0\u30fc\u30d7\u30ec\u30d3\u30e5\u30fc\u3092\u63d0\u4f9b\u3057, \u30d5\u30ec\u30fc\u30e0\u3092 OCR, \u30d0\u30fc\u30b3\u30fc\u30c9, YOLO \u306a\u3069\u306e\u8a8d\u8b58\u30e2\u30b8\u30e5\u30fc\u30eb\u3078\u76f4\u63a5\u6e21\u305b\u307e\u3059",
+        "values-ko": "CameraX \uae30\ubc18 \uc0ac\uc9c4 \ucd2c\uc601, \uc5f0\uc18d \ud504\ub808\uc784 \ubd84\uc11d, \ubdf0\ud30c\uc778\ub354 \ubbf8\ub9ac\ubcf4\uae30, \ud504\ub808\uc784\uc744 OCR, \ubc14\ucf54\ub4dc, YOLO \ub4f1 \uc778\uc2dd \ubaa8\ub4c8\uc5d0 \ubc14\ub85c \uc804\ub2ec \uac00\ub2a5",
+        "values-ru": "\u0424\u043e\u0442\u043e\u0441\u044a\u0451\u043c\u043a\u0430, \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043a\u0430\u0434\u0440\u043e\u0432 \u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0432\u0438\u0434\u043e\u0438\u0441\u043a\u0430\u0442\u0435\u043b\u044f \u0447\u0435\u0440\u0435\u0437 CameraX, \u043a\u0430\u0434\u0440\u044b \u043c\u043e\u0436\u043d\u043e \u0441\u0440\u0430\u0437\u0443 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044f\u043c \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u044f OCR, \u0448\u0442\u0440\u0438\u0445\u043a\u043e\u0434\u043e\u0432, YOLO \u0438 \u0434\u0440\u0443\u0433\u0438\u043c",
+        "values-zh": "\u901a\u8fc7 CameraX \u62cd\u7167, \u8fde\u7eed\u53d6\u5e27\u4e0e\u53d6\u666f\u9884\u89c8, \u5e27\u53ef\u76f4\u63a5\u4ea4\u7ed9 OCR, \u6761\u7801\u4e0e YOLO \u7b49\u8bc6\u522b\u6a21\u5757",
+        "values-zh-rHK": "\u900f\u904e CameraX \u62cd\u7167, \u9023\u7e8c\u53d6\u5e40\u8207\u53d6\u666f\u9810\u89bd, \u5e40\u53ef\u76f4\u63a5\u4ea4\u7d66 OCR, \u689d\u78bc\u8207 YOLO \u7b49\u8b58\u5225\u6a21\u7d44",
+        "values-zh-rTW": "\u900f\u904e CameraX \u62cd\u7167, \u9023\u7e8c\u64f7\u53d6\u5f71\u683c\u8207\u53d6\u666f\u9810\u89bd, \u5f71\u683c\u53ef\u76f4\u63a5\u4ea4\u7d66 OCR, \u689d\u78bc\u8207 YOLO \u7b49\u8fa8\u8b58\u6a21\u7d44"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "camera",
+      "variant": "default",
+      "engineId": "three-prism-camera",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 40,
+          "versionDate": "2026-11-08",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/tag/v1.0.0",
+          "changelogText": "3-Prism Camera 1.0.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `c0e8c613c65b4e9c52a6c1885a4beb880a8baef5`\n\nFirst release.\n\n- Camera for AutoJs6 scripts through Jetpack CameraX 1.6.2: the `camera` module lists the lenses and opens one session at a time (a busy camera names its holder); the camera is released when the script or AutoJs6 exits.\n- Live frames: RGBA frames at the chosen resolution and frame rate reach the script through shared memory (Android 8.1 or later) or temporary files (Android 7.0 - 8.0), already turned upright for the screen; a frame is valid during its callback, use `img.clone()` to keep it.\n- Photos: `camera.capture()` returns an image or writes the JPEG to a file, with quality, resolution and flash mode; the EXIF orientation is set, and a mirrored photo only gets its orientation rewritten.\n- Preview in a `SurfaceView` of a script UI, plus torch, flash mode, zoom, exposure compensation and tap to focus.\n- Viewfinder screen from the launcher, also used by `camera.capture({ ui: true })`: lens switching, flashlight, zoom and tap to focus; cancelling returns `null`.\n- Settings page: appearance, permissions, the default lens, analysis size and frame rate (used when a script leaves them out), diagnostics, version history and the update check.\n- A foreground notification shows while the camera is in use, and a session opened in the foreground keeps delivering frames in the background and with the screen off. Android 11 and later do not let an app in the background open the camera: `open` then reports `CAMERA_DISABLED`.\n- Choose the APK of your device's processor (most phones: `arm64-v8a`), or `universal` for every device. The native libraries that come with CameraX and Compose are aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `camera` script module needs AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the viewfinder and the settings page do not depend on AutoJs6. See the camera chapter (https://docs.autojs6.com/#/camera) of the AutoJs6 documentation for the script API.\n\nPermissions: the camera, notifications for the camera-in-use notification (Android 13 or later), and the network only for the update check (the official plugin index, automatically at most once every 12 hours); the plugin never uploads frames or photos.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Jetpack CameraX 1.6.2, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hashes of the APKs.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-prism-camera-v1.0.0-arm64-v8a-42c6fe90.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-arm64-v8a-42c6fe90.apk",
+              "size": 2238580,
+              "digest": "sha256:d30842d64070e11802123f1e6dffdb826b161af2e08e1cfe5d1429ef576b0adf",
+              "sha256": "d30842d64070e11802123f1e6dffdb826b161af2e08e1cfe5d1429ef576b0adf",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 40,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
+            },
+            {
+              "name": "autojs6-plugin-three-prism-camera-v1.0.0-armeabi-v7a-ff362846.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-armeabi-v7a-ff362846.apk",
+              "size": 2237150,
+              "digest": "sha256:fa45523b2cd593e833fb0dbb6cc8c8fe609d9f2e30a41e6138b3a0c16c6e04ca",
+              "sha256": "fa45523b2cd593e833fb0dbb6cc8c8fe609d9f2e30a41e6138b3a0c16c6e04ca",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 40,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
+            },
+            {
+              "name": "autojs6-plugin-three-prism-camera-v1.0.0-universal-9ea313a8.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-universal-9ea313a8.apk",
+              "size": 2485118,
+              "digest": "sha256:e2067ddb18a4fd8c23fb21716c693ae55b0651057f35cfcb1a3c5dd69eefe123",
+              "sha256": "e2067ddb18a4fd8c23fb21716c693ae55b0651057f35cfcb1a3c5dd69eefe123",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 40,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
+            },
+            {
+              "name": "autojs6-plugin-three-prism-camera-v1.0.0-x86-87d3ced7.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-x86-87d3ced7.apk",
+              "size": 2253862,
+              "digest": "sha256:4875799b3153d5d95bb1c493a730777f555be96d3ea660948fcae97cfa1a5496",
+              "sha256": "4875799b3153d5d95bb1c493a730777f555be96d3ea660948fcae97cfa1a5496",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 40,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
+            },
+            {
+              "name": "autojs6-plugin-three-prism-camera-v1.0.0-x86_64-e30e2d6b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Prism-Camera/releases/download/v1.0.0/autojs6-plugin-three-prism-camera-v1.0.0-x86_64-e30e2d6b.apk",
+              "size": 2271355,
+              "digest": "sha256:0935cb8baa05f619b632bcab5984c2b652e28402db625713df1392cd746ea4f7",
+              "sha256": "0935cb8baa05f619b632bcab5984c2b652e28402db625713df1392cd746ea4f7",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 40,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.prism.camera",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "c0e8c613c65b4e9c52a6c1885a4beb880a8baef5"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.slate.studio",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Slate-Studio"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.slate.studio/b577573f1d097a83b4277c4134540df5b5ac3bdfc3dcc78bd0145c64e8e73f87.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.slate.studio/818bfaff24169d0d5ad413325d9d5a1888db32c2efc597c99565c4a895e2174d.png",
+      "title": "3-Slate Studio",
+      "description": "Video and audio processing, multi-track timeline editing, transitions and subtitles, with script code generated from the app screens",
+      "localizedDescriptions": {
+        "values": "Video and audio processing, multi-track timeline editing, transitions and subtitles, with script code generated from the app screens",
+        "values-ar": "\u0645\u0639\u0627\u0644\u062c\u0629 \u0627\u0644\u0641\u064a\u062f\u064a\u0648 \u0648\u0627\u0644\u0635\u0648\u062a, \u062a\u062d\u0631\u064a\u0631 \u0645\u062a\u0639\u062f\u062f \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062a \u0639\u0644\u0649 \u062e\u0637 \u0632\u0645\u0646\u064a, \u0627\u0646\u062a\u0642\u0627\u0644\u0627\u062a \u0648\u062a\u0631\u062c\u0645\u0627\u062a, \u0645\u0639 \u062a\u0648\u0644\u064a\u062f \u0634\u064a\u0641\u0631\u0629 \u0627\u0644\u0633\u0643\u0631\u0628\u062a \u0645\u0646 \u0634\u0627\u0634\u0627\u062a \u0627\u0644\u062a\u0637\u0628\u064a\u0642",
+        "values-en": "Video and audio processing, multi-track timeline editing, transitions and subtitles, with script code generated from the app screens",
+        "values-es": "Procesamiento de v\u00eddeo y audio, edici\u00f3n multipista con l\u00ednea de tiempo, transiciones y subt\u00edtulos, con c\u00f3digo de script generado desde las pantallas",
+        "values-fr": "Traitement vid\u00e9o et audio, montage multipiste sur une timeline, transitions et sous-titres, avec du code de script g\u00e9n\u00e9r\u00e9 depuis les \u00e9crans",
+        "values-ja": "\u52d5\u753b\u3068\u97f3\u58f0\u306e\u52a0\u5de5, \u30de\u30eb\u30c1\u30c8\u30e9\u30c3\u30af\u306e\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3\u7de8\u96c6, \u30c8\u30e9\u30f3\u30b8\u30b7\u30e7\u30f3\u3068\u5b57\u5e55, \u753b\u9762\u306e\u64cd\u4f5c\u304b\u3089\u30b9\u30af\u30ea\u30d7\u30c8\u30b3\u30fc\u30c9\u3092\u751f\u6210",
+        "values-ko": "\ub3d9\uc601\uc0c1\uacfc \uc624\ub514\uc624 \uac00\uacf5, \uba40\ud2f0\ud2b8\ub799 \ud0c0\uc784\ub77c\uc778 \ud3b8\uc9d1, \uc804\ud658 \ud6a8\uacfc\uc640 \uc790\ub9c9, \ud654\uba74 \uc870\uc791\uc73c\ub85c \uc2a4\ud06c\ub9bd\ud2b8 \ucf54\ub4dc \uc0dd\uc131",
+        "values-ru": "\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0432\u0438\u0434\u0435\u043e \u0438 \u0430\u0443\u0434\u0438\u043e, \u043c\u043d\u043e\u0433\u043e\u0434\u043e\u0440\u043e\u0436\u0435\u0447\u043d\u044b\u0439 \u043c\u043e\u043d\u0442\u0430\u0436 \u043d\u0430 \u0442\u0430\u0439\u043c\u043b\u0430\u0439\u043d\u0435, \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b \u0438 \u0441\u0443\u0431\u0442\u0438\u0442\u0440\u044b, \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u044f \u043a\u043e\u0434\u0430 \u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0432 \u0438\u0437 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0432 \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0435",
+        "values-zh": "\u89c6\u9891\u4e0e\u97f3\u9891\u52a0\u5de5, \u591a\u8f68\u65f6\u95f4\u7ebf\u526a\u8f91, \u8f6c\u573a\u4e0e\u5b57\u5e55, \u754c\u9762\u64cd\u4f5c\u53ef\u751f\u6210\u811a\u672c\u4ee3\u7801",
+        "values-zh-rHK": "\u5f71\u7247\u8207\u97f3\u8a0a\u8655\u7406, \u591a\u8ecc\u6642\u9593\u7dda\u526a\u8f2f, \u8f49\u5834\u8207\u5b57\u5e55, \u4ecb\u9762\u64cd\u4f5c\u53ef\u751f\u6210\u8173\u672c\u7a0b\u5f0f\u78bc",
+        "values-zh-rTW": "\u5f71\u7247\u8207\u97f3\u8a0a\u8655\u7406, \u591a\u8ecc\u6642\u9593\u8ef8\u526a\u8f2f, \u8f49\u5834\u8207\u5b57\u5e55, \u4ecb\u9762\u64cd\u4f5c\u53ef\u7522\u751f\u6307\u4ee4\u78bc"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "media-studio",
+      "variant": "default",
+      "engineId": "three-slate-studio",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 33,
+          "versionDate": "2026-11-08",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/releases/tag/v1.0.0",
+          "changelogText": "3-Slate Studio 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `96c8bfecdb76eb39af28f5ec6972142e6b24cecd`\n\nFirst release.\n\n- Video processing: trim, join, speed (0.25x - 8x), scale, rotate, crop and flip, text or image watermarks, audio track extraction or removal, and transcoding (H.264, or H.265 where the device supports it).\n- Frames, thumbnails and GIF: PNG / JPG files or Image objects, and a built-in GIF encoder (palette, dithering, looping).\n- Audio processing: trim, join, mix (scaled down automatically when it would clip), volume and fades, speed, and conversion to M4A / WAV / FLAC / OGG (OGG needs Android 10+).\n- Multi-track composition with `video.compose`: up to 8 video tracks and 16 audio tracks, 7 transitions, text / image overlays and subtitles.\n- Subtitles: SRT reading and writing and a basic subset of ASS, burned into the picture with `video.burnSubtitles`, and `video.subtitles.parse` / `write` for subtitle files.\n- AutoJs6 script modules `video` / `audio` (Rhino, Node.js and Bun): every processing method has an `xxxAsync` form and a progress callback, and stopping the script cancels its tasks.\n- Studio screens: media library, toolbox, task queue and settings; the appearance follows AutoJs6 or uses its own language, night mode and theme color.\n- Toolbox wizards, one per processing feature, and a timeline editor (multi-track editing, transitions, overlays and subtitles, live preview, undo / redo, `.slate.json` projects); the wizards, the timeline and the recorder show the equivalent complete script, ready to copy or to open in AutoJs6.\n- Studio recorder: microphone, device audio (Android 10+) or both, M4A / WAV, pause / resume, recording with the screen off and controls in the notification.\n- Long tasks run in a foreground service with a progress notification; outputs without a path go to the 3-Slate Studio folders under Movies, Music and Pictures.\n- A single APK for every ABI: the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. Processing media with `video` / `audio` in scripts needs AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the plugin screens, the timeline editor and the Studio recorder do not depend on AutoJs6. See the [video](https://docs.autojs6.com/#/video) and [audio](https://docs.autojs6.com/#/audio) chapters of the AutoJs6 documentation for the script API.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) for the paths that scripts and screens choose, media access for the media library (Android 13+), the microphone for the Studio recorder only, the system screen sharing consent when the recorder captures device audio, notifications for the progress and recording notifications (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). See \"Permissions and their purposes\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Jetpack Media3 1.10.1, Jetpack Compose, AndroidX, Kotlin, Guava and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-slate-studio-v1.0.0-c2db405c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Slate-Studio/releases/download/v1.0.0/autojs6-plugin-three-slate-studio-v1.0.0-c2db405c.apk",
+              "size": 4350440,
+              "digest": "sha256:748caeb400ca1192c6f88a83b79fc746d86624b1b492500fd0f19ae67d7655a4",
+              "sha256": "748caeb400ca1192c6f88a83b79fc746d86624b1b492500fd0f19ae67d7655a4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 33,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.slate.studio",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "96c8bfecdb76eb39af28f5ec6972142e6b24cecd"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
+    },
+    {
+      "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
+      "repository": {
+        "owner": "SuperMonster003",
+        "name": "AutoJs6-Plugin-Three-Tally-Sheet"
+      },
+      "iconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/43bd4c97c2072a7a8a619753b2062caec3b5e55df469e2a157d7729dc250e0f5.png",
+      "nightIconUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Official-Plugins-Index/main/icons/io.github.supermonster003.autojs6.plugin.three.tally.sheet/cc4775b58626069b18fc905523e916c89222dac88b6afe69a3595a07e67c19ce.png",
+      "title": "3-Tally Sheet",
+      "description": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
+      "localizedDescriptions": {
+        "values": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
+        "values-ar": "\u0642\u0631\u0627\u0621\u0629 \u062c\u062f\u0627\u0648\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a XLSX / XLS / CSV \u0648\u0643\u062a\u0627\u0628\u062a\u0647\u0627 \u0648\u062a\u062d\u0648\u064a\u0644\u0647\u0627 \u0648\u062a\u062d\u0631\u064a\u0631\u0647\u0627, \u0645\u0639 \u0639\u0627\u0631\u0636 \u0645\u062f\u0645\u062c \u0648\u0645\u062f\u0627\u062e\u0644 \u0641\u064a \u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
+        "values-en": "Read, write, convert and edit XLSX / XLS / CSV spreadsheet files, with a built-in viewer and file manager entries",
+        "values-es": "Lectura, escritura, conversi\u00f3n y edici\u00f3n de hojas de c\u00e1lculo XLSX / XLS / CSV, con visor integrado y entradas en el gestor de archivos",
+        "values-fr": "Lecture, \u00e9criture, conversion et modification de feuilles de calcul XLSX / XLS / CSV, avec une visionneuse int\u00e9gr\u00e9e et des entr\u00e9es dans le gestionnaire de fichiers",
+        "values-ja": "XLSX / XLS / CSV \u8868\u8a08\u7b97\u30d5\u30a1\u30a4\u30eb\u306e\u8aad\u307f\u8fbc\u307f, \u66f8\u304d\u8fbc\u307f, \u5909\u63db\u3068\u7de8\u96c6, \u30d3\u30e5\u30fc\u30a2\u30fc\u3068\u30d5\u30a1\u30a4\u30eb\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u306e\u5165\u53e3\u3092\u5185\u8535",
+        "values-ko": "XLSX / XLS / CSV \uc2a4\ud504\ub808\ub4dc\uc2dc\ud2b8 \ud30c\uc77c \uc77d\uae30, \uc4f0\uae30, \ubcc0\ud658\uacfc \ud3b8\uc9d1, \ubdf0\uc5b4\uc640 \ud30c\uc77c \uad00\ub9ac\uc790 \uc9c4\uc785\uc810 \ub0b4\uc7a5",
+        "values-ru": "\u0427\u0442\u0435\u043d\u0438\u0435, \u0437\u0430\u043f\u0438\u0441\u044c, \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0430\u0431\u043b\u0438\u0446 XLSX / XLS / CSV, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0449\u0438\u043a \u0438 \u043f\u0443\u043d\u043a\u0442\u044b \u0432 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u043c \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u0435",
+        "values-zh": "\u8bfb\u53d6, \u5199\u5165, \u8f6c\u6362\u4e0e\u7f16\u8f91 XLSX / XLS / CSV \u8868\u683c\u6587\u4ef6, \u5185\u7f6e\u67e5\u770b\u5668\u4e0e\u6587\u4ef6\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rHK": "\u8b80\u53d6, \u5beb\u5165, \u8f49\u63db\u8207\u7de8\u8f2f XLSX / XLS / CSV \u8868\u683c\u6a94\u6848, \u5167\u7f6e\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u5668\u5165\u53e3",
+        "values-zh-rTW": "\u8b80\u53d6, \u5beb\u5165, \u8f49\u63db\u8207\u7de8\u8f2f XLSX / XLS / CSV \u8a66\u7b97\u8868\u6a94\u6848, \u5167\u5efa\u6aa2\u8996\u5668\u8207\u6a94\u6848\u7ba1\u7406\u54e1\u5165\u53e3"
+      },
+      "localizedInstructionHardCoded": {},
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "localizedInstructionMarkdownUrls": {
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+      },
+      "author": "SuperMonster003",
+      "collaborators": [],
+      "engine": "xlsx",
+      "variant": "default",
+      "engineId": "three-tally-sheet",
+      "requiresHostVersion": 6641,
+      "featured": true,
+      "releases": [
+        {
+          "versionName": "1.0.0",
+          "versionCode": 68,
+          "versionDate": "2026-11-14",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/tag/v1.0.0",
+          "changelogText": "3-Tally Sheet 1.0.0\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `3c50add39959f5d02d0b8a52f30fe0922d46f84d`\n\nFirst release.\n\n- AutoJs6 script module `xlsx` (also `$xlsx`): reads and writes xlsx, xlsm, xls, csv and tsv files, edits cells through workbook and sheet objects, and sets styles, column widths, frozen panes, merged cells, hyperlinks and comments; it can also show data in the viewer and return the rows the user selects.\n- Also available in Node.js and Bun scripts: `require('autojs6:xlsx')` in Node.js Runtime 2.2.0 or later, and `host.xlsx` in Bun Runtime 0.23.0 or later (Android 13+); apps packaged by AutoJs6 can use the module too when this plugin is installed on the device that runs them.\n- Large sheets: streaming reads in batches (up to 1000 rows each) and streaming writes without loading the whole sheet into memory; long operations have `xxxAsync` forms and can be canceled midway.\n- CSV: detects the encoding (including GBK / GB18030 and UTF-16) and the delimiter automatically; writes UTF-8 with a BOM by default, so Excel opens the file without garbled text.\n- Formulas recalculated on save or on demand (unsupported functions only produce warnings), conditional formatting and data validation, and password-protected xlsx (AES-256) and xls (RC4) files.\n- Viewer: styles, merged cells, conditional formatting, hyperlinks and comments, frozen header row and first column, sheet switching, sorting and search; opens from the AutoJs6 file manager, \"Open with\" in other apps or the plugin home screen.\n- Editor: values and formulas with a live preview, rows, columns and sheets, style editing, copy and paste with styles, and up to 50 undo steps; files over 20 MB can only be viewed.\n- Toolbox: five wizards to convert the format, merge files, split a file, change the CSV encoding and remove duplicate rows; tasks run in the background with their progress in a notification.\n- AutoJs6 file manager entries: open spreadsheets with the plugin and convert to xlsx or csv, merge the selected files, split sheets and re-encode CSV.\n- A single APK for every ABI: the only native library comes from Jetpack Compose and is aligned to 16 KB memory pages.\n- Screens, README, Plugin Center instructions and changelog in 10 languages.\n\nRequirements: Android 7.0 or later. The `xlsx` script module and the AutoJs6 file manager entries need AutoJs6 6.8.1 (internal build 6641) or later (not released yet); the viewer, the editor and the toolbox do not depend on AutoJs6. See the [xlsx chapter](https://docs.autojs6.com/#/xlsx) of the AutoJs6 documentation for the script API.\n\nPermissions: all files access (the storage permissions on Android 10 and earlier) only for the files you open or save in the plugin screens (scripts hand files to the plugin through AutoJs6 and do not need it), notifications for the toolbox progress notification (Android 13+), and the network only for the update check (the official plugin index, at most once every 12 hours). VBA macros are never executed and external links are never refreshed. See \"Permissions and security\" in the README.\n\nSee the [changelog](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/app/src/main/assets/doc/CHANGELOG-en.md) and the [README](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/.readme/README-en.md).\n\nLicense: MPL-2.0. Third-party components (Apache POI 5.5.1 with XMLBeans, Apache Commons and aalto-xml, juniversalchardet, Jetpack Compose, AndroidX, Kotlin and others) are listed in [THIRD_PARTY_NOTICES.md](https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/blob/v1.0.0/THIRD_PARTY_NOTICES.md).\n\n`SHA256SUMS` lists the SHA-256 hash of the APK.",
+          "assets": [
+            {
+              "name": "autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Tally-Sheet/releases/download/v1.0.0/autojs6-plugin-three-tally-sheet-v1.0.0-90e4523b.apk",
+              "size": 6531506,
+              "digest": "sha256:6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
+              "sha256": "6349acf11a29329a57362a07c414bbbf4708204e4bb4b66157ed9a176d728438",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.0.0",
+              "versionCode": 68,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.tally.sheet",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "3c50add39959f5d02d0b8a52f30fe0922d46f84d"
+            }
+          ],
+          "prerelease": false,
+          "nativePageAlignment": 16384,
+          "nativePageAlignmentSource": "measured"
+        }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
+      ],
+      "tags": [
+        "official"
+      ],
+      "source": "OFFICIAL",
+      "nativePageAlignment": 16384,
+      "nativePageAlignmentSource": "measured",
+      "forceIgnoreLocalIcon": true,
+      "iconBackgroundColor": "#fafafa",
+      "nightIconBackgroundColor": "#212121"
     }
   ]
 }
