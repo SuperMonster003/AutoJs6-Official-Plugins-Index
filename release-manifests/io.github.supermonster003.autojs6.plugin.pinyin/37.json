@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Pinyin",
+  "releaseTag": "v1.0.5",
+  "sourceCommit": "2168bb0681836f581328552e6b3b032e90939176",
+  "packageName": "io.github.supermonster003.autojs6.plugin.pinyin",
+  "versionName": "1.0.5",
+  "versionCode": 37,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-pinyin-v1.0.5-universal-F7AE2C18.apk",
+      "sha256": "ffc9954718e441827365052d66ab1938e905d9c36e10009d5c4df0a9e9c52da2",
+      "sizeBytes": 6291345
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-File-Inspector",
+  "releaseTag": "v1.1.4",
+  "sourceCommit": "2b4f2132647dd86761e516c0d71c0f5b12fafd5b",
+  "packageName": "io.github.supermonster003.autojs6.plugin.fileinspector",
+  "versionName": "1.1.4",
+  "versionCode": 35,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-file-inspector-v1.1.4-d5ac6151.apk",
+      "sha256": "a8b5c4d67b33222b7359307b424b2fcc04bb418819c3c3cc5117a37e1f8665ec",
+      "sizeBytes": 1765580
+    }
+  ]
+}
