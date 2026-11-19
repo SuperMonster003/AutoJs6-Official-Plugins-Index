@@ -395,56 +395,68 @@
         "values-zh-rTW": "\u6aa2\u67e5\u5b89\u88dd\u5957\u4ef6\u53ca\u5176\u5167\u5bb9"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.6/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.5",
-          "versionCode": 62,
+          "versionName": "1.2.6",
+          "versionCode": 65,
           "versionDate": "2026-11-19",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/tag/v1.2.5",
-          "changelogText": "APK Inspector 1.2.5\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `19077f44f16357cfc0c33e8a39819fb199aa65be`\n\nPublished release.\n\n- Fix: The plugin crashing before showing the inspection report, both from \"Inspect Android package\" in the file menu and when opening a package from another app (1.1.0 - 1.2.4)\n\nAPK checksums are in `SHA256SUMS`.",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/tag/v1.2.6",
+          "changelogText": "APK Inspector 1.2.6\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `69b1a82d5468344fa77519e460a8718810324713`\n\nPublished release.\n\n- Improvement: The release history is now a separate page instead of a dialog showing the raw text, expanding and collapsing by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.1\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-apk-inspector-v1.2.5-9ca593b5.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/download/v1.2.5/autojs6-plugin-apk-inspector-v1.2.5-9ca593b5.apk",
-              "size": 4463533,
-              "digest": "sha256:cd00b021c1d6e60dc6bccc1a58cfb36fd01dd5f23781aa52596ff0ba37b2fb3c",
-              "sha256": "cd00b021c1d6e60dc6bccc1a58cfb36fd01dd5f23781aa52596ff0ba37b2fb3c",
+              "name": "autojs6-plugin-apk-inspector-v1.2.6-0a648fc1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/download/v1.2.6/autojs6-plugin-apk-inspector-v1.2.6-0a648fc1.apk",
+              "size": 5345502,
+              "digest": "sha256:9c50e7de67687ae868fe3af831b382278bb98883f457b4677883e0a6904eb059",
+              "sha256": "9c50e7de67687ae868fe3af831b382278bb98883f457b4677883e0a6904eb059",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.5",
-              "versionCode": 62,
+              "versionName": "1.2.6",
+              "versionCode": 65,
               "packageName": "io.github.supermonster003.autojs6.plugin.apkinspector",
-              "sourceCommit": "19077f44f16357cfc0c33e8a39819fb199aa65be"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "69b1a82d5468344fa77519e460a8718810324713"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
@@ -1046,56 +1058,68 @@
         "values-zh-rTW": "\u6aa2\u67e5\u6a94\u6848\u8cc7\u8a0a\u4e26\u9a57\u8b49\u6821\u9a57\u548c"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.4/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/refs/tags/v1.1.5/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "1.1.4",
-          "versionCode": 35,
-          "versionDate": "2026-11-18",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/releases/tag/v1.1.4",
-          "changelogText": "File Inspector 1.1.4\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `2b4f2132647dd86761e516c0d71c0f5b12fafd5b`\n\nPublished release.\n\n- Improvement: Redesigned the plugin icon as a single-color glyph on a transparent background that stays clear in both light and dark themes\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.1.5",
+          "versionCode": 38,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/releases/tag/v1.1.5",
+          "changelogText": "File Inspector 1.1.5\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `87e73856bb3df4dac2fba9075d8caa521f1f7704`\n\nPublished release.\n\n- Improvement: The release history is now a separate page instead of a dialog showing the raw text, expanding and collapsing by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.1\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-file-inspector-v1.1.4-d5ac6151.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/releases/download/v1.1.4/autojs6-plugin-file-inspector-v1.1.4-d5ac6151.apk",
-              "size": 1765580,
-              "digest": "sha256:a8b5c4d67b33222b7359307b424b2fcc04bb418819c3c3cc5117a37e1f8665ec",
-              "sha256": "a8b5c4d67b33222b7359307b424b2fcc04bb418819c3c3cc5117a37e1f8665ec",
+              "name": "autojs6-plugin-file-inspector-v1.1.5-2a194655.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-File-Inspector/releases/download/v1.1.5/autojs6-plugin-file-inspector-v1.1.5-2a194655.apk",
+              "size": 2617812,
+              "digest": "sha256:cf33edfbd70dd8d48ac9fa37bca2017ddfa2b7e93c939d9545d34cf0a93f6ca3",
+              "sha256": "cf33edfbd70dd8d48ac9fa37bca2017ddfa2b7e93c939d9545d34cf0a93f6ca3",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.4",
-              "versionCode": 35,
+              "versionName": "1.1.5",
+              "versionCode": 38,
               "packageName": "io.github.supermonster003.autojs6.plugin.fileinspector",
-              "sourceCommit": "2b4f2132647dd86761e516c0d71c0f5b12fafd5b"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "87e73856bb3df4dac2fba9075d8caa521f1f7704"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
@@ -1125,56 +1149,68 @@
         "values-zh-rTW": "\u9810\u89bd HTML \u548c MHTML \u6a94\u6848"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.7/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/refs/tags/v1.1.8/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "1.1.7",
-          "versionCode": 46,
-          "versionDate": "2026-11-18",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/releases/tag/v1.1.7",
-          "changelogText": "HTML Previewer 1.1.7\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `63da87fed4303e36e3847218db02d37666509d74`\n\nPublished release.\n\n- Improvement: Redesigned the plugin icon as a single-color glyph on a transparent background that stays clear in both light and dark themes\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.1.8",
+          "versionCode": 49,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/releases/tag/v1.1.8",
+          "changelogText": "HTML Previewer 1.1.8\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `8385a66ed50760380d71fa10de86e70bda437f13`\n\nPublished release.\n\n- Improvement: The release history is now a separate page instead of a dialog showing the raw text, expanding and collapsing by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.1\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-html-previewer-v1.1.7-cc3ea08b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/releases/download/v1.1.7/autojs6-plugin-html-previewer-v1.1.7-cc3ea08b.apk",
-              "size": 2718200,
-              "digest": "sha256:9e91b3807a23ed1612d381a16c148f18d0bdd25bcd8e850bc53ce6bf886b36ba",
-              "sha256": "9e91b3807a23ed1612d381a16c148f18d0bdd25bcd8e850bc53ce6bf886b36ba",
+              "name": "autojs6-plugin-html-previewer-v1.1.8-b224f46e.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-HTML-Previewer/releases/download/v1.1.8/autojs6-plugin-html-previewer-v1.1.8-b224f46e.apk",
+              "size": 3912738,
+              "digest": "sha256:41f0bd1e724668c9f5fdf0093f756297021c2d8e5ebe3318a79d9dfad9ee2df4",
+              "sha256": "41f0bd1e724668c9f5fdf0093f756297021c2d8e5ebe3318a79d9dfad9ee2df4",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.7",
-              "versionCode": 46,
+              "versionName": "1.1.8",
+              "versionCode": 49,
               "packageName": "io.github.supermonster003.autojs6.plugin.htmlpreviewer",
-              "sourceCommit": "63da87fed4303e36e3847218db02d37666509d74"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "8385a66ed50760380d71fa10de86e70bda437f13"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
@@ -1901,56 +1937,68 @@
         "values-zh-rTW": "\u9810\u89bd Markdown \u6587\u4ef6"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.7/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/refs/tags/v1.2.8/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.7",
-          "versionCode": 41,
-          "versionDate": "2026-11-18",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/releases/tag/v1.2.7",
-          "changelogText": "Markdown Previewer 1.2.7\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `e8d311ec6fd53ec8a4396222279e0627d8fe7fb1`\n\nPublished release.\n\n- Improvement: Redesigned the plugin icon as a single-color glyph on a transparent background that stays clear in both light and dark themes\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.2.8",
+          "versionCode": 44,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/releases/tag/v1.2.8",
+          "changelogText": "Markdown Previewer 1.2.8\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `7e5463d45a86b29d7bc4b470acbef7614a149da3`\n\nPublished release.\n\n- Improvement: The release history is now a separate page instead of a dialog showing the raw text, expanding and collapsing by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.1\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-markdown-previewer-v1.2.7-1da0f957.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/releases/download/v1.2.7/autojs6-plugin-markdown-previewer-v1.2.7-1da0f957.apk",
-              "size": 2737708,
-              "digest": "sha256:33db849bb51eb925484363aac35058741873e2094325f5592570656130dd1ea0",
-              "sha256": "33db849bb51eb925484363aac35058741873e2094325f5592570656130dd1ea0",
+              "name": "autojs6-plugin-markdown-previewer-v1.2.8-5202675c.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Markdown-Previewer/releases/download/v1.2.8/autojs6-plugin-markdown-previewer-v1.2.8-5202675c.apk",
+              "size": 3943614,
+              "digest": "sha256:30ca9fee22846a50178650380dfc0690d12a6273df6c30910a4b4c4d1e028ff3",
+              "sha256": "30ca9fee22846a50178650380dfc0690d12a6273df6c30910a4b4c4d1e028ff3",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.7",
-              "versionCode": 41,
+              "versionName": "1.2.8",
+              "versionCode": 44,
               "packageName": "io.github.supermonster003.autojs6.plugin.markdownpreviewer",
-              "sourceCommit": "e8d311ec6fd53ec8a4396222279e0627d8fe7fb1"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "7e5463d45a86b29d7bc4b470acbef7614a149da3"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",

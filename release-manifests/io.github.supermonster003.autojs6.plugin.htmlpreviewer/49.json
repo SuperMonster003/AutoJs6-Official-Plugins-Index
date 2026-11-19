@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-HTML-Previewer",
+  "releaseTag": "v1.1.8",
+  "sourceCommit": "8385a66ed50760380d71fa10de86e70bda437f13",
+  "packageName": "io.github.supermonster003.autojs6.plugin.htmlpreviewer",
+  "versionName": "1.1.8",
+  "versionCode": 49,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-html-previewer-v1.1.8-b224f46e.apk",
+      "sha256": "41f0bd1e724668c9f5fdf0093f756297021c2d8e5ebe3318a79d9dfad9ee2df4",
+      "sizeBytes": 3912738
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

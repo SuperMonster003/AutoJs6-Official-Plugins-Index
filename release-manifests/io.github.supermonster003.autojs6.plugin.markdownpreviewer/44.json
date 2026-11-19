@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Markdown-Previewer",
+  "releaseTag": "v1.2.8",
+  "sourceCommit": "7e5463d45a86b29d7bc4b470acbef7614a149da3",
+  "packageName": "io.github.supermonster003.autojs6.plugin.markdownpreviewer",
+  "versionName": "1.2.8",
+  "versionCode": 44,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-markdown-previewer-v1.2.8-5202675c.apk",
+      "sha256": "30ca9fee22846a50178650380dfc0690d12a6273df6c30910a4b4c4d1e028ff3",
+      "sizeBytes": 3943614
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
