@@ -11069,7 +11069,21 @@
               "name": "autojs6-plugin-three-terra-player-v1.7.3-universal-BA5907B5.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Terra-Player/releases/download/v1.7.3/autojs6-plugin-three-terra-player-v1.7.3-universal-BA5907B5.apk",
               "size": 3979332,
-              "digest": "sha256:9f895258ec20b721149d9c8925b601ea7c0f1cfec181ddb3f4b652e6f77d6ea8"
+              "digest": "sha256:9f895258ec20b721149d9c8925b601ea7c0f1cfec181ddb3f4b652e6f77d6ea8",
+              "sha256": "9f895258ec20b721149d9c8925b601ea7c0f1cfec181ddb3f4b652e6f77d6ea8",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.7.3",
+              "versionCode": 77,
+              "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "089deeafc20ffffd995640487d4f5d1e5f87601a"
             }
           ],
           "prerelease": false,

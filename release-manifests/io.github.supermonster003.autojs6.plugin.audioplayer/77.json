@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Terra-Player",
+  "releaseTag": "v1.7.3",
+  "sourceCommit": "089deeafc20ffffd995640487d4f5d1e5f87601a",
+  "packageName": "io.github.supermonster003.autojs6.plugin.audioplayer",
+  "versionName": "1.7.3",
+  "versionCode": 77,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-terra-player-v1.7.3-universal-BA5907B5.apk",
+      "sha256": "9f895258ec20b721149d9c8925b601ea7c0f1cfec181ddb3f4b652e6f77d6ea8",
+      "sizeBytes": 3979332
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
