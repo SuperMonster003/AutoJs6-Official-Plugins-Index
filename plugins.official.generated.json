@@ -9735,19 +9735,19 @@
         "values-zh-rTW": "\u95b1\u8b80 EPUB \u96fb\u5b50\u66f8\u4e26\u63d0\u4f9b\u76ee\u9304, \u641c\u5c0b, \u6717\u8b80\u8207\u6307\u4ee4\u78bc\u64f7\u53d6\u80fd\u529b"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/refs/tags/v2.1.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -9758,37 +9758,35 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "2.1.2",
-          "versionCode": 182,
-          "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/tag/v2.1.2",
-          "changelogText": "3-Folio EPUB 2.1.2\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `d566afb8954b752d5a539be0915e0540b1adb04f`\n\nPublished release.\n\n- Fix: In the AutoJs6 file manager, the option of this plugin for reading a book no longer shows the plugin name instead of its translated name in other interface languages\n- Improvement: In the English interface, the option of this plugin for reading a book in the AutoJs6 file manager is now \"Read EPUB\" instead of having the same name as the submenu \"3-Folio EPUB\"\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "2.1.3",
+          "versionCode": 187,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/tag/v2.1.3",
+          "changelogText": "3-Folio EPUB 2.1.3\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `b311b08258d20910a2605c732a0a56b8e02155ac`\n\nPublished release.\n\n- Improvement: The release history page expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-folio-epub-v2.1.2-8e8aa879.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/download/v2.1.2/autojs6-plugin-three-folio-epub-v2.1.2-8e8aa879.apk",
-              "size": 3844011,
-              "digest": "sha256:e6560bdc3c00425bb6781dcd553f28d7247ff712fccebc5fc03ffb9170066337",
-              "sha256": "e6560bdc3c00425bb6781dcd553f28d7247ff712fccebc5fc03ffb9170066337",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "2.1.2",
-              "versionCode": 182,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.folio.epub",
-              "sourceCommit": "d566afb8954b752d5a539be0915e0540b1adb04f"
+              "name": "autojs6-plugin-three-folio-epub-v2.1.3-d990ab9a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/download/v2.1.3/autojs6-plugin-three-folio-epub-v2.1.3-d990ab9a.apk",
+              "size": 4615332,
+              "digest": "sha256:0d084230f82856935e7bb6fae84449660d84c84a14c8f7bcedb3d619656385ea"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
