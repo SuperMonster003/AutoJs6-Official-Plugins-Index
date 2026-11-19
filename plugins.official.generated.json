@@ -9482,56 +9482,68 @@
         "values-zh-rTW": "\u652f\u63f4\u64ad\u653e\u6e05\u55ae, \u5b57\u5e55\u8207\u80cc\u666f\u97f3\u8a0a\u7684\u5f71\u7247\u64ad\u653e\u5668"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/refs/tags/v4.0.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "4.0.2",
-          "versionCode": 60,
-          "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/tag/v4.0.2",
-          "changelogText": "3-Amber Player 4.0.2\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `2f9e333bb537e1799c4a51ca820a08cef5d54718`\n\nPublished release.\n\n- Improvement: When the AutoJs6 file manager offers options of the same name for a multiple selection, the options of this plugin are marked \"3-Amber Player\", named as in the Plugin Center (requires AutoJs6 6.8.1 or later)\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "4.0.3",
+          "versionCode": 66,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/tag/v4.0.3",
+          "changelogText": "3-Amber Player 4.0.3\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `d77d5c567bc8f1fab65f26e7665dd81d4f99fcb3`\n\nPublished release.\n\n- Improvement: The release history page expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-amber-player-v4.0.2-universal-94D9CF66.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/download/v4.0.2/autojs6-plugin-three-amber-player-v4.0.2-universal-94D9CF66.apk",
-              "size": 3657407,
-              "digest": "sha256:6d9294b276fb82d91047c3a4f9825a19e3438b9caa530d92449eb5063ff7d267",
-              "sha256": "6d9294b276fb82d91047c3a4f9825a19e3438b9caa530d92449eb5063ff7d267",
+              "name": "autojs6-plugin-three-amber-player-v4.0.3-universal-6B107817.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Amber-Player/releases/download/v4.0.3/autojs6-plugin-three-amber-player-v4.0.3-universal-6B107817.apk",
+              "size": 4511501,
+              "digest": "sha256:dd364a472b36861765a594665945262c294c33ccc41c10999f777709a5a92e73",
+              "sha256": "dd364a472b36861765a594665945262c294c33ccc41c10999f777709a5a92e73",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "4.0.2",
-              "versionCode": 60,
+              "versionName": "4.0.3",
+              "versionCode": 66,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.amber.player",
-              "sourceCommit": "2f9e333bb537e1799c4a51ca820a08cef5d54718"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d77d5c567bc8f1fab65f26e7665dd81d4f99fcb3"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
