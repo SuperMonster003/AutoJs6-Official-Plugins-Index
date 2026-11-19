@@ -395,44 +395,44 @@
         "values-zh-rTW": "\u6aa2\u67e5\u5b89\u88dd\u5957\u4ef6\u53ca\u5176\u5167\u5bb9"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.4/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/refs/tags/v1.2.5/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.4",
-          "versionCode": 61,
-          "versionDate": "2026-11-17",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/tag/v1.2.4",
-          "changelogText": "APK Inspector 1.2.4\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `02284fe2c43c86d1d4dbdf21d62a4b61b6a26411`\n\nPublished release.\n\n- Improvement: Redesigned the plugin icon as a single-color glyph on a transparent background that stays clear in both light and dark themes\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.2.5",
+          "versionCode": 62,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/tag/v1.2.5",
+          "changelogText": "APK Inspector 1.2.5\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `19077f44f16357cfc0c33e8a39819fb199aa65be`\n\nPublished release.\n\n- Fix: The plugin crashing before showing the inspection report, both from \"Inspect Android package\" in the file menu and when opening a package from another app (1.1.0 - 1.2.4)\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-apk-inspector-v1.2.4-f567116b.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/download/v1.2.4/autojs6-plugin-apk-inspector-v1.2.4-f567116b.apk",
-              "size": 4440749,
-              "digest": "sha256:e1e67691ba858c0751473c9f0ac59905f81f2b44933d711cfd169eaabef6a3c6",
-              "sha256": "e1e67691ba858c0751473c9f0ac59905f81f2b44933d711cfd169eaabef6a3c6",
+              "name": "autojs6-plugin-apk-inspector-v1.2.5-9ca593b5.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-APK-Inspector/releases/download/v1.2.5/autojs6-plugin-apk-inspector-v1.2.5-9ca593b5.apk",
+              "size": 4463533,
+              "digest": "sha256:cd00b021c1d6e60dc6bccc1a58cfb36fd01dd5f23781aa52596ff0ba37b2fb3c",
+              "sha256": "cd00b021c1d6e60dc6bccc1a58cfb36fd01dd5f23781aa52596ff0ba37b2fb3c",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.4",
-              "versionCode": 61,
+              "versionName": "1.2.5",
+              "versionCode": 62,
               "packageName": "io.github.supermonster003.autojs6.plugin.apkinspector",
-              "sourceCommit": "02284fe2c43c86d1d4dbdf21d62a4b61b6a26411"
+              "sourceCommit": "19077f44f16357cfc0c33e8a39819fb199aa65be"
             }
           ],
           "prerelease": false,
