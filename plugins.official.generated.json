@@ -9768,7 +9768,21 @@
               "name": "autojs6-plugin-three-folio-epub-v2.1.3-d990ab9a.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Folio-EPUB/releases/download/v2.1.3/autojs6-plugin-three-folio-epub-v2.1.3-d990ab9a.apk",
               "size": 4615332,
-              "digest": "sha256:0d084230f82856935e7bb6fae84449660d84c84a14c8f7bcedb3d619656385ea"
+              "digest": "sha256:0d084230f82856935e7bb6fae84449660d84c84a14c8f7bcedb3d619656385ea",
+              "sha256": "0d084230f82856935e7bb6fae84449660d84c84a14c8f7bcedb3d619656385ea",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.3",
+              "versionCode": 187,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.folio.epub",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "b311b08258d20910a2605c732a0a56b8e02155ac"
             }
           ],
           "prerelease": false,
