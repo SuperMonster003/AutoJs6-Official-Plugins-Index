@@ -2028,19 +2028,19 @@
         "values-zh-rTW": "\u900f\u904e Model Context Protocol \u5411 AI \u4ee3\u7406\u958b\u653e\u88dd\u7f6e\u81ea\u52d5\u5316\u80fd\u529b"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/refs/tags/v1.3.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -2051,37 +2051,49 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.3.0",
-          "versionCode": 256,
-          "versionDate": "2026-11-05",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.3.0",
-          "changelogText": "MCP Server 1.3.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `3b9b9928aeb08786a439a3883d509c66c85a7a72`\n\nPublished release.\n\n- Hint: Exporting and importing the settings together with AutoJs6 needs AutoJs6 6.8.1 or later (not released yet); with an earlier AutoJs6 this version works like 1.2.0\n- Feature: The plugin's settings can be exported and imported together with AutoJs6's settings, so a new phone or a reinstall does not need them set up again: the port, the listening scope (this device only / LAN), developer mode, the extra allowed host names, the LAN access reminder, the idle auto-stop, the switches of the tool groups and plugin tools, the root shell and shared storage reading switches, the access token and the paired clients. Because the token and the pairings are included, the plugin is not selected by default when exporting, and once it is selected AutoJs6 encrypts its part of the archive (set a password when exporting to import it on another phone). Imported settings apply at once and imported pairings join the existing list; when the server is running and the port, the listening scope, developer mode or the host names change, the plugin restarts its server process and AutoJs6 then opens the server again (if the pairing confirmation dialog is open at that moment, they apply the next time the server process starts)\n- Dependency: Upgrade the common-plugin-api local module to 1.1.0 (from AutoJs6 host build 8fe6d154f9, hash-locked) for the settings export and import\n- Dependency: Add org.json version 20231013 (JVM tests only)\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.3.1",
+          "versionCode": 266,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/tag/v1.3.1",
+          "changelogText": "MCP Server 1.3.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `e66afc30f3734f1de8201df4c058fb28bd85c1f6`\n\nPublished release.\n\n- Improvement: Removed the green background of the plugin icon and kept its original glyph, which now follows the light and dark themes\n- Improvement: The release history page expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin center in four parts: getting started, main features, requirements and FAQ\n- Improvement: The menu at the top right of the settings page adds \"Open general settings\", which opens the general settings page of this plugin in AutoJs6 (requires AutoJs6 6.8.1 or later; earlier versions do not show the menu item)\n- Dependency: Add Jetpack Compose BOM version 2026.09.00 and androidx.activity:activity-compose version 1.12.2 (release history page)\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-mcp-server-v1.3.0-23829dfa.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.3.0/autojs6-plugin-mcp-server-v1.3.0-23829dfa.apk",
-              "size": 1928262,
-              "digest": "sha256:64535ef55bfc2360bda2c3cf843fc2f212d80eadc3802f4f75b35f837e775d34",
-              "sha256": "64535ef55bfc2360bda2c3cf843fc2f212d80eadc3802f4f75b35f837e775d34",
+              "name": "autojs6-plugin-mcp-server-v1.3.1-7f24a6f1.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-MCP-Server/releases/download/v1.3.1/autojs6-plugin-mcp-server-v1.3.1-7f24a6f1.apk",
+              "size": 2685778,
+              "digest": "sha256:9d9203fabcb31643e8cc8f11f026b482e32b227a9617149387b5de3ca006fd00",
+              "sha256": "9d9203fabcb31643e8cc8f11f026b482e32b227a9617149387b5de3ca006fd00",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.3.0",
-              "versionCode": 256,
+              "versionName": "1.3.1",
+              "versionCode": 266,
               "packageName": "io.github.supermonster003.autojs6.plugin.mcp.server",
-              "sourceCommit": "3b9b9928aeb08786a439a3883d509c66c85a7a72"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "e66afc30f3734f1de8201df4c058fb28bd85c1f6"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
@@ -10406,19 +10418,19 @@
         "values-zh-rTW": "\u591a\u5de5\u4f5c\u968e\u6bb5\u7d42\u7aef\u6a5f, \u5728 pty \u4e2d\u57f7\u884c\u7cfb\u7d71 shell, \u652f\u63f4\u80cc\u666f\u57f7\u884c, \u5feb\u6377\u6309\u9375\u53ca Node.js \u547d\u4ee4"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.1.1/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -10429,23 +10441,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.1.1",
-          "versionCode": 88,
-          "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/tag/v1.1.1",
-          "changelogText": "3-Shell Terminal 1.1.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `3b93a6987a1f9549416e88ba8d123e1be4f2a4e4`\n\nPublished release.\n\n- Improvement: The AutoJs6 file manager groups the menu options of this plugin under the submenu \"3-Shell Terminal\", named as in the Plugin Center (requires AutoJs6 6.8.1 or later)\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.2.0",
+          "versionCode": 95,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/tag/v1.2.0",
+          "changelogText": "3-Shell Terminal 1.2.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `a2c1f5169f126414418ce130c77153e864ffc88c`\n\nPublished release.\n\n- Feature: Command editor: multiline or long pastes open a wrapping editor; paste into the current terminal or run in a new session in the current directory, with the complete command, exit code and a command viewer with Copy\n- Fix: Keyboard input losing the last UTF-8 byte of emoji and other supplementary characters, and corrupting subsequent characters such as Chinese\n- Fix: Large pastes blocking the UI and echo; input is sent in order in the background, literal paste bypasses sticky Ctrl / Alt, and a full queue reports rejection instead of truncating input\n- Fix: Non-ASCII command arguments, directory names and environment values being truncated when starting a terminal session\n- Improvement: The Version history page is now the Release history page and expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in the Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Improvement: The menu at the top right of the settings page adds \"Open general settings\", which opens the general settings page of this plugin in AutoJs6 (requires AutoJs6 6.8.1 or later; earlier versions do not show the menu item)\n- Dependency: Add Jetpack Compose BOM version 2026.09.00 and androidx.activity:activity-compose version 1.12.2 (release history page)\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.1.1-arm64-v8a-128db0cd.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.1.1/autojs6-plugin-three-shell-terminal-v1.1.1-arm64-v8a-128db0cd.apk",
-              "size": 1951605,
-              "digest": "sha256:10470b628582621a170d45655937f407dece07cdd600d083c058739ac8b46d37",
-              "sha256": "10470b628582621a170d45655937f407dece07cdd600d083c058739ac8b46d37",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-arm64-v8a-45745928.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-arm64-v8a-45745928.apk",
+              "size": 2793703,
+              "digest": "sha256:0bcc479cc6d0e38700c2dd696b64a1bd6a5d6b4465039ddf4a42d413813d9f13",
+              "sha256": "0bcc479cc6d0e38700c2dd696b64a1bd6a5d6b4465039ddf4a42d413813d9f13",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.1",
-              "versionCode": 88,
+              "versionName": "1.2.0",
+              "versionCode": 95,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10453,19 +10465,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "3b93a6987a1f9549416e88ba8d123e1be4f2a4e4"
+              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.1.1-armeabi-v7a-69304137.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.1.1/autojs6-plugin-three-shell-terminal-v1.1.1-armeabi-v7a-69304137.apk",
-              "size": 1948821,
-              "digest": "sha256:652bb421ec98e1c919a6a11734aa2ac06ddcfb18bed67c4cdd4d868b7cdf539b",
-              "sha256": "652bb421ec98e1c919a6a11734aa2ac06ddcfb18bed67c4cdd4d868b7cdf539b",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-armeabi-v7a-af599ee0.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-armeabi-v7a-af599ee0.apk",
+              "size": 2790921,
+              "digest": "sha256:7ceb721100db44d8f1b02c1aa14c861d429fb26033a525c12c182488f077d11d",
+              "sha256": "7ceb721100db44d8f1b02c1aa14c861d429fb26033a525c12c182488f077d11d",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.1",
-              "versionCode": 88,
+              "versionName": "1.2.0",
+              "versionCode": 95,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10473,19 +10485,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "3b93a6987a1f9549416e88ba8d123e1be4f2a4e4"
+              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.1.1-universal-df7a37b2.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.1.1/autojs6-plugin-three-shell-terminal-v1.1.1-universal-df7a37b2.apk",
-              "size": 2050706,
-              "digest": "sha256:aea451b1eb7a2a4de79e3a44d7a64819a6b9b0cc68f4d1c91ba76e6f53988bcd",
-              "sha256": "aea451b1eb7a2a4de79e3a44d7a64819a6b9b0cc68f4d1c91ba76e6f53988bcd",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-universal-e99085b6.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-universal-e99085b6.apk",
+              "size": 2942213,
+              "digest": "sha256:c12a48aa22a0bf85feb39688907b2d62e59f653b525d8d424879a13c1cfa5056",
+              "sha256": "c12a48aa22a0bf85feb39688907b2d62e59f653b525d8d424879a13c1cfa5056",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.1",
-              "versionCode": 88,
+              "versionName": "1.2.0",
+              "versionCode": 95,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10493,19 +10505,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "3b93a6987a1f9549416e88ba8d123e1be4f2a4e4"
+              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.1.1-x86-79ae7e6c.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.1.1/autojs6-plugin-three-shell-terminal-v1.1.1-x86-79ae7e6c.apk",
-              "size": 1950037,
-              "digest": "sha256:8a3e0859dc64bf1486ba306089cc8c07e49648cb732a045f5ca410869c72117d",
-              "sha256": "8a3e0859dc64bf1486ba306089cc8c07e49648cb732a045f5ca410869c72117d",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-x86-d1565855.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-x86-d1565855.apk",
+              "size": 2792129,
+              "digest": "sha256:6582dac5b01aee8acc54eecb285a29c242b021ba5c4d07fa93db39fd345a9746",
+              "sha256": "6582dac5b01aee8acc54eecb285a29c242b021ba5c4d07fa93db39fd345a9746",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.1",
-              "versionCode": 88,
+              "versionName": "1.2.0",
+              "versionCode": 95,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10513,19 +10525,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "3b93a6987a1f9549416e88ba8d123e1be4f2a4e4"
+              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.1.1-x86_64-21b0c5ec.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.1.1/autojs6-plugin-three-shell-terminal-v1.1.1-x86_64-21b0c5ec.apk",
-              "size": 1951903,
-              "digest": "sha256:299aee3b1b731615d9ffc7bae21d2d497a0a00cef636e171af882357a7bc4f77",
-              "sha256": "299aee3b1b731615d9ffc7bae21d2d497a0a00cef636e171af882357a7bc4f77",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-x86_64-e3676701.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-x86_64-e3676701.apk",
+              "size": 2793998,
+              "digest": "sha256:d0ae3259e52e666c33799060c5ea58f5842674210dd223c6aa6bb05b871553ab",
+              "sha256": "d0ae3259e52e666c33799060c5ea58f5842674210dd223c6aa6bb05b871553ab",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.1",
-              "versionCode": 88,
+              "versionName": "1.2.0",
+              "versionCode": 95,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10533,7 +10545,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "3b93a6987a1f9549416e88ba8d123e1be4f2a4e4"
+              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
             }
           ],
           "prerelease": false,
@@ -11014,19 +11026,19 @@
         "values-zh-rTW": "\u4f9d\u81ea\u7136\u8a9e\u8a00\u76ee\u6a19\u9078\u64c7\u5df2\u767b\u8a18\u6307\u4ee4\u78bc\u4e26\u9010\u6b65\u64cd\u4f5c\u4ecb\u9762\u5b8c\u6210\u4efb\u52d9"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/refs/tags/v1.4.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -11037,37 +11049,49 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.4.0",
-          "versionCode": 441,
-          "versionDate": "2026-11-05",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/tag/v1.4.0",
-          "changelogText": "3-Stove Agent 1.4.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `ddba9307fb65a5cacbdec36b690610cf5638c525`\n\nPublished release.\n\n- Hint: Exporting and importing the settings together with AutoJs6 needs AutoJs6 6.8.1 or later (not released yet); with an earlier AutoJs6 this version works like 1.3.0\n- Feature: The plugin's settings can be exported and imported together with AutoJs6's settings, so a new phone or a reinstall does not need them set up again: the tool groups, the task limits, the operation permissions (Standard / Cautious), the voice input and floating ball switches, how failure alerts and completion notifications are shown, your own package names and keywords for risk recognition, the language, dark mode, the theme color and the MCP servers (with their access tokens); the model choice, presets, task history and memory are not included. When an MCP server has an access token, the plugin is not selected by default when exporting, and once it is selected AutoJs6 encrypts its part of the archive (set a password when exporting to import it on another phone). An import never turns on full access; only the settings on the phone itself can, and \"Undo last import\" in AutoJs6 brings back the full access the phone had before that import. Imported settings apply at once, while the language, dark mode and theme color apply the next time a screen of the plugin opens; imported MCP servers join the existing list, and while a task runs the MCP servers are not replaced, so import again after the task ends. On a new phone the floating ball shows only after the overlay permission is granted\n- Improvement: Clearer advice when connecting to AutoJs6 fails: after 15 seconds without a connection, 3-Stove Agent names the next steps (when AutoJs6 is not running, systems such as ColorOS do not let other apps start it in the background, so tap \"Open AutoJs6\" to connect; if that does not help, check authorization and the switch in the plugin center and update both apps); with AutoJs6 6.8.1 or later it shows the reason AutoJs6 gives (for example turned off) with what to do, and a request that did not reach AutoJs6 is reported at once instead of after 15 seconds\n- Dependency: Upgrade the common-plugin-api local module to 1.1.1 (from AutoJs6 host build 1676e7489d, hash-locked) for the settings export and import\n- Dependency: Add org.json version 20231013 (JVM tests only)",
+          "versionName": "1.4.1",
+          "versionCode": 458,
+          "versionDate": "2026-11-19",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/tag/v1.4.1",
+          "changelogText": "3-Stove Agent 1.4.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `5e0e9571b880b1edca583c6b2bb5d0a5d624c0c6`\n\nPublished release.\n\n- Fix: When the script directories set in 3-Stove Agent did not meet the AutoJs6 requirements (such as a missing directory, one outside shared storage, or a parent of the AutoJs6 working directory), the first connection only showed a 15-second timeout without a reason, and the directories were only reported as not accepted when changed while already connected; AutoJs6 6.8.1 now answers that the directories were rejected as soon as the connection request arrives, and the workbench shows the directory requirements at once (with AutoJs6 6.8.0 they still appear only after the timeout). The settings description and the notice now state the actual AutoJs6 rules (they only said \"not a parent of the working directory\", while the working directory itself was not accepted either at the time; since AutoJs6 6.8.1 the working directory itself may be entered) (AutoJs6 issue #589)\n- Fix: When a call to a local model (such as Gemma 4 in 3-Stone AI) exceeded the model time limit, the task result only carried the MODEL_TIMEOUT code without a reason; it now names the likely causes (the model still loading, the system restricting the AI plugin in the background, an input too large) and what to do, and states separately when the plugin serving the model did not respond to AutoJs6 within 20 seconds (the latter needs AutoJs6 6.8.1) (AutoJs6 issue #589)\n- Fix: With an OpenAI-compatible service that accepts response_format but does not enforce it (such as Zhipu GLM), the model replied inside a Markdown fence and tasks failed consistently with DECISION_UNPARSABLE (both repairs kept the fence); now the first valid JSON object in the reply is used (the step record shows parseMode EXTRACTED) and a progress line on the workbench says that this model source ignores the response schema; fenced ask / done text replies in native tool-calling mode are accepted the same way (issue #1)\n- Improvement: After you tap \"Connect to AutoJs6\", if the request did not reach AutoJs6 because it is not running (for example, ColorOS does not let other apps start AutoJs6 in the background), AutoJs6 now opens by itself to finish connecting, so there is no need to tap \"Open AutoJs6\"; the automatic connection when the workbench opens never switches to AutoJs6. Needs AutoJs6 6.8.1 or later (not released yet)\n- Improvement: While waiting for a local model, the progress line of the workbench shows why it is waiting and the seconds waited, and shows how long the wait took once the model answers (scripts receive these as ordinary progress events); new device check script .python/device_local_model_check.py measures the per-phase times of a local model on a connected device, from a cold start and with a warm engine\n- Improvement: The Version history page is now the Release history page and expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in the Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Improvement: The menu at the top right of the settings page adds \"Open general settings\", which opens the general settings page of this plugin in AutoJs6 (requires AutoJs6 6.8.1 or later; earlier versions do not show the menu item)\n- Dependency: Upgrade the three-stove-agent-api local module (from AutoJs6 host build 52ba898be7, hash-locked); the connection result now reads its constants directly, including the new reason code ROOTS_REJECTED (script directories not accepted)\n- Dependency: Add Jetpack Compose BOM version 2026.09.00 and androidx.activity:activity-compose version 1.12.2 (release history page)\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-stove-agent-v1.4.0-1c20d476.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/download/v1.4.0/autojs6-plugin-three-stove-agent-v1.4.0-1c20d476.apk",
-              "size": 2860982,
-              "digest": "sha256:d8edf2946b9584787b3e110d930657bdb7b91f318a4beb503e60afdf1cd91023",
-              "sha256": "d8edf2946b9584787b3e110d930657bdb7b91f318a4beb503e60afdf1cd91023",
+              "name": "autojs6-plugin-three-stove-agent-v1.4.1-b1bf8d48.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent/releases/download/v1.4.1/autojs6-plugin-three-stove-agent-v1.4.1-b1bf8d48.apk",
+              "size": 3721369,
+              "digest": "sha256:df73c5d6c6454d2339f9a21c15fc99aa0867ec0d3bb0995ba46de162cb305fd4",
+              "sha256": "df73c5d6c6454d2339f9a21c15fc99aa0867ec0d3bb0995ba46de162cb305fd4",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.0",
-              "versionCode": 441,
+              "versionName": "1.4.1",
+              "versionCode": 458,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.stove.agent",
-              "sourceCommit": "ddba9307fb65a5cacbdec36b690610cf5638c525"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "5e0e9571b880b1edca583c6b2bb5d0a5d624c0c6"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
