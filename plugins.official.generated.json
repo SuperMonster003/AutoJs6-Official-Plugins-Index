@@ -10466,19 +10466,19 @@
         "values-zh-rTW": "\u591a\u5de5\u4f5c\u968e\u6bb5\u7d42\u7aef\u6a5f, \u5728 pty \u4e2d\u57f7\u884c\u7cfb\u7d71 shell, \u652f\u63f4\u80cc\u666f\u57f7\u884c, \u5feb\u6377\u6309\u9375\u53ca Node.js \u547d\u4ee4"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/refs/tags/v1.2.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -10489,23 +10489,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.0",
-          "versionCode": 95,
-          "versionDate": "2026-11-19",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/tag/v1.2.0",
-          "changelogText": "3-Shell Terminal 1.2.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `a2c1f5169f126414418ce130c77153e864ffc88c`\n\nPublished release.\n\n- Feature: Command editor: multiline or long pastes open a wrapping editor; paste into the current terminal or run in a new session in the current directory, with the complete command, exit code and a command viewer with Copy\n- Fix: Keyboard input losing the last UTF-8 byte of emoji and other supplementary characters, and corrupting subsequent characters such as Chinese\n- Fix: Large pastes blocking the UI and echo; input is sent in order in the background, literal paste bypasses sticky Ctrl / Alt, and a full queue reports rejection instead of truncating input\n- Fix: Non-ASCII command arguments, directory names and environment values being truncated when starting a terminal session\n- Improvement: The Version history page is now the Release history page and expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in the Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Improvement: The menu at the top right of the settings page adds \"Open general settings\", which opens the general settings page of this plugin in AutoJs6 (requires AutoJs6 6.8.1 or later; earlier versions do not show the menu item)\n- Dependency: Add Jetpack Compose BOM version 2026.09.00 and androidx.activity:activity-compose version 1.12.2 (release history page)\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.2.1",
+          "versionCode": 97,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/tag/v1.2.1",
+          "changelogText": "3-Shell Terminal 1.2.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `4ba002439595ad684abb3105d84c21a622e993f4`\n\nPublished release.\n\n- Fix: The command editor's edit box being squeezed out of view and its buttons cut off when the keyboard opens on short screens; the editor window now fits its content and stays between the status bar and the keyboard\n- Fix: A terminal session closed soon after creation on a busy device occasionally keeping two file descriptors open until garbage collection\n- Dependency: Upgraded the jackpal emulatorview patch 1.0.42-p8.1 -> 1.0.42-p8.2: when a session closes before its writer thread starts, the writer releases the eventfd and epoll descriptors of its message queue at once; only `TermSession` changes, every other class is byte-identical and `locks/vendored-aars.lock` is updated\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-arm64-v8a-45745928.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-arm64-v8a-45745928.apk",
-              "size": 2793703,
-              "digest": "sha256:0bcc479cc6d0e38700c2dd696b64a1bd6a5d6b4465039ddf4a42d413813d9f13",
-              "sha256": "0bcc479cc6d0e38700c2dd696b64a1bd6a5d6b4465039ddf4a42d413813d9f13",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.1-arm64-v8a-ba2f088a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.1/autojs6-plugin-three-shell-terminal-v1.2.1-arm64-v8a-ba2f088a.apk",
+              "size": 2797583,
+              "digest": "sha256:477df2f1ccdd6c315b784c9172950bacbf2e5305503698ac491c6244f641d740",
+              "sha256": "477df2f1ccdd6c315b784c9172950bacbf2e5305503698ac491c6244f641d740",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 95,
+              "versionName": "1.2.1",
+              "versionCode": 97,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10513,19 +10513,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
+              "sourceCommit": "4ba002439595ad684abb3105d84c21a622e993f4"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-armeabi-v7a-af599ee0.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-armeabi-v7a-af599ee0.apk",
-              "size": 2790921,
-              "digest": "sha256:7ceb721100db44d8f1b02c1aa14c861d429fb26033a525c12c182488f077d11d",
-              "sha256": "7ceb721100db44d8f1b02c1aa14c861d429fb26033a525c12c182488f077d11d",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.1-armeabi-v7a-0349924b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.1/autojs6-plugin-three-shell-terminal-v1.2.1-armeabi-v7a-0349924b.apk",
+              "size": 2794801,
+              "digest": "sha256:dff86eeed8abf900f887d00894591eda0a7bc90a13d70f5f2e85a7503da3f1cf",
+              "sha256": "dff86eeed8abf900f887d00894591eda0a7bc90a13d70f5f2e85a7503da3f1cf",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 95,
+              "versionName": "1.2.1",
+              "versionCode": 97,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10533,19 +10533,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
+              "sourceCommit": "4ba002439595ad684abb3105d84c21a622e993f4"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-universal-e99085b6.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-universal-e99085b6.apk",
-              "size": 2942213,
-              "digest": "sha256:c12a48aa22a0bf85feb39688907b2d62e59f653b525d8d424879a13c1cfa5056",
-              "sha256": "c12a48aa22a0bf85feb39688907b2d62e59f653b525d8d424879a13c1cfa5056",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.1-universal-397e1c7f.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.1/autojs6-plugin-three-shell-terminal-v1.2.1-universal-397e1c7f.apk",
+              "size": 2946093,
+              "digest": "sha256:c153f2f82cb7b127e82ce168f80b2a26b9b74a363fff48e08c5e780bb8f95eb3",
+              "sha256": "c153f2f82cb7b127e82ce168f80b2a26b9b74a363fff48e08c5e780bb8f95eb3",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 95,
+              "versionName": "1.2.1",
+              "versionCode": 97,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10553,19 +10553,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
+              "sourceCommit": "4ba002439595ad684abb3105d84c21a622e993f4"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-x86-d1565855.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-x86-d1565855.apk",
-              "size": 2792129,
-              "digest": "sha256:6582dac5b01aee8acc54eecb285a29c242b021ba5c4d07fa93db39fd345a9746",
-              "sha256": "6582dac5b01aee8acc54eecb285a29c242b021ba5c4d07fa93db39fd345a9746",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.1-x86-2cc0a358.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.1/autojs6-plugin-three-shell-terminal-v1.2.1-x86-2cc0a358.apk",
+              "size": 2796009,
+              "digest": "sha256:e6b90550c0f03fde1b25f6a5993e83cbc73fb1629710d5a355554e0304948a37",
+              "sha256": "e6b90550c0f03fde1b25f6a5993e83cbc73fb1629710d5a355554e0304948a37",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 95,
+              "versionName": "1.2.1",
+              "versionCode": 97,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10573,19 +10573,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
+              "sourceCommit": "4ba002439595ad684abb3105d84c21a622e993f4"
             },
             {
-              "name": "autojs6-plugin-three-shell-terminal-v1.2.0-x86_64-e3676701.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.0/autojs6-plugin-three-shell-terminal-v1.2.0-x86_64-e3676701.apk",
-              "size": 2793998,
-              "digest": "sha256:d0ae3259e52e666c33799060c5ea58f5842674210dd223c6aa6bb05b871553ab",
-              "sha256": "d0ae3259e52e666c33799060c5ea58f5842674210dd223c6aa6bb05b871553ab",
+              "name": "autojs6-plugin-three-shell-terminal-v1.2.1-x86_64-0603f5f7.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Shell-Terminal/releases/download/v1.2.1/autojs6-plugin-three-shell-terminal-v1.2.1-x86_64-0603f5f7.apk",
+              "size": 2797878,
+              "digest": "sha256:1c242548da5609cedba4827eef520e364cf8fef9ec78d858725564ee1397a8a5",
+              "sha256": "1c242548da5609cedba4827eef520e364cf8fef9ec78d858725564ee1397a8a5",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.2.0",
-              "versionCode": 95,
+              "versionName": "1.2.1",
+              "versionCode": 97,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.shell.terminal",
               "supportedAbis": [
                 "arm64-v8a",
@@ -10593,7 +10593,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "a2c1f5169f126414418ce130c77153e864ffc88c"
+              "sourceCommit": "4ba002439595ad684abb3105d84c21a622e993f4"
             }
           ],
           "prerelease": false,
