@@ -9959,31 +9959,101 @@
               "name": "autojs6-plugin-three-hanzi-cc-v2.1.1-arm64-v8a-e5985341.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Hanzi-CC/releases/download/v2.1.1/autojs6-plugin-three-hanzi-cc-v2.1.1-arm64-v8a-e5985341.apk",
               "size": 5281631,
-              "digest": "sha256:f74211fe8b925049021929ea8bf425a66c133b430c7b0c950cfd0ad65c3a80a9"
+              "digest": "sha256:f74211fe8b925049021929ea8bf425a66c133b430c7b0c950cfd0ad65c3a80a9",
+              "sha256": "f74211fe8b925049021929ea8bf425a66c133b430c7b0c950cfd0ad65c3a80a9",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.1",
+              "versionCode": 152,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d1d30a7de1b7c8fb7a322e5de4be39f591446155"
             },
             {
               "name": "autojs6-plugin-three-hanzi-cc-v2.1.1-armeabi-v7a-0b4cf034.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Hanzi-CC/releases/download/v2.1.1/autojs6-plugin-three-hanzi-cc-v2.1.1-armeabi-v7a-0b4cf034.apk",
               "size": 4942903,
-              "digest": "sha256:19253a9fc7003ccbba0d4216e8e4303da45810a930bec46e29b43671633b522b"
+              "digest": "sha256:19253a9fc7003ccbba0d4216e8e4303da45810a930bec46e29b43671633b522b",
+              "sha256": "19253a9fc7003ccbba0d4216e8e4303da45810a930bec46e29b43671633b522b",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.1",
+              "versionCode": 152,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d1d30a7de1b7c8fb7a322e5de4be39f591446155"
             },
             {
               "name": "autojs6-plugin-three-hanzi-cc-v2.1.1-universal-69c1aae6.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Hanzi-CC/releases/download/v2.1.1/autojs6-plugin-three-hanzi-cc-v2.1.1-universal-69c1aae6.apk",
               "size": 7666589,
-              "digest": "sha256:a5f159ca7483b2b500b8e779484a436aee3f9a851681110fbc0df3ad457f2ea4"
+              "digest": "sha256:a5f159ca7483b2b500b8e779484a436aee3f9a851681110fbc0df3ad457f2ea4",
+              "sha256": "a5f159ca7483b2b500b8e779484a436aee3f9a851681110fbc0df3ad457f2ea4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.1",
+              "versionCode": 152,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d1d30a7de1b7c8fb7a322e5de4be39f591446155"
             },
             {
               "name": "autojs6-plugin-three-hanzi-cc-v2.1.1-x86-23219d6b.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Hanzi-CC/releases/download/v2.1.1/autojs6-plugin-three-hanzi-cc-v2.1.1-x86-23219d6b.apk",
               "size": 5243851,
-              "digest": "sha256:1d404b3469db1a28647075b58515fb8b1f92e87a54e16933b3ff375feef542c5"
+              "digest": "sha256:1d404b3469db1a28647075b58515fb8b1f92e87a54e16933b3ff375feef542c5",
+              "sha256": "1d404b3469db1a28647075b58515fb8b1f92e87a54e16933b3ff375feef542c5",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.1",
+              "versionCode": 152,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d1d30a7de1b7c8fb7a322e5de4be39f591446155"
             },
             {
               "name": "autojs6-plugin-three-hanzi-cc-v2.1.1-x86_64-fa5e38b1.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Hanzi-CC/releases/download/v2.1.1/autojs6-plugin-three-hanzi-cc-v2.1.1-x86_64-fa5e38b1.apk",
               "size": 5290425,
-              "digest": "sha256:93d05658218afaaf72c877d10cdb5ec6b16750ded81210af38d2ebb74f629ad2"
+              "digest": "sha256:93d05658218afaaf72c877d10cdb5ec6b16750ded81210af38d2ebb74f629ad2",
+              "sha256": "93d05658218afaaf72c877d10cdb5ec6b16750ded81210af38d2ebb74f629ad2",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.1",
+              "versionCode": 152,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.hanzi.cc",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "d1d30a7de1b7c8fb7a322e5de4be39f591446155"
             }
           ],
           "prerelease": false,
@@ -10590,31 +10660,106 @@
               "name": "autojs6-plugin-three-stack-archive-v3.1.4-arm64-v8a-59D9DA0B.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.4/autojs6-plugin-three-stack-archive-v3.1.4-arm64-v8a-59D9DA0B.apk",
               "size": 4349196,
-              "digest": "sha256:7e80e24c8b861fd658dd0f81ad1786859051e12c4cc39e628f291606fd5ca56d"
+              "digest": "sha256:7e80e24c8b861fd658dd0f81ad1786859051e12c4cc39e628f291606fd5ca56d",
+              "sha256": "7e80e24c8b861fd658dd0f81ad1786859051e12c4cc39e628f291606fd5ca56d",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "3.1.4",
+              "versionCode": 135,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+              "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "a41644b29e396e7dcf45ff144286fdd9b1623021"
             },
             {
               "name": "autojs6-plugin-three-stack-archive-v3.1.4-armeabi-v7a-FF97C78B.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.4/autojs6-plugin-three-stack-archive-v3.1.4-armeabi-v7a-FF97C78B.apk",
               "size": 4236172,
-              "digest": "sha256:bf0060e1597ca7e44f3d1dd14762fc4486d8d1086cb8333771d42d2bc3d470ab"
+              "digest": "sha256:bf0060e1597ca7e44f3d1dd14762fc4486d8d1086cb8333771d42d2bc3d470ab",
+              "sha256": "bf0060e1597ca7e44f3d1dd14762fc4486d8d1086cb8333771d42d2bc3d470ab",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "3.1.4",
+              "versionCode": 135,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+              "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "a41644b29e396e7dcf45ff144286fdd9b1623021"
             },
             {
               "name": "autojs6-plugin-three-stack-archive-v3.1.4-universal-84401030.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.4/autojs6-plugin-three-stack-archive-v3.1.4-universal-84401030.apk",
               "size": 5895327,
-              "digest": "sha256:d7544392cac72f0b378e1af55de9a799ac76032c3b72c2b12203e40b6e32400b"
+              "digest": "sha256:d7544392cac72f0b378e1af55de9a799ac76032c3b72c2b12203e40b6e32400b",
+              "sha256": "d7544392cac72f0b378e1af55de9a799ac76032c3b72c2b12203e40b6e32400b",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "3.1.4",
+              "versionCode": 135,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+              "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "a41644b29e396e7dcf45ff144286fdd9b1623021"
             },
             {
               "name": "autojs6-plugin-three-stack-archive-v3.1.4-x86-D5ED1898.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.4/autojs6-plugin-three-stack-archive-v3.1.4-x86-D5ED1898.apk",
               "size": 4425144,
-              "digest": "sha256:619accbdaa2568ff16e207215efd0b2614694cc122470050c7e2d605f93f1ab4"
+              "digest": "sha256:619accbdaa2568ff16e207215efd0b2614694cc122470050c7e2d605f93f1ab4",
+              "sha256": "619accbdaa2568ff16e207215efd0b2614694cc122470050c7e2d605f93f1ab4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "3.1.4",
+              "versionCode": 135,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+              "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "a41644b29e396e7dcf45ff144286fdd9b1623021"
             },
             {
               "name": "autojs6-plugin-three-stack-archive-v3.1.4-x86_64-D0FAF0CA.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stack-Archive/releases/download/v3.1.4/autojs6-plugin-three-stack-archive-v3.1.4-x86_64-D0FAF0CA.apk",
               "size": 4420262,
-              "digest": "sha256:66fb8b51fe4b1ec88a0dda5c75a9c8aec52c995feb1d0517fce39c37df10c00a"
+              "digest": "sha256:66fb8b51fe4b1ec88a0dda5c75a9c8aec52c995feb1d0517fce39c37df10c00a",
+              "sha256": "66fb8b51fe4b1ec88a0dda5c75a9c8aec52c995feb1d0517fce39c37df10c00a",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "3.1.4",
+              "versionCode": 135,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stack.archive",
+              "runtimeComponent": "io.github.supermonster003.autojs6.plugin.three.stack.archive/io.github.supermonster003.autojs6.plugin.three.stack.archive.ExplorerActionService",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "a41644b29e396e7dcf45ff144286fdd9b1623021"
             }
           ],
           "prerelease": false,
