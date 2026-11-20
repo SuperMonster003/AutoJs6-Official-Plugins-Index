@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Color-Picker",
+  "releaseTag": "v2.0.2",
+  "sourceCommit": "f25c86619922de551c8cd3c2d301c633f79af927",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.color.picker",
+  "versionName": "2.0.2",
+  "versionCode": 59,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-color-picker-v2.0.2-3302964a.apk",
+      "sha256": "8f29bb664e5fb758271683bbe9685d7eb03873fb2cca8b181d9e09f3a688cfd8",
+      "sizeBytes": 2591669
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}

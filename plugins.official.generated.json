@@ -9460,19 +9460,19 @@
         "values-zh-rTW": "\u53ef\u9078\u7684\u5be6\u9a57\u6027\u4f34\u751f\u5916\u639b\u7a0b\u5f0f, \u53ef\u80fd\u5354\u52a9 AutoJs6 \u53d6\u5f97\u652f\u63f4\u61c9\u7528\u7a0b\u5f0f\u7684\u7121\u969c\u7919\u7bc0\u9ede. \u5b83\u53ea\u5728\u672c\u6a5f\u57f7\u884c, \u5ffd\u7565\u6240\u6709\u4e8b\u4ef6, \u4e0d\u4fdd\u8b49\u6240\u6709\u9801\u9762\u7bc0\u9ede\u53ef\u7528"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/refs/tags/v1.4.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -9482,37 +9482,49 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.4.2",
-          "versionCode": 68,
-          "versionDate": "2026-11-12",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/tag/v1.4.2",
-          "changelogText": "3-Adapt A11y 1.4.2\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `c6cef7485a0ef72cdb0aa87acd78360d663da402`\n\nPublished release.\n\n- Fix: When the compatibility service process is killed, system settings still show it as on but the system no longer runs it; sync now turns it off and on again through root, WRITE_SECURE_SETTINGS, or Shizuku, and without any of them the home page explains how to turn it off and on in the system accessibility settings and offers a button to open them\n- Improvement: When Shizuku is the only way to enable the compatibility service, a sync that runs before Shizuku is ready after the plugin starts is repeated once Shizuku is ready\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.4.3",
+          "versionCode": 69,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/tag/v1.4.3",
+          "changelogText": "3-Adapt A11y 1.4.3\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `1ee22142bb5f4c15238ed8999631b9bca7a0e1c8`\n\nPublished release.\n\n- Improvement: The release history moved from a plain text page to a new page that expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded, and the plugin name is shown as the subtitle\n- Improvement: Rewrote the instructions shown in Plugin Center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-adapt-a11y-v1.4.2-DF735B8E.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/download/v1.4.2/autojs6-plugin-three-adapt-a11y-v1.4.2-DF735B8E.apk",
-              "size": 1945514,
-              "digest": "sha256:4d7591610546c7777999a159941856a7fd916046b4765ad3dc9a15969c20e533",
-              "sha256": "4d7591610546c7777999a159941856a7fd916046b4765ad3dc9a15969c20e533",
+              "name": "autojs6-plugin-three-adapt-a11y-v1.4.3-875BDC2C.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Adapt-A11y/releases/download/v1.4.3/autojs6-plugin-three-adapt-a11y-v1.4.3-875BDC2C.apk",
+              "size": 2855094,
+              "digest": "sha256:22d609d04b9ac22461df086e99271f4c078bb7aa0531591be7b5d9b2be81d5b9",
+              "sha256": "22d609d04b9ac22461df086e99271f4c078bb7aa0531591be7b5d9b2be81d5b9",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.4.2",
-              "versionCode": 68,
+              "versionName": "1.4.3",
+              "versionCode": 69,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.adapt.a11y",
-              "sourceCommit": "c6cef7485a0ef72cdb0aa87acd78360d663da402"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "1ee22142bb5f4c15238ed8999631b9bca7a0e1c8"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
@@ -9716,56 +9728,68 @@
         "values-zh-rTW": "\u4f7f\u7528\u9069\u5408\u89f8\u63a7\u64cd\u4f5c\u7684\u6d6e\u52d5\u53d6\u8272\u5668\u64f7\u53d6\u87a2\u5e55\u4efb\u610f\u4f4d\u7f6e\u7684\u984f\u8272"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.1/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/refs/tags/v2.0.2/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
       "featured": true,
       "releases": [
         {
-          "versionName": "2.0.1",
-          "versionCode": 58,
-          "versionDate": "2026-11-04",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/releases/tag/v2.0.1",
-          "changelogText": "3-Color Picker 2.0.1\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `d601d30b09fb71556fd2e7446039c04d709710da`\r\n\r\nPublished release.\r\n\r\n- Fix: Complete missing translations in update settings\r\n- Fix: In the Arabic interface, 3-Color Picker no longer appears reversed as Color Picker-3\r\n- Fix: Release history now groups changes by version with dates and change types, instead of showing raw formatting symbols\r\n- Improvement: Plugin Center icons use the sizes, positions, light and dark artwork, and circular backgrounds adjusted in Icon Studio, retaining reproducible sources and parameters\r\n- Improvement: Android App info icons share Icon Studio artwork and light/dark backgrounds while preserving transparent Plugin Center artwork and existing launcher choices\r\n- Improvement: Consistent visual sizing for launcher and Plugin Center icons, with transparent backgrounds and neutral black, white or grayscale artwork\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "2.0.2",
+          "versionCode": 59,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/releases/tag/v2.0.2",
+          "changelogText": "3-Color Picker 2.0.2\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `f25c86619922de551c8cd3c2d301c633f79af927`\n\nPublished release.\n\n- Improvement: The release history moved from a dialog to its own page that expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded, and the plugin name is shown as the subtitle\n- Improvement: Rewrote the instructions shown in Plugin Center in four parts: getting started, main features, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-color-picker-v2.0.1-96ccb6ca.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/releases/download/v2.0.1/autojs6-plugin-three-color-picker-v2.0.1-96ccb6ca.apk",
-              "size": 1690628,
-              "digest": "sha256:2a5f654d4a1ab9c4d284a5965c1a539f796f3b3b7b97bf8133f482100589276a",
-              "sha256": "2a5f654d4a1ab9c4d284a5965c1a539f796f3b3b7b97bf8133f482100589276a",
+              "name": "autojs6-plugin-three-color-picker-v2.0.2-3302964a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Color-Picker/releases/download/v2.0.2/autojs6-plugin-three-color-picker-v2.0.2-3302964a.apk",
+              "size": 2591669,
+              "digest": "sha256:8f29bb664e5fb758271683bbe9685d7eb03873fb2cca8b181d9e09f3a688cfd8",
+              "sha256": "8f29bb664e5fb758271683bbe9685d7eb03873fb2cca8b181d9e09f3a688cfd8",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "2.0.1",
-              "versionCode": 58,
+              "versionName": "2.0.2",
+              "versionCode": 59,
               "packageName": "io.github.supermonster003.autojs6.plugin.three.color.picker",
-              "sourceCommit": "d601d30b09fb71556fd2e7446039c04d709710da"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "f25c86619922de551c8cd3c2d301c633f79af927"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",

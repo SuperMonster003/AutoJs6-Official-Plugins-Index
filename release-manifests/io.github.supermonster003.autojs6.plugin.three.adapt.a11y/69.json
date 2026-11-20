@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "owner": "SuperMonster003",
+  "repository": "AutoJs6-Plugin-Three-Adapt-A11y",
+  "releaseTag": "v1.4.3",
+  "sourceCommit": "1ee22142bb5f4c15238ed8999631b9bca7a0e1c8",
+  "packageName": "io.github.supermonster003.autojs6.plugin.three.adapt.a11y",
+  "versionName": "1.4.3",
+  "versionCode": 69,
+  "signerSha256": [
+    "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+  ],
+  "artifacts": [
+    {
+      "name": "autojs6-plugin-three-adapt-a11y-v1.4.3-875BDC2C.apk",
+      "sha256": "22d609d04b9ac22461df086e99271f4c078bb7aa0531591be7b5d9b2be81d5b9",
+      "sizeBytes": 2855094
+    }
+  ],
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64",
+    "x86"
+  ]
+}
