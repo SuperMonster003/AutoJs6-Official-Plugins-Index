@@ -10404,7 +10404,21 @@
               "name": "autojs6-plugin-three-setup-installer-v1.2.3-4f9789ab.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/releases/download/v1.2.3/autojs6-plugin-three-setup-installer-v1.2.3-4f9789ab.apk",
               "size": 3059180,
-              "digest": "sha256:21ba6a582579f105b06de53a8b61b4317e065b816741f9f88648de9b3848218c"
+              "digest": "sha256:21ba6a582579f105b06de53a8b61b4317e065b816741f9f88648de9b3848218c",
+              "sha256": "21ba6a582579f105b06de53a8b61b4317e065b816741f9f88648de9b3848218c",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "1.2.3",
+              "versionCode": 152,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.setup.installer",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "f3651ccbcac80563896fd34767e977280855769e"
             }
           ],
           "prerelease": false,
