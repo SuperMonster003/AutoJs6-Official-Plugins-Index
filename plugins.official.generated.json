@@ -10819,19 +10819,19 @@
         "values-zh-rTW": "\u900f\u904e IMAP, POP3 \u548c SMTP \u6536\u767c, \u641c\u5c0b\u548c\u76e3\u807d\u90f5\u4ef6"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/refs/tags/v2.1.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -10842,37 +10842,35 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "2.1.0",
-          "versionCode": 162,
-          "versionDate": "2026-11-04",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/tag/v2.1.0",
-          "changelogText": "3-Stamp Mail 2.1.0\r\n\r\nOfficial APKs signed with the AutoJs6 release certificate.\r\n\r\nSource: `df5234a0165dbb5e5fb476edca2cd1964f45d4ab`\r\n\r\nPublished release.\r\n\r\n- Feature: Independently signed applications can connect with their own explicit credentials; saved accounts and background watches retain host signature protection\r\n- Fix: In the Arabic interface, 3-Stamp Mail no longer appears reversed as Stamp Mail-3\r\n- Improvement: Plugin Center icons use the sizes, positions, light and dark artwork, and circular backgrounds adjusted in Icon Studio, retaining reproducible sources and parameters\r\n- Improvement: Android App info icons share Icon Studio artwork and light/dark backgrounds while preserving transparent Plugin Center artwork and existing launcher choices\r\n- Improvement: Consistent visual sizing for launcher and Plugin Center icons, with transparent backgrounds and neutral black, white or grayscale artwork\r\n\r\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "2.1.1",
+          "versionCode": 167,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/tag/v2.1.1",
+          "changelogText": "3-Stamp Mail 2.1.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `06c1d798e005dba96c332e6ea8d30015b97033d9`\n\nPublished release.\n\n- Fix: Names inside release history entries no longer show stray backticks\n- Fix: Added the missing accents to some French and Spanish interface text\n- Improvement: The Version history page is now the Release history page and expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-stamp-mail-v2.1.0-6801d3fb.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/download/v2.1.0/autojs6-plugin-three-stamp-mail-v2.1.0-6801d3fb.apk",
-              "size": 2600473,
-              "digest": "sha256:d8806d140322cdd6ee0dd0fb0e96efb5bfd9da04aeaebdd8ec0959b216c69712",
-              "sha256": "d8806d140322cdd6ee0dd0fb0e96efb5bfd9da04aeaebdd8ec0959b216c69712",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "2.1.0",
-              "versionCode": 162,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
-              "sourceCommit": "df5234a0165dbb5e5fb476edca2cd1964f45d4ab"
+              "name": "autojs6-plugin-three-stamp-mail-v2.1.1-8037eb54.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/download/v2.1.1/autojs6-plugin-three-stamp-mail-v2.1.1-8037eb54.apk",
+              "size": 3522703,
+              "digest": "sha256:4b9fe7fa573db032e9d0d32f914203eae984edba958d36f8698f1f7c2727fdb4"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
