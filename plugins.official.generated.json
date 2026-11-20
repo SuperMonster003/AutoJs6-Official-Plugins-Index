@@ -486,19 +486,19 @@
         "values-zh-rTW": "\u4f7f\u7528\u5167\u5d4c\u7684 Auto.js 4.1.1 Alpha2 \u5f15\u64ce\u57f7\u884c\u6307\u4ee4\u78bc, \u7528\u65bc\u5c0d\u7167 AutoJs6 \u7684\u57f7\u884c\u7d50\u679c"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/refs/tags/v1.1.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -509,23 +509,23 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.1.0",
-          "versionCode": 14,
-          "versionDate": "2026-11-07",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/tag/v1.1.0",
-          "changelogText": "AutoJs4 Runtime 1.1.0\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `722e18cf8398a3b15cd74b3091631d0746b0ec00`\n\nPublished release.\n\n- Fix: The application icon was difficult to distinguish on dark backgrounds in some launchers and system app lists\n- Improvement: In the file menu of AutoJs6 6.8.1 and later, \"Run with AutoJs4\" and \"Run with AutoJs4 and compare\" are now provided by the plugin, under the top-level menu \"AutoJs4\" (unchanged in older AutoJs6 versions)\n- Improvement: Settings and release history pages follow the language, dark mode and theme color of AutoJs6, falling back to the system appearance when host settings are unavailable\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.1.1",
+          "versionCode": 17,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/tag/v1.1.1",
+          "changelogText": "AutoJs4 Runtime 1.1.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `b5ad22a35cfcb8bf46f9e0ab0a61dfa9e0bf5b5d`\n\nPublished release.\n\n- Improvement: The release history page now expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded AndroidX Core to 1.16.0 and AndroidX Lifecycle to 2.9.4 (needed by Jetpack Compose; AppCompat stays at AutoJs4's 1.0.2)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-autojs4-runtime-v1.1.0-arm64-v8a-fd5df5e7.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-arm64-v8a-fd5df5e7.apk",
-              "size": 22558586,
-              "digest": "sha256:71b5a211af29540e4aa1a41df386cf5c48535b4025b77694e18696789120c555",
-              "sha256": "71b5a211af29540e4aa1a41df386cf5c48535b4025b77694e18696789120c555",
+              "name": "autojs6-plugin-autojs4-runtime-v1.1.1-arm64-v8a-325b836b.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.1/autojs6-plugin-autojs4-runtime-v1.1.1-arm64-v8a-325b836b.apk",
+              "size": 29884636,
+              "digest": "sha256:4e0ae9dec6d59254404957c171796899f45a8fb2df84aae95684c44a04770edf",
+              "sha256": "4e0ae9dec6d59254404957c171796899f45a8fb2df84aae95684c44a04770edf",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.0",
-              "versionCode": 14,
+              "versionName": "1.1.1",
+              "versionCode": 17,
               "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
               "supportedAbis": [
                 "arm64-v8a",
@@ -533,19 +533,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
+              "sourceCommit": "b5ad22a35cfcb8bf46f9e0ab0a61dfa9e0bf5b5d"
             },
             {
-              "name": "autojs6-plugin-autojs4-runtime-v1.1.0-armeabi-v7a-3455c46c.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-armeabi-v7a-3455c46c.apk",
-              "size": 17496284,
-              "digest": "sha256:0ef80c9ed23986a12118e2f5c123378f9cab08703e39bbfb2d7a5132090c7bd4",
-              "sha256": "0ef80c9ed23986a12118e2f5c123378f9cab08703e39bbfb2d7a5132090c7bd4",
+              "name": "autojs6-plugin-autojs4-runtime-v1.1.1-armeabi-v7a-87e0e15d.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.1/autojs6-plugin-autojs4-runtime-v1.1.1-armeabi-v7a-87e0e15d.apk",
+              "size": 24822336,
+              "digest": "sha256:04aff5153f6fb988e804a65eddf68405bff86b6b6aec1d20dbcc1ff0dfeac30b",
+              "sha256": "04aff5153f6fb988e804a65eddf68405bff86b6b6aec1d20dbcc1ff0dfeac30b",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.0",
-              "versionCode": 14,
+              "versionName": "1.1.1",
+              "versionCode": 17,
               "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
               "supportedAbis": [
                 "arm64-v8a",
@@ -553,19 +553,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
+              "sourceCommit": "b5ad22a35cfcb8bf46f9e0ab0a61dfa9e0bf5b5d"
             },
             {
-              "name": "autojs6-plugin-autojs4-runtime-v1.1.0-universal-62914695.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-universal-62914695.apk",
-              "size": 51334658,
-              "digest": "sha256:1b9248e00c6e384a732fd2a29b82df2b9df499ae491de0ca8e360cd8da1b413c",
-              "sha256": "1b9248e00c6e384a732fd2a29b82df2b9df499ae491de0ca8e360cd8da1b413c",
+              "name": "autojs6-plugin-autojs4-runtime-v1.1.1-universal-6b3109c6.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.1/autojs6-plugin-autojs4-runtime-v1.1.1-universal-6b3109c6.apk",
+              "size": 58710117,
+              "digest": "sha256:241789bb31880b002229ffe1de268051fe1fab6cd91d879736c9764bc596b901",
+              "sha256": "241789bb31880b002229ffe1de268051fe1fab6cd91d879736c9764bc596b901",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.0",
-              "versionCode": 14,
+              "versionName": "1.1.1",
+              "versionCode": 17,
               "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
               "supportedAbis": [
                 "arm64-v8a",
@@ -573,19 +573,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
+              "sourceCommit": "b5ad22a35cfcb8bf46f9e0ab0a61dfa9e0bf5b5d"
             },
             {
-              "name": "autojs6-plugin-autojs4-runtime-v1.1.0-x86-8c604556.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-x86-8c604556.apk",
-              "size": 6293428,
-              "digest": "sha256:9cd49ec094f5e2900a8be26dbc0f1fa323f26c28c6aad15efc5d46a19ed82a3d",
-              "sha256": "9cd49ec094f5e2900a8be26dbc0f1fa323f26c28c6aad15efc5d46a19ed82a3d",
+              "name": "autojs6-plugin-autojs4-runtime-v1.1.1-x86-18aa4b9a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.1/autojs6-plugin-autojs4-runtime-v1.1.1-x86-18aa4b9a.apk",
+              "size": 13619472,
+              "digest": "sha256:89ee67307d5e82887244ab7e73f70aaffd6ae386b5b5d886a305d6d5d1059a1a",
+              "sha256": "89ee67307d5e82887244ab7e73f70aaffd6ae386b5b5d886a305d6d5d1059a1a",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.0",
-              "versionCode": 14,
+              "versionName": "1.1.1",
+              "versionCode": 17,
               "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
               "supportedAbis": [
                 "arm64-v8a",
@@ -593,19 +593,19 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
+              "sourceCommit": "b5ad22a35cfcb8bf46f9e0ab0a61dfa9e0bf5b5d"
             },
             {
-              "name": "autojs6-plugin-autojs4-runtime-v1.1.0-x86_64-049dac77.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.0/autojs6-plugin-autojs4-runtime-v1.1.0-x86_64-049dac77.apk",
-              "size": 23759729,
-              "digest": "sha256:27f64320ef79e433ce3dc3a1dd42cecd739b0fa8f0b571a11415deac120918fa",
-              "sha256": "27f64320ef79e433ce3dc3a1dd42cecd739b0fa8f0b571a11415deac120918fa",
+              "name": "autojs6-plugin-autojs4-runtime-v1.1.1-x86_64-70cec5ee.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-AutoJs4-Runtime/releases/download/v1.1.1/autojs6-plugin-autojs4-runtime-v1.1.1-x86_64-70cec5ee.apk",
+              "size": 31085776,
+              "digest": "sha256:d7c05529010f91480408119c060aee7319d82053369ea6aee171ddce77ca1e65",
+              "sha256": "d7c05529010f91480408119c060aee7319d82053369ea6aee171ddce77ca1e65",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.1.0",
-              "versionCode": 14,
+              "versionName": "1.1.1",
+              "versionCode": 17,
               "packageName": "io.github.supermonster003.autojs6.plugin.autojs4.runtime",
               "supportedAbis": [
                 "arm64-v8a",
@@ -613,7 +613,7 @@
                 "x86_64",
                 "x86"
               ],
-              "sourceCommit": "722e18cf8398a3b15cd74b3091631d0746b0ec00"
+              "sourceCommit": "b5ad22a35cfcb8bf46f9e0ab0a61dfa9e0bf5b5d"
             }
           ],
           "prerelease": false,
@@ -895,19 +895,19 @@
         "values-zh-rTW": "\u4f9b AutoJs6 \u8173\u672c require \u4f7f\u7528\u7684 JavaScript \u51fd\u5f0f\u5eab\u8207 Node \u76f8\u5bb9\u588a\u7247"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -918,37 +918,49 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.0",
-          "versionCode": 7,
-          "versionDate": "2026-10-29",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/releases/tag/v1.0.0",
-          "changelogText": "Bundled Libraries 1.0.0: AutoJs6 \u8fc7\u53bb\u5185\u7f6e\u7684\u811a\u672c\u5e93 axios, cheerio, dayjs, i18n (\u542b banana-i18n), pangu, lodash \u4e0e Node \u517c\u5bb9\u57ab\u7247 buffer, events, fs, os, path, process, nodejs \u6539\u7531\u672c\u63d2\u4ef6\u63d0\u4f9b.\n\n* `\u63d0\u793a` \u9700\u8981 AutoJs6 6.8.0 (\u6784\u5efa 5935) \u6216\u66f4\u9ad8\u7248\u672c\n* `\u63d0\u793a` \u81ea AutoJs6 6.8.0 \u8d77, \u4e0b\u5217\u5e93\u4e0d\u518d\u968f AutoJs6 \u63d0\u4f9b: \u5b89\u88c5\u672c\u63d2\u4ef6\u540e require \u4e0e\u5168\u5c40\u5bf9\u8c61\u7167\u5e38\u53ef\u7528, \u539f\u6709\u811a\u672c\u65e0\u9700\u4fee\u6539; \u672a\u5b89\u88c5\u6216\u505c\u7528\u672c\u63d2\u4ef6\u65f6, require \u8fd9\u4e9b\u5e93\u4f1a\u5f97\u5230\u8bf4\u660e\u5982\u4f55\u5b89\u88c5\u6216\u5f00\u542f\u7684\u9519\u8bef\n* `\u65b0\u589e` axios, cheerio, dayjs, i18n (\u542b banana-i18n), pangu \u4e0e lodash, \u53ef\u901a\u8fc7 require \u4f7f\u7528, \u5176\u4e2d axios, cheerio, dayjs, i18n \u4e0e pangu \u4e5f\u53ef\u76f4\u63a5\u4f5c\u4e3a\u5168\u5c40\u5bf9\u8c61\u4f7f\u7528\n* `\u65b0\u589e` Node \u517c\u5bb9\u57ab\u7247 buffer, events, fs, os, path, process \u4e0e nodejs, \u53ef\u901a\u8fc7 require \u4f7f\u7528\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u53ef\u9010\u4e2a\u5f00\u5173\u5404\u5e93 (\u9ed8\u8ba4\u5168\u90e8\u5f00\u542f) \u5e76\u67e5\u770b\u53d1\u884c\u5386\u53f2, \u5173\u95ed\u7684\u5e93\u5728\u4e4b\u540e\u7684 require \u4e2d\u4e0d\u53ef\u7528\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u8ddf\u968f AutoJs6 \u7684\u8bed\u8a00, \u591c\u95f4\u6a21\u5f0f\u4e0e\u4e3b\u9898\u8272, \u672a\u5b89\u88c5 AutoJs6 \u6216\u65e0\u6cd5\u8bfb\u53d6\u5176\u8bbe\u7f6e\u65f6\u8ddf\u968f\u7cfb\u7edf\n* `\u4f9d\u8d56` \u9644\u52a0 AutoJs6 Common Plugin API\n\n\u8981\u6c42: \u6784\u5efa\u53f7 5935 \u6216\u66f4\u9ad8\u7684 AutoJs6 (\u53d1\u5e03\u65f6 6.8.0 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03). \u63d2\u4ef6\u4e0d\u542b\u539f\u751f\u5e93, \u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc.\n\nBundled Libraries 1.0.0: the script libraries that used to be built into AutoJs6, axios, cheerio, dayjs, i18n (with banana-i18n), pangu, lodash and the Node compatibility shims buffer, events, fs, os, path, process and nodejs, now come with this plugin.\n\n* `Hint` Requires AutoJs6 6.8.0 (build 5935) or later\n* `Hint` Starting with AutoJs6 6.8.0, the libraries below no longer come with AutoJs6: with this plugin installed, require and the global objects work as before and existing scripts need no change; without the plugin, or with it disabled, require of these libraries gives an error that says how to install or enable it\n* `Feature` axios, cheerio, dayjs, i18n (with banana-i18n), pangu and lodash for require, with axios, cheerio, dayjs, i18n and pangu also available as global objects\n* `Feature` Node compatibility shims buffer, events, fs, os, path, process and nodejs for require\n* `Feature` Plugin page with a switch per library (all on by default) and the release history; a library switched off is unavailable to later require calls\n* `Feature` The plugin page follows the language, night mode and theme color of AutoJs6, and the system when AutoJs6 is not installed or its settings cannot be read\n* `Dependency` Attach AutoJs6 Common Plugin API\n\nRequirements: an AutoJs6 build 5935 or later (6.8.0 was not yet officially released at publication). The plugin has no native libraries, requests no runtime permission and has no network access.\n\nVersion: **v1.0.0 (7)**. Checksums: `SHA256SUMS`.",
+          "versionName": "1.0.1",
+          "versionCode": 16,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/releases/tag/v1.0.1",
+          "changelogText": "Bundled Libraries 1.0.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `838742e3b8d84442007b27b2e247fac5827a23c8`\n\nPublished release.\n\n- Improvement: The release history page now expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-bundled-libraries-v1.0.0-universal-b45b2448.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/releases/download/v1.0.0/autojs6-plugin-bundled-libraries-v1.0.0-universal-b45b2448.apk",
-              "size": 1125943,
-              "digest": "sha256:a28ab943b5f3ab8fc697e5e69866de5e6554e897bd3f34a31c1ee30b7852bd61",
-              "sha256": "a28ab943b5f3ab8fc697e5e69866de5e6554e897bd3f34a31c1ee30b7852bd61",
+              "name": "autojs6-plugin-bundled-libraries-v1.0.1-universal-b83df50a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Bundled-Libraries/releases/download/v1.0.1/autojs6-plugin-bundled-libraries-v1.0.1-universal-b83df50a.apk",
+              "size": 2607102,
+              "digest": "sha256:8ce9a82b9fab89020d965deaaf3899b9dbff44574f1817598d9a294c335369e1",
+              "sha256": "8ce9a82b9fab89020d965deaaf3899b9dbff44574f1817598d9a294c335369e1",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.0",
-              "versionCode": 7,
+              "versionName": "1.0.1",
+              "versionCode": 16,
               "packageName": "io.github.supermonster003.autojs6.plugin.bundled.libraries",
-              "sourceCommit": "d287681a8b8b18aebe05d50156b918b813de664b"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "838742e3b8d84442007b27b2e247fac5827a23c8"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
@@ -11599,19 +11611,19 @@
         "values-zh-rTW": "\u4f9b AutoJs6 \u8173\u672c\u4ee5 Java \u985e\u5225\u76f4\u63a5\u547c\u53eb\u7684 Apache Commons Lang3, Commons IO \u8207 Jackson"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.0/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/refs/tags/v1.0.1/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -11622,37 +11634,49 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.0.0",
-          "versionCode": 14,
-          "versionDate": "2026-11-05",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/tag/v1.0.0",
-          "changelogText": "Java Libraries 1.0.0: AutoJs6 6.8.0 \u4e0d\u518d\u5185\u7f6e\u7684 Java \u5e93 Apache Commons Lang3, Commons IO \u4e0e Jackson \u6539\u7531\u672c\u63d2\u4ef6\u63d0\u4f9b, \u811a\u672c\u53ef\u4ee5\u50cf\u4ee5\u524d\u4e00\u6837\u76f4\u63a5\u4f7f\u7528 `org.apache.commons.lang3.StringUtils`, `com.fasterxml.jackson.databind.ObjectMapper` \u7b49\u7c7b.\n\n* `\u63d0\u793a` \u9700\u8981 AutoJs6 6.8.1 (\u6784\u5efa 6641) \u6216\u66f4\u9ad8\u7248\u672c\n* `\u63d0\u793a` AutoJs6 6.8.0 \u8d77\u4e0d\u518d\u5185\u7f6e Apache Commons Lang3, Commons IO \u4e0e Jackson; \u5b89\u88c5\u5e76\u542f\u7528\u672c\u63d2\u4ef6\u540e, \u811a\u672c\u7167\u5e38\u4ee5\u5168\u540d\u4f7f\u7528\u8fd9\u4e9b\u5e93\u7684\u7c7b, \u5199\u6cd5\u4e0e AutoJs6 6.7.0 \u76f8\u540c, \u539f\u6709\u811a\u672c\u65e0\u9700\u4fee\u6539\n* `\u65b0\u589e` Apache Commons Lang3 3.18.0, Apache Commons IO 2.8.0 \u4e0e Jackson 2.13.4.2 (core \u4e0e annotations \u4e3a 2.13.4), \u7248\u672c\u4e0e AutoJs6 6.7.0 \u5185\u7f6e\u7684\u76f8\u540c\n* `\u65b0\u589e` \u63d2\u4ef6\u53ea\u662f\u4e00\u4e2a\u8d44\u6e90\u5305: AutoJs6 \u76f4\u63a5\u4ece\u63d2\u4ef6\u52a0\u8f7d\u8fd9\u4e9b\u7c7b, \u811a\u672c\u8fd0\u884c\u65f6\u4e0d\u542f\u52a8\u63d2\u4ef6\u8fdb\u7a0b, \u63d2\u4ef6\u4e0d\u7533\u8bf7\u4efb\u4f55\u6743\u9650\n* `\u65b0\u589e` \u7528 AutoJs6 \u6253\u5305\u5e94\u7528\u65f6\u53ef\u4ee5\u5e26\u5165\u8fd9\u4e9b\u7c7b (\u81ea\u52a8\u626b\u63cf\u811a\u672c, \u4e5f\u53ef\u4ee5\u5728\u5e93\u5217\u8868\u4e2d\u52fe\u9009), \u6253\u5305\u540e\u7684\u5e94\u7528\u5728\u6ca1\u6709\u672c\u63d2\u4ef6\u7684\u8bbe\u5907\u4e0a\u4e5f\u80fd\u4f7f\u7528\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u663e\u793a\u5404\u5e93\u7684\u7248\u672c, \u8bb8\u53ef\u8bc1, Java \u5305, \u4f7f\u7528\u793a\u4f8b, NOTICE \u6587\u4ef6\u4e0e\u53d1\u884c\u5386\u53f2\n* `\u65b0\u589e` \u63d2\u4ef6\u9875\u9762\u8ddf\u968f AutoJs6 \u7684\u8bed\u8a00, \u591c\u95f4\u6a21\u5f0f\u4e0e\u4e3b\u9898\u8272, \u672a\u5b89\u88c5 AutoJs6 \u6216\u65e0\u6cd5\u8bfb\u53d6\u5176\u8bbe\u7f6e\u65f6\u8ddf\u968f\u7cfb\u7edf\n* `\u4f9d\u8d56` \u9644\u52a0 AutoJs6 Common Plugin API\n* `\u4f9d\u8d56` \u9644\u52a0 desugar_jdk_libs_nio 2.1.5\n\n\u8981\u6c42: \u6784\u5efa\u53f7 6641 \u6216\u66f4\u9ad8\u7684 AutoJs6, \u5373 6.8.1 \u53ca\u4ee5\u540e\u7684\u7248\u672c (\u53d1\u5e03\u65f6 6.8.1 \u5c1a\u672a\u6b63\u5f0f\u53d1\u5e03; AutoJs6 6.8.0 \u7684\u6784\u5efa\u53f7\u662f 6640, \u63d2\u4ef6\u4e2d\u5fc3\u4f1a\u63d0\u793a\u9700\u8981\u66f4\u65b0 AutoJs6). \u63d2\u4ef6\u4e0d\u542b\u539f\u751f\u5e93, \u4e0d\u7533\u8bf7\u8fd0\u884c\u65f6\u6743\u9650, \u4e0d\u8bbf\u95ee\u7f51\u7edc.\n\nJava Libraries 1.0.0: the Java libraries AutoJs6 6.8.0 no longer includes, Apache Commons Lang3, Commons IO and Jackson, now come with this plugin, so scripts can use classes such as `org.apache.commons.lang3.StringUtils` and `com.fasterxml.jackson.databind.ObjectMapper` directly as before.\n\n* `Hint` Requires AutoJs6 6.8.1 (build 6641) or later\n* `Hint` Starting with AutoJs6 6.8.0, Apache Commons Lang3, Commons IO and Jackson are no longer built in; with this plugin installed and enabled, scripts use the classes of these libraries by their full names as with AutoJs6 6.7.0, and existing scripts need no change\n* `Feature` Apache Commons Lang3 3.18.0, Apache Commons IO 2.8.0 and Jackson 2.13.4.2 (core and annotations 2.13.4), the versions AutoJs6 6.7.0 included\n* `Feature` The plugin is only a resource package: AutoJs6 loads the classes straight from the plugin, running scripts never starts the plugin process, and the plugin asks for no permission\n* `Feature` Apps packaged with AutoJs6 can carry these classes (found by scanning the scripts, or ticked in the list of libraries) and then use them on devices without the plugin\n* `Feature` The plugin page shows the version, license and Java package of each library, an example, the NOTICE files and the release history\n* `Feature` The plugin page follows the language, night mode and theme color of AutoJs6, and the system when AutoJs6 is not installed or its settings cannot be read\n* `Dependency` Attach AutoJs6 Common Plugin API\n* `Dependency` Attach desugar_jdk_libs_nio 2.1.5\n\nRequirements: an AutoJs6 build 6641 or later, that is 6.8.1 and later versions (6.8.1 was not yet officially released at publication; AutoJs6 6.8.0 is build 6640, and its Plugin Center says that AutoJs6 needs an update). The plugin has no native libraries, requests no runtime permission and has no network access.\n\nVersion: **v1.0.0 (14)**. Checksums: `SHA256SUMS`.",
+          "versionName": "1.0.1",
+          "versionCode": 20,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/tag/v1.0.1",
+          "changelogText": "Java Libraries 1.0.1\n\nOfficial APKs signed with the AutoJs6 release certificate.\n\nSource: `6201a80fbb3b02d0351f69601a5bd3affc65e3bf`\n\nPublished release.\n\n- Improvement: The release history page now expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, the newest one opens expanded and the subtitle shows the plugin name\n- Improvement: Rewrote the instructions shown in Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.1 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/download/v1.0.0/autojs6-plugin-java-libraries-v1.0.0-universal-2b9f53e3.apk",
-              "size": 1210067,
-              "digest": "sha256:cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
-              "sha256": "cb4e5efebef05273865aa15b6dee0b6a71aba3220e76b1047520b479a8d299b0",
+              "name": "autojs6-plugin-java-libraries-v1.0.1-universal-d0206d6a.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Java-Libraries/releases/download/v1.0.1/autojs6-plugin-java-libraries-v1.0.1-universal-d0206d6a.apk",
+              "size": 2674310,
+              "digest": "sha256:e4cf03aa658ae4229af2b296342129a80cbe29ab9892959fdab32c4d6c780dc5",
+              "sha256": "e4cf03aa658ae4229af2b296342129a80cbe29ab9892959fdab32c4d6c780dc5",
               "signerSha256": [
                 "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
               ],
-              "versionName": "1.0.0",
-              "versionCode": 14,
+              "versionName": "1.0.1",
+              "versionCode": 20,
               "packageName": "io.github.supermonster003.autojs6.plugin.java.libraries",
-              "sourceCommit": "4798a897711cdc5834d1c9190c5d961cabab6920"
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "6201a80fbb3b02d0351f69601a5bd3affc65e3bf"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "transparent",
