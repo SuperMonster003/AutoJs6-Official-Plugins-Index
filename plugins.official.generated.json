@@ -10852,7 +10852,21 @@
               "name": "autojs6-plugin-three-stamp-mail-v2.1.1-8037eb54.apk",
               "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Stamp-Mail/releases/download/v2.1.1/autojs6-plugin-three-stamp-mail-v2.1.1-8037eb54.apk",
               "size": 3522703,
-              "digest": "sha256:4b9fe7fa573db032e9d0d32f914203eae984edba958d36f8698f1f7c2727fdb4"
+              "digest": "sha256:4b9fe7fa573db032e9d0d32f914203eae984edba958d36f8698f1f7c2727fdb4",
+              "sha256": "4b9fe7fa573db032e9d0d32f914203eae984edba958d36f8698f1f7c2727fdb4",
+              "signerSha256": [
+                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
+              ],
+              "versionName": "2.1.1",
+              "versionCode": 167,
+              "packageName": "io.github.supermonster003.autojs6.plugin.three.stamp.mail",
+              "supportedAbis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86_64",
+                "x86"
+              ],
+              "sourceCommit": "06c1d798e005dba96c332e6ea8d30015b97033d9"
             }
           ],
           "prerelease": false,
