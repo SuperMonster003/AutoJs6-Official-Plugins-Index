@@ -10371,19 +10371,19 @@
         "values-zh-rTW": "\u5b89\u88dd, \u66f4\u65b0\u548c\u89e3\u9664\u5b89\u88dd Android \u61c9\u7528\u7a0b\u5f0f, \u652f\u63f4\u900f\u904e Shizuku, Root \u6216 Dhizuku \u975c\u9ed8\u5b89\u88dd"
       },
       "localizedInstructionHardCoded": {},
-      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw/plugin_instruction.md",
+      "instructionMarkdownUrl": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw/plugin_instruction.md",
       "localizedInstructionMarkdownUrls": {
-        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-ar/plugin_instruction.md",
-        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-en/plugin_instruction.md",
-        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-es/plugin_instruction.md",
-        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-fr/plugin_instruction.md",
-        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-ja/plugin_instruction.md",
-        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-ko/plugin_instruction.md",
-        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-ru/plugin_instruction.md",
-        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
-        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
-        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw-zh/plugin_instruction.md",
-        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.2/app/src/main/res/raw/plugin_instruction.md"
+        "raw-ar": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-ar/plugin_instruction.md",
+        "raw-en": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-en/plugin_instruction.md",
+        "raw-es": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-es/plugin_instruction.md",
+        "raw-fr": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-fr/plugin_instruction.md",
+        "raw-ja": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-ja/plugin_instruction.md",
+        "raw-ko": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-ko/plugin_instruction.md",
+        "raw-ru": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-ru/plugin_instruction.md",
+        "raw-zh-rHK": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-zh-rHK/plugin_instruction.md",
+        "raw-zh-rTW": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-zh-rTW/plugin_instruction.md",
+        "raw-zh": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw-zh/plugin_instruction.md",
+        "raw": "https://raw.githubusercontent.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/refs/tags/v1.2.3/app/src/main/res/raw/plugin_instruction.md"
       },
       "author": "SuperMonster003",
       "collaborators": [],
@@ -10394,37 +10394,35 @@
       "featured": true,
       "releases": [
         {
-          "versionName": "1.2.2",
-          "versionCode": 149,
-          "versionDate": "2026-11-14",
-          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/releases/tag/v1.2.2",
-          "changelogText": "3-Setup Installer 1.2.2\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `88ceeaa40811b91f0cf40f13ac7c6a5ed350c0ad`\n\nVersion: `1.2.2` (versionCode `149`). Android 7.0 (API 24) or later.\n\n- Fix: Shizuku/Root installations no longer default to a local-file source that can restrict accessibility settings on Android 13+; explicit package source choices are preserved\n- Fix: Misleading text after successfully installing or updating an application without a launchable interface could be mistaken for an installation failure\n- Improvement: Redesigned installation dialog: application details appear in an aligned table (version, size, SDK and signature comparison) labeled as a new install, update, reinstall or downgrade; APK components, permissions and rarely used options are folded by default; text has more line spacing and separation\n- Improvement: With the Automatic authorization method, the installation dialog and the installation result show the method actually used (for example Shizuku or system confirmation)\n\nAPK checksums are in `SHA256SUMS`.",
+          "versionName": "1.2.3",
+          "versionCode": 152,
+          "versionDate": "2026-11-20",
+          "changelogUrl": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/releases/tag/v1.2.3",
+          "changelogText": "3-Setup Installer 1.2.3\n\nOfficial APK signed with the AutoJs6 release certificate.\n\nSource: `f3651ccbcac80563896fd34767e977280855769e`\n\nVersion: `1.2.3` (versionCode `152`). Android 7.0 (API 24) or later.\n\n- Fix: Installations that had actually succeeded were shown as cancelled when the app that requested them was replaced during the installation (for example AutoJs6 updating itself), or when a system installer such as the one on ColorOS completed the installation its own way; the result now follows the installed app's version and signature\n- Improvement: The release history page now expands and collapses by version: a collapsed version shows its date and the number of entries per category, an expanded one names each category once; all versions can be expanded or collapsed at once, and the newest one opens expanded; the page is titled \"Release history\" (formerly \"Version history\") with the plugin name as the subtitle, and its entries in the settings, on the About page and in the update dialog are renamed to match\n- Improvement: Rewrote the instructions shown in Plugin Center in five parts: getting started, main features, using it in scripts, requirements and FAQ\n- Dependency: Added Jetpack Compose BOM 2026.09.00 (release history page)\n- Dependency: Upgraded shared build plugins version 1.9.0 -> 1.9.7\n\nAPK checksums are in `SHA256SUMS`.",
           "assets": [
             {
-              "name": "autojs6-plugin-three-setup-installer-v1.2.2-36ebec19.apk",
-              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/releases/download/v1.2.2/autojs6-plugin-three-setup-installer-v1.2.2-36ebec19.apk",
-              "size": 2232335,
-              "digest": "sha256:647e20d167ad5e4e9830ce7933cb434344650aa6ca63f66cd45740792c5342a3",
-              "sha256": "647e20d167ad5e4e9830ce7933cb434344650aa6ca63f66cd45740792c5342a3",
-              "signerSha256": [
-                "31a681fcfffb3e428420cae280ded89292b12a3b0f59e19b7a73e32a8ae4c213"
-              ],
-              "versionName": "1.2.2",
-              "versionCode": 149,
-              "packageName": "io.github.supermonster003.autojs6.plugin.three.setup.installer",
-              "sourceCommit": "88ceeaa40811b91f0cf40f13ac7c6a5ed350c0ad"
+              "name": "autojs6-plugin-three-setup-installer-v1.2.3-4f9789ab.apk",
+              "browser_download_url": "https://github.com/SuperMonster003/AutoJs6-Plugin-Three-Setup-Installer/releases/download/v1.2.3/autojs6-plugin-three-setup-installer-v1.2.3-4f9789ab.apk",
+              "size": 3059180,
+              "digest": "sha256:21ba6a582579f105b06de53a8b61b4317e065b816741f9f88648de9b3848218c"
             }
           ],
           "prerelease": false,
-          "nativePageAlignment": 0,
+          "nativePageAlignment": 16384,
           "nativePageAlignmentSource": "measured"
         }
+      ],
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64",
+        "x86"
       ],
       "tags": [
         "official"
       ],
       "source": "OFFICIAL",
-      "nativePageAlignment": 0,
+      "nativePageAlignment": 16384,
       "nativePageAlignmentSource": "measured",
       "forceIgnoreLocalIcon": true,
       "iconBackgroundColor": "#fafafa",
